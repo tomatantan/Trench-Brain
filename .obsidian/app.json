@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki/summaries",
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": false,
+  "strictLineBreaks": false,
+  "showFrontmatter": true
+}
