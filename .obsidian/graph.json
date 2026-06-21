@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-file:CLAUDE.md -file:README.md -file:AGENTS.md -file:Home.md -path:wiki/_templates",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
