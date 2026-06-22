@@ -222,3 +222,8 @@ __marimo__/
 .obsidian/workspace-mobile.json
 .obsidian/cache
 .trash/
+
+# Trench-Brain auto-synthesis runtime state (local; large/churning)
+brain/state/tracked.json
+brain/state/synth_queue.json
+brain/state/base_rate.json

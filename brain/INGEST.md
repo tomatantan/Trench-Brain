@@ -27,6 +27,16 @@ LLM Wiki の ingest の判断パートを**定まった手順**にしたもの�
    （触れた concept / entity ページを渡すと、その中の `[[source]]` link の tweet_id だけが ingested 登録される）
    → その後 commit/push。
 
+## auto-synthesis（launchpad ライフサイクル＝即時tier）
+`brain/track.py` が**決定的(安い)層**を回す＝全mint観測(pump.fun launch feed)→篩(安全門+勢い門)→TRACKED登録→毎時watch(数値diffのみ・LLM不使用)→誕生/変化/死を `brain/state/synth_queue.json` に積む。
+エージェント(Claude)の仕事＝**synth_queue を読んで合成する**（worklistと同じ"判断"工程の即時版）:
+- **births**(門通過の新規): これは何か(name/twitter/links/tokenized_agent)、**既存13 conceptのどこに刺さるか**（[[launchpad-economics]] 直下、[[survivor-memes]]/[[ai-memes]]/[[jp-meme-cluster]] 等）、⚠️([[rug-anatomy]] の赤旗)。→ token entity の synthesis を起こす/更新。
+- **changes**(GRADUATED / mcap急変 / 話題化): 該当 entity を更新＝動線の進展を追記。
+- **deaths**: **最終合成**＝死因(cause)を記録し outcome=died/rugged を確定→ entity を閉じる。**これが生存者バイアスの分母**（死を記録して初めて死は資産になる）。
+- **深さ∝情報量**: 型通りの死＝1行で型を補強。番狂わせ(生存/新しい死に方)＝フル合成。千件の同じ死を深掘りしない。
+- 状態管理は track.py（mark_ingested 不要）。entity更新を commit/push。
+- **観測(全mint) ≠ 採用(wiki入り)**: wikiに入る(=合成される)のは門通過分だけ＝firehoseでない。観測は安くカウントするだけ(base_rate＝死の分母)。
+
 ## 原則（曲げない）
 - 合成の起点は worklist（=新ソース）であって、エージェントの主観ではない。
 - 矛盾は消さず両論併記。事実は entity、判断は entity の合成メモ＋concept。
