@@ -144,9 +144,14 @@ def fetch_twitterapi(handle: str, key: str):
     body = _get(url, headers={"X-API-Key": key})
     data = json.loads(body)
     if data.get("status") == "error":
-        raise ValueError(data.get("message", "twitterapi error"))
+        raise ValueError(data.get("msg") or data.get("message") or "twitterapi error")
+    payload = data.get("data") or {}
+    raw = []
+    if payload.get("pin_tweet"):
+        raw.append(payload["pin_tweet"])
+    raw.extend(payload.get("tweets") or [])
     out = []
-    for t in data.get("tweets", []):
+    for t in raw:
         nt = normalize_twitterapi(t)
         if nt["id"]:
             out.append(nt)
