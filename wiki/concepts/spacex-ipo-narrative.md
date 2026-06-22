@@ -17,16 +17,16 @@ $SPCX(14)・$ASTEROID(17) が同時上位に来たことから合成。
 ## 動線（causal chain）
 ```
 SpaceX IPO（外部/TradFiイベント）
-   ├─▶ [[spcx-tokenized-stock|$SPCX]]  … 株のオンチェーン・トークン化(24/7・レバ・ショート可)
-   └─▶ [[asteroid-token|$ASTEROID]]    … IPOステージに登場したマスコットの memecoin 化
+   ├─▶ [[$SPCX]]  … 株のオンチェーン・トークン化(24/7・レバ・ショート可)
+   └─▶ [[$ASTEROID]]    … IPOステージに登場したマスコットの memecoin 化
         → 両者が相互参照しながら投機フィーバー（先物・OI・派生ローンチ）
 ```
 **発端は完全に外部(crypto外の上場イベント)**。これは「trenchの境界を閉じない＝発端は外部にある」
-という本wikiの中核仮説([[trench-brain-vision 的な思想]])の実例。単一ソースでは "$SPCXが伸びてる"
+という本wikiの中核仮説の実例。単一ソースでは "$SPCXが伸びてる"
 "$ASTEROIDが面白い" としか見えないが、横断すると**同じ発端から二股に分岐した1本の動線**だと分かる。
 
 ## 2系統の対比
-| | [[spcx-tokenized-stock|$SPCX]] | [[asteroid-token|$ASTEROID]] |
+| | [[$SPCX]] | [[$ASTEROID]] |
 |---|---|---|
 | 正体 | SpaceX株のトークン化(RWA/tokenized equity) | SpaceXマスコット発の純memecoin |
 | 駆動 | 機関的フロー・先物OI・取引所(Binance/Hyperliquid/MEXC) | コミュニティ・物語(「IPOステージに実在した」) |
@@ -42,7 +42,10 @@ SpaceX IPO（外部/TradFiイベント）
 ## 反例・⚠️矛盾
 - [[@coinkeiba]]: 「月も火星も存在しない。SpaceXは陰謀論。ショート利確」= $SPCX を**ショート側**で見る逆張り。物語に乗らない層の存在。
 - [[@0xFunX]]: 「初日に必ず破発(初値割れ)と言われたが、開盘150→高値176→終値161」= 弱気予想が外れたと反論。**強気/弱気が同一ティッカーで衝突**している＝まだ決着していない。
-- ⚠️ $ASTEROID の「IPOステージに実在」は [[@solbrdl]] の主張ベース。一次ソース(SpaceX側)での裏取りは未確認。物語の真偽がそのまま価格リスク。
+- [[@DefiIgnas]]: 「$SPCX も結局 crypto流の低float/高FDVローンチに終わる」/ [[@theunipcs]]: 「$2.6T評価は高すぎ?」= 強気フィーバーの中の冷静な懐疑。
+- ⚠️ $ASTEROID の「IPOステージに実在/Elon示唆」は [[@solbrdl]] の主張ベース。一次裏取り未確認＝物語の真偽がそのまま価格リスク。
+- ⚠️ $SPCX 周辺に [[$SPCXON]] [[$SPCXX]] [[$SPCS]] 等の類似ティッカー乱立＝便乗/詐称の温床。
+- （各トークンの両論フル版は entity [[$SPCX]] / [[$ASTEROID]] の合成メモ参照）
 
 ## 時系列
 - 6/09 [[@CryptoHayes]]: $SPCX IPO初値+17%、「AIの夢を保つに十分か?」
@@ -51,7 +54,7 @@ SpaceX IPO（外部/TradFiイベント）
 - 6/19–6/21 Solana の tokenized $SPCX が出来高157x、MEXC先物800M＝フィーバー加速
 
 ## 示唆 / 賭けの仮説
-- **型**: 「crypto外のビッグイベント → ①RWA/tokenized で機関フロー ②マスコット/固有名で meme」の二股は再現性がある(W杯→[[clutch-token|$CLUTCH]]、elon→[[asteroid-token|$ASTEROID]] 等)。**次の大型IPO/世界イベントで同じ二股を先回り**できる。
+- **型**: 「crypto外のビッグイベント → ①RWA/tokenized で機関フロー ②マスコット/固有名で meme」の二股は再現性がある(W杯→[[$CLUTCH]]、elon→[[$ASTEROID]] 等)。**次の大型IPO/世界イベントで同じ二股を先回り**できる。
 - **$ASTEROID**: 物語駆動。100m mcap以下での蓄積は[[@solbrdl]]の賭け。物語の一次裏取りが取れれば確度↑、剥がれれば即死。ハイβ。
 - **$SPCX**: 物語より板(OI/出来高/取引所採用)で追うべき。ショート勢([[@coinkeiba]])もいるので一方向ではない。
 - 監視ポイント: 次のtokenized-stock候補・SpaceXの実ニュース・$ASTEROIDの一次裏取り。

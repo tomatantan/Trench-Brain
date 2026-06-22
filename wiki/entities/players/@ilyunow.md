@@ -1,0 +1,31 @@
+---
+type: entity
+kind: player
+title: @ilyunow
+updated: 2026-06-22
+tags: [trench, entity, player]
+posts: 7
+---
+
+# @ilyunow
+
+> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
+
+## よく言及するトークン
+—
+
+## 高エンゲージ投稿
+| likes | tickers | 抜粋 | source |
+|---|---|---|---|
+| 145 |  | bring back having fun instead of soulless extraction👍 | [[ilyunow__2068387796776255897]] |
+| 77 |  | don’t need to predict perfectly. you need a position size that lets you live with bo | [[ilyunow__2061817846976368950]] |
+| 73 |  | **dream_bigger** | [[ilyunow__2068309761003803120]] |
+| 33 |  | adin called the top, lacy will call the bottom. | [[ilyunow__2059778931801116985]] |
+| 32 |  | do you still remember? | [[ilyunow__2068668759435534738]] |
+| 27 |  | cats cats dog cats cats | [[ilyunow__2067278118843462008]] |
+| 22 |  | these local mini pancakes in japan are so fire | [[ilyunow__2065755684743037165]] |
+
+<!-- synthesis:start -->
+## 合成メモ（synthesis / エージェント記述）
+_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+<!-- synthesis:end -->

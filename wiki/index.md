@@ -10,15 +10,16 @@
 ## ダッシュボード（dashboards）
 - [[signal]] — Signal digest（ホットticker/活発アカ/高エンゲージ抜粋）
 
-## 概念ページ（concepts）
+## エンティティ（entities）★LLM Wikiの背骨＝事実の集約。brain/build_entities.py が自動生成・更新。判断は各ページの合成メモ＋concept。
+- tokens/ — $ticker毎（40件）。例: [[$SPCX]] [[$ASTEROID]]
+- players/ — @アカウント毎（120件）。例: [[@solbrdl]] [[@CryptoHayes]]
+
+## 概念ページ（concepts）★横断合成＝判断/動線/型。
 - [[external-event-to-token-pattern]] — ★型: 外部イベント→token（再現プレイブック）
-- [[spacex-ipo-narrative]] — ★動線: SpaceX IPO → $SPCX/$ASTEROID
-- [[asteroid-token]] — $ASTEROID（SpaceXマスコットmeme）
-- [[spcx-tokenized-stock]] — $SPCX（tokenized stock）
-- [[clutch-token]] — $CLUTCH（W杯2026 meme）
+- [[spacex-ipo-narrative]] — ★動線: SpaceX IPO → [[$SPCX]]/[[$ASTEROID]]
 
 ## 要約ページ（summaries）
-- （まだ無し）
+- ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。
 
 ## クエリ（queries）
 - （まだ無し）

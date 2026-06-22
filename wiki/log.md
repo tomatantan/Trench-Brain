@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-22 brain(faithful): LLM Wiki(Karpathyパターン)準拠に作り直し。背骨=entityページ自動生成(brain/build_entities.py: token40/player120, synthesis保持ブロック付)。合成はentityのsynthesisメモ＋concept(動線/型)に分離、矛盾は両論併記。冗長なtoken-concept3枚をentityに統合。工程をbrain/READMEに明文化(貯める→仕分ける→整理 背骨→整理 判断)。
+
 - 2026-06-22 brain: 仕分け層(brain/digest.py)＋合成デモ。5,086生ツイ→信号4,354に集計([[signal]])、そこからconcept5枚を合成(型: 外部イベント→token / 動線: SpaceX IPO→$SPCX・$ASTEROID / $ASTEROID / $SPCX / $CLUTCH)を相互リンク。LLM Wikiの脳が初稼働。
 
 - 2026-06-22 collect: Senshi(@SenshiNeo7)のフォローからCAVEサークル＋日本trench層を取り込み(watchlist v4, ③方針=crypto＋外部要因, 66アカ追加, +1270ノート)。

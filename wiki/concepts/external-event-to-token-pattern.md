@@ -22,9 +22,9 @@ trench に token を生む。しばしば **2系統に分岐**する:
 ## 実例(本wikiで観測)
 | 発端(外部) | RWA側 | meme側 | 動線ページ |
 |---|---|---|---|
-| SpaceX IPO | [[spcx-tokenized-stock|$SPCX]] | [[asteroid-token|$ASTEROID]] | [[spacex-ipo-narrative]] |
-| W杯2026 | —(物語のみ) | [[clutch-token|$CLUTCH]] | — |
-| (elon/Tesla比較) | — | [[asteroid-token|$ASTEROID]]($SPCXのTesla-run類推) | [[spacex-ipo-narrative]] |
+| SpaceX IPO | [[$SPCX]] | [[$ASTEROID]] | [[spacex-ipo-narrative]] |
+| W杯2026 | —(物語のみ) | [[$CLUTCH]] | — |
+| (elon/Tesla比較) | — | [[$ASTEROID]]($SPCXのTesla-run類推) | [[spacex-ipo-narrative]] |
 
 ## この型から言える示唆
 - **先回り可能性**: 大型IPO・世界大会・要人イベントは事前に分かる＝発端が読める。発生前に「RWA候補」「マスコット/固有名のmeme候補」を張れる。
@@ -36,5 +36,5 @@ trench に token を生む。しばしば **2系統に分岐**する:
 - 監視: [[watchlist]] のマクロ/外部要因層([[@elonmusk]] [[@WhiteHouse]] [[@CryptoHayes]] 等)が"発端"の早期検知点。
 
 ## 関連
-- [[spacex-ipo-narrative]] / [[asteroid-token]] / [[spcx-tokenized-stock]] / [[clutch-token]]
+- [[spacex-ipo-narrative]] / [[$ASTEROID]] / [[$SPCX]] / [[$CLUTCH]]
 - 集計の入口: [[signal|Signal digest]]
