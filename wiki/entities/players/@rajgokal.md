@@ -30,5 +30,9 @@ posts: 102
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Solana 共同創業。[[l1-substrate-wars]] の Solana側 booster／号令塔。「if you're in crypto, pivot to solana」「solana is the next solana」「next cycle is the solana cycle. I don't make the rules」。
+- **launchpad/速度の誇示**: 「where else can you raise $400m in 13 minutes?」＝Solanaのローンチ速度（[[launchpad-economics]]）。「$bonk is the next billion dollar community on Solana」（[[survivor-memes]] / [[$BONK]]）。
+- **逆境ナラティブ**: 「this crucible moment for Solana... 10x more of us to band together, fundamentals are better」＝危機を結束に変える語り。
+- **⚠️**: founder の position bias（自エコ宣伝）。[[@toly]] の無言とのコントラスト＝Solana強気は raj に集中。
+- **賭け仮説**: 彼の強気は方向性シグナルだが position 割引して読む（[[onchain-verification]] の規律を言説に）。
 <!-- synthesis:end -->

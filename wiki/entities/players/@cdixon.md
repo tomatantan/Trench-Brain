@@ -30,5 +30,8 @@ posts: 113
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: a16z crypto マネージングパートナー＝[[vc-founder-thesis-layer]] の主筆。長文スレッドで「土台thesis」を量産。
+- **thesis**: 「Web3 = internet owned by builders/users, orchestrated with tokens」「blockchains are the new app stores」「the myth of 'ETH killers'（需要が供給を上回る）」、stablecoin=「payments without intermediaries」、規制=追い風（GENIUS/FIT21/CLARITY）、AI×crypto（Story Protocol）。
+- **⚠️**: 広範だが a16z 持ち高の宣伝が混ざる（position割引）。[[@balajis]] の脱国家exodus論と「US must remain best place to build」で対立（[[vc-founder-thesis-layer]] の断層）。
+- **賭け仮説**: 彼のthesisは下流ナラティブの**発生源**＝何が次に来るかの先行指標。ただし a16z ポジション分を割り引いて読む。
 <!-- synthesis:end -->

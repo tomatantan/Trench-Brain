@@ -30,5 +30,9 @@ posts: 118
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: trench の**分析者(analyst)**。ETH寄りだが多面的＝[[l1-substrate-wars]] で両側を評価する稀な中立軸。
+- **両面（軸で結論が変わる）**: 「Solana is a better everything chain（cross-chain流動性）」⇄「Ethereum dominates RWA tokenization / Solana infra not holding up」。**評価軸を明示しないと矛盾に見える**＝彼を読む鍵。
+- **懐疑の声**: 「MELANIA to $0 $TRUMP to $0、grifters」（[[external-event-to-token-pattern]] の政治grift）、「Forbes 20 crypto billion-dollar zombie L1s」、USDC depeg の冷静分析、ZachXBT 言及。煽りでなく検算寄り。
+- **productive rotation**: [[$HYPE]]/lit を「nonproductive→productive cryptoへのローテ」で推す（[[majors-rotation-supercycle]]）。
+- **賭け仮説**: position 薄めの分析者＝言説の検算に有用。両論を持つので「どの軸の話か」を見極めて使う。
 <!-- synthesis:end -->

@@ -30,5 +30,9 @@ posts: 10
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: BTC最大の機関的旗手（Strategy/[[$MSTR]]）。trench/memeではなく**マクロ/TradFiクロスオーバーのBTC柱**＝[[vc-founder-thesis-layer]] の最も体系的なthesis。
+- **thesis**: 「Bitcoin has already won as Digital Capital。Next wave: Digital Credit, Money, Yield」「$100T opportunity」。[[$STRC]]（月2回配当）等で**BTCの上に金融層を積む**。
+- **影響力**: 2万いいね級。「Bitcoin keeps working. So do we」「Bitcoiners agree on the 99% that matters」＝maximalismの結束を駆動。
+- **⚠️**: BTC一極の偏り。[[@KyleSamani]]「SOL/ETH outperform BTC」と断層（[[vc-founder-thesis-layer]] の maximalism vs optionality）。
+- **賭け仮説**: BTC treasury/層積みは**遅いが確度の高い大潮流**。trench短期とは別レイヤーだが、規制・機関フローの海流として下流に効く。
 <!-- synthesis:end -->

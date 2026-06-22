@@ -30,5 +30,7 @@ posts: 12
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Solana 共同創業（Anatoly）。ただし [[l1-substrate-wars]] にはほぼ**無言**＝哲学/経済学ツイ中心の思想家ポジション（Solana側の語り部は [[@rajgokal]] に偏る＝⚠️）。
+- **権威の置き方**: 「I first mentioned Solana on 19 April 2018 — Genesis tier, rank #3」＝起源の権威。「If there is only one bitcoiner left, then I am the last bitcoiner」＝BTCにも敬意（maximalism叩きをしない）。「Only activity that generates a surplus can be a public good」等の経済哲学。
+- **賭け仮説**: 直接の価格/トークンシグナルは薄い。Solanaの**思想的方向性の源**として読む。raj の boosterism と対で「founderの本音」を測る材料。
 <!-- synthesis:end -->
