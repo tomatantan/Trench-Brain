@@ -4,6 +4,11 @@ Trench-Brain の収集エンジン。[[wiki/watchlist]] の監視アカウント
 X 公式 **syndication endpoint(認証不要・無料)** でポーリングし、新規ツイートを
 `sources/x/<author>__<tweetID>.md` に1枚1ノートで保存する。
 
+> ⚠️ **門は watchlist（CLAUDE.md 憲法 指針2）**。watchlistに載るアカウント"だけ"を取る＝これがキュレーション。
+> CoinGecko trending / DexScreener boosted 等の無差別フィードを足すのは**firehose＝恒久禁止**。鮮度はこの門付き収集で足りる。
+> ⚠️ **収集は合成とペースを合わせる（指針3）**。合成（brain/INGEST.md のエージェント工程）が追いつかず
+> `wiki/_worklist.md` の未合成backlogが膨らみ続けるなら、**収集頻度を下げて合成を回す**。集めるだけでは LLM Wiki にならない。
+
 ## 特徴
 - 外部API・キー不要。Python 標準ライブラリのみ(GitHub Actions でも `pip install` 不要)。
 - 重複判定は**ファイル存在**で行う(状態ファイル不要)。

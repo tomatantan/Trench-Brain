@@ -8,8 +8,9 @@ tags: [trench, watchlist, ingest]
 
 # 監視アカウント watchlist v3
 
-[[index]] / 収集(貯める仕組み)の入口。ここに載るアカウントの新規投稿を取り込む。
-**採用基準**: ミームの流れを読む力だけでなく、trench思想を垂れ流す/有益情報を落とすアカウントも価値(=脳の土台)。creator/VC/researcher/podcastも対象([[trench-brain-vision]])。
+[[index]] / 収集(貯める仕組み)の入口。**これが収集の"門"**＝ここに載るアカウントの新規投稿"だけ"を取り込む（CLAUDE.md 憲法 指針2）。
+**採用基準**: signalが濃いアカウント＝ミームの流れを読む／trench思想を継続発信する／有益情報を落とす。creator/VC/researcher/podcastも対象([[trench-brain-vision]])。
+⚠️ ここでいう「signalを出す」は**無差別firehoseの肯定ではない**。watchlistという門で絞ること自体がキュレーション＝忠実さの担保。門なしフィード(CoinGecko trending/DexScreener boosted等)は憲法で恒久禁止。
 weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい / 後の仕分けフィルタ用)。✅=fxtwitter実在確認済 / ⚠️=未確認(要再取得)。
 
 ## 創業者・ローンチパッド・VC（土台/動線の発端源）
