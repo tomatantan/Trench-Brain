@@ -42,4 +42,5 @@ accounts: 9
 - **★横断の核(単一ソースでは見えない繋がり)**: Hayesの「全部売った」という**発言**を、[[@lookonchain]]が「Arthur Hayesが96,628 $HYPE($5.1M)を全売却(1ヶ月前購入分)」と**オンチェーンで裏取り**。発言×オンチェーンが一致＝大口の実際の退出が確認できる稀な例。一方で arkham は別のwhaleの**新規買い**を観測＝大口の中でも売り/買いが割れている。
 - **競合**: [[@DefiIgnas]]「Pump.funの唯一の実競合はAxiom。CTは静かだが」=[[$AXIOM]]を要監視。
 - **賭け仮説**: バイバック需給は強いが、創設者級([[@CryptoHayes]])の退出が確認済＝勢いに陰り。whaleフローが買い越しに転じるかが分岐。confidence=中。
+- **メジャー・ローテとの接続**: [[@DefiIgnas]] の「nonproductive→productive cryptoへのローテ」で $HYPE は受け皿候補＝[[majors-rotation-supercycle]] の "productive-rotation 軸"。メジャー(ETH)直張りより β が高い代替先として位置づく。
 <!-- synthesis:end -->

@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-22 ingest(synthesis cycle 1): firehose是正。収集を一旦停止(GitHub `ingest` workflow disable＋ローカルlaunchd unload)し、backlog(未合成4,523)を合成する側へ全振り。新concept2枚: [[majors-rotation-supercycle]](BTC→ETH→altのローテ＋⚠️ supercycle主唱者[[@zhusu]]の崩壊を本人ツイで裏取り＝逆指標)、[[jp-meme-cluster]]([[$KINTON]]×[[$YAJUCOIN]]の相互保有メカニクス=束ねる型)。[[external-event-to-token-pattern]] を $TRUMP/$MELANIA/$VINE/$HARRYBOLZ で補強し「政治/要人meme=grift減衰」サブ型を追加。entity合成メモ記入: [[$ETH]] [[$SOL]] [[$KINTON]] [[$YAJUCOIN]] [[$TRUMP]] [[$HYPE]](追記) / [[@zhusu]] [[@CryptoHayes]]。手法=3並列エージェントで sources/x 横断収集→人手で合成判断(観測と推論を分離)。
+
 - 2026-06-22 brain(mechanism): 整理(判断)を増分自動化する仕組みを実装。ingest_worklist.py(新ソース差分→bounded TODO=wiki/_worklist.md)、mark_ingested.py(消し込み状態)、pipeline.py(collect→digest→entities→worklist の glue)、INGEST.md(エージェント工程の手順)。LLM Wiki概念説明 docs/LLM-WIKI.md。実証として $HYPE を横断合成(Hayes売却発言×lookonchainオンチェーン裏取り)。
 
 - 2026-06-22 brain(faithful): LLM Wiki(Karpathyパターン)準拠に作り直し。背骨=entityページ自動生成(brain/build_entities.py: token40/player120, synthesis保持ブロック付)。合成はentityのsynthesisメモ＋concept(動線/型)に分離、矛盾は両論併記。冗長なtoken-concept3枚をentityに統合。工程をbrain/READMEに明文化(貯める→仕分ける→整理 背骨→整理 判断)。

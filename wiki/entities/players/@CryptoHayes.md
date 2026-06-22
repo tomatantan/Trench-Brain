@@ -30,5 +30,8 @@ posts: 112
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: メジャー・ローテの**ETH-first最右翼**。「$ETH to $5k before $SOL to $300」を反復、「$ETH=$10,000」「I dumped $SOL, and bot more $ETH」＝SOLを切ってETHに寄せる断定（[[majors-rotation-supercycle]] の旗手）。
+- **マクロ起点**: 「QT is over. Back up the truck and buy everything」等、Fedの QT→QE 転換を相場の号砲に置く。マクロ→メジャー→altの順送りを最上流から語る。
+- **⚠️ 個別では機敏に切る**: メジャー強気でも [[$HYPE]] は「全ポジ手仕舞い」＝[[@lookonchain]] がオンチェーンで裏取り済（発言×on-chain一致）。"buy everything"の語り口と実ポジは別物。
+- **賭け仮説**: Hayesの断定はコンセンサス形成力が大きい＝**出尽くしの起点**にもなる。[[$SOL]]↔[[$ETH]] のポジション言及がローテ時計の針として有用。
 <!-- synthesis:end -->

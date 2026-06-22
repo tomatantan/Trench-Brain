@@ -18,8 +18,10 @@
 - players/ — @アカウント毎（120件）。例: [[@solbrdl]] [[@CryptoHayes]]
 
 ## 概念ページ（concepts）★横断合成＝判断/動線/型。
-- [[external-event-to-token-pattern]] — ★型: 外部イベント→token（再現プレイブック）
+- [[external-event-to-token-pattern]] — ★型: 外部イベント→token（再現プレイブック・政治サブ型あり）
 - [[spacex-ipo-narrative]] — ★動線: SpaceX IPO → [[$SPCX]]/[[$ASTEROID]]
+- [[majors-rotation-supercycle]] — ★動線: メジャー・ローテ（BTC→ETH→alt）/スーパーサイクル説（⚠️zhusu逆指標）
+- [[jp-meme-cluster]] — ★型: 日本コミュ meme クラスタ（[[$KINTON]]×[[$YAJUCOIN]] 相互保有で束ねる）
 
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。

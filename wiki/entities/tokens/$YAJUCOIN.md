@@ -35,5 +35,8 @@ accounts: 4
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: 「野獣先輩」(114514・約20年もの日本ネットミーム)発の**CTOプロジェクト**。[[@tsuyuto6154]]「YAJUsenpai is one of Japan's most special memes. Nearly 20 years after his birth」＝枯れた国民的ミームの資産化（[[jp-meme-cluster]] の核）。
+- **★クラスタ接着**: [[$KINTON]]との相互保有(2M unlock)で連動。$Kiyomasa/$TACTICS/$SAMPAIO と共起＝YAJU系の派生群。
+- **能動バイラル**: [[@tsuyuto6154]]「バイラルを待つんじゃなくて自分たちがviralになる黒崎一護スタイル」＝コミュ自身が拡散エンジン。[[@daisuk_e4]]「YAJU is Japan's top」/[[@810yenshamp]]「topに到達する運命」＝内部の確信過剰。
+- **⚠️**: 懐疑/警告ゼロ＝エコチェンバー。半面 [[@810yenshamp]] 自身「memeに良い地合いではない」と自認。4アカ偏在で薄商い。confidence=中。
 <!-- synthesis:end -->
