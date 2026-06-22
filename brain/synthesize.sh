@@ -24,7 +24,11 @@ if ! command -v claude >/dev/null 2>&1; then
   echo "synth: claude CLI not found → 合成スキップ(queue保持)" >> "$LOG"
   exit 0
 fi
-claude --print --model "$MODEL" --dangerously-skip-permissions \
+# --strict-mcp-config: MCPを一切起動しない。これが無いと headless claude が
+# グローバル有効の telegram プラグインの poller を起動し、getUpdates は1トークン
+# 1ポーラー仕様なので本人のチャンネル poller を SIGTERM で乗っ取って切断する
+# (2026-06-23 フラッピング原因特定)。合成はファイル読み書きのみで telegram不要。
+claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$(cat brain/synth_prompt.md)" >> "$LOG" 2>&1 \
   && echo "synth: done" >> "$LOG" \
   || echo "synth: claude error(queue保持・次サイクル再試行)" >> "$LOG"
