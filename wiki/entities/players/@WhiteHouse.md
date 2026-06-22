@@ -27,5 +27,7 @@ posts: 7
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 外部/政策の"発端"の早期検知点（watchlist のマクロ/外部要因層）＝[[regulation-catalyst]] / [[external-event-to-token-pattern]] の一次antenna。
+- **⚠️ crypto直接シグナルは薄い**: 投稿はマクロ/外交/政権PR中心（Father's Day・Air Force One・Strait of Hormuz 等）でトークン直結の発信は少ない。**crypto含意は KOL の解釈を経由**して下流に伝わる（strategic reserve 等は [[@laurashin]]/[[@KyleSamani]] 等が翻訳）。
+- **賭け仮説**: ここ単体を売買シグナルにしない。**"外部イベントの発生"のアンテナ**として使い、crypto含意は [[regulation-catalyst]] の KOL 解釈とセットで読む。
 <!-- synthesis:end -->

@@ -30,5 +30,8 @@ posts: 15
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Coinbase CEO＝**規制された on-ramp の顔**（[[regulation-catalyst]]）。
+- **発信**: 「registered the AI agent itself with the SEC as an investment advisor」（[[ai-memes]] と規制の交差）、「pre-IPO perps on Coinbase」（[[external-event-to-token-pattern]] のtokenized equity隣接）、「excessive regulation has harmed progress（地上より宇宙が効率的）」「economic freedom」。
+- **⚠️ 立場の両面**: 規制を"制約"と批判する側だが、Coinbase は**規制順守で成長した受益者**＝規制裁定の恩恵も受ける。position割引して読む。
+- **賭け仮説**: 規制レジームの体温計＋pre-IPO perp 等 RWA動線の発信源。彼の発言は政策の"実務側"の温度。
 <!-- synthesis:end -->

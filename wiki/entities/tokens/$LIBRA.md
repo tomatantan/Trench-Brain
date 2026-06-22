@@ -30,5 +30,8 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: Milei系の政治rug＝[[rug-anatomy]] の**標準ケース（手口全部入り）**。
+- **手口**: ①インサイダー事前知識（[[@lookonchain]]「someone knew in advance、損失を5M USDCで補填」＝身内）②LP非対称（$USDC非ペアでdevが add/remove 抽出）③team $107M cashout（8 wallets が add/remove liquidity＋fee claim）④POPE wash で $2.73M を意図的損失funnel。
+- **判定**: [[@a1lon9]]「disgusted... gains at expense of users」＝launchpad運営者が rug 認定。$YZY（[[@kanyewest]]）/$MELANIA が同型playbook。
+- **賭け仮説**: 教訓ケース。**launch前の仕込み・補填walletが見えたら近づかない**。red flag の生標本として [[rug-anatomy]] のチェックリストに対応。
 <!-- synthesis:end -->

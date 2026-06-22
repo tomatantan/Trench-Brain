@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(synthesis cycle 6): 新concept2枚。[[regulation-catalyst]]（動線: 政策レジーム→trench地合い。GENIUS/FIT21/CLARITY追い風[[@cdixon]] vs SEC/Gensler逆風・debanking[[@RyanSAdams]]。★⚠️発表≠実行＝strategic reserveはRipple系ロビー仕込み[[@laurashin]]、規制=制約論[[@brian_armstrong]]/[[@balajis]]）と [[rug-anatomy]]（型: rugの繰り返し抽出メカニクス＋★赤旗チェックリスト=screeningの入力＝実用edge寄り。標準ケース[[$LIBRA]]全部入り、sniper/insider/LP非対称/bundled/team-dump/whale操作[[@badattrading_]]/[[@lookonchain]]）。entity: [[$LIBRA]] / [[@brian_armstrong]] [[@WhiteHouse]] [[@balajis]]。これでconcept 13枚。
+
 - 2026-06-23 ingest(synthesis cycle 5): 新concept2枚。[[ai-memes]]（型: トークン＝自律エージェントの配布層。$ai16z/$GOAT/[[$FARTCOIN]]、agentic economy物語[[@a1lon9]]/[[@rajgokal]]。⚠️[[@blknoiz06]]「$10B AI memeは来るが勝者不明」・[[@lmrankhan]]自壊論・自律の主張と実体の差・corpus強気一色）と [[perp-dex-wars]]（動線: [[$HYPE]]/Hyperliquid一強 vs Axiom/[[$ASTER]]/Lighter/Phoenix。★⚠️[[@DefiIgnas]]「buyback flywheelの燃料は清算されたretailの手数料」＝productive cryptoの影、Wynn/Tate清算[[onchain-verification]]、CEX(JELLY)攻撃で独立性が的）。entity: [[$FARTCOIN]] [[$ASTER]] [[$HYPE]](追記) / [[@shawmakesmagic]]。これでconcept 11枚＝土台→基盤→マクロ→供給→meme/AI/perpの層構造が一旦埋まった。
 
 - 2026-06-23 ingest(synthesis cycle 4): 新concept2枚。[[l1-substrate-wars]]（動線: Solana vs Ethereum＝memeが乗る地面。Solana陣営[[@rajgokal]]「pivot to solana」/cross-chain流動性 ⇄ Ethereum陣営[[@RyanSAdams]]profit/money layer/RWA。★[[@DefiIgnas]]が軸により両側＝「何の用途で勝つか」が肝。SOL/ETH相対は基盤シェアの代理）と [[vc-founder-thesis-layer]]（型: VC/創業者thesisが下流ナラティブの土台。stablecoin/BTC多層資本[[@saylor]]/規制追い風/AI×crypto[[@cdixon]]/app層。⚠️断層=BTC一極 vs app層optionality、規制楽観 vs [[@balajis]]脱国家）。entity: [[@toly]] [[@rajgokal]] [[@DefiIgnas]] [[@cdixon]] [[@saylor]]。手法=2並列エージェント横断→合成、mark_ingestedで合成分のみ消し込み。

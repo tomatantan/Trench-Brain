@@ -29,6 +29,8 @@
 - [[vc-founder-thesis-layer]] — ★型: VC/創業者の思想層（[[@cdixon]]/[[@saylor]]＝ナラティブ最上流の土台）
 - [[ai-memes]] — ★型: AI-meme（トークン＝自律エージェントの配布層・[[$FARTCOIN]]・⚠️自律の主張と実体の差）
 - [[perp-dex-wars]] — ★動線: perp DEX戦争（[[$HYPE]]一強 vs 群雄・⚠️buyback燃料は清算retail）
+- [[regulation-catalyst]] — ★動線: 規制/政策→trench（GENIUS/FIT21・SEC・Trump政策・⚠️発表≠実行）
+- [[rug-anatomy]] — ★型: rugの解剖（[[$LIBRA]]・赤旗チェックリスト＝screeningの入力・実用edge寄り）
 
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。
