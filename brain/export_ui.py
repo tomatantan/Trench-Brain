@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TOK = ROOT / "wiki" / "entities" / "tokens"
 CONCEPTS = ROOT / "wiki" / "concepts"
+STATE = ROOT / "brain" / "state"
 OUT = ROOT / "wiki" / "ui-data.json"
 
 MACRO = {"$BTC", "$ETH", "$SOL", "$USDC", "$USDT", "$HYPE", "$BNB", "$XRP", "$DOGE"}
@@ -34,6 +35,49 @@ def fm_and_body(p):
             k, v = line.split(":", 1)
             m[k.strip()] = v.strip()
     return m, body
+
+
+def track_data():
+    """brain/track.py の状態(launch lifecycle)を UI 用に整形。
+    live[] = TRACKED/dead トークンのライフサイクル, base_rate = 生存者バイアスの分母。
+    (state は gitignore=local だが、ここで ui-data.json に焼くので UIチームに渡る)"""
+    def _load(p):
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+    tracked = _load(STATE / "tracked.json")
+    base = _load(STATE / "base_rate.json")
+    SC = {"tracked": "#48eca0", "dead": "#5a6472", "retired": "#5a6472"}
+    live = []
+    for mint, v in tracked.items():
+        last = v.get("last", {})
+        outcome = v.get("outcome")
+        status = v.get("status", "tracked")
+        live.append({
+            "ticker": v.get("ticker"), "name": v.get("name"), "mint": mint,
+            "mcap": round(last.get("mcap_usd", 0)),
+            "peak_mcap": round(v.get("peak_mcap", 0)),
+            "status": status, "outcome": outcome,
+            "color": "#ffb749" if outcome == "graduated" else SC.get(status, "#48eca0"),
+            "gate": v.get("gate"), "kol": v.get("kol_ca", []),
+            "ai_agent": v.get("tokenized_agent", False),
+            "reply_count": last.get("reply_count", 0),
+            "first_seen": v.get("first_seen"), "died_at": v.get("died_at"),
+            "link": f"https://pump.fun/coin/{mint}",
+            "spark": [round(h.get("mcap_usd", 0)) for h in v.get("history", [])][-24:],
+        })
+    # 生存中→mcap降順、その後 dead。UIは上から「今アツい/最近死んだ」を出せる。
+    live.sort(key=lambda x: (x["status"] != "tracked", -x["mcap"]))
+    pr = (base.get("gate_passed", 0) / base.get("mints_seen", 1)) if base.get("mints_seen") else 0
+    return live[:60], {
+        "mints_seen": base.get("mints_seen", 0),
+        "gate_passed": base.get("gate_passed", 0),
+        "died": base.get("died", 0),
+        "graduated": base.get("graduated", 0),
+        "pass_rate_pct": round(pr * 100, 2),
+        "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。",
+    }
 
 
 def main():
@@ -93,13 +137,21 @@ def main():
 
     signals.sort(key=lambda s: -s["size"])
     signals = signals[:40]
+
+    live, base_rate = track_data()   # launch pipeline のライブ層
+
     OUT.write_text(json.dumps({
-        "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE)",
-        "schema": "signals[]: {type,title,size,color,glow,trace:{why,top[],causal[],confidence}}",
+        "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
+        "schema": ("signals[]: concept由来の泡 {type,title,size,color,glow,trace} / "
+                   "live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,"
+                   "gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)"),
         "count": len(signals),
         "signals": signals,
+        "live": live,
+        "base_rate": base_rate,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"ui-data.json: {len(signals)} signals -> {OUT.relative_to(ROOT)}")
+    print(f"ui-data.json: {len(signals)} signals + {len(live)} live "
+          f"(base_rate pass {base_rate['pass_rate_pct']}%) -> {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
