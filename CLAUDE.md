@@ -25,6 +25,10 @@
      「無差別に全部 vs ルール/閾値で絞る」。門はコードで自動化してよい——watchlist自動巡回・traction閾値（いいね/インプレ>X）・
      KOL言及門（watchlistのN人以上が言及した記事/トークンだけ）・エンゲージ速度・発信者weight。watchlist拡張すら半自動化可
      （followingグラフ／繰り返し引用されるアカを候補化→人は承認だけ）。人間に残るのは閾値調整とたまの見直し＝一生手動ではない。
+   - **観測 ≠ 採用（"全取得"はfirehoseではない）**: 「全mint観測」(pump.fun launch feed等で全ローンチを安くカウント)は
+     **篩の材料＝観測**であって、wikiに入る＝**採用ではない**。wikiに入る(合成される)のは篩通過分だけ。
+     firehoseの定義は「篩なしで wiki に入れる」こと。観測を安く回すと**死の分母(生存者バイアス対策)**が取れる。
+     実装＝`brain/track.py`（全mint観測→篩→TRACKED→watch→合成キュー、LLM不使用の決定的層）。合成手順は `brain/INGEST.md`。
 
 3. **収集と合成は両輪。raw を入れたら必ず合成（entity synthesis＋concept）まで回す。raw放置は LLM Wiki ではない。**
    - 出典: 「合成は取り込み時に行う」LLM-WIKI.md §1・§5 ＋ 本人確認(2026-06-22)。
