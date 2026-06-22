@@ -4,17 +4,17 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 15
-accounts: 11
+mentions: 16
+accounts: 12
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 15件 / 11アカ。
+> 自動生成(brain/build_entities.py)。言及 16件 / 12アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@coinkeiba]] [[@cryptocom]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
+[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@coinkeiba]] [[@cryptocom]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
 
 ## 共起トークン
 [[$SPCXON]] [[$SPCXX]] [[$USDT]] [[$SPCS]] [[$ASTEROID]] [[$DOGE]] [[$USELESS]] [[$TSLA]]

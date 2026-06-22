@@ -4,15 +4,15 @@ kind: player
 title: @PumpfunEco
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 21
 ---
 
 # @PumpfunEco
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$JOTCHUA]](7) [[$SOLANGELES]](3) [[$KINS]](2) [[$PUMP]](2) [[$TCG]](2) [[$FARM]](1) [[$UNC]](1) [[$FARTCOIN]](1) [[$ZEREBRO]](1) [[$ZERO]](1)
+[[$JOTCHUA]](7) [[$SOLANGELES]](3) [[$KINS]](2) [[$PUMP]](2) [[$TCG]](2) [[$FARM]](1) [[$THREE]](1) [[$UNC]](1) [[$FARTCOIN]](1) [[$ZEREBRO]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

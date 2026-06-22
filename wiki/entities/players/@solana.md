@@ -4,12 +4,12 @@ kind: player
 title: @solana
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 8
+posts: 9
 ---
 
 # @solana
 
-> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 9件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -23,6 +23,7 @@ posts: 8
 | 914 |  | $1 billion in weekly tokenized equities volume on Solana  higher imo | [[solana__2068349198487912877]] |
 | 678 |  | Mert on physics, incentives, and what comes next:  "Just building a network is extre | [[solana__2068206603627888807]] |
 | 376 |  | Collect the elusive Gengar or holo Charizard on platforms like @Collector_Crypt, @ph | [[solana__2068762645851729940]] |
+| 189 |  | One network. Every asset. Every app. | [[solana__2068962213340258395]] |
 | 113 |  | umbrellas out ☂️ | [[solana__2068882806256930879]] |
 | 110 |  | World Series of Poker continues with the final table for $50K PLO High Roller | [[solana__2068869088567275944]] |
 

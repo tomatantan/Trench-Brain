@@ -4,12 +4,12 @@ kind: player
 title: @coin_post
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 26
 ---
 
 # @coin_post
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

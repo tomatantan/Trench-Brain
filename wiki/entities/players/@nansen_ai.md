@@ -4,15 +4,15 @@ kind: player
 title: @nansen_ai
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 13
+posts: 14
 ---
 
 # @nansen_ai
 
-> 自動生成。信号投稿 13件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$SPCX]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -23,10 +23,10 @@ posts: 13
 | 57 |  | Trading earns you tickets. But it's not the only way to stack them.  Two ways to mul | [[nansen_ai__2067864013485265216]] |
 | 52 |  | 🚨 $100,000 in prizes drawn this week. 100 winning tickets, $1,000 USDC each.  Week 1 | [[nansen_ai__2068122210137718788]] |
 | 21 |  | Already stacking those tickets 🎟️   We see you @minato3570  👀 | [[nansen_ai__2067133307473756178]] |
+| 11 | [[$SPCX]] | Trading $SPCX?  Perps on Nansen are powered by @HyperliquidX and @tradexyz.  🎟️ Ever | [[nansen_ai__2068950016430072308]] |
 | 10 |  | 3/ Token-level conviction  Before you ape into a token, check who’s already has a po | [[nansen_ai__2067502012972093730]] |
 | 9 |  | 2/ Smart Money on Solana  Start with wallets that have consistently won on Solana.   | [[nansen_ai__2067501945984835635]] |
 | 6 |  | 3/ Your Points tier.  Every raffle ticket you earn gets multiplied by your tier at e | [[nansen_ai__2067864051049525488]] |
-| 5 |  | 4/ From signal to trade  Found the signal?  Trade directly on Nansen via @JupiterExc | [[nansen_ai__2067502084262600979]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

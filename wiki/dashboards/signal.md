@@ -7,7 +7,7 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 5301 件 → ノイズ(RT/短文/中身なし)除外後 **4482 件**が信号。
+生ツイ 5364 件 → ノイズ(RT/短文/中身なし)除外後 **4523 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
@@ -22,9 +22,9 @@ tags: [trench, dashboard]
 | $CLUTCH | 18 | 1 | Clutch_FIFA2026 |
 | $PEPE | 18 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $ASTEROID | 17 | 2 | Crypto_Alch, solbrdl |
+| $SPCX | 16 | 12 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, coinkeiba |
 | $BONK | 16 | 3 | lookonchain, rajgokal, theunipcs |
 | $HYPE | 15 | 9 | CryptoHayes, DefiIgnas, MurphyBTC, RookieXBT, arkham, coingecko |
-| $SPCX | 15 | 11 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, coinkeiba |
 | $KINTON | 13 | 2 | JPY_TO_Crypto, xvwmuca |
 | $YAJUCOIN | 12 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
 | $WOJAK | 11 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
@@ -49,7 +49,8 @@ tags: [trench, dashboard]
 
 | account | 投稿数 | 累計likes |
 |---|---|---|
-| [[@blknoiz06]] | 129 | 848,304 |
+| [[@blknoiz06]] | 130 | 848,375 |
+| [[@santiagoroel]] | 121 | 116,840 |
 | [[@frankdegods]] | 121 | 354,800 |
 | [[@theunipcs]] | 121 | 220,912 |
 | [[@lookonchain]] | 121 | 254,038 |
@@ -57,7 +58,6 @@ tags: [trench, dashboard]
 | [[@laurashin]] | 120 | 139,808 |
 | [[@CryptoHayes]] | 120 | 381,831 |
 | [[@thedefiedge]] | 120 | 436,015 |
-| [[@santiagoroel]] | 120 | 116,836 |
 | [[@cookerbruski]] | 120 | 35,511 |
 | [[@RyanSAdams]] | 120 | 357,614 |
 | [[@defi_kay_]] | 120 | 3,602 |

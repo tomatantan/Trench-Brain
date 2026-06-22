@@ -6,7 +6,7 @@ updated: 2026-06-22
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **4482件**。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **4523件**。手順は brain/INGEST.md。
 処理したら `python3 brain/mark_ingested.py` で消し込む。
 
 ## 1) 合成メモを更新すべき entity（新シグナル順 top20）
@@ -22,9 +22,9 @@ updated: 2026-06-22
 | [[$CLUTCH]] | 18 | 1 | 21♥ @Clutch_FIFA2026: USA just unveiled the Star-Spangled 2026 kits — Am / 16♥ @Clutch_FIFA2026: game is fun in beta, $clutch saving the day. CA: B |
 | [[$PEPE]] | 18 | 5 | 5672♥ @milesdeutscher: $PEPE has changed many lives, after doing a 375,00 / 4262♥ @pepecoineth: We ride at dawn $PEPE  |
 | [[$ASTEROID]] | 17 | 2 | 248♥ @Crypto_Alch: $ASTEROID just 2x in a single fvcking candle   Did / 220♥ @solbrdl: Do people realize $ASTEROID was ACTUALLY on stage  |
+| [[$SPCX]] | 16 | 12 | 390♥ @theunipcs: i haven't tweeted about any other memecoin except  / 278♥ @CryptoHayes: $SPCX IPO pop indicating +17%, is that enough to k |
 | [[$BONK]] | 16 | 3 | 4892♥ @theunipcs: new bonk pnl ATH today: $13.7 million  and i think / 3944♥ @theunipcs: most people know me for turning $16,000 into over  |
 | [[$HYPE]] | 15 | 9 | 3332♥ @CryptoHayes: I just dumped my entire $HYPE and $NEAR position,  / 2111♥ @lookonchain: Arthur Hayes(@CryptoHayes) just sold all 96,628 $H |
-| [[$SPCX]] | 15 | 11 | 390♥ @theunipcs: i haven't tweeted about any other memecoin except  / 278♥ @CryptoHayes: $SPCX IPO pop indicating +17%, is that enough to k |
 | [[$KINTON]] | 13 | 2 | 20♥ @xvwmuca: 木村 萌那選手 × $Kinton Real Chun-Li リアル春麗 真实的春丽  / 15♥ @xvwmuca: $TripleT × $Kinton Tung Tung Tung Sahur Japanese P |
 | [[$YAJUCOIN]] | 12 | 4 | 13♥ @tsuyuto6154: $Kiyomasa  just reached the place every meme coin  / 12♥ @JPY_TO_Crypto: If you hold a total of 2M across $Kinton and $YAJU |
 | [[$WOJAK]] | 11 | 5 | 1423♥ @lookonchain: We noticed an early buyer of $SHIB also bought $PE / 683♥ @BinanceUS: Deposits for $WOJAK are now open on @BinanceUS!  T |
@@ -74,6 +74,7 @@ updated: 2026-06-22
 - [[$AAVE]]（3件/2アカ）まだconcept無し → 動線/型を検討
 - [[$ENA]]（3件/2アカ）まだconcept無し → 動線/型を検討
 - [[$MAXIS]]（3件/2アカ）まだconcept無し → 動線/型を検討
+- [[$THREE]]（3件/2アカ）まだconcept無し → 動線/型を検討
 - [[$UNI]]（3件/2アカ）まだconcept無し → 動線/型を検討
 - [[$PNUT]]（3件/2アカ）まだconcept無し → 動線/型を検討
 
