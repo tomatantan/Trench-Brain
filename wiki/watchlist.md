@@ -19,7 +19,7 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 | [[@a16zcrypto]] | a16z crypto | 724k ✅ | 最大手VCのcrypto部門。セクター/規制/思想の土台 | 高 |
 | [[@cdixon]] | Chris Dixon | 928k ✅ | a16z crypto マネージングパートナー | 高 |
 | [[@rajgokal]] | raj | 1.09M ✅ | Solana 共同創業。エコシステムの号令 | 高 |
-| [[@aeyakovenko]] | Toly | — ⚠️ | Solana 共同創業(再取得要) | 高 |
+| [[@toly]] | Toly | — ✅ | Solana 共同創業(正ハンドルは @toly) | 高 |
 | [[@KyleSamani]] | Kyle Samani | 215k ✅ | 元Multicoin共同創業→Forward Industries会長 | 中 |
 | [[@hosseeb]] | Haseeb | 145k ✅ | Dragonfly マネージングパートナー | 中 |
 | [[@lmrankhan]] | Imran | 43k ✅ | @alliance(アクセラレータ) | 中 |
