@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-22 collect: Senshi(@SenshiNeo7)のフォローからCAVEサークル＋日本trench層を取り込み(watchlist v4, ③方針=crypto＋外部要因, 66アカ追加, +1270ノート)。
+
 - 2026-06-22 collect: 初回backfill完了。3,796ノート/55アカ取得(watchlist 58中)。syndication(無料)で大半＋twitterapi.io(有償)で残り＆詰まり分をクリーン回収。0xMert_/aeyakovenko/TusharJain_の3アカはAPI上0件(ハンドル変更/保護疑い、要確認)。collectorはsyndication/twitterapi両対応。
 
 - 2026-06-22 build: collector v1 実装（syndication無料取得→sources/x/に生ツイ保存、$ticker/@mention自動抽出、ファイル存在で重複判定）。3アカ実走で形式確認(12ノート)。GitHub Actions(毎時)＋ローカルcron手順、graphからsources除外。

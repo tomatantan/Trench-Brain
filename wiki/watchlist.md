@@ -119,3 +119,76 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 - 計 約40アカ(v2)。weightは暫定、投稿の質/follow-throughで調整。
 - 取得方式: **自動かつ無料**で回す方針(公式API/有料API不使用)。GitHub Actions等の無料cron＋無料取得(nitter/syndication/fxtwitter)でポーリング→ingest→自動commitを想定。脆さは要PoC検証。詳細は[[trench-brain-vision]]。
 - 追加候補・新顔はここに追記。
+
+## 拡張 v4（Senshi/CAVEサークル harvest, 2026-06-22）
+@SenshiNeo7 のフォローから取り込み。③方針=crypto＋外部要因を採用、スポーツ/格闘技/一般/非cryptoミームは除外。
+日本trench層＋[[CAVE]]コミュニティ＋外部要因(elon/WhiteHouse等)を補完。
+
+| handle | 名前 | メモ |
+|---|---|---|
+| [[@coingecko]] | CoinGecko | The world's largest independent crypto data aggregator. |
+| [[@moonshot]] | Moonshot | Buy, Sell, and Create Memes with Apple Pay. Live on App |
+| [[@pepecoineth]] | Pepe | $PEPE. The most memeable memecoin in existence. |
+| [[@wojakcto]] | Wojak | Wojak, also known as "Feels Guy," the OG Internet Meme |
+| [[@WhiteHouse]] | The White House | Welcome to The Golden Age of America.  📱 Text USA to 45 |
+| [[@Clutch_FIFA2026]] | CLUTCH | $Clutch - The Eagle Mascot of USA for the World Cup 202 |
+| [[@Crypto_Alch]] | The Alchemist (🧪,⚗ | Some people call me Nostradamus's 7th Son. I often miss |
+| [[@itspyrored]] | 𝐏𝐲𝐫𝐨 𝐑𝐞𝐝 | Not Financial Advice - I share my opinions,Technical An |
+| [[@Punch_on_sol]] | Punch | Ultimately, you have to be brave. $PUNCH on Solana 🐒 |
+| [[@iconocl4sm_]] | Idola | Idola(あいどら)a.k.a. Ains/xlo TGac: https://t.co/drq082mgo |
+| [[@ametomuchi123]] | 飴と鞭 | 高卒→色々失敗借金沢山→多重債務(29%利率の時)→完全歩合の営業で借金完済→起業。草コインで→億→継続→税金 |
+| [[@AdimsSHOGUN]] | Adims SHOGUN アディムス | 雰囲気トレーダー📊労働基準法適用除外の社畜🐽安全保障セクター🌏経済的自由になりたい元SUI MAXI💧魔界Wa |
+| [[@810yenshamp]] | 810円ﾌﾟﾚｲｱｯｰ | イクゾ〜ヤルゾ〜ヤジュウコイン  $YAJUcoin |
+| [[@Uniswap]] | Uniswap | The largest onchain marketplace. Buy and sell crypto on |
+| [[@CoinbaseMarkets]] | Coinbase Markets 🛡 | Building the everything exchange. All markets — all in  |
+| [[@brian_armstrong]] | Brian Armstrong | Co-founder & CEO at @Coinbase. Creating more economic f |
+| [[@cryptocom]] | Crypto.com | The best place to buy, sell, and pay with crypto #BTC # |
+| [[@MEXC]] | MEXC | Your 0-Fee Gateway to Infinite Opportunities Trade Cryp |
+| [[@BinanceUS]] | Binance.US 🇺🇸 | Access 200+ cryptocurrencies and explore the world of W |
+| [[@golocojp]] | Maru2 | Crypto Investor｜Agentic Coding Learner｜ICM Believer in  |
+| [[@NZensin]] | NEO | 忘備録の為の只野日記です 投資歴 株式38年・ゴールド原油29年・BTC9年 まだ47年投資続きます リーダー |
+| [[@Plably_coin]] | Plably | Trade less. Play more. A token economy built around gam |
+| [[@angorou7]] | アンゴロウ@暗号資産 | 「2025年ブロックチェーン業界で活躍した人物」日本2位受賞🇯🇵🥈 ビットコイン・暗号資産（仮想通貨）・株の爆 |
+| [[@xvwmuca]] | kagura | trencher / $url, $kinton dev |
+| [[@MurphyBTC]] | まーふぃー＠ビットコイン | Crypto Trader / Investor / Market Analyst / DUMP-PUMP M |
+| [[@tomuisan]] | とむい | 専業トレーダー8年目。 |
+| [[@coinkeiba]] | ツァビ | $HYPE と馬券を握りしめる男。 |
+| [[@Nishi8maru]] | 仮想NISHI | 暗号資産アナリスト / CoinPostアプリ-Terminal開発-BTC Alert @Nishi8mAl |
+| [[@coin_post]] | CoinPost（仮想通貨メディア） | Japan's largest crypto news outlet 国内最大の暗号資産（仮想通貨）・Web3 |
+| [[@bull_bnb]] | BuLL 牛 | I didn't survive the dark. I studied it. Decoding patte |
+| [[@mag_onsol]] | まが (maga) | CAVE's admin https://t.co/VFvM7JhWtt |
+| [[@DEG_2020]] | DEG | 2016年からの子育て無職トレーダー。株、為替、商品、不動産、暗号資産なんでもトレードします。資産10億円目指 |
+| [[@noritaka_okabe]] | 岡部典孝　JPYC代表取締役 | JPYC株式会社で日本円ステーブルコインJPYCを発行。社会のジレンマを突破する！ 責任あるイノベーションを一 |
+| [[@ren_Nevermind]] | ren | れんちょん / ex-VC / what important truth do very few people |
+| [[@MemememHen]] | haru (punch/acc) | $punch cto lead/ affiliate with @tradingterminal |
+| [[@daisuk_e4]] | Okumo | CAVE's admin. Tweet about crypto topics. |
+| [[@kyurukyurutrade]] | しょこら/Shoko | しょこらとかしょことか名乗ってます。かそつーたのしー @cave_jpn の民 |
+| [[@uyunicham]] | うゆにちゃん🐰 | ·̩͙. ᘏ▸◂ᘏ .·̩͙ ꒰ ⸝⸝ɞ̴̶̷ ·̮ ɞ̴̶̷ ⸝⸝꒱ *ଘ_(")("）┄┄゛meme系クリ |
+| [[@0xFunX]] | 0xFun | 你所相信的，就是你的命运！  全职投机笔记，乐观者，记录分享。 |
+| [[@solana]] | Solana | The high performance network powering internet capital  |
+| [[@pumpilians_]] | Pumpilians | 2D Pixel Sandbox MMORPG. Play different. Earn different |
+| [[@GTCaliber_]] | Caliber | Focus on making the actual GTA 6 before the GTA 6 out!! |
+| [[@PumpfunEco]] | Pump.fun Ecosystem | Featuring @Pumpfun’s best traders, creators & communiti |
+| [[@Pumpfun]] | Pump.fun | Launch a coin that is instantly tradeable in one click  |
+| [[@garrytan]] | Garry Tan | President & CEO @ycombinator —Founder @garryslist—Creat |
+| [[@nikitabier]] | Nikita Bier | head of product @x, advisor @solana, venture partner @l |
+| [[@RookieXBT]] | RookieXBT 🧲 |  |
+| [[@jzbookp9ca]] | 本屋🍆/Stray Ebi | CAVE末席  せんせえ🍆です 大学のなかの人もやってます ごちゃまぜアカウントなので騒がしいです  ▶ il |
+| [[@tsuyuto6154]] | 猫太郎_Nekotaro | $YAJUcoin team ／ fulltime degen ／Cave admin |
+| [[@SeruDefi]] | Crypto_Serupo🇯🇵 | CAVE |
+| [[@JPY_TO_Crypto]] | tomatantan | dev:https://t.co/tjoc5Yyma4 |
+| [[@ethereum]] | Ethereum | The universal platform for crypto, blockchain apps, sta |
+| [[@MascotAsteroid]] | Asteroid Shiba | Mascot of SpaceX / Official X for the memecoin Asteroid |
+| [[@solbrdl]] | Bradley (☄️) | Asteroid maxxing. |
+| [[@dogecoin]] | Dogecoin | Dogecoin is an open source peer-to-peer cryptocurrency, |
+| [[@coinbase]] | Coinbase 🛡️ | The future of finance is on Coinbase. For support: @Coi |
+| [[@Bitcoin]] | Bitcoin | Bitcoin is an open source censorship-resistant peer-to- |
+| [[@dxrnell]] | dxrnelljcl | @tagxalpha / @ugcabal / @tradingterminal |
+| [[@ofasya_]] | Ogawa (小,川) | Stay poor , Stay Degen CAVE Founder / @cave_jpn |
+| [[@YAJUDAIGONGEN]] | 野獣コインに全財産を賭けた男 | 野獣先輩は宇宙の心理 昭和〜平成のレトロゲー、アニメ、映画が好きです コメントや大喜利、適当なボケ大歓迎！ 気 |
+| [[@CoinMarketCap]] | CoinMarketCap | #CMC is the world’s most trusted source for crypto data |
+| [[@binance]] | Binance | The world’s leading blockchain ecosystem and digital as |
+| [[@grok]] | Grok | @grok it |
+| [[@MarioNawfal]] | Mario Nawfal | Largest Show on X (Live Daily 10am-8pm ET) / 24x7 Write |
+| [[@SpaceX]] | SpaceX | SpaceX designs, manufactures and launches the world’s m |
+| [[@elonmusk]] | Elon Musk | https://t.co/dDtDyVssfm |
