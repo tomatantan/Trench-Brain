@@ -1,0 +1,1643 @@
+{
+  "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE)",
+  "schema": "signals[]: {type,title,size,color,glow,trace:{why,top[],causal[],confidence}}",
+  "count": 40,
+  "signals": [
+    {
+      "type": "MEME",
+      "title": "$PEPE",
+      "size": 130,
+      "color": "#48eca0",
+      "glow": 1.0,
+      "mentions": 18,
+      "accounts": 5,
+      "trace": {
+        "why": "18件の言及 / 5アカ / 高エンゲージ計18,881♥",
+        "accounts_n": 5,
+        "top": [
+          {
+            "likes": 5672,
+            "account": "milesdeutscher",
+            "text": "$PEPE has changed many lives, after doing a 375,000x in just 21 days.  But you can c"
+          },
+          {
+            "likes": 4262,
+            "account": "pepecoineth",
+            "text": "We ride at dawn $PEPE"
+          },
+          {
+            "likes": 3663,
+            "account": "lookonchain",
+            "text": "A $PEPE whale that had been dormant for 600 days transferred all 2.1T $PEPE($52M) to"
+          },
+          {
+            "likes": 2701,
+            "account": "lookonchain",
+            "text": "1/ This guy is really good at trading shitcoins!  He bought 2.52T $PEPE($816K curren"
+          },
+          {
+            "likes": 2583,
+            "account": "lookonchain",
+            "text": "James Wynn(@JamesWynnReal) just got liquidated again.  Both his $PEPE longs and $BTC"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$TRUMP",
+      "size": 130,
+      "color": "#48eca0",
+      "glow": 1.0,
+      "mentions": 10,
+      "accounts": 6,
+      "trace": {
+        "why": "10件の言及 / 6アカ / 高エンゲージ計25,834♥",
+        "accounts_n": 6,
+        "top": [
+          {
+            "likes": 7756,
+            "account": "blknoiz06",
+            "text": "77 million people voted for trump  $TRUMP coin doesnt even have 1 million holders ye"
+          },
+          {
+            "likes": 5089,
+            "account": "milesdeutscher",
+            "text": "The $TRUMP launch is the craziest thing I've seen in my 6 years in crypto.  And it's"
+          },
+          {
+            "likes": 4455,
+            "account": "lookonchain",
+            "text": "A wallet named Ansem(@blknoiz06) sold 194,799 $TRUMP($6.83M) 2 hours ago, losing $2."
+          },
+          {
+            "likes": 4293,
+            "account": "DefiIgnas",
+            "text": "MELANIA to $0 $TRUMP to $0  We've had enough of being taken for fools.  This latest"
+          },
+          {
+            "likes": 4241,
+            "account": "milesdeutscher",
+            "text": "We thought Trump was going to send us to Valhalla.  Instead we got $TRUMP coin and t"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$BTC",
+      "size": 130,
+      "color": "#28e1f2",
+      "glow": 1.0,
+      "mentions": 98,
+      "accounts": 12,
+      "trace": {
+        "why": "98件の言及 / 12アカ / 高エンゲージ計48,292♥",
+        "accounts_n": 12,
+        "top": [
+          {
+            "likes": 13315,
+            "account": "milesdeutscher",
+            "text": "$BTC in March: $71k Coinbase app store ranking: 20  $BTC now: $71k Coinbase app stor"
+          },
+          {
+            "likes": 10391,
+            "account": "zhusu",
+            "text": "I'm only going to make one prediction for 2022 and it's that at least 10 nation-stat"
+          },
+          {
+            "likes": 9816,
+            "account": "milesdeutscher",
+            "text": "Dear Trump,   No more memes please.  Was only cool the first time.  Now please give"
+          },
+          {
+            "likes": 7441,
+            "account": "milesdeutscher",
+            "text": "$BTC is above $100k but retail interest is the lowest it's been in 3 years."
+          },
+          {
+            "likes": 7329,
+            "account": "zhusu",
+            "text": "Dormancy flow buy signal on $BTC, very rare, only six times in history"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$SOL",
+      "size": 130,
+      "color": "#28e1f2",
+      "glow": 1.0,
+      "mentions": 33,
+      "accounts": 8,
+      "trace": {
+        "why": "33件の言及 / 8アカ / 高エンゲージ計32,543♥",
+        "accounts_n": 8,
+        "top": [
+          {
+            "likes": 7875,
+            "account": "CryptoHayes",
+            "text": "$ETH to $5k before $SOL to $300. Who is with me?"
+          },
+          {
+            "likes": 7585,
+            "account": "milesdeutscher",
+            "text": "Many of next cycle's top performers haven't been released yet.  These projects have"
+          },
+          {
+            "likes": 7020,
+            "account": "milesdeutscher",
+            "text": "After Celsius and 3AC tanked the market, another concerning event has started to eme"
+          },
+          {
+            "likes": 5392,
+            "account": "CryptoHayes",
+            "text": "Fam ... I have a confession to make.  I received a msg from the Lord while meditatin"
+          },
+          {
+            "likes": 4671,
+            "account": "milesdeutscher",
+            "text": "Liquidity is currently flowing back into Ethereum from Solana.  SOL has bridged 4x m"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$ETH",
+      "size": 130,
+      "color": "#28e1f2",
+      "glow": 1.0,
+      "mentions": 102,
+      "accounts": 12,
+      "trace": {
+        "why": "102件の言及 / 12アカ / 高エンゲージ計29,737♥",
+        "accounts_n": 12,
+        "top": [
+          {
+            "likes": 7875,
+            "account": "CryptoHayes",
+            "text": "$ETH to $5k before $SOL to $300. Who is with me?"
+          },
+          {
+            "likes": 5873,
+            "account": "zhusu",
+            "text": "For this leg of the supercycle I'm not bothering to tell anyone targets on $BTC and"
+          },
+          {
+            "likes": 5640,
+            "account": "CryptoHayes",
+            "text": "Arise Chikun, it's time...  $ETH = $10,000  Yachtzee😍😍😍😍😍😍😍😍"
+          },
+          {
+            "likes": 5392,
+            "account": "CryptoHayes",
+            "text": "Fam ... I have a confession to make.  I received a msg from the Lord while meditatin"
+          },
+          {
+            "likes": 4957,
+            "account": "blknoiz06",
+            "text": "ethereum will never trade below four thousand dollars as long as i live on the plane"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$USDC",
+      "size": 130,
+      "color": "#28e1f2",
+      "glow": 1.0,
+      "mentions": 25,
+      "accounts": 4,
+      "trace": {
+        "why": "25件の言及 / 4アカ / 高エンゲージ計16,792♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 4455,
+            "account": "lookonchain",
+            "text": "A wallet named Ansem(@blknoiz06) sold 194,799 $TRUMP($6.83M) 2 hours ago, losing $2."
+          },
+          {
+            "likes": 3764,
+            "account": "lookonchain",
+            "text": "Arthur Hayes(@CryptoHayes) sold 2,373 $ETH($8.32M) a week ago when the $ETH price wa"
+          },
+          {
+            "likes": 3000,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) just spent 20M $USDC to buy 6,041 $ETH at $3,"
+          },
+          {
+            "likes": 2801,
+            "account": "lookonchain",
+            "text": "North Korean hackers went long $ETH on #Hyperliquid, turning $476,489 into $18,187 —"
+          },
+          {
+            "likes": 2772,
+            "account": "lookonchain",
+            "text": "A whale spent 4,806 $ETH($21.25M) to buy 938,489 $LINK across 5 wallets 8 hours ago."
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$BONK",
+      "size": 130,
+      "color": "#48eca0",
+      "glow": 0.93,
+      "mentions": 16,
+      "accounts": 3,
+      "trace": {
+        "why": "16件の言及 / 3アカ / 高エンゲージ計15,050♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 4892,
+            "account": "theunipcs",
+            "text": "new bonk pnl ATH today: $13.7 million  and i think the $BONK run is only just starti"
+          },
+          {
+            "likes": 3944,
+            "account": "theunipcs",
+            "text": "most people know me for turning $16,000 into over $18 million upnl on a single $BONK"
+          },
+          {
+            "likes": 2145,
+            "account": "theunipcs",
+            "text": "even though i had promised that i wouldn't be posting a BONK PnL update until my PnL"
+          },
+          {
+            "likes": 2126,
+            "account": "theunipcs",
+            "text": "since quite a lot people seem to be talking about 'bonk guy' today i figured i shoul"
+          },
+          {
+            "likes": 1943,
+            "account": "theunipcs",
+            "text": "to all the pocket watchers clowning on me because of my $bonk long  saying, \"bonk gu"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$SPCX",
+      "size": 130,
+      "color": "#ff4ba8",
+      "glow": 1.0,
+      "mentions": 16,
+      "accounts": 12,
+      "trace": {
+        "why": "16件の言及 / 12アカ / 高エンゲージ計1,346♥",
+        "accounts_n": 12,
+        "top": [
+          {
+            "likes": 390,
+            "account": "theunipcs",
+            "text": "i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels"
+          },
+          {
+            "likes": 278,
+            "account": "CryptoHayes",
+            "text": "$SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive?"
+          },
+          {
+            "likes": 259,
+            "account": "CryptoHayes",
+            "text": "Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market?"
+          },
+          {
+            "likes": 228,
+            "account": "DefiIgnas",
+            "text": "Crypto PTSD tells me $SPCX will end up as crypto hyped low-float/high-FDV token laun"
+          },
+          {
+            "likes": 191,
+            "account": "theunipcs",
+            "text": "i'm objectively curious:  is a $2.6 trillion valuation too high for SpaceX / $SPCX?"
+          }
+        ],
+        "causal": [
+          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
+          "型 — 外部イベント → token（二股: RWA と meme）"
+        ],
+        "confidence": "中",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$HYPE",
+      "size": 130,
+      "color": "#28e1f2",
+      "glow": 1.0,
+      "mentions": 15,
+      "accounts": 9,
+      "trace": {
+        "why": "15件の言及 / 9アカ / 高エンゲージ計9,256♥",
+        "accounts_n": 9,
+        "top": [
+          {
+            "likes": 3332,
+            "account": "CryptoHayes",
+            "text": "I just dumped my entire $HYPE and $NEAR position, I will explain why in my essay \"Re"
+          },
+          {
+            "likes": 2111,
+            "account": "lookonchain",
+            "text": "Arthur Hayes(@CryptoHayes) just sold all 96,628 $HYPE($5.1M) he bought a month ago,"
+          },
+          {
+            "likes": 1628,
+            "account": "DefiIgnas",
+            "text": "With Binance and OKx listing JELLY perps to further damage Hyperliquid, $HYPE is no"
+          },
+          {
+            "likes": 1387,
+            "account": "DefiIgnas",
+            "text": "$HYPE proves airdrops aren’t dead.  The old model with big VC allocations is dead."
+          },
+          {
+            "likes": 798,
+            "account": "DefiIgnas",
+            "text": "Paxos proposes 95% of interest from reserves to buy back $HYPE  On top, USDH would b"
+          }
+        ],
+        "causal": [],
+        "confidence": "中",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ARB",
+      "size": 126,
+      "color": "#48eca0",
+      "glow": 0.82,
+      "mentions": 7,
+      "accounts": 3,
+      "trace": {
+        "why": "7件の言及 / 3アカ / 高エンゲージ計27,142♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 9416,
+            "account": "milesdeutscher",
+            "text": "Missed the $ARB airdrop?  People made $600-$50k+ today.  I've compiled a list of the"
+          },
+          {
+            "likes": 5107,
+            "account": "milesdeutscher",
+            "text": "If you missed the $ARB airdrop, don’t worry.   I’ve been working on an updated list"
+          },
+          {
+            "likes": 4399,
+            "account": "lookonchain",
+            "text": "1/ Missed the $ARB airdrop?  We found 6 smart airdrop hunters who have gotten nearly"
+          },
+          {
+            "likes": 4125,
+            "account": "milesdeutscher",
+            "text": "If you missed the $ARB airdrop, zkSync could be your next big opportunity.   I’ve se"
+          },
+          {
+            "likes": 4095,
+            "account": "milesdeutscher",
+            "text": "If you missed the $ARB airdrop, then zkSync is your next big airdrop opportunity.  🧵"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$PUMP",
+      "size": 123,
+      "color": "#48eca0",
+      "glow": 0.79,
+      "mentions": 9,
+      "accounts": 3,
+      "trace": {
+        "why": "9件の言及 / 3アカ / 高エンゲージ計16,614♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 4751,
+            "account": "a1lon9",
+            "text": "today we announce $PUMP  pump fun invented a completely new way to launch tokens, ow"
+          },
+          {
+            "likes": 3944,
+            "account": "a1lon9",
+            "text": "the ticker is $PUMP"
+          },
+          {
+            "likes": 3124,
+            "account": "a1lon9",
+            "text": "We’re hiring software engineers, data scientists and machine learning engineers for"
+          },
+          {
+            "likes": 2406,
+            "account": "a1lon9",
+            "text": "today marks another historic day for the $PUMP ecosystem  What we’re known for is in"
+          },
+          {
+            "likes": 2389,
+            "account": "a1lon9",
+            "text": "today is a turning point for $PUMP and pump fun  I want to give more context on the"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$MATIC",
+      "size": 116,
+      "color": "#48eca0",
+      "glow": 0.7,
+      "mentions": 4,
+      "accounts": 2,
+      "trace": {
+        "why": "4件の言及 / 2アカ / 高エンゲージ計22,139♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 7752,
+            "account": "lookonchain",
+            "text": "1/ How did I turn $1,000 into $30,000 with smart money?  I found a SmartMoney in $MA"
+          },
+          {
+            "likes": 7585,
+            "account": "milesdeutscher",
+            "text": "Many of next cycle's top performers haven't been released yet.  These projects have"
+          },
+          {
+            "likes": 3929,
+            "account": "milesdeutscher",
+            "text": "Polygon is one of the most exciting projects in crypto.  $MATIC has been one of the"
+          },
+          {
+            "likes": 2873,
+            "account": "lookonchain",
+            "text": "4/  I found another 5 SmartMoneys on $MATIC.  If you like my investment strategy, I'"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$WIF",
+      "size": 114,
+      "color": "#48eca0",
+      "glow": 0.68,
+      "mentions": 8,
+      "accounts": 5,
+      "trace": {
+        "why": "8件の言及 / 5アカ / 高エンゲージ計9,300♥",
+        "accounts_n": 5,
+        "top": [
+          {
+            "likes": 2443,
+            "account": "blknoiz06",
+            "text": "hey @_RichardTeng if this gets 2k retweets can you list $WIF as a christmas present"
+          },
+          {
+            "likes": 1799,
+            "account": "lookonchain",
+            "text": "Ansem(@blknoiz06) - the best crypto trader who:   170x on $SOL  520x on $WIF  80x on"
+          },
+          {
+            "likes": 1744,
+            "account": "DefiIgnas",
+            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
+          },
+          {
+            "likes": 1697,
+            "account": "lookonchain",
+            "text": "blockgraze(@blockgraze), who made a profit of $8.6M(7,439x) on $WIF, deposited all 1"
+          },
+          {
+            "likes": 1617,
+            "account": "theunipcs",
+            "text": "bonk guy proven right once again  just days ago we requested that @coinbase list the"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$DOGE",
+      "size": 113,
+      "color": "#28e1f2",
+      "glow": 0.66,
+      "mentions": 8,
+      "accounts": 5,
+      "trace": {
+        "why": "8件の言及 / 5アカ / 高エンゲージ計8,918♥",
+        "accounts_n": 5,
+        "top": [
+          {
+            "likes": 4726,
+            "account": "milesdeutscher",
+            "text": "AI will be one of the biggest bubbles in financial history.  But it's just getting s"
+          },
+          {
+            "likes": 1518,
+            "account": "lookonchain",
+            "text": "On Apr 4, @elonmusk changed the Bluebird to dog, the price of $DOGE increased by ~30"
+          },
+          {
+            "likes": 1476,
+            "account": "theunipcs",
+            "text": "many have been asking why i am so damn bullish on #USELESS coin  it's simple  fundam"
+          },
+          {
+            "likes": 808,
+            "account": "dogecoin",
+            "text": "$DOGE accepted here: the 3 most beautiful words in the english language"
+          },
+          {
+            "likes": 390,
+            "account": "theunipcs",
+            "text": "i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$WOJAK",
+      "size": 108,
+      "color": "#48eca0",
+      "glow": 0.6,
+      "mentions": 11,
+      "accounts": 5,
+      "trace": {
+        "why": "11件の言及 / 5アカ / 高エンゲージ計3,204♥",
+        "accounts_n": 5,
+        "top": [
+          {
+            "likes": 1423,
+            "account": "lookonchain",
+            "text": "We noticed an early buyer of $SHIB also bought $PEPE and $WOJAK.  The SmartMoney sta"
+          },
+          {
+            "likes": 683,
+            "account": "BinanceUS",
+            "text": "Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will"
+          },
+          {
+            "likes": 441,
+            "account": "BinanceUS",
+            "text": "It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over"
+          },
+          {
+            "likes": 335,
+            "account": "BinanceUS",
+            "text": "The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA"
+          },
+          {
+            "likes": 322,
+            "account": "BinanceUS",
+            "text": "Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$STRC",
+      "size": 106,
+      "color": "#48eca0",
+      "glow": 0.57,
+      "mentions": 7,
+      "accounts": 4,
+      "trace": {
+        "why": "7件の言及 / 4アカ / 高エンゲージ計8,034♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 4824,
+            "account": "saylor",
+            "text": "The hardest thing in business is not seeing the future. It is surviving long enough"
+          },
+          {
+            "likes": 2750,
+            "account": "saylor",
+            "text": "$STRC now pays dividends twice per month.  What is the clearest way to describe this"
+          },
+          {
+            "likes": 245,
+            "account": "CryptoKaleo",
+            "text": "There’s a much higher chance $STRC never returns to $100 than anyone gives it credit"
+          },
+          {
+            "likes": 151,
+            "account": "CryptoKaleo",
+            "text": "“Absolute power corrupts absolutely”  In 2022, Strategy was completely different str"
+          },
+          {
+            "likes": 64,
+            "account": "CryptoKaleo",
+            "text": "$STRC isn’t the first multi-billion dollar cash like preferred instrument to exist."
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ZEC",
+      "size": 104,
+      "color": "#48eca0",
+      "glow": 0.55,
+      "mentions": 6,
+      "accounts": 4,
+      "trace": {
+        "why": "6件の言及 / 4アカ / 高エンゲージ計8,288♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 2722,
+            "account": "CryptoHayes",
+            "text": "The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e"
+          },
+          {
+            "likes": 2580,
+            "account": "CryptoHayes",
+            "text": "It's just ludicrous.  $ZEC to $10k"
+          },
+          {
+            "likes": 2571,
+            "account": "CryptoHayes",
+            "text": "Vibe check   $ZEC to $10k"
+          },
+          {
+            "likes": 229,
+            "account": "lookonchain",
+            "text": "Garrett Jin(@GarrettBullish) has closed his $ZEC long for a $417K profit and his $UN"
+          },
+          {
+            "likes": 186,
+            "account": "RookieXBT",
+            "text": "$hype $zec barbell for q2 really do be comfy"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$ASTEROID",
+      "size": 104,
+      "color": "#ff4ba8",
+      "glow": 0.55,
+      "mentions": 17,
+      "accounts": 2,
+      "trace": {
+        "why": "17件の言及 / 2アカ / 高エンゲージ計1,009♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 248,
+            "account": "Crypto_Alch",
+            "text": "$ASTEROID just 2x in a single fvcking candle   Did you faded?"
+          },
+          {
+            "likes": 220,
+            "account": "solbrdl",
+            "text": "Do people realize $ASTEROID was ACTUALLY on stage at SpaceX IPO?"
+          },
+          {
+            "likes": 198,
+            "account": "solbrdl",
+            "text": "It’s literally confirmed in the URL of the SpaceX $ASTEROID  \"spacex-asteroid-mascot"
+          },
+          {
+            "likes": 180,
+            "account": "solbrdl",
+            "text": "Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th"
+          },
+          {
+            "likes": 163,
+            "account": "solbrdl",
+            "text": "In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea"
+          }
+        ],
+        "causal": [
+          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
+          "型 — 外部イベント → token（二股: RWA と meme）"
+        ],
+        "confidence": "低〜中",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$LIBRA",
+      "size": 103,
+      "color": "#48eca0",
+      "glow": 0.54,
+      "mentions": 5,
+      "accounts": 2,
+      "trace": {
+        "why": "5件の言及 / 2アカ / 高エンゲージ計12,879♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 2820,
+            "account": "lookonchain",
+            "text": "It seems that the $LIBRA and $MELANIA insider team is laundering funds.  They spent"
+          },
+          {
+            "likes": 2750,
+            "account": "a1lon9",
+            "text": "I’m disgusted by the events that transpired over the past days surrounding $LIBRA. T"
+          },
+          {
+            "likes": 2558,
+            "account": "lookonchain",
+            "text": "Someone knew in advance that $LIBRA was going to be launched but bought too late, lo"
+          },
+          {
+            "likes": 2411,
+            "account": "lookonchain",
+            "text": "The $LIBRA team has cashed out $107M!😱  8 wallets related to the $LIBRA team have ob"
+          },
+          {
+            "likes": 2340,
+            "account": "lookonchain",
+            "text": "ye(@kanyewest) launched the $YZY token. Note:  Only $YZY was added to the liquidity"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$YAJUCOIN",
+      "size": 100,
+      "color": "#48eca0",
+      "glow": 0.5,
+      "mentions": 12,
+      "accounts": 4,
+      "trace": {
+        "why": "12件の言及 / 4アカ / 高エンゲージ計51♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 13,
+            "account": "tsuyuto6154",
+            "text": "$Kiyomasa  just reached the place every meme coin wants to reach.  A manic community"
+          },
+          {
+            "likes": 12,
+            "account": "JPY_TO_Crypto",
+            "text": "If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc"
+          },
+          {
+            "likes": 11,
+            "account": "daisuk_e4",
+            "text": "$YAJUCOIN  YAJU is Japan's top."
+          },
+          {
+            "likes": 9,
+            "account": "tsuyuto6154",
+            "text": "イカれてる野獣コインbagworker達。 万バズ垢に進化し始めてる  バイラルを待つんじゃなくて自分たちがviralになるという黒崎一護スタイル  そして買われてるの"
+          },
+          {
+            "likes": 6,
+            "account": "810yenshamp",
+            "text": "In time, he is destined to reach the top position. We are all working diligently to"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$SPX",
+      "size": 99,
+      "color": "#48eca0",
+      "glow": 0.49,
+      "mentions": 4,
+      "accounts": 2,
+      "trace": {
+        "why": "4件の言及 / 2アカ / 高エンゲージ計11,705♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 7163,
+            "account": "CryptoHayes",
+            "text": "The plan:  Be fucking patient. $BTC likely bottoms around $70k. 36% correction from"
+          },
+          {
+            "likes": 3862,
+            "account": "CryptoHayes",
+            "text": "FTX = Lehman  That wasn’t the bottom.   $SPX hit 666 in March of 2009.   Therefore $"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          },
+          {
+            "likes": 299,
+            "account": "theunipcs",
+            "text": "一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外，"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$SHIB",
+      "size": 99,
+      "color": "#48eca0",
+      "glow": 0.49,
+      "mentions": 6,
+      "accounts": 2,
+      "trace": {
+        "why": "6件の言及 / 2アカ / 高エンゲージ計9,504♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 2772,
+            "account": "lookonchain",
+            "text": "A whale spent 4,806 $ETH($21.25M) to buy 938,489 $LINK across 5 wallets 8 hours ago."
+          },
+          {
+            "likes": 2514,
+            "account": "lookonchain",
+            "text": "Never seen such smart addresses!  - Made $4.14M by trading $ETH during $USDC depeggi"
+          },
+          {
+            "likes": 2414,
+            "account": "lookonchain",
+            "text": "1/ Missed the $PEPE?  We found 3 SmartMoneys that both bought $SHIB and $PEPE early"
+          },
+          {
+            "likes": 1423,
+            "account": "lookonchain",
+            "text": "We noticed an early buyer of $SHIB also bought $PEPE and $WOJAK.  The SmartMoney sta"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$USDT",
+      "size": 96,
+      "color": "#28e1f2",
+      "glow": 0.45,
+      "mentions": 7,
+      "accounts": 3,
+      "trace": {
+        "why": "7件の言及 / 3アカ / 高エンゲージ計5,348♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 1772,
+            "account": "lookonchain",
+            "text": "MrBeast (@MrBeast) just deposited 114,483 $USDT into #Aster.  @MrBeast profited over"
+          },
+          {
+            "likes": 1648,
+            "account": "lookonchain",
+            "text": "It seems that #Bybit spent 100M $USDT to buy 36,893 $ETH at $2,711 from Galaxy Digit"
+          },
+          {
+            "likes": 1363,
+            "account": "lookonchain",
+            "text": "Before the #SEC sued #Binance news reported, @FBGCapital withdrew 35M $USDT from #Bi"
+          },
+          {
+            "likes": 335,
+            "account": "BinanceUS",
+            "text": "The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA"
+          },
+          {
+            "likes": 230,
+            "account": "lookonchain",
+            "text": "The MEV bot jaredfromsubway was exploited for $7.7M!  Including:  1,583.5 $ETH($2.75"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$PENGU",
+      "size": 96,
+      "color": "#48eca0",
+      "glow": 0.45,
+      "mentions": 6,
+      "accounts": 3,
+      "trace": {
+        "why": "6件の言及 / 3アカ / 高エンゲージ計6,046♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 1794,
+            "account": "theunipcs",
+            "text": "make no mistake:  the $PENGU pump should absolutely be celebrated  you should want i"
+          },
+          {
+            "likes": 1744,
+            "account": "DefiIgnas",
+            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
+          },
+          {
+            "likes": 1726,
+            "account": "theunipcs",
+            "text": "$SOL is ripping right now and outperforming $BTC, $ETH, and other majors  which mean"
+          },
+          {
+            "likes": 401,
+            "account": "coingecko",
+            "text": "Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$LINK",
+      "size": 96,
+      "color": "#48eca0",
+      "glow": 0.45,
+      "mentions": 4,
+      "accounts": 2,
+      "trace": {
+        "why": "4件の言及 / 2アカ / 高エンゲージ計10,340♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 3799,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M),  177,928 $LINK("
+          },
+          {
+            "likes": 2772,
+            "account": "lookonchain",
+            "text": "A whale spent 4,806 $ETH($21.25M) to buy 938,489 $LINK across 5 wallets 8 hours ago."
+          },
+          {
+            "likes": 2396,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) is buying $ETH, $LINK and $AAVE!  In the past"
+          },
+          {
+            "likes": 1373,
+            "account": "JasonYanowitz",
+            "text": "If this tweet gets 500 likes, I’ll invite @SergeyNazarov on the podcast.   $LINK mar"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$KINTON",
+      "size": 94,
+      "color": "#48eca0",
+      "glow": 0.42,
+      "mentions": 13,
+      "accounts": 2,
+      "trace": {
+        "why": "13件の言及 / 2アカ / 高エンゲージ計69♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 20,
+            "account": "xvwmuca",
+            "text": "木村 萌那選手 × $Kinton Real Chun-Li リアル春麗 真实的春丽"
+          },
+          {
+            "likes": 15,
+            "account": "xvwmuca",
+            "text": "$TripleT × $Kinton Tung Tung Tung Sahur Japanese PEPE"
+          },
+          {
+            "likes": 12,
+            "account": "JPY_TO_Crypto",
+            "text": "If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc"
+          },
+          {
+            "likes": 12,
+            "account": "JPY_TO_Crypto",
+            "text": "I watch this every day now. You’ve really become a full-fledged TikToker lol $Kinton"
+          },
+          {
+            "likes": 10,
+            "account": "xvwmuca",
+            "text": "7000❤️ $kinton"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$FARTCOIN",
+      "size": 93,
+      "color": "#48eca0",
+      "glow": 0.41,
+      "mentions": 5,
+      "accounts": 3,
+      "trace": {
+        "why": "5件の言及 / 3アカ / 高エンゲージ計5,635♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 2628,
+            "account": "lookonchain",
+            "text": "I've never seen such a smart trader!  A ~$19M profit on $ai16z—a 6,400x return.  An"
+          },
+          {
+            "likes": 2247,
+            "account": "lookonchain",
+            "text": "What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          },
+          {
+            "likes": 299,
+            "account": "theunipcs",
+            "text": "一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外，"
+          },
+          {
+            "likes": 80,
+            "account": "PumpfunEco",
+            "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$UNI",
+      "size": 92,
+      "color": "#48eca0",
+      "glow": 0.4,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計9,189♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 4561,
+            "account": "milesdeutscher",
+            "text": "2023 is shaping up to be a HUGE year for airdrops.  In recent years, people made up"
+          },
+          {
+            "likes": 4399,
+            "account": "lookonchain",
+            "text": "1/ Missed the $ARB airdrop?  We found 6 smart airdrop hunters who have gotten nearly"
+          },
+          {
+            "likes": 229,
+            "account": "lookonchain",
+            "text": "Garrett Jin(@GarrettBullish) has closed his $ZEC long for a $417K profit and his $UN"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$AAVE",
+      "size": 92,
+      "color": "#48eca0",
+      "glow": 0.4,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計9,326♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 3799,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M),  177,928 $LINK("
+          },
+          {
+            "likes": 3131,
+            "account": "zhusu",
+            "text": "If you don't know what season it is wake up and go outside  $ETH $SUSHI $AAVE #DeFi"
+          },
+          {
+            "likes": 2396,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) is buying $ETH, $LINK and $AAVE!  In the past"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$TROLL",
+      "size": 92,
+      "color": "#48eca0",
+      "glow": 0.4,
+      "mentions": 4,
+      "accounts": 2,
+      "trace": {
+        "why": "4件の言及 / 2アカ / 高エンゲージ計8,494♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 4795,
+            "account": "a1lon9",
+            "text": "REAL communities in the pump fun ecosystem are doing unthinkable numbers in these ma"
+          },
+          {
+            "likes": 3324,
+            "account": "a1lon9",
+            "text": "$TROLL is the first time in a long time that we're seeing genuine onboarding into th"
+          },
+          {
+            "likes": 243,
+            "account": "cookerbruski",
+            "text": "similar to the way that $troll ranged for months, when $neet breaks out of accumulat"
+          },
+          {
+            "likes": 132,
+            "account": "cookerbruski",
+            "text": "prayers out to my friend who’s been bullish on $troll coin for the last 5 months jus"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$WBTC",
+      "size": 89,
+      "color": "#48eca0",
+      "glow": 0.36,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計7,783♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 3312,
+            "account": "CryptoHayes",
+            "text": "Here we go ...   1/  Looking at onchain data for $wBTC and $ETH, the liquidations ha"
+          },
+          {
+            "likes": 2701,
+            "account": "lookonchain",
+            "text": "Crazy!  Someone lost 1,155 $WBTC($71M) due to a phishing attack.  How did it happen?"
+          },
+          {
+            "likes": 1770,
+            "account": "lookonchain",
+            "text": "A whale lost 1,155 $WBTC($71M) due to a phishing attack on May 3.  A week later, the"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$KINS",
+      "size": 87,
+      "color": "#48eca0",
+      "glow": 0.34,
+      "mentions": 7,
+      "accounts": 3,
+      "trace": {
+        "why": "7件の言及 / 3アカ / 高エンゲージ計540♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 139,
+            "account": "PumpfunEco",
+            "text": "$KINS is rallying, currently up 28% in 24 hours 👀"
+          },
+          {
+            "likes": 122,
+            "account": "Crypto_Alch",
+            "text": "Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli"
+          },
+          {
+            "likes": 107,
+            "account": "Crypto_Alch",
+            "text": "$KINS making new highs while the greater majority of the market goes to gulag   Incr"
+          },
+          {
+            "likes": 92,
+            "account": "Crypto_Alch",
+            "text": "$KINS player and holder influx is insane   This will be 8 figures faster than most p"
+          },
+          {
+            "likes": 80,
+            "account": "PumpfunEco",
+            "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$MERLIN",
+      "size": 87,
+      "color": "#48eca0",
+      "glow": 0.34,
+      "mentions": 7,
+      "accounts": 2,
+      "trace": {
+        "why": "7件の言及 / 2アカ / 高エンゲージ計2,803♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 1969,
+            "account": "ShapeFN_",
+            "text": "Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin"
+          },
+          {
+            "likes": 406,
+            "account": "ShapeFN_",
+            "text": "People compare $Merlin to $Penguin because both went viral.  I think they're missing"
+          },
+          {
+            "likes": 242,
+            "account": "moonshot",
+            "text": "The Patriotic Duck ($Merlin) is now verified on Moonshot."
+          },
+          {
+            "likes": 108,
+            "account": "ShapeFN_",
+            "text": "Official @FOXSports added $Merlin to their x profile"
+          },
+          {
+            "likes": 78,
+            "account": "ShapeFN_",
+            "text": "DoorDash changed their pic to $Merlin is it time for Merlinfication?"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ENA",
+      "size": 86,
+      "color": "#48eca0",
+      "glow": 0.33,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計6,360♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 3799,
+            "account": "lookonchain",
+            "text": "Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M),  177,928 $LINK("
+          },
+          {
+            "likes": 1801,
+            "account": "lookonchain",
+            "text": "Arthur Hayes(@CryptoHayes) sold 2,373 $ETH($8.32M), 7.76M $ENA($4.62M) and 38.86B $P"
+          },
+          {
+            "likes": 760,
+            "account": "DefiIgnas",
+            "text": "Ok, I'll shill it:  - $BTC: new Gold - $SOL: this cycle's $ETH - $INST: new $PENDLE"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$XRP",
+      "size": 86,
+      "color": "#28e1f2",
+      "glow": 0.33,
+      "mentions": 6,
+      "accounts": 2,
+      "trace": {
+        "why": "6件の言及 / 2アカ / 高エンゲージ計3,243♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 906,
+            "account": "DefiIgnas",
+            "text": "$XRP is 21% away from flipping $ETH in FDV.  $XRP is 2.67 times larger in FDV than $"
+          },
+          {
+            "likes": 738,
+            "account": "CredibleCrypto",
+            "text": "Not much has changed here, still think most logical outcome on $BTC for now is relie"
+          },
+          {
+            "likes": 658,
+            "account": "CredibleCrypto",
+            "text": "Longed some $XRP here, a near identical setup to the one shared on $CRV in the quote"
+          },
+          {
+            "likes": 503,
+            "account": "CredibleCrypto",
+            "text": "Unfortunately nearly fully retraced our move on $XRP on this pullback.  As stops wer"
+          },
+          {
+            "likes": 438,
+            "account": "CredibleCrypto",
+            "text": "SL can now safely be moved to entry at $1.13, making this a risk-free trade.   Targe"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$JOTCHUA",
+      "size": 85,
+      "color": "#48eca0",
+      "glow": 0.31,
+      "mentions": 8,
+      "accounts": 2,
+      "trace": {
+        "why": "8件の言及 / 2アカ / 高エンゲージ計846♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 201,
+            "account": "PumpfunEco",
+            "text": "$Jotchua is rallying, currently up 92% in 24 hours 👀"
+          },
+          {
+            "likes": 186,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 900% since it began trending on pump fun! 🔥"
+          },
+          {
+            "likes": 181,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 49% today! 🔥"
+          },
+          {
+            "likes": 159,
+            "account": "PumpfunEco",
+            "text": "One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥"
+          },
+          {
+            "likes": 119,
+            "account": "Crypto_Alch",
+            "text": "Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ASTER",
+      "size": 85,
+      "color": "#48eca0",
+      "glow": 0.31,
+      "mentions": 4,
+      "accounts": 3,
+      "trace": {
+        "why": "4件の言及 / 3アカ / 高エンゲージ計2,951♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 2125,
+            "account": "theunipcs",
+            "text": "i feel obligated to post an update since many seem to have misunderstood @lookonchai"
+          },
+          {
+            "likes": 410,
+            "account": "lookonchain",
+            "text": "After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER"
+          },
+          {
+            "likes": 209,
+            "account": "bull_bnb",
+            "text": "Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it."
+          },
+          {
+            "likes": 207,
+            "account": "bull_bnb",
+            "text": "Can it now recover my 10/10 losses?  $Aster"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$PNUT",
+      "size": 83,
+      "color": "#48eca0",
+      "glow": 0.29,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計4,542♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 2056,
+            "account": "theunipcs",
+            "text": "i promised to reveal the name and ticker of my latest six-figure leveraged trade onc"
+          },
+          {
+            "likes": 1726,
+            "account": "theunipcs",
+            "text": "$SOL is ripping right now and outperforming $BTC, $ETH, and other majors  which mean"
+          },
+          {
+            "likes": 760,
+            "account": "DefiIgnas",
+            "text": "Ok, I'll shill it:  - $BTC: new Gold - $SOL: this cycle's $ETH - $INST: new $PENDLE"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$BP",
+      "size": 80,
+      "color": "#48eca0",
+      "glow": 0.25,
+      "mentions": 3,
+      "accounts": 3,
+      "trace": {
+        "why": "3件の言及 / 3アカ / 高エンゲージ計1,046♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 742,
+            "account": "coingecko",
+            "text": "INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock."
+          },
+          {
+            "likes": 251,
+            "account": "DefiIgnas",
+            "text": "Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken"
+          },
+          {
+            "likes": 53,
+            "account": "coinkeiba",
+            "text": "これ1.5億くらいの価値あるの？返してくれません？ $BP"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ATOM",
+      "size": 79,
+      "color": "#48eca0",
+      "glow": 0.24,
+      "mentions": 4,
+      "accounts": 2,
+      "trace": {
+        "why": "4件の言及 / 2アカ / 高エンゲージ計1,657♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 760,
+            "account": "DefiIgnas",
+            "text": "Ok, I'll shill it:  - $BTC: new Gold - $SOL: this cycle's $ETH - $INST: new $PENDLE"
+          },
+          {
+            "likes": 717,
+            "account": "DefiIgnas",
+            "text": "My biggest worry for $ETH is that it's the new $ATOM:  - Cosmos chose modular roadma"
+          },
+          {
+            "likes": 98,
+            "account": "DefiIgnas",
+            "text": "Reading replies to the comparison one thing really distinguishes $ETH from $ATOM:  E"
+          },
+          {
+            "likes": 82,
+            "account": "cryptocom",
+            "text": "$ATOM Flash Rewards is now live!  🎉 18% p.a. in rewards for ATOM with Crypto Earn  J"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    }
+  ]
+}
