@@ -29,11 +29,17 @@ const NEWS_FEEDS = [
 ];
 const SUBREDDITS = ["CryptoCurrency", "solana"];
 
+const OFFSET = Number((args.find(a => a.startsWith("--offset=")) || "").split("=")[1] || 0) || 0;
+const COUNT = Number((args.find(a => a.startsWith("--count=")) || "").split("=")[1] || 0) || 0;
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const slug = (s) => (s || "").replace(/[\\/:*?"<>|#\[\]\n]/g, "").replace(/\s+/g, " ").trim().slice(0, 80);
 async function get(url, opts = {}) {
-  const r = await fetch(url, { headers: { "User-Agent": UA, ...(opts.headers || {}) }, ...opts });
-  return opts.json ? r.json() : r.text();
+  const ctrl = new AbortController();
+  const to = setTimeout(() => ctrl.abort(), opts.timeout || 8000);
+  try {
+    const r = await fetch(url, { headers: { "User-Agent": UA, ...(opts.headers || {}) }, signal: ctrl.signal });
+    return opts.json ? r.json() : r.text();
+  } finally { clearTimeout(to); }
 }
 function decode(s) {
   return (s || "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
@@ -69,7 +75,7 @@ const NITTERS = ["https://nitter.net", "https://nitter.poast.org"];
 async function xFromNitter(h) {
   for (const base of NITTERS) {
     try {
-      const xml = await get(`${base}/${h}/rss`);
+      const xml = await get(`${base}/${h}/rss`, { timeout: 6000 });
       if (xml.length < 300 || /<title>.*(error|not found)/i.test(xml.slice(0, 200))) continue;
       const out = [];
       for (const it of parseFeed(xml)) {
@@ -83,7 +89,7 @@ async function xFromNitter(h) {
   return [];
 }
 async function xFromSyndication(h) {
-  const html = await get(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${h}`);
+  const html = await get(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${h}`, { timeout: 8000 });
   if (html.length < 500) return []; // blocked/empty
   let tweets = [];
   const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
@@ -92,12 +98,14 @@ async function xFromSyndication(h) {
   return tweets;
 }
 async function fetchX() {
-  const handles = watchlistHandles();
+  let handles = watchlistHandles();
+  if (COUNT) handles = handles.slice(OFFSET, OFFSET + COUNT); // バッチ処理（cronで分割）
   const items = [];
   for (const h of handles) {
     try {
-      let tweets = await xFromNitter(h);
-      if (!tweets.length) tweets = await xFromSyndication(h);
+      let tweets = await xFromSyndication(h).catch(() => []); // 速い・確実、バーストだけ注意
+      if (!tweets.length) tweets = await xFromNitter(h).catch(() => []); // フォールバック
+      tweets = (tweets || []).slice(0, LIMIT || 25);
       const seen = new Set();
       let n = 0;
       for (const t of tweets) {
