@@ -6,7 +6,7 @@ updated: 2026-06-22
 tags: [trench, watchlist, ingest]
 ---
 
-# 監視アカウント watchlist v2
+# 監視アカウント watchlist v3
 
 [[index]] / 収集(貯める仕組み)の入口。ここに載るアカウントの新規投稿を取り込む。
 **採用基準**: ミームの流れを読む力だけでなく、trench思想を垂れ流す/有益情報を落とすアカウントも価値(=脳の土台)。creator/VC/researcher/podcastも対象([[trench-brain-vision]])。
@@ -72,6 +72,43 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 | [[@jotagezin]] | jg | 12k ✅ | "the cage is all I know" | 中 |
 | [[@ilyunow]] | Ily | 7k ✅ | "delusional meme economist"(旧垢削除) | 中 |
 | [[@ShapeFN_]] | Shape | 1.7k ✅ | "Be the Penguin" 小規模・早期シグナル候補 | 低 |
+
+## 拡張 v3（2026-06-22 追加・有償取得を見据え対象拡大）
+
+### トレンチKOL・トレーダー（追加）
+| handle | 名前 | followers | メモ | weight |
+|---|---|---|---|---|
+| [[@CryptoKaleo]] | Kaleo | 727k ✅ | 大手caller | 高 |
+| [[@HsakaTrades]] | Hsaka | 600k ✅ | 著名トレーダー | 高 |
+| [[@inversebrah]] | smolting (wassie) | 512k ✅ | CTデジェン文化の中心 | 中 |
+| [[@CredibleCrypto]] | CrediBULL | 482k ✅ | TA/トレーダー | 中 |
+| [[@gainzy222]] | gainzy | 329k ✅ | "professional pastry eater" 古参トレンチ | 中 |
+
+### マクロ・外部要因（追加）
+| handle | 名前 | followers | メモ | weight |
+|---|---|---|---|---|
+| [[@cz_binance]] | CZ | 11.6M ✅ | Binance創業。発言が市場全体を動かす最上位ノード | 高 |
+| [[@saylor]] | Michael Saylor | 5.1M ✅ | Strategy/BTC最大級の論者 | 高 |
+| [[@pmarca]] | Marc Andreessen | 4.0M ✅ | a16z創業。tech×政治×crypto | 高 |
+| [[@balajis]] | Balaji | 1.7M ✅ | Network State。思想/マクロ | 高 |
+| [[@RaoulGMI]] | Raoul Pal | 1.4M ✅ | Global Macro/Real Vision | 中 |
+
+### 創業者・VC（追加）
+| handle | 名前 | followers | メモ | weight |
+|---|---|---|---|---|
+| [[@Rewkang]] | Andrew Kang | 421k ✅ | Mechanism Capital創業/トレーダー | 高 |
+| [[@0xngmi]] | 0xngmi | 193k ✅ | DefiLlama創業。データ/DeFi | 中 |
+
+### ニュース・速報（追加）
+| handle | 名前 | followers | メモ | weight |
+|---|---|---|---|---|
+| [[@WatcherGuru]] | Watcher.Guru | 4.3M ✅ | crypto/金融速報の最大級 | 高 |
+| [[@Tree_of_Alpha]] | Tree | 246k ✅ | TreeNewsFeed。超速報/アルファ | 高 |
+
+### ナラティブ源（追加）
+| handle | 名前 | followers | メモ | weight |
+|---|---|---|---|---|
+| [[@shawmakesmagic]] | Shaw | 163k ✅ | ai16z/Eliza。AIエージェント・ナラティブの発生源 | 高 |
 
 ## 未確認・保留
 - [[@0xMert_]] (Mert/Helius CEO) — fxtwitter 404、要再取得。
