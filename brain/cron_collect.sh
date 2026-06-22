@@ -13,7 +13,8 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 
 # 単一枝 main に一本化(2026-06-22 unify)。collect=門付き(watchlist)＝憲法 指針2準拠。
 git pull -q --rebase origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
-python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1
+# tweet収集が失敗しても launch pipeline(track/synth) は止めない(独立)。
+python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1 || echo "collect failed(継続)" >> "$LOG"
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
