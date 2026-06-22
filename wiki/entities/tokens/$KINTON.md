@@ -35,5 +35,8 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: 日本コミュニティ meme。木村萌那×春麗(Chun-Li)、$TripleTと連結した"Japanese PEPE"、TikTok起点（[[jp-meme-cluster]] の核）。
+- **★束ねるメカニクス**: [[@JPY_TO_Crypto]]「2M across $Kinton and $YAJUCOIN unlocks Scan / NFT保有で #KINTONscan 化」＝[[$YAJUCOIN]]との**相互保有ユーティリティ**。$KINTON は単体でなく $YAJUCOIN と連動して動く前提で見る。
+- **動線**: 「$KINTON is going global. I can feel it.」([[@JPY_TO_Crypto]])＝国内→海外の越境が次のカタリスト。海外アカの初言及がシグナル。
+- **⚠️ リスク**: 実質2アカ（[[@xvwmuca]] [[@JPY_TO_Crypto]]）偏在＝薄商い・操作余地。批判/懐疑の声ゼロ＝エコチェンバー。一次裏取り（CA/LP/配分）未確認、ハイβ・rug面内包。confidence=中。
 <!-- synthesis:end -->

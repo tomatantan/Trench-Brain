@@ -30,5 +30,8 @@ posts: 114
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 「スーパーサイクル(supercycle)」説の旗手。本サイクルでも継続主張＝[[majors-rotation-supercycle]] の中核論者。
+- **★⚠️ 逆指標（観測が本人ツイで完結）**: 強気の極み「at least 10 nation-states[がBTC保有予言]」([[zhusu__1486588538267193345]]) → 「I was undeniably wrong about how much crypto could fall from macro contagion」([[zhusu__1485628513826734081]]) → 清算コミュ「communicating with relevant parties...」([[zhusu__1536876343815983104]]) → 吹き飛び自述「wiped out, board broken」([[zhusu__1590189369834758144]])。**煽りの強さ≠的中**を本人の足跡が証明。
+- **判断(外部知識)**: 一般に zhusu = Su Zhu（Three Arrows Capital 共同創業、3ACは2022破綻）。supercycle連呼が最高潮の局面は局所天井の逆指標として括弧書きで監視。
+- 高エンゲージ投稿が思想/ポエム系(「modern romance」39k♥ 等)＝言説の影響力は大きいが、価格予言は逆神たりうる。
 <!-- synthesis:end -->

@@ -35,5 +35,8 @@ accounts: 12
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: メジャー・ローテの「次の king」＝BTC→**ETH**→alt の中継点。多数派KOLがここに資金が来ると位置付ける（[[majors-rotation-supercycle]]）。
+- **強気**: [[@CryptoHayes]]「$ETH to $5k before $SOL to $300」連投・「$ETH=$10,000」、[[@blknoiz06]]「ethereum will never trade below four thousand dollars as long as i live」。
+- **⚠️ 流動の向きで矛盾(時系列で反転)**: [[@milesdeutscher]]「Liquidity is currently flowing back into Ethereum from Solana (SOL bridged 4x)」＝ETH流入論 ⇄ かつてのSOL優位。[[@zhusu]]は2021に「abandoned Ethereum」、本サイクルはETH強気＝**同一人物内でも反転**。事実として両論を残す。
+- **賭け仮説**: ETH-firstはKOLコンセンサスが厚い＝**コンセンサストレード(リターン薄)**。alt号砲の起点（ETHが価格発見で詰まる頃）を計る指標として使う方が価値。confidence=中。
 <!-- synthesis:end -->

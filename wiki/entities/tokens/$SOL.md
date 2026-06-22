@@ -35,5 +35,8 @@ accounts: 8
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: メジャー・ローテでは「ETHの次／alt szn の母艦」。[[@CryptoHayes]]「$ETH to $5k before $SOL to $300」でETHに劣後づけ、自ら「I dumped $SOL, and bot more $ETH」＝SOLを切る側に回る局面も（[[majors-rotation-supercycle]]）。
+- **⚠️ 強弱衝突**: [[@milesdeutscher]]「liquidity flowing back into Ethereum from Solana (4x bridged)」＝SOL流出論 ⇄ 「Solana created thousands of new millionaires（でも"もう早くない"）」。[[@CryptoHayes]]も「bot $SOL, I know its a Sam-coin」と自虐つき強気＝一方向でない。
+- **meme母艦面**: 共起が [[$USELESS]]/[[$WIF]]/[[$BONK]]/[[$PENGU]] ＝SOL上 meme の温床。半面 [[@lookonchain]] が $LIBRA/$MELANIA インサイダーの資金洗浄疑いを観測＝**祭りの裏のインサイダー**も同じ土俵。
+- **賭け仮説**: メジャーとしてはETHにコンセンサスを譲りがち。SOLの妙味は「上に乗る meme/alt の母艦」としての β。SOL単体より[[jp-meme-cluster]]や政治meme等、上モノの回転で追う。confidence=中。
 <!-- synthesis:end -->

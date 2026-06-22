@@ -35,5 +35,9 @@ accounts: 6
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: Trump就任(2025/1/20)発の**政治 meme**。[[external-event-to-token-pattern]] の「政治/要人サブ型」の代表。
+- **点火**: [[@frankdegods]]「Trump just retweeted his $TRUMP tweet」＝本人RTで着火。[[@milesdeutscher]]「the craziest thing I've seen in my 6 years in crypto」。史上級の新規動員。
+- **⚠️ 通過後にgrift認定で急落**: [[@DefiIgnas]]「MELANIA to $0 $TRUMP to $0... taken for fools」「the team are grifters」、[[@milesdeutscher]]「Instead we got $TRUMP coin and tariffs. Nice」。
+- **定着しない/インサイダー有利**: [[@hosseeb]]「<1% of users who bought TRUMP/MELANIA via Moonshot do anything else on-chain」。[[@lookonchain]] が teamウォレットの大量入金($178.9M)・Ansem($6.83M損切り)・$LIBRA/$MELANIA洗浄疑いを観測。
+- **賭け仮説**: 政治meme＝「点火は最大・定着ゼロ・インサイダー有利」。イベント前後の祭りを取り、通過後は早く降りる。RWA発(機関フロー継続)とは賞味期限の構造が違う。confidence=中。
 <!-- synthesis:end -->
