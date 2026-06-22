@@ -30,5 +30,9 @@ posts: 108
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: [[$BONK]] maxi（「$16,000→$18M upnl on a single $BONK」自称）＋ memecoin超強気の旗手。「stop buying memecoins. invest in utility... utility project:（空）」＝**anti-utility のmemeネイティブ思想**。
+- **★perp-OIシグナル論**: [[$USELESS]] の perp OI（Lighter/Binance）が「OI-to-market-cap比で全memより高い」「$DOGE/$SHIB/$PEPE/$BONK/$PENGU/$WIF を超える」＝2023 $PEPE型パラの前兆と主張。**物語の前に板（数字）で先回り**する流派（[[onchain-verification]] の板シグナル変種）。
+- **⚠️**: OIは venue次第で予測力に差（[[@thedefiedge]]）。本人は確信過剰/ポエム系ツイも多い＝煽り強度に注意。
+- **ローテとの整合**: 「memecoins about to absolutely turbo send」系＝[[majors-rotation-supercycle]] の "alt-now" 軸（早撃ち派）。
+- **賭け仮説**: $BONK系/$USELESS の perp OI を先回り指標として監視。ただしOI単独でなく言説・資金移動と合わせて検算。
 <!-- synthesis:end -->

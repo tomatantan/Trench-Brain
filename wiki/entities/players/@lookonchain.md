@@ -30,5 +30,9 @@ posts: 121
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: trench の「観測装置」。whale/team/インサイダーの**実際の資金移動を時刻付きで報告**＝KOL言説の裏取り装置（[[onchain-verification]] の中核計器）。
+- **言説の検証**: [[@CryptoHayes]] の ETH 売り→買い戻しを追跡、Ansem([[@blknoiz06]])「$TRUMP $6.83M損切り」、Trump World Liberty「$210M買い→$1,465売り＝高値掴み」、Vitalik「3,000 $ETH売り」。＝言とポジの一致/乖離を可視化。
+- **危険検出**: MrBeast インサイダー($23M / $SUPER・$ERN)、$LIBRA/$MELANIA「laundering（POPE wash）」、W杯賭けリング（3 wallet→同一Binance）、$TRUMP team「$455M を Binance入金」＝grift/協調の一次警告。
+- **⚠️ 限界**: 「insider/laundering」認定は wallet紐付けに基づく**推定**を含む＝**移動(観測)** と **意図(断定)** は別物。本wikiは移動を事実、意図ラベルは判断として分離引用。
+- **賭け仮説**: 言説と資金の乖離を最初に捉える＝危険警告の一次ソース。物語に張る前にここで検算する。
 <!-- synthesis:end -->

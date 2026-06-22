@@ -35,5 +35,10 @@ accounts: 12
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: trench の最上流アンカー。[[majors-rotation-supercycle]]（BTC→ETH→alt）の起点＝ここが動いて初めて下流が回る。
+- **マクロ駆動(QT→QE)**: [[@CryptoHayes]]「QT is over. Back up the truck and buy everything」「$BTC hits $110k before $76.5k retest. Fed going QT to QE」「money printing is the only answer. BTC dom 70%」＝Fed政策を最上流レバーに置く。
+- **サイクル論**: [[@milesdeutscher]]「BTC年足: down 2014/2018/2022（4年周期）」「$BTC de-correlating from prior cycles」「$100k超でも retail関心は3年来最低」(Coinbase app ranking を代理指標に)。
+- **⚠️ 強弱衝突**: [[@zhusu]]「Dormancy flow buy signal, only six times in history」(強気) ⇄ 本人「I was undeniably wrong about how much crypto could fall from macro contagion」(前回の誤り)。強気サイクル論は zhusu型の逆指標リスクと常に併記。
+- **オンチェーン警告**: [[@lookonchain]]「BTC OG 80,009 $BTC($8.69B) woke after 14yr dormancy」＝潜在売り圧（[[onchain-verification]]）。
+- **賭け仮説**: Fed(QT/QE転換)と BTC dominance が alt ローテの号砲タイミングを決める最上流。BTC単体より「いつ下流に水が落ちるか」の時計として見る。
 <!-- synthesis:end -->

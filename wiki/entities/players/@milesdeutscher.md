@@ -30,5 +30,9 @@ posts: 115
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: マクロ/サイクルの解説者。[[$BTC]]「年足 down 2014/2018/2022（4年周期）」「de-correlating from prior cycles」、retail関心を「Coinbase app store ranking」で代理する観測派。
+- **ローテのタイミング慎重派**: 「Let ETH remain the king... trigger a bigger altcoin rotation once it nears its peak」「You don't want a rotation too early」＝早撃ち alt に警告（[[majors-rotation-supercycle]] の慎重軸。[[@theunipcs]] の alt-now と対）。
+- **歴史記録者**: 「Free Su Zhu」「SBF once admired as king of crypto → FTX崩壊」「biggest leverage reset in crypto history」「millionaires are created in bear markets」＝前サイクルの破綻を淡々と記録（[[@zhusu]]/3AC文脈の一次記録）。
+- **⚠️ 両面**: 強気サイクルの旗手だが「alt underperforming の #1 理由（トークン供給希釈）」も指摘＝強弱を併せ持つ。
+- **賭け仮説**: ローテ号砲の**タイミング目安**として有用（ETHピーク接近＝alt回転の合図）。煽りでなく観測寄りで逆神リスクは相対的に低い。
 <!-- synthesis:end -->

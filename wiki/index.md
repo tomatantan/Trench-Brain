@@ -22,6 +22,7 @@
 - [[spacex-ipo-narrative]] — ★動線: SpaceX IPO → [[$SPCX]]/[[$ASTEROID]]
 - [[majors-rotation-supercycle]] — ★動線: メジャー・ローテ（BTC→ETH→alt）/スーパーサイクル説（⚠️zhusu逆指標）
 - [[jp-meme-cluster]] — ★型: 日本コミュ meme クラスタ（[[$KINTON]]×[[$YAJUCOIN]] 相互保有で束ねる）
+- [[onchain-verification]] — ★型: オンチェーン裏取り（言説 vs 実際の資金。[[@lookonchain]]＝検証装置／perp OIで先回り）
 
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。
