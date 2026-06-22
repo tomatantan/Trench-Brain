@@ -4,17 +4,17 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 16
-accounts: 12
+mentions: 19
+accounts: 14
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 16件 / 12アカ。
+> 自動生成(brain/build_entities.py)。言及 19件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@coinkeiba]] [[@cryptocom]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
+[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@WatcherGuru]] [[@coinkeiba]] [[@cryptocom]] [[@lookonchain]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
 
 ## 共起トークン
 [[$SPCXON]] [[$SPCXX]] [[$USDT]] [[$SPCS]] [[$ASTEROID]] [[$DOGE]] [[$USELESS]] [[$TSLA]]
@@ -22,6 +22,7 @@ accounts: 12
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
+| 6,182 | [[@WatcherGuru]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 278 | [[@CryptoHayes]] | $SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive? | [[CryptoHayes__2064196537908085090]] |
 | 259 | [[@CryptoHayes]] | Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market? | [[CryptoHayes__2065237665440804899]] |
@@ -30,8 +31,7 @@ accounts: 12
 | 176 | [[@MEXC]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
 | 139 | [[@cryptocom]] | Earn 4% p.a. on the SpaceX ($SPCX) tokenized stock with a flexible term.   A first f | [[cryptocom__2067548618341384397]] |
 | 118 | [[@DefiIgnas]] | $SPCX Open Interest:  - Binance: $312.8M - Hyperliquid: $309.0M - Variational: $15.6 | [[DefiIgnas__2065455392646201375]] |
-| 107 | [[@solbrdl]] | Imagine if $SPCX goes on a Tesla run. Before stock split, Tesla went from like $200  | [[solbrdl__2066784174246117740]] |
-| 107 | [[@coinkeiba]] | $SPCX 買わずに淡々と $TSLA 集めてる🚘 | [[coinkeiba__2067223580837106022]] |
+| 114 | [[@lookonchain]] | SpaceX ($SPCX) is dumping.  Whale 0x519c, who is long $SPCX, is now down nearly $1.2 | [[lookonchain__2069075414069428266]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

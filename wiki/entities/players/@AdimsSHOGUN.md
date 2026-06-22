@@ -4,15 +4,15 @@ kind: player
 title: @AdimsSHOGUN
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 6
+posts: 7
 ---
 
 # @AdimsSHOGUN
 
-> 自動生成。信号投稿 6件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MU]](1)
+[[$MU]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -22,6 +22,7 @@ posts: 6
 | 9 |  | BREAKING 📣 solana:BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy 🎒 サタデーナイトフィーバーATH🥳⤴️ | [[AdimsSHOGUN__2068328625028694017]] |
 | 3 |  | solana:BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy 🎒 流石にそろそろ一旦天井だろなんか1hWトップっぽいし ... | [[AdimsSHOGUN__2068508710239162578]] |
 | 2 | [[$MU]] | みんな大好き $MU Micron  前回2026/3/18の決算では、約2wかけて約35%DOWN⤵️ dRSIは30台前半へ  6/24の決算で落ちたら拾いたいです | [[AdimsSHOGUN__2068533288885772565]] |
+| 2 | [[$MU]] | Backpackに $MU Micronキタぁ👀‼️ RWAトークン化株式でAIブームにガッツリ乗って行く🌊🏄🎒🔥 | [[AdimsSHOGUN__2069059485990269147]] |
 | 2 |  | BREAKING 📣 solana:BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy @Backpack 🎒 MCでMXとEDG | [[AdimsSHOGUN__2068331202365538773]] |
 
 <!-- synthesis:start -->

@@ -4,12 +4,12 @@ kind: player
 title: @cryptocom
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 16
+posts: 19
 ---
 
 # @cryptocom
 
-> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$ATOM]](1) [[$SPCX]](1) [[$AERGO]](1) [[$HPP]](1)
@@ -26,7 +26,7 @@ posts: 16
 | 283 |  | The holy trinity of doing nothing: sleep, DCA, passive income | [[cryptocom__2068336826436223219]] |
 | 239 |  | I invest because _______________ | [[cryptocom__2067249657613303988]] |
 | 205 |  | What’s the best money advice your dad ever gave you? | [[cryptocom__2068700467304026120]] |
-| 150 |  | Choose your source wisely | [[cryptocom__2068412318354903454]] |
+| 155 |  | Native USDC, EURC, and CCTP are coming to @CronosApp!  In partnership with @Circle,  | [[cryptocom__2069052661534527755]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

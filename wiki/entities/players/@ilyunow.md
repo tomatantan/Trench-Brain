@@ -4,12 +4,12 @@ kind: player
 title: @ilyunow
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 7
+posts: 8
 ---
 
 # @ilyunow
 
-> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,6 +22,7 @@ posts: 7
 | 73 |  | **dream_bigger** | [[ilyunow__2068309761003803120]] |
 | 33 |  | adin called the top, lacy will call the bottom. | [[ilyunow__2059778931801116985]] |
 | 32 |  | do you still remember? | [[ilyunow__2068668759435534738]] |
+| 31 |  | some of yall need to study memetics because you clearly don’t get shit | [[ilyunow__2069086693014266079]] |
 | 27 |  | cats cats dog cats cats | [[ilyunow__2067278118843462008]] |
 | 22 |  | these local mini pancakes in japan are so fire | [[ilyunow__2065755684743037165]] |
 

@@ -4,12 +4,12 @@ kind: player
 title: @CoinbaseMarkets
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 28
 ---
 
 # @CoinbaseMarkets
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 28件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -24,9 +24,9 @@ posts: 20
 | 213 |  | Our O-USD trading pair will now enter auction mode. Customers can post limit orders  | [[CoinbaseMarkets__2067272550418206920]] |
 | 153 |  | Assets added to the roadmap today: Cap (CAP) | [[CoinbaseMarkets__2067685345869578709]] |
 | 148 |  | We’re bringing trading volume back to America.  All of our exchanges → a single, glo | [[CoinbaseMarkets__2066982694685204760]] |
+| 113 |  | We will add support for Anthropic and OpenAI pre-IPO perpetual futures on Coinbase.  | [[CoinbaseMarkets__2069007675245887517]] |
+| 113 |  | Spot trading for Arcium (ARX) will go live on 22 June 2026. The opening of our ARX-U | [[CoinbaseMarkets__2069021153486598583]] |
 | 83 |  | Anthropic and OpenAI pre-IPO perps are coming. | [[CoinbaseMarkets__2066967972489429183]] |
-| 79 |  | Berachain (BERA) is now available to New York residents on coinbase․com & in the Coi | [[CoinbaseMarkets__2067291420801540388]] |
-| 73 |  | Coinbase will add support for Re (RE). You can now generate a deposit address for RE | [[CoinbaseMarkets__2067277447196811481]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

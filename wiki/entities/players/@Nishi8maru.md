@@ -4,12 +4,12 @@ kind: player
 title: @Nishi8maru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 7
+posts: 8
 ---
 
 # @Nishi8maru
 
-> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,6 +17,7 @@ posts: 7
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 37 |  | 6万５千ドル台 清算クラスター動くか？ | [[Nishi8maru__2069058002284663208]] |
 | 31 |  | 内部環境だけで作ったデータによる過熱モニターだけど、結構うまく機能してるわ | [[Nishi8maru__2068307585238020116]] |
 | 23 |  | 蒼鳥（@Nishi8mAlert ）に新作を出しました。 米国債利回りに対して、USDCの利回りがどの程度あるのかプロ向けの指標です。 | [[Nishi8maru__2068348011101802892]] |
 | 20 |  | 日本最大級の取引量があるICHIZEN（暗号資産運用会社）のオフィスにいって、空気読めないNISHIはガンガンアンチ質問してきました。 | [[Nishi8maru__2067570576613605551]] |

@@ -49,6 +49,49 @@
       }
     },
     {
+      "type": "MEME",
+      "title": "$STRC",
+      "size": 130,
+      "color": "#48eca0",
+      "glow": 0.93,
+      "mentions": 9,
+      "accounts": 4,
+      "trace": {
+        "why": "9件の言及 / 4アカ / 高エンゲージ計20,058♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 12088,
+            "account": "saylor",
+            "text": "Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to"
+          },
+          {
+            "likes": 4824,
+            "account": "saylor",
+            "text": "The hardest thing in business is not seeing the future. It is surviving long enough"
+          },
+          {
+            "likes": 2750,
+            "account": "saylor",
+            "text": "$STRC now pays dividends twice per month.  What is the clearest way to describe this"
+          },
+          {
+            "likes": 245,
+            "account": "CryptoKaleo",
+            "text": "There’s a much higher chance $STRC never returns to $100 than anyone gives it credit"
+          },
+          {
+            "likes": 151,
+            "account": "CryptoKaleo",
+            "text": "“Absolute power corrupts absolutely”  In 2022, Strategy was completely different str"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
       "type": "WORLD",
       "title": "$TRUMP",
       "size": 130,
@@ -102,16 +145,21 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 98,
-      "accounts": 12,
+      "mentions": 105,
+      "accounts": 13,
       "trace": {
-        "why": "98件の言及 / 12アカ / 高エンゲージ計48,292♥",
-        "accounts_n": 12,
+        "why": "105件の言及 / 13アカ / 高エンゲージ計53,051♥",
+        "accounts_n": 13,
         "top": [
           {
             "likes": 13315,
             "account": "milesdeutscher",
             "text": "$BTC in March: $71k Coinbase app store ranking: 20  $BTC now: $71k Coinbase app stor"
+          },
+          {
+            "likes": 12088,
+            "account": "saylor",
+            "text": "Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to"
           },
           {
             "likes": 10391,
@@ -127,11 +175,6 @@
             "likes": 7441,
             "account": "milesdeutscher",
             "text": "$BTC is above $100k but retail interest is the lowest it's been in 3 years."
-          },
-          {
-            "likes": 7329,
-            "account": "zhusu",
-            "text": "Dormancy flow buy signal on $BTC, very rare, only six times in history"
           }
         ],
         "causal": [
@@ -148,10 +191,10 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 33,
+      "mentions": 34,
       "accounts": 8,
       "trace": {
-        "why": "33件の言及 / 8アカ / 高エンゲージ計32,543♥",
+        "why": "34件の言及 / 8アカ / 高エンゲージ計32,543♥",
         "accounts_n": 8,
         "top": [
           {
@@ -194,11 +237,11 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 102,
-      "accounts": 12,
+      "mentions": 107,
+      "accounts": 13,
       "trace": {
-        "why": "102件の言及 / 12アカ / 高エンゲージ計29,737♥",
-        "accounts_n": 12,
+        "why": "107件の言及 / 13アカ / 高エンゲージ計29,737♥",
+        "accounts_n": 13,
         "top": [
           {
             "likes": 7875,
@@ -329,12 +372,17 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 16,
-      "accounts": 12,
+      "mentions": 19,
+      "accounts": 14,
       "trace": {
-        "why": "16件の言及 / 12アカ / 高エンゲージ計1,346♥",
-        "accounts_n": 12,
+        "why": "19件の言及 / 14アカ / 高エンゲージ計7,337♥",
+        "accounts_n": 14,
         "top": [
+          {
+            "likes": 6182,
+            "account": "WatcherGuru",
+            "text": "JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma"
+          },
           {
             "likes": 390,
             "account": "theunipcs",
@@ -354,11 +402,6 @@
             "likes": 228,
             "account": "DefiIgnas",
             "text": "Crypto PTSD tells me $SPCX will end up as crypto hyped low-float/high-FDV token laun"
-          },
-          {
-            "likes": 191,
-            "account": "theunipcs",
-            "text": "i'm objectively curious:  is a $2.6 trillion valuation too high for SpaceX / $SPCX?"
           }
         ],
         "causal": [
@@ -375,11 +418,11 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 15,
-      "accounts": 9,
+      "mentions": 17,
+      "accounts": 10,
       "trace": {
-        "why": "15件の言及 / 9アカ / 高エンゲージ計9,256♥",
-        "accounts_n": 9,
+        "why": "17件の言及 / 10アカ / 高エンゲージ計9,256♥",
+        "accounts_n": 10,
         "top": [
           {
             "likes": 3332,
@@ -543,6 +586,39 @@
       }
     },
     {
+      "type": "MEME",
+      "title": "$MSTR",
+      "size": 114,
+      "color": "#48eca0",
+      "glow": 0.68,
+      "mentions": 3,
+      "accounts": 2,
+      "trace": {
+        "why": "3件の言及 / 2アカ / 高エンゲージ計32,162♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 19943,
+            "account": "saylor",
+            "text": "When I gave this speech in October 2022, Bitcoin traded near $20,000, Strategy held"
+          },
+          {
+            "likes": 12088,
+            "account": "saylor",
+            "text": "Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to"
+          },
+          {
+            "likes": 131,
+            "account": "CryptoKaleo",
+            "text": "Saylor and Strategy are finally admitting cash is their new priority, as it should b"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
       "type": "WORLD",
       "title": "$WIF",
       "size": 114,
@@ -633,13 +709,13 @@
     {
       "type": "MEME",
       "title": "$WOJAK",
-      "size": 108,
+      "size": 112,
       "color": "#48eca0",
-      "glow": 0.6,
-      "mentions": 11,
+      "glow": 0.65,
+      "mentions": 13,
       "accounts": 5,
       "trace": {
-        "why": "11件の言及 / 5アカ / 高エンゲージ計3,204♥",
+        "why": "13件の言及 / 5アカ / 高エンゲージ計3,204♥",
         "accounts_n": 5,
         "top": [
           {
@@ -674,46 +750,49 @@
       }
     },
     {
-      "type": "MEME",
-      "title": "$STRC",
+      "type": "WORLD",
+      "title": "$ASTEROID",
       "size": 106,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.57,
-      "mentions": 7,
-      "accounts": 4,
+      "mentions": 18,
+      "accounts": 2,
       "trace": {
-        "why": "7件の言及 / 4アカ / 高エンゲージ計8,034♥",
-        "accounts_n": 4,
+        "why": "18件の言及 / 2アカ / 高エンゲージ計1,009♥",
+        "accounts_n": 2,
         "top": [
           {
-            "likes": 4824,
-            "account": "saylor",
-            "text": "The hardest thing in business is not seeing the future. It is surviving long enough"
+            "likes": 248,
+            "account": "Crypto_Alch",
+            "text": "$ASTEROID just 2x in a single fvcking candle   Did you faded?"
           },
           {
-            "likes": 2750,
-            "account": "saylor",
-            "text": "$STRC now pays dividends twice per month.  What is the clearest way to describe this"
+            "likes": 220,
+            "account": "solbrdl",
+            "text": "Do people realize $ASTEROID was ACTUALLY on stage at SpaceX IPO?"
           },
           {
-            "likes": 245,
-            "account": "CryptoKaleo",
-            "text": "There’s a much higher chance $STRC never returns to $100 than anyone gives it credit"
+            "likes": 198,
+            "account": "solbrdl",
+            "text": "It’s literally confirmed in the URL of the SpaceX $ASTEROID  \"spacex-asteroid-mascot"
           },
           {
-            "likes": 151,
-            "account": "CryptoKaleo",
-            "text": "“Absolute power corrupts absolutely”  In 2022, Strategy was completely different str"
+            "likes": 180,
+            "account": "solbrdl",
+            "text": "Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th"
           },
           {
-            "likes": 64,
-            "account": "CryptoKaleo",
-            "text": "$STRC isn’t the first multi-billion dollar cash like preferred instrument to exist."
+            "likes": 163,
+            "account": "solbrdl",
+            "text": "In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
+          "型 — 外部イベント → token（二股: RWA と meme）"
+        ],
+        "confidence": "低〜中",
+        "synthesized": true
       }
     },
     {
@@ -757,52 +836,6 @@
         "causal": [],
         "confidence": "—",
         "synthesized": false
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$ASTEROID",
-      "size": 104,
-      "color": "#ff4ba8",
-      "glow": 0.55,
-      "mentions": 17,
-      "accounts": 2,
-      "trace": {
-        "why": "17件の言及 / 2アカ / 高エンゲージ計1,009♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 248,
-            "account": "Crypto_Alch",
-            "text": "$ASTEROID just 2x in a single fvcking candle   Did you faded?"
-          },
-          {
-            "likes": 220,
-            "account": "solbrdl",
-            "text": "Do people realize $ASTEROID was ACTUALLY on stage at SpaceX IPO?"
-          },
-          {
-            "likes": 198,
-            "account": "solbrdl",
-            "text": "It’s literally confirmed in the URL of the SpaceX $ASTEROID  \"spacex-asteroid-mascot"
-          },
-          {
-            "likes": 180,
-            "account": "solbrdl",
-            "text": "Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th"
-          },
-          {
-            "likes": 163,
-            "account": "solbrdl",
-            "text": "In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea"
-          }
-        ],
-        "causal": [
-          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
-          "型 — 外部イベント → token（二股: RWA と meme）"
-        ],
-        "confidence": "低〜中",
-        "synthesized": true
       }
     },
     {
@@ -1104,6 +1137,52 @@
     },
     {
       "type": "WORLD",
+      "title": "$FARTCOIN",
+      "size": 95,
+      "color": "#ff4ba8",
+      "glow": 0.44,
+      "mentions": 6,
+      "accounts": 3,
+      "trace": {
+        "why": "6件の言及 / 3アカ / 高エンゲージ計5,657♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 2628,
+            "account": "lookonchain",
+            "text": "I've never seen such a smart trader!  A ~$19M profit on $ai16z—a 6,400x return.  An"
+          },
+          {
+            "likes": 2247,
+            "account": "lookonchain",
+            "text": "What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          },
+          {
+            "likes": 299,
+            "account": "theunipcs",
+            "text": "一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外，"
+          },
+          {
+            "likes": 102,
+            "account": "PumpfunEco",
+            "text": "Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG"
+          }
+        ],
+        "causal": [
+          "型 — AI-meme（トークン＝自律エージェントの配布層）",
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "WORLD",
       "title": "$KINTON",
       "size": 94,
       "color": "#ff4ba8",
@@ -1144,52 +1223,6 @@
           "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
         ],
         "confidence": "中",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$FARTCOIN",
-      "size": 93,
-      "color": "#ff4ba8",
-      "glow": 0.41,
-      "mentions": 5,
-      "accounts": 3,
-      "trace": {
-        "why": "5件の言及 / 3アカ / 高エンゲージ計5,635♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 2628,
-            "account": "lookonchain",
-            "text": "I've never seen such a smart trader!  A ~$19M profit on $ai16z—a 6,400x return.  An"
-          },
-          {
-            "likes": 2247,
-            "account": "lookonchain",
-            "text": "What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $"
-          },
-          {
-            "likes": 381,
-            "account": "theunipcs",
-            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
-          },
-          {
-            "likes": 299,
-            "account": "theunipcs",
-            "text": "一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外，"
-          },
-          {
-            "likes": 80,
-            "account": "PumpfunEco",
-            "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
-          }
-        ],
-        "causal": [
-          "型 — AI-meme（トークン＝自律エージェントの配布層）",
-          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
-        ],
-        "confidence": "—",
         "synthesized": true
       }
     },
@@ -1298,6 +1331,96 @@
       }
     },
     {
+      "type": "WORLD",
+      "title": "$JOTCHUA",
+      "size": 91,
+      "color": "#ff4ba8",
+      "glow": 0.39,
+      "mentions": 11,
+      "accounts": 2,
+      "trace": {
+        "why": "11件の言及 / 2アカ / 高エンゲージ計846♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 201,
+            "account": "PumpfunEco",
+            "text": "$Jotchua is rallying, currently up 92% in 24 hours 👀"
+          },
+          {
+            "likes": 186,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 900% since it began trending on pump fun! 🔥"
+          },
+          {
+            "likes": 181,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 49% today! 🔥"
+          },
+          {
+            "likes": 159,
+            "account": "PumpfunEco",
+            "text": "One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥"
+          },
+          {
+            "likes": 119,
+            "account": "Crypto_Alch",
+            "text": "Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a"
+          }
+        ],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$KINS",
+      "size": 91,
+      "color": "#ff4ba8",
+      "glow": 0.39,
+      "mentions": 9,
+      "accounts": 3,
+      "trace": {
+        "why": "9件の言及 / 3アカ / 高エンゲージ計582♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 139,
+            "account": "PumpfunEco",
+            "text": "$KINS is rallying, currently up 28% in 24 hours 👀"
+          },
+          {
+            "likes": 122,
+            "account": "Crypto_Alch",
+            "text": "Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli"
+          },
+          {
+            "likes": 112,
+            "account": "Crypto_Alch",
+            "text": "Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI"
+          },
+          {
+            "likes": 107,
+            "account": "Crypto_Alch",
+            "text": "$KINS making new highs while the greater majority of the market goes to gulag   Incr"
+          },
+          {
+            "likes": 102,
+            "account": "PumpfunEco",
+            "text": "Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG"
+          }
+        ],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
       "type": "MEME",
       "title": "$WBTC",
       "size": 89,
@@ -1331,48 +1454,91 @@
       }
     },
     {
-      "type": "WORLD",
-      "title": "$KINS",
-      "size": 87,
-      "color": "#ff4ba8",
-      "glow": 0.34,
+      "type": "MEME",
+      "title": "$SOLANGELES",
+      "size": 88,
+      "color": "#48eca0",
+      "glow": 0.35,
       "mentions": 7,
       "accounts": 3,
       "trace": {
-        "why": "7件の言及 / 3アカ / 高エンゲージ計540♥",
+        "why": "7件の言及 / 3アカ / 高エンゲージ計1,028♥",
         "accounts_n": 3,
         "top": [
           {
-            "likes": 139,
+            "likes": 463,
+            "account": "moonshot",
+            "text": "Live from SolAngeles TV, we're giving away $5,000 in $SOLANGELES   20 winners will e"
+          },
+          {
+            "likes": 173,
             "account": "PumpfunEco",
-            "text": "$KINS is rallying, currently up 28% in 24 hours 👀"
+            "text": "$SOLANGELES has pumped 100% since it began trending on pump fun! 🔥"
           },
           {
-            "likes": 122,
+            "likes": 144,
             "account": "Crypto_Alch",
-            "text": "Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli"
+            "text": "When do they pull the bundle?  Top $SOLANGELES holder has 35% supply   Fascinating s"
           },
           {
-            "likes": 107,
-            "account": "Crypto_Alch",
-            "text": "$KINS making new highs while the greater majority of the market goes to gulag   Incr"
-          },
-          {
-            "likes": 92,
-            "account": "Crypto_Alch",
-            "text": "$KINS player and holder influx is insane   This will be 8 figures faster than most p"
-          },
-          {
-            "likes": 80,
+            "likes": 140,
             "account": "PumpfunEco",
-            "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
+            "text": "$SOLANGELES has pumped 200% since it began trending on pump fun! 🔥"
+          },
+          {
+            "likes": 108,
+            "account": "PumpfunEco",
+            "text": "This trader is up $21,600 after buying $250 worth of $SOLANGELES   They gained an 87"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$ASTER",
+      "size": 88,
+      "color": "#ff4ba8",
+      "glow": 0.35,
+      "mentions": 5,
+      "accounts": 3,
+      "trace": {
+        "why": "5件の言及 / 3アカ / 高エンゲージ計3,018♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 2125,
+            "account": "theunipcs",
+            "text": "i feel obligated to post an update since many seem to have misunderstood @lookonchai"
+          },
+          {
+            "likes": 410,
+            "account": "lookonchain",
+            "text": "After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER"
+          },
+          {
+            "likes": 209,
+            "account": "bull_bnb",
+            "text": "Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it."
+          },
+          {
+            "likes": 207,
+            "account": "bull_bnb",
+            "text": "Can it now recover my 10/10 losses?  $Aster"
+          },
+          {
+            "likes": 67,
+            "account": "bull_bnb",
+            "text": "Is the buybacks still in the room with us?  $Aster boi you were suppose to moon inst"
           }
         ],
         "causal": [
-          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+          "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）"
         ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -1452,6 +1618,44 @@
       }
     },
     {
+      "type": "MEME",
+      "title": "$BP",
+      "size": 86,
+      "color": "#48eca0",
+      "glow": 0.33,
+      "mentions": 4,
+      "accounts": 4,
+      "trace": {
+        "why": "4件の言及 / 4アカ / 高エンゲージ計1,065♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 742,
+            "account": "coingecko",
+            "text": "INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock."
+          },
+          {
+            "likes": 251,
+            "account": "DefiIgnas",
+            "text": "Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken"
+          },
+          {
+            "likes": 53,
+            "account": "coinkeiba",
+            "text": "これ1.5億くらいの価値あるの？返してくれません？ $BP"
+          },
+          {
+            "likes": 19,
+            "account": "DEG_2020",
+            "text": "Backpackの $BP エアドロ大化けしたなぁ ボロッカスに言われてたけど、2年使って愛着ある取引所ってことで全部ステーキングして良かったよ @Backpack"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": false
+      }
+    },
+    {
       "type": "MACRO",
       "title": "$XRP",
       "size": 86,
@@ -1493,203 +1697,35 @@
         "confidence": "—",
         "synthesized": false
       }
-    },
-    {
-      "type": "WORLD",
-      "title": "$JOTCHUA",
-      "size": 85,
-      "color": "#ff4ba8",
-      "glow": 0.31,
-      "mentions": 8,
-      "accounts": 2,
-      "trace": {
-        "why": "8件の言及 / 2アカ / 高エンゲージ計846♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 201,
-            "account": "PumpfunEco",
-            "text": "$Jotchua is rallying, currently up 92% in 24 hours 👀"
-          },
-          {
-            "likes": 186,
-            "account": "PumpfunEco",
-            "text": "$Jotchua has pumped 900% since it began trending on pump fun! 🔥"
-          },
-          {
-            "likes": 181,
-            "account": "PumpfunEco",
-            "text": "$Jotchua has pumped 49% today! 🔥"
-          },
-          {
-            "likes": 159,
-            "account": "PumpfunEco",
-            "text": "One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥"
-          },
-          {
-            "likes": 119,
-            "account": "Crypto_Alch",
-            "text": "Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a"
-          }
-        ],
-        "causal": [
-          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
-        ],
-        "confidence": "—",
-        "synthesized": false
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$ASTER",
-      "size": 85,
-      "color": "#ff4ba8",
-      "glow": 0.31,
-      "mentions": 4,
-      "accounts": 3,
-      "trace": {
-        "why": "4件の言及 / 3アカ / 高エンゲージ計2,951♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 2125,
-            "account": "theunipcs",
-            "text": "i feel obligated to post an update since many seem to have misunderstood @lookonchai"
-          },
-          {
-            "likes": 410,
-            "account": "lookonchain",
-            "text": "After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER"
-          },
-          {
-            "likes": 209,
-            "account": "bull_bnb",
-            "text": "Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it."
-          },
-          {
-            "likes": 207,
-            "account": "bull_bnb",
-            "text": "Can it now recover my 10/10 losses?  $Aster"
-          }
-        ],
-        "causal": [
-          "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）"
-        ],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$PNUT",
-      "size": 83,
-      "color": "#48eca0",
-      "glow": 0.29,
-      "mentions": 3,
-      "accounts": 2,
-      "trace": {
-        "why": "3件の言及 / 2アカ / 高エンゲージ計4,542♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 2056,
-            "account": "theunipcs",
-            "text": "i promised to reveal the name and ticker of my latest six-figure leveraged trade onc"
-          },
-          {
-            "likes": 1726,
-            "account": "theunipcs",
-            "text": "$SOL is ripping right now and outperforming $BTC, $ETH, and other majors  which mean"
-          },
-          {
-            "likes": 760,
-            "account": "DefiIgnas",
-            "text": "Ok, I'll shill it:  - $BTC: new Gold - $SOL: this cycle's $ETH - $INST: new $PENDLE"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$BP",
-      "size": 80,
-      "color": "#48eca0",
-      "glow": 0.25,
-      "mentions": 3,
-      "accounts": 3,
-      "trace": {
-        "why": "3件の言及 / 3アカ / 高エンゲージ計1,046♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 742,
-            "account": "coingecko",
-            "text": "INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock."
-          },
-          {
-            "likes": 251,
-            "account": "DefiIgnas",
-            "text": "Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken"
-          },
-          {
-            "likes": 53,
-            "account": "coinkeiba",
-            "text": "これ1.5億くらいの価値あるの？返してくれません？ $BP"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$ATOM",
-      "size": 79,
-      "color": "#48eca0",
-      "glow": 0.24,
-      "mentions": 4,
-      "accounts": 2,
-      "trace": {
-        "why": "4件の言及 / 2アカ / 高エンゲージ計1,657♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 760,
-            "account": "DefiIgnas",
-            "text": "Ok, I'll shill it:  - $BTC: new Gold - $SOL: this cycle's $ETH - $INST: new $PENDLE"
-          },
-          {
-            "likes": 717,
-            "account": "DefiIgnas",
-            "text": "My biggest worry for $ETH is that it's the new $ATOM:  - Cosmos chose modular roadma"
-          },
-          {
-            "likes": 98,
-            "account": "DefiIgnas",
-            "text": "Reading replies to the comparison one thing really distinguishes $ETH from $ATOM:  E"
-          },
-          {
-            "likes": 82,
-            "account": "cryptocom",
-            "text": "$ATOM Flash Rewards is now live!  🎉 18% p.a. in rewards for ATOM with Crypto Earn  J"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
-      }
     }
   ],
   "live": [
     {
+      "ticker": "$BENJAMIN",
+      "name": "OFFICIAL BENJAMIN",
+      "mint": "6izRcf22crzpHDhT2mhX6CgGCHgVs276mKLEzz8rpump",
+      "mcap": 153727,
+      "peak_mcap": 153727,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T17:01:00Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/6izRcf22crzpHDhT2mhX6CgGCHgVs276mKLEzz8rpump",
+      "spark": [
+        153712,
+        153727
+      ]
+    },
+    {
       "ticker": "$TOUCHED",
       "name": "pocket hitlers touched me",
       "mint": "223Q1bvajHuvngaq3cAPPcCJUebdbTUBTmvKhAfBpump",
-      "mcap": 81750,
+      "mcap": 81455,
       "peak_mcap": 81750,
       "status": "tracked",
       "outcome": null,
@@ -1703,14 +1739,36 @@
       "link": "https://pump.fun/coin/223Q1bvajHuvngaq3cAPPcCJUebdbTUBTmvKhAfBpump",
       "spark": [
         81650,
-        81750
+        81750,
+        81455
+      ]
+    },
+    {
+      "ticker": "$AXIOS",
+      "name": "AxiosFinance",
+      "mint": "Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
+      "mcap": 53137,
+      "peak_mcap": 53137,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T17:01:00Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
+      "spark": [
+        45069,
+        53137
       ]
     },
     {
       "ticker": "$TOUCHED",
       "name": "pocket hitlers touched me",
       "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
-      "mcap": 49358,
+      "mcap": 49182,
       "peak_mcap": 49358,
       "status": "tracked",
       "outcome": null,
@@ -1724,15 +1782,16 @@
       "link": "https://pump.fun/coin/223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
       "spark": [
         49320,
-        49358
+        49358,
+        49182
       ]
     },
     {
       "ticker": "$RO",
       "name": "Ro The Robber",
       "mint": "8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
-      "mcap": 5795,
-      "peak_mcap": 5795,
+      "mcap": 13781,
+      "peak_mcap": 13781,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -1745,16 +1804,17 @@
       "link": "https://pump.fun/coin/8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
       "spark": [
         5707,
-        5795
+        5795,
+        13781
       ]
     }
   ],
   "base_rate": {
-    "mints_seen": 300,
-    "gate_passed": 3,
+    "mints_seen": 600,
+    "gate_passed": 5,
     "died": 0,
-    "graduated": 1,
-    "pass_rate_pct": 1.0,
+    "graduated": 2,
+    "pass_rate_pct": 0.83,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }
 }

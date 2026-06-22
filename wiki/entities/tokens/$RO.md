@@ -16,7 +16,7 @@ status: tracked
 
 ## ライフサイクル（auto-track）
 - 初観測: 2026-06-23 / 門: **graduated**（complete=true＝Raydium移行済）
-- mcap: $5,707 / reply: 0 / tokenized_agent: no / real_sol: 0（bonding curve消費済）
+- mcap: $5,707 → **$13,781**（+138%・2026-06-23更新）/ reply: 0 / tokenized_agent: no / real_sol: 0（bonding curve消費済）
 - links: [twitter (Elon tweet)](https://x.com/elonmusk/status/2069087335824699744) / website: 無し
 - status: **tracked**（生存中・watch継続）
 
@@ -27,4 +27,5 @@ status: tracked
 - **⚠️ twitter リンク=association marketing 疑い**: metrics.twitter が**プロジェクト公式アカではなく @elonmusk のツイート URL**。pump.fun トークンが著名人ツイートを自分の「twitter」として登録するのは有名な association marketing 手法＝[[rug-anatomy]] の赤旗（「有名人との紐付けを偽装」）。Elon がこのトークンを言及した事実は未確認。KOL 一次ソース（sources/x）に $RO 言及なし。
 - **signal 水準**: KOL 言及ゼロ・reply 0・website 無し＝watchlist 上の注目はゼロ。mcap $5.7k は [[survivor-memes]] の「生存」閾値未満。
 - **賭け仮説**: 現時点は「graduated but invisible」＝KOL pickup / reply 急増がなければ mcap 枯れで死。Elon の当該ツイートが高バズなら後追い attention が来る可能性はあるが、KOL 一次ソース確認が先決。
+- **2026-06-23 update**: mcap +138%（$5.8k→$13.8k）。低水準でのバウンスであり[[survivor-memes]]の閾値にはまだ遠い。Elon ツイートへのリンクが拾った association 買いの可能性。KOL 言及・reply は依然ゼロ。
 <!-- synthesis:end -->

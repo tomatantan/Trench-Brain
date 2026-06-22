@@ -4,12 +4,12 @@ kind: player
 title: @brian_armstrong
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 17
 ---
 
 # @brian_armstrong
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

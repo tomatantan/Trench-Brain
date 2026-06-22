@@ -1,32 +1,28 @@
 ---
 type: entity
 kind: player
-title: @watcherguru
+title: @WatcherGuru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 6
 ---
 
-# @watcherguru
+# @WatcherGuru
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 6件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$SPCX]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 24,872 |  | JUST IN: Ship traffic officially resumes in the Strait of Hormuz after US and Iran s | [[WatcherGuru__2067615076534943776]] |
-| 11,296 |  | JUST IN: GTA 6 pre-orders officially begin on June 25. | [[WatcherGuru__2067602270766653746]] |
-| 9,346 |  | JUST IN: 🇺🇸 FBI Director Kash Patel says the FBI will find crypto scammers and bring | [[WatcherGuru__2067987713194643596]] |
-| 7,159 |  | JUST IN: 🇺🇸🇮🇷 US Department of War requests $80,000,000,000 to cover Iran war and ot | [[WatcherGuru__2067807855495786570]] |
-| 7,068 |  | JUST IN: 🇯🇵 Japan's National Business Corporate Pension Fund to allocate 1% of its a | [[WatcherGuru__2068564986356498468]] |
-| 6,683 |  | JUST IN: 🇮🇷 Iran's IRGC officially declares the Strait of Hormuz closed to all vesse | [[WatcherGuru__2068342211776074026]] |
-| 6,529 |  | JUST IN: 🇺🇸 Illinois passes law to tax crypto transfers regardless of profit or loss | [[WatcherGuru__2067704496000524745]] |
-| 6,211 |  | JUST IN: Bitcoin falls under $63,000 | [[WatcherGuru__2067633514762117130]] |
-| 6,171 |  | JUST IN: 🇺🇸🇮🇷 US Military says blockade on the Strait of Hormuz has officially been  | [[WatcherGuru__2067661710513864818]] |
-| 5,741 |  | JUST IN: GTA 6 new in-game teaser. | [[WatcherGuru__2067618097574625723]] |
+| 6,182 | [[$SPCX]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
+| 3,984 |  | JUST IN: 🇺🇸 Former Federal Reserve Chair Alan Greenspan dies at age 100. | [[WatcherGuru__2069024088010719249]] |
+| 3,496 |  | JUST IN: $65,000 Bitcoin | [[WatcherGuru__2069038041159885306]] |
+| 3,329 |  | JUST IN: Michael Saylor's 'Strategy' buys 520 Bitcoin worth $35 million. | [[WatcherGuru__2069029003877642620]] |
+| 3,026 |  | JUST IN: 🇺🇸 Bank of America expects the Federal Reserve to raise interest rates thre | [[WatcherGuru__2069043368068559175]] |
+| 2,803 |  | JUST IN: 🇺🇸🇮🇷 US issues 60-day general license authorizing the sale, production and  | [[WatcherGuru__2069050474519781732]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

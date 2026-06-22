@@ -4,27 +4,29 @@ kind: token
 title: $KINS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 7
+mentions: 9
 accounts: 3
 ---
 
 # $KINS
 
-> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 9件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@MurphyBTC]] [[@PumpfunEco]]
 
 ## 共起トークン
-[[$FARTCOIN]] [[$JOTCHUA]] [[$ZEREBRO]] [[$ZERO]]
+[[$JOTCHUA]] [[$FARTCOIN]] [[$ZERO]] [[$SOLANGELES]] [[$ZEREBRO]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 139 | [[@PumpfunEco]] | $KINS is rallying, currently up 28% in 24 hours 👀 | [[PumpfunEco__2068793368239317204]] |
 | 122 | [[@Crypto_Alch]] | Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli | [[Crypto_Alch__2068928202135781813]] |
+| 112 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[Crypto_Alch__2069087026813530587]] |
 | 107 | [[@Crypto_Alch]] | $KINS making new highs while the greater majority of the market goes to gulag   Incr | [[Crypto_Alch__2067661259915264449]] |
+| 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
 | 92 | [[@Crypto_Alch]] | $KINS player and holder influx is insane   This will be 8 figures faster than most p | [[Crypto_Alch__2067615427786604707]] |
 | 80 | [[@PumpfunEco]] | 24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu | [[PumpfunEco__2068691523894706265]] |
 | 80 | [[@Crypto_Alch]] | $KINS is now 2x away from reviving an onchain game menia (According to me)  I’m hear | [[Crypto_Alch__2067883218200625519]] |

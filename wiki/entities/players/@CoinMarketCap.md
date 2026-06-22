@@ -4,15 +4,15 @@ kind: player
 title: @CoinMarketCap
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 19
+posts: 36
 ---
 
 # @CoinMarketCap
 
-> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$BTC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -26,7 +26,7 @@ posts: 19
 | 701 |  | EXPLAINED: 🏦 Wall Street seems to only be getting more and more bullish on blockchai | [[CoinMarketCap__2068306626411467120]] |
 | 695 |  | Tag the most unshakeable community! 💪 | [[CoinMarketCap__2068257573036314682]] |
 | 615 |  | Trust 👏 the 👏 process 👏 | [[CoinMarketCap__2068635085843095975]] |
-| 464 |  | LATEST: 🤖 Strategy CEO Phong Le says we'll go from 6 billion people to "6 trillion a | [[CoinMarketCap__2068627537362587732]] |
+| 570 |  | ✅ strong community ✅ +1B MC  Shill me. | [[CoinMarketCap__2068997459284480218]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

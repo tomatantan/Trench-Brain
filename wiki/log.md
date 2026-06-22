@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(auto-synthesis): births=2 / changes=1 / deaths=0. [[$AXIOS]] "AxiosFinance" stub 作成（graduated $45k・KOL/reply ゼロ・DeFi名装い→[[launchpad-economics]]）。[[$BENJAMIN]] "OFFICIAL BENJAMIN" stub 作成（bonding curve 上 $153k・twitter/website 無し・「OFFICIAL」偽装→[[launchpad-economics]]/[[rug-anatomy]]⚠️）。[[$RO]] mcap +138%（$5.8k→$13.8k）更新・KOL依然ゼロ。
+
 - 2026-06-23 ingest(auto-synthesis): births=1 / skipped=2(offensive). [[$RO]] "Ro The Robber" 薄stub 作成（graduated $5.7k・twitter=Elon tweet リンク=⚠️association marketing疑い・KOL/reply ゼロ→[[launchpad-economics]]/[[external-event-to-token-pattern]]/[[rug-anatomy]]）。$TOUCHED×2（"pocket hitlers touched me", mint 223Q1b/223P2G）skip: 攻撃的名・KOL/link/reply ゼロ・同名コピー2枚=スパム的→entityを作らず log のみ（"skipped $TOUCHED-223Q1b: offensive name" / "skipped $TOUCHED-223P2G: offensive name"）。changes=0 / deaths=0。
 
 - 2026-06-23 ingest(auto-synthesis 実演): `brain/track.py` の synth_queue を初めてエージェントが合成→wiki entity化＝「pump.fun→篩→wiki」の全loop実証。[[$LUCIA]]（graduated $113k・watchlist注目ゼロ＝narrative不在で判断保留・status tracked）、[[$KRILLION]]（誕生と同サイクルで死・死因mcap枯れ＝[[survivor-memes]] の分母に計上）。★合成（一次ソースを読む規律）が**設計バグを検出**: KOL門の ticker 衝突＝[[@badattrading_]] の $KRILLION（CA `DZ9s…`）は tracked mint（`8ufh…`）と別物＝KOL門は ticker でなく **CAで照合すべき**(track.py v2)。observation≠採用の通り、観測300/門通過2/うち1は即死＝分母が回り始めた。

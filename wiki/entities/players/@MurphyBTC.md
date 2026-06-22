@@ -4,15 +4,15 @@ kind: player
 title: @MurphyBTC
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 27
 ---
 
 # @MurphyBTC
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 27件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$BTC]](3) [[$BEAT]](2) [[$WOJAK]](1) [[$SPCX]](1) [[$ALAB]](1) [[$META]](1) [[$MSFT]](1) [[$NBIS]](1) [[$NVDA]](1) [[$RKLB]](1)
+[[$BTC]](3) [[$BEAT]](2) [[$SPCX]](2) [[$ETH]](2) [[$HYPE]](2) [[$WOJAK]](1) [[$ALAB]](1) [[$META]](1) [[$MSFT]](1) [[$NBIS]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -4,15 +4,15 @@ kind: player
 title: @coingecko
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 19
+posts: 25
 ---
 
 # @coingecko
 
-> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 25件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HYPE]](2) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$TAIKO]](1) [[$BTC]](1) [[$PENGU]](1) [[$SIREN]](1) [[$XPL]](1)
+[[$HYPE]](2) [[$BTC]](2) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$TAIKO]](1) [[$SYN]](1) [[$ETH]](1) [[$PENGU]](1) [[$SIREN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -23,10 +23,10 @@ posts: 19
 | 1,277 | [[$BTC]] | JUST IN: Strategy purchases another 1,587 Bitcoin for ~$100M, bringing its total hol | [[coingecko__2066491800911552975]] |
 | 1,160 |  | JUST IN: Bitcoin falls below $63,000. | [[coingecko__2067635553583993272]] |
 | 742 | [[$BP]] | INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock. | [[coingecko__2066073983913447663]] |
+| 617 | [[$BTC]] | JUST IN: Strategy purchases another 520 Bitcoin for ~$35M, bringing its total holdin | [[coingecko__2069030123341304208]] |
 | 415 | [[$XPL]] | INSIGHT: $XPL pumps 27.4% following the launch of Plasma One. | [[coingecko__2067313691700142135]] |
 | 401 | [[$HYPE]] [[$PENGU]] [[$SIREN]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
 | 390 |  | Global crypto market cap is up 4.4% in the last 24 hours - following the de-escalati | [[coingecko__2066529440658842091]] |
-| 378 |  | gecko morning 🦎 | [[coingecko__2066187693197754689]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

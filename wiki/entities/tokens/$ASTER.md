@@ -4,13 +4,13 @@ kind: token
 title: $ASTER
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
+mentions: 5
 accounts: 3
 ---
 
 # $ASTER
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -26,6 +26,7 @@ accounts: 3
 | 410 | [[@lookonchain]] | After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER | [[lookonchain__2067554368166166928]] |
 | 209 | [[@bull_bnb]] | Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it.  | [[bull_bnb__2067284566990290960]] |
 | 207 | [[@bull_bnb]] | Can it now recover my 10/10 losses?  $Aster | [[bull_bnb__2067229690050543921]] |
+| 67 | [[@bull_bnb]] | Is the buybacks still in the room with us?  $Aster boi you were suppose to moon inst | [[bull_bnb__2069096838452670579]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

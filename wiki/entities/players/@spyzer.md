@@ -4,12 +4,12 @@ kind: player
 title: @spyzer
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 110
+posts: 111
 ---
 
 # @spyzer
 
-> 自動生成。信号投稿 110件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 111件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$MASK]](37) [[$VINE]](10) [[$REALIS]](7) [[$LIL]](2) [[$CPT]](2) [[$GOR]](2) [[$BUZZ]](1) [[$EPIFUN]](1) [[$MACHINES]](1) [[$ALCH]](1)

@@ -4,15 +4,15 @@ kind: player
 title: @GTCaliber_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 5
+posts: 7
 ---
 
 # @GTCaliber_
 
-> 自動生成。信号投稿 5件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$B4GTA6]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -21,7 +21,9 @@ posts: 5
 | 46 |  | Today's progress! Game looks very polished!! | [[GTCaliber___2068092073287233950]] |
 | 32 |  | Caliber is a GTA 6 built in public, racing to ship before the real one. Today it get | [[GTCaliber___2067775657958916324]] |
 | 24 |  | Shooting is incoming!! | [[GTCaliber___2068570479787696390]] |
+| 23 |  | Big Week for Caliber | [[GTCaliber___2068990103037338067]] |
 | 9 |  | We are making progress!!! | [[GTCaliber___2068856246715990245]] |
+| 8 | [[$B4GTA6]] | GTA 6 is getting closer and closer… and people are going crazy.  But imagine if we t | [[GTCaliber___2069080868644143310]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,12 +4,12 @@ kind: player
 title: @TrustlessState
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 14
+posts: 16
 ---
 
 # @TrustlessState
 
-> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$LIT]](1)
@@ -24,9 +24,9 @@ posts: 14
 | 42 |  | This is now a Soccer account | [[TrustlessState__2068046007862989119]] |
 | 39 |  | I’m never moving back home | [[TrustlessState__2068192710553456856]] |
 | 36 |  | Some unexpected spice from Canada vs Qatar | [[TrustlessState__2067748369448018281]] |
+| 27 |  | Why would anyone hold MSTR?   @PunterJeff on our pod, you called this 'amplified BTC | [[TrustlessState__2069086341770383871]] |
+| 27 |  | Arthur Hayes invented the Perp, so I asked him what he thinks of Hyperliquid taking  | [[TrustlessState__2069074030628364349]] |
 | 26 |  | Terrible mistake from the South Korea goalkeeper | [[TrustlessState__2067792182350610567]] |
-| 24 |  | Some good games today!  Islamic flags setup for another bad day | [[TrustlessState__2068716422730014945]] |
-| 21 |  | Holy fuck dude   If I ever get a cramp as a referee just shoot me | [[TrustlessState__2068076564198162553]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
