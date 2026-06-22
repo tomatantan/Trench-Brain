@@ -15,6 +15,10 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 git pull -q --rebase origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
 python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1
 
+# auto-synthesis 決定的層: 全mint観測→篩→watch→synth_queue(LLM不使用・状態はlocal)。
+# 合成(LLM)はエージェント工程(brain/INGEST.md synth_queue)で別途。
+python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
+
 git add sources/x wiki/dashboards wiki/entities wiki/_worklist.md >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
