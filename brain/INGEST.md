@@ -22,7 +22,10 @@ LLM Wiki の ingest の判断パートを**定まった手順**にしたもの�
 4. **矛盾**は見つけ次第、該当 entity/concept に両論併記で旗を立てる（⚠️）。
 5. **`wiki/index.md` と `wiki/log.md` を更新**（新規ページ・主な更新を記録）。
 6. 1サイクルは worklist の範囲だけ。全部を一度にやらない（複利で積む）。
-7. 完了したら **`python3 brain/mark_ingested.py`** で消し込み → commit/push。
+7. 完了したら、**実際に合成した分だけ**消し込む（全件マーク禁止＝部分合成を全完了と詐称しない）:
+   `python3 brain/mark_ingested.py --from-files <このサイクルで合成/更新した wiki ページ...>`
+   （触れた concept / entity ページを渡すと、その中の `[[source]]` link の tweet_id だけが ingested 登録される）
+   → その後 commit/push。
 
 ## 原則（曲げない）
 - 合成の起点は worklist（=新ソース）であって、エージェントの主観ではない。
