@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-22 brain(mechanism): 整理(判断)を増分自動化する仕組みを実装。ingest_worklist.py(新ソース差分→bounded TODO=wiki/_worklist.md)、mark_ingested.py(消し込み状態)、pipeline.py(collect→digest→entities→worklist の glue)、INGEST.md(エージェント工程の手順)。LLM Wiki概念説明 docs/LLM-WIKI.md。実証として $HYPE を横断合成(Hayes売却発言×lookonchainオンチェーン裏取り)。
+
 - 2026-06-22 brain(faithful): LLM Wiki(Karpathyパターン)準拠に作り直し。背骨=entityページ自動生成(brain/build_entities.py: token40/player120, synthesis保持ブロック付)。合成はentityのsynthesisメモ＋concept(動線/型)に分離、矛盾は両論併記。冗長なtoken-concept3枚をentityに統合。工程をbrain/READMEに明文化(貯める→仕分ける→整理 背骨→整理 判断)。
 
 - 2026-06-22 brain: 仕分け層(brain/digest.py)＋合成デモ。5,086生ツイ→信号4,354に集計([[signal]])、そこからconcept5枚を合成(型: 外部イベント→token / 動線: SpaceX IPO→$SPCX・$ASTEROID / $ASTEROID / $SPCX / $CLUTCH)を相互リンク。LLM Wikiの脳が初稼働。
