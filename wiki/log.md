@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(synthesis cycle 5): 新concept2枚。[[ai-memes]]（型: トークン＝自律エージェントの配布層。$ai16z/$GOAT/[[$FARTCOIN]]、agentic economy物語[[@a1lon9]]/[[@rajgokal]]。⚠️[[@blknoiz06]]「$10B AI memeは来るが勝者不明」・[[@lmrankhan]]自壊論・自律の主張と実体の差・corpus強気一色）と [[perp-dex-wars]]（動線: [[$HYPE]]/Hyperliquid一強 vs Axiom/[[$ASTER]]/Lighter/Phoenix。★⚠️[[@DefiIgnas]]「buyback flywheelの燃料は清算されたretailの手数料」＝productive cryptoの影、Wynn/Tate清算[[onchain-verification]]、CEX(JELLY)攻撃で独立性が的）。entity: [[$FARTCOIN]] [[$ASTER]] [[$HYPE]](追記) / [[@shawmakesmagic]]。これでconcept 11枚＝土台→基盤→マクロ→供給→meme/AI/perpの層構造が一旦埋まった。
+
 - 2026-06-23 ingest(synthesis cycle 4): 新concept2枚。[[l1-substrate-wars]]（動線: Solana vs Ethereum＝memeが乗る地面。Solana陣営[[@rajgokal]]「pivot to solana」/cross-chain流動性 ⇄ Ethereum陣営[[@RyanSAdams]]profit/money layer/RWA。★[[@DefiIgnas]]が軸により両側＝「何の用途で勝つか」が肝。SOL/ETH相対は基盤シェアの代理）と [[vc-founder-thesis-layer]]（型: VC/創業者thesisが下流ナラティブの土台。stablecoin/BTC多層資本[[@saylor]]/規制追い風/AI×crypto[[@cdixon]]/app層。⚠️断層=BTC一極 vs app層optionality、規制楽観 vs [[@balajis]]脱国家）。entity: [[@toly]] [[@rajgokal]] [[@DefiIgnas]] [[@cdixon]] [[@saylor]]。手法=2並列エージェント横断→合成、mark_ingestedで合成分のみ消し込み。
 
 - 2026-06-22 ingest(synthesis cycle 3): 新concept2枚。[[launchpad-economics]]（型: memeの供給工場＝Pump.fun/[[$PUMP]]・$600M/12分完売・revenue→buyback36%焼却・⚠️graduation率1.5%＝98.5%は死ぬ供給過剰＝[[majors-rotation-supercycle]]の供給希釈の蛇口・$LIBRA rug）と [[survivor-memes]]（型: 生き残った少数のblue-chip meme [[$BONK]]/[[$WIF]]/[[$PEPE]]/[[$FARTCOIN]]/[[$PENGU]]・★⚠️生存者バイアス＝語られる超リターンは全て後知恵の早期entry・集中リスク・corpusは強気一色なので懐疑はwikiが供給）。entity合成メモ: [[$PUMP]] [[$BONK]] [[$WIF]] [[$PEPE]] / [[@a1lon9]] [[@blknoiz06]]。手法=2並列エージェントで sources/x 横断→合成。mark_ingested で合成分のみ消し込み。

@@ -30,5 +30,8 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: AI-meme era の代表でありつつ **"organic"の象徴**（team無し/KOL無し、[[@a1lon9]] が理想形として言及）＝[[ai-memes]] と [[survivor-memes]] の交差点。
+- **PnL/出来高**: [[@lookonchain]]「$18M+ profit on $Fartcoin（1,490x）」、[[@PumpfunEco]] が pump.fun 24h volume leader（$3.97M）に挙げる（[[launchpad-economics]]）。
+- **⚠️ 二重性の皮肉**: AI-memeの建付けだが、実際は"自律エージェント"より **lore とコミュニティで生き残った**＝AI-meme純度は低く meme純度が高い。「AIだから」でなく「memeとして強い」が生存理由。
+- **賭け仮説**: AI-memeカテゴリβ＋organic生存lore の二枚看板。ただし [[survivor-memes]] の生存者バイアス（後知恵の早期entry）は同様に適用。
 <!-- synthesis:end -->

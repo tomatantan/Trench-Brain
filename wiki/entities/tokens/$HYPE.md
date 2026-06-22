@@ -43,4 +43,5 @@ accounts: 9
 - **競合**: [[@DefiIgnas]]「Pump.funの唯一の実競合はAxiom。CTは静かだが」=[[$AXIOM]]を要監視。
 - **賭け仮説**: バイバック需給は強いが、創設者級([[@CryptoHayes]])の退出が確認済＝勢いに陰り。whaleフローが買い越しに転じるかが分岐。confidence=中。
 - **メジャー・ローテとの接続**: [[@DefiIgnas]] の「nonproductive→productive cryptoへのローテ」で $HYPE は受け皿候補＝[[majors-rotation-supercycle]] の "productive-rotation 軸"。メジャー(ETH)直張りより β が高い代替先として位置づく。
+- **★perp戦争の本丸＝[[perp-dex-wars]]**: Hyperliquid は $170B/30D vol・$8.7B OI の一強。moat＝31% no-vesting airdrop＋unified margin＋手数料97-99%をbuyback/burn＋CEX未上場の独立性。⚠️ ただし [[@DefiIgnas]]「perps are wealth destruction for the majority」＝**buyback flywheel の燃料は清算された retail の手数料**。独立性が moat ゆえ Binance/OKx の JELLY perp 攻撃の的＝network崩れに脆い。
 <!-- synthesis:end -->

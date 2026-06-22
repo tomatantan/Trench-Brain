@@ -27,6 +27,8 @@
 - [[survivor-memes]] — ★型: 生存者meme（[[$BONK]]/[[$WIF]]/[[$PEPE]]等・⚠️生存者バイアス）
 - [[l1-substrate-wars]] — ★動線: L1基盤戦争（Solana vs Ethereum＝memeが乗る地面）
 - [[vc-founder-thesis-layer]] — ★型: VC/創業者の思想層（[[@cdixon]]/[[@saylor]]＝ナラティブ最上流の土台）
+- [[ai-memes]] — ★型: AI-meme（トークン＝自律エージェントの配布層・[[$FARTCOIN]]・⚠️自律の主張と実体の差）
+- [[perp-dex-wars]] — ★動線: perp DEX戦争（[[$HYPE]]一強 vs 群雄・⚠️buyback燃料は清算retail）
 
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。

@@ -29,5 +29,8 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: perp DEX競合トークン（equity perps）＝[[perp-dex-wars]] の群雄側。BNB/CZ寄り（[[@cz_binance]] が buyback/burn 更新をRT）。
+- **値動き/物語**: [[@lookonchain]]「tokenomics update 後、whale 0x5f91 が 5.33M $ASTER に FOMO」。[[@bull_bnb]]「months of underwater fuckery finally coming out」＝**BNB民の救済ナラティブ**（含み損→回復）。
+- **⚠️**: Hyperliquid([[$HYPE]])一強の隙間で**用途特化（equity perp）**による棲み分け狙い。実 volume は corpus で薄く、CZ/BNBエコの後ろ盾頼みの面。
+- **賭け仮説**: $HYPE一強への挑戦者の一角。CZ/BNBの本気度と equity-perp の差別化が成否の分岐。RWA側（[[external-event-to-token-pattern]] の tokenized equity）とも隣接。
 <!-- synthesis:end -->

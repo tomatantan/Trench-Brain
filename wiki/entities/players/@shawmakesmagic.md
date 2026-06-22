@@ -30,5 +30,8 @@ posts: 18
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: ai16z / Eliza framework の創業者＝[[ai-memes]] の**ビルダー側**（[[$ai16z]] の中の人）。
+- **直近の発信**: トークンより **AI開発ツール/思想**中心（OpenRouter→BitRouter、Codex/Claude評、「GitHub is gonna be absolutely cooked by agents」「America lost the AI race」）＝エージェント実装者の視点。
+- **⚠️**: [[$ai16z]] の建付けは「エージェントの配布層」だが、本人の発信は**実装・思想**に寄り、token投機の語りは薄い＝「token」と「builder」の距離。AI-memeの"中身が伴うか"を測る窓。
+- **賭け仮説**: AI-memeの実体（自律性/実装）を [[onchain-verification]] の精神で検算する基準点。builder が token を語らない＝narrative先行のサインにもなる。
 <!-- synthesis:end -->

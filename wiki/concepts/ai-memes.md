@@ -1,0 +1,47 @@
+---
+type: concept
+title: 型 — AI-meme（トークン＝自律エージェントの配布層）
+created: 2026-06-23
+updated: 2026-06-23
+tags: [trench, concept, pattern, ai, agent, meme, sector]
+memetic_potential: 中〜高
+confidence: 中
+---
+
+# 型: AI-meme（memeとAIエージェント thesis の交差）
+
+2024〜の「AI memecoin era」を扱う concept。**1つのトークンが「投機meme」と「自律エージェントの
+資金/配布層」を兼ねる**のが他のmemeと違う点。worklist で [[$FARTCOIN]]・[[@shawmakesmagic]] が
+浮上したことから合成。[[vc-founder-thesis-layer]] の「AI×crypto」thesis（[[@cdixon]]）が**下流で
+meme化した姿**＝土台thesisが個別トークンに落ちる動線の好例。
+
+## 何が"普通のmeme"と違うか（観測ベース）
+- **配布/資金層という建付け**: [[@a1lon9]]「tokens represent a distribution layer for agents... they can fund themselves quickly via creator fees and onchain mechanisms」([[a1lon9__2032472708387160561]])＝トークンは投機物でなくエージェントの資金調達インフラ、という枠。
+- **agentic economy のマクロ物語**: Strategy CEO（[[@CoinMarketCap]] 経由）「from 6 billion people to '6 trillion agents'... all transacting on crypto rails」、[[@rajgokal]]「self-replicating autonomous agents will generate the majority of all new businesses, transacting on solana」([[rajgokal__2023960154564108556]])。
+- **インフラ位置づけ**: [[@solana]]「ERC-8004 activity scaled to 1,400+ autonomous agents with 8,200+ signals」＝novelty でなくエコの基盤として提示。
+- **桁違いのPnL**: [[@lookonchain]]「~$19M profit on $ai16z（6,400x）, $18M+ on $Fartcoin（1,490x）」([[lookonchain__1876539012409856366]])、「$5.14M $GOAT / $4.5M $ai16z / $4M $Fartcoin / $4M $arc」。
+
+## 主なトークン
+[[$ai16z]]（Eliza framework・[[@shawmakesmagic]]）/ $GOAT（Truth Terminal起源）/ [[$FARTCOIN]]（"organic"の象徴）/
+$arc / $VIRTUAL（Virtualsプラットフォーム）/ $ZEREBRO。多くは [[launchpad-economics]] の Pump.fun / Virtuals から発射。
+
+## ⚠️ 矛盾・懐疑（"自律"の主張と実体の差）
+- **カテゴリ確信 × 勝者不明**: [[@blknoiz06]]「im fairly certain there will be multiple $10B+ ai memecoins, but i have no clue which ones」([[blknoiz06__1856954873553588583]])＝**セクターは来るが個別は博打**。
+- **自律の自壊リスク**: [[@lmrankhan]]「if everyone has an outbound agent, they'll need a filtering agent... the system collapses under its own weight」＝エージェント乱立の tragedy-of-the-commons。「自律＝価値」ではない。
+- **token と software の境界が曖昧**: [[@milesdeutscher]] は AI を「自動売買ツール」として語る＝AI-memeは投機物か実用物か未分化。
+- **上場の不整合**: [[@DefiIgnas]]「Binance lists $AIXBT (Virtuals上) but doesn't list $VIRTUAL itself」＝プラットフォームより派生が先に評価される歪み。
+- **⚠️ corpusは強気一色**: 名指しのAI-meme($ai16z/$GOAT/$Fartcoin等)に**rug/崩壊の記録が無い**＝採取が上昇局面に偏る。懐疑は wiki が供給する（[[survivor-memes]] の生存者バイアスと同型）。
+
+## 示唆 / 賭けの仮説
+- **"配布層"の建付けは強い物語だが、実装の自律性は未検証**。「エージェントが自走する」主張は [[onchain-verification]] の精神で**実際に何を実行してるか**を割り引いて見る。多くは narrative-driven。
+- **賭けはカテゴリβ、個別は分散**: blknoiz06 の通り勝者不明＝個別一点張りより、launchpad([[$PUMP]]) や Virtuals 等の**胴元/インデックス**側が相対的に堅い。
+- **[[$FARTCOIN]] の二重性**: AI-meme でありながら "team無し/KOL無しの organic"（[[survivor-memes]]）＝最も meme 純度が高い AI-meme。"自律"より"lore"で生き残った皮肉。
+- 監視: [[vc-founder-thesis-layer]] のAI×crypto進捗、Solana agent経済の実数、Virtuals/Pump.fun のAI-meme出荷、上場の整合性。
+
+## 関連
+- [[vc-founder-thesis-layer]]（AI×cryptoの上流thesis）/ [[launchpad-economics]]（発射元）/ [[survivor-memes]]（$FARTCOIN）/ [[l1-substrate-wars]]（Solana agent経済）
+- [[$FARTCOIN]] / [[@shawmakesmagic]] / [[@blknoiz06]] / 集計の入口: [[signal|Signal digest]]
+
+## 出典(生ソース)
+[[@lookonchain]] AI-meme PnL, [[@a1lon9]] 配布層, [[@rajgokal]]/[[@CoinMarketCap]] agentic economy, [[@solana]] ERC-8004,
+[[@blknoiz06]] $10B確信/勝者不明, [[@lmrankhan]] 自壊論, [[@DefiIgnas]] 上場歪み。（全て sources/x/ の原ツイに保存済）
