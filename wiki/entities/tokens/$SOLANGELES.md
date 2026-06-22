@@ -31,6 +31,10 @@ accounts: 3
 | 76 | [[@PumpfunEco]] | $SOLANGELES has pumped 131% today! 🔥 | [[PumpfunEco__2068842335400563070]] |
 
 <!-- synthesis:start -->
-## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+## 合成メモ（synthesis / エージェント記述・2026-06-23）
+- **正体**: "SolAngeles"（Solana×LA）テーマの pump.fun trending 銘柄。[[launchpad-economics]] 発の rotation 銘柄で、[[$KINS]] [[$JOTCHUA]] [[$ZERO]] [[$FARTCOIN]] と同じ "summer" cluster。
+- **モメンタム（板）**: [[@PumpfunEco]]「+100% → +200% → +131% today」と連続更新([[PumpfunEco__2068742566137274401]] / [[PumpfunEco__2068774140224356546]] / [[PumpfunEco__2068842335400563070]])、24h volume $4.09M で上位。勝者ストーリー＝「$250→$21,600(87x)」「$4,180→$56,690」([[PumpfunEco__2069002054958194927]] / [[PumpfunEco__2069137193747071400]])＝典型的な FOMO 燃料。
+- **プロモーション**: [[@moonshot]]（取引所/launchpad）が「SolAngeles TV」ライブ＋$5,000 giveaway([[moonshot__2069080868673425610]])＝外部からの集客ブースト。
+- **⚠️ rug risk（最重要・両論の弱気側）**: [[@Crypto_Alch]]「When do they pull the bundle? Top holder が供給の **35%** を保有」([[Crypto_Alch__2068993734084112473]])＝**単一holder集中＝bundle/insider dump の典型赤旗**。[[rug-anatomy]] のチェックリスト直撃。+200% の最中でも供給支配が解けば一撃で落ちる。勝者ストーリーは生存バイアス（PumpfunEco は勝者だけ見せる）。
+- **賭け仮説**: 板モメンタムは本物だが **holder 35% 集中が頭上の刃**。momentum trade としては機能中だが、bundle/insider の exit が最大リスク＝[[onchain-verification]] で holder 分布と LP を継続監視。型は [[launchpad-economics]]（trending→大半は供給支配者の利確で終わる）。confidence=中（板は強・構造リスク高）。
 <!-- synthesis:end -->

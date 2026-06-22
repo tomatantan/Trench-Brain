@@ -33,6 +33,10 @@ accounts: 3
 | 1 | [[@MurphyBTC]] | 暗号資産総合分析 #BTC  ＿＿＿＿＿＿＿＿  📊マクロ分析 @ForeDex_Global API データ使用  評価：中立  2026年6月下旬の今週、S&P G | [[MurphyBTC__2068876077305598113]] |
 
 <!-- synthesis:start -->
-## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+## 合成メモ（synthesis / エージェント記述・2026-06-23）
+- **正体**: onchain gaming を掲げる pump.fun 銘柄。[[launchpad-economics]] 発・[[survivor-memes]] を狙う段階の rotation 銘柄。
+- **動線/板**: [[@PumpfunEco]]（出来高bot的トラッカー）で24h volume leaders 常連＝$2.9M〜$3.5M／「+28% 24h」([[PumpfunEco__2068793368239317204]] / [[PumpfunEco__2068691523894706265]])。実出来高の裏付けはある。
+- **⚠️ 単一シラー依存（最重要フラグ）**: 言及の実体は **[[@Crypto_Alch]] 1人の連投シル**。「vertical accumulation」「8 figures faster than most」「2x away from reviving onchain game mania」([[Crypto_Alch__2068928202135781813]] / [[Crypto_Alch__2067615427786604707]] / [[Crypto_Alch__2067883218200625519]])＝煽り文句。さらに**TG誘導つきバスケ shill**（「$KINS 10x / $JOTCHUA 5x / $WOJAK 5x / $AMERICA」[[Crypto_Alch__2069087026813530587]]）＝発信者の保有/利益相反が濃厚。3アカ言及のうち実質は Crypto_Alch(煽り)＋PumpfunEco(出来高bot)＋MurphyBTC(マクロ・無関係)＝**横断KOLの広さは見かけより薄い**。
+- **クラスタ**: [[$SOLANGELES]] [[$JOTCHUA]] [[$ZERO]] [[$FARTCOIN]] と同じ pump.fun "summer" rotation 群（PumpfunEco の出来高表で共起）。個別の強さでなく**rotation の在庫**として見るべき。
+- **賭け仮説**: 出来高は本物だが物語の供給源が1シラー＝典型的な「KOL主導 pump、シラーが降りたら終わる」型（[[launchpad-economics]] の rug 隣接）。⚠️ holder集中/bundle は未確認＝[[onchain-verification]] でCA精査が要る。edge は「Crypto_Alch のポジション動向」と出来高の持続。confidence=低〜中（単一シラー減点）。
 <!-- synthesis:end -->
