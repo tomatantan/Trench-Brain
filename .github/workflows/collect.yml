@@ -35,7 +35,9 @@ jobs:
       - name: Collect new tweets (watchlist-gated)
         env:
           TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
-        run: python3 collector/collect.py --source twitterapi
+        run: python3 collector/collect.py --source twitterapi --throttle 0.3
+        # twitterapi.io は 429 なし＝アカ間 throttle 不要。0.3s に短縮し GHA 分数を節約
+        # (PRIVATE repo 無料 2000分/月。4s だと 124アカ×4s≈8分/回×8回/日で超過しかねない)
 
       - name: Commit & push new sources
         run: |
