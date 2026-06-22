@@ -2,6 +2,7 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(auto-synthesis・ライブ手動1サイクル): births=6 / changes=1 / deaths=0（観測累計 900mint・門通過11=1.2%・grad6・死0）。graduated 4件 [[$MOONLAKE]]（AI・$274k）[[$MOTION]]（$187k）[[$VCSOL]]（GTA Vice City参照・$119k）[[$AEGIS]]（privacy・$27k）＝全て reply0/KOL0＝「graduated but empty」型。prebond meme薄stub 2件 [[$MEW2]]（Pokemon・$47k）[[$GOOSE]]（animal・$90k）。change: [[$AXIOS]] mcap **-52%**($53k→$25.5k)→status:fading＝前サイクルの「KOL無し=短命」仮説を観測で確証。[[launchpad-economics]] に「auto-track 実観測コホート」ブロック追加（base rate+死の分母の型を補強）。※合成は headless でなくこのセッションが実施（telegram切断リスク回避）。
 - 2026-06-23 ingest(auto-synthesis): births=2 / changes=1 / deaths=0. [[$AXIOS]] "AxiosFinance" stub 作成（graduated $45k・KOL/reply ゼロ・DeFi名装い→[[launchpad-economics]]）。[[$BENJAMIN]] "OFFICIAL BENJAMIN" stub 作成（bonding curve 上 $153k・twitter/website 無し・「OFFICIAL」偽装→[[launchpad-economics]]/[[rug-anatomy]]⚠️）。[[$RO]] mcap +138%（$5.8k→$13.8k）更新・KOL依然ゼロ。
 
 - 2026-06-23 ingest(auto-synthesis): births=1 / skipped=2(offensive). [[$RO]] "Ro The Robber" 薄stub 作成（graduated $5.7k・twitter=Elon tweet リンク=⚠️association marketing疑い・KOL/reply ゼロ→[[launchpad-economics]]/[[external-event-to-token-pattern]]/[[rug-anatomy]]）。$TOUCHED×2（"pocket hitlers touched me", mint 223Q1b/223P2G）skip: 攻撃的名・KOL/link/reply ゼロ・同名コピー2枚=スパム的→entityを作らず log のみ（"skipped $TOUCHED-223Q1b: offensive name" / "skipped $TOUCHED-223P2G: offensive name"）。changes=0 / deaths=0。

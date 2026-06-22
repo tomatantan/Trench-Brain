@@ -37,6 +37,13 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - rug の温床: [[@a1lon9]] 自身「disgusted by events surrounding $LIBRA. People made personal gains at expense of users」([[a1lon9__1891593196439790005]])。
   openness は bad actor も呼ぶ＝[[onchain-verification]]（[[@lookonchain]] が $LIBRA の $107M exit を追跡）と直結。
 
+## 📊 auto-track 実観測コホート（`brain/track.py` の死の分母）
+外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-23 時点・累計）= **mints 観測 900 / 門通過 11（1.2%）/ graduated 6 / 死 0**。
+- **「graduated but empty」型が観測の主流**: 通過銘柄の大半が *graduation 済みなのに reply 0・KOL 言及ゼロ*。出来高だけ先行し社会的 traction が伴わない。
+  実例コホート（同一バッチ）: [[$MOONLAKE]]（AI・$274k）/ [[$MOTION]]（$187k）/ [[$VCSOL]]（GTA参照・$119k）/ [[$AEGIS]]（privacy・$27k）/ 既出 [[$RO]] / [[$AXIOS]]。
+- **追跡で型が裏付く**: [[$AXIOS]] は graduation 直後 $53k→**-52%** で fading。「KOL pickup なし＝短命」仮説が観測で確証されつつある＝98.5%死亡母集団の動態をリアルタイムで捉えている。
+- **含意**: graduation は生存の十分条件ではない。**graduation × (reply/KOL traction)** が [[survivor-memes]] の足切り。traction を欠く graduate は死の分母に算入する前提で見る（これが生存者バイアス対策の実装）。
+
 ## 競争（launchpad wars）
 - Pump.fun（$PUMP）vs **BonkFun**（[[$BONK]] eco、[[@theunipcs]] が straddle: 「$PUMP TGE and what it means for $BONK and BonkFun eco」）
   vs Moonshot / Axiom / Raydium LaunchLab / Zora。Pump.fun が「40%+ of bonding curve volume originating on-platform」([[defi_kay___1932801391694692718]]) で支配的。

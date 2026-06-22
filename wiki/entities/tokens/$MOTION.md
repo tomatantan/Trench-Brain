@@ -1,0 +1,29 @@
+---
+type: entity
+kind: token
+title: $MOTION
+created: 2026-06-23
+updated: 2026-06-23
+source: auto-track (pump.fun)
+tags: [trench, entity, token, auto-track]
+status: tracked
+---
+
+# $MOTION — MOTION
+
+> `brain/track.py` が観測→篩通過で TRACKED 登録（auto-synthesis）。mint `FCaPNU…pump`。
+> 事実=下のライフサイクル(自動) / 判断=合成メモ＋関連 [[concepts]]。
+
+## ライフサイクル（auto-track）
+- 初観測: 2026-06-23 / 門: **graduated**（complete=true）
+- mcap: $187,383 / reply: 0 / tokenized_agent: no / real_sol: 0
+- links: [twitter @getmotion_sol](https://x.com/getmotion_sol) / [website](https://getmotion.fun)
+- pool: `9Sv1sMKBYvbFnqcmeKKrfU4KAmriWt619R88L1VC9u9C`
+- status: **tracked**
+
+<!-- synthesis:start -->
+## 合成メモ（synthesis / エージェント記述）
+- **観測**: graduation 済・mcap $187k は本バッチ2番手。`getmotion.fun`/twitter あり＝プロダクト風ブランディングだがナラティブ不明（"MOTION" だけでは型が読めない）。reply 0・KOL ゼロ。
+- **判断**: mcap は高いが社会的 traction を欠く、本バッチ共通の「graduation 出来高先行・KOL 不在」型。[[launchpad-economics]] 直下。ナラティブが読めないため concept への新規動線は立てない（指針8: 型が立つ時だけ）。
+- **賭け仮説**: KOL/reply の立ち上がりが無ければ空コホート。watch のみ。
+<!-- synthesis:end -->

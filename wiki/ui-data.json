@@ -1701,11 +1701,53 @@
   ],
   "live": [
     {
+      "ticker": "$MOONLAKE",
+      "name": "Moonlake AI",
+      "mint": "6RSCFPsd7ZgiyCcxmZaHr3soUXREKk8EZmH2rH4Gpump",
+      "mcap": 270836,
+      "peak_mcap": 273835,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/6RSCFPsd7ZgiyCcxmZaHr3soUXREKk8EZmH2rH4Gpump",
+      "spark": [
+        273835,
+        270836
+      ]
+    },
+    {
+      "ticker": "$MOTION",
+      "name": "MOTION",
+      "mint": "FCaPNUJbWfECeeCeA3tvqkGUQ1BFPuon71KphJM5pump",
+      "mcap": 194738,
+      "peak_mcap": 194738,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/FCaPNUJbWfECeeCeA3tvqkGUQ1BFPuon71KphJM5pump",
+      "spark": [
+        187383,
+        194738
+      ]
+    },
+    {
       "ticker": "$BENJAMIN",
       "name": "OFFICIAL BENJAMIN",
       "mint": "6izRcf22crzpHDhT2mhX6CgGCHgVs276mKLEzz8rpump",
-      "mcap": 153727,
-      "peak_mcap": 153727,
+      "mcap": 154571,
+      "peak_mcap": 154571,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -1718,15 +1760,58 @@
       "link": "https://pump.fun/coin/6izRcf22crzpHDhT2mhX6CgGCHgVs276mKLEzz8rpump",
       "spark": [
         153712,
-        153727
+        153727,
+        154571
+      ]
+    },
+    {
+      "ticker": "$VCSOL",
+      "name": "Vice City Sol",
+      "mint": "7z6Kw5mX5Kt7NBgqeW8xYNa4Kr6neRJok2UCZjuMpump",
+      "mcap": 120046,
+      "peak_mcap": 120046,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/7z6Kw5mX5Kt7NBgqeW8xYNa4Kr6neRJok2UCZjuMpump",
+      "spark": [
+        119210,
+        120046
+      ]
+    },
+    {
+      "ticker": "$GOOSE",
+      "name": "Duck Duck Goose",
+      "mint": "9HUa1aVYemrkXRhYiuWhN47LRumWYW2ggFPS4jUpump",
+      "mcap": 89824,
+      "peak_mcap": 89824,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/9HUa1aVYemrkXRhYiuWhN47LRumWYW2ggFPS4jUpump",
+      "spark": [
+        89805,
+        89824
       ]
     },
     {
       "ticker": "$TOUCHED",
       "name": "pocket hitlers touched me",
       "mint": "223Q1bvajHuvngaq3cAPPcCJUebdbTUBTmvKhAfBpump",
-      "mcap": 81455,
-      "peak_mcap": 81750,
+      "mcap": 81930,
+      "peak_mcap": 81930,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -1740,36 +1825,16 @@
       "spark": [
         81650,
         81750,
-        81455
-      ]
-    },
-    {
-      "ticker": "$AXIOS",
-      "name": "AxiosFinance",
-      "mint": "Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
-      "mcap": 53137,
-      "peak_mcap": 53137,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-22T17:01:00Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
-      "spark": [
-        45069,
-        53137
+        81455,
+        81930
       ]
     },
     {
       "ticker": "$TOUCHED",
       "name": "pocket hitlers touched me",
       "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
-      "mcap": 49182,
-      "peak_mcap": 49358,
+      "mcap": 49465,
+      "peak_mcap": 49465,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -1783,14 +1848,79 @@
       "spark": [
         49320,
         49358,
-        49182
+        49182,
+        49465
+      ]
+    },
+    {
+      "ticker": "$MEW2",
+      "name": "Mew2",
+      "mint": "3CiBme6UGcWLrU1Ti3uBXt5NaKnTsvXTr2ALoDJrpump",
+      "mcap": 47093,
+      "peak_mcap": 47093,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/3CiBme6UGcWLrU1Ti3uBXt5NaKnTsvXTr2ALoDJrpump",
+      "spark": [
+        46951,
+        47093
+      ]
+    },
+    {
+      "ticker": "$AEGIS",
+      "name": "AegisPrivacy",
+      "mint": "6NHhK8q5cESamPxmQodjDEj5scRM3VoyP5i9drhCpump",
+      "mcap": 29213,
+      "peak_mcap": 29213,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T18:08:02Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/6NHhK8q5cESamPxmQodjDEj5scRM3VoyP5i9drhCpump",
+      "spark": [
+        27338,
+        29213
+      ]
+    },
+    {
+      "ticker": "$AXIOS",
+      "name": "AxiosFinance",
+      "mint": "Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
+      "mcap": 25504,
+      "peak_mcap": 53137,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T17:01:00Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/Gyx2m6EL222hq8fKsSGig9YUJyGrZxry3dxs4suYpump",
+      "spark": [
+        45069,
+        53137,
+        25504
       ]
     },
     {
       "ticker": "$RO",
       "name": "Ro The Robber",
       "mint": "8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
-      "mcap": 13781,
+      "mcap": 9570,
       "peak_mcap": 13781,
       "status": "tracked",
       "outcome": null,
@@ -1805,16 +1935,17 @@
       "spark": [
         5707,
         5795,
-        13781
+        13781,
+        9570
       ]
     }
   ],
   "base_rate": {
-    "mints_seen": 600,
-    "gate_passed": 5,
+    "mints_seen": 900,
+    "gate_passed": 11,
     "died": 0,
-    "graduated": 2,
-    "pass_rate_pct": 0.83,
+    "graduated": 6,
+    "pass_rate_pct": 1.22,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }
 }
