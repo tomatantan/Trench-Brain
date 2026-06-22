@@ -11,7 +11,8 @@ LOG="brain/state/cron.log"
 mkdir -p brain/state
 echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 
-git pull -q --rebase origin Wiki >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
+# 単一枝 main に一本化(2026-06-22 unify)。collect=門付き(watchlist)＝憲法 指針2準拠。
+git pull -q --rebase origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
 python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1
 
 git add sources/x wiki/dashboards wiki/entities wiki/_worklist.md >> "$LOG" 2>&1 || true
@@ -19,8 +20,6 @@ if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
   git commit -q -m "auto-collect: $(date -u +%Y-%m-%dT%H:%MZ) (cron)" >> "$LOG" 2>&1
-  git push -q origin Wiki >> "$LOG" 2>&1 && echo "pushed Wiki" >> "$LOG"
-  # main も自動追従(fast-forward。checkout不要でworking treeを汚さない)
-  git push -q origin Wiki:main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG" || echo "main FF skipped(要手動merge)" >> "$LOG"
+  git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG"
 fi
 echo "=== done ===" >> "$LOG"
