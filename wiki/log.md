@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(auto-synthesis 実演): `brain/track.py` の synth_queue を初めてエージェントが合成→wiki entity化＝「pump.fun→篩→wiki」の全loop実証。[[$LUCIA]]（graduated $113k・watchlist注目ゼロ＝narrative不在で判断保留・status tracked）、[[$KRILLION]]（誕生と同サイクルで死・死因mcap枯れ＝[[survivor-memes]] の分母に計上）。★合成（一次ソースを読む規律）が**設計バグを検出**: KOL門の ticker 衝突＝[[@badattrading_]] の $KRILLION（CA `DZ9s…`）は tracked mint（`8ufh…`）と別物＝KOL門は ticker でなく **CAで照合すべき**(track.py v2)。observation≠採用の通り、観測300/門通過2/うち1は即死＝分母が回り始めた。
+
 - 2026-06-23 ingest(synthesis cycle 6): 新concept2枚。[[regulation-catalyst]]（動線: 政策レジーム→trench地合い。GENIUS/FIT21/CLARITY追い風[[@cdixon]] vs SEC/Gensler逆風・debanking[[@RyanSAdams]]。★⚠️発表≠実行＝strategic reserveはRipple系ロビー仕込み[[@laurashin]]、規制=制約論[[@brian_armstrong]]/[[@balajis]]）と [[rug-anatomy]]（型: rugの繰り返し抽出メカニクス＋★赤旗チェックリスト=screeningの入力＝実用edge寄り。標準ケース[[$LIBRA]]全部入り、sniper/insider/LP非対称/bundled/team-dump/whale操作[[@badattrading_]]/[[@lookonchain]]）。entity: [[$LIBRA]] / [[@brian_armstrong]] [[@WhiteHouse]] [[@balajis]]。これでconcept 13枚。
 
 - 2026-06-23 ingest(synthesis cycle 5): 新concept2枚。[[ai-memes]]（型: トークン＝自律エージェントの配布層。$ai16z/$GOAT/[[$FARTCOIN]]、agentic economy物語[[@a1lon9]]/[[@rajgokal]]。⚠️[[@blknoiz06]]「$10B AI memeは来るが勝者不明」・[[@lmrankhan]]自壊論・自律の主張と実体の差・corpus強気一色）と [[perp-dex-wars]]（動線: [[$HYPE]]/Hyperliquid一強 vs Axiom/[[$ASTER]]/Lighter/Phoenix。★⚠️[[@DefiIgnas]]「buyback flywheelの燃料は清算されたretailの手数料」＝productive cryptoの影、Wynn/Tate清算[[onchain-verification]]、CEX(JELLY)攻撃で独立性が的）。entity: [[$FARTCOIN]] [[$ASTER]] [[$HYPE]](追記) / [[@shawmakesmagic]]。これでconcept 11枚＝土台→基盤→マクロ→供給→meme/AI/perpの層構造が一旦埋まった。
