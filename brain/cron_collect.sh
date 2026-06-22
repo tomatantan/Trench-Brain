@@ -15,11 +15,14 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 git pull -q --rebase origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
 python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1
 
-# auto-synthesis 決定的層: 全mint観測→篩→watch→synth_queue(LLM不使用・状態はlocal)。
-# 合成(LLM)はエージェント工程(brain/INGEST.md synth_queue)で別途。
+# auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
+# (2)合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
+bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
+# (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
+python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
-git add sources/x wiki/dashboards wiki/entities wiki/_worklist.md >> "$LOG" 2>&1 || true
+git add sources/x wiki/dashboards wiki/entities wiki/concepts wiki/_worklist.md wiki/log.md wiki/ui-data.json >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else

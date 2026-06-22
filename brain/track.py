@@ -181,15 +181,19 @@ def _cause(m, peak):
     return "?"
 
 
-# ---------- discovery 補助: 既存収集 tweet の $ticker→言及アカ ----------
-def kol_mentions(limit_files=400):
-    seen = {}
+# ---------- discovery 補助: 既存収集 tweet を1パスで走査 ----------
+# v2: KOL門は **CA(mint address)** で照合する（ticker照合は同名衝突で誤マッチ＝
+#     $KRILLION 実演で検出したバグ）。ticker は弱シグナル(メタ情報)として保持のみ。
+CA_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b")  # Solana base58 address
+
+
+def scan_tweets(limit_files=600):
+    """戻り値: (ticker_map{$TK:[acct]}, ca_map{CA:[acct]})。CAが強い門、tickerは弱メタ。"""
+    tks, cas = {}, {}
     for p in sorted(SRC.glob("*.md"), key=lambda x: x.stat().st_mtime, reverse=True)[:limit_files]:
         try:
             t = p.read_text(encoding="utf-8")
         except Exception:
-            continue
-        if "---" not in t:
             continue
         parts = t.split("---", 2)
         if len(parts) < 3:
@@ -197,8 +201,11 @@ def kol_mentions(limit_files=400):
         fm, body = parts[1], parts[2]
         acct = next((l.split(":", 1)[1].strip() for l in fm.splitlines() if l.startswith("account:")), "")
         for tk in set(TICKER_RE.findall(body)):
-            seen.setdefault(tk.upper(), set()).add(acct)
-    return {k: sorted(v) for k, v in seen.items()}
+            tks.setdefault(tk.upper(), set()).add(acct)
+        for ca in set(CA_RE.findall(body)):
+            cas.setdefault(ca, set()).add(acct)
+    return ({k: sorted(v) for k, v in tks.items()},
+            {k: sorted(v) for k, v in cas.items()})
 
 
 # ---------- メイン ----------
@@ -207,8 +214,7 @@ def cmd_run(args):
     base = load_json(BASERATE, {"mints_seen": 0, "gate_passed": 0, "died": 0,
                                 "graduated": 0, "last_created_ts": 0})
     queue = {"generated": now_iso(), "births": [], "changes": [], "deaths": []}
-    kol = kol_mentions()
-    kol_syms = {k.lstrip("$").upper() for k in kol}
+    kol_tk, kol_ca = scan_tweets()  # ticker_map(弱メタ), ca_map(強い門)
 
     # 1) 観測: pump.fun launch feed から新規 mint（前回以降）
     coins = pumpfun_recent()
@@ -221,29 +227,32 @@ def cmd_run(args):
         newest = max(newest, c.get("created_timestamp") or 0)
         m = pf_metrics(c)
         sym = (m["symbol"] or "").upper()
-        is_kol = sym in kol_syms
+        ca_kol = m["mint"] in kol_ca   # ★v2: CA一致のみ強い門(ticker衝突を回避)
         s_ok, s_why = safety_ok(m)
         if not s_ok:
             continue
-        t_ok, t_why = traction_ok(m, kol=is_kol)
+        t_ok, t_why = traction_ok(m, kol=ca_kol)
         if not t_ok:
             continue  # ← 観測はしたが採用しない(分母には入る。個別合成しない)
         # 採用 = TRACKED 登録 + 誕生キュー
         base["gate_passed"] += 1
         if t_why == "graduated":
             base["graduated"] += 1
-        key = "$" + sym if sym else m["mint"]
+        key = m["mint"]   # ★状態keyは mint(一意)。ticker は衝突する(別mintの同名)ので表示用フィールドに。
+        disp = "$" + sym if sym else m["mint"][:6]
         tracked[key] = {
-            "ticker": key, "mint": m["mint"], "name": m["name"],
+            "ticker": disp, "mint": m["mint"], "name": m["name"],
             "first_seen": now_iso(), "status": "tracked",
-            "peak_mcap": m["mcap_usd"], "kol": kol.get("$" + sym, []),
+            "peak_mcap": m["mcap_usd"],
+            "kol_ca": kol_ca.get(m["mint"], []),       # 強い門(CA一致した言及アカ)
+            "kol_ticker": kol_tk.get("$" + sym, []),   # 弱メタ($同名言及・自動通過しない)
             "gate": f"safety:{s_why}/traction:{t_why}",
             "tokenized_agent": m["tokenized_agent"],
             "last": m, "history": [m], "last_synth": None, "outcome": None,
         }
-        queue["births"].append({"ticker": key, "mint": m["mint"], "name": m["name"],
-                                "gate": tracked[key]["gate"], "kol": tracked[key]["kol"],
-                                "metrics": m})
+        queue["births"].append({"ticker": disp, "mint": m["mint"], "name": m["name"],
+                                "gate": tracked[key]["gate"], "kol_ca": tracked[key]["kol_ca"],
+                                "kol_ticker": tracked[key]["kol_ticker"], "metrics": m})
     base["last_created_ts"] = newest
     print(f"births(門通過): {len(queue['births'])} / mints_seen累計 {base['mints_seen']} "
           f"/ gate_pass累計 {base['gate_passed']}")
@@ -258,17 +267,18 @@ def cmd_run(args):
         prev = v.get("last")
         if (m["mcap_usd"] or 0) > (v.get("peak_mcap") or 0):
             v["peak_mcap"] = m["mcap_usd"]
+        disp = v.get("ticker", k[:6])
         if is_dead(m, v.get("peak_mcap")):
             v["status"], v["outcome"], v["died_at"], v["last"] = "dead", "died", now_iso(), m
             base["died"] += 1
-            queue["deaths"].append({"ticker": k, "peak_mcap": v.get("peak_mcap"),
+            queue["deaths"].append({"ticker": disp, "mint": k, "peak_mcap": v.get("peak_mcap"),
                                     "last": m, "cause": _cause(m, v.get("peak_mcap"))})
         else:
             flags = material_change(m, prev)
             if flags:
                 if "GRADUATED" in flags:
                     v["outcome"] = "graduated"
-                queue["changes"].append({"ticker": k, "flags": flags,
+                queue["changes"].append({"ticker": disp, "mint": k, "flags": flags,
                                          "prev_mcap": prev.get("mcap_usd"), "now": m})
             v["last"] = m
             v["history"] = (v.get("history", []) + [m])[-HISTORY_MAX:]

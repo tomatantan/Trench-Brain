@@ -1,13 +1,13 @@
 {
-  "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE)",
-  "schema": "signals[]: {type,title,size,color,glow,trace:{why,top[],causal[],confidence}}",
+  "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
+  "schema": "signals[]: concept由来の泡 {type,title,size,color,glow,trace} / live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)",
   "count": 40,
   "signals": [
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$PEPE",
       "size": 130,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 1.0,
       "mentions": 18,
       "accounts": 5,
@@ -41,16 +41,18 @@
             "text": "James Wynn(@JamesWynnReal) just got liquidated again.  Both his $PEPE longs and $BTC"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$TRUMP",
       "size": 130,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 1.0,
       "mentions": 10,
       "accounts": 6,
@@ -84,9 +86,14 @@
             "text": "We thought Trump was going to send us to Valhalla.  Instead we got $TRUMP coin and t"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "動線 — 規制/政策カタリスト（policy → trench）",
+          "型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）",
+          "型 — オンチェーン裏取り（言説 vs 実際の資金）",
+          "型 — 外部イベント → token（二股: RWA と meme）"
+        ],
+        "confidence": "中",
+        "synthesized": true
       }
     },
     {
@@ -127,9 +134,12 @@
             "text": "Dormancy flow buy signal on $BTC, very rare, only six times in history"
           }
         ],
-        "causal": [],
+        "causal": [
+          "動線 — メジャー・ローテーション / スーパーサイクル説（BTC→ETH→alt）",
+          "型 — オンチェーン裏取り（言説 vs 実際の資金）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -170,9 +180,12 @@
             "text": "Liquidity is currently flowing back into Ethereum from Solana.  SOL has bridged 4x m"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "動線 — メジャー・ローテーション / スーパーサイクル説（BTC→ETH→alt）",
+          "動線 — L1基盤戦争（Solana vs Ethereum＝memeが乗る地面）"
+        ],
+        "confidence": "中",
+        "synthesized": true
       }
     },
     {
@@ -213,9 +226,12 @@
             "text": "ethereum will never trade below four thousand dollars as long as i live on the plane"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "動線 — メジャー・ローテーション / スーパーサイクル説（BTC→ETH→alt）",
+          "動線 — L1基盤戦争（Solana vs Ethereum＝memeが乗る地面）"
+        ],
+        "confidence": "中",
+        "synthesized": true
       }
     },
     {
@@ -262,10 +278,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$BONK",
       "size": 130,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.93,
       "mentions": 16,
       "accounts": 3,
@@ -299,9 +315,12 @@
             "text": "to all the pocket watchers clowning on me because of my $bonk long  saying, \"bonk gu"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — launchpad 経済圏（Pump.fun / $PUMP＝memeの供給工場）",
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -388,7 +407,10 @@
             "text": "Paxos proposes 95% of interest from reserves to buy back $HYPE  On top, USDH would b"
           }
         ],
-        "causal": [],
+        "causal": [
+          "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）",
+          "動線 — メジャー・ローテーション / スーパーサイクル説（BTC→ETH→alt）"
+        ],
         "confidence": "中",
         "synthesized": true
       }
@@ -437,10 +459,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$PUMP",
       "size": 123,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.79,
       "mentions": 9,
       "accounts": 3,
@@ -474,9 +496,12 @@
             "text": "today is a turning point for $PUMP and pump fun  I want to give more context on the"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — launchpad 経済圏（Pump.fun / $PUMP＝memeの供給工場）",
+          "型 — AI-meme（トークン＝自律エージェントの配布層）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -518,10 +543,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$WIF",
       "size": 114,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.68,
       "mentions": 8,
       "accounts": 5,
@@ -555,9 +580,11 @@
             "text": "bonk guy proven right once again  just days ago we requested that @coinbase list the"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -779,10 +806,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$LIBRA",
       "size": 103,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.54,
       "mentions": 5,
       "accounts": 2,
@@ -816,16 +843,18 @@
             "text": "ye(@kanyewest) launched the $YZY token. Note:  Only $YZY was added to the liquidity"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$YAJUCOIN",
       "size": 100,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.5,
       "mentions": 12,
       "accounts": 4,
@@ -859,9 +888,11 @@
             "text": "In time, he is destined to reach the top position. We are all working diligently to"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "中",
+        "synthesized": true
       }
     },
     {
@@ -989,10 +1020,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$PENGU",
       "size": 96,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.45,
       "mentions": 6,
       "accounts": 3,
@@ -1026,7 +1057,9 @@
             "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
         "confidence": "—",
         "synthesized": false
       }
@@ -1070,10 +1103,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$KINTON",
       "size": 94,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.42,
       "mentions": 13,
       "accounts": 2,
@@ -1107,16 +1140,18 @@
             "text": "7000❤️ $kinton"
           }
         ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": false
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "中",
+        "synthesized": true
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$FARTCOIN",
       "size": 93,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.41,
       "mentions": 5,
       "accounts": 3,
@@ -1150,9 +1185,12 @@
             "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — AI-meme（トークン＝自律エージェントの配布層）",
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -1293,10 +1331,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$KINS",
       "size": 87,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.34,
       "mentions": 7,
       "accounts": 3,
@@ -1330,7 +1368,9 @@
             "text": "24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
         "confidence": "—",
         "synthesized": false
       }
@@ -1455,10 +1495,10 @@
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$JOTCHUA",
       "size": 85,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.31,
       "mentions": 8,
       "accounts": 2,
@@ -1492,16 +1532,18 @@
             "text": "Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a"
           }
         ],
-        "causal": [],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
         "confidence": "—",
         "synthesized": false
       }
     },
     {
-      "type": "MEME",
+      "type": "WORLD",
       "title": "$ASTER",
       "size": 85,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.31,
       "mentions": 4,
       "accounts": 3,
@@ -1530,9 +1572,11 @@
             "text": "Can it now recover my 10/10 losses?  $Aster"
           }
         ],
-        "causal": [],
+        "causal": [
+          "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）"
+        ],
         "confidence": "—",
-        "synthesized": false
+        "synthesized": true
       }
     },
     {
@@ -1640,194 +1684,77 @@
       }
     }
   ],
-  "generated_at": "2026-06-22T11:00:00Z",
-  "words_note": "words[]=次にmeme化し得る圧縮ワードの予測。events/posts=観測事実(出典付き)、why/potential/association_path/confidence=LLM推論。mention_accounts=独立言及アカ数(Hot順の主指標)。v1はsignal集計+conceptから生成。",
-  "words": [
+  "live": [
     {
-      "word": "STRAIT OF HORMUZ",
-      "potential": 78,
-      "mention_accounts": 3,
-      "area": [
-        "US",
-        "MIDDLE EAST"
-      ],
-      "category": "WORLD",
-      "observed_at": "2026-06-22T00:00:00Z",
-      "summary": "米イラン合意後ホルムズ海峡の船舶交通が再開。中東地政学リスクは過去 即ミーム化、リスクオフ/原油連動の圧縮ワード候補。",
-      "events": [
-        {
-          "time": "2026-06-22",
-          "type": "WORLD",
-          "title": "米イラン合意後、ホルムズ海峡の船舶交通が再開",
-          "area": "MIDDLE EAST",
-          "source": "[[@WatcherGuru]]"
-        }
-      ],
-      "posts": [
-        {
-          "account": "WatcherGuru",
-          "text": "JUST IN: Ship traffic officially resumes in the Strait of Hormuz after US and Iran sign de...",
-          "likes": 24872,
-          "source": "[[signal]]"
-        }
-      ],
-      "history": [
-        {
-          "date": "2020",
-          "title": "ソレイマニ司令官殺害→WW3が即トレンド化",
-          "similarity": "中東緊張がX上で即ミーム化した前例",
-          "wiki": "[[external-event-to-token-pattern]]"
-        },
-        {
-          "date": "2019",
-          "title": "ホルムズ海峡タンカー攻撃",
-          "similarity": "地政学緊張→原油/リスク資産が反応",
-          "wiki": ""
-        }
-      ],
-      "association_path": [
-        "世界情勢(米イラン)",
-        "集団感情(戦争/緊張)",
-        "過去パターン(中東緊張→ミーム)",
-        "圧縮ワード(HORMUZ/WW3)"
-      ],
-      "why": "中東緊張は過去 即座にミーム化(WW3等)し関連token/リスクオフ反応を生んだ。確定フロー無いが感情駆動の初動が速い=先回り余地。",
-      "confidence": 0.6
+      "ticker": "$TOUCHED",
+      "name": "pocket hitlers touched me",
+      "mint": "223Q1bvajHuvngaq3cAPPcCJUebdbTUBTmvKhAfBpump",
+      "mcap": 81750,
+      "peak_mcap": 81750,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T15:59:55Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/223Q1bvajHuvngaq3cAPPcCJUebdbTUBTmvKhAfBpump",
+      "spark": [
+        81650,
+        81750
+      ]
     },
     {
-      "word": "TORNADO CASH",
-      "potential": 70,
-      "mention_accounts": 2,
-      "area": [
-        "US",
-        "CRYPTO"
-      ],
-      "category": "CRYPTO_TWITTER",
-      "observed_at": "2026-06-22T00:00:00Z",
-      "summary": "Tornado Cash開発者の逮捕がCTで拡散。『コードを書いて逮捕』はcrypto自由派の感情を刺激=抗議ミーム化しやすい。",
-      "events": [
-        {
-          "time": "2026-06-22",
-          "type": "WORLD",
-          "title": "Tornado Cash開発者が逮捕",
-          "area": "US",
-          "source": "[[@RyanSAdams]]"
-        }
-      ],
-      "posts": [
-        {
-          "account": "RyanSAdams",
-          "text": "They arrested the developer of tornado cash. I repeat: a man was arrested for writing...",
-          "likes": 20951,
-          "source": "[[signal]]"
-        }
-      ],
-      "history": [
-        {
-          "date": "2022",
-          "title": "Tornado Cash制裁→検閲耐性議論",
-          "similarity": "規制/逮捕がcrypto自由派の結束ミームを生む",
-          "wiki": ""
-        }
-      ],
-      "association_path": [
-        "要人/規制(逮捕)",
-        "集団感情(自由派の怒り)",
-        "過去パターン(検閲耐性ミーム)",
-        "圧縮ワード(TORNADO/FREE系)"
-      ],
-      "why": "『開発者逮捕』は道徳的怒りを伴い、CTで抗議ミーム/支援tokenに転化しやすい。複数著名アカが拡散=言及の広がりあり。",
-      "confidence": 0.5
+      "ticker": "$TOUCHED",
+      "name": "pocket hitlers touched me",
+      "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
+      "mcap": 49358,
+      "peak_mcap": 49358,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T15:59:55Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
+      "spark": [
+        49320,
+        49358
+      ]
     },
     {
-      "word": "ASTEROID (SpaceX)",
-      "potential": 85,
-      "mention_accounts": 2,
-      "area": [
-        "US",
-        "CRYPTO"
-      ],
-      "category": "MEME_KOL",
-      "observed_at": "2026-06-22T00:00:00Z",
-      "summary": "SpaceX IPO動線のmeme側。マスコット『Asteroid Shiba』物語で$ASTEROID進行中。物語駆動の典型。",
-      "events": [
-        {
-          "time": "2026-06-22",
-          "type": "CRYPTO",
-          "title": "SpaceX IPO動線からマスコット発memeが派生",
-          "area": "US",
-          "source": "[[spacex-ipo-narrative]]"
-        }
-      ],
-      "posts": [
-        {
-          "account": "solbrdl",
-          "text": "$ASTEROID は SpaceX IPO のステージに実在した（spacex-asteroid-mascot）",
-          "likes": 0,
-          "source": "[[asteroid-token]]"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026",
-          "title": "$SPCX(tokenized stock)が同発端のRWA側",
-          "similarity": "同一外部イベントが数字側とmeme側に二股",
-          "wiki": "[[external-event-to-token-pattern]]"
-        }
-      ],
-      "association_path": [
-        "外部イベント(SpaceX IPO)",
-        "固有名/マスコット(Asteroid Shiba)",
-        "物語駆動",
-        "圧縮ワード(ASTEROID)"
-      ],
-      "why": "外部イベント→meme型の進行例。物語の真偽は未確認(一次裏取り無し)=高β・剥がれると無価値(rug型)。memetic高/確度低。",
-      "confidence": 0.45
-    },
-    {
-      "word": "CLUTCH (World Cup 2026)",
-      "potential": 72,
-      "mention_accounts": 1,
-      "area": [
-        "US",
-        "GLOBAL"
-      ],
-      "category": "MEME_KOL",
-      "observed_at": "2026-06-22T00:00:00Z",
-      "summary": "FIFA W杯2026マスコット『Clutch』発meme。7/19決勝という確定スケジュールで賞味期限が読める外部イベント型。",
-      "events": [
-        {
-          "time": "2026-06-22",
-          "type": "WORLD",
-          "title": "W杯2026(USA共催)開催、マスコットClutchがmeme化",
-          "area": "GLOBAL",
-          "source": "[[@Clutch_FIFA2026]]"
-        }
-      ],
-      "posts": [
-        {
-          "account": "Clutch_FIFA2026",
-          "text": "開催100日前・全104試合SOLD OUT・7/19決勝はFOX生中継、Trumpがトロフィー授与",
-          "likes": 0,
-          "source": "[[clutch-token]]"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026",
-          "title": "$ASTEROID(SpaceX発)と同型",
-          "similarity": "外部イベント→マスコットmeme",
-          "wiki": "[[external-event-to-token-pattern]]"
-        }
-      ],
-      "association_path": [
-        "外部イベント(W杯)",
-        "固有名/マスコット(Clutch)",
-        "確定スケジュール(7/19決勝)",
-        "圧縮ワード(CLUTCH)"
-      ],
-      "why": "確定スケジュール持ち=ピーク(大会/決勝)が読める。物語/single-source寄りで通過後の減衰リスク。",
-      "confidence": 0.5
+      "ticker": "$RO",
+      "name": "Ro The Robber",
+      "mint": "8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
+      "mcap": 5795,
+      "peak_mcap": 5795,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-22T15:59:55Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
+      "spark": [
+        5707,
+        5795
+      ]
     }
-  ]
+  ],
+  "base_rate": {
+    "mints_seen": 300,
+    "gate_passed": 3,
+    "died": 0,
+    "graduated": 1,
+    "pass_rate_pct": 1.0,
+    "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
+  }
 }
