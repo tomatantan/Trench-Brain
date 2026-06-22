@@ -4,12 +4,12 @@ kind: player
 title: @solana
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 7
+posts: 8
 ---
 
 # @solana
 
-> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -19,6 +19,7 @@ posts: 7
 |---|---|---|---|
 | 2,394 |  | If you weren't here, it will feel coordinated.  If you were here, you knew all along | [[solana__2068424246305366494]] |
 | 1,012 |  | Solana's got a full house.  This week Moody's, AWS, Kraken, and more all sat down at | [[solana__2068680345936142657]] |
+| 958 |  | BREAKING: Toss Bank is set to use Solana for its global remittance and settlement Po | [[solana__2068891897847001365]] |
 | 914 |  | $1 billion in weekly tokenized equities volume on Solana  higher imo | [[solana__2068349198487912877]] |
 | 678 |  | Mert on physics, incentives, and what comes next:  "Just building a network is extre | [[solana__2068206603627888807]] |
 | 376 |  | Collect the elusive Gengar or holo Charizard on platforms like @Collector_Crypt, @ph | [[solana__2068762645851729940]] |

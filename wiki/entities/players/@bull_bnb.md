@@ -4,15 +4,15 @@ kind: player
 title: @bull_bnb
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 18
 ---
 
 # @bull_bnb
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$XDOG]](3) [[$OKB]](1) [[$ASTER]](1)
+[[$XDOG]](3) [[$ASTER]](2) [[$OKB]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -23,10 +23,10 @@ posts: 15
 | 216 |  | OKX -> Xlayer -> OKB -> Xdog | [[bull_bnb__2068181316739416125]] |
 | 213 |  | People love laughing at someone when he’s in survival mode.  A man loses money, take | [[bull_bnb__2067816824591298653]] |
 | 209 | [[$ASTER]] | Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it.  | [[bull_bnb__2067284566990290960]] |
+| 207 | [[$ASTER]] | Can it now recover my 10/10 losses?  $Aster | [[bull_bnb__2067229690050543921]] |
 | 204 |  | A young man came to the Prophet ﷺ and complained "O Messenger of Allah, my father ke | [[bull_bnb__2068733743825908201]] |
 | 195 | [[$XDOG]] | Time to lead from the front And turn $Xdog into legacy. #OKX | [[bull_bnb__2068558277663932916]] |
 | 192 | [[$XDOG]] | Last time I bridged to Xlayer coz  someone asked me to change my name and later they | [[bull_bnb__2068044256112222676]] |
-| 187 |  | Somehow am feeling very happy about it 😂 Jared boy took alot of eth from me since 20 | [[bull_bnb__2068538909479621070]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

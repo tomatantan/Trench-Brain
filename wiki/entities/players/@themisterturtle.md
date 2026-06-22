@@ -1,15 +1,15 @@
 ---
 type: entity
 kind: player
-title: @themisterturtle
+title: @TheMisterTurtle
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 2
 ---
 
-# @themisterturtle
+# @TheMisterTurtle
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 2件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,16 +17,8 @@ posts: 15
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 916 |  | One week back on Solana ~$1,500 into $100,000. | [[TheMisterTurtle__2068467673923498134]] |
-| 671 |  | there are approximately 14,700 people left in the meme coin trenches   congratulatio | [[TheMisterTurtle__2067726689694630239]] |
-| 414 |  | blue checkmark | [[TheMisterTurtle__2068156489752023359]] |
-| 401 |  | good morning | [[TheMisterTurtle__2067864346571473255]] |
-| 398 |  | You are hiding sub $15k market cap gems in your portfolio, are you not? | [[TheMisterTurtle__2068042021713879172]] |
-| 378 |  | keep going anon | [[TheMisterTurtle__2067530398507151438]] |
-| 341 |  | “Bro, Satoshi launched this coin.” | [[TheMisterTurtle__2068054492650656241]] |
-| 332 |  | Frontrun this meta, frontrun that narra, how about you go out front and run a lap ar | [[TheMisterTurtle__2067832799424336345]] |
-| 297 |  | “Solana is the ETH of this cycle bro” | [[TheMisterTurtle__2068544151352705333]] |
-| 287 |  | $1,000 SOLANA | [[TheMisterTurtle__2068087977247457679]] |
+| 408 |  | I actually think meme coins will be bigger this cycle than they were last cycle. | [[TheMisterTurtle__2068911611759268049]] |
+| 167 |  | there is so much money out there   it really doesn’t take as much money as you’d thi | [[TheMisterTurtle__2068918880253132994]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

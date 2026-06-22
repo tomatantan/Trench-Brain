@@ -4,15 +4,15 @@ kind: player
 title: @cookerbruski
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 92
+posts: 103
 ---
 
 # @cookerbruski
 
-> 自動生成。信号投稿 92件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 103件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$TROLL]](2) [[$GROW]](2) [[$COOK]](2) [[$NEET]](1) [[$WOULD]](1) [[$LABUBU]](1) [[$PWEASE]](1)
+[[$GYM]](4) [[$TROLL]](2) [[$GROW]](2) [[$COOK]](2) [[$RICE]](1) [[$NEET]](1) [[$WOULD]](1) [[$LABUBU]](1) [[$PWEASE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

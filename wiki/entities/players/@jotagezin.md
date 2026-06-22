@@ -4,12 +4,12 @@ kind: player
 title: @jotagezin
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 74
+posts: 80
 ---
 
 # @jotagezin
 
-> 自動生成。信号投稿 74件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 80件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$MICHI]](1) [[$CHEGG]](1) [[$PRAIST]](1) [[$KEYCAT]](1) [[$FLERDA]](1) [[$BTCW]](1) [[$RIDE]](1) [[$GIKO]](1) [[$MEOW]](1)
@@ -18,6 +18,7 @@ posts: 74
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 744 |  | @xbtGBH probably doesn't like burgers 😹😹😹 | [[jotagezin__1752375731709948383]] |
+| 335 |  | smells like bitch in here | [[jotagezin__2013809927513428445]] |
 | 232 |  | @blknoiz06 you didn't say something funny bro | [[jotagezin__1784149781775831143]] |
 | 201 |  | @xbtGBH jews did 911 🤝 indians did 711 | [[jotagezin__1771205200029594105]] |
 | 193 |  | cat wif keyboard   😼🎹 | [[jotagezin__1774620128379814070]] |
@@ -26,7 +27,6 @@ posts: 74
 | 105 |  | never worked so hard for my bags  but at the same time  I never had that much fun in | [[jotagezin__1768112403261145330]] |
 | 102 |  | oh well  something crazy will happen soon  I’ve seen setups like this way too many t | [[jotagezin__1770532359193886825]] |
 | 86 |  | if every single person joined Albemarle’s telegram chat  we would have world peace   | [[jotagezin__1767634220787098103]] |
-| 75 |  | what I like the most about Albemarle is that you dont even need to buy the coin to e | [[jotagezin__1768466496802419195]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

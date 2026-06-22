@@ -4,15 +4,15 @@ kind: player
 title: @Crypto_Alch
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 17
+posts: 19
 ---
 
 # @Crypto_Alch
 
-> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$KINS]](3) [[$WOJAK]](2) [[$ASTEROID]](2) [[$FARM]](1) [[$AMERICA]](1) [[$ALTSZN]](1) [[$THREE]](1)
+[[$KINS]](4) [[$WOJAK]](2) [[$ASTEROID]](2) [[$FARM]](1) [[$AMERICA]](1) [[$JOTCHUA]](1) [[$ALTSZN]](1) [[$THREE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -26,7 +26,7 @@ posts: 17
 | 160 | [[$WOJAK]] | Why is $WOJAK pumping  Any news? | [[Crypto_Alch__2067898956231639482]] |
 | 157 | [[$FARM]] | What is $FARM and why is it going parabolic? | [[Crypto_Alch__2067981071292002678]] |
 | 152 |  | Gaming meta?  Shill me 👇 | [[Crypto_Alch__2067981639636926778]] |
-| 116 |  | Which communities still worth joining in 2026? | [[Crypto_Alch__2067964364242505846]] |
+| 122 | [[$KINS]] | Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli | [[Crypto_Alch__2068928202135781813]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
