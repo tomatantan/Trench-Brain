@@ -1,0 +1,51 @@
+name: collect-cloud
+
+# Trench-Brain cloud 冗長収集（憲法 指針2準拠＝門付き watchlist 収集のみ）。
+# 役割分担:
+#   cloud(ここ)  = 収集の腕。watchlist の新ツイを sources/x へ。Mac が落ちてても止まらない。
+#   local(launchd brain/cron_collect.sh) = 観測(track.py)+合成(headless/セッション)+UI export。
+# ★ track.py / synthesize.sh はここで回さない。理由:
+#   - track.py の状態(brain/state/tracked|base_rate|synth_queue.json)は gitignore＝local 専用。
+#     ephemeral な GHA では毎回リセットされ base_rate / 死検知が壊れる。
+#   - synthesize.sh は headless claude（課金 + telegram MCP 干渉）。cloud で回さない。
+# ＝合成は local 側が両輪のもう片方を回す（指針3）。cloud はあくまで「収集が夜間も止まらない」保険。
+# 依存: 標準ライブラリのみ（pip install 不要）。dedup は sources/x のファイル存在判定（commit 済なので cloud でも正しく効く）。
+
+on:
+  schedule:
+    - cron: "15 1,4,7,10,13,16,19,22 * * *"  # 3hごと(UTC)・local cron とは別位相
+  workflow_dispatch: {}                        # 手動実行も可
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-main          # local push と重なっても直列化
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4          # default branch = main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Collect new tweets (watchlist-gated)
+        env:
+          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
+        run: python3 collector/collect.py --source twitterapi
+
+      - name: Commit & push new sources
+        run: |
+          git config user.name "trench-brain-cloud"
+          git config user.email "actions@users.noreply.github.com"
+          git add sources/x
+          if git diff --cached --quiet; then
+            echo "no new tweets"
+          else
+            git commit -m "cloud-collect: $(date -u +%Y-%m-%dT%H:%MZ) (GHA)"
+            git pull --rebase --autostash origin main || true
+            git push
+          fi
