@@ -35,5 +35,9 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: Solana native の生存meme＋**BonkFun launchpad eco** の旗（[[survivor-memes]] / [[launchpad-economics]] の launchpad wars 側）。
+- **proof-of-patience**: [[@theunipcs]]「$16,000→$18M upnl on a single $BONK」「~10ヶ月保有 still up」＝長期保有の美学を旗に。[[@rajgokal]]「$bonk is the next billion dollar community on Solana」。
+- **動線**: [[@theunipcs]]「$SOL outperforming majors → $BONK and BonkFun eco reprice」＝**platform(SOL)β**。$PUMP TGE と「what it means for $BONK/BonkFun」で launchpad 競争の代理（theunipcs が両陣営を straddle）。
+- **⚠️**: champion が theunipcs に偏在＝強気一色。本人も "bonk guy roundtrip" FUD を認識。
+- **賭け仮説**: SOLβ＋Pump.fun vs BonkFun の market share 争いの代理。SOL相対強弱が時計。
 <!-- synthesis:end -->

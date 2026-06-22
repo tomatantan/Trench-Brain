@@ -30,5 +30,8 @@ posts: 102
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: trench のメガインフルエンサー＋伝説トレーダー（Ansem）。[[@lookonchain]] 計測「170x $SOL / 520x $WIF / 80x $BONK」＝**早期entryの体現者**＝[[survivor-memes]] の伝説lore の発生源。
+- **影響力**: lifestyle/culture投稿が8万いいね級＝センチメントの起点。$WIF 上場を Binance(Richard Teng) に公開要求するなど市場を動かす。
+- **⚠️ オンチェーン検算**: 一方で「$TRUMP 194,799枚($6.83M)を損切り（-$2.55M）」を [[@lookonchain]] が裏取り＝**伝説でも負ける**。発言の点火力 ≠ 常勝（[[onchain-verification]]）。
+- **賭け仮説**: 彼の言及はナラティブ点火力が大きい（張り材料）。ただし資金移動で検算してから乗る。逆神化（持ち上げ過ぎ）にも注意。
 <!-- synthesis:end -->

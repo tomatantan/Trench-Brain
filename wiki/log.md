@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-22 ingest(synthesis cycle 3): 新concept2枚。[[launchpad-economics]]（型: memeの供給工場＝Pump.fun/[[$PUMP]]・$600M/12分完売・revenue→buyback36%焼却・⚠️graduation率1.5%＝98.5%は死ぬ供給過剰＝[[majors-rotation-supercycle]]の供給希釈の蛇口・$LIBRA rug）と [[survivor-memes]]（型: 生き残った少数のblue-chip meme [[$BONK]]/[[$WIF]]/[[$PEPE]]/[[$FARTCOIN]]/[[$PENGU]]・★⚠️生存者バイアス＝語られる超リターンは全て後知恵の早期entry・集中リスク・corpusは強気一色なので懐疑はwikiが供給）。entity合成メモ: [[$PUMP]] [[$BONK]] [[$WIF]] [[$PEPE]] / [[@a1lon9]] [[@blknoiz06]]。手法=2並列エージェントで sources/x 横断→合成。mark_ingested で合成分のみ消し込み。
+
 - 2026-06-22 ingest(synthesis cycle 2): 新concept [[onchain-verification]]（型: 言説をオンチェーン資金移動で裏取り＝憲法 指針6「観測と推論の分離」の運用ツール。[[@lookonchain]]/[[@arkham]]=計器、一致/乖離/休眠覚醒の3類型＋perp-OI先回り[[@theunipcs]]）。entity合成メモ記入: [[$BTC]]（QT→QEマクロ・4年周期・⚠️zhusu逆指標）/ [[@lookonchain]]（観測装置・⚠️移動と意図の分離）/ [[@theunipcs]]（perp-OIシグナル論・$BONK maxi）/ [[@milesdeutscher]]（サイクル慎重派・3AC記録者）。手法=2並列エージェントで sources/x 横断→合成。mark_ingested で合成分のみ消し込み。
 
 - 2026-06-22 ingest(synthesis cycle 1): firehose是正。収集を一旦停止(GitHub `ingest` workflow disable＋ローカルlaunchd unload)し、backlog(未合成4,523)を合成する側へ全振り。新concept2枚: [[majors-rotation-supercycle]](BTC→ETH→altのローテ＋⚠️ supercycle主唱者[[@zhusu]]の崩壊を本人ツイで裏取り＝逆指標)、[[jp-meme-cluster]]([[$KINTON]]×[[$YAJUCOIN]]の相互保有メカニクス=束ねる型)。[[external-event-to-token-pattern]] を $TRUMP/$MELANIA/$VINE/$HARRYBOLZ で補強し「政治/要人meme=grift減衰」サブ型を追加。entity合成メモ記入: [[$ETH]] [[$SOL]] [[$KINTON]] [[$YAJUCOIN]] [[$TRUMP]] [[$HYPE]](追記) / [[@zhusu]] [[@CryptoHayes]]。手法=3並列エージェントで sources/x 横断収集→人手で合成判断(観測と推論を分離)。

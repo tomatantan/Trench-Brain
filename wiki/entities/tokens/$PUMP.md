@@ -34,5 +34,9 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: Pump.fun（memeのlaunchpad）のエコシステム/ガバナンストークン＝[[launchpad-economics]] の中核。trench の"供給工場"を自己トークン化したもの。
+- **発射**: [[@a1lon9]]「pump fun invented a completely new way to launch tokens」「$600M public sale を12分で完売」。premium: [[@defi_kay_]]「$5B→$6.5B（63% over ICO）」。
+- **価値捕捉**: 「100% of revenue went into buybacks、供給~36%を焼却」＝手数料→buyback/burn で $PUMP に還流。
+- **⚠️**: graduation率1.5%＝発射された98.5%は死ぬ供給過剰の胴元。$LIBRA rug の温床（[[onchain-verification]]）。
+- **賭け仮説**: 個別memeでなく**trench全体のインデックス/β＋buyback需給**として張る。launch数・graduation率・graduated tokens日次推移が trench活況の体温計（→[[majors-rotation-supercycle]] の供給希釈）。
 <!-- synthesis:end -->

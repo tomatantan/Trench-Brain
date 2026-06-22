@@ -30,5 +30,9 @@ posts: 111
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Pump.fun 共同創業（Alon）＝trench の供給工場の運営者＋[[$PUMP]] 伝道者（[[launchpad-economics]] の中心人物）。
+- **思想**: 「anyone can be early を商品化（＝controversialの理由）」「the return to memes will be glorious」「2024 was the warm up」。理想形として [[$FARTCOIN]]「team無し/KOL無しの organic」を掲げる。
+- **価値捕捉**: 「100% of revenue → buyback、供給~36%焼却」。streaming/creator fees で creator 取り込み。
+- **⚠️**: $LIBRA rug に「disgusted... people made gains at expense of users」＝openness が bad actor も呼ぶ自認。「streaming is not sustainable」批判に防御的＝外部の持続性懸念。
+- **賭け仮説**: [[$PUMP]] は彼の実行力＋trench活況に連動。launchpad market share と buyback 実績を追う。
 <!-- synthesis:end -->

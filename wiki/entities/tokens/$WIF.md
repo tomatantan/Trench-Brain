@@ -33,5 +33,8 @@ accounts: 5
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: Solana初期の一攫千金meme（生存組）＝[[survivor-memes]]。
+- **伝説lore**: [[@blknoiz06]]「520x on $WIF」、blockgraze「$8.6M(7,439x), spent only 20 $SOL($1,156)」（[[@lookonchain]]）。[[@blknoiz06]] は Binance(Richard Teng)に上場を公開要求するなど動かす力。
+- **⚠️ 集中＆後知恵**: 引用される超リターンは**全て早期entry＝retrospective**。[[@badattrading_]] は同一分析で「insider/sniper無し（クリーン）」と評価しつつ「top70 holders=66.1% / CEXクラスタ56.5%」＝**薄い実流動**を示す（両面）。
+- **賭け仮説**: SOLβの生存meme。後追いは「過去の100x」を理由にせず、集中度・配布を先に見る（[[survivor-memes]] の生存者バイアス）。
 <!-- synthesis:end -->

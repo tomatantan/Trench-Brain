@@ -35,5 +35,8 @@ accounts: 5
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **正体**: ETH legacy meme、memeの正当性を確立した原型（[[survivor-memes]] の ETH側代表）。
+- **lore**: [[@milesdeutscher]]「$PEPE ... 375,000x in just 21 days」、[[@lookonchain]]「whale 600日休眠→2.1T $PEPE($52M)、元手0.0135 $ETH($27)＝1,900,000x」。[[@pepecoineth]]「We ride at dawn」「i may be delusional but i am free $PEPE」＝**文化/ネタ駆動**。
+- **⚠️ 後知恵＆レバ**: 早期multiplierは全てretrospective。[[@lookonchain]]「James Wynn $PEPE/$BTC longs partially liquidated」＝生存memeでも高レバは飛ぶ。[[@CryptoHayes]] が $PEPE を売却（[[@lookonchain]] 裏取り）＝大口の出入りあり（[[onchain-verification]]）。
+- **賭け仮説**: ETHβ寄りの生存meme。物語は厚いがエントリータイミングが全て。
 <!-- synthesis:end -->
