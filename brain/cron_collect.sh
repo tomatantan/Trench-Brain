@@ -17,9 +17,13 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 # --autostash: .obsidian 等の未staged変更があっても rebase を通す(無いと pull skip→cloud GHA
 # の push と分岐した時に末尾 push が non-fast-forward で失敗する。2026-06-23 cloud冗長化で必須化)。
 git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
-# tweet収集が失敗しても launch pipeline(track/synth) は止めない(独立)。
-python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1 || echo "collect failed(継続)" >> "$LOG"
-# 長文収集(YouTube/podcast transcript)=門 feeds.md 巡回・1ch少数/回(volume制御で合成を追い越さない)。
+# ★X収集は cloud GHA(collect-cloud) 専任＝ここでは collect しない(2026-06-23 修正)。
+#   理由: cloud と local が両方 X を collect すると、同一ツイートを別commitで add/add →
+#   rebase で衝突して push が詰まりループがjamる(実害発生)。書き込みパスを分離=衝突を原理的に消す。
+#   設計「cloud=収集の腕 / local=合成の脳」に一致。local は pull で cloud の sources/x を取得し合成に使う。
+#   pipeline.py(--collect無し)= digest→build_entities→worklist(鮮度ゲート)を既存 sources/x から生成。
+python3 brain/pipeline.py >> "$LOG" 2>&1 || echo "pipeline failed(継続)" >> "$LOG"
+# 長文収集(YouTube/podcast transcript)=local専任(cloudは収集しない=書き込みパス分離)。門 feeds.md・1ch少数/回。
 python3 collector/collect_youtube.py --limit 1 >> "$LOG" 2>&1 || echo "yt-collect skipped(継続)" >> "$LOG"
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
@@ -34,7 +38,8 @@ bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
-git add sources/x sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/_worklist.md wiki/log.md wiki/index.md wiki/ui-data.json brain/state/ingested.txt brain/state/health.jsonl >> "$LOG" 2>&1 || true
+# local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
+git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json brain/state/ingested.txt brain/state/health.jsonl >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else

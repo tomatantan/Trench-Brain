@@ -6,9 +6,9 @@ updated: 2026-06-23
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **4707件**（基準時刻 2026-06-23T05:19Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **4705件**（基準時刻 2026-06-23T05:19Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
-§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**203ティッカーは降格**して非表示。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**204ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
 ## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
@@ -17,10 +17,9 @@ updated: 2026-06-23
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
 | [[$BTC]] | 13 | 5 | 85 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
-| [[$ETH]] | 9 | 5 | 85 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
-| [[$SPCX]] | 3 | 3 | 7 | 107♥ @coinkeiba: $SPCX 買わずに淡々と $TSLA 集めてる🚘 / 35♥ @dxrnell: The booster has safely landed $SPCX  |
+| [[$ETH]] | 8 | 4 | 84 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$SPCX]] | 3 | 3 | 6 | 25♥ @MurphyBTC: $SPCX #株   買い増し前に確認したい「ロックアップ解除リスク」 低フロート相場の次に来る“売 / 21♥ @spyzer: $SPCX gonna be an interesting study case consideri |
 | [[$SOL]] | 3 | 2 | 15 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 2022♥ @lookonchain: From a $1M loss (-90%) to a $2.5M profit—this diam |
-| [[$HYPE]] | 2 | 2 | 3 | 90♥ @lookonchain: The wallet(0xf7A4) linked to Arthur Hayes(@CryptoH / 5♥ @MurphyBTC: Hyperliquid TOP10鯨が $ETH 約133億円分のショートポジションをクローズしまし |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
 
@@ -53,9 +52,9 @@ updated: 2026-06-23
 | [[@thedefiedge]] | 117 |
 | [[@mellometrics]] | 117 |
 | [[@Ministerr]] | 116 |
+| [[@MarioNawfal]] | 112 |
 | [[@santiagoroel]] | 111 |
 | [[@spyzer]] | 111 |
-| [[@MarioNawfal]] | 111 |
 | [[@defi_kay_]] | 110 |
 | [[@hosseeb]] | 107 |
 | [[@KyleSamani]] | 106 |
