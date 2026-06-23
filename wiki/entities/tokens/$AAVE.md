@@ -28,5 +28,22 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（一次ソースから）
+- **WLFI 第1弾 (2024-12-12)**: World Liberty Multisig が $1M USDC で 3,357 AAVE を $297.8 に購入。([[@lookonchain]] [[lookonchain__1867036708983935325]])
+- **WLFI 第2弾 (2025-01-20)**: WLFI が 13,261 AAVE ($4.7M) を追加購入。ETH・LINK・TRX と同額枠（各 $4.7M）の主要バスケット組み入れ。([[@lookonchain]] [[lookonchain__1881338954743722319]])
+- **Zhu Su (2021-05-18)**: "$ETH $SUSHI $AAVE #DeFi" — DeFi summer の感情で並べて言及。([[@zhusu]] [[zhusu__1394525493425106945]])
+
+### 判断（事実から引いた推論）
+**役割・動線上の位置**: AAVE = 貸借プロトコルの老舗 blue chip。WLFI が2ヶ月で2度・計 $5.7M 積み増した事実は、[[external-event-to-token-pattern]] の「政治イベント → 既存 DeFi token」パターン。このパターンの meme サブ型（TRUMP/MELANIA 等）と異なり、AAVE は **RWA/機関信頼性サイド**＝イベント通過後も継続フローが読める構造。
+
+**WLFI 繰り返し買いの reflexivity 効果**: Trump ファミリー DAO が AAVE を追加購入する度に lookonchain がトレース・発信→ナラティブ増幅→注目の自己強化（[[reflexivity]]）。単発の政治 meme とは賞味期限の構造が違う（WLFI は売り時が読みにくい長期ホルダーである可能性）。
+
+**Zhu Su 言及の⚠️**: 2021年 DeFi summer のシルは [[majors-rotation-supercycle]] で記録された「逆指標」候補の zhu su（Three Arrows Capital 創業者、2022年破綻）によるもの。当時の文脈は DeFi ローテーション上昇期だったが、その後 Su Zhu 自身が supercycle 賭けで崩壊。この言及は時代の空気感の記録であり、信頼スコアに重みを置く根拠にはならない。
+
+**賭け仮説**: AAVE は [[majors-rotation-supercycle]] の "productive rotation" 候補（DeFi blue chip）かつ WLFI 政治 nexus により実績ある買い圧がある。監視点は WLFI ウォレットの AAVE 増減（[[onchain-verification]]）。大口が継続保有→ reflexive な強気継続、処分開始→早期 exit シグナル。
+
+### 接続 concept
+[[external-event-to-token-pattern]] / [[majors-rotation-supercycle]] / [[reflexivity]] / [[onchain-verification]]
+関連 entity: [[$ENA]] [[$ETH]] [[$LINK]] [[$SUSHI]] / player: [[@lookonchain]] [[@zhusu]]
 <!-- synthesis:end -->
