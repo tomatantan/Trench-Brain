@@ -115,6 +115,25 @@ AI credit event (2027-2028: GPU 償却5-6年 vs 実寿命2年が顕在化)
 - Hayes のETH-first 発言は既存合成と一致（"$ETH to $5k before $SOL to $300"）。今回はそれに「構造的理由（AI 酸素）」が加わった。
 - [[@thedefiedge]] の「供給希釈論」（トークン過多でローテが薄まる）+ Hayes の「AI が資本を吸っている」の2つが重なると、**今サイクルのalt seasonの弱さに対する2系統の独立した説明**になる（矛盾でなく補強）。
 
+## ★横断合成（2026-06-23）: 「なぜ今の bull は弱いか」＝ liquidity starvation に**4つの独立説明が収束**
+単一ソースでは「ETH弱い」「alt来ない」程度にしか見えないが、**別系統のソースを横断すると、同じ"流動性枯渇"を別角度から指す説明が4本そろう**＝これが本wikiの肝（繋がりの可視化）。⚠️**各々は独立した仮説で、どれも単独検証は済んでいない**（断定しない・収束が示唆的なだけ）。
+
+| # | 説明（観測） | 出典(独立) | どの方向の枯渇か |
+|---|---|---|---|
+| 1 | **AI が fiat の酸素を吸う**（印刷資本がAI capexへ→cryptoに来ない） | [[@CryptoHayes]]×[[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22\|Bankless]]（⚠️単一podcast） | 需要側（新規資本がAIへ） |
+| 2 | **トークン供給の希釈**（$1Bステーブルあたりトークン数が2021比~50倍） | [[@thedefiedge]] | 供給側（薄まる） |
+| 3 | **Saylor レバが内側から BTC を dragging**（[[$STRC]] preferred par-20%・$1.7B/年 dividend流出・"Strategy が BTC を引き下げる初の強証拠"） | [[$MSTR]]/[[$STRC]]（[[@Bankless]] David Hoffman 回） | **資本構造側（新overhang）** |
+| 4 | **再帰エンジンが低エネルギー**（[[reflexivity]] 燃料=traction が薄い） | [[reflexivity]]（古典×自前観測） | 自己強化が点火しない |
+
+**判断（横断して初めて言える型）**:
+- 4本は**矛盾でなく多面の補強**＝crypto の bull は「需要・供給・資本構造・再帰」の**複数方向から同時に流動性が枯れている**可能性。だから単一の好材料(ETF・規制)が効きにくい（[[regulation-catalyst]] の「発表≠地合い」とも整合）。
+- ★新リスクの surface＝**#3 Saylor/[[$STRC]] overhang**: これまで BTC の"買い手"だった Strategy のレバ構造が、par割れ＋dividend流出で**売り圧/連動下落の震源**になりうる＝[[$BTC]] の頭上の刃。MNAV圧縮(Jeff Dorman 0.7倍base)も同根。＝「Saylor=一方的に買う味方」という旧前提の更新。
+
+**示唆 / 賭けの仮説（edge）**:
+- bull の再点火 = この4枯渇のどれかが反転する時。監視点を具体化：①AI capex のストレス(Hayes の credit event 前兆) ②[[$STRC]] の dividend 維持/confidence（par回復 or 悪循環） ③供給体温計(graduation率→[[launchpad-economics]]) ④traction の再点火([[reflexivity]] 燃料計)。
+- ⚠️ #3 は「STRC正常化＝BTC弱化」の逆説あり（[[$MSTR]] メモ）＝単純な"STRC回復で買い"ではない。
+- コンセンサス(ETH-first)より、**この4枯渇のどれが先に緩むか**を当てる方が非対称。現状はどれも未反転＝待ち＋screening精度上げの局面（[[where-in-reflexive-cycle-2026-06-23]] と整合）。
+
 ## 出典(生ソース)
 [[@CryptoHayes]] ETH-first連投, [[@milesdeutscher]] ローテのタイミング論, [[@theunipcs]] alt melt-up,
 [[@DefiIgnas]] productive rotation, [[@zhusu]] supercycle(2021), [[@thedefiedge]] 供給希釈論。
