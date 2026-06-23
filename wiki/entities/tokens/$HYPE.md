@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $HYPE
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, entity, token]
 mentions: 17
 accounts: 10
@@ -44,4 +44,9 @@ accounts: 10
 - **賭け仮説**: バイバック需給は強いが、創設者級([[@CryptoHayes]])の退出が確認済＝勢いに陰り。whaleフローが買い越しに転じるかが分岐。confidence=中。
 - **メジャー・ローテとの接続**: [[@DefiIgnas]] の「nonproductive→productive cryptoへのローテ」で $HYPE は受け皿候補＝[[majors-rotation-supercycle]] の "productive-rotation 軸"。メジャー(ETH)直張りより β が高い代替先として位置づく。
 - **★perp戦争の本丸＝[[perp-dex-wars]]**: Hyperliquid は $170B/30D vol・$8.7B OI の一強。moat＝31% no-vesting airdrop＋unified margin＋手数料97-99%をbuyback/burn＋CEX未上場の独立性。⚠️ ただし [[@DefiIgnas]]「perps are wealth destruction for the majority」＝**buyback flywheel の燃料は清算された retail の手数料**。独立性が moat ゆえ Binance/OKx の JELLY perp 攻撃の的＝network崩れに脆い。
+
+### 2026-06-23 更新
+- **観測（オンチェーン・具体額）**: [[@arkham]] (2026-06-20) 新規 whale が FalconX から $7.3M HYPE + $14.4M ETH を同時引出し（合計 $21.7M）。「bought $HYPE at [the bottom]」の文脈で取得、翌日 +$400K。([[arkham__2068410022975922260]] 543♥) ← 既存合成が言及した「arkham: 別 whale の新規買い」と同一ツイ。具体額の補足。既存の「売り/買い割れ」観測を補強。
+- **観測（トレンド）**: [[@coingecko]] (2026-06-22) $HYPE が「本日最多閲覧」に $AERO/$TNSR と並列。([[coingecko__2068870775398867442]] 64♥) / 同日 $HYPE vs $ASTER vs $LIT 比較チャート機能を告知。([[coingecko__2069140924178075884]] 91♥) → retail attention の上昇傍証。coingecko は宣伝・集計主体なので**トレンド信号(注目度)であり買い圧ではない**。
+- **⚠️ 継続警戒**: Hayes 全売却（既記）+新 whale 買い = 大口間の売り/買い割れ継続。coingecko trending = 知名度上昇 ≠ 資金流入。Paxos buyback フライホイール（[[perp-dex-wars]]）の燃料（清算量）は別途監視。confidence 変わらず中。
 <!-- synthesis:end -->

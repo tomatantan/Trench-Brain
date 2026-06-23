@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $BTC
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, entity, token]
 mentions: 105
 accounts: 13
@@ -41,4 +41,9 @@ accounts: 13
 - **⚠️ 強弱衝突**: [[@zhusu]]「Dormancy flow buy signal, only six times in history」(強気) ⇄ 本人「I was undeniably wrong about how much crypto could fall from macro contagion」(前回の誤り)。強気サイクル論は zhusu型の逆指標リスクと常に併記。
 - **オンチェーン警告**: [[@lookonchain]]「BTC OG 80,009 $BTC($8.69B) woke after 14yr dormancy」＝潜在売り圧（[[onchain-verification]]）。
 - **賭け仮説**: Fed(QT/QE転換)と BTC dominance が alt ローテの号砲タイミングを決める最上流。BTC単体より「いつ下流に水が落ちるか」の時計として見る。
+
+### 2026-06-23 更新
+- **観測（新beat）**: [[@saylor]] (2026-06-22) Strategy が USD Reserve を $300M 積み増し→$1.4B。同時に 520 BTC ($35M) 追加取得、BTC 準備金 847,363 BTC へ。目的: $MSTR/$STRC デジタルクレジット証券の信用補強。([[saylor__2069028571880845340]] 12,088♥)
+  → 1回の purchase 規模(520 BTC)と明示目的(credit support)が具体的＝価格ノイズでない機関的積み増しの継続確認。
+- **⚠️ 48h 代表ツイの実態**: 「$BTC balance on exchanges just hit a 7-year low」([[@milesdeutscher]] 5,655♥) は **2025-01-16 の古ツイ**が再キャプチャされたもの。現時点の新データではない。
 <!-- synthesis:end -->

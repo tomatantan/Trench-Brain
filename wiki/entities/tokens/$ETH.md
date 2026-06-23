@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $ETH
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, entity, token]
 mentions: 107
 accounts: 13
@@ -39,4 +39,9 @@ accounts: 13
 - **強気**: [[@CryptoHayes]]「$ETH to $5k before $SOL to $300」連投・「$ETH=$10,000」、[[@blknoiz06]]「ethereum will never trade below four thousand dollars as long as i live」。
 - **⚠️ 流動の向きで矛盾(時系列で反転)**: [[@milesdeutscher]]「Liquidity is currently flowing back into Ethereum from Solana (SOL bridged 4x)」＝ETH流入論 ⇄ かつてのSOL優位。[[@zhusu]]は2021に「abandoned Ethereum」、本サイクルはETH強気＝**同一人物内でも反転**。事実として両論を残す。
 - **賭け仮説**: ETH-firstはKOLコンセンサスが厚い＝**コンセンサストレード(リターン薄)**。alt号砲の起点（ETHが価格発見で詰まる頃）を計る指標として使う方が価値。confidence=中。
+
+### 2026-06-23 更新
+- **⚠️ 48h 代表ツイの実態**: 「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = 2022-10-25) / 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = 2022-04-07)。両方とも **2022 年の古ツイ**が再キャプチャされたもの。合成済みの ETH 強気ナラティブに新情報はない。
+- **観測（オンチェーン）**: [[@arkham]] (2026-06-20) 新規 whale が FalconX から $14.4M ETH + $7.3M HYPE を同時引出し($21.7M 計)。翌日 +$400K。([[arkham__2068410022975922260]] 543♥) → [[HYPE]] 側で主に記録。ETH の底値買い確認の傍証。
+- 既存合成（ETH＝ローテ中継点・コンセンサストレード）に変化なし。
 <!-- synthesis:end -->
