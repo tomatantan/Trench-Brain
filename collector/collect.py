@@ -239,7 +239,7 @@ def main():
         new_here = 0
         for nt in tweets:
             author, tid, note = build_note(nt, via=h)
-            path = OUT_DIR / f"{author}__{tid}.md"
+            path = OUT_DIR / f"{author.lower()}__{tid}.md"
             if path.exists():
                 total_skip += 1
                 continue
