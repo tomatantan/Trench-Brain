@@ -230,3 +230,7 @@ brain/state/base_rate.json
 
 # モバイルvaultのgraph.jsonはObsidianがライブ編集する→git追跡すると pull衝突。色はアプリ内手動設定。
 wiki/.obsidian/graph.json
+.obsidian/
+brain/state/launch_queue.jsonl
+brain/state/launch_seen.txt
+brain/state/launch_stats.json
