@@ -63,4 +63,11 @@ accounts: 16
 - **観測（実世界イベント → meme 再燃）**: [[@dxrnell]]（2026-06-23T01:23）: 「The booster has safely landed $SPCX」([[dxrnell__2069229769166872837]] 35♥/8RT）。実際の SpaceX Falcon 9 ブースター着陸成功イベントをトークンのティッカーと絡めた投稿 = **リアルイベント → ミームキャタリスト型の拡散**（[[spacex-ipo-narrative]]のパターン通り）。likes は薄いが RT 比（8RT/35♥）はやや高く、拡散ベクトルは残る。
 - **観測（coinkeiba の TSLA 優先、2026-06-17）**: [[@coinkeiba]]「$SPCX 買わずに淡々と $TSLA 集めてる」([[coinkeiba__2067223580837106022]] 107♥) = 「$SPCX を買わずに原資産である $TSLA を直接集める」という**equity-first の合理化戦略**。既存の coinkeiba ショート利確（ショートで稼ぐ）とは別の立場: "underlying を集める方が賢い" という判断。この立場は**「合成 perp/tokenized spot よりも本物の株を」**という最も真っ当な反論。
 - **示唆**: ダンプ継続（-16%）の中で、①実世界イベントによる meme 再燃試み（dxrnell）と②原資産回帰の合理化（coinkeiba/TSLA 優先）という 2 つの対応が並行。meme 再燃は短命の可能性が高い（板/売り圧に対抗できるほどの likes ではない）。confidence=やや弱気（変化なし）。
+
+### 2026-06-23 更新④（同日 4 サイクル目）
+- **観測（価格マイルストーン：全騰幅消去）**: [[@coingecko]]（2026-06-23T05:12Z）: 「NEWS: $SPCX falls 17.8%, erasing all of its gains since its market debut.」([[coingecko__2069287524254482595]] 14♥)。前回観測（WatcherGuru -16%）からさらに続落し、**上場初日からの全上昇幅を消去**。-10.5% → -16% → -17.8% の連続下落が CoinGecko ニュース feed で確認された。
+- **[[@MEXC]]（2026-06-23T05:00Z）**: $SPACEX(PRE) の 0-Fee キャンペーン広告（[[MEXC__2069284313808646519]]）= 取引所プロモ継続だが、$SPCX 本体ではなく PRE 商品。信号として独立性なし。
+- **示唆（判断）**: [[@CryptoHayes]]「9月 unlock = low float high FDV shitcoin」（2026-06-22）の thesis が **unlock 前の現在時点で既に全騰幅消去**として実現しつつある。DefiIgnas の「低 float / 高 FDV」懐疑 + MurphyBTC の「lockup 解除で売り圧フェーズ」という論理の前半が今証明された。残るのは 9 月 unlock 以降の売り圧が追加でどれほどか。既存の強気サイド（「初値割れ予想を覆した」[[0xFunX]]・Tesla-run 類比 [[solbrdl]]）は全騰幅消去で根拠消失。
+- **⚠️ MEXC の $SPACEX(PRE) とは分けて考える**: MEXC 広告は先物（perp）商品ラインの継続。$SPCX 本体の株価が -17.8% でもデリバティブ取引所は存続する（[[perp-dex-wars]]の観点では板・流動性が生き続ける可能性）。ただし underlying が全騰幅消去なら perp の強気 funding は剥落方向。
+- **confidence = 弱気（更に強化）**。[[spacex-ipo-narrative]] の「外部イベント→フィーバー→ダンプで全消し」完結パターン確定へ近づいている。
 <!-- synthesis:end -->

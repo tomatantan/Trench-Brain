@@ -52,6 +52,8 @@ SpaceX IPO（外部/TradFiイベント）
 - 6/12 $SPCX 上場、OI急拡大・初値割れ予想を覆す
 - 6/13–6/19 [[@solbrdl]] が $ASTEROID 蓄積論を連投(SpaceX IPO後のシナリオ2＝capitulation→20-30m→新ATH)
 - 6/19–6/21 Solana の tokenized $SPCX が出来高157x、MEXC先物800M＝フィーバー加速
+- 6/22 [[@CryptoHayes]] 「9月 unlock = low float high FDV shitcoin」/ [[@WatcherGuru]] -10.5% → -16%
+- **6/23 [[@coingecko]]「$SPCX falls 17.8%, erasing all of its gains since its market debut」**([[coingecko__2069287524254482595]])。**IPO初日からの全騰幅消去**が確定。Hayes thesis が 9 月 unlock 前に部分実現。
 
 ## 示唆 / 賭けの仮説
 - **型**: 「crypto外のビッグイベント → ①RWA/tokenized で機関フロー ②マスコット/固有名で meme」の二股は再現性がある(W杯→[[$CLUTCH]]、elon→[[$ASTEROID]] 等)。**次の大型IPO/世界イベントで同じ二股を先回り**できる。

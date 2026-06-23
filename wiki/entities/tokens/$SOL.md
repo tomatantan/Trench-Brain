@@ -44,4 +44,10 @@ accounts: 8
 - **新 beat（HYPE → SOL ローテ仮説）**: [[@coinkeiba]]（2026-06-22）: 「$SOL 最近雰囲気良いな。$HYPE が夏枯れして $SOL なのかもしれない」([[coinkeiba__2068864139473436993]] 15♥)。likes 小さいが**ローテーション方向の観測**として記録。
 - **代表ツイの実態**: worklist 代表ツイ「@lookonchain: Davido が $DAVIDO ローンチ」([[lookonchain__1796017849179468116]]) は **2024-05-30 の古ツイ**。「@theunipcs: $SOL to $1,000」([[theunipcs__1875464863859847448]]) は **2025-01-04 の古ツイ**。いずれも再キャプチャ＝現在の SOL 動向の新情報なし。
 - **判断**: coinkeiba の「HYPE 夏枯れ → SOL」仮説は [[majors-rotation-supercycle]] の短期ローテ視点と整合する。HYPE TOP10 が ETH+HYPE double-short（MurphyBTC 観測）を保有している文脈（[[$ETH]] 参照）と合わせると、large players が HYPE から他へのローテを検討している可能性。SOL への資金流入が実際のオンチェーンデータで確認できればより確度↑。confidence 変わらず中。
+
+### 2026-06-23 更新②（同日 2 サイクル目）
+- **新 beat（大口 20x short、2026-06-23T09:10Z）**: [[@lookonchain]]「A whale is extremely bearish on $SOL. One hour ago, whale 0x9137 opened a 20x short on 554,680 $SOL($38.15M).」([[lookonchain__2069347306164592726]] 164♥)。lookonchain watchlist KOL が報告した**オンチェーン大口短売り**。$38.15M × 20x レバ = ノーショナル ~$763M 相当の SOL ベア賭け。
+- **⚠️ 矛盾（同日内で相反）**: coinkeiba「HYPE 夏枯れ → SOL なのかもしれない」（前回更新①、強気方向）⇄ whale 0x9137「$38.15M の 20x short」（本更新、強気の否定）。coinkeiba の観測と whale の行動が**同日に逆方向**。coinkeiba の likes は 15♥（小さい）、lookonchain は 164♥（中程度）。
+- **代表ツイ（旧 MOO / diamond hands）の実態**: worklist の lookonchain 代表ツイ「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」(tweet_id 1650703881528307712 = 2023年) / 「From a $1M loss (-90%) to a $2.5M profit—this diamond hands」(1877551033460863307 = 2024年) は古ツイ再キャプチャ。本サイクルで実質的な新 SOL シグナルは whale 0x9137 の short のみ。
+- **示唆**: 「HYPE → SOL ローテ」は KOL レベルの観測に留まり、実際のオンチェーン大口は SOL に強いベア賭けをしている。ETH short 解消（[[$ETH]] 更新③）と SOL 大口 short 開始が同日に生じた = **大口の方向性は ETH・SOL ともにポジティブでない**。coinkeiba の「SOL 雰囲気良い」は KOL 層の感覚、whale の行動が反証。[[majors-rotation-supercycle]] 上、大口は alt 先行ではなく様子見・空売りの段階。confidence 変わらず中。
 <!-- synthesis:end -->

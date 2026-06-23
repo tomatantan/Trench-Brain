@@ -61,4 +61,9 @@ accounts: 2
 - $10M mcap 到達は Pump.fun 産として上位サバイバー階層だが、主要シラーが Pump.fun プロモ feed 1本＋CT caller 1本という薄さ。
 - [[jp-meme-cluster]] 脈絡で $KINS と連動する可能性。$KINS が先に崩れると連鎖。
 - 追いかける価値の判断基準: WL 外の独立 KOL（日本語圏外）が言及開始＝[[jp-meme-cluster]] 「越境がカタリスト」。現時点でそれはなし。
+
+### 2026-06-23 更新
+- **観測（$114K whale、2026-06-22T00:53Z）**: [[@PumpfunEco]]「A $Jotchua whale is currently holding a $114,000 bag 🔥」([[PumpfunEco__2068859879373013379]] 51♥)。初回合成で記録した「$123,000 ポジション」([[PumpfunEco__2068619724649308222]])より小さい数字。同一人物なら含み損で縮小（pump 頂点を過ぎた後の mark-to-market 下落）、別人なら別の大口の存在。いずれにせよ $10M mcap で $100K 超ポジションを持つ大口が複数存在している事実は変わらず。ホルダー集中リスク継続（[[rug-anatomy]]）。
+- **⚠️ 「bottom is in」コール（2026-06-23T10:44Z）**: [[@Crypto_Alch]]「My Nigerian quant thinks the $Jotchua bottom is in. I tend to believe him」([[Crypto_Alch__2069370952098468236]] 1♥, 0RT)。**likes=1/RT=0 = 最低確度のシグナル**。ただし @Crypto_Alch は watchlist KOL で JOTCHUA 保有経緯あり。「bottom is in」発言は自己保有ポジションの整理トークとしての**利益相反リスク**が高い（[[rug-anatomy]]）。
+- **判断（型の照合）**: pump 後（+900%、$10M mcap 到達）に主要シラーが「底打ち」を宣言 = 初回合成で記録した「pump 後プロモ継続型」パターンに完全一致。Crypto_Alch が「Nigerian quant」という出所不明の権威を使うのは責任回避の典型。confidence 変化なし（低）。独立 KOL（WL 外）の言及はなし。
 <!-- synthesis:end -->
