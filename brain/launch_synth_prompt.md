@@ -16,6 +16,8 @@
 JSON の `kol_standouts` / `traction_candidates` に出たものだけ、`wiki/entities/tokens/$<SYM>.md` を作成。
 - KOL言及/traction が**採用の理由**＝そこを明記(reflexivity の点火燃料③)。無signalの recent_samples は**作らない**(観測のまま)。
 - 観測(launch事実)と判断(なぜ拾ったか・生存条件・関連concept [[..]])を分離。簡潔に。
+- ★**証拠を tier 格付け**(本人拡張・`brain/methodology/source-tiers.md`): on-chain/RugCheck=**T1**・KOL言及=**T3**・hype/reply=**T5**。
+  各主張に tier ラベル。採用は **T3以上の signal が要る**(T5 hype だけは観測どまり)。「T1安全×T3 KOL×narrative有機」なら survivor候補・「T5のみ」は⚠️つり上げ疑い。
 
 ## 出力
 ファイルを書く。最後に「PULSE updated / adopted: $X $Y」と1行。
