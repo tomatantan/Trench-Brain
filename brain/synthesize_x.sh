@@ -1,7 +1,8 @@
 #!/bin/bash
 # synthesize_x.sh — X側 auto-synthesis の「合成(LLM)」工程を無人で回す。
 # ingest_worklist.py が出した wiki/_worklist.md の §1a(鮮度ゲート通過＝今ホット)を
-# headless claude が上位3件だけ合成する(bounded=複利)。§1aが空なら claude を呼ばない(コスト0)。
+# headless claude が上位5件合成する(bounded=複利)。§1aが空なら claude を呼ばない(コスト0)。
+# 5件/サイクル=signal backlog(§1a)を毎サイクル枯らすレート(指針3両輪。健康=raw総数でなく§1a未合成)。
 # cron が前後で git する。pump.fun側の synthesize.sh と対をなす(両輪のX側)。
 set -euo pipefail
 cd /Users/toma/trench-brain
@@ -21,7 +22,7 @@ if [ "${hot:-0}" -eq 0 ]; then
   exit 0
 fi
 
-echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) synth-x start: §1a=$hot hot (process top3, model=$MODEL) ===" >> "$LOG"
+echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) synth-x start: §1a=$hot hot (process top5, model=$MODEL) ===" >> "$LOG"
 if ! command -v claude >/dev/null 2>&1; then
   echo "synth-x: claude CLI not found → スキップ" >> "$LOG"
   exit 0
