@@ -35,10 +35,11 @@ accounts: 14
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-- **⚠️カテゴリ＝RWA / tokenized equity（SpaceX"株"のトークン化）≠ memecoin**。評価軸は**株式メカニクス**（float / lockup解除 / バリュエーション / OI・先物の板）であって meme virality ではない。trench で追う理由は「現物株だから」ではなく **crypto会場で売買される流れ**（Hyperliquid perp・MEXC先物・crypto.com利回り・onchainでwhale/ショート追跡）。memeロジック（コミュニティ/lore/拡散速度）で測ると誤る。姉妹の純memecoinは別物の [[$ASTEROID]]（[[spacex-ipo-narrative]] が両者を峻別）。
-- **正体**: SpaceX株のオンチェーン・トークン化(RWA/tokenized equity)。24/7・レバ・ショート可。[[@cryptocom]]が4%利回り商品化＝機関的プロダクト化が進む。
-- **動線**: [[spacex-ipo-narrative]] の RWA 側（発端=SpaceX IPO）。型 [[external-event-to-token-pattern]]。
-- **板/フロー(数字で追う層)**: OI Binance$312.8M / Hyperliquid$309M([[@DefiIgnas]])、[[@MEXC]]先物日次800M、Tesla-run類推([[@solbrdl]])。
+- **⚠️カテゴリ（正確に。"RWA"単独は誤り）**: $SPCX は単一資産でなく **SpaceX株エクスポージャーを束ねた傘ティッカー**で、中身は**別リスクの2 instrument**:
+  - **(1) 合成 perp / 先物**＝株の裏付けを持たない**デリバティブ（RWAではない）**。[[@thedefiedge]]「#1 Synthetic perps＝レバ/ショート用」([[thedefiedge__2067291214614089780]]) / [[@nansen_ai]]「Perps powered by [[@HyperliquidX]]」([[nansen_ai__2067598994675827014]]) / [[@MEXC]] Futures / [[@DefiIgnas]] のOI。**trench の出来高・KOL言及の主流はこちら**。リスク＝funding / 清算 / オラクル価格。型は [[perp-dex-wars]]。
+  - **(2) tokenized spot 株**＝**こちらが RWA**（real-share-backed を称する）。[[@cryptocom]]「tokenized stock」4%利回り([[cryptocom__2067548618341384397]]) / [[@Backpack]]・@sunrisedefi が Solana で発行([[AdimsSHOGUN__2068599540115202320]]) / [[$BP]] が listing後 Solana の spot equities 出来高50%超([[golocojp__2067815287840448859]]) / [[@MEXC]]「real share ownership」。リスク＝ペッグ / 裏付け / カストディ（**backing は未検証**＝[[@DefiIgnas]] の low-float/high-FDV 懐疑の核）。型は [[external-event-to-token-pattern]] の RWA 側 [[spacex-ipo-narrative]]。
+  - 共通: memecoin ではない＝**meme virality（lore/拡散）でなく株式メカニクス（float/lockup/valuation）と板で測る**。姉妹の純memecoinは別物の [[$ASTEROID]]。SpaceX はこの世界線で **IPO 済**（[[@theunipcs]]「successful SpaceX IPO」/ [[@thedefiedge]]「hottest listing」）＝未上場ではないが、上記2 instrument の別は残る。
+- **板/フロー(数字で追う層)**: OI Binance$312.8M / Hyperliquid$309M([[@DefiIgnas]])、[[@MEXC]]先物日次800M $USDT、[[$BP]] が listing後 Solana の spot equities 出来高50%超捕捉。Tesla-run類推([[@solbrdl]])。
 - **⚠️両論(未決)**:
   - 懐疑: [[@DefiIgnas]]「crypto流の低float/高FDVローンチに終わる」/ [[@theunipcs]]「$2.6T評価は高すぎ?」/ [[@coinkeiba]]「$SPCX買わず$TSLA集める・SpaceXは陰謀論でショート」
   - 強気: [[@0xFunX]]「初値割れ予想を覆した(150→176→161)」/ 取引所([[@MEXC]] [[@cryptocom]])の商品化

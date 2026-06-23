@@ -2,7 +2,7 @@
 type: concept
 title: SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, concept, narrative, causal-chain, external-factor, solana]
 memetic_potential: 高
 confidence: 中〜高
@@ -17,7 +17,7 @@ $SPCX(14)・$ASTEROID(17) が同時上位に来たことから合成。
 ## 動線（causal chain）
 ```
 SpaceX IPO（外部/TradFiイベント）
-   ├─▶ [[$SPCX]]  … 株のオンチェーン・トークン化(24/7・レバ・ショート可)
+   ├─▶ [[$SPCX]]  … SpaceX株エクスポージャー＝合成perp(非RWA)＋tokenized spot株(RWA)の2経路(24/7・レバ・ショート可)
    └─▶ [[$ASTEROID]]    … IPOステージに登場したマスコットの memecoin 化
         → 両者が相互参照しながら投機フィーバー（先物・OI・派生ローンチ）
 ```
@@ -28,10 +28,10 @@ SpaceX IPO（外部/TradFiイベント）
 ## 2系統の対比
 | | [[$SPCX]] | [[$ASTEROID]] |
 |---|---|---|
-| 正体 | SpaceX株のトークン化(RWA/tokenized equity) | SpaceXマスコット発の純memecoin |
-| 駆動 | 機関的フロー・先物OI・取引所(Binance/Hyperliquid/MEXC) | コミュニティ・物語(「IPOステージに実在した」) |
-| 主な論者 | [[@thedefiedge]] [[@DefiIgnas]] [[@CryptoHayes]] [[@MEXC]] | [[@solbrdl]](Asteroid maxxing) [[@MascotAsteroid]] |
-| リスク | RWAの規制・ペッグ/裏付け論争 | 物語が剥がれると無価値・rug型 |
+| 正体 | **傘ティッカー**: 合成perp/先物(株の裏付けなし=**非RWA**)＋tokenized spot株(**RWA**, Backpack/sunrisedefi/cryptocom発)。詳細[[$SPCX]] | SpaceXマスコット発の純memecoin |
+| 駆動 | perp側=OI/funding/取引所(Hyperliquid/Binance/MEXC・出来高の主流)／spot側=機関フロー・real-share backing(未検証) | コミュニティ・物語(「IPOステージに実在した」) |
+| 主な論者 | [[@thedefiedge]] [[@DefiIgnas]] [[@CryptoHayes]] [[@MEXC]] [[@nansen_ai]] [[$BP]] | [[@solbrdl]](Asteroid maxxing) [[@MascotAsteroid]] |
+| リスク | perp=funding/清算/オラクル ／ spot=ペッグ/裏付け未検証/カストディ・lockup解除の売り圧 | 物語が剥がれると無価値・rug型 |
 
 ## プレイヤー相関
 - [[@solbrdl]] = $ASTEROID の旗振り。「SpaceX IPOステージに$ASTEROIDが実在」「URLに spacex-asteroid-mascot と入ってる」を根拠に蓄積を主張。100m mcap以下なら積み増し対象、と賭け仮説を明言。
