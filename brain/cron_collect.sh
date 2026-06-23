@@ -18,6 +18,7 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 #   ＝Macが電源ONな限り、collect/合成/bot/起き続け が自己修復で永続する。
 pgrep -f "caffeinate -i -m -s" >/dev/null 2>&1 || { nohup caffeinate -i -m -s >/dev/null 2>&1 & echo "self-heal: caffeinate起動" >> "$LOG"; }
 pgrep -f "brain/wiki_bot.py" >/dev/null 2>&1 || { nohup /usr/bin/python3 /Users/toma/trench-brain/brain/wiki_bot.py >> brain/state/bot.out 2>&1 & echo "self-heal: bot起動" >> "$LOG"; }
+pgrep -f "brain/launch_stream.py" >/dev/null 2>&1 || { nohup /usr/bin/python3 /Users/toma/trench-brain/brain/launch_stream.py >> brain/state/launch_stream.log 2>&1 & echo "self-heal: launch_stream起動" >> "$LOG"; }
 
 # 単一枝 main に一本化(2026-06-22 unify)。collect=門付き(watchlist)＝憲法 指針2準拠。
 # --autostash: .obsidian 等の未staged変更があっても rebase を通す(無いと pull skip→cloud GHA

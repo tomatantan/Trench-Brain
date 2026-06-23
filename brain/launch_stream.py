@@ -134,8 +134,13 @@ def kol_blob():
     return _kol_cache["text"]
 
 
+# ★"わかりやすいscam"だけ弾く(本人2026-06-23): freeze/mint authority・honeypot/売れない・creator-rug履歴。
+#   構造的な集中%等(出来立てで普通に高い)は弾かない＝湯水を素通しに近く流す。
+CLEAR_SCAM_KEYS = ("honeypot", "freeze", "cannot sell", "can't sell", "transfer fee",
+                   "creator history of rugged", "scam", "blacklist", "mint authority")
+
 def sieve(c, rc, dup_count=0):
-    """scam門。RugCheck danger全部 + authority未放棄 + rugged + copycat重複 を弾く。
+    """scam門=明白なやつだけ。freeze/mint authority・honeypot・creator-rug・copycat を弾く。
     返り=(passed:bool, reason:str, kol:bool)。"""
     mint = c.get("mint")
     kol = mint in kol_blob() if mint else False
@@ -143,15 +148,14 @@ def sieve(c, rc, dup_count=0):
         return (False, "rugcheck-none", kol)
     if rc["rugged"]:
         return (False, "rugged", kol)
+    # ① 明白: authority未放棄(無限mint/凍結できる)=即scam
     if rc["mint_auth"] or rc["freeze_auth"]:
-        return (False, "authority未放棄(scamれる)", kol)
-    # ★RugCheck の danger は全部 scam赤旗として弾く(creator-rug/bundle/single-holder/honeypot/freeze)。
-    if rc["danger"]:
-        return (False, f"scam赤旗:{rc['danger'][0]}", kol)
-    # insider/bundle 検出も弾く(④初動の買い方)。
-    if rc["insiders"]:
-        return (False, "insider/bundle検出", kol)
-    # 同名copycat spam(QUANTUM×5等)を弾く。
+        return (False, "authority未放棄(freeze/mint可)", kol)
+    # 明白なscam danger のみ(honeypot/売れない/creator-rug履歴)。集中%等の構造danger は弾かない。
+    clear = [dr for dr in rc["danger"] if any(k in dr.lower() for k in CLEAR_SCAM_KEYS)]
+    if clear:
+        return (False, f"scam:{clear[0]}", kol)
+    # 同名copycat spam(QUANTUM×5等)=わかりやすいjunk。
     if dup_count >= 3:
         return (False, f"copycat重複x{dup_count}", kol)
     reason = "KOL言及+非scam" if kol else "非scam(clean launch)"
@@ -195,13 +199,44 @@ def one_cycle(seen):
     for c in new:
         seen.add(c["mint"])
     log(f"cycle: newest{len(coins)} new{len(new)} meta通過{len(meta)} rugcheck{rc_done} → PASS{passed}")
+    _bump_stats(observed=len(new), meta=len(meta), rugchecked=rc_done, passed=passed,
+                rejected=max(0, rc_done - passed))
     return passed
+
+
+def _bump_stats(**delta):
+    """scam率/通過率の累積stat(launch_pulse が読む)。"""
+    f = STATE / "launch_stats.json"
+    try:
+        s = json.loads(f.read_text()) if f.exists() else {}
+    except Exception:
+        s = {}
+    for k, v in delta.items():
+        s[k] = s.get(k, 0) + v
+    f.write_text(json.dumps(s), encoding="utf-8")
+
+
+import subprocess
+DRAIN_EVERY = int(os.environ.get("LS_DRAIN_EVERY", "15"))  # 何周毎に連続合成drainを回すか(~15min)
+
+def spawn_drain():
+    """launch_synth.sh を背景spawn(非blocking)。多重起動は避ける。"""
+    try:
+        running = subprocess.run(["pgrep", "-f", "launch_synth.sh"],
+                                 capture_output=True).returncode == 0
+        if running:
+            return
+        subprocess.Popen(["bash", str(ROOT / "brain" / "launch_synth.sh")],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        log("drain spawn(連続合成)")
+    except Exception as e:
+        log(f"drain spawn err: {type(e).__name__}")
 
 
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
     seen = load_seen()
-    log(f"launch_stream 起動 (poll={POLL}s top%上限{TOP_PCT_MAX} seen既知{len(seen)})")
+    log(f"launch_stream 起動 (poll={POLL}s drain毎{DRAIN_EVERY}周 seen既知{len(seen)})")
     cyc = 0
     while True:
         try:
@@ -209,6 +244,8 @@ def main():
             cyc += 1
             if cyc % 10 == 0:
                 save_seen(seen)
+            if cyc % DRAIN_EVERY == 0:
+                spawn_drain()        # 連続合成: 定期的に queue を drain(背景・throughput分だけ)
         except Exception as e:
             log(f"cycle err: {type(e).__name__}: {e}")
         time.sleep(POLL)
