@@ -22,11 +22,4 @@ PROMPT="$(cat brain/launch_synth_prompt.md)
 $AGG"
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT" >> "$LOG" 2>&1 || echo "pulse synth err" >> "$LOG"
 
-# 連続合成を即永続(cloudと分岐しても壊れない)
-if ! git diff --quiet wiki/ 2>/dev/null; then
-  git add wiki/concepts/launch-pulse.md wiki/entities/tokens/ wiki/index.md 2>/dev/null || true
-  git commit -q -m "launch-pulse: 出来立ての流れを集約合成(launch_stream→pulse)+standout採用" >/dev/null 2>&1 || true
-  git pull -q --rebase --autostash origin main >/dev/null 2>&1 || true
-  git push -q origin main >/dev/null 2>&1 || true
-fi
-echo "pulse synth done (flow=$CNT)" >> "$LOG"
+echo "pulse synth done (flow=$CNT) ※git永続はcron_collect(3h)に委譲=race回避" >> "$LOG"
