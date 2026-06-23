@@ -25,6 +25,8 @@ git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pull skippe
 python3 brain/pipeline.py >> "$LOG" 2>&1 || echo "pipeline failed(継続)" >> "$LOG"
 # 長文収集(YouTube/podcast transcript)=local専任(cloudは収集しない=書き込みパス分離)。門 feeds.md・1ch少数/回。
 python3 collector/collect_youtube.py --limit 1 >> "$LOG" 2>&1 || echo "yt-collect skipped(継続)" >> "$LOG"
+# ★自動で賢くなる: watchlist(門)を引用グラフから自動拡張(候補化→人は承認だけ・指針2)。決定的層=LLM不要。
+python3 brain/expand_watchlist.py >> "$LOG" 2>&1 || echo "expand-watchlist skipped" >> "$LOG"
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
