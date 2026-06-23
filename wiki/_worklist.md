@@ -6,7 +6,7 @@ updated: 2026-06-23
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **4659件**（基準時刻 2026-06-23T00:39Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **4652件**（基準時刻 2026-06-23T00:39Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**204ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -18,7 +18,6 @@ updated: 2026-06-23
 |---|---|---|---|---|
 | [[$ETH]] | 12 | 5 | 87 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
 | [[$BTC]] | 12 | 5 | 84 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
-| [[$JOTCHUA]] | 7 | 2 | 8 | 201♥ @PumpfunEco: $Jotchua is rallying, currently up 92% in 24 hours / 186♥ @PumpfunEco: $Jotchua has pumped 900% since it began trending o |
 | [[$SOL]] | 4 | 3 | 18 | 2296♥ @lookonchain: Davido(@davido) launched a token named $DAVIDO and / 2284♥ @theunipcs: $SOL to $1,000 is one of those targets that sound  |
 | [[$MU]] | 4 | 3 | 4 | 400♥ @solana: NEW: $MU (@MicronTech) via @SunriseDeFi. issued by / 351♥ @blknoiz06: airmass might be the greatest to ever do it with t |
 | [[$WOJAK]] | 3 | 3 | 13 | 1423♥ @lookonchain: We noticed an early buyer of $SHIB also bought $PE / 683♥ @BinanceUS: Deposits for $WOJAK are now open on @BinanceUS!  T |

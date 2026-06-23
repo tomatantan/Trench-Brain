@@ -37,7 +37,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - rug の温床: [[@a1lon9]] 自身「disgusted by events surrounding $LIBRA. People made personal gains at expense of users」([[a1lon9__1891593196439790005]])。
   openness は bad actor も呼ぶ＝[[onchain-verification]]（[[@lookonchain]] が $LIBRA の $107M exit を追跡）と直結。
 
-## 📊 auto-track 実観測コホート（`brain/track.py` の死の分母）
+## auto-track 実観測コホート（`brain/track.py` の死の分母）
 外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-23 時点・累計）= **mints 観測 900 / 門通過 11（1.2%）/ graduated 6 / 死 0**。
 - **「graduated but empty」型が観測の主流**: 通過銘柄の大半が *graduation 済みなのに reply 0・KOL 言及ゼロ*。出来高だけ先行し社会的 traction が伴わない。
   実例コホート（同一バッチ）: [[$MOONLAKE]]（AI・$274k）/ [[$MOTION]]（$187k）/ [[$VCSOL]]（GTA参照・$119k）/ [[$AEGIS]]（privacy・$27k）/ 既出 [[$RO]] / [[$AXIOS]]。
@@ -45,7 +45,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - **prebond 観測（未 graduation・勢い門 mcap で通過）**: [[$MEW2]]（Pokemon IP・$47k）/ [[$GOOSE]]（animal・$90k）＝bonding curve 上で出来高だけ立った初期銘柄。graduation か死かを watch＝分母の入口側。
 - **含意**: graduation は生存の十分条件ではない。**graduation × (reply/KOL traction)** が [[survivor-memes]] の足切り。traction を欠く graduate は死の分母に算入する前提で見る（これが生存者バイアス対策の実装）。
 
-## 📈 auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
+## auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
 死(→[[rug-anatomy]] 死亡台帳)と対。`brain/track.py` が **BREAKOUT(mcap前回比+100%超) / GRADUATED** を検知する度、
 `brain/synthesize.sh` の合成が**跳躍シグネチャを1行追記**する。「跳ねる前に何が見えていたか」の共通項を貯める学習台帳。
 

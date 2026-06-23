@@ -41,7 +41,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 - **team保有%とlock期間**（39.5%・短lock＝時限爆弾／3.4%・1年lock＝相対クリーン）
 - **CEXクラスタ%**（高集中＝偏り）/ **bundledフラグ**（exit阻止＝即アウト）
 
-## 📒 auto-track 死亡台帳（死の型を貯めて学習する）
+## auto-track 死亡台帳（死の型を貯めて学習する）
 `brain/track.py` が死(RETIRE: mcap枯れ or peak比-90%)を検知する度、`brain/synthesize.sh` の合成が
 **死亡シグネチャを1行追記**する。観測の蓄積＝「死ぬ前に何が見えていたか」の共通項を浮かせる学習台帳
 （観測＝表 / 型の言語化＝下の判断）。型通りの死は1行、番狂わせ(新しい死に方)はentityにフル。
@@ -51,7 +51,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | [[$KRILLION]] | 勢い門 | 低 | reply0 / KOL0 | 誕生即死(1cy) | mcap枯れ | **traction無しの即死**＝最頻型 |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
-**現時点で浮いている型（判断）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死亡率が高い（[[$AXIOS]] が peak比-76%で死へ進行中＝実時間の実例）。②graduated でも KOL ピックアップ無しは「graduated but empty」で死分母行き（[[launchpad-economics]]）。→ **死の最大の先行指標は "traction の不在"**。これは下の赤旗(holder集中等)より**早く・安く**取れる前段フィルタになりうる。
+**現時点で浮いている型（判断）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死亡率が高い（[[$AXIOS]] が peak比-76%、[[$TBHR]] が -86% で死へ進行中＝実時間の実例。両者とも traction ゼロ）。②graduated でも KOL ピックアップ無しは「graduated but empty」で死分母行き（[[launchpad-economics]]）。→ **死の最大の先行指標は "traction の不在"**。これは下の赤旗(holder集中等)より**早く・安く**取れる前段フィルタになりうる。
 
 ## ⚠️ 境界の論争（何をrugと呼ぶか）
 - **インサイダー≠rug?**: 「割当を持つteamが利確しただけ」論 ⇄ [[@a1lon9]] は**害(at expense of users)**で rug 認定。$LIBRA の POPE wash は「意図的抽出」の証拠＝単なる利確と一線。
