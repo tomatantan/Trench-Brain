@@ -134,27 +134,27 @@ def kol_blob():
     return _kol_cache["text"]
 
 
-# 真の赤旗(launchでも意味がある=弾く)。"holder/ownership/concentration"は出来立てで構造的に高い=許容。
-REJECT_KEYS = ("creator", "rug", "honeypot", "freeze", "mint authority", "mutable metadata", "scam", "blacklist")
-
-def sieve(c, rc):
-    """PASS判定。launch時は『scamれる構造 / creator rug履歴』で弾く。集中%は構造的なので門にしない。
+def sieve(c, rc, dup_count=0):
+    """scam門。RugCheck danger全部 + authority未放棄 + rugged + copycat重複 を弾く。
     返り=(passed:bool, reason:str, kol:bool)。"""
     mint = c.get("mint")
     kol = mint in kol_blob() if mint else False
     if rc is None:
         return (False, "rugcheck-none", kol)
-    # ① 安全: rugged済・authority未放棄(scamれる)は即除外
     if rc["rugged"]:
         return (False, "rugged", kol)
     if rc["mint_auth"] or rc["freeze_auth"]:
         return (False, "authority未放棄(scamれる)", kol)
-    # ②④ 真の赤旗のみ弾く(creator rug履歴/honeypot/freeze等)。構造的な集中dangerは launch では許容。
-    bad = [dr for dr in rc["danger"] if any(k in dr.lower() for k in REJECT_KEYS)]
-    if bad:
-        return (False, f"赤旗:{bad[0]}", kol)
-    # ここまで通過=「scamれない・creator clean・出来立て」。KOL言及あれば最優先フラグ。
-    reason = "KOL言及+安全" if kol else "安全クリア(出来立て)"
+    # ★RugCheck の danger は全部 scam赤旗として弾く(creator-rug/bundle/single-holder/honeypot/freeze)。
+    if rc["danger"]:
+        return (False, f"scam赤旗:{rc['danger'][0]}", kol)
+    # insider/bundle 検出も弾く(④初動の買い方)。
+    if rc["insiders"]:
+        return (False, "insider/bundle検出", kol)
+    # 同名copycat spam(QUANTUM×5等)を弾く。
+    if dup_count >= 3:
+        return (False, f"copycat重複x{dup_count}", kol)
+    reason = "KOL言及+非scam" if kol else "非scam(clean launch)"
     return (True, reason, kol)
 
 
@@ -176,6 +176,9 @@ def one_cycle(seen):
     coins = fetch_newest()
     new = [c for c in coins if c.get("mint") and c.get("mint") not in seen]
     meta = [c for c in new if prefilter(c)]
+    # copycat検出: この周回で同じsymbolが何回出てるか(spam=同名連発)
+    from collections import Counter
+    symcount = Counter((c.get("symbol") or "").lower() for c in new)
     passed = 0
     rc_done = 0
     for c in meta:
@@ -183,7 +186,7 @@ def one_cycle(seen):
             break
         rc = rugcheck(c["mint"])
         rc_done += 1
-        ok, reason, kol = sieve(c, rc)
+        ok, reason, kol = sieve(c, rc, symcount.get((c.get("symbol") or "").lower(), 0))
         if ok:
             enqueue(c, rc, reason, kol)
             passed += 1
