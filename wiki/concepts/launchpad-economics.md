@@ -72,7 +72,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - 監視: [[@a1lon9]] の buyback/burn 実績、graduation率、BonkFun との市場シェア争い。
 
 ## 関連
-- [[survivor-memes]]（工場から生き残った稀な graduate）/ [[majors-rotation-supercycle]]（供給希釈）/ [[onchain-verification]]（$LIBRA rug）
+- [[reflexivity]]（**根本エンジン**＝98.5%死は reflexive bust が常態・graduation×traction はループ燃料の有無）/ [[survivor-memes]]（工場から生き残った稀な graduate）/ [[majors-rotation-supercycle]]（供給希釈）/ [[onchain-verification]]（$LIBRA rug）
 - [[$PUMP]] / [[$BONK]] / [[@a1lon9]] / [[@theunipcs]] / 集計の入口: [[signal|Signal digest]]
 
 ## 出典(生ソース)

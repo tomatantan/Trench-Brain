@@ -18,6 +18,7 @@
 - players/ — @アカウント毎（120件）。例: [[@solbrdl]] [[@CryptoHayes]]
 
 ## 概念ページ（concepts）★横断合成＝判断/動線/型。
+- [[reflexivity]] — ★★根本エンジン(古典[[canon]]/Soros): 価格↔ナラティブの自己強化。memecoin=ファンダ無し=reflexivityが裸で全部。pump/death/rotationの下にある共通機械。traction=燃料計
 - [[external-event-to-token-pattern]] — ★型: 外部イベント→token（再現プレイブック・政治サブ型あり）
 - [[spacex-ipo-narrative]] — ★動線: SpaceX IPO → [[$SPCX]]/[[$ASTEROID]]
 - [[majors-rotation-supercycle]] — ★動線: メジャー・ローテ（BTC→ETH→alt）/スーパーサイクル説（⚠️zhusu逆指標）

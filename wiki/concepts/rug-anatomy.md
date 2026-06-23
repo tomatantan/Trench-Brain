@@ -66,7 +66,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 - 監視: 新規launchの sniper/insider/LP構成、team wallet の取引所入金、whaleの清算誘発（perp）。
 
 ## 関連
-- [[onchain-verification]]（資金移動の検算）/ [[launchpad-economics]]（98.5%が死ぬ母集団＝rugの温床）/ [[perp-dex-wars]]（$JELLY whale操作）/ [[external-event-to-token-pattern]]（政治meme grift）
+- [[reflexivity]]（**根本エンジン**＝bust は reflexive ゆえ突然・holder集中は反転時 exit の増幅器）/ [[onchain-verification]]（資金移動の検算）/ [[launchpad-economics]]（98.5%が死ぬ母集団＝rugの温床）/ [[perp-dex-wars]]（$JELLY whale操作）/ [[external-event-to-token-pattern]]（政治meme grift）
 - [[$LIBRA]] / [[$TRUMP]] / [[@lookonchain]] / [[@badattrading_]] / [[@a1lon9]] / 集計の入口: [[signal|Signal digest]]
 
 ## 出典(生ソース)
