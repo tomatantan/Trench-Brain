@@ -45,6 +45,8 @@ DEATH_DRAWDOWN = 0.90      # peak mcap比 -90% 以下＝実質死
 # ---- 「重要な変化」フラグ（=深い再合成に値する）----
 CHG_MCAP = 0.40           # mcap が前回比 ±40% 超
 CHG_REPLY = 30            # reply_count が前回比 +30 超(話題化)
+BREAKOUT_PCT = 1.00       # mcap が前回比 +100%超(2x)＝「大きく跳ねた」moonshotイベント。
+                          # 死(下)と対になる学習対象＝跳躍の型を台帳に貯める(synth_x_prompt 跳躍台帳)。
 HISTORY_MAX = 48
 PF_SCAN_PAGES = 6         # launch feed を何ページ遡るか(1ページ=50)
 
@@ -166,6 +168,8 @@ def material_change(m, prev):
         flags.append("GRADUATED")  # bonding→Raydium は最重要イベント
     if prev.get("mcap_usd"):
         d = (m["mcap_usd"] - prev["mcap_usd"]) / prev["mcap_usd"]
+        if d >= BREAKOUT_PCT:
+            flags.append("BREAKOUT")  # 大跳躍＝跳躍台帳に型を記録する合図
         if abs(d) > CHG_MCAP:
             flags.append(f"mcap{d*100:+.0f}%")
     if m.get("reply_count", 0) - prev.get("reply_count", 0) > CHG_REPLY:

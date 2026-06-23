@@ -45,6 +45,21 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - **prebond 観測（未 graduation・勢い門 mcap で通過）**: [[$MEW2]]（Pokemon IP・$47k）/ [[$GOOSE]]（animal・$90k）＝bonding curve 上で出来高だけ立った初期銘柄。graduation か死かを watch＝分母の入口側。
 - **含意**: graduation は生存の十分条件ではない。**graduation × (reply/KOL traction)** が [[survivor-memes]] の足切り。traction を欠く graduate は死の分母に算入する前提で見る（これが生存者バイアス対策の実装）。
 
+## 📈 auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
+死(→[[rug-anatomy]] 死亡台帳)と対。`brain/track.py` が **BREAKOUT(mcap前回比+100%超) / GRADUATED** を検知する度、
+`brain/synthesize.sh` の合成が**跳躍シグネチャを1行追記**する。「跳ねる前に何が見えていたか」の共通項を貯める学習台帳。
+
+| ticker | 跳躍 | mcap 前→後 | traction(reply/KOL) | 前兆/きっかけ | 型/signature |
+|---|---|---|---|---|---|
+| [[$RO]] | +138% | $5.8k→$13.8k | reply0 / KOL0 | ⚠️ twitterがElon tweetリンク(association marketing偽装) | **traction無し×出来高driven**＝持続性疑問 |
+| [[$AEGIS]] | +160% | $29k→$76k | reply0 / KOL0 | 不明(privacyテーマ便乗 or bot買い) | traction0で急騰＝⚠️[[rug-anatomy]] のつり上げ候補 |
+| [[$PHONEBLACK]] | +138% | $89.8k→$214.3k | reply0 / KOL0 | 不明(phone-01black.com整備済だが言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO と同型・whale/bot pump疑い |
+<!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
+
+**現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。
+**KOL/reply を伴う跳躍**（=本物の社会的需要）と **traction無しの出来高跳躍**（=操作/bot疑い）を分けて貯めれば、
+「[[survivor-memes]] に化ける跳躍」と「rug前のつり上げ」を**事前に弁別**する型が立つ見込み。現状サンプルは後者寄り。
+
 ## 競争（launchpad wars）
 - Pump.fun（$PUMP）vs **BonkFun**（[[$BONK]] eco、[[@theunipcs]] が straddle: 「$PUMP TGE and what it means for $BONK and BonkFun eco」）
   vs Moonshot / Axiom / Raydium LaunchLab / Zora。Pump.fun が「40%+ of bonding curve volume originating on-platform」([[defi_kay___1932801391694692718]]) で支配的。

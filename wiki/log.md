@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(auto-synthesis): births=0 / changes=2 / deaths=0。[[$TBHR]] mcap -86%（$17.9k→$2.5k）→status:fading・死亡圏接近・"traction無し即死" 型へ。[[$PHONEBLACK]] BREAKOUT +138%（$89.8k→$214.3k）→status:breakout・KOL/reply=0=traction-less・[[rug-anatomy]] のつり上げ候補として跳躍台帳に追記。
+
 - 2026-06-23 ingest(auto-synthesis worklist §1a 上位3件 第2回): [[$ETH]]/[[$BTC]] は前回処理済（追加更新なし）。[[$JOTCHUA]] 初回合成。観測: Pump.fun産→900%↑→$10M mcap（2026-06-21）。⚠️主シラーが Pump.fun 公式 feed（プラットフォーム自身）5件+@Crypto_Alch 2件=実質独立 KOL 1本。[[jp-meme-cluster]] 更新（$10M 数値を表に波及）。confidence=低。
 
 - 2026-06-23 ingest(auto-synthesis): births=5 / changes=6 / deaths=0。births: [[$FISHEE]]($138k・stub)・[[$PHONEBLACK]]($85k・graduated・phone-01black.com)・[[$NPEPE]]($48k・Pepe派生stub)・[[$TBHR]]($19k・graduated・Steam game link特異)・[[$EYEZ]]($1.4k・死亡間近stub)。changes: [[$RO]]+348%($9.6k→$42.8k・Elon tweet association買い継続⚠️)・[[$MOTION]]+82%($194k→$354k・KOLゼロのまま最大mcap)・[[$AEGIS]]+160%($29k→$76k・privacy token急騰⚠️rug注意)・[[$GOOSE]]+52%($90k→$137k)・[[$MEW2]]+43%($47k→$67k)・[[$AXIOS]]-51%($25.5k→$12.5k・peak比-76%・死に接近)。
