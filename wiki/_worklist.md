@@ -6,80 +6,74 @@ updated: 2026-06-22
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **4480件**。手順は brain/INGEST.md。
-処理したら `python3 brain/mark_ingested.py` で消し込む。
+前回ingest以降の新シグナルツイ **4612件**（基準時刻 2026-06-22T23:15Z）。手順は brain/INGEST.md。
+★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**202ティッカーは降格**して非表示。
+処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
-## 1) 合成メモを更新すべき entity（新シグナル順 top20）
-各 entity ページを開き `<!-- synthesis -->` に物語/動線/⚠️矛盾/賭け仮説を追記・改訂。
+## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
+各 entity の `<!-- synthesis -->` に物語/動線/⚠️矛盾/賭け仮説を追記・改訂。一次ソースを読む。
 
-| entity | 新規言及 | 総アカ | 新規の代表ツイ |
-|---|---|---|---|
-| [[$ETH]] | 86 | 13 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
-| [[$BTC]] | 82 | 13 | 12088♥ @saylor: Strategy has increased its USD Reserve by $300 mil / 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   |
-| [[$MASK]] | 37 | 1 | 795♥ @spyzer: Never Underestimate The Power of Community    $MAS / 689♥ @spyzer: $MASK UUUUUUUUUUUUUP 🔥🔥🔥  |
-| [[$USDC]] | 20 | 4 | 3000♥ @lookonchain: Trump's World Liberty(@worldlibertyfi) just spent  / 2801♥ @lookonchain: North Korean hackers went long $ETH on #Hyperliqui |
-| [[$SPCX]] | 19 | 14 | 6182♥ @WatcherGuru: JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, era / 390♥ @theunipcs: i haven't tweeted about any other memecoin except  |
-| [[$CLUTCH]] | 18 | 1 | 21♥ @Clutch_FIFA2026: USA just unveiled the Star-Spangled 2026 kits — Am / 16♥ @Clutch_FIFA2026: game is fun in beta, $clutch saving the day. CA: B |
-| [[$SOL]] | 18 | 8 | 2296♥ @lookonchain: Davido(@davido) launched a token named $DAVIDO and / 2284♥ @theunipcs: $SOL to $1,000 is one of those targets that sound  |
-| [[$ASTEROID]] | 18 | 2 | 248♥ @Crypto_Alch: $ASTEROID just 2x in a single fvcking candle   Did / 220♥ @solbrdl: Do people realize $ASTEROID was ACTUALLY on stage  |
-| [[$WOJAK]] | 13 | 5 | 1423♥ @lookonchain: We noticed an early buyer of $SHIB also bought $PE / 683♥ @BinanceUS: Deposits for $WOJAK are now open on @BinanceUS!  T |
-| [[$VINE]] | 10 | 1 | 329♥ @spyzer: 𝕏 (Elon) indirectly launched his first crypto and  / 270♥ @spyzer: do it for the $Vine   culture drives everything  @ |
-| [[$PUMPI]] | 10 | 1 | 66♥ @pumpilians_: New players can now understand the game much easie / 53♥ @pumpilians_: Clan system is now live!  - Create a clan for 500, |
-| [[$JOTCHUA]] | 10 | 2 | 201♥ @PumpfunEco: $Jotchua is rallying, currently up 92% in 24 hours / 186♥ @PumpfunEco: $Jotchua has pumped 900% since it began trending o |
-| [[$MITCH]] | 8 | 1 | 51♥ @ShapeFN_: When she doesn’t believe $MITCH will 100x, but you / 50♥ @ShapeFN_: When $MITCH hits 100x and the DMs start flooding i |
-| [[$KINS]] | 8 | 3 | 139♥ @PumpfunEco: $KINS is rallying, currently up 28% in 24 hours 👀  / 122♥ @Crypto_Alch: Legend has it that $KINS is in vertical accumulati |
-| [[$MERLIN]] | 7 | 2 | 1969♥ @ShapeFN_: Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merli / 406♥ @ShapeFN_: People compare $Merlin to $Penguin because both we |
-| [[$STRC]] | 7 | 4 | 12088♥ @saylor: Strategy has increased its USD Reserve by $300 mil / 245♥ @CryptoKaleo: There’s a much higher chance $STRC never returns t |
-| [[$USDT]] | 7 | 3 | 1772♥ @lookonchain: MrBeast (@MrBeast) just deposited 114,483 $USDT in / 1648♥ @lookonchain: It seems that #Bybit spent 100M $USDT to buy 36,89 |
-| [[$SOLANGELES]] | 7 | 3 | 463♥ @moonshot: Live from SolAngeles TV, we're giving away $5,000  / 173♥ @PumpfunEco: $SOLANGELES has pumped 100% since it began trendin |
-| [[$REALIS]] | 7 | 1 | 171♥ @spyzer: if you aren’t maxx bidding $realis here before the / 143♥ @spyzer: you are not bullish enough on $realis  1.1M subs y |
-| [[$XRP]] | 6 | 2 | 906♥ @DefiIgnas: $XRP is 21% away from flipping $ETH in FDV.  $XRP  / 738♥ @CredibleCrypto: Not much has changed here, still think most logica |
+| entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
+|---|---|---|---|---|
+| [[$BTC]] | 12 | 6 | 84 | 12088♥ @saylor: Strategy has increased its USD Reserve by $300 mil / 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   |
+| [[$ETH]] | 12 | 5 | 87 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$HYPE]] | 5 | 3 | 6 | 91♥ @coingecko: $HYPE vs. $ASTER vs. $LIT  "Is a coin actually pum / 64♥ @coingecko: $AERO, $TNSR, and $HYPE are part of the most viewe |
+| [[$JOTCHUA]] | 7 | 2 | 8 | 201♥ @PumpfunEco: $Jotchua is rallying, currently up 92% in 24 hours / 186♥ @PumpfunEco: $Jotchua has pumped 900% since it began trending o |
+| [[$SOL]] | 4 | 3 | 18 | 2296♥ @lookonchain: Davido(@davido) launched a token named $DAVIDO and / 2284♥ @theunipcs: $SOL to $1,000 is one of those targets that sound  |
+| [[$MU]] | 4 | 3 | 4 | 400♥ @solana: NEW: $MU (@MicronTech) via @SunriseDeFi. issued by / 351♥ @blknoiz06: airmass might be the greatest to ever do it with t |
+| [[$WOJAK]] | 3 | 3 | 13 | 1423♥ @lookonchain: We noticed an early buyer of $SHIB also bought $PE / 683♥ @BinanceUS: Deposits for $WOJAK are now open on @BinanceUS!  T |
+| [[$FARM]] | 4 | 2 | 5 | 277♥ @moonshot: FarmTown ($FARM) is now verified on Moonshot.  / 157♥ @Crypto_Alch: What is $FARM and why is it going parabolic?  |
+| [[$STRC]] | 3 | 2 | 8 | 12088♥ @saylor: Strategy has increased its USD Reserve by $300 mil / 245♥ @CryptoKaleo: There’s a much higher chance $STRC never returns t |
+| [[$MSTR]] | 3 | 2 | 3 | 12088♥ @saylor: Strategy has increased its USD Reserve by $300 mil / 331♥ @CryptoKaleo: You can still sell your $MSTR for more than $100.  |
+| [[$SPCX]] | 2 | 2 | 7 | 779♥ @WatcherGuru: JUST IN: Elon Musk is down $150 billion from his n / 107♥ @solbrdl: Imagine if $SPCX goes on a Tesla run. Before stock |
+| [[$BP]] | 2 | 2 | 4 | 742♥ @coingecko: INSIGHT: $BP is up 27.4% following the debut of it / 251♥ @DefiIgnas: Every bull cycle has a new CEX in town:  • 2010: M |
+| [[$THREE]] | 2 | 2 | 3 | 116♥ @Crypto_Alch: It’s $three O’clock   I hope you tailed   They’re  / 112♥ @Crypto_Alch: 99.998877% of CT sleeping on $three while it’s loo |
+| [[$ARX]] | 2 | 2 | 2 | 537♥ @solana: BREAKING: $ARX from @Arcium is now live on Solana  / 169♥ @coingecko: $ARX just launched its TGE today and is currently  |
+| [[$ASTER]] | 2 | 2 | 2 | 91♥ @coingecko: $HYPE vs. $ASTER vs. $LIT  "Is a coin actually pum / 67♥ @bull_bnb: Is the buybacks still in the room with us?  $Aster |
+| [[$JSON]] | 2 | 2 | 2 | 41♥ @bull_bnb: On a serious note Who is $Json? / 4♥ @badattrading_: $json (CA 3HVEvoduJ4NKyLk4jUE3sjDX2L6sSDNHmcoJzUTi |
 
-## 2) concept 候補（閾値超え・まだconcept未登場）
-下記は複数アカが言及し始めたのにconceptが無い＝emerge候補。動線/型が立つか判断し、立つなら concept を新規/更新。
+## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
 
-- [[$WOJAK]]（13件/5アカ）まだconcept無し → 動線/型を検討
-- [[$MERLIN]]（7件/2アカ）まだconcept無し → 動線/型を検討
-- [[$STRC]]（9件/4アカ）まだconcept無し → 動線/型を検討
-- [[$USDT]]（7件/3アカ）まだconcept無し → 動線/型を検討
-- [[$SOLANGELES]]（7件/3アカ）まだconcept無し → 動線/型を検討
-- [[$XRP]]（6件/2アカ）まだconcept無し → 動線/型を検討
-- [[$ZEC]]（6件/4アカ）まだconcept無し → 動線/型を検討
-- [[$ARB]]（7件/3アカ）まだconcept無し → 動線/型を検討
-- [[$ATOM]]（4件/2アカ）まだconcept無し → 動線/型を検討
-- [[$BP]]（4件/4アカ）まだconcept無し → 動線/型を検討
-- [[$LINK]]（4件/2アカ）まだconcept無し → 動線/型を検討
-- [[$TROLL]]（4件/2アカ）まだconcept無し → 動線/型を検討
-- [[$MU]]（4件/3アカ）まだconcept無し → 動線/型を検討
-- [[$FARM]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$AAVE]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$MAXIS]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$THREE]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$TRIPLET]]（4件/2アカ）まだconcept無し → 動線/型を検討
-- [[$ENA]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$ZERO]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$MSTR]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$UNI]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$PNUT]]（3件/2アカ）まだconcept無し → 動線/型を検討
-- [[$MATIC]]（4件/2アカ）まだconcept無し → 動線/型を検討
-- [[$SPX]]（4件/2アカ）まだconcept無し → 動線/型を検討
+| entity | 48h言及 | 48hアカ | 総新規 | 代表ツイ |
+|---|---|---|---|---|
+| [[$PUMPI]] | 6 | 1 | 11 | 66♥ @pumpilians_: New players can now understand the game much easie / 53♥ @pumpilians_: Clan system is now live!  - Create a clan for 500, |
+| [[$USDC]] | 4 | 1 | 20 | 3000♥ @lookonchain: Trump's World Liberty(@worldlibertyfi) just spent  / 2801♥ @lookonchain: North Korean hackers went long $ETH on #Hyperliqui |
+| [[$ASTEROID]] | 3 | 1 | 18 | 248♥ @Crypto_Alch: $ASTEROID just 2x in a single fvcking candle   Did / 220♥ @solbrdl: Do people realize $ASTEROID was ACTUALLY on stage  |
+| [[$TRIPLET]] | 3 | 1 | 3 | 76♥ @PumpfunEco: $TripleT has pumped 44% today! 🔥  / 72♥ @PumpfunEco: This trader bought $430 worth of $TripleT at $61K  |
+| [[$USELESS]] | 2 | 1 | 4 | 1083♥ @theunipcs: i'm seeing a lot of similarities between $USELESS  / 252♥ @theunipcs: $SOL continues to outperform $BTC, $ETH, and the o |
+| [[$UNC]] | 2 | 1 | 2 | 89♥ @PumpfunEco: $unc has pumped 48% today! 🔥  / 61♥ @PumpfunEco: $unc has pumped 44% today! 🔥  |
+| [[$TCG]] | 2 | 1 | 2 | 57♥ @PumpfunEco: $TCG has pumped 28% today! 🔥  / 33♥ @PumpfunEco: $TCG has pumped 83% today! 🔥  |
+| [[$USDT]] | 1 | 1 | 6 | 1772♥ @lookonchain: MrBeast (@MrBeast) just deposited 114,483 $USDT in / 1648♥ @lookonchain: It seems that #Bybit spent 100M $USDT to buy 36,89 |
+| [[$GYM]] | 1 | 1 | 4 | 72♥ @cookerbruski: if you like $gym at 2m you’re gonna love it at 20m / 71♥ @cookerbruski: the best products sell themselves  $GYM  |
+| [[$XDOG]] | 1 | 1 | 3 | 236♥ @bull_bnb: The story started on August 15 last year.  Star bu / 195♥ @bull_bnb: Time to lead from the front And turn $Xdog into le |
+
+## 2) concept 候補（鮮度ゲート通過・閾値超え・まだconcept未登場）
+複数アカが今まさに言及し始めたのにconceptが無い＝emerge候補。動線/型が立つか判断し、立つなら concept を新規/更新。
+
+- [[$MU]]（48h 4件/3アカ・総4）まだconcept無し → 動線/型を検討
+- [[$WOJAK]]（48h 3件/3アカ・総14）まだconcept無し → 動線/型を検討
+- [[$FARM]]（48h 4件/2アカ・総5）まだconcept無し → 動線/型を検討
+- [[$STRC]]（48h 3件/2アカ・総10）まだconcept無し → 動線/型を検討
+- [[$MSTR]]（48h 3件/2アカ・総4）まだconcept無し → 動線/型を検討
+- [[$THREE]]（48h 2件/2アカ・総3）まだconcept無し → 動線/型を検討
 
 ## 3) 活発になった player（合成メモ更新候補）
 
 | player | 新規投稿 |
 |---|---|
+| [[@laurashin]] | 132 |
 | [[@Lightspeedpodhq]] | 120 |
 | [[@JasonYanowitz]] | 119 |
-| [[@thedefiedge]] | 118 |
 | [[@RyanSAdams]] | 118 |
+| [[@thedefiedge]] | 117 |
 | [[@mellometrics]] | 117 |
-| [[@laurashin]] | 113 |
 | [[@Ministerr]] | 113 |
 | [[@santiagoroel]] | 111 |
 | [[@spyzer]] | 111 |
 | [[@defi_kay_]] | 110 |
+| [[@hosseeb]] | 107 |
 | [[@KyleSamani]] | 106 |
-| [[@hosseeb]] | 106 |
 | [[@cookerbruski]] | 104 |
-| [[@FrankDeGods]] | 103 |
 | [[@cdixon]] | 102 |
+| [[@FrankDeGods]] | 101 |
