@@ -28,5 +28,17 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- "c0mpute" ブランドの AI テーマ トークン。2026-06-20 Moonshot で verified ([[moonshot__2068386440539451504]])。
+- 2026-06-21: Pump.fun 24h volume **1位 $8.70M** ([[PumpfunEco__2068691523894706265]])。同日 2位 [[$FARTCOIN]]($3.97M)・[[$KINS]]($3.52M)・[[$JOTCHUA]]($3.22M)・[[$ZEREBRO]]($1.70M)。
+- 言及アカは @PumpfunEco（ランキング掲載）と @moonshot（verification 告知）の**プラットフォーム公式 2 アカのみ**。KOL 個人の能動言及なし。
+
+**判断（推論）**
+- [[launchpad-economics]] の「出来高先行・traction 未確認」型に近い。volume $8.70M でも KOL/reply traction がゼロ = bot/whale 仕込みか有機的需要か未分別。同概念の跳躍台帳（$AEGIS/$RO/$PHONEBLACK と同型）と照合すべき先。
+- "c0mpute" = AIコンピューティングテーマ → [[ai-memes]] の系譜に位置する可能性。[[$ZEREBRO]] との共起もその文脈。
+- Moonshot verification は「集中型 launchpad の認定」という社会的証明だが、価格の持続性の証明ではない。
+- ⚠️ [[onchain-verification]] 規律: volume 先行×KOL なし = whale 仕込み可能性を排除できない。資金源の一次確認推奨。
+
+接続: [[launchpad-economics]] / [[ai-memes]] / [[survivor-memes]]（生存試験中）/ [[onchain-verification]]
 <!-- synthesis:end -->

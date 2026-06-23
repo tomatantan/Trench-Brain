@@ -28,5 +28,17 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 2023-01-29: [[@milesdeutscher]] が 2023 年 airdrop 展望スレで「過去 $UNI airdrop は $18k 相当」を基準値として提示 ([[milesdeutscher__1619701531544268801]])。
+- 2023-04-28: [[@lookonchain]] が「smart airdrop hunters」追跡記事で $ARB/$UNI など複数エアドロで稼いだウォレット群を分析 ([[lookonchain__1637747082487529472]])。
+- 直近: [[@lookonchain]] が Garrett Jin の $ZEC/$UNI ポジション利確を報告 ([[lookonchain__2067763889945890997]])。
+
+**判断（推論）**
+- corpus 内で $UNI は「過去の基準値（$18k airdrop）」または「ポートフォリオ内の一銘柄」として登場。**現サイクルの能動ナラティブは確認されない**。
+- airdrop 基準として使われること自体が $UNI の legacy ブランド力を示す。DeFi 古参 blue-chip として認知は高いが、[[majors-rotation-supercycle]] の「productive rotation」軸（[[@DefiIgnas]] が推す perp/HYPE 系）とは別のカテゴリ = **旧 DeFi blue-chip の相対的凋落**の側に位置する。
+- [[@DefiIgnas]] が「$ETH is a new $ATOM」と語る文脈 ([[DefiIgnas__1859261099327324495]]) = ETH の役割縮小論 → Uniswap は ETH エコの DeFi 代表格として同じ"凋落"の文脈を共有。
+- ⚠️ [[regulation-catalyst]] の背景: corpus に直接言及はないが Uniswap への SEC 調査は知られている。規制リスクが旧 DeFi blue-chip 共通のヘッドウィンド。
+
+接続: [[majors-rotation-supercycle]]（DeFi blue-chip の相対凋落文脈）/ [[regulation-catalyst]]（SEC Uniswap 調査の背景）
 <!-- synthesis:end -->
