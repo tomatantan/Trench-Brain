@@ -234,3 +234,6 @@ wiki/.obsidian/graph.json
 brain/state/launch_queue.jsonl
 brain/state/launch_seen.txt
 brain/state/launch_stats.json
+brain/state/bot.out
+brain/state/launch_synth.log
+brain/state/launch_stream.log

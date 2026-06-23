@@ -177,11 +177,47 @@ def parse_cmd(text):
     return cmd, rest
 
 
+def download_file(file_id):
+    """Telegram getFile→ローカルDL。sources/media/ に保存しパスを返す。"""
+    info = _get(f"{API}/getFile?file_id={file_id}", timeout=20)
+    fp = (info.get("result") or {}).get("file_path")
+    if not fp:
+        return None
+    ext = os.path.splitext(fp)[1] or ".jpg"
+    dest = ROOT / "sources" / "media" / f"{file_id[:24]}{ext}"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    url = f"https://api.telegram.org/file/bot{TOKEN}/{fp}"
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r, open(dest, "wb") as f:
+        f.write(r.read())
+    return str(dest)
+
+
+def handle_photo(chat_id, file_id, caption):
+    """画像ミーム/スクショを vision で取り込む(brainが"見る")。"""
+    send(chat_id, "🖼 取り込み中…(画像をvisionで読む)")
+    try:
+        path = download_file(file_id)
+        if not path:
+            send(chat_id, "⚠️ 画像DL失敗"); return
+        out = subprocess.run(["bash", str(ROOT / "brain" / "ingest_image.sh"), path, caption or ""],
+                             capture_output=True, text=True, timeout=300)
+        rel = os.path.relpath(path, str(ROOT))
+        git_commit_push([rel, "sources/x"], "/add image (vision ingest)")
+        msg = (out.stdout or "").strip().splitlines()
+        line = next((l for l in reversed(msg) if l.startswith("INGESTED")), (msg[-1] if msg else "取り込んだ"))
+        send(chat_id, f"✅ {line}")
+    except subprocess.TimeoutExpired:
+        send(chat_id, "⚠️ vision合成タイムアウト")
+    except Exception as e:
+        send(chat_id, f"⚠️ 画像取り込みエラー: {type(e).__name__}")
+
+
 def main():
     if not TOKEN:
         print("TG_WIKI_BOT_TOKEN 未設定。BotFatherの2個目トークンを環境変数か .env に。", file=sys.stderr)
         return 1
-    print("wiki_bot 起動。/wiki と /add に反応。", file=sys.stderr)
+    print("wiki_bot 起動。/wiki /add /画像 に反応。", file=sys.stderr)
     offset = 0
     while True:
         try:
@@ -191,18 +227,45 @@ def main():
         for upd in r.get("result", []):
             offset = upd["update_id"] + 1
             msg = upd.get("message") or upd.get("channel_post") or {}
-            text = msg.get("text", "")
             chat_id = (msg.get("chat") or {}).get("id")
-            if not text or chat_id is None:
+            if chat_id is None:
+                continue
+            # 画像(photo or 画像document)→ vision取り込み(bareでも=送った=取り込み意図)
+            photo = msg.get("photo") or []
+            doc = msg.get("document") or {}
+            cap = msg.get("caption", "")
+            if photo:
+                print(f"recv photo from {chat_id}", file=sys.stderr, flush=True)
+                try:
+                    handle_photo(chat_id, photo[-1]["file_id"], cap)  # 最大サイズ
+                except Exception as e:
+                    print(f"photo err: {e}", file=sys.stderr, flush=True)
+                continue
+            if doc and str(doc.get("mime_type", "")).startswith("image/"):
+                try:
+                    handle_photo(chat_id, doc["file_id"], cap)
+                except Exception as e:
+                    print(f"doc img err: {e}", file=sys.stderr, flush=True)
+                continue
+            text = msg.get("text", "")
+            if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd == "wiki":
-                handle_wiki(chat_id, arg)
-            elif cmd == "add":
-                handle_add(chat_id, arg)
-            elif cmd == "start" or cmd == "help":
-                send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/add <URL/テキスト> = 取り込む")
-            # それ以外（雑談・他コマンド）は無視
+            if cmd in ("wiki", "add", "start", "help"):
+                print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
+            try:
+                if cmd == "wiki":
+                    handle_wiki(chat_id, arg)
+                elif cmd == "add":
+                    handle_add(chat_id, arg)
+                elif cmd == "start" or cmd == "help":
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
+            except Exception as e:
+                print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
+                try:
+                    send(chat_id, f"⚠️ エラー: {type(e).__name__}")
+                except Exception:
+                    pass
 
 
 if __name__ == "__main__":
