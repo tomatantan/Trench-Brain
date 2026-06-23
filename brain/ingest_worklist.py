@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "sources" / "x"
 CONCEPTS = ROOT / "wiki" / "concepts"
 STATE = ROOT / "brain" / "state" / "ingested.txt"
+HEALTH = ROOT / "brain" / "state" / "health.jsonl"   # signal_backlog の毎サイクル記録(原典§5 lint)
 OUT = ROOT / "wiki" / "_worklist.md"
 
 TICKER_RE = re.compile(r"\$[A-Za-z][A-Za-z0-9]{1,9}\b")
@@ -203,6 +204,17 @@ def main():
         "", "| player | 新規投稿 |", "|---|---|", *pl_rows, "",
     ]
     OUT.write_text("\n".join(lines), encoding="utf-8")
+
+    # 健康の計器(原典 docs/LLM-WIKI.md §5 lint / §8「律速は合成スループット」):
+    # signal_backlog(=§1a 未合成signal)を毎サイクル記録。これが bounded/非増加なら
+    # 「合成が収集に追いついている」＝LLM Wiki(scraperでない)を**データで断定**できる。
+    # 増え続けたら収集過多のサイン＝人が収集を絞る判断材料(raw総数では測らない)。
+    import json as _json
+    rec = {"ts": ref_now.strftime("%Y-%m-%dT%H:%MZ"), "raw_new": new_tweets,
+           "signal_backlog": len(hot), "single_source": len(single), "stale": stale}
+    with open(HEALTH, "a", encoding="utf-8") as _h:
+        _h.write(_json.dumps(rec, ensure_ascii=False) + "\n")
+
     print(f"worklist: {new_tweets} new tweets / HOT {len(hot)} (top{len(hot_rows)}) / "
           f"single-source {len(single)} / stale-demoted {stale} / "
           f"concept-cand {len(cand)} -> {OUT.relative_to(ROOT)}  [ref_now={ref_now:%Y-%m-%d %H:%MZ}]")
