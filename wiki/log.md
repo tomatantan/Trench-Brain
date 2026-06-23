@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 auto-synthesis §1b(5件/5件処理): births=[[$SLICK]]（stub）/[[$MAYHAM]]（stub）。changes=[[$AXIOS]]（dead確定・peak比-96%）/[[$VCSOL]]（dead確定・-99%）/[[$MOONLAKE]]（dead確定・BREAKOUT $1M後-96.8%）。死亡台帳に3件追記（[[rug-anatomy]]）・コホート記録を[[launchpad-economics]]に反映（dead確定 N=3）。型:「KOL/reply ゼロ × graduated」は-90%超えで全件死亡＝仮説がN=4で強化。
+
 - 2026-06-23 本筋回帰(横断concept合成): 憲法読み直し→機械/breadthへの傾きを是正し肝(横断合成)に復帰。[[majors-rotation-supercycle]] に★「なぜbullが弱いか=liquidity starvationに4独立説明が収束」を合成＝Hayes(AI酸素・⚠️単一podcast)/thedefiedge(供給希釈)/[[$STRC]][[$MSTR]](Saylorレバが内側からBTC dragging=新overhang)/[[reflexivity]](再帰低エネ)。単一ソースでは見えない繋がり＋edge(4枯渇のどれが先に反転するか監視)。★新リスクsurface=Saylor=一方的買い手の旧前提更新。⚠️各説は独立仮説で未検証(収束は示唆的)。
 
 - 2026-06-23 lint是正(過学習矯正): lint検出のHIGH3件を是正。①[[launchpad-economics]] base_rate を 900→1800/0.94% に同期(古い数値修正)。②[[reflexivity]] 「確証されつつある」→「**仮説支持(完全弧N=1・$MOONLAKE反証未解決)**」に格下げ(過剰主張是正)。③[[rug-anatomy]] 死亡台帳「traction0→死亡率高い」を仮説に格下げ(確定死亡N=1・fading≠dead・died=0で分母未充足)。=lint(第5の輪)が過学習を検出→矯正の初サイクル。

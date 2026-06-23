@@ -6,7 +6,7 @@ created: 2026-06-23
 updated: 2026-06-23
 source: auto-track (pump.fun)
 tags: [trench, entity, token, auto-track]
-status: fading
+status: dead
 ---
 
 # $AXIOS — AxiosFinance
@@ -21,7 +21,8 @@ status: fading
 - pool: `2r56sEm2XdFgYEkh3CjcTyC9TVWydGXHz5ZDKxqfqfVb`
 - **変化(2026-06-23 cycle1)**: mcap **-52%** ($53.1k→$25.5k)。graduation 直後のピークから半減。
 - **変化(2026-06-23 cycle2)**: mcap **-51%** ($25.5k→$12.5k)。2サイクル連続下落で peak比 -76%。
-- status: **fading**（peak比 -76%・死亡閾値 -90% に接近中）
+- **変化(2026-06-23 cycle3)**: mcap **-85%** ($13.7k→$2,057)。peak 比 **-96.1%** → 死亡閾値（-90%）突破。
+- status: **dead**（peak $53.1k→$2.1k・-96.1%・KOL ゼロ・reply 0 のまま死亡確定）
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -30,5 +31,6 @@ status: fading
 - **signal 水準**: KOL ゼロ・reply 0 の時点で watchlist の実関心はほぼなし。$45k mcap は graduation 直後のデフォルト水準。[[survivor-memes]] の「生存」閾値（数百k〜）には届いていない。
 - **賭け仮説**: DeFi ブランドを纏っているが meme 動線が不明。公式サイトが何らかの機能ロードマップを示していれば [[vc-founder-thesis-layer]] 的な文脈も得られるが KOL pickup がない限り短命と見る。[[launchpad-economics]] の型通り「卒業したが消えた」コホートに落ちる可能性が高い。
 - **追跡更新(2026-06-23 cycle1)**: 24h 弱で **-52%**。「KOL pickup なし＝短命」仮説が観測で裏付けられつつある＝[[launchpad-economics]] の「graduated but empty」型の実例。
-- **追跡更新(2026-06-23 cycle2)**: さらに **-51%**（$25.5k→$12.5k）。peak比 -76% で死亡閾値（-90%）が射程に入った。2サイクル連続の一方的下落＝[[rug-anatomy]] の「KOL ゼロ × 出来高消費型」死のパターンを実時間で記録中。次サイクルで -90% 到達なら死亡確定→status:dead へ移行。
+- **追跡更新(2026-06-23 cycle2)**: さらに **-51%**（$25.5k→$12.5k）。peak比 -76% で死亡閾値（-90%）が射程に入った。2サイクル連続の一方的下落＝[[rug-anatomy]] の「KOL ゼロ × 出来高消費型」死のパターンを実時間で記録中。
+- **最終更新(2026-06-23 cycle3)**: **-85%**（$13.7k→$2.1k）。peak比 **-96.1%** → 死亡閾値（-90%）突破・**dead 確定**。cause=社会的 traction ゼロのまま graduation 後の初期出来高を消費しきって買い手不在で自然死（rug ではなく興味消滅型）。[[launchpad-economics]] の「graduated but empty」分母確定。[[rug-anatomy]] 死亡台帳へ。
 <!-- synthesis:end -->

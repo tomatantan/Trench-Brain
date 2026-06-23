@@ -49,9 +49,12 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | ticker | entry門 | peak mcap | traction(reply/KOL) | 生存 | cause | 型/signature |
 |---|---|---|---|---|---|---|
 | [[$KRILLION]] | 勢い門 | 低 | reply0 / KOL0 | 誕生即死(1cy) | mcap枯れ | **traction無しの即死**＝最頻型 |
+| [[$AXIOS]] | graduated | ~$53k | reply0 / KOL0 | 複数サイクル(~1.5日) | 出来高消費後・買い手不在 | **graduated-but-empty**＝KOL無し卒業型の自然死 |
+| [[$VCSOL]] | graduated | ~$192k | reply0 / KOL0 | ~1日 | IP参照命名もtraction取れず・興味消滅 | graduated-but-empty（IP借用≠KOL代替） |
+| [[$MOONLAKE]] | graduated | $1.03M | reply0 / KOL0 | ~1日(BREAKOUT後即死) | AIテーマ冠・有機的需要ゼロ | **BREAKOUT-then-dead**＝traction無しBREAKOUTは持続しない |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
-**現時点で浮いている型（⚠️仮説段階・N不足／lint 2026-06-23 で格下げ）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい**かもしれない**——ただし**確定死亡は [[$KRILLION]] の N=1 のみ**で `base_rate.json` の died=0。挙げている [[$AXIOS]](peak比-76%)・[[$TBHR]](-86%) は **fading＝進行中で dead ではない**（fading≠dead）。＝「死亡率が高い」と断定する分母が未だ揃っていない＝**仮説**。②graduated でも KOL ピックアップ無し＝「graduated but empty」候補（[[launchpad-economics]]）。→ 「traction の不在」を**死の先行指標候補**として観測継続（死亡台帳に確定死亡が貯まって初めて型として確立）。それまで前段フィルタに使うなら確度は低く見積もる。
+**現時点で浮いている型（N=4 確定死亡・2026-06-23 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=4**（$KRILLION/$AXIOS/$VCSOL/$MOONLAKE）。全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化しつつある（⚠️ ただし全件が同一コホート・同一時間帯の観測で独立性低い・母集団は小）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③$MOONLAKE の「traction-less BREAKOUT → 即死」は BREAKOUT が社会的需要を生まない実証。→ BREAKOUT flags を見た時の判断基準：KOL/reply の有無を必ず確認する。
 
 ## ⚠️ 境界の論争（何をrugと呼ぶか）
 - **インサイダー≠rug?**: 「割当を持つteamが利確しただけ」論 ⇄ [[@a1lon9]] は**害(at expense of users)**で rug 認定。$LIBRA の POPE wash は「意図的抽出」の証拠＝単なる利確と一線。

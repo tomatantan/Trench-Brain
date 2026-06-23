@@ -6,7 +6,7 @@ created: 2026-06-23
 updated: 2026-06-23
 source: auto-track (pump.fun)
 tags: [trench, entity, token, auto-track]
-status: tracked
+status: dead
 ---
 
 # $VCSOL — Vice City Sol
@@ -19,11 +19,12 @@ status: tracked
 - mcap: $119,210 / reply: 0 / tokenized_agent: no / real_sol: 0
 - links: [twitter @vcsoltoken](https://x.com/vcsoltoken) / [website](https://vicecitysol.site)
 - pool: `3L789E8eQXLCzpQsTxHY45LUbT17RgGKzK7jjdfHxUGn`
-- status: **tracked**
+- **変化(2026-06-23)**: mcap **-99%**（$191.5k→$1,676）→ 死亡閾値（-90%）突破。**dead 確定**。
+- status: **dead**（peak ~$191.5k → $1.7k・-99.1%・KOL ゼロ・reply 0 のまま死亡）
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-- **観測**: "Vice City Sol"＝GTA Vice City（IP）参照の meme 命名。graduation 済・mcap $119k。reply 0・KOL ゼロ。
-- **判断**: 既存 IP（ゲーム）参照型 meme＝[[survivor-memes]] の「文化参照で記憶に残るか」が生存条件。IP 借用は瞬間的な注目を取りやすい一方、KOL 拡散が無いと一過性で終わる。商標リスクは pump.fun meme では通常無視される。型としては [[launchpad-economics]] 直下の graduation コホート。
-- **賭け仮説**: IP 認知で reply/KOL が立ち上がれば [[survivor-memes]] 入りの目があるが、現状 traction ゼロ。watch のみ。
+- **観測**: "Vice City Sol"＝GTA Vice City（IP）参照の meme 命名。graduation 済・初観測 $119k→peak ~$191.5k まで上昇したが KOL・reply は最後まで ゼロ。
+- **判断**: IP 参照命名は認知フックになり得るが、watchlist 内で誰も話題にしなければ市場の記憶に残らない。今回の軌跡（$191k → $1.7k・-99%）は「IP ブランドだけでは KOL pickup の代替にならない」を実証した。[[survivor-memes]] の足切り（文化参照 × traction）を両方満たさないと死ぬ。
+- **cause**: traction ゼロ（reply 0 / KOL 言及なし）のまま初期出来高が消えて買い手不在・自然死。[[launchpad-economics]] 「graduated but empty」型。[[rug-anatomy]] 死亡台帳へ。
 <!-- synthesis:end -->
