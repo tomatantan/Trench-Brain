@@ -48,4 +48,9 @@ else
   git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pre-push pull skipped" >> "$LOG"
   git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG" || echo "push failed(次サイクル再試行)" >> "$LOG"
 fi
+
+# スマホ閲覧用 軽量ミラー(wiki-mobile ブランチ)=wiki/ だけを force更新。
+# 6000+の sources/x を含む main は重い→スマホ Obsidian は wiki-mobile を clone(213md・軽い)。
+git push origin "$(git subtree split --prefix=wiki main 2>/dev/null)":refs/heads/wiki-mobile --force >> "$LOG" 2>&1 \
+  && echo "wiki-mobile mirror updated" >> "$LOG" || echo "wiki-mobile update skipped" >> "$LOG"
 echo "=== done ===" >> "$LOG"
