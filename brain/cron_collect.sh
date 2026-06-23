@@ -49,8 +49,9 @@ else
   git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG" || echo "push failed(次サイクル再試行)" >> "$LOG"
 fi
 
-# スマホ閲覧用 軽量ミラー(wiki-mobile ブランチ)=wiki/ だけを force更新。
-# 6000+の sources/x を含む main は重い→スマホ Obsidian は wiki-mobile を clone(213md・軽い)。
-git push origin "$(git subtree split --prefix=wiki main 2>/dev/null)":refs/heads/wiki-mobile --force >> "$LOG" 2>&1 \
-  && echo "wiki-mobile mirror updated" >> "$LOG" || echo "wiki-mobile update skipped" >> "$LOG"
+# スマホ閲覧用 軽量ミラー＝専用 private repo Trench-Brain-wiki(wiki/だけ・213md)を force更新。
+# 6000+の sources/x を含む main は重くスマホ同期に不向き→iOS Obsidian はこの軽量repoをclone。
+WIKI_SHA="$(git subtree split --prefix=wiki main 2>/dev/null)"
+[ -n "$WIKI_SHA" ] && git push https://github.com/tomatantan/Trench-Brain-wiki.git "$WIKI_SHA":main --force >> "$LOG" 2>&1 \
+  && echo "wiki mobile-mirror updated" >> "$LOG" || echo "wiki mobile-mirror skipped" >> "$LOG"
 echo "=== done ===" >> "$LOG"
