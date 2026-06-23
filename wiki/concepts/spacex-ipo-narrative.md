@@ -66,7 +66,25 @@ SpaceX IPO（外部/TradFiイベント）
 - **⚠️ 赤旗**: $MU の backing（実際の Micron 株式裏付け）は未検証（[[onchain-verification]]）。$SPCX も backing 未検証のまま。複数銘柄が出ることでリスクが希薄化されて見えるが、backing の確認は各銘柄で必要。
 - **[[$BP]] との接続**: $BP（Backpack トークン）がこのインフラの株。tokenized equity が増えるほど $BP の moat（= "Nasdaq onchain"）が強化される構造。
 
+### 2026-06-23 追記: Hayes 「SpaceX IPO = low float high FDV shitcoin」
+
+出典: [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]] / [[@CryptoHayes]] × [[@Bankless]] / 2026-06-22
+
+**Hayes 評価（観測）**:
+- 「SpaceX IPO は最初の2日は好調。だが**low float / high FDV のshitcoin**で、9月にunlockが来る。我々はそれがどうなるか知っている。」
+- Anthropic + OpenAI の IPO も「高バリュエーションで控える」 = AI IPO パイプラインへの一括懸疑。
+
+**既存との接続**:
+- 既存: [[@0xFunX]]「初日150→高値176→終値161」= Hayes の skepticism に対して初値割れ不発で強気側が反論。
+- 今回の Hayes 発言はそのあと（2日後 = 2026-06-22）= **「初値は良かったが long-term = shitcoin パターン」**への再フレーム。9月 unlock が Hayes thesis の検証ポイント。
+- 「how those go when you start having unlocks」= trench での low float IPO の典型パターン（[[rug-anatomy]] の外部市場版）と重なる見方。
+
+**⚠️ 含意**:
+- Hayes が SpaceX IPO の AI bubble の「exit ベクター」と見ている = AI 資金が SpaceX/Anthropic/OpenAI の unlock 売り圧力に直面する 2026Q3〜Q4 のリスク意識。
+- これは [[majors-rotation-supercycle]] の「AI が crypto の酸素を吸っている」に対する反転トリガー候補の一つ。
+
 ## 出典(生ソース)
 [[@solbrdl]]×$ASTEROID連投, [[@DefiIgnas]] OI内訳, [[@CryptoHayes]] IPO初値, [[@MEXC]] 先物出来高,
 [[@coinkeiba]] ショート, [[@0xFunX]] 初値割れ反論, [[@AdimsSHOGUN]]/[[@DegenerateNews]] Solana 157x。
-(全て sources/x/ の原ツイに保存済)
+[[@CryptoHayes]] Bankless 対談 2026-06-22（SpaceX = low float high FDV shitcoin・9月 unlock リスク）。
+(全て sources/x/ / sources/youtube/ の原文に保存済)

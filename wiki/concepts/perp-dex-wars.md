@@ -47,6 +47,37 @@ confidence: 中〜高
 - [[majors-rotation-supercycle]]（productive rotation）/ [[onchain-verification]]（清算追跡）/ [[launchpad-economics]]（Axiom）/ [[vc-founder-thesis-layer]]（app層thesis）
 - [[$HYPE]] / [[$ASTER]] / [[@DefiIgnas]] / 集計の入口: [[signal|Signal digest]]
 
+### 2026-06-23 追記: Hayes 長文「perp の起源と spot-only の論理」
+
+出典: [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]] / [[@CryptoHayes]] × [[@Bankless]] / 2026-06-22
+
+**perp の起源（観測・Hayes 一次証言）**:
+- BitMEX が 2016年に perpetual swap を発明（Shiller 1993 論文とは独立。当時読んでいない）。
+- **本質的革新 = funding rate の自己補正メカニズム**: 過去期間の premium/discount を前方適用 → 外部価格参照不要・高速リセット。これが高頻度・高レバ crypto 環境に perpetual を機能させた。
+
+**Socialized loss が必須な理由（Hayes 言語化）**:
+- 100x leverage を exchange 側で提供するには guaranteed settlement は不可能（逆張り全滅時に exchange の balance sheet がリスクを被る）。
+- 解決策 = ADL（Auto-Deleverage）= ユーザー間で損失を分担。exchange は決して負けない。
+- 「Any sophisticated trader should understand ADL since 2014. If you don't, you deserve to lose.」
+- ⚠️ Institutional investor が「profit の上限が読めない（ADL リスク）」と嫌うのはこのため。TradFi の perp がしくじる理由でもある。
+
+**Hyperliquid が Binance を eventually flip する理由（Hayes）**:
+- 製品が優秀 + L1 がセキュリティを担う → Binance の自前セキュリティコスト（極めて高額・今後増加）が不要 → 手数料に転嫁されない。
+- 「クライアントは fee とrate しか見ない」→ DEX 優位が自然に実現。
+
+**Hayes 自身は spot only**（自発的開示）:
+- 「perp を発明した自分がなぜ使わないか？ このアセットクラスはそれだけで十分 volatile。leverage は不要。」
+- 「24/7 アラートを張って本当にトレードをする気がない人間は使うな」。
+- → 既存合成の「個別では機敏に切る」（[[$HYPE]] 全売等）とも接続: 言葉と実ポジが一致するタイプ。
+
+**onshore vs offshore（Hayes の見立て）**:
+- US perps は規制で最大 10x 程度 → 本物の retail (100x 志向) はオフショアに留まる。
+- Hyperliquid = すでにオフショア王者確定。Binance もオフショア。
+- オンショアは marketing リーチの優位で別の client 層を引くが、高度に commoditize された競争に。
+- 「offshore と onshore で winner が分かれる」= 共存。
+
 ## 出典(生ソース)
 [[@DefiIgnas]] airdrop/movement/wealth-destruction, [[@thedefiedge]] vol/OI/Phoenix比較, [[@theempirepod]] superapp,
-[[@lookonchain]]/[[@arkham]] Wynn/Tate清算, [[@defi_kay_]] Axiom, [[@zhusu]] productive。（全て sources/x/ の原ツイに保存済）
+[[@lookonchain]]/[[@arkham]] Wynn/Tate清算, [[@defi_kay_]] Axiom, [[@zhusu]] productive。
+[[@CryptoHayes]] Bankless 対談 2026-06-22（perp起源・socialized loss・spot-only・Hyperliquid評価）。
+（全て sources/x/ / sources/youtube/ の原文に保存済）

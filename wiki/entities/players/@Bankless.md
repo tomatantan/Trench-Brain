@@ -30,5 +30,19 @@ posts: 20
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**役割**: Bankless は crypto 媒体の中でも大型ゲスト（KOL・VCファウンダー・規制当局）を呼ぶ「インタビュー型知識生産」ハブ。ツイートよりもYouTube/podcast が一次ソース。合成メモのメインは guest に帰属し、Bankless 自体は amplifier として扱う。
+
+**重要ゲスト履歴（2026-06-22前後）**:
+- [[@CryptoHayes]] × 2件（AI Crash → BTC $1M thesis / perp 起源）→ 詳細 [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]]
+- CFTC Chairman Mike Selig（perps onshore の方向性・親crypto規制姿勢）
+- MegaETH MOSS（wallet UX）
+- Re（reinsurance × stablecoin）
+- CFTC Selig × Hunter Biden の言及（$STRC文脈）
+
+**合成パターン**: Bankless の選ぶゲストの質がナラティブのmainstream化指標。[[@CryptoHayes]] を「AI bubble → BTC $1M」で呼ぶ = このナラティブが十分 mainstream な問いになってきた兆候。
+
+**W杯 clip（2026-06-19）**: 短い clip で話者が Polymarket × チケット ヘッジを実演。Polymarket の IRL 実用事例。詳細 [[bankless-world-cup-polymarket-2026-06-19]]。
+
+関連: [[@CryptoHayes]] / [[regulation-catalyst]]（CFTC Selig）/ [[perp-dex-wars]]
 <!-- synthesis:end -->

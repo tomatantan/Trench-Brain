@@ -34,4 +34,32 @@ posts: 112
 - **マクロ起点**: 「QT is over. Back up the truck and buy everything」等、Fedの QT→QE 転換を相場の号砲に置く。マクロ→メジャー→altの順送りを最上流から語る。
 - **⚠️ 個別では機敏に切る**: メジャー強気でも [[$HYPE]] は「全ポジ手仕舞い」＝[[@lookonchain]] がオンチェーンで裏取り済（発言×on-chain一致）。"buy everything"の語り口と実ポジは別物。
 - **賭け仮説**: Hayesの断定はコンセンサス形成力が大きい＝**出尽くしの起点**にもなる。[[$SOL]]↔[[$ETH]] のポジション言及がローテ時計の針として有用。
+
+### 2026-06-23 更新: Bankless 対談（AI Crash → Bitcoin $1M, 2026-06-22）
+出典: [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]]
+
+**現在ポジション（観測）**:
+- 超長期 [[$BTC]] 継続 + T-billで大量キャッシュ（3.5%複利）。[[$HYPE]]（高20s→70台）・[[$NEAR]]・[[$ZEC]]全売。
+- **[[$ETH]]を検討中**: 1ドル持ってBTCかETH選ぶなら「ETH」（charts観点）。ETH = 200週MAを30%下回り・2022 ATH未更新のメジャーで唯一未解放。ただし「evaluating」=まだ入ってない。
+
+**AI バブル thesis（長文の核心）**:
+- 「AIは鉄道バブルの初〜中期と同相。GPU償却(5-6年契約) vs 実際の有効寿命(2年)の乖離が 2027-2028 年に顕在化。**Fed can't print Moore's Law**」
+- 円形Revenue構造（hyperscaler→lab→GPU購入→hyperscaler）= 本物の外部需要なし。
+- 中国が AI を commoditize（DeepSeek等で同等機能を1%以下で提供）→ US AI ブランド価値ゼロへ。
+- 2028大統領選 = AI住民投票リスク（政治的売りシグナル）。
+
+**AI崩壊→暗号通貨 causal chain**:
+```
+AI credit event (2027-2028) → 大規模印刷 → AI に資本が戻らない → crypto へ → BTC $1M
+```
+→ 「John Paulson のsubprime trade と同じ epoch-defining bet」（Hayes自身も timing 不明を認める）。
+
+**⚠️ 反証・制約**:
+- AI story 継続中は crypto が酸素不足のまま（「AI が最速の馬」= 今は crypto に対して資本流入競合）。
+- 「全資産相関1で暴落 → キャッシュ化 → 底値でBTC/ETH買い」が ideal だが実行難度は高い。
+- SpaceX IPO: 「low float high FDV shitcoin」= 9月にunlockで売り圧力を予告。
+
+**perp 起源（観測）**: BitMEX が2016年に perpetual swap を発明（funding rate自己補正が本質）。Hayes 自身は **spot only**（「このアセットはそれだけでvolatile。leverage不要。」）。Hyperliquid は eventually Binance をflipすると評価。
+
+詳細: [[majors-rotation-supercycle]] / [[perp-dex-wars]] / [[spacex-ipo-narrative]]
 <!-- synthesis:end -->

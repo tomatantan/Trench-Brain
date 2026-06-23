@@ -19,18 +19,22 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
 # tweet収集が失敗しても launch pipeline(track/synth) は止めない(独立)。
 python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1 || echo "collect failed(継続)" >> "$LOG"
+# 長文収集(YouTube/podcast transcript)=門 feeds.md 巡回・1ch少数/回(volume制御で合成を追い越さない)。
+python3 collector/collect_youtube.py --limit 1 >> "$LOG" 2>&1 || echo "yt-collect skipped(継続)" >> "$LOG"
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
 # (2)pump.fun合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
 bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
-# (2b)X側合成層=worklist §1a(鮮度ゲート通過)上位3件を headless claude が合成(§1a空なら呼ばない=コスト0)
+# (2b)X側合成層=worklist §1a(鮮度ゲート通過)全件 を headless claude が合成(§1a空なら呼ばない=コスト0)
 bash brain/synthesize_x.sh || echo "synth-x skipped" >> "$LOG"
+# (2c)長文合成層=未合成transcriptを3本/サイクル deep 合成(0本なら呼ばない=コスト0)
+bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
-git add sources/x wiki/dashboards wiki/entities wiki/concepts wiki/_worklist.md wiki/log.md wiki/ui-data.json brain/state/ingested.txt >> "$LOG" 2>&1 || true
+git add sources/x sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/_worklist.md wiki/log.md wiki/index.md wiki/ui-data.json brain/state/ingested.txt brain/state/health.jsonl >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
