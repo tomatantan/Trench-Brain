@@ -29,5 +29,19 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- @DefiIgnas: 「My biggest worry for $ETH is that it's the new $ATOM」——Cosmosはmodular roadmapを選択、IBC成功でエコシステムは拡大したが$ATOMホルダーはdilutionされた。
+- 続くツイートでDefiIgnasは区別を加える：「ETH stakers are rewarded, $ATOM holders were not」——完全な同型ではないとも示唆。
+- @DefiIgnas の別ツイート（2025-05-16）：依然として「ETH is the new ATOM」パターンを論じ続けている（反復的なthesis）。
+- @cryptocom: 18% p.a. ATOM Flash Rewards live（2026-06-22）。
+- 共起トークン: [[$ETH]] [[$BTC]] [[$SOL]] [[$LUNA]] [[$ENA]] [[$GRASS]] [[$INST]] [[$AXS]]（DefiIgnasのポートフォリオ比較文脈）。
+
+**判断（推論）**
+- [[l1-substrate-wars]] において $ATOM は「modular ecosystem成功 × token value accrual失敗」の教科書事例として機能している。Cosmos IBC = インフラとして普及成功、しかし$ATOMはその経済的価値をcaptureできなかった。
+- [[majors-rotation-supercycle]] の文脈：前cycle majorが次cycleで underperformする典型型——$ATOMはそのケーススタディとして繰り返し引用される。
+- [[vc-founder-thesis-layer]]：Cosmos のInter-Blockchain Communication(IBC)設計思想は正しかったが、tokenomics設計（ATOMのvalue accrual機構の欠如）が thesis を無効化した例。設計thesis ≠ token value の自動変換。
+- cryptocomの18%フラッシュリワード：高APYによる短期需要刺激策。収益で正当化できないためyieldで引き留める防衛的施策のパターン（持続性低）。
+
+⚠️矛盾: DefiIgnas は「ETH = new ATOM」懸念を示しながら、同時に「ETH stakers are rewarded = ATOMとは違う」とも述べている——完全にATOM化するかどうかは未解決。ETH 2026年時点でのstaking利回り構造がATOM dilutionとは異なる可能性を排除できない。
 <!-- synthesis:end -->
