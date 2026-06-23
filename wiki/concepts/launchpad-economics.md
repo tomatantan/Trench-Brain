@@ -38,7 +38,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
   openness は bad actor も呼ぶ＝[[onchain-verification]]（[[@lookonchain]] が $LIBRA の $107M exit を追跡）と直結。
 
 ## auto-track 実観測コホート（`brain/track.py` の死の分母）
-外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-23 時点・累計）= **mints 観測 900 / 門通過 11（1.2%）/ graduated 6 / 死 0**。
+外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-23 時点・累計、`brain/state/base_rate.json` と同期）= **mints 観測 1,800 / 門通過 17（0.94%）/ graduated 10 / 死 0**（外部 1.5% との差は方法論差＝注記）。
 - **「graduated but empty」型が観測の主流**: 通過銘柄の大半が *graduation 済みなのに reply 0・KOL 言及ゼロ*。出来高だけ先行し社会的 traction が伴わない。
   実例コホート（同一バッチ）: [[$MOONLAKE]]（AI・$274k）/ [[$MOTION]]（$187k）/ [[$VCSOL]]（GTA参照・$119k）/ [[$AEGIS]]（privacy・$27k）/ 既出 [[$RO]] / [[$AXIOS]]。
 - **追跡で型が裏付く**: [[$AXIOS]] は graduation 直後 $53k→**-52%** で fading。「KOL pickup なし＝短命」仮説が観測で確証されつつある＝98.5%死亡母集団の動態をリアルタイムで捉えている。

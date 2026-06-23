@@ -51,7 +51,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | [[$KRILLION]] | 勢い門 | 低 | reply0 / KOL0 | 誕生即死(1cy) | mcap枯れ | **traction無しの即死**＝最頻型 |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
-**現時点で浮いている型（判断）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死亡率が高い（[[$AXIOS]] が peak比-76%、[[$TBHR]] が -86% で死へ進行中＝実時間の実例。両者とも traction ゼロ）。②graduated でも KOL ピックアップ無しは「graduated but empty」で死分母行き（[[launchpad-economics]]）。→ **死の最大の先行指標は "traction の不在"**。これは下の赤旗(holder集中等)より**早く・安く**取れる前段フィルタになりうる。
+**現時点で浮いている型（⚠️仮説段階・N不足／lint 2026-06-23 で格下げ）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい**かもしれない**——ただし**確定死亡は [[$KRILLION]] の N=1 のみ**で `base_rate.json` の died=0。挙げている [[$AXIOS]](peak比-76%)・[[$TBHR]](-86%) は **fading＝進行中で dead ではない**（fading≠dead）。＝「死亡率が高い」と断定する分母が未だ揃っていない＝**仮説**。②graduated でも KOL ピックアップ無し＝「graduated but empty」候補（[[launchpad-economics]]）。→ 「traction の不在」を**死の先行指標候補**として観測継続（死亡台帳に確定死亡が貯まって初めて型として確立）。それまで前段フィルタに使うなら確度は低く見積もる。
 
 ## ⚠️ 境界の論争（何をrugと呼ぶか）
 - **インサイダー≠rug?**: 「割当を持つteamが利確しただけ」論 ⇄ [[@a1lon9]] は**害(at expense of users)**で rug 認定。$LIBRA の POPE wash は「意図的抽出」の証拠＝単なる利確と一線。

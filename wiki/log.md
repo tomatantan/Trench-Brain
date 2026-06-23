@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 lint是正(過学習矯正): lint検出のHIGH3件を是正。①[[launchpad-economics]] base_rate を 900→1800/0.94% に同期(古い数値修正)。②[[reflexivity]] 「確証されつつある」→「**仮説支持(完全弧N=1・$MOONLAKE反証未解決)**」に格下げ(過剰主張是正)。③[[rug-anatomy]] 死亡台帳「traction0→死亡率高い」を仮説に格下げ(確定死亡N=1・fading≠dead・died=0で分母未充足)。=lint(第5の輪)が過学習を検出→矯正の初サイクル。
+
 - 2026-06-23 lint: 検出10件・主な型リスク＝rug-anatomy死亡台帳N=1で「traction0→高死亡率」過早型化 / launchpad-economics auto-track数値が base_rate.json と乖離（900→1800 mint）/ reflexivity "確証されつつある" フレーミングが$MOONLAKE反証未解決のまま楽観的 / "AI oxygen" 単一ソース依存。wiki/lint-report.md に証拠付き全件記載。
 
 - 2026-06-23 auto-synthesis §1a(3件/5件処理): [[$SPCX]] / [[$SOL]] / [[$JOTCHUA]] 合成更新。$BTC・$ETH は代表ツイが古ツイ再キャプチャ（既存合成に新 beat なし・スキップ）。主な観測: $SPCX -17.8% 全騰幅消去（coingecko確認）→ Hayes「9月 unlock=shitcoin」thesis 部分実現 / $SOL whale 0x9137が20x short $38.15M開始（coinkeiba「HYPE→SOL」と同日逆方向） / $JOTCHUA: $114K whale＋Crypto_Alch「Nigerian quant bottom is in」(1♥)=pump後プロモ継続型パターン確認。波及: [[spacex-ipo-narrative]] 時系列に6/23全騰幅消去を追記。⚠️ SPCX弱気強化 / SOL大口bearish / JOTCHUA confidence低変化なし。
