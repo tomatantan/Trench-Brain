@@ -13,6 +13,13 @@ Q="${*:-}"
 command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }
 
 PROMPT="$(cat brain/ask_prompt.md)
+
+## 方法論（Skill Graph: 内部でこれに沿って考える・出力は簡潔に合成）
+$(cat brain/methodology/lenses.md)
+$(cat brain/methodology/source-tiers.md)
+$(cat brain/methodology/synthesis-rules.md)
+
+## ユーザーの問い:
 $Q"
 # --strict-mcp-config 必須(telegram等MCPを起動させない)。read-only(wiki編集しない)。
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
