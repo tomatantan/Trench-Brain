@@ -4,15 +4,15 @@ kind: player
 title: @coingecko
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 25
+posts: 28
 ---
 
 # @coingecko
 
-> 自動生成。信号投稿 25件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 28件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HYPE]](2) [[$BTC]](2) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$TAIKO]](1) [[$SYN]](1) [[$ETH]](1) [[$PENGU]](1) [[$SIREN]](1)
+[[$HYPE]](3) [[$BTC]](2) [[$ASTER]](1) [[$LIT]](1) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$TAIKO]](1) [[$SYN]](1) [[$ETH]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

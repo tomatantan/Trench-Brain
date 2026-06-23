@@ -4,12 +4,12 @@ kind: player
 title: @binance
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 26
+posts: 28
 ---
 
 # @binance
 
-> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 28件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

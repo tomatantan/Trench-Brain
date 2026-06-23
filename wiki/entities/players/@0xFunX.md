@@ -4,12 +4,12 @@ kind: player
 title: @0xFunX
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 17
+posts: 18
 ---
 
 # @0xFunX
 
-> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$SPCX]](1)

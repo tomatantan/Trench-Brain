@@ -4,13 +4,13 @@ kind: token
 title: $ASTEROID
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 18
+mentions: 19
 accounts: 2
 ---
 
 # $ASTEROID
 
-> 自動生成(brain/build_entities.py)。言及 18件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 19件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント

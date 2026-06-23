@@ -4,20 +4,20 @@ kind: token
 title: $ASTER
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 5
-accounts: 3
+mentions: 6
+accounts: 4
 ---
 
 # $ASTER
 
-> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 6件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@bull_bnb]] [[@lookonchain]] [[@theunipcs]]
+[[@bull_bnb]] [[@coingecko]] [[@lookonchain]] [[@theunipcs]]
 
 ## 共起トークン
-—
+[[$HYPE]] [[$LIT]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -26,6 +26,7 @@ accounts: 3
 | 410 | [[@lookonchain]] | After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER | [[lookonchain__2067554368166166928]] |
 | 209 | [[@bull_bnb]] | Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it.  | [[bull_bnb__2067284566990290960]] |
 | 207 | [[@bull_bnb]] | Can it now recover my 10/10 losses?  $Aster | [[bull_bnb__2067229690050543921]] |
+| 91 | [[@coingecko]] | $HYPE vs. $ASTER vs. $LIT  "Is a coin actually pumping, or is its sector just trendi | [[coingecko__2069140924178075884]] |
 | 67 | [[@bull_bnb]] | Is the buybacks still in the room with us?  $Aster boi you were suppose to moon inst | [[bull_bnb__2069096838452670579]] |
 
 <!-- synthesis:start -->

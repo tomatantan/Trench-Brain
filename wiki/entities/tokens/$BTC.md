@@ -2,19 +2,19 @@
 type: entity
 kind: token
 title: $BTC
-updated: 2026-06-23
+updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 105
-accounts: 13
+mentions: 108
+accounts: 14
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 105件 / 13アカ。
+> 自動生成(brain/build_entities.py)。言及 108件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MurphyBTC]] [[@coingecko]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MurphyBTC]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
 [[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$SPX]] [[$USDC]] [[$XRP]]

@@ -4,13 +4,13 @@ kind: token
 title: $SOLANGELES
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 7
+mentions: 8
 accounts: 3
 ---
 
 # $SOLANGELES
 
-> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 8件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -28,6 +28,7 @@ accounts: 3
 | 140 | [[@PumpfunEco]] | $SOLANGELES has pumped 200% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068774140224356546]] |
 | 108 | [[@PumpfunEco]] | This trader is up $21,600 after buying $250 worth of $SOLANGELES   They gained an 87 | [[PumpfunEco__2069002054958194927]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
+| 85 | [[@PumpfunEco]] | This trader bought $4,180 worth of $SOLANGELES at $352K market cap and never sold a  | [[PumpfunEco__2069137193747071400]] |
 | 76 | [[@PumpfunEco]] | $SOLANGELES has pumped 131% today! 🔥 | [[PumpfunEco__2068842335400563070]] |
 
 <!-- synthesis:start -->

@@ -4,15 +4,15 @@ kind: player
 title: @badattrading_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 51
+posts: 56
 ---
 
 # @badattrading_
 
-> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 56件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$GREG]](1) [[$SAKANA]](1) [[$LOT]](1) [[$CONDOR]](1) [[$JSON]](1) [[$GAEJUKI]](1) [[$VSK]](1) [[$JETCHUA]](1) [[$WORK]](1) [[$CATWIF]](1)
+[[$GREG]](1) [[$SAKANA]](1) [[$LOT]](1) [[$CONDOR]](1) [[$JSON]](1) [[$GAEJUKI]](1) [[$LUCIA]](1) [[$VSK]](1) [[$JETCHUA]](1) [[$WORK]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -24,9 +24,9 @@ posts: 51
 | 69 |  | Coin with **8 players online** end quote, is making some moves for some reason I don | [[badattrading___2069008040456528203]] |
 | 65 |  | Some guy is preparing for the Merlin pump | [[badattrading___2068755580437549133]] |
 | 64 |  | in the end all it takes is just holding | [[badattrading___2068738027946496016]] |
+| 64 |  | I've been borrowing like 10 SOL from the treasury wallet in the past days but it's b | [[badattrading___2069114602420351356]] |
 | 56 | [[$GREG]] | Guys making fake DMs about me $greg don’t be fooled  My wallet is   GZ1yiJKTq8Mc6RiY | [[badattrading___2069006633930277215]] |
 | 51 |  | You guys like Ansem's cat Hobbes ? Since Ansem has a lot of motion may be his cat ca | [[badattrading___2068735290726817803]] |
-| 48 |  | If you're from the US and reading this right after waking up, don't sell | [[badattrading___2069026845429772397]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

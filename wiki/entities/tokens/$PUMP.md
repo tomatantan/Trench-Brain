@@ -4,13 +4,13 @@ kind: token
 title: $PUMP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 10
 accounts: 3
 ---
 
 # $PUMP
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 10件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -31,6 +31,7 @@ accounts: 3
 | 1,633 | [[@theunipcs]] | SOME THOUGHTS ON $PUMP TGE AND WHAT IT MEANS FOR $BONK AND BONKFUN ECO  i've had sev | [[theunipcs__1942189635343442158]] |
 | 94 | [[@PumpfunEco]] | $PUMP is up 11.8% in the last 24 hours! 🔥 | [[PumpfunEco__2068704384993698255]] |
 | 79 | [[@PumpfunEco]] | $PUMP is up 6.6% in the last 24 hours! | [[PumpfunEco__2068592916608557396]] |
+| 46 | [[@PumpfunEco]] | Over the past 7 days, @Pumpfun bought back & burned $2,888,049 worth of $PUMP    Thi | [[PumpfunEco__2069141018436424042]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

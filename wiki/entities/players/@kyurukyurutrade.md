@@ -4,12 +4,12 @@ kind: player
 title: @kyurukyurutrade
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 16
 ---
 
 # @kyurukyurutrade
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -26,7 +26,7 @@ posts: 15
 | 4 |  | 人はなぜボラティリティの高いミームコインに惹かれるのか。 今読んでいる海外のミームコインガイドにも、近い話がありました。 「普通に働けば普通に暮らせる」という前提が揺ら | [[kyurukyurutrade__2057013821466923459]] |
 | 3 |  | ｷﾝﾄﾝｷﾝﾄｰﾝ♪ 朝！あさだよー！（ｶﾝｶﾝｶﾝｶﾝ！） | [[kyurukyurutrade__2057983695173435595]] |
 | 3 |  | ｷﾝﾄﾝｷﾝﾄｰﾝ♪ おはよー！（ｶﾝｶﾝｶﾝｶﾝ！） | [[kyurukyurutrade__2059757707654271338]] |
-| 3 |  | ｷﾝﾄﾝｷﾝﾄｰﾝ♪ おはよーおはよー！（ｶﾝｶﾝｶﾝｶﾝ！） | [[kyurukyurutrade__2060150990356316588]] |
+| 3 |  | ｷﾝﾄﾝｷﾝﾄｰﾝ♪ おはよー！（ｶﾝｶﾝｶﾝｶﾝ！） | [[kyurukyurutrade__2056497451729891807]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

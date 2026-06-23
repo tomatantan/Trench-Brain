@@ -4,12 +4,12 @@ kind: player
 title: @notthreadguy
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 11
+posts: 15
 ---
 
 # @notthreadguy
 
-> 自動生成。信号投稿 11件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -25,8 +25,8 @@ posts: 11
 | 196 |  | holy fuck yes | [[notthreadguy__2067706685334978748]] |
 | 193 |  | irl is so back | [[notthreadguy__2068808913495998589]] |
 | 155 |  | oh my god strc is $86 | [[notthreadguy__2067608304784732262]] |
+| 134 |  | the angry at saas going down stock guys sound very similar to the angry at memecoins | [[notthreadguy__2069108106764673392]] |
 | 130 |  | i deeply regret to inform you the chamath youtube is the best content to come out th | [[notthreadguy__2069068619229622747]] |
-| 63 |  | LIVE: Saylor Is BLOWING UP!!! (RIP) SpaceX Is DUMPING?? War Is OVER..? GTA 6 Is HUGE | [[notthreadguy__2067680594499145919]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

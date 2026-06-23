@@ -2,15 +2,15 @@
 type: entity
 kind: token
 title: $SPCX
-updated: 2026-06-23
+updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 19
+mentions: 20
 accounts: 14
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 19件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 20件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -23,6 +23,7 @@ accounts: 14
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 6,182 | [[@WatcherGuru]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
+| 779 | [[@WatcherGuru]] | JUST IN: Elon Musk is down $150 billion from his net worth today after SpaceX $SPCX  | [[WatcherGuru__2069188912619081898]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 278 | [[@CryptoHayes]] | $SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive? | [[CryptoHayes__2064196537908085090]] |
 | 259 | [[@CryptoHayes]] | Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market? | [[CryptoHayes__2065237665440804899]] |
@@ -31,7 +32,6 @@ accounts: 14
 | 176 | [[@MEXC]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
 | 139 | [[@cryptocom]] | Earn 4% p.a. on the SpaceX ($SPCX) tokenized stock with a flexible term.   A first f | [[cryptocom__2067548618341384397]] |
 | 118 | [[@DefiIgnas]] | $SPCX Open Interest:  - Binance: $312.8M - Hyperliquid: $309.0M - Variational: $15.6 | [[DefiIgnas__2065455392646201375]] |
-| 114 | [[@lookonchain]] | SpaceX ($SPCX) is dumping.  Whale 0x519c, who is long $SPCX, is now down nearly $1.2 | [[lookonchain__2069075414069428266]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

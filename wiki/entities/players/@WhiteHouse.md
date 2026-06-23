@@ -4,12 +4,12 @@ kind: player
 title: @WhiteHouse
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 8
+posts: 19
 ---
 
 # @WhiteHouse
 
-> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,13 +18,15 @@ posts: 8
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 27,080 |  | Happy Father’s Day from the White House!  As a father & grandfather, President Trump | [[WhiteHouse__2068715233967792226]] |
+| 22,860 |  | Always trust. 👀 | [[WhiteHouse__2069124520661696843]] |
+| 14,777 |  | Vandalism of statues, fountains, and landmarks in our nation's capital is unacceptab | [[WhiteHouse__2069105216947896767]] |
 | 13,547 |  | Air Force One enters its next era 🔥🇺🇸 | [[WhiteHouse__2068782594485866613]] |
 | 11,658 |  | ︎︎White House will be Q posting today…  ︎  ︎  ︎  ︎ ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎   | [[WhiteHouse__2069071254829609256]] |
-| 4,545 |  | We are making DC SAFE & BEAUTIFUL AGAIN 🇺🇸  Thank you, President Trump! | [[WhiteHouse__2068831918787805216]] |
-| 4,435 |  | WE ON GO. 🔥😤 | [[WhiteHouse__2068869147711123858]] |
-| 3,724 |  | “To promote peace and prosperity for everyone… this is a historic meeting.” - @VP Va | [[WhiteHouse__2068680151177593130]] |
-| 3,116 |  | 🇺🇸 @SecretaryWright speaks on ships going through the Strait of Hormuz:  "In terms o | [[WhiteHouse__2068718553239265290]] |
-| 2,960 |  | Vice President JD Vance Participates in Quadrilateral Meeting with Pakistan, Qatar,  | [[WhiteHouse__2068676114860372335]] |
+| 8,396 |  | The Next Frontier of Quantum Innovation | [[WhiteHouse__2069171719953097192]] |
+| 6,814 |  | RECORD HIGH DEPORTATIONS.  ⚠️WARNING: If you are here illegally, LEAVE NOW or we wil | [[WhiteHouse__2069135638205465057]] |
+| 6,536 |  | Despite continuous and blatant Fake News lies, Iran's military complex has been dest | [[WhiteHouse__2069155712861708564]] |
+| 5,751 |  | Investing in American quantum leadership like never before.  President Trump signs e | [[WhiteHouse__2069154174818754759]] |
+| 5,567 |  | President Trump Signs Executive Orders, Jun. 22, 2026 | [[WhiteHouse__2069145708813320362]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,13 +4,13 @@ kind: token
 title: $WOJAK
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
+mentions: 14
 accounts: 5
 ---
 
 # $WOJAK
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 5アカ。
+> 自動生成(brain/build_entities.py)。言及 14件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント

@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $JOTCHUA
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, entity, token]
 mentions: 11
 accounts: 2
@@ -35,5 +35,30 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-23 初回合成
+**観測（事実）**
+- ソース（2アカ・7件／48h）: [[@PumpfunEco]]（Pump.fun 公式プロモ feed）＋ [[@Crypto_Alch]]（CT caller）
+- 価格観測（2026-06-21〜22）:
+  - Pump.fun でトレンド入り後 +900%（[[PumpfunEco__2068756088174882931]]）
+  - 24h +92% → $10M mcap 到達（[[PumpfunEco__2068633451973247417]] / [[Crypto_Alch__2068927200036880866]]）
+  - 最大保有者ポジション $123K（[[PumpfunEco__2068619724649308222]]）
+  - 参考 entry: $180K mcap で $2,900 → $151K（約 52x）（[[PumpfunEco__2069090274316308536]]）
+- [[@Crypto_Alch]] の 2026-06-22 サマーまとめで "$JOTCHUA 5x" として勝者列挙（$KINS/10x・$HYPE/+400% 等と並列）（[[Crypto_Alch__2069087026813530587]]）
+
+**動線・型**
+- [[launchpad-economics]]: Pump.fun 産→トレンド入り→ラリー→$10M mcap 到達。典型的な launchpad pump 動線。
+- [[jp-meme-cluster]]: すでに concept に登録済。$KINS と同型（Pump.fun 系・[[@Crypto_Alch]]/[[@PumpfunEco]] が旗振り）。[[@Crypto_Alch]] が $KINS と $JOTCHUA を同時保有・同時言及＝クラスタ連動。
+- [[survivor-memes]]: $10M mcap 到達＝ launchpad 出生から見れば上位サバイバー層。
+
+**⚠️ 矛盾・赤旗**
+- **主シラー＝プラットフォーム自身**: 48h 7件中 @PumpfunEco が 5件。これは Pump.fun のトレンド feed 連投であり独立 KOL の判断ではない。実質的独立 KOL は @Crypto_Alch の 2件のみ。「2アカ = 複数KOL」は形式上だが内実は薄い。（[[rug-anatomy]]）
+- **ホルダー集中**: top holder $123K = $10M mcap の約 1.2%。単一大口の配分全貌は未確認。
+- **900% 後エントリーリスク**: ソースが報告しているのはすべて上昇後の記録。$10M mcap 以降の入口は別評価。[[rug-anatomy]] の「pump 後プロモ継続」型と一致。
+- **文化的参照が不明**: "Jotchua" の由来（JP アニメ参照か固有名か）が一次ソースから判別不能。ナラティブの深さは未確定。
+
+**賭け仮説**（confidence=低）
+- $10M mcap 到達は Pump.fun 産として上位サバイバー階層だが、主要シラーが Pump.fun プロモ feed 1本＋CT caller 1本という薄さ。
+- [[jp-meme-cluster]] 脈絡で $KINS と連動する可能性。$KINS が先に崩れると連鎖。
+- 追いかける価値の判断基準: WL 外の独立 KOL（日本語圏外）が言及開始＝[[jp-meme-cluster]] 「越境がカタリスト」。現時点でそれはなし。
 <!-- synthesis:end -->

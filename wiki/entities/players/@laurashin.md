@@ -4,15 +4,15 @@ kind: player
 title: @laurashin
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 114
+posts: 133
 ---
 
 # @laurashin
 
-> 自動生成。信号投稿 114件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 133件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MOTHER]](1)
+[[$SATA]](1) [[$MOTHER]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

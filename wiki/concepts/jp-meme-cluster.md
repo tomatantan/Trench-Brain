@@ -2,7 +2,7 @@
 type: concept
 title: 型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-23
 tags: [trench, concept, pattern, meme, japan, community]
 memetic_potential: 中
 confidence: 中
@@ -20,7 +20,7 @@ worklist で [[$KINTON]] [[$YAJUCOIN]] [[$KINS]] [[$JOTCHUA]] が同時に浮上
 |---|---|---|
 | [[$KINTON]] | 木村萌那×春麗(Chun-Li)、Japanese PEPE、TikTok | [[@xvwmuca]] [[@JPY_TO_Crypto]] |
 | [[$YAJUCOIN]] | 野獣先輩(114514・約20年もの日本ミーム)、CTOプロジェクト | [[@tsuyuto6154]] [[@810yenshamp]] [[@daisuk_e4]] |
-| [[$KINS]] / [[$JOTCHUA]] | Pump.fun系・直近ラリー | [[@Crypto_Alch]] [[@PumpfunEco]] |
+| [[$KINS]] / [[$JOTCHUA]] | Pump.fun系・直近ラリー（$JOTCHUA: 900%↑→$10M mcap 2026-06-21） | [[@Crypto_Alch]] [[@PumpfunEco]] |
 | $Kiyomasa / $TripleT / $TACTICS | YAJU系・派生/姉妹 | [[@tsuyuto6154]] [[@xvwmuca]] |
 
 ## ★束ねるメカニクス（単一ソースでは見えない繋がり）

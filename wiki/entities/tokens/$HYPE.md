@@ -2,22 +2,22 @@
 type: entity
 kind: token
 title: $HYPE
-updated: 2026-06-23
+updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 17
+mentions: 18
 accounts: 10
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 17件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 18件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@therollupco]]
 
 ## 共起トークン
-[[$ETH]] [[$AXIOM]] [[$ZEC]] [[$AERO]] [[$TNSR]] [[$NEAR]] [[$POLY]] [[$VAR]]
+[[$ETH]] [[$AXIOM]] [[$ZEC]] [[$ASTER]] [[$LIT]] [[$AERO]] [[$TNSR]] [[$NEAR]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

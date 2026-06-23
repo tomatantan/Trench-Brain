@@ -4,12 +4,12 @@ kind: player
 title: @solana
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 14
+posts: 17
 ---
 
 # @solana
 
-> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$ARX]](1) [[$BAGEY]](1) [[$MU]](1)

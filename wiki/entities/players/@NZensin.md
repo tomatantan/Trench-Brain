@@ -4,12 +4,12 @@ kind: player
 title: @NZensin
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 32
+posts: 35
 ---
 
 # @NZensin
 
-> 自動生成。信号投稿 32件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 35件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

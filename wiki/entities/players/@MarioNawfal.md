@@ -4,12 +4,12 @@ kind: player
 title: @MarioNawfal
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 70
+posts: 91
 ---
 
 # @MarioNawfal
 
-> 自動生成。信号投稿 70件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 91件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,15 +18,15 @@ posts: 70
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 1,480 |  | 🇮🇷🇺🇸 The Iranian football team left a nice shoutout in their locker room before pack | [[MarioNawfal__2069070403406901657]] |
+| 473 |  | Trump just lifted oil sanctions on Iran for the duration of the MOU, and Larry Johns | [[MarioNawfal__2069204144544764229]] |
 | 469 |  | 🇺🇸 NBC poll shows that only 29% of Democrats are super proud of the country, while 9 | [[MarioNawfal__2069085502788026534]] |
 | 468 |  | 🇺🇸🇨🇴 Sec Rubio officially recognized Abelardo De La Espriella as Colombia’s next pre | [[MarioNawfal__2068866559771332953]] |
 | 438 |  | Explosion hits Qatar’s Ras Laffan gas facility right as negotiations kicked off. Off | [[MarioNawfal__2068873949971116090]] |
+| 313 |  | 🇫🇷🇮🇶 The France vs Iraq match is on hold.  Thunderstorms around Philadelphia have de | [[MarioNawfal__2069202255144735085]] |
 | 312 |  | 🇺🇸 This Boston police casually drops keepie-uppie skills outside a pub, turning a cr | [[MarioNawfal__2068918904630514092]] |
+| 309 |  | Vance is out claiming victory and dictating terms, but the Iran war is nowhere near  | [[MarioNawfal__2069189761269465183]] |
 | 264 |  | 🇺🇸🇶🇦 Qatar’s PM is in Lucerne with JD Vance and Jared Kushner, saying that work cont | [[MarioNawfal__2068864043432185936]] |
-| 258 |  | 🇬🇧🇸🇳 BRITISH ELDERLY MAN, 88, DIES AFTER BEING BRUTALLY MUGGED BY SENEGALESE IMMIGRA | [[MarioNawfal__2069077953393086972]] |
-| 249 |  | 🇫🇷 Shocking vandalism in broad daylight down Rue Pierre Sémard, Paris 9th.   A group | [[MarioNawfal__2069075436500361403]] |
-| 208 |  | 🇺🇸🇳🇴 Times Square's solstice yoga session got crashed by thousands of Norwegians row | [[MarioNawfal__2068949606936010973]] |
-| 206 |  | 🇶🇦🇵🇰🇺🇸🇮🇷 Qatar & Pakistan also announce: First high-level US-Iran talks in Switzerla | [[MarioNawfal__2068866422948970633]] |
+| 263 |  | 🇬🇧 A dying 18-year-old was handcuffed as he bled out, because his killer falsely acc | [[MarioNawfal__2069173582953882040]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
