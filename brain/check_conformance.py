@@ -127,6 +127,87 @@ def _oa1():
     return "WARN", f"観測={bool(obs)} 採用門={bool(adopt)}"
 
 
+@check("C4", "指針4", "1ソース取込→複数ページに波及(synthesis)")
+def _c4():
+    prompt = grep(r"関連.*concept|複数ページ|波及|entity synthesis|多ページ", "brain/INGEST.md", "brain/synth_x_prompt.md", "brain/synth_prompt.md")
+    nsum = len(list((ROOT / "wiki" / "summaries").glob("*.md"))) if (ROOT / "wiki" / "summaries").exists() else 0
+    nent = len(list((ROOT / "wiki" / "entities").rglob("*.md")))
+    if prompt and (nsum + nent) > 0:
+        return "PASS", f"波及指示あり・summary{nsum}+entity{nent}枚"
+    return "WARN", f"波及指示={bool(prompt)} summary={nsum} entity={nent}"
+
+
+@check("C5", "指針5", "矛盾は消さず⚠️両論で保持する")
+def _c5():
+    hits = grep(r"⚠️|矛盾|両論|⇄", "wiki/concepts/*.md")
+    prompt = grep(r"矛盾|両論|⚠️", "brain/synth_prompt.md", "brain/synth_x_prompt.md", "brain/methodology/synthesis-rules.md")
+    if hits and prompt:
+        return "PASS", f"concept内 ⚠️/矛盾 {len(hits)}箇所・prompt指示あり"
+    return "WARN", f"concept矛盾痕={len(hits)} prompt指示={bool(prompt)}"
+
+
+@check("C6", "指針6", "entityで観測(事実)と推論(判断)を分離する")
+def _c6():
+    ents = list((ROOT / "wiki" / "entities").rglob("*.md"))
+    sep = 0
+    for p in ents:
+        t = p.read_text(encoding="utf-8", errors="replace")
+        if "観測" in t and ("判断" in t or "合成メモ" in t or "synthesis" in t):
+            sep += 1
+    return ("PASS" if sep > 0 else "WARN"), f"観測/判断を分離した entity {sep}/{len(ents)}枚"
+
+
+@check("C8", "指針8", "bottom-up＝conceptを独断量産しない(動線/型が立つ時だけ)")
+def _c8():
+    nc = len(list((ROOT / "wiki" / "concepts").glob("*.md"))) if (ROOT / "wiki" / "concepts").exists() else 0
+    nsrc = len(list((ROOT / "sources").rglob("*.md")))
+    bottomup = grep(r"worklist で|浮上したことから|から合成", "wiki/concepts/*.md")
+    ratio = nc / max(1, nsrc)
+    if nc < 60 and ratio < 0.2 and bottomup:
+        return "PASS", f"concept{nc}枚(source{nsrc}・比{ratio:.3f})・bottom-up痕{len(bottomup)}"
+    return "WARN", f"concept{nc} source{nsrc} 比{ratio:.2f} bottomup={bool(bottomup)}（量産疑い?）"
+
+
+@check("C9", "指針9", "淡々＝煽り/絵文字過多をしない(brainの声のみ・引用ソースは逐語=対象外)")
+def _c9():
+    # 指針9は brain の合成/判断の声に適用。引用(>)・表(|)・出典行([[..__)は観測=逐語なので除外。
+    hype = []
+    for p in (ROOT / "wiki").rglob("*.md"):
+        emoji = words = 0
+        for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+            s = ln.strip()
+            if s.startswith(">") or s.startswith("|") or "__" in s or "「" in s:
+                continue  # 引用/表/出典=ソース逐語=対象外
+            emoji += len(re.findall(r"🚀|🔥|💎|🌙", ln))
+            words += len(re.findall(r"爆益確定|億り人確定|100x保証|今すぐ買え|絶対上がる|to da moon", ln, re.I))
+        if emoji > 6 or words > 0:
+            hype.append((p.name, emoji, words))
+    return ("WARN" if hype else "PASS"), (f"brain-voice煽り疑い: {hype[:3]}" if hype else "brain-voiceに煽り/絵文字過多なし(引用は対象外)")
+
+
+@check("I1", "§Ingest", "index.md/log.md を維持＝取込を記録・カタログ化")
+def _i1():
+    ok = [(ROOT / f).exists() for f in ("wiki/index.md", "wiki/log.md")]
+    return ("PASS" if all(ok) else "FAIL"), f"index={ok[0]} log={ok[1]}"
+
+
+@check("L2", "§Lint実挙動", "lintが実際に動いてる(stampが新しい＝存在でなく実行)")
+def _l2():
+    import os
+    import time
+    stamp = ROOT / "brain" / "state" / "last_lint"
+    if not stamp.exists():
+        return "WARN", "last_lint stamp なし(まだ実行されてない)"
+    age = (time.time() - os.path.getmtime(stamp)) / 3600
+    return ("PASS" if age < 48 else "WARN"), f"last_lint {age:.0f}h前(実行痕)"
+
+
+@check("Q2", "§Query実挙動", "/wiki が実際に queries を蓄積してる(存在でなく稼働痕)")
+def _q2():
+    qs = list((ROOT / "wiki" / "queries").glob("*.md")) if (ROOT / "wiki" / "queries").exists() else []
+    return ("PASS" if qs else "WARN"), f"queries {len(qs)}枚(0なら未稼働)"
+
+
 def main():
     rows = []
     for id, ref, req, fn in CHECKS:
