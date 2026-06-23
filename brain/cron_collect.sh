@@ -14,7 +14,9 @@ mkdir -p brain/state
 echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 
 # 単一枝 main に一本化(2026-06-22 unify)。collect=門付き(watchlist)＝憲法 指針2準拠。
-git pull -q --rebase origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
+# --autostash: .obsidian 等の未staged変更があっても rebase を通す(無いと pull skip→cloud GHA
+# の push と分岐した時に末尾 push が non-fast-forward で失敗する。2026-06-23 cloud冗長化で必須化)。
+git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pull skipped" >> "$LOG"
 # tweet収集が失敗しても launch pipeline(track/synth) は止めない(独立)。
 python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1 || echo "collect failed(継続)" >> "$LOG"
 
@@ -33,6 +35,8 @@ if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
   git commit -q -m "auto-collect: $(date -u +%Y-%m-%dT%H:%MZ) (cron)" >> "$LOG" 2>&1
-  git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG"
+  # push直前にもう一度 rebase: cron実行中に cloud GHA collector が push して分岐した場合に対応。
+  git pull -q --rebase --autostash origin main >> "$LOG" 2>&1 || echo "pre-push pull skipped" >> "$LOG"
+  git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG" || echo "push failed(次サイクル再試行)" >> "$LOG"
 fi
 echo "=== done ===" >> "$LOG"
