@@ -39,4 +39,4 @@
 - [[bankless-world-cup-polymarket-2026-06-19]] — W杯チケット × Polymarket IRL ヘッジ事例（2026-06-19）
 
 ## クエリ（queries）
-- （まだ無し）
+- [[where-in-reflexive-cycle-2026-06-23]] — 今 trench は再帰サイクルのどこ＆edgeはどこか（古典×YouTube×X×pump 横断合成・§5実演）
