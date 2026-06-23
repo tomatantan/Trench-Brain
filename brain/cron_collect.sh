@@ -1,8 +1,10 @@
 #!/bin/bash
-# Trench-Brain ローカル自動収集（launchd/cronから叩く）。
-# 収集(twitterapi)→digest→build_entities→worklist→commit/push。
-# ※「貯める＋仕分ける＋整理(背骨)」までの決定的パートだけ。
-#   合成(判断)はエージェント工程(brain/INGEST.md)なのでここには含めない。
+# Trench-Brain ローカル自動収集＋合成（launchd/cronから叩く）＝両輪を1サイクルで回す。
+# 収集(twitterapi)→worklist(鮮度ゲート)→[pump.fun合成 + X合成(headless)]→UI→commit/push。
+# 指針3「収集と合成は両輪」: 収集だけでなく合成(判断)まで毎サイクル回す。
+#   - pump.fun側: track.py(観測→篩→queue) → synthesize.sh(headless合成)
+#   - X側:        pipeline.py が worklist(§1a=鮮度ゲート) → synthesize_x.sh(headless合成 上位3件/複利)
+#   どちらも headless claude は --strict-mcp-config(telegram干渉なし) / SYNTH_*_ENABLED で停止可。
 set -euo pipefail
 cd /Users/toma/trench-brain
 
@@ -18,12 +20,15 @@ python3 brain/pipeline.py --collect --twitterapi >> "$LOG" 2>&1 || echo "collect
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
-# (2)合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
+# (2)pump.fun合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
 bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
+# (2b)X側合成層=worklist §1a(鮮度ゲート通過)上位3件を headless claude が合成(§1a空なら呼ばない=コスト0)
+bash brain/synthesize_x.sh || echo "synth-x skipped" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
-git add sources/x wiki/dashboards wiki/entities wiki/concepts wiki/_worklist.md wiki/log.md wiki/ui-data.json >> "$LOG" 2>&1 || true
+# ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
+git add sources/x wiki/dashboards wiki/entities wiki/concepts wiki/_worklist.md wiki/log.md wiki/ui-data.json brain/state/ingested.txt >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
