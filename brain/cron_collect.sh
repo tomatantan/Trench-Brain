@@ -36,6 +36,8 @@ bash brain/synthesize_x.sh || echo "synth-x skipped" >> "$LOG"
 bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 # (2d)backfill層=高signal未合成stubを5件/サイクル deep 合成=グラフ密度UP(対象無で呼ばない=コスト0・自己限定)
 bash brain/synthesize_backfill.sh || echo "synth-backfill skipped" >> "$LOG"
+# (2e)lint層=第5の輪・自己検証(過学習対策)。wiki自身の小N型/矛盾/陳腐化を敵対的に検出→lint-report(報告のみ)。~日次gate。
+bash brain/synthesize_lint.sh || echo "lint skipped" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 

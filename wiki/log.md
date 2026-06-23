@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 lint: 検出10件・主な型リスク＝rug-anatomy死亡台帳N=1で「traction0→高死亡率」過早型化 / launchpad-economics auto-track数値が base_rate.json と乖離（900→1800 mint）/ reflexivity "確証されつつある" フレーミングが$MOONLAKE反証未解決のまま楽観的 / "AI oxygen" 単一ソース依存。wiki/lint-report.md に証拠付き全件記載。
+
 - 2026-06-23 auto-synthesis §1a(3件/5件処理): [[$SPCX]] / [[$SOL]] / [[$JOTCHUA]] 合成更新。$BTC・$ETH は代表ツイが古ツイ再キャプチャ（既存合成に新 beat なし・スキップ）。主な観測: $SPCX -17.8% 全騰幅消去（coingecko確認）→ Hayes「9月 unlock=shitcoin」thesis 部分実現 / $SOL whale 0x9137が20x short $38.15M開始（coinkeiba「HYPE→SOL」と同日逆方向） / $JOTCHUA: $114K whale＋Crypto_Alch「Nigerian quant bottom is in」(1♥)=pump後プロモ継続型パターン確認。波及: [[spacex-ipo-narrative]] 時系列に6/23全騰幅消去を追記。⚠️ SPCX弱気強化 / SOL大口bearish / JOTCHUA confidence低変化なし。
 
 - 2026-06-23 backfill(auto-synthesis 高signal未合成 2件): [[$ENA]](言及3) / [[$AAVE]](言及3) 合成初回記入。主な concept 接続: [[external-event-to-token-pattern]]（WLFI/Trump 陣営バスケット買いの記録）/ [[majors-rotation-supercycle]]（productive DeFi rotation 枠）/ [[reflexivity]]（ENA="new $LUNA"構造リスク・AAVE WLFI 繰り返し買いのナラティブ増幅）/ [[onchain-verification]]（Hayes $4.62M ENA 売り vs WLFI 買いの逆行 / AAVE WLFI ウォレット追跡）。⚠️ ENA: Hayes 売り vs WLFI 買い の大口逆行を両論記録。AAVE: Zhu Su(2021)=逆指標候補として括弧書き。
