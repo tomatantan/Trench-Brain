@@ -7,59 +7,59 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 6031 件 → ノイズ(RT/短文/中身なし)除外後 **4966 件**が信号。
+生ツイ 6187 件 → ノイズ(RT/短文/中身なし)除外後 **5058 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
+| $BTC | 109 | 14 | CoinMarketCap, CredibleCrypto, CryptoHayes, DefiIgnas, MurphyBTC, coingecko |
 | $ETH | 108 | 14 | CredibleCrypto, CryptoHayes, DefiIgnas, MurphyBTC, arkham, blknoiz06 |
-| $BTC | 108 | 14 | CoinMarketCap, CredibleCrypto, CryptoHayes, DefiIgnas, MurphyBTC, coingecko |
 | $MASK | 37 | 1 | spyzer |
 | $SOL | 34 | 8 | CryptoHayes, DefiIgnas, RookieXBT, coinkeiba, lookonchain, mellometrics |
 | $USDC | 25 | 4 | BinanceUS, DefiIgnas, lookonchain, rajgokal |
-| $SPCX | 20 | 14 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, WatcherGuru |
+| $SPCX | 22 | 15 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, WatcherGuru |
+| $HYPE | 19 | 10 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
 | $ASTEROID | 19 | 2 | Crypto_Alch, solbrdl |
-| $HYPE | 18 | 10 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
 | $CLUTCH | 18 | 1 | Clutch_FIFA2026 |
 | $PEPE | 18 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $BONK | 16 | 3 | lookonchain, rajgokal, theunipcs |
 | $WOJAK | 14 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
+| $PUMPI | 13 | 1 | pumpilians_ |
 | $KINTON | 13 | 2 | JPY_TO_Crypto, xvwmuca |
 | $YAJUCOIN | 12 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
-| $PUMPI | 12 | 1 | pumpilians_ |
 | $JOTCHUA | 11 | 2 | Crypto_Alch, PumpfunEco |
 | $VINE | 10 | 1 | spyzer |
 | $PUMP | 10 | 3 | PumpfunEco, a1lon9, theunipcs |
+| $KINS | 10 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
 | $STRC | 10 | 4 | Bankless, CryptoKaleo, saylor, theempirepod |
 | $TRUMP | 10 | 6 | DefiIgnas, blknoiz06, frankdegods, lookonchain, milesdeutscher, theunipcs |
-| $KINS | 9 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
 | $DOGE | 8 | 5 | RookieXBT, dogecoin, lookonchain, milesdeutscher, theunipcs |
 | $MITCH | 8 | 1 | ShapeFN_ |
 | $WIF | 8 | 5 | DefiIgnas, badattrading_, blknoiz06, lookonchain, theunipcs |
+| $USDT | 8 | 3 | BinanceUS, MEXC, lookonchain |
 | $SOLANGELES | 8 | 3 | Crypto_Alch, PumpfunEco, moonshot |
 | $ARB | 7 | 3 | DefiIgnas, lookonchain, milesdeutscher |
 | $MERLIN | 7 | 2 | ShapeFN_, moonshot |
 | $USELESS | 7 | 1 | theunipcs |
-| $USDT | 7 | 3 | BinanceUS, MEXC, lookonchain |
 | $REALIS | 7 | 1 | spyzer |
 
 ## 活発なアカウント（信号込み投稿数 / 累計いいね）
 
 | account | 投稿数 | 累計likes |
 |---|---|---|
-| [[@laurashin]] | 148 | 140,850 |
-| [[@blknoiz06]] | 139 | 854,417 |
-| [[@lookonchain]] | 128 | 254,817 |
+| [[@blknoiz06]] | 154 | 857,261 |
+| [[@laurashin]] | 149 | 141,278 |
+| [[@lookonchain]] | 131 | 255,222 |
+| [[@Ministerr]] | 126 | 300,379 |
+| [[@milesdeutscher]] | 125 | 571,272 |
 | [[@hosseeb]] | 124 | 188,059 |
 | [[@frankdegods]] | 123 | 356,699 |
 | [[@cookerbruski]] | 123 | 35,720 |
-| [[@milesdeutscher]] | 123 | 571,216 |
-| [[@Ministerr]] | 123 | 300,280 |
+| [[@thedefiedge]] | 122 | 436,038 |
 | [[@theunipcs]] | 122 | 221,164 |
 | [[@CryptoHayes]] | 121 | 381,893 |
-| [[@thedefiedge]] | 121 | 436,024 |
 | [[@santiagoroel]] | 121 | 116,840 |
 | [[@RyanSAdams]] | 121 | 359,682 |
 | [[@spyzer]] | 121 | 23,364 |
@@ -72,8 +72,8 @@ tags: [trench, dashboard]
 | [[@KyleSamani]] | 120 | 88,462 |
 | [[@zhusu]] | 120 | 530,762 |
 | [[@cobie]] | 120 | 1,127,426 |
+| [[@MarioNawfal]] | 119 | 51,445 |
 | [[@rajgokal]] | 118 | 191,644 |
-| [[@cdixon]] | 117 | 202,999 |
 
 ## 高エンゲージ・ツイート Top 25（信号のみ）
 

@@ -29,5 +29,29 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-19 初回合成（Bankless 週次ロールアップ / David Hoffman + Tom Schmidt）
+出典: sources/youtube/UCAl9Ld79qaZxp9JzEOwd3aA__F8njppzDIxY.md (2026-06-19)
+
+**観測（2026-06-19 時点）**:
+- Stretch ([[$STRC]]) が par $100 に対し ~20% 割れ。MSTR は MNAV 超を維持するも低下中。
+- Hoffman: 「equities bullish・Iran peace deal・FOMC 無難」の週で Stretch だけ回復しなかった = **Stretch が BTC/crypto 市場の focal point（"tariff tantrum equivalent for Saylor"）**。
+- 「Strategy が BTC を dragging している初の強い証拠」= BTC・HYPE 等 countercyclical 資産まで Stretch に連動して下落。
+
+**⚠️ MSTR の value capture 問題**:
+- Jeff Dorman（Hoffman 引用）70% base case = MSTR が **0.7 MNAV まで圧縮**。
+- 「なぜ MSTR を持つのか」問題: 純 BTC exposure なら ETF で十分。MSTR の premium は Stretch debt の存在で侵食される。
+- Schmidt: 「long-dated token vest のように、これは常に頭の上にぶら下がり続ける問題」。
+
+**BTC との接続（⚠️ causal chain）**:
+- Dorman シナリオ 25%（25%確率）: Saylor が $3–4B の BTC を売ると**BTC に bad**。
+- シナリオ 70%: BTC は fine だが MSTR 投資家は損。
+- → MSTR/Stretch のリスクは **BTC に非対称に伝播する** 可能性（詳細: [[$STRC]]）。
+
+**賭け仮説（判断）**:
+- MSTR を「BTC の amplifier」として持つ thesis は、Stretch の $1.7B/year cash drain が続く限り成立しにくい。
+- ⚠️ Stretch par 回帰シナリオ（25%）は MSTR に marginal good だが BTC 売り圧を生む = MSTR 正常化 = BTC 弱化という逆説。
+- confidence=低（value capture 見えない + Stretch 問題の構造的解決なし）。
+
+**関連**: [[$STRC]] / [[$BTC]] / [[majors-rotation-supercycle]]
 <!-- synthesis:end -->

@@ -4,12 +4,12 @@ kind: player
 title: @CryptoKaleo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 12
+posts: 14
 ---
 
 # @CryptoKaleo
 
-> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$MSTR]](2) [[$STRC]](2)
@@ -23,10 +23,10 @@ posts: 12
 | 128 |  | I’ve lost several thousand followers over the last several weeks.  I started sharing | [[CryptoKaleo__2069133341983445068]] |
 | 124 |  | Bitcoin has been up only vs. MSTR since STRC launched. | [[CryptoKaleo__2069153057410068919]] |
 | 78 |  | GOOODDDDD MORNING to everyone still here | [[CryptoKaleo__2069063782039511405]] |
+| 73 |  | FWIW - I still believe Bitcoin runs it back to new all time highs when the MSTR / ST | [[CryptoKaleo__2069228883862266234]] |
 | 28 |  | Is X broken for anyone else??  Can’t reply to anything right now | [[CryptoKaleo__2069132032890827065]] |
+| 28 |  | BOOMER SOONER | [[CryptoKaleo__2069252674684424481]] |
 | 22 |  | Reminder:  STRC isn’t guaranteed to go back to its peg, even if they keeps paying th | [[CryptoKaleo__2069203521879036094]] |
-| 21 |  | 72 and sunny for game 3 of the College World Series in Omaha.  Boomer Sooner. | [[CryptoKaleo__2069115657711391225]] |
-| 18 |  | I can’t even reply to this and realized if it is broken for yall you can’t either lm | [[CryptoKaleo__2069138476470067534]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

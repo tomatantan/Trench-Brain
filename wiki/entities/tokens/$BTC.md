@@ -4,13 +4,13 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 108
+mentions: 109
 accounts: 14
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 108件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 109件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -49,4 +49,19 @@ accounts: 14
 
 ### 2026-06-23 更新②（同日 2 サイクル目）
 - 新 beat なし。前回更新（Saylor $300M 積み増し・策略説明）が本サイクルの唯一の実質的新 beat。既存合成（BTC = 最上流アンカー・Fed 政策連動）に変化なし。
+
+### 2026-06-19 追記: [[$STRC]] が BTC の systemic overhang に（Bankless 観測）
+出典: Bankless 週次ロールアップ / David Hoffman + Tom Schmidt / sources/youtube/UCAl9Ld79qaZxp9JzEOwd3aA__F8njppzDIxY.md
+
+**観測（2026-06-19 時点）**:
+- BTC が 200日移動平均 $62,600 付近まで押し戻される。
+- Hoffman: 「equities bullish・FOMC無難・Iran peace deal」の週でも **Stretch ([[$STRC]]) だけが回復しなかった = BTC/crypto の focal point は Stretch になった**。「Strategy が BTC を dragging している初の強い証拠」。
+- HYPE 等の countercyclical 資産も Stretch に連動して下落 = 個別 tokenのβを上回る systemic influence。
+
+**⚠️ BTC への causal chain（Jeff Dorman シナリオ引用）**:
+- シナリオ 25% (25%確率): Saylor が $3–4B の BTC を売却 → **BTC に直接の売り圧**。
+- シナリオ 70% (70%確率): BTC は fine だが MSTR 投資家が損、crypto 市場センチメントが重い状態が継続。
+- 既存の「Saylor が $300M 積み増し中」（前回更新）と逆方向の force が同時に存在 = **Saylor が BTC を積みながら、その financing 手段（STRC）が BTC を dragging している構造的矛盾**。
+
+**関連**: [[$STRC]] / [[$MSTR]] / [[majors-rotation-supercycle]]（STRC崩壊＝BTC downside trigger 候補）
 <!-- synthesis:end -->

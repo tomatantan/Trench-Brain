@@ -4,13 +4,13 @@ kind: token
 title: $KINS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 10
 accounts: 3
 ---
 
 # $KINS
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 10件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -30,6 +30,7 @@ accounts: 3
 | 92 | [[@Crypto_Alch]] | $KINS player and holder influx is insane   This will be 8 figures faster than most p | [[Crypto_Alch__2067615427786604707]] |
 | 80 | [[@PumpfunEco]] | 24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu | [[PumpfunEco__2068691523894706265]] |
 | 80 | [[@Crypto_Alch]] | $KINS is now 2x away from reviving an onchain game menia (According to me)  I’m hear | [[Crypto_Alch__2067883218200625519]] |
+| 54 | [[@PumpfunEco]] | A $KINS whale is currently holding a $135,000 bag 🔥 | [[PumpfunEco__2069220128609141035]] |
 | 1 | [[@MurphyBTC]] | 暗号資産総合分析 #BTC  ＿＿＿＿＿＿＿＿  📊マクロ分析 @ForeDex_Global API データ使用  評価：中立  2026年6月下旬の今週、S&P G | [[MurphyBTC__2068876077305598113]] |
 
 <!-- synthesis:start -->

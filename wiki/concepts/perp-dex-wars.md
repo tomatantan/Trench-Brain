@@ -43,6 +43,14 @@ confidence: 中〜高
 - **⚠️ 「productive の影」の具体例**: 既存の「buyback flywheel の燃料は清算された retail」という観察と接続する。TOP10 inside player の short は「この DEX の収益構造を最もよく理解している人々が HYPE token に弱気」という新たな赤旗。
 - **既存との整合**: [[@CryptoHayes]] 全売却（既記）+ 新 whale 買い（arkham）+ TOP10 内部 short の 3 者が並立 = 大口内でも売り/買い/short の分裂が深化。confidence=中→やや弱気バイアス。
 
+### 2026-06-23 更新②: Hayes「退出」の再解釈 + ETH short 解消
+- **⚠️ 「Hayes 全売却 = perp 発明者も見限った」ナラティブ更新（[[@lookonchain]] 2026-06-23T03:04）**: 「wallet(0xf7A4) が Gate から 44,156 HYPE ($2.93M) を引出し。過去 2 週間で 2 回スイング、+$508K」([[lookonchain__2069255334540222483]])。
+  - **時系列の再構成**: ①初期全売却（96,628 HYPE、$5.1M）→ ②再エントリー × 2 回スイング（利確 +$508K）→ ③今回 $2.93M 再購入。
+  - 「全売却」は**一時撤退**であり**永久退場ではなかった**。むしろ「perp 発明者＝HYPE の本質をよく知る人物がスイングで稼ぎ続けている」に再解釈が必要。この concept の示唆「創設級退出（Hayes 全売却）も観測済」は更新: Hayes は **$HYPE の能動的スイングトレーダー（profitable）**。
+  - ⚠️ lookonchain の "linked to" はヒューリスティック（公式確認ではない）。ただし全売却の観測も同ソースで一貫性はある。
+- **ETH short クローズ（[[@MurphyBTC]] 2026-06-22T13:17）**: 「TOP10 鯨が ETH 約 133 億円分 short をクローズ。HYPE 約 160 億円 short は継続」([[MurphyBTC__2069047162751840655]])。TOP10 の方向性: **ETH 弱気を解除 → HYPE 弱気のみ残存**。perp platform の大口がプラットフォームトークン ($HYPE) を特異的に空売りし続けているという構造は変わらず。
+- **統合示唆**: 「Hayes 系 (機敏な spot swing) と TOP10 (構造的 $HYPE short) は別の プレイヤーが別の賭けをしている」。buyback flywheel は動いているが、**最も情報優位なプレイヤーたちでさえ賭けの方向が分裂している** = "productive の影" の最も生々しい表現。confidence=中（弱気バイアスを緩和）。
+
 ## 関連
 - [[majors-rotation-supercycle]]（productive rotation）/ [[onchain-verification]]（清算追跡）/ [[launchpad-economics]]（Axiom）/ [[vc-founder-thesis-layer]]（app層thesis）
 - [[$HYPE]] / [[$ASTER]] / [[@DefiIgnas]] / 集計の入口: [[signal|Signal digest]]
@@ -76,8 +84,37 @@ confidence: 中〜高
 - オンショアは marketing リーチの優位で別の client 層を引くが、高度に commoditize された競争に。
 - 「offshore と onshore で winner が分かれる」= 共存。
 
+### 2026-06-19 更新: Hyperliquid 「プラットフォーム化」の加速 + RWA perp 台頭 + JTO/JTX
+出典: Bankless 週次ロールアップ / David Hoffman + Tom Schmidt / sources/youtube/UCAl9Ld79qaZxp9JzEOwd3aA__F8njppzDIxY.md
+
+**Hyperliquid → backend platform への転化（観測）**:
+- **Anchorage Digital（$28B AUM）が Hyperliquid とのリンク staking＋trading を発表**（Nathan McCully at Anchorage, 2026-06-19）。「Anchorage staking アカウントから bridging なし・custody 変更なし・staking 中断なしで外部 trading アカウントにリンク」= 機関の AUM が 1 クリックで Hyperliquid にアクセス可能になった。
+- Hoffman の言語化: 「Hyperliquid の問題はいつも bridge-on の摩擦だった。これで世界中の AUM が Hyperliquid に来る」「これは私が今年追っているストーリースレッドの一つ = Hyperliquid が first-party exchange から backend platform へ」。
+- Schmidt: 「TradFi での custody と execution の分離（brokerage ≠ exchange）が crypto でも再現されている。FTX の教訓 = 混在させるな」= TradFi 市場構造への収束がむしろ制度的信頼性を高める。
+- **示唆（判断）**: Anchorage 統合 = Hyperliquid が「私が使う DEX」から「機関が使う liquidity layer」へシフトする concrete evidence。buyback flywheel（手数料→$HYPE）に機関資金が加わる可能性。⚠️ 但し実際にどれだけの AUM が trading に向かうかは未確認。
+
+**RWA perp（HIP-3）が crypto perp に迫る（観測）**:
+- HIP-3 volumes が Hyperliquid 全体の **40% に到達**（Schmidt、2026-06-19）。「年内に HIP-3 が crypto volumes を超える日が来る可能性」。
+- CEX の crypto 取引量は 2024年9月以来の最低水準（centralized trading volumes）。一方 RWA perp volumes は record high（Bankless 2026-06-19）。
+- 起点: Hyperliquid が 2026年初に gold perp を上場（gold mania 直前）→ Iran 戦争時に oil 上場 → SpaceX IPO で pre-IPO perp（HIP-3）が"完璧に"プライシング → Coinbase, Ono, JTX 等が追随。
+- Hoffman: 「Bitcoin bare market でも oil と gold が動けばトレーダーはそこで張る = Hyperliquid の moat は "volatility がある場所にいつもいる" こと」= $HYPE のβが Bitcoin bare market から切り離される構造的理由。
+- ⚠️ RWA perp は cyclical（volatility 次第で縮小する）。Schmidt: 「oil が静かな時はだれも oil per を張りたくない」= 万能ではない。
+
+**JTO / JTX — Solana 版 Hyperliquid の台頭（観測）**:
+- JTO（Jito トークン）30%/7d・70%/1m（2026-06-19 時点）。
+- 2026年5月5日（Solana Accelerate, Miami）: **JTX 発表** = Jito の block building 技術を使った front-end の spot exchange + per protocol。「Solana を exchange app chain 化」。
+- 収益分配: JTX fees の **80% → JTO buyback/burn**（Jito DAO に帰属）、20% は ecosystem reinvestment。
+- Hoffman の位置付け: 「Solana で Hyperliquid に相当する perp が出た。Ethereum には Lighter がある。誰もが perps をやっている」。
+- **示唆（判断）**: JTX は用途特化の棲み分け（Solana block building = 公平な order routing と per の親和性が高い）。Hyperliquid との直接競合より Solana-native user 層の獲得が主眼。⚠️ まだ live でなく announcement segment。
+
+**「誰もが perps をやっている」— 群雄の拡大**:
+- Coinbase System Update（2026-06-16）: RWA perps + pre-IPO perps（Anthropic/OpenAI 示唆）を統一 order book で展開。
+- Ono（MetaMask/RWA perp）・Coinbase・JTX が同時期に参入 = perp カテゴリが "一強（Hyperliquid）+ 多数の用途特化" に向かっている。
+- Schmidt: 「誰もが参入する = bubble の途中のどこかにいる。でも credit が pumped in されている訳でもない = 今のところ self-contained な domino」。
+
 ## 出典(生ソース)
 [[@DefiIgnas]] airdrop/movement/wealth-destruction, [[@thedefiedge]] vol/OI/Phoenix比較, [[@theempirepod]] superapp,
 [[@lookonchain]]/[[@arkham]] Wynn/Tate清算, [[@defi_kay_]] Axiom, [[@zhusu]] productive。
 [[@CryptoHayes]] Bankless 対談 2026-06-22（perp起源・socialized loss・spot-only・Hyperliquid評価）。
+[[@Bankless]] 週次ロールアップ 2026-06-19（Anchorage統合・HIP-3 40%・JTX・Coinbase System Update）。
 （全て sources/x/ / sources/youtube/ の原文に保存済）

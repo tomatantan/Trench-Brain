@@ -83,8 +83,23 @@ SpaceX IPO（外部/TradFiイベント）
 - Hayes が SpaceX IPO の AI bubble の「exit ベクター」と見ている = AI 資金が SpaceX/Anthropic/OpenAI の unlock 売り圧力に直面する 2026Q3〜Q4 のリスク意識。
 - これは [[majors-rotation-supercycle]] の「AI が crypto の酸素を吸っている」に対する反転トリガー候補の一つ。
 
+### 2026-06-19 追記: Hyperliquid が SpaceX IPO を「完璧に」プライシング（Bankless 確認）
+出典: Bankless 週次ロールアップ / David Hoffman + Tom Schmidt / sources/youtube/UCAl9Ld79qaZxp9JzEOwd3aA__F8njppzDIxY.md
+
+**観測**:
+- Hoffman: 「HIP-3 の Trade XYZ が SpaceX IPO を160で priced → 取引終了時点でぴったり到達。今もなお SpaceX で 数百億円/日の volume」（2026-06-19）。
+- Schmidt（VC 視点）: 「これは Cerebrus IPO が shot across the bow だった。Cerebrus の時に TradFi の trading floor で Hyperliquid を Hyperliquid（赤いバナー=管轄外で banned）の画面を参照しているスクリーンショットが出回った。Wall Street が実際に取引していたかどうかより、**価格発見ツールとして Hyperliquid が認識された**ことが重要」。
+- 「SpaceX は今まで最大の IPO。これが game time だった。Hyperliquid は打ち出の小槌を当てた」。
+- 次の大型 IPO: OpenAI・Anthropic = さらにスケールが大きいステージが来る。Hoffman: 「これは展開中のストーリー」。
+
+**示唆（判断）**:
+- Hyperliquid HIP-3 の価格発見機能は「crypto の TradFi に対する勝利」= crypto が先行情報発信源になったポリマーケット × 2024 選挙と同じ構図の再現。
+- ⚠️ 赤旗: IPO pricing の正確さは「流動性と参加者の質」に依存。SpaceX が完璧だった = 次も完璧とは限らない（Hoffman 自身も「次で機能するか」を問い open）。
+- 既存の Hayes 評価（「SpaceX = low float high FDV shitcoin / 9月 unlock が本当の試練」）と組み合わせると: **Hyperliquid は IPO を正確に priced したが、9月 unlock 後の下落も "正確に" 反映する可能性**。
+
 ## 出典(生ソース)
 [[@solbrdl]]×$ASTEROID連投, [[@DefiIgnas]] OI内訳, [[@CryptoHayes]] IPO初値, [[@MEXC]] 先物出来高,
 [[@coinkeiba]] ショート, [[@0xFunX]] 初値割れ反論, [[@AdimsSHOGUN]]/[[@DegenerateNews]] Solana 157x。
 [[@CryptoHayes]] Bankless 対談 2026-06-22（SpaceX = low float high FDV shitcoin・9月 unlock リスク）。
+[[@Bankless]] 週次ロールアップ 2026-06-19（HIP-3 SpaceX IPO 完璧プライシング / Cerebrus precedent / OpenAI・Anthropic 次ステージ）。
 (全て sources/x/ / sources/youtube/ の原文に保存済)

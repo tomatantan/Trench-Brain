@@ -54,6 +54,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$RO]] | +138% | $5.8k→$13.8k | reply0 / KOL0 | ⚠️ twitterがElon tweetリンク(association marketing偽装) | **traction無し×出来高driven**＝持続性疑問 |
 | [[$AEGIS]] | +160% | $29k→$76k | reply0 / KOL0 | 不明(privacyテーマ便乗 or bot買い) | traction0で急騰＝⚠️[[rug-anatomy]] のつり上げ候補 |
 | [[$PHONEBLACK]] | +138% | $89.8k→$214.3k | reply0 / KOL0 | 不明(phone-01black.com整備済だが言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO と同型・whale/bot pump疑い |
+| [[$MOONLAKE]] | +147% | $415.6k→$1.03M | reply0 / KOL0 | 不明(AI テーマ "Moonlake AI" + moonlake.design 整備済だが有機的言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO/$PHONEBLACK と同型・コホート初 $1M 突破 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

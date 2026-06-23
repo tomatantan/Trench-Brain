@@ -4,20 +4,20 @@ kind: token
 title: $USDT
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 7
+mentions: 8
 accounts: 3
 ---
 
 # $USDT
 
-> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 8件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@MEXC]] [[@lookonchain]]
 
 ## 共起トークン
-[[$USDC]] [[$ETH]] [[$USD1]] [[$WOJAK]] [[$SPCX]]
+[[$USDC]] [[$ETH]] [[$USD1]] [[$WOJAK]] [[$SPACEX]] [[$SPCX]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -29,6 +29,7 @@ accounts: 3
 | 230 | [[@lookonchain]] | The MEV bot jaredfromsubway was exploited for $7.7M!  Including:  1,583.5 $ETH($2.75 | [[lookonchain__2068527251440963941]] |
 | 227 | [[@BinanceUS]] | The Boost × @wojakcto event lands on @BinanceUS tomorrow, June 18 @ 12 p.m. EDT!  🎁  | [[BinanceUS__2067281907528925448]] |
 | 176 | [[@MEXC]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
+| 24 | [[@MEXC]] | Got rewarded in the $SPACEX(PRE) 0-Fee Gala yet?   🎁 20 winners × 15 $USDT. To enter | [[MEXC__2069284313808646519]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

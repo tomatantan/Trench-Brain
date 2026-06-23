@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $JOTCHUA
-updated: 2026-06-23
+updated: 2026-06-22
 tags: [trench, entity, token]
 mentions: 11
 accounts: 2

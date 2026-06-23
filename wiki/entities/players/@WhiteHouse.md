@@ -4,12 +4,12 @@ kind: player
 title: @WhiteHouse
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 19
+posts: 21
 ---
 
 # @WhiteHouse
 
-> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,11 +22,11 @@ posts: 19
 | 14,777 |  | Vandalism of statues, fountains, and landmarks in our nation's capital is unacceptab | [[WhiteHouse__2069105216947896767]] |
 | 13,547 |  | Air Force One enters its next era 🔥🇺🇸 | [[WhiteHouse__2068782594485866613]] |
 | 11,658 |  | ︎︎White House will be Q posting today…  ︎  ︎  ︎  ︎ ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎   | [[WhiteHouse__2069071254829609256]] |
+| 9,395 |  | Six ARRESTS have been made for vandalizing our Reflecting Pool. President Trump will | [[WhiteHouse__2069234054667333969]] |
+| 8,949 |  | 🇺🇸 2 DAYS.   America kicks off the most patriotic celebration yet. Join us for the o | [[WhiteHouse__2069222705178579381]] |
 | 8,396 |  | The Next Frontier of Quantum Innovation | [[WhiteHouse__2069171719953097192]] |
 | 6,814 |  | RECORD HIGH DEPORTATIONS.  ⚠️WARNING: If you are here illegally, LEAVE NOW or we wil | [[WhiteHouse__2069135638205465057]] |
 | 6,536 |  | Despite continuous and blatant Fake News lies, Iran's military complex has been dest | [[WhiteHouse__2069155712861708564]] |
-| 5,751 |  | Investing in American quantum leadership like never before.  President Trump signs e | [[WhiteHouse__2069154174818754759]] |
-| 5,567 |  | President Trump Signs Executive Orders, Jun. 22, 2026 | [[WhiteHouse__2069145708813320362]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

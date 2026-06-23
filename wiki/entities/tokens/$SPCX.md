@@ -4,20 +4,20 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 20
-accounts: 14
+mentions: 22
+accounts: 15
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 20件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 22件 / 15アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@WatcherGuru]] [[@coinkeiba]] [[@cryptocom]] [[@lookonchain]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
+[[@0xFunX]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@WatcherGuru]] [[@coinkeiba]] [[@cryptocom]] [[@dxrnell]] [[@lookonchain]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
 
 ## 共起トークン
-[[$SPCXON]] [[$SPCXX]] [[$USDT]] [[$SPCS]] [[$ASTEROID]] [[$DOGE]] [[$USELESS]] [[$TSLA]]
+[[$GOOGL]] [[$NVDA]] [[$SPCXON]] [[$SPCXX]] [[$USDT]] [[$SPCS]] [[$ASTEROID]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -58,4 +58,9 @@ accounts: 14
 - **観測（ダンプ続報）**: [[@WatcherGuru]]（2026-06-22）: 「JUST IN: Elon Musk is down $150 billion from his net worth today after SpaceX $SPCX falls **16%**. He is now worth $1.1 trillion」([[WatcherGuru__2069188912619081898]] 779♥)。前回観測（WatcherGuru 6,182♥ の -10.5%）から**さらに続落して -16% まで拡大**。1 日の時価総額蒸発額を Buffett の純資産（$145B）と比較する演出 = メディア・バイラル演出は残るが中身はダンプ継続。
 - **強気 analogy（古信号）**: [[@solbrdl]]（2026-06-16）: 「$SPCX が Tesla の株式分割前の $200→$1,200 run を辿ったら？$ASTEROID は Shiba Inu レベルの 10 billion も」([[solbrdl__2066784174246117740]] 107♥) = Tesla-run 類比の楽観シナリオ。ただしこれは 6/16 = IPO 初期の強気言説。現在（-16%）の事実とは乖離。
 - **⚠️ 示唆**: -10.5% → -16% の続落 ＋ long whale 含み損 -$1.2M（前回更新参照）= 弱気側がさらに優勢。WatcherGuru の数字はメディア計算（"Elon net worth" = $SPCX ではない）に注意するが、$SPCX の株価下落事実は確認。confidence=やや弱気（変化なし・強化）。
+
+### 2026-06-23 更新③（同日 3 サイクル目）
+- **観測（実世界イベント → meme 再燃）**: [[@dxrnell]]（2026-06-23T01:23）: 「The booster has safely landed $SPCX」([[dxrnell__2069229769166872837]] 35♥/8RT）。実際の SpaceX Falcon 9 ブースター着陸成功イベントをトークンのティッカーと絡めた投稿 = **リアルイベント → ミームキャタリスト型の拡散**（[[spacex-ipo-narrative]]のパターン通り）。likes は薄いが RT 比（8RT/35♥）はやや高く、拡散ベクトルは残る。
+- **観測（coinkeiba の TSLA 優先、2026-06-17）**: [[@coinkeiba]]「$SPCX 買わずに淡々と $TSLA 集めてる」([[coinkeiba__2067223580837106022]] 107♥) = 「$SPCX を買わずに原資産である $TSLA を直接集める」という**equity-first の合理化戦略**。既存の coinkeiba ショート利確（ショートで稼ぐ）とは別の立場: "underlying を集める方が賢い" という判断。この立場は**「合成 perp/tokenized spot よりも本物の株を」**という最も真っ当な反論。
+- **示唆**: ダンプ継続（-16%）の中で、①実世界イベントによる meme 再燃試み（dxrnell）と②原資産回帰の合理化（coinkeiba/TSLA 優先）という 2 つの対応が並行。meme 再燃は短命の可能性が高い（板/売り圧に対抗できるほどの likes ではない）。confidence=やや弱気（変化なし）。
 <!-- synthesis:end -->

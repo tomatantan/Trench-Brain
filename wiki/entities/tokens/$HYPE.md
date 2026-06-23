@@ -4,13 +4,13 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 18
+mentions: 19
 accounts: 10
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 18件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 19件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -54,4 +54,25 @@ accounts: 10
 - **大口 short 観測（MurphyBTC、2026-06-22）**: 「Hyperliquid 上位 10 名のトレーダーが $ETH 約 273 億円 + **$HYPE 約 163 億円**のショートポジションを保有中」([[MurphyBTC__2068878982234493085]] 4♥)。→ Hyperliquid 内の TOP10 whale が **HYPE 自身をショート**しているという自家中毒的構造。perp DEX の主要プレイヤーがその DEX のトークンを空売りしている。
 - **ローテ観測（coinkeiba、2026-06-22）**: 「$HYPE が夏枯れして $SOL なのかもしれない」([[coinkeiba__2068864139473436993]] 15♥) = 資金が HYPE から SOL へ流れるローテ仮説。
 - **両観測の統合（判断）**: ①内部 whale が HYPE を short（大口 short 実装）②外部 KOL が「HYPE 夏枯れ」を観測 = **大口視点でも市場感でも弱気傾向が出始めている**。Hayes 退出（既記）と合わせると「強き三兵: 大口退出 + 内部 short + 夏枯れ観測」が揃い始めた状態。新規買いの whale（arkham、既記）が対抗するかが唯一の強気材料。confidence=中→やや弱気バイアス（変化）。
+
+### 2026-06-23 更新③（同日 3 サイクル目）
+- **⚠️「Hayes 退出」ナラティブ大幅更新（lookonchain、2026-06-23T03:04）**: 「wallet(0xf7A4) linked to Arthur Hayes が Gate から 44,156 $HYPE ($2.93M) を引出し。過去 2 週間で 2 回のスイングトレードを実施、+$508K の利益」([[lookonchain__2069255334540222483]] 90♥)。
+  - **観測事実の時系列**: ①全売却（96,628 HYPE/$5.1M、2025年時点）→ ②再エントリー×2回スイング（+$508K 利確）→ ③今回また $2.93M 引出し（= 新ポジション構築中）。
+  - **「Hayes 退出 = 弱気の最強根拠」は時間限定だった**。売ったのは事実だが、その後に利益を出しながら 2 回戻り、3 回目の購入まで来ている = **"perp 発明者が動きを把握してスイングしている"** に再解釈が必要。
+  - ⚠️ 注意: lookonchain は「linked to Arthur Hayes」（関連 wallet）。公式確認ではなく onchain ヒューリスティック。ただし以前の全売却も同ソースが裏取りしており、信頼性は中〜高。
+- **ETH short クローズ・HYPE short 継続（MurphyBTC、2026-06-22T13:17）**: 「TOP10 鯨が ETH 約 133 億円分のショートをクローズ。**HYPE は変わらず約 160 億円のショート継続**」([[MurphyBTC__2069047162751840655]] 5♥)。前回②の「ETH 273億+HYPE 163億の両建て short」から ETH 分は解消。**HYPE short だけが残る** = TOP10 は ETH 弱気を解除したが HYPE 弱気は保持（方向性の相違が鮮明）。
+- **⚠️ 統合（複雑化した局面）**:
+  - Hayes ウォレット: 再 BUYING （swing trader として profitableな実績付き）→ **HYPE 強気行動**
+  - TOP10 whale: ETH short 解消 → HYPE short 維持 → **HYPE 弱気ポジション継続**
+  - coinkeiba 観測（②記）: 「HYPE 夏枯れ → SOL」
+  - → 大口内でも **「Hayes系 vs TOP10 short」の分裂が深化**。「Hayes 退出 = 一枚岩の弱気」から「Hayes は機敏な swing trader・TOP10 は構造的 short」に更新。どちらが正しいかは未決。
+- confidence: 中（弱気バイアス → 中立寄りに戻す。Hayes 再 BUYING は無視できない対抗材料）。
+
+### 2026-06-19 追記: Anchorage $28B AUM 統合 — platform 化の concrete evidence
+出典: Bankless 週次ロールアップ / David Hoffman + Tom Schmidt / sources/youtube/UCAl9Ld79qaZxp9JzEOwd3aA__F8njppzDIxY.md
+
+**観測**: Anchorage Digital（AUM $28B）が Hyperliquid との linked staking + trading を発表（Nathan McCully、2026-06-19）。Anchorage 側の staking アカウントから bridging・custody 変更なし・staking 中断なしで Hyperliquid の trading に接続。
+- Hoffman: 「世界の AUM が Hyperliquid に来る。Hyperliquid が "私が使う DEX" から "機関の liquidity layer" に変わるストーリーの一part」。
+- **示唆（判断）**: TOP10 whale が $HYPE をショートし Hayes がスイングしている状況でも、**機関レベルの流動性が接続される infrastructure が着実に整備されている**。短期の token price 弱気と、長期の platform 構築が並走している対比。
+- [[perp-dex-wars]] に全詳細。
 <!-- synthesis:end -->

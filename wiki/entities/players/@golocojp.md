@@ -4,12 +4,12 @@ kind: player
 title: @golocojp
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 11
+posts: 12
 ---
 
 # @golocojp
 
-> 自動生成。信号投稿 11件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$VEN]](1)
@@ -25,8 +25,8 @@ posts: 11
 | 3 |  | 昨日共有した solana:GDaQVH7GoHCRJWHpH7vXfQg2Vrb7kkhCoQ545w4Dhyc3 もx1.5  トークンローンチから26%の供給をバ | [[golocojp__2068089675550712139]] |
 | 3 |  | PumpFunの圧倒的首位は変わらないけど、EasyAがPumpに次ぐ出来高2位に⤴️  「Tech」は @EasyA_Kickstart をしっかり築いてって欲しい。 | [[golocojp__2069097193974456690]] |
 | 3 |  | BPなあ、BPなあ、、、、😭 | [[golocojp__2067815411132035432]] |
+| 2 |  | やめろ、やめてくれええええええ！！ (といいつつ皮算用して微笑む) | [[golocojp__2069285217546961204]] |
 | 2 |  | YURARIさんの言う通り、収入あって、収益でトークン買い戻して燃やせるPJは lowcapでも強い。 solana:GDaQVH7GoHCRJWHpH7vXfQg2V | [[golocojp__2069095447654985871]] |
-| 1 |  | Solanaがリードしてbase隠れてるけどB20ウェーブは着実に来てるよね。  🍓🟦 | [[golocojp__2069068990144782701]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
