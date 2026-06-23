@@ -49,4 +49,9 @@ accounts: 10
 - **観測（オンチェーン・具体額）**: [[@arkham]] (2026-06-20) 新規 whale が FalconX から $7.3M HYPE + $14.4M ETH を同時引出し（合計 $21.7M）。「bought $HYPE at [the bottom]」の文脈で取得、翌日 +$400K。([[arkham__2068410022975922260]] 543♥) ← 既存合成が言及した「arkham: 別 whale の新規買い」と同一ツイ。具体額の補足。既存の「売り/買い割れ」観測を補強。
 - **観測（トレンド）**: [[@coingecko]] (2026-06-22) $HYPE が「本日最多閲覧」に $AERO/$TNSR と並列。([[coingecko__2068870775398867442]] 64♥) / 同日 $HYPE vs $ASTER vs $LIT 比較チャート機能を告知。([[coingecko__2069140924178075884]] 91♥) → retail attention の上昇傍証。coingecko は宣伝・集計主体なので**トレンド信号(注目度)であり買い圧ではない**。
 - **⚠️ 継続警戒**: Hayes 全売却（既記）+新 whale 買い = 大口間の売り/買い割れ継続。coingecko trending = 知名度上昇 ≠ 資金流入。Paxos buyback フライホイール（[[perp-dex-wars]]）の燃料（清算量）は別途監視。confidence 変わらず中。
+
+### 2026-06-23 更新②（同日 2 サイクル目）
+- **大口 short 観測（MurphyBTC、2026-06-22）**: 「Hyperliquid 上位 10 名のトレーダーが $ETH 約 273 億円 + **$HYPE 約 163 億円**のショートポジションを保有中」([[MurphyBTC__2068878982234493085]] 4♥)。→ Hyperliquid 内の TOP10 whale が **HYPE 自身をショート**しているという自家中毒的構造。perp DEX の主要プレイヤーがその DEX のトークンを空売りしている。
+- **ローテ観測（coinkeiba、2026-06-22）**: 「$HYPE が夏枯れして $SOL なのかもしれない」([[coinkeiba__2068864139473436993]] 15♥) = 資金が HYPE から SOL へ流れるローテ仮説。
+- **両観測の統合（判断）**: ①内部 whale が HYPE を short（大口 short 実装）②外部 KOL が「HYPE 夏枯れ」を観測 = **大口視点でも市場感でも弱気傾向が出始めている**。Hayes 退出（既記）と合わせると「強き三兵: 大口退出 + 内部 short + 夏枯れ観測」が揃い始めた状態。新規買いの whale（arkham、既記）が対抗するかが唯一の強気材料。confidence=中→やや弱気バイアス（変化）。
 <!-- synthesis:end -->

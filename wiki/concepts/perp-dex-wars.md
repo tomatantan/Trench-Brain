@@ -37,6 +37,12 @@ confidence: 中〜高
 - **競合は"用途特化"で棲み分け**: Axiom=meme+perp融合（[[launchpad-economics]] 隣接）、Aster=equity perp（[[external-event-to-token-pattern]] のRWA隣接）、Lighter=OIシグナル（[[onchain-verification]]）。一強の隙間に用途別。
 - 監視: Hyperliquid のCEX上場/攻撃耐性、競合の実volume、清算量（productive の燃料の枯渇＝失速サイン）。
 
+### 2026-06-23 更新: HYPE 内部 short の出現（自家中毒的構造）
+- **観測（[[@MurphyBTC]] 2026-06-22）**: 「Hyperliquid 上位 10 名のトレーダーが $HYPE 約 163 億円 + $ETH 約 273 億円をショートポジションで保有」([[MurphyBTC__2068878982234493085]])。
+- **示唆（判断）**: Hyperliquid の **TOP10 whale（= このプラットフォームの主要流動性供給者候補）が $HYPE 自身を空売りしている**= 自家中毒的構造。buyback flywheel の燃料（清算された retail の手数料）が回る一方で、最大の plate player が token に bearish であるという逆説。
+- **⚠️ 「productive の影」の具体例**: 既存の「buyback flywheel の燃料は清算された retail」という観察と接続する。TOP10 inside player の short は「この DEX の収益構造を最もよく理解している人々が HYPE token に弱気」という新たな赤旗。
+- **既存との整合**: [[@CryptoHayes]] 全売却（既記）+ 新 whale 買い（arkham）+ TOP10 内部 short の 3 者が並立 = 大口内でも売り/買い/short の分裂が深化。confidence=中→やや弱気バイアス。
+
 ## 関連
 - [[majors-rotation-supercycle]]（productive rotation）/ [[onchain-verification]]（清算追跡）/ [[launchpad-economics]]（Axiom）/ [[vc-founder-thesis-layer]]（app層thesis）
 - [[$HYPE]] / [[$ASTER]] / [[@DefiIgnas]] / 集計の入口: [[signal|Signal digest]]

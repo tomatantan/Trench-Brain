@@ -39,4 +39,9 @@ accounts: 8
 - **⚠️ 強弱衝突**: [[@milesdeutscher]]「liquidity flowing back into Ethereum from Solana (4x bridged)」＝SOL流出論 ⇄ 「Solana created thousands of new millionaires（でも"もう早くない"）」。[[@CryptoHayes]]も「bot $SOL, I know its a Sam-coin」と自虐つき強気＝一方向でない。
 - **meme母艦面**: 共起が [[$USELESS]]/[[$WIF]]/[[$BONK]]/[[$PENGU]] ＝SOL上 meme の温床。半面 [[@lookonchain]] が $LIBRA/$MELANIA インサイダーの資金洗浄疑いを観測＝**祭りの裏のインサイダー**も同じ土俵。
 - **賭け仮説**: メジャーとしてはETHにコンセンサスを譲りがち。SOLの妙味は「上に乗る meme/alt の母艦」としての β。SOL単体より[[jp-meme-cluster]]や政治meme等、上モノの回転で追う。confidence=中。
+
+### 2026-06-23 更新
+- **新 beat（HYPE → SOL ローテ仮説）**: [[@coinkeiba]]（2026-06-22）: 「$SOL 最近雰囲気良いな。$HYPE が夏枯れして $SOL なのかもしれない」([[coinkeiba__2068864139473436993]] 15♥)。likes 小さいが**ローテーション方向の観測**として記録。
+- **代表ツイの実態**: worklist 代表ツイ「@lookonchain: Davido が $DAVIDO ローンチ」([[lookonchain__1796017849179468116]]) は **2024-05-30 の古ツイ**。「@theunipcs: $SOL to $1,000」([[theunipcs__1875464863859847448]]) は **2025-01-04 の古ツイ**。いずれも再キャプチャ＝現在の SOL 動向の新情報なし。
+- **判断**: coinkeiba の「HYPE 夏枯れ → SOL」仮説は [[majors-rotation-supercycle]] の短期ローテ視点と整合する。HYPE TOP10 が ETH+HYPE double-short（MurphyBTC 観測）を保有している文脈（[[$ETH]] 参照）と合わせると、large players が HYPE から他へのローテを検討している可能性。SOL への資金流入が実際のオンチェーンデータで確認できればより確度↑。confidence 変わらず中。
 <!-- synthesis:end -->

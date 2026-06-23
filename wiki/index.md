@@ -14,7 +14,7 @@
 - [[_worklist]] — ingest worklist（エージェントが処理する増分TODO）
 
 ## エンティティ（entities）★LLM Wikiの背骨＝事実の集約。brain/build_entities.py が自動生成・更新。判断は各ページの合成メモ＋concept。
-- tokens/ — $ticker毎（40件）。例: [[$SPCX]] [[$ASTEROID]]
+- tokens/ — $ticker毎（42件）。例: [[$SPCX]] [[$ASTEROID]] [[$ARX]] [[$JSON]]
 - players/ — @アカウント毎（120件）。例: [[@solbrdl]] [[@CryptoHayes]]
 
 ## 概念ページ（concepts）★横断合成＝判断/動線/型。

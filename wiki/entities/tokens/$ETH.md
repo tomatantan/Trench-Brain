@@ -44,4 +44,9 @@ accounts: 14
 - **⚠️ 48h 代表ツイの実態**: 「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = 2022-10-25) / 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = 2022-04-07)。両方とも **2022 年の古ツイ**が再キャプチャされたもの。合成済みの ETH 強気ナラティブに新情報はない。
 - **観測（オンチェーン）**: [[@arkham]] (2026-06-20) 新規 whale が FalconX から $14.4M ETH + $7.3M HYPE を同時引出し($21.7M 計)。翌日 +$400K。([[arkham__2068410022975922260]] 543♥) → [[HYPE]] 側で主に記録。ETH の底値買い確認の傍証。
 - 既存合成（ETH＝ローテ中継点・コンセンサストレード）に変化なし。
+
+### 2026-06-23 更新②（同日 2 サイクル目）
+- **新 beat（オンチェーン/大口 short）**: [[@MurphyBTC]]（2026-06-22）: 「Hyperliquid 上位 10 名のトレーダーが $ETH 約 273 億円 + $HYPE 約 163 億円のショートポジションを保有中」([[MurphyBTC__2068878982234493085]] 4♥)。likes は極小だが**実ポジションの観測**＝ Hyperliquid 大口（TOP10 whale）が ETH をショートしているという具体的なフロー情報。
+- **示唆（判断）**: ETH ショート = 「コンセンサスの弱気面」が大口ポジションとして実装されている。既存合成「ETH = コンセンサストレード（リターン薄）」のさらなる裏付け。強気 KOL コンセンサス（Hayes・blknoiz06 等）と大口 short の共存 = 典型的な**コンセンサスの反転リスク**局面。confidence 変わらず中。
+- **⚠️ MurphyBTC ツイートの likes が 4 = 広がっていない情報**。Hyperliquid TOP10 の実際のポジションサイズは coingecko/arkham 等で二次確認推奨。
 <!-- synthesis:end -->

@@ -59,6 +59,13 @@ SpaceX IPO（外部/TradFiイベント）
 - **$SPCX**: 物語より板(OI/出来高/取引所採用)で追うべき。ショート勢([[@coinkeiba]])もいるので一方向ではない。
 - 監視ポイント: 次のtokenized-stock候補・SpaceXの実ニュース・$ASTEROIDの一次裏取り。
 
+### 2026-06-23 更新: Backpack tokenized equities が $SPCX → $MU へ拡張
+- **観測**: [[@solana]] 公式（2026-06-22）: 「$MU (@MicronTech) via @SunriseDeFi, issued by @Backpack Securities」([[solana__2069058195038032064]] 400♥)。$SPCX に続き Micron（半導体/AI インフラ）の tokenized stock を Solana 上で発行。
+- **示唆（判断）**: Backpack Securities + SunriseDeFi は**単発の SpaceX 案件ではなく、tokenized equity ライン（複数銘柄）を構築している**。$SPCX → $MU = 2 銘柄目。この動線は「SpaceX IPO 動線」から「**Backpack tokenized equities プラットフォーム化**」へと拡張しつつある。
+- **概念の像の変化**: "SpaceX IPO" はあくまで最初の発端。2 銘柄目が出た時点で、このページの本質は「外部イベント 1 件」から「**tokenized equity インフラの多段展開**」に変わる。[[external-event-to-token-pattern]] の実例が複数になった＝型の確度↑。
+- **⚠️ 赤旗**: $MU の backing（実際の Micron 株式裏付け）は未検証（[[onchain-verification]]）。$SPCX も backing 未検証のまま。複数銘柄が出ることでリスクが希薄化されて見えるが、backing の確認は各銘柄で必要。
+- **[[$BP]] との接続**: $BP（Backpack トークン）がこのインフラの株。tokenized equity が増えるほど $BP の moat（= "Nasdaq onchain"）が強化される構造。
+
 ## 出典(生ソース)
 [[@solbrdl]]×$ASTEROID連投, [[@DefiIgnas]] OI内訳, [[@CryptoHayes]] IPO初値, [[@MEXC]] 先物出来高,
 [[@coinkeiba]] ショート, [[@0xFunX]] 初値割れ反論, [[@AdimsSHOGUN]]/[[@DegenerateNews]] Solana 157x。

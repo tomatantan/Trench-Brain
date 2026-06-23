@@ -30,5 +30,11 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-23 初回合成
+- **正体**: FarmTown ($FARM) — Moonshot で認証済み（[[@moonshot]] 2026-06-22, 277♥）。それ以上の実体情報なし。
+- **観測**: [[@Crypto_Alch]] (2026-06-19): 「$FARM とは何か、なぜパラボリックなのか?」([[Crypto_Alch__2067981071292002678]] 157♥) = KOL 自身が理由不明のまま注目を喚起。理由の説明なしに拡散している。PumpfunEco: 「+36% in 24h」「pumped 50%」= 定型的なポンプ報告。PumpfunEco trader: $751 → +$11,810 の profit事例。
+- **⚠️ 低信号・実体不明**: Crypto_Alch が「なぜ上がってるか?」を自分で聞く = 根拠なく拡散するパターン。Moonshot 認証は実態・project 品質を保証しない（プラットフォームの listing 機能）。
+- **Concept 接続**: [[launchpad-economics]]（Moonshot エコシステムの launch pump）。
+- **賭け仮説**: 根拠なし pump の典型。持続する物語なし。信号薄のため深掘り不要。confidence=低。
 <!-- synthesis:end -->

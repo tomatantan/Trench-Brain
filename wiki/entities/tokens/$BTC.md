@@ -46,4 +46,7 @@ accounts: 14
 - **観測（新beat）**: [[@saylor]] (2026-06-22) Strategy が USD Reserve を $300M 積み増し→$1.4B。同時に 520 BTC ($35M) 追加取得、BTC 準備金 847,363 BTC へ。目的: $MSTR/$STRC デジタルクレジット証券の信用補強。([[saylor__2069028571880845340]] 12,088♥)
   → 1回の purchase 規模(520 BTC)と明示目的(credit support)が具体的＝価格ノイズでない機関的積み増しの継続確認。
 - **⚠️ 48h 代表ツイの実態**: 「$BTC balance on exchanges just hit a 7-year low」([[@milesdeutscher]] 5,655♥) は **2025-01-16 の古ツイ**が再キャプチャされたもの。現時点の新データではない。
+
+### 2026-06-23 更新②（同日 2 サイクル目）
+- 新 beat なし。前回更新（Saylor $300M 積み増し・策略説明）が本サイクルの唯一の実質的新 beat。既存合成（BTC = 最上流アンカー・Fed 政策連動）に変化なし。
 <!-- synthesis:end -->

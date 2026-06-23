@@ -35,5 +35,14 @@ accounts: 5
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-23 初回合成
+- **正体**: 2009年起源の「Feels Guy（Wojak）」meme を発端とするコミュニティトークン（@wojakcto）。memecoin の中では最も文化的に古いアーキタイプの一つ。
+- **CEX 上場動線**: BinanceUS に WOJAK/USDT 上場（2026-06-17）[[BinanceUS__2067066448409702774]]。Boost イベント（48h で $450K のアセットが参加）[[BinanceUS__2068502676531478709]]。BinanceUS は WOJAK との公式コラボ GIF パックも展開 = 取引所が能動的にプロモ参加。
+- **強気 signal**: [[@Crypto_Alch]]（2026-06-22）: 「meme に弱気？$wojak はブルっぽく印刷中。price discovery 入りなら $100M IMO」([[Crypto_Alch__2069009974873800901]] 217♥）。
+- **smart money 接続（古ツイ注意）**: [[@lookonchain]] (2023-05-25): 「$SHIB の初期買いが $PEPE と $WOJAK も買っていた」([[lookonchain__1654100186988445696]] 1,423♥) = **2023年の古ツイ**が再キャプチャ。現在の動き文脈ではなく「$SHIB/$PEPE/$WOJAK を同一ライン」とする歴史的先例として読む。
+- **⚠️ CEX listing pump のパターン**: 上場告知 → Boost event → KOL 呼号 = [[external-event-to-token-pattern]] の CEX listing 発火型。Boost イベント終了後の売り圧に注意。BinanceUS は tickers と利益相反（listing 手数料・Boost 共同）。
+- **文化的持続性 vs. 短期フィーバー**: Wojak meme は $SHIB / $PEPE と同じ "古い meme 貨幣化" ライン = [[survivor-memes]]（オリジンが古い = memetic resilience がある）。一方で $100M 目標は price discovery 前提で条件付き。
+- **Concept 接続**: [[survivor-memes]]（2009 meme → 2023 token → CEX 上場 = 段階的な生存実績）/ [[external-event-to-token-pattern]]（CEX listing event = 発火点）。
+- **賭け仮説**: Boost event 終了後も coingecko でトレンド入りが続くか・price discovery に入るかが分岐。Wojak 文化的ブランドは残るが短期は CEX プロモの惰性頼み。confidence=低〜中。
 <!-- synthesis:end -->

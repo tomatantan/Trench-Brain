@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-23 ingest(auto-synthesis worklist §1a 全12件): [[$ETH]]/[[$BTC]]/[[$SOL]]/[[$MU]]/[[$WOJAK]]/[[$FARM]]/[[$HYPE]]/[[$SPCX]]/[[$BP]]/[[$THREE]]/[[$ARX]](新規エンティティ作成)/[[$JSON]](新規エンティティ作成)。主な観測: ①MurphyBTC「HL TOP10鯨が$ETH~273億円+$HYPE~163億円short」= HYPE内部short構造→[[perp-dex-wars]]更新。②coinkeiba「HYPE夏枯れ→SOL?」=ローテシグナル。③[[$BP]](Backpack)はDefiIgnas詳細分析込み合成・⚠️FTX parallel・EU license裁定。④[[$MU]]=BackpackがMicronをtokenized equity 2枚目発行→[[spacex-ipo-narrative]]更新（SPCX→MU拡張）。⑤[[$ARX]]=Arcium TGE Solana+Coinbase同日・privacy computing。⑥[[$SPCX]]-16%ダンプ続落確認。§1bは触らず。15件上限内（12件）。
+
 - 2026-06-23 ingest(auto-synthesis): births=0 / changes=2 / deaths=0。[[$TBHR]] mcap -86%（$17.9k→$2.5k）→status:fading・死亡圏接近・"traction無し即死" 型へ。[[$PHONEBLACK]] BREAKOUT +138%（$89.8k→$214.3k）→status:breakout・KOL/reply=0=traction-less・[[rug-anatomy]] のつり上げ候補として跳躍台帳に追記。
 
 - 2026-06-23 ingest(auto-synthesis worklist §1a 上位3件 第2回): [[$ETH]]/[[$BTC]] は前回処理済（追加更新なし）。[[$JOTCHUA]] 初回合成。観測: Pump.fun産→900%↑→$10M mcap（2026-06-21）。⚠️主シラーが Pump.fun 公式 feed（プラットフォーム自身）5件+@Crypto_Alch 2件=実質独立 KOL 1本。[[jp-meme-cluster]] 更新（$10M 数値を表に波及）。confidence=低。

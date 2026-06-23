@@ -53,4 +53,9 @@ accounts: 14
 - **機序が判明（DefiIgnas懐疑の裏付け）**: [[@MurphyBTC]]「IPO直後の低フロート相場＝買いたい人多・売れる株少→**ロックアップ解除で売り圧フェーズが来る**」([[MurphyBTC__2068891750563995653]])。＝上の[[@DefiIgnas]]「低float/高FDV」懐疑に**具体的な売り圧トリガ(lockup unlock)**が付いた。両論の弱気側が現実化しつつある。
 - **perp 横断 ＋ ⚠️名称の混同に注意**: [[@frankdegods]] が「SPCX on HL vs Asteroid on ETH」「leveraged Asteroid (SPCX on Hyperliquid)」([[frankdegods__2066661633804448150]] / [[frankdegods__2066692613986553977]]) と書くが、**[[$ASTEROID]] は本来 SpaceX マスコット発の"別個の純memecoin"**（[[spacex-ipo-narrative]] の峻別）。frankdegods は両者を口語的に混同している可能性が高く、$ASTEROID=$SPCX のperp版と断定しない（CA未確認）。確実なのは $SPCX の板が [[perp-dex-wars]]（Hyperliquid/Binance のOI）に跨ること。[[@nansen_ai]] が SPCX 分析ツール提供([[nansen_ai__2067598994675827014]])＝tooling も追従。
 - **示唆**: 「物語(IPO の夢) < 板(売り圧/lockup/OI)」がより鮮明に。**現時点の edge はショート/様子見側**。lockup 解除スケジュールが次の触媒。偽ticker乱立(下記)と合わせ、ロングは取引所RWA本物CAのみ・売り圧イベント前提で。confidence=中→やや弱気バイアス。
+
+### 2026-06-23 更新②（同日 2 サイクル目）
+- **観測（ダンプ続報）**: [[@WatcherGuru]]（2026-06-22）: 「JUST IN: Elon Musk is down $150 billion from his net worth today after SpaceX $SPCX falls **16%**. He is now worth $1.1 trillion」([[WatcherGuru__2069188912619081898]] 779♥)。前回観測（WatcherGuru 6,182♥ の -10.5%）から**さらに続落して -16% まで拡大**。1 日の時価総額蒸発額を Buffett の純資産（$145B）と比較する演出 = メディア・バイラル演出は残るが中身はダンプ継続。
+- **強気 analogy（古信号）**: [[@solbrdl]]（2026-06-16）: 「$SPCX が Tesla の株式分割前の $200→$1,200 run を辿ったら？$ASTEROID は Shiba Inu レベルの 10 billion も」([[solbrdl__2066784174246117740]] 107♥) = Tesla-run 類比の楽観シナリオ。ただしこれは 6/16 = IPO 初期の強気言説。現在（-16%）の事実とは乖離。
+- **⚠️ 示唆**: -10.5% → -16% の続落 ＋ long whale 含み損 -$1.2M（前回更新参照）= 弱気側がさらに優勢。WatcherGuru の数字はメディア計算（"Elon net worth" = $SPCX ではない）に注意するが、$SPCX の株価下落事実は確認。confidence=やや弱気（変化なし・強化）。
 <!-- synthesis:end -->

@@ -28,5 +28,11 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-23 初回合成
+- **正体**: [[@Crypto_Alch]] が推す 3D AI アバター生成プロジェクト（$three）。sub-$20M mcap（「$20M waiting room」呼号）。
+- **信号**: Crypto_Alch (2026-06-19): 「3 O'clock / 3D AI generation avatars の開発をリリース予定 / Good tek」([[Crypto_Alch__2067884483051725243]] 116♥)。同 (2026-06-22): 「99.998877% of CT sleeping on $three while it's looking like this / $20M waiting room」([[Crypto_Alch__2068961752075624499]] 112♥)。PumpfunEco: 「pumped 50% today」([[PumpfunEco__2068957437126947070]] 56♥)。
+- **⚠️ 単一シラー依存**: 実質 Crypto_Alch 1 アカウントの呼号。3D AI avatar 機能の進捗・実際のユーザー数・tech 詳細は不明。「99.998877% sleeping」系の呼号は CT で頻出する「先行者利益」誘導パターン。
+- **Concept 接続**: [[ai-memes]]（AI avatar = AI ユーティリティ × meme 交差点。ただし実体は未確認）。
+- **賭け仮説**: sub-$20M mcap での入場論は数字上は成立するが、AI avatar 機能が実際に動いているかどうか次第。Crypto_Alch が続けて言及するなら monitor 継続。confidence=低。
 <!-- synthesis:end -->
