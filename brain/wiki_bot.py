@@ -153,6 +153,34 @@ def handle_add(chat_id, arg):
     send(chat_id, add_text(arg))
 
 
+def assetize_query(q, ans):
+    """★憲法§Query: 価値ある回答を wiki/queries/ に資産化＋「薄い→要ingest」を ingest-queue へ。
+    write-only(git永続はcronに委譲=race回避)。＝問うほど wiki が育つ複利ループ。"""
+    if not ans or ans.startswith("⚠️") or ans.startswith("(回答が空"):
+        return
+    captured = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    date = captured[:10]
+    slug = re.sub(r"[^a-z0-9ぁ-んァ-ヶ一-龠ー]+", "-", q.lower())[:40].strip("-") or "query"
+    p = ROOT / "wiki" / "queries" / f"{date}-{slug}.md"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    body = ["---", "type: query", f"title: {q[:80]}", f"created: {date}",
+            f"asked: {captured}", "via: /wiki", "tags: [trench, query]", "---", "",
+            "## 問い", q, "", "## 回答（/wiki 6レンズ横断合成）", ans, ""]
+    p.write_text("\n".join(body), encoding="utf-8")
+    # 「薄い/未カバー/要ingest」gap → ingest-queue(質問が取り込みを駆動)
+    gaps = [l.strip("- ").strip() for l in ans.splitlines()
+            if any(k in l for k in ("薄い", "要ingest", "未カバー", "未ingest", "未収録"))]
+    if gaps:
+        iq = ROOT / "wiki" / "actions" / "ingest-queue.md"
+        iq.parent.mkdir(parents=True, exist_ok=True)
+        new = not iq.exists()
+        with open(iq, "a", encoding="utf-8") as f:
+            if new:
+                f.write("---\ntype: actions\ntitle: ingest-queue（質問が駆動する取り込み待ち）\n"
+                        "tags: [actions, ingest]\n---\n\n# 取り込み待ち（/wiki が『薄い』と言った gap）\n\n")
+            f.write(f"- [{date}] 問い「{q[:50]}」→ {(' / '.join(gaps))[:200]}\n")
+
+
 def handle_wiki(chat_id, q):
     q = q.strip()
     if not q:
@@ -165,6 +193,10 @@ def handle_wiki(chat_id, q):
     except subprocess.TimeoutExpired:
         ans = "⚠️ タイムアウト。質問を絞って再試行を。"
     send(chat_id, ans)
+    try:
+        assetize_query(q, ans)  # §Query: 資産化(問うほど育つ)
+    except Exception as e:
+        print(f"assetize err: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
 
 
 def parse_cmd(text):

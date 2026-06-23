@@ -47,6 +47,8 @@ bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 bash brain/synthesize_backfill.sh || echo "synth-backfill skipped" >> "$LOG"
 # (2e)lint層=第5の輪・自己検証(過学習対策)。wiki自身の小N型/矛盾/陳腐化を敵対的に検出→lint-report(報告のみ)。~日次gate。
 bash brain/synthesize_lint.sh || echo "lint skipped" >> "$LOG"
+# (2f)★憲法conformance検査(機械・毎サイクル・安価)=芯チェックの構造化。違反は wiki/conformance-report.md+ログに出す。
+python3 brain/check_conformance.py >> brain/state/conformance.log 2>&1 && echo "conformance: PASS" >> "$LOG" || echo "★conformance: 違反あり→wiki/conformance-report.md" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
