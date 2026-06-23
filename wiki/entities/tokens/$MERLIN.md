@@ -32,5 +32,19 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- Moonshot にて "Patriotic Duck"（$Merlin）として認証済み（242♥）。
+- [[ShapeFN_]]（スペイン語圏 KOL）が7言及中5件を占める = **実質単一チャンピオン構造**。
+- 語られる拡散イベント: FOX Sports が X プロフに採用（108♥）、DoorDash がアイコン変更（78♥）→ 「Merlinfication（企業アイコン→ $MERLIN）」という伝播フレームを ShapeFN_ が形成。
+- $PENGUIN との比較: 「両方 viral になった」と ShapeFN_ が述べるが（406♥）、$PENGUIN との構造的な違い（NFT community 発 vs キャラクター meme）には触れていない。
+- メキシコイベント出演予定（1,969♥・最高エンゲージ）= スペイン語圏への実イベント展開。
+
+### 判断（推論）
+- [[external-event-to-token-pattern]]: 「企業ブランドが X プロフを $MERLIN に変更」= ブランド memefication 型。FOX Sports / DoorDash はいずれも**公式採用ではなく X アイコン変更**にとどまる可能性が高い（一次確認未済）。ブランド採用の実態をオーバーステートするのは meme 界の常套。
+- ⚠️ **単一チャンピオン脆弱性**: ShapeFN_ が語りを独占 = [[reflexivity]] の燃料が一源泉に集中。チャンピオンが離れるとナラティブループが切れる。$PENGUIN が多様な KOL と NFT コミュニティを持つのと対照的（⚠️比較は ShapeFN_ 自身の言及であり独立検証なし）。
+- signal 質の注記: 言及7 / 2アカ（ShapeFN_ + moonshot）= 数値上は高 signal リストに入っているが、**独立 KOL がゼロ**。鮮度ゲート（複数 KOL × 直近 24-48h）的には合成優先度は低い。最小限の概念接続にとどめる。
+
+### concept 接続
+[[external-event-to-token-pattern]]（ブランド memefication 型・企業アイコン変更） / [[survivor-memes]]（$PENGUIN 比較・viral から blue-chip への仮説） / [[rug-anatomy]]（単一チャンピオン・独立 KOL ゼロ ⚠️） / [[$KINTARA]] / [[$PENGUIN]] / [[@ShapeFN_]] / [[@moonshot]]
 <!-- synthesis:end -->

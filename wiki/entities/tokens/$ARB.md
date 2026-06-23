@@ -32,5 +32,19 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- 高エンゲージ言及7件中6件が「ARB airdrop を逃した人向けガイド（次は zkSync）」フォーマット（milesdeutscher・2023年3月）= **airdrop フィーバー期のアーカイブが主体**。
+- lookonchain が「smart airdrop hunters 6名が $2〜21M 獲得」（4,399♥）= airdrop 初日のオンチェーン観測。
+- DefiIgnas が「Arbitrum DAO：$ARB staking 提案（sequencer 余剰収益の50%をステーク還元）」（806♥）= tokenomics の governance 更新（2024年6月）。
+- 共起: [[$ZKS]] [[$BLUR]] [[$DYDX]] [[$ENS]] [[$HOP]] [[$LOOKS]] = 全て ETH L2 / DeFi governance トークン。airdrop 連鎖の文脈で一括参照されている。
+
+### 判断（推論）
+- [[l1-substrate-wars]]: $ARB は ETH L2（Arbitrum）のガバナンストークン。RyanSAdams の「Ethereum makes $2.7B profits / 最も収益性の高いチェーン」ナラティブの下流に位置する。ただし trench での扱いは**投機（airdrop）**であって、settlement 争いの本戦とは文脈が異なる。
+- [[majors-rotation-supercycle]]: 「ARB airdrop → 次は zkSync（$ZKS）」という連鎖語りは、**alt-szn の"次の airdrop はどこか"を探す行動**の実例。ローテーション探しが個別 L2 トークンへの期待に変換される動線。
+- DefiIgnas の staking 提案: L2 トークンが「productive」（sequencer 収益から yield が生まれる）になる試み = DefiIgnas 自身が語る「nonproductive → productive rotation」の自陣での実現例。[[majors-rotation-supercycle]] の「productive crypto」ローテ論と接続。
+- ⚠️ **データの新鮮度**: 全言及が 2023〜2024 年のアーカイブ。2026年現在の $ARB の状態（staking 可決状況・価格・流動性）は本 corpus で判断不可。合成は「過去の airdrop/governance 文脈」として括る。
+
+### concept 接続
+[[l1-substrate-wars]]（ETH L2 の代表 governance トークン） / [[majors-rotation-supercycle]]（alt-szn の airdrop 連鎖ローテ） / [[regulation-catalyst]]（DAO governance の productive 化試み） / [[$ZKS]] / [[$DYDX]] / [[$ETH]] / [[@milesdeutscher]] / [[@DefiIgnas]] / [[@lookonchain]]
 <!-- synthesis:end -->

@@ -33,5 +33,21 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- $USDC 同様、trench での登場は「大口フローの計量単位」が主。高エンゲージ言及上位4件がこのパターン。
+- 機関フロー: Bybit が 100M $USDT → $ETH 購入（1,648♥）= 大口の ETH 仕込み証跡。
+- MrBeast が 114,483 $USDT を Aster に入金してプロフィット（1,772♥）= インフルエンサー × DeFi という構図の証跡。
+- 規制シグナル: SEC vs Binance 訴訟報道前に [[FBGCapital]] が 35M $USDT を Binance から引き出し（1,363♥）= **情報漏洩疑い**を示す on-chain 行動。
+- MEV bot jaredfromsubway が $7.7M 搾取（$ETH 2.75M + $USDT 含む複数資産）（230♥）= $USDT が MEV ターゲットとしても使われている。
+- MEXC: SPCX 先物の 1日出来高 800M $USDT（176♥）= [[spacex-ipo-narrative]] の volume 証跡。
+
+### 判断（推論）
+- $USDT の trench 内 役割は $USDC と重なるが、**規制摩擦の色が強い**。FBG / SEC 文脈・Binance 文脈で登場する = 規制リスクが高い取引所経由で流れるドルとして観測されている。
+- [[regulation-catalyst]]: SEC の BUSD「unregistered security」認定と同じ文脈で FBG が引き出しを行った = 規制シグナルが大口の on-chain 行動を先行して動かす実例。「政策が地合いを決める」の具体ケース。
+- ⚠️ $USDC vs $USDT: corpus 内で $USD1（Trump系）も共起 → stablecoin 三つ巴（Tether系 / Circle系 / 政治系）が形成されつつある。規制環境次第で地位が組み替わる。
+- [[onchain-verification]]: lookonchain が FBG の引き出しタイミングを SEC 訴訟報道と照合して報告 = on-chain データが「情報優位」の検証装置として機能した事例。
+
+### concept 接続
+[[regulation-catalyst]]（FBG × SEC 情報漏洩疑い・BUSD認定） / [[onchain-verification]]（whale / 機関フロー追跡） / [[spacex-ipo-narrative]]（MEXC SPCX volume） / [[$USDC]] / [[$ETH]] / [[$SPCX]] / [[$WOJAK]] / [[@lookonchain]] / [[@BinanceUS]]
 <!-- synthesis:end -->

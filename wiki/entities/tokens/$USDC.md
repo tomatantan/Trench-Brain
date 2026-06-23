@@ -35,5 +35,21 @@ accounts: 4
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- trench における $USDC の登場パターンは「whale 行動の計量単位」に集中。直接 trade される観測はほぼなく、lookonchain が「誰が何をいくらで買ったか」を示す際の denomination として機能している（高エンゲージ言及10件中9件がこのパターン）。
+- 具体的フロー: Trump の [[World Liberty Finance]] が 20M $USDC → $ETH 購入（3,000♥）、$LIBRA team が $107M キャッシュアウト（$USDC建て計上）。
+- stablecoin depeg 事件: 「$USDC depegging 中にスマートアドレスが $4.14M 益」（2,514♥）= 過去の depeg をアーカイブとして保持。
+- Visa × Solana: [[rajgokal]] が「@visa が @solana を high-performance blockchain settlement に採用」（2,349♥）= $USDC が ETH/SOL 基盤戦争の**得点板**になった瞬間。
+- 共起トークン: [[$USD1]]（Trump系stablecoin）が存在する = 政治的競合 stablecoin との同一文脈が発生している。
+
+### 判断（推論）
+- $USDC は trench において**賭けの対象ではなく、資金フロー検証ツール**。[[onchain-verification]] の中核素材。lookonchain の言及数が多い理由は「whale 追跡コストが低い透明な通貨」だから。
+- [[regulation-catalyst]] への直撃: GENIUS Act（stablecoin 制度化）が成立すれば $USDC のような USD-backed stablecoin が法的地位を得る最有力候補。ただし [[regulation-catalyst]] の「promises vs delivery」緊張が残る。
+- [[l1-substrate-wars]]: Visa × Solana 採用は ETH の「settlement 基盤」主張（RyanSAdams「banks will issue stablecoins on Ethereum」）への**反例**。stablecoin settlement の覇権争いが L1 戦争の一戦線になっている。
+- ⚠️ [[$USD1]]（Trump系）との競合: 同一 corpus に共起している = 政治的選好が stablecoin 選択に影響する可能性。「$USDC = 中立的 USD」の地位が政治化するリスク。
+- 賭け仮説: GENIUS Act 成立 → stablecoin 制度化 → $USDC の機関採用拡大 → SOL/ETH どちらのチェーンで settlement が主流になるかが次の分岐点。
+
+### concept 接続
+[[regulation-catalyst]]（GENIUS Act・stablecoin制度化） / [[l1-substrate-wars]]（Visa×Solana の settlement 争い） / [[onchain-verification]]（whale追跡の計量単位） / [[$USD1]] / [[$ETH]] / [[$SOL]] / [[@lookonchain]] / [[@rajgokal]]
 <!-- synthesis:end -->
