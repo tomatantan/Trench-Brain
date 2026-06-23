@@ -193,3 +193,37 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 | [[@MarioNawfal]] | Mario Nawfal | Largest Show on X (Live Daily 10am-8pm ET) / 24x7 Write |
 | [[@SpaceX]] | SpaceX | SpaceX designs, manufactures and launches the world’s m |
 | [[@elonmusk]] | Elon Musk | https://t.co/dDtDyVssfm |
+
+<!-- auto-candidates:start -->
+## 自動拡張候補（引用グラフ・要承認 / `expand_watchlist.py` 自動生成）
+watchlist の **3アカ以上**が言及した未収集アカ＝門に足す候補（指針2: 繰り返し引用＝KOL言及門）。
+**承認のしかた**: 良いものを上の watchlist 本体に `[[@handle]]` で足すだけ→次サイクルから収集開始。
+
+| 候補 | 言及したwatchlistアカ数 | 総言及 |
+|---|---|---|
+| @VitalikButerin | 8 | 9 |
+| @HyperliquidX | 7 | 8 |
+| @phantom | 7 | 7 |
+| @pumpdotfun | 5 | 17 |
+| @base | 5 | 12 |
+| @ethlabs_org | 5 | 9 |
+| @zksync | 5 | 5 |
+| @Backpack | 4 | 10 |
+| @fundstrat | 4 | 8 |
+| @tayvano_ | 4 | 6 |
+| @mert | 3 | 16 |
+| @CFTC | 3 | 10 |
+| @armaniferrante | 3 | 9 |
+| @vibhu | 3 | 6 |
+| @POTUS | 3 | 6 |
+| @re | 3 | 5 |
+| @Polymarket | 3 | 5 |
+| @solangelestv | 3 | 4 |
+| @ilblackdragon | 3 | 4 |
+| @Strategy | 3 | 4 |
+| @Optimism | 3 | 4 |
+| @OndoFinance | 3 | 4 |
+| @ErikVoorhees | 3 | 4 |
+| @Arcium | 3 | 4 |
+| @usv | 3 | 3 |
+<!-- auto-candidates:end -->
