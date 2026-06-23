@@ -7,7 +7,7 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 6187 件 → ノイズ(RT/短文/中身なし)除外後 **5058 件**が信号。
+生ツイ 6189 件 → ノイズ(RT/短文/中身なし)除外後 **5060 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
@@ -19,7 +19,7 @@ tags: [trench, dashboard]
 | $MASK | 37 | 1 | spyzer |
 | $SOL | 34 | 8 | CryptoHayes, DefiIgnas, RookieXBT, coinkeiba, lookonchain, mellometrics |
 | $USDC | 25 | 4 | BinanceUS, DefiIgnas, lookonchain, rajgokal |
-| $SPCX | 22 | 15 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, WatcherGuru |
+| $SPCX | 23 | 16 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, WatcherGuru |
 | $HYPE | 19 | 10 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
 | $ASTEROID | 19 | 2 | Crypto_Alch, solbrdl |
 | $CLUTCH | 18 | 1 | Clutch_FIFA2026 |
@@ -72,7 +72,7 @@ tags: [trench, dashboard]
 | [[@KyleSamani]] | 120 | 88,462 |
 | [[@zhusu]] | 120 | 530,762 |
 | [[@cobie]] | 120 | 1,127,426 |
-| [[@MarioNawfal]] | 119 | 51,445 |
+| [[@MarioNawfal]] | 120 | 51,472 |
 | [[@rajgokal]] | 118 | 191,644 |
 
 ## 高エンゲージ・ツイート Top 25（信号のみ）

@@ -31,5 +31,21 @@ accounts: 3
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- [[@DefiIgnas]] 2024-12：エアドロップ 91% 請求（1.1M アドレス）、うち 74% が全量売却/CEX移送、3.5% が追加購入。ホルダー数は [[$WIF]] の 2.4 倍。流通量 70%、次の unlock まで 1 年。
+- [[@theunipcs]] 2025-07：「PENGU ポンプは祝われるべき。PENGU は我々のメームコインバッグ全体に何が起こるかを先取りしている」。SOL アウトパフォーム → meme ローテーション到来の先行指標と位置づけ。
+- [[@coingecko]] 2026-06：CoinGecko trending top20 に引き続き登場。
+
+**判断（推論）**
+- PENGU は NFT→トークン移行の最大規模事例（Pudgy Penguins → $PENGU）。1.1M 請求アドレスという過去類例のない大衆分配が基盤。74% 売却は "diamond hands 希薄" だが逆に言えば売り圧がすでに消化されたフロアを示す可能性。
+- theunipcs の「先行指標」フレーミング：PENGU ポンプ = liquidity がリスクオン方向に広がるシグナル。major が動いた後、まず大衆ブランドの大型 meme → その後小型への波及 という [[majors-rotation-supercycle]] のカスケードに位置する。
+- [[survivor-memes]] の変形：community meme ではなく **NFT ブランドの token 化**という経路。Pudgy Penguins の IRL・Walmart 展開等ブランド資産が裏付け。
+
+⚠️ 矛盾：DefiIgnas（データ派）は 74% 売却・追加購入 3.5% という数字を出して暗に希薄さを示す。theunipcs は「高く行くほど良い」と強気。一方は需給の脆弱性、他方はナラティブの伝播力を評価している。どちらを重視するかはタイムホライズン次第。
+
+**賭け仮説**
+SOL がmajors を牽引する局面でPENGU を「meme ローテーション先行指標」として監視。PENGU の pumping 度合いが小型 meme への資金流入タイミングの早期警報になりうる。[[external-event-to-token-pattern]] の逆用（PENGU 動向を外部シグナルとして読む）。
+
+関連：[[survivor-memes]] [[majors-rotation-supercycle]] [[external-event-to-token-pattern]] [[$WIF]] [[$DOGE]] [[$PEPE]] [[$SHIB]] [[$SOL]] [[@DefiIgnas]] [[@theunipcs]]
 <!-- synthesis:end -->

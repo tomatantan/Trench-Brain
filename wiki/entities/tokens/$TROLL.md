@@ -29,5 +29,21 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- [[@a1lon9]] 2025-08-05（4,795 likes / 574 RT）：「pump.fun エコシステムの REAL コミュニティがこのマーケット環境で前例のない数字を出している。$TROLL / $USDUC / $TOKABU がその例」。
+- [[@a1lon9]] 2025-08-06（3,324 likes）：「$TROLL は長い間見てこなかった"本物のオンボーディング"がエコシステムに起きている初めての例」。
+- [[@cookerbruski]]：$TROLL が数ヶ月レンジした後 $NEET が同様の蓄積パターンから break outすると予想。別ツイで「5ヶ月強気だった友人がついに dump した」という実体験を共有。
+
+**判断（推論）**
+- $TROLL は pump.fun 由来で生き残った数少ない「コミュニティ主導型 survivor」。a1lon9 の "genuine onboarding" 発言はエコシステム全体への楽観の証拠として読む（TROLL 自体より pump.fun の健全性指標）。[[launchpad-economics]] の文脈では数ヶ月生存自体が統計的外れ値。
+- [[survivor-memes]] の pump.fun 変形：大量発生する新規 launch の中で数ヶ月コミュニティを保持できたものだけがこの型に入る。
+- cookerbruski の友人エピソードは [[rug-anatomy]] の亜型：rug でなく "exhaust by ranging" — 価格は死ななかったが保持者の忍耐が尽きて最悪タイミングで降りる。5 ヶ月の conviction test を通過できなかった事例。
+
+⚠️ 矛盾：a1lon9 の強気（エコシステム健全性シグナル）vs cookerbruski の cautionary tale（5 ヶ月 bagholder が dump）。TROLL は現時点で生存しているが "ranging" という状態は資本効率が極めて低く、時間リスクが直接的な損失として現れる。
+
+**賭け仮説**
+pump.fun ローンチ群の中で "コミュニティ生存期間" が最長級のものは [[survivor-memes]] 候補。ただし cookerbruski のケースが示すように、ranging が長すぎると最後の保持者が降りた後に pump するリスクがある。$NEET との比較（同型チャートと指摘）が一つの先行事例。
+
+関連：[[launchpad-economics]] [[survivor-memes]] [[rug-anatomy]] [[$NEET]] [[$USDUC]] [[$TOKABU]] [[@a1lon9]] [[@cookerbruski]]
 <!-- synthesis:end -->
