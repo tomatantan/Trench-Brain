@@ -2,7 +2,7 @@
 type: concept
 title: 型 — launchpad 経済圏（Pump.fun / $PUMP＝memeの供給工場）
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-24
 tags: [trench, concept, pattern, launchpad, pumpfun, supply, solana]
 memetic_potential: 中
 confidence: 中〜高
@@ -38,12 +38,21 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
   openness は bad actor も呼ぶ＝[[onchain-verification]]（[[@lookonchain]] が $LIBRA の $107M exit を追跡）と直結。
 
 ## auto-track 実観測コホート（`brain/track.py` の死の分母）
-外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-23 時点・累計、`brain/state/base_rate.json` と同期）= **mints 観測 1,800 / 門通過 17（0.94%）/ graduated 10 / 死 3（確定）**（外部 1.5% との差は方法論差＝注記）。
+外部主張だけでなく、自前の観測でも同じ型が出る。base rate（2026-06-24 時点・累計、`brain/state/base_rate.json` と同期）= **mints 観測 11,717 / 門通過 92（0.78%）/ graduated 70 / 死 42**（外部 1.5% との差は方法論差＝注記）。
 - **「graduated but empty」型が観測の主流**: 通過銘柄の大半が *graduation 済みなのに reply 0・KOL 言及ゼロ*。出来高だけ先行し社会的 traction が伴わない。
   実例コホート（同一バッチ）: [[$MOONLAKE]]（AI・dead -96.8%）/ [[$VCSOL]]（GTA参照・dead -99%）/ [[$AXIOS]]（DeFi冠・dead -96%）/ [[$MOTION]]（$187k・watch中）/ [[$AEGIS]]（privacy・$27k）/ [[$RO]]。
 - **追跡で型が裏付いた（2026-06-23 確定）**: [[$AXIOS]]/[[$VCSOL]]/[[$MOONLAKE]] が同コホートで -96%〜-99% に達し**dead 確定**。「KOL pickup なし＝短命」仮説が **N=3** の観測で強化（[[rug-anatomy]] 死亡台帳を参照）。98.5%死亡母集団の動態をリアルタイムで捉えている。
 - **prebond 観測（未 graduation・勢い門 mcap で通過）**: [[$MEW2]]（Pokemon IP・$47k）/ [[$GOOSE]]（animal・$90k）＝bonding curve 上で出来高だけ立った初期銘柄。graduation か死かを watch＝分母の入口側。
 - **含意**: graduation は生存の十分条件ではない。**graduation × (reply/KOL traction)** が [[survivor-memes]] の足切り。traction を欠く graduate は死の分母に算入する前提で見る（これが生存者バイアス対策の実装）。
+
+## ★Feedback 実測（型の hit-rate・2026-06-24・[[feedback]] `brain/feedback.py`）
+観測コホートが N=92 に育ち、型が**数字で**裏付いた（[[feedback]] が tracked.json の実 outcome を採点）：
+- **gate別 死亡率に明確な差**: **graduated門 75%（37/49）死** vs **mcap勢い門 13%（3/22）** vs other 11%（2/18）。
+  ＝**"graduated-but-empty" が最も死ぬ**（卒業≠生存を数字が強く支持）。勢い門通過(社会的traction/mcap勢い)は相対的に生存。
+- **traction が生存を分ける（N増で反転・確定寄り）**: **traction有り 死12%（2/17）** vs **traction無し 死55%（40/72）**。
+  ＝初期(N=4)は「差なし」だったが、対照群が育ち **traction(KOL/reply)有りは死亡率が約1/4** に。[[survivor-memes]] の「traction足切り」を実測が支持。
+- ⚠️ 留保: 母集団は同一launchpad・近時間帯で独立性低・現mcap近似。だが gate差(75% vs 13%)は大きく型として頑健。
+- 含意（賭け）: **"graduated・traction無し" は最強の死signal**（[[check_token]]/check が avoid に振る根拠）。逆に **mcap勢い門通過 × KOL/reply traction** が相対的 survivor 候補＝[[manipulation-playbook]] で手口を除外した上で見る。
 
 ## auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
 死(→[[rug-anatomy]] 死亡台帳)と対。`brain/track.py` が **BREAKOUT(mcap前回比+100%超) / GRADUATED** を検知する度、
@@ -55,6 +64,8 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$AEGIS]] | +160% | $29k→$76k | reply0 / KOL0 | 不明(privacyテーマ便乗 or bot買い) | traction0で急騰＝⚠️[[rug-anatomy]] のつり上げ候補 |
 | [[$PHONEBLACK]] | +138% | $89.8k→$214.3k | reply0 / KOL0 | 不明(phone-01black.com整備済だが言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO と同型・whale/bot pump疑い |
 | [[$MOONLAKE]] | +147% | $415.6k→$1.03M | reply0 / KOL0 | 不明(AI テーマ "Moonlake AI" + moonlake.design 整備済だが有機的言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO/$PHONEBLACK と同型・コホート初 $1M 突破 |
+| [[$JOKER]] | +134% | $34k→$80k | reply0 / KOL0 | 不明(JOKER名・twitter/web無し・social起点ゼロ) | traction0×出来高先行＝$AEGIS/$PHONEBLACK/$MOONLAKE と同型・BREAKOUT-then-dead 候補 |
+| [[$TOROS]] | +124%（→ピーク+452.5%） | $52.7k→$118k（ピーク$125.6k） | reply0 / KOL0（全3窓） | Toros Finance DeFi ブランド借用（association marketing）・whale 計画的買い | **BREAKOUT-then-dead確定**（association marketing×traction0・3窓12h完結・peak比-98.4%崩壊）—— $MOONLAKE/$PHONEBLACK と同型・association marketing 借用での whale pump が今サイクル初確定 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。
