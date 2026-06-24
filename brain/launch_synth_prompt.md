@@ -11,6 +11,7 @@
 - **観測(JSONから)**: 直近window の非scam flow 件数・**scam reject率**・**テーマ分布**(AI/animal/political/IP/defi/meme/other)・死の分母(mints_seen/gate_passed/graduated/died)。
 - **判断(あなたの読み・横断)**: いま濃いテーマは何か／scam率が示すもの／死の分母の動き／前回updateからの変化。[[launchpad-economics]] [[rug-anatomy]] [[reflexivity]] [[survivor-memes]] に必ず接続。
 - 簡潔に。網羅でなく「流れの要点と意味」。前回の本文は上書き更新（最新の流れを映す）。
+- ★**stale候補の扱い(監査2026-06-24 重大2)**: `traction_candidates` は **live mcap と検知時からの `変化pct`** を持つ。`stale:true`(変化<2%)＝検知時スナップショットのまま動意なし＝『追跡』でも『traction』でもない。**『N窓追跡』と書くな**。`変化pct`が大きく**下落(-90%等)した候補は"死亡"**、上昇は"実movement"として扱う。価格が動いてない物を「生存候補」と数えない（＝追跡してるフリの禁止）。
 
 ### ② traction+KOL の standout だけ個別 entity 化（採用門＝指針2）
 JSON の `kol_standouts` / `traction_candidates` に出たものだけ、`wiki/entities/tokens/$<SYM>.md` を作成。
