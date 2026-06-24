@@ -194,4 +194,9 @@ $MANIP
 ## ★low-cap/卒業前なら このフレームで評価せよ(危険一律にしない・本人指摘):
 対象が **bonding-curve段階/低mcap/未graduated** なら、「卒業した?流動性ある?」(post-grad指標)で一律dangerにするな＝tautologyで無情報。下の**早期signal(mcap velocity↑/scam clean/organic traction初動/theme-fit/最初のKOL)**で「早期の中で生存を分けるもの」を評価せよ。早期は base-rate最悪だが非対称最大＝サイズ小で early signal の重なりを見る。
 $EARLY"
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
+OUT="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
+# ★判定をlog(scorecard用): 脳のcall accuracyを後でoutcome照合する=「良くなってる」の物差し
+V="$(printf '%s' "$OUT" | grep -oE 'AVOID|APE|様子見' | head -1)"
+C="$(printf '%s' "$OUT" | grep '確信度' | grep -oE '高|中|低' | head -1)"
+printf '{"ca":"%s","verdict":"%s","confidence":"%s","ts":%d}\n' "$CA" "${V:-?}" "${C:-?}" "$(date +%s)" >> brain/state/brain_calls.jsonl 2>/dev/null || true
+printf '%s\n' "$OUT"
