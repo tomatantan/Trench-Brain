@@ -12,15 +12,15 @@ tags: [actions, roadmap]
 > 凡例: 🔧=俺が組む / ✅=承認/判断が要る(君) / ⏳=継続
 
 ## ① 中身を厚くする＝最優先（"微妙/弱い"の根因＝corpus薄さ・全ての土台）
-- [ ] ✅ **watchlist自動拡張 候補25件を承認** → 門を広げる（@VitalikButerin/@HyperliquidX/@pumpdotfun/@Backpack/@mert 等）。承認後 俺が `wiki/watchlist.md` 本体に追加→次サイクルから収集。
-- [ ] 🔧 **BTCマクロ/cycleソースをingest**（cycle analyst発言・MVRV/オンチェーン指標・マクロ金利との相関）＝BTC底値の答えが弱かった coverage 穴。
+- [x] ✅ **watchlist拡張 6人承認(段階)**＝@pumpdotfun/@mert/@HyperliquidX/@fundstrat/@VitalikButerin/@armaniferrante を追加(2026-06-24)。25一括は芯違反(収集バースト)なので段階。次枠は backlog bounded 確認後。
+- [~] 🔧 **BTCマクロ/cycle coverage**＝@fundstrat 追加で一部着手。さらに cycle analyst/MVRV を段階追加予定。
 - [ ] ⏳ 日々 `/add` で濃いソース投入（君）→ engine が自動消化（両輪）。
 
 ## ② 賢くなる仕組み＝「時間軸で賢くなる」＋複利ループ
 - [ ] 🔧 **★query feedback（最優先）**＝`/wiki` の質問+答えを保存しない現状の穴を直す。価値ある Q&A を `wiki/queries/` に資産化（選別）・「薄い→要ingest」flag を action に溜め**君の質問が ingest を駆動**・質問ログ→君の関心。＝**問うほど wiki が育つ複利**。
 - [ ] 🔧 **Feedbackループ**＝脳の判断/予測を ledger に記録→track.py が結果照合→hit-rate で型/レンズを自己採点（過学習の実証チェック）。
 - [ ] 🔧 **知識の衛生管理**＝各ページ frontmatter に `confidence / status(active|stale) / source_count / last_reviewed` ＋ 主張/根拠/**未確定** を分離（誤要約の事実化＝劣化を防ぐ）。新規/更新分と重要concept から。
-- [ ] 🔧 **時系列強化**＝上書きをやめ **dated append**（pulse/テーマ分布/base_rate の日次スナップショット）・page内 **変遷節**(A→B→C)・「先週から何が変わった/速度」に答える時系列クエリ。
+- [x] 🔧 **時系列強化**＝`snapshot.py` が主要metricsを日次 dated append→`pulse_history.jsonl`＋ask.sh が /wiki で読む(「何が変わった/速度」に答える)。data+使用が揃った(2026-06-24)。trajectoryはcron日次で richen。残: pageごとの変遷節は今後。
 
 ## ③ 入力を広げる
 - [x] ✅ **画像ミーム vision取り込み**＝完了（bot に画像送る→見て取り込む）。
