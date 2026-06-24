@@ -181,6 +181,18 @@ def assetize_query(q, ans):
             f.write(f"- [{date}] 問い「{q[:50]}」→ {(' / '.join(gaps))[:200]}\n")
 
 
+def handle_discover(chat_id, arg):
+    """credibility-gated discovery: 信頼KOLが今 shill してる alive 銘柄を surface(discover.py)。"""
+    send(chat_id, "🔭 信頼KOLの現役言及を探索中…")
+    try:
+        out = subprocess.run(["python3", str(ROOT / "brain" / "discover.py")],
+                             capture_output=True, text=True, timeout=120)
+        ans = (out.stdout or "").strip() or (out.stderr or "").strip() or "(候補なし)"
+    except subprocess.TimeoutExpired:
+        ans = "⚠️ タイムアウト。"
+    send(chat_id, ans)
+
+
 def handle_check(chat_id, arg):
     """魔界スクリーニング: /check <CA or pump.fun URL> → ape/avoid 判定(check_token.sh)。"""
     arg = arg.strip()
@@ -298,7 +310,7 @@ def main():
             if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd in ("wiki", "add", "check", "start", "help"):
+            if cmd in ("wiki", "add", "check", "discover", "start", "help"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
@@ -307,8 +319,10 @@ def main():
                     handle_add(chat_id, arg)
                 elif cmd == "check":
                     handle_check(chat_id, arg)
+                elif cmd == "discover":
+                    handle_discover(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
-                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
                 print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
                 try:
