@@ -51,8 +51,26 @@ def _get(url, data=None, timeout=40):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
+def clean_for_telegram(text):
+    """markdown記号を落として読みやすいplain textに(本人指示2026-06-24=可読性)。"""
+    text = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", text)        # [[X]] / [[X|Y]] → X / Y
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)                        # **bold** → bold
+    text = re.sub(r"(?<![\*\w])\*([^*\n]+)\*(?![\*\w])", r"\1", text)     # *italic* → italic
+    text = re.sub(r"`([^`]+)`", r"\1", text)                             # `code` → code
+    text = re.sub(r"^\s*\|[-:\s|]+\|\s*$", "", text, flags=re.M)          # 表の区切り |---|---|
+    text = re.sub(r"^\s*\|(.+?)\|\s*$",
+                  lambda m: m.group(1).strip().replace("|", " / "), text, flags=re.M)  # 表の行 → a / b
+    text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.M)            # ## 見出し
+    text = re.sub(r"^\s*>\s?", "", text, flags=re.M)                     # > 引用
+    text = re.sub(r"^\s*[-*+]\s+", "・", text, flags=re.M)               # - 箇条書き → ・
+    text = re.sub(r"^\s*[-—=]{3,}\s*$", "", text, flags=re.M)            # --- 区切り線
+    text = re.sub(r"\n{3,}", "\n\n", text)                              # 過剰空行
+    return text.strip()
+
+
 def send(chat_id, text):
-    """4096字制限で分割送信。"""
+    """4096字制限で分割送信。markdownを落として可読化。"""
+    text = clean_for_telegram(text)
     for i in range(0, len(text), 3800):
         chunk = text[i:i + 3800]
         data = urllib.parse.urlencode({"chat_id": chat_id, "text": chunk}).encode()
