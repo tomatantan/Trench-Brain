@@ -208,6 +208,37 @@ def _q2():
     return ("PASS" if qs else "WARN"), f"queries {len(qs)}枚(0なら未稼働)"
 
 
+@check("R3b", "指針2/3 計測鮮度", "死の分母tracker(base_rate/tracked)が凍結してない=最近更新されてる")
+def _r3b():
+    # 監査(2026-06-24)で発覚: base_rate.json が14窓凍結してたのにR3(backlog存在)はPASSしてた=見逃し。
+    # "存在"でなく"鮮度"を検査=mtimeが古い(>FRESH_H)なら凍結=FAIL。これが死の分母の実稼働を担保する。
+    import os
+    import time
+    FRESH_H = 6
+    p = ROOT / "brain" / "state" / "base_rate.json"
+    if not p.exists():
+        return "FAIL", "base_rate.json 無し=死の分母tracker未稼働"
+    age = (time.time() - os.path.getmtime(p)) / 3600
+    return ("PASS" if age < FRESH_H else "FAIL"), f"base_rate 最終更新 {age:.1f}h前（>{FRESH_H}h=凍結=FAIL）"
+
+
+@check("R3c", "指針6 矛盾", "base_rateのdiedと死亡台帳が矛盾してない(計測整合)")
+def _r3c():
+    import json as _j
+    p = ROOT / "brain" / "state" / "base_rate.json"
+    ledger = grep(r"^\| \[\[\$", "wiki/concepts/rug-anatomy.md")  # 死亡台帳の確定死亡行
+    if not p.exists():
+        return "WARN", "base_rate無し"
+    try:
+        died = _j.loads(p.read_text()).get("died", 0)
+    except Exception:
+        return "WARN", "base_rate parse不可"
+    n_ledger = len(ledger)
+    if died == 0 and n_ledger >= 2:
+        return "FAIL", f"base_rate died=0 だが死亡台帳に{n_ledger}件の確定死亡=矛盾(tracker計測が台帳に追いついてない)"
+    return "PASS", f"died={died} / 死亡台帳{n_ledger}件(整合)"
+
+
 def main():
     rows = []
     for id, ref, req, fn in CHECKS:

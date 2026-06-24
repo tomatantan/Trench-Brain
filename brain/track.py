@@ -151,8 +151,9 @@ def is_dead(m, peak_mcap):
     if m is None:
         return False
     mc = m["mcap_usd"]
-    if m["complete"]:
-        return False  # graduated は別物(DEX側で評価)、bonding死の対象外
+    # ★修正(2026-06-24 監査): graduated(complete)を除外してた=死の分母が空回り(died=0 vs 台帳N=4矛盾)。
+    #   "DEX側で評価"は未実装だった。pump.fun は graduation後も mcap を返す(実データで確認)ので、
+    #   graduated でも peak比 -90% / floor割れ は死と判定する。これで死の分母が実稼働。
     if mc and mc < DEATH_MCAP_FLOOR:
         return True
     if peak_mcap and mc and mc <= peak_mcap * (1 - DEATH_DRAWDOWN):
