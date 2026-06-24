@@ -60,6 +60,38 @@ for p in sorted(glob.glob("sources/x/*.md"))[-2000:]:
             accts.add(m.group(1))
 out["kol_言及"] = sorted(accts) or "言及なし"
 
+# --- ★live X検索(本丸): この銘柄を今 誰が語ってるか(watchlist外含む・新規でも個別signal) ---
+TWKEY = ""
+try:
+    for ln in open(".env", encoding="utf-8"):
+        if ln.startswith("TWITTERAPI_KEY="):
+            TWKEY = ln.strip().split("=", 1)[1]
+except Exception:
+    pass
+def x_search(q, n=15):
+    if not TWKEY or not q:
+        return []
+    u = f"https://api.twitterapi.io/twitter/tweet/advanced_search?query={urllib.parse.quote(q)}&queryType=Latest"
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(u, headers={"X-API-Key": TWKEY}), timeout=15)
+        return (json.loads(r.read()).get("tweets") or [])[:n]
+    except Exception:
+        return []
+import urllib.parse
+live = {}
+for q in [CA] + ([f"${sym}"] if sym and len(sym) >= 3 else []):
+    for t in x_search(q):
+        au = t.get("author") or {}
+        u = au.get("userName")
+        if not u or u in live:
+            continue
+        live[u] = {"by": u, "followers": au.get("followers"), "text": (t.get("text") or "")[:140],
+                   "likes": t.get("likeCount"), "matched": ("CA" if q == CA else "ticker")}
+ranked = sorted(live.values(), key=lambda x: -(x.get("followers") or 0))[:12]
+out["live_X_誰が語ってるか"] = ranked or "X上で言及ゼロ(誰も語ってない=無風・新規の典型)"
+out["live_X_要約"] = {"語ってる人数": len(live), "最大follower": (ranked[0]["followers"] if ranked else 0),
+                      "CA一致投稿": sum(1 for v in live.values() if v["matched"] == "CA")}
+
 # --- ★KOL track-record(killer edge): 言及KOLの過去callの生存率(tracked.jsonから) ---
 rec = {}
 try:
