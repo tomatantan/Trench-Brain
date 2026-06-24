@@ -239,6 +239,30 @@ def _r3c():
     return "PASS", f"died={died} / 死亡台帳{n_ledger}件(整合)"
 
 
+@check("H1", "衛生/指針6", "concept が confidence frontmatter を持つ(主張の確信度を明示)")
+def _h1():
+    cdir = ROOT / "wiki" / "concepts"
+    if not cdir.exists():
+        return "WARN", "concepts なし"
+    miss = [p.name for p in cdir.glob("*.md")
+            if not re.search(r"^confidence:", p.read_text(encoding="utf-8", errors="replace"), re.M)]
+    return ("PASS" if not miss else "WARN"), (f"confidence欠落: {miss[:5]}" if miss else "全conceptにconfidence有")
+
+
+@check("H2", "衛生/前のめり防止", "強い断定(確証/確定/必ず)が裏付け(⚠️/仮説/N)無しに先走ってない=型化バイアス防止")
+def _h2():
+    bad = []
+    for p in (ROOT / "wiki" / "concepts").glob("*.md"):
+        for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+            s = ln.strip()
+            if s.startswith(">") or s.startswith("|") or "__" in s or "「" in s:
+                continue  # 引用/表/出典は対象外
+            if re.search(r"確証(さ|済|し)|確定的|必ず[^し]|絶対に上が|100%確実|間違いなく", ln) and \
+               not any(k in ln for k in ("⚠️", "仮説", "未確定", "未検証", "N=")):
+                bad.append((p.name, s[:45]))
+    return ("WARN" if bad else "PASS"), (f"前のめり断定疑い: {bad[:3]}" if bad else "裏付け無き断定なし(前のめり型化なし)")
+
+
 def main():
     rows = []
     for id, ref, req, fn in CHECKS:
