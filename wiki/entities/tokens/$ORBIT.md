@@ -3,12 +3,12 @@ type: entity
 title: ORBIT
 created: 2026-06-24
 updated: 2026-06-24
-tags: [token, pump-fun, traction, solana]
+tags: [token, pump-fun, traction, solana, real-movement, exit-confirmed]
 ---
 
 # ORBIT
 
-pump.fun 発の traction candidate。第12窓初登場・第14窓継続（3窓目）。
+pump.fun 発の traction candidate。第12窓初登場・第15-17窓で実 movement 3窓連続確認・第18窓で崩落確定 → exit。
 
 ## 観測（T1 on-chain）
 
@@ -16,26 +16,49 @@ pump.fun 発の traction candidate。第12窓初登場・第14窓継続（3窓�
 |------|-----|
 | Sym | ORBIT |
 | Mint | `DXTx11pPfG6igpuGZQjbU8t91bSPm93bbijmiBZupump` |
-| MCap | ~$61,288（拾われた時点・3窓連続同値） |
+| MCap 検知時 | ~$61,288 |
+| MCap live（第15窓） | ~$301,783（+392%） |
+| MCap live（第16窓） | ~$454,629（+641.8%） |
+| MCap live（第17窓） | ~$499,450（+714.9%）**← 天井** |
+| MCap live（第18窓） | ~$153,062（+149.7% / 前窓比 -69.3%）← 崩落確定 |
+| MCap live（第19窓） | ~$3,911（-93.6% / 前窓比 -97.4%）← 完全死亡確認 |
+| MCap live（第20窓） | **~$4,025（-93.4% / 前窓比 +2.9%）← 微増ノイズ・死亡確定に変化なし** |
+| MCap live（第21窓） | ~$3,449（-94.4% / 前窓比 -14.3%） |
+| MCap live（第22窓） | ~$3,276（-94.7% / 前窓比 -5.0%） |
+| MCap live（第23窓） | **~$3,289（-94.6% / 前窓比 +0.4%）← 微増ノイズ・死亡確定に変化なし** |
 | Reply | 0 |
 | テーマ推定 | other（宇宙/軌道系 meme の可能性） |
 
-**採用理由（T1 mcap）**: traction_candidates #7。non-scam gate 通過済み。
+**採用理由（T1 price movement 3窓継続）**: 第15-17窓で連続上昇。**終了理由（第18窓崩落）**: 前窓比 -69.3%（$499k→$153k）を T1 on-chain 確認。天井形成の仮説通り。
 
-## 判断
+## Tier 格付け
 
-- **T1 安全**: on-chain mcap 確認 ✓
-- **T3 KOL**: ✗ reply:0 — KOL言及なし。燃料③不在（[[reflexivity]]）。
-- **T5 hype**: ✗
+- **T1（on-chain）**: ✓ — 3窓連続上昇（$61k→$499k）を確認後、第18窓で崩落。on-chain事実として記録。
+- **T3（KOL）**: ✗ — 18窓連続 reply:0・KOL 言及なし。**燃料③が最後まで不在だった。**
+- **T5（hype）**: ✗
 
-> "ORBIT" は汎用語で宇宙・軌道・ブランド名など多義。3窓で mcap ~$61k・reply:0 固定——スナップショット確定。TEXE の前例（固有名詞・narrative なし・9窓死）に近い構造——テーマが収斂しないと生存は難しい。⚠️ T1 観測フェーズ。
+## 判断（確定）
 
-## 生存条件（仮説）
+**「T3 不在の T1 movement は持続しない」の実証例**。3窓・最大 +714.9%（$499k）まで上昇したが、[[reflexivity]] の燃料③（KOL言及→外部流入の起点）が最後まで発火せず自然収束。
 
-1. T3 KOL 言及 + narrative 特定（何の ORBIT か）
-2. mcap $100k 以上への伸長・保持
+第17窓末の生存条件「T3 KOL 言及 or $499k 保持」のいずれも満たさず、第18窓で崩落。加速鈍化（第16→17窓: +$152k → 第17→18窓: -$346k）は先行サインとして機能した。
+
+本 pulse 観測以来最長の実 movement 事例（3窓）ではあるが、T3 不在環境での T1 持続限界を示す事例として記録価値あり。
+
+## 最終状態
+
+| 項目 | 値 |
+|------|-----|
+| 追跡窓数 | 6窓（第12-18窓） |
+| 実 movement 窓数 | 3窓（第15-17窓） |
+| 天井 mcap | ~$499k（第17窓） |
+| 終値 mcap | ~$3.9k（第19窓）/ exit 確定は第18窓 |
+| 天井→終値 | -99.2%（$499k→$3.9k） |
+| KOL 言及 | ゼロ（18窓連続） |
+| 判定 | **exit確定・縮退パターン記録へ** |
 
 ## 関連
-- [[launch-pulse]] — 本窓の流れ合成（第12窓初登場）
-- [[reflexivity]] — 点火構造
+- [[launch-pulse]] — 流れ合成（第12窓初登場・第15-17窓実 movement・第18窓崩落確定）
+- [[reflexivity]] — T3不在での3窓実 movement 後の自然収束——燃料③欠如による反射性ループ不完成の実例
+- [[survivor-memes]] — KOLなし生存の条件（本例では不成立）
 - [[launchpad-economics]] — 生存率の背景

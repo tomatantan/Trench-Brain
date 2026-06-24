@@ -6,9 +6,9 @@ updated: 2026-06-23
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **5229件**（基準時刻 2026-06-23T23:32Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **5194件**（基準時刻 2026-06-23T23:32Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
-§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**208ティッカーは降格**して非表示。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**212ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
 ## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
@@ -16,21 +16,10 @@ updated: 2026-06-23
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 16 | 5 | 90 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
-| [[$ETH]] | 13 | 6 | 90 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
-| [[$SPCX]] | 4 | 3 | 7 | 458♥ @coingecko: NEWS: $SPCX falls 17.8%, erasing most of its gains / 37♥ @MEXC: Every pullback creates a new question. 🚀  $SPCX is |
-| [[$SOL]] | 3 | 3 | 16 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 2022♥ @lookonchain: From a $1M loss (-90%) to a $2.5M profit—this diam |
-| [[$MU]] | 3 | 3 | 3 | 34♥ @MEXC: One investor has stayed bullish on $MU through eve / 27♥ @DEG_2020: 恐怖強欲指数はSP500のモメンタム低下で極度の恐怖一歩手前 $MU と $SNDK -13%と暴落 |
-| [[$QUEST]] | 4 | 2 | 4 | 389♥ @PumpfunEco: Ansem (@blknoiz06) makes first purchases on his @P / 63♥ @PumpfunEco: Top traded pump fun coins by volume in the last 24 |
-| [[$THREE]] | 4 | 2 | 4 | 132♥ @Crypto_Alch: $three looking like this in this imploding market  / 128♥ @Crypto_Alch: $10k to $100k which community is building this?  1 |
-| [[$ASTEROID]] | 3 | 2 | 19 | 248♥ @Crypto_Alch: $ASTEROID just 2x in a single fvcking candle   Did / 220♥ @solbrdl: Do people realize $ASTEROID was ACTUALLY on stage  |
-| [[$USELESS]] | 3 | 2 | 6 | 1083♥ @theunipcs: i'm seeing a lot of similarities between $USELESS  / 252♥ @theunipcs: $SOL continues to outperform $BTC, $ETH, and the o |
-| [[$TRIPLET]] | 3 | 2 | 4 | 128♥ @Crypto_Alch: $10k to $100k which community is building this?  1 / 76♥ @PumpfunEco: $TripleT has pumped 44% today! 🔥  |
-| [[$KINS]] | 3 | 2 | 3 | 128♥ @Crypto_Alch: $10k to $100k which community is building this?  1 / 63♥ @PumpfunEco: Top traded pump fun coins by volume in the last 24 |
-| [[$TCG]] | 2 | 2 | 4 | 57♥ @PumpfunEco: $TCG has pumped 28% today! 🔥  / 33♥ @PumpfunEco: $TCG has pumped 83% today! 🔥  |
-| [[$CARDS]] | 2 | 2 | 3 | 98♥ @CryptoHayes: The ticker is $CARDS degens. The thesis is solid.  / 6♥ @Lightspeedpodhq: New episode with @defi_kay_ @Kunallegendd & @0xcar |
-| [[$HYPE]] | 2 | 2 | 3 | 115♥ @Crypto_Alch: The smartest traders I know are bidding $EITHER ag / 2♥ @therollupco: Andy asks Eliezer Ndinga what the next $HYPE catal |
-| [[$JOTCHUA]] | 2 | 2 | 2 | 128♥ @Crypto_Alch: $10k to $100k which community is building this?  1 / 63♥ @PumpfunEco: Top traded pump fun coins by volume in the last 24 |
+| [[$ETH]] | 12 | 5 | 89 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$BTC]] | 15 | 4 | 87 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
+| [[$SPCX]] | 3 | 2 | 6 | 37♥ @MEXC: Every pullback creates a new question. 🚀  $SPCX is / 25♥ @MurphyBTC: $SPCX #株   買い増し前に確認したい「ロックアップ解除リスク」 低フロート相場の次に来る“売 |
+| [[$SOL]] | 2 | 2 | 13 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 2022♥ @lookonchain: From a $1M loss (-90%) to a $2.5M profit—this diam |
 | [[$MANIFEST]] | 2 | 2 | 2 | 165♥ @moonshot: Manifesting ($MANIFEST) is now verified on Moonsho / 66♥ @PumpfunEco: One of the top holders of $MANIFEST is sitting on  |
 | [[$GOOGL]] | 2 | 2 | 2 | 984♥ @WatcherGuru: JUST IN: Google $GOOGL added to the Dow Jones Indu / 19♥ @MEXC: Your next Earn deposit could come with a side of $ |
 
@@ -41,22 +30,18 @@ updated: 2026-06-23
 | [[$PUMPI]] | 13 | 1 | 20 | 66♥ @pumpilians_: New players can now understand the game much easie / 53♥ @pumpilians_: Clan system is now live!  - Create a clan for 500, |
 | [[$AGI]] | 3 | 1 | 3 | 13♥ @badattrading_: Wow some guy has 18.6% of $AGI supply, that's some / 10♥ @badattrading_: Snipers have 2% of $AGI (CA 4VKS1SjqeGGVHAAg1eJyR9 |
 | [[$MSTR]] | 3 | 1 | 3 | 331♥ @CryptoKaleo: You can still sell your $MSTR for more than $100.  / 131♥ @CryptoKaleo: Saylor and Strategy are finally admitting cash is  |
-| [[$SQUIRE]] | 3 | 1 | 3 | 389♥ @PumpfunEco: Ansem (@blknoiz06) makes first purchases on his @P / 38♥ @PumpfunEco: $SQUIRE has pumped 33% today! 🔥  |
 | [[$USDC]] | 2 | 1 | 18 | 3000♥ @lookonchain: Trump's World Liberty(@worldlibertyfi) just spent  / 2801♥ @lookonchain: North Korean hackers went long $ETH on #Hyperliqui |
+| [[$ASTEROID]] | 2 | 1 | 9 | 120♥ @solbrdl: Pepe had a slow bleed before it went to billions.  / 115♥ @solbrdl: Seems like the second scenario is in the play for  |
 | [[$STRC]] | 2 | 1 | 7 | 245♥ @CryptoKaleo: There’s a much higher chance $STRC never returns t / 201♥ @CryptoKaleo: $STRC   If you like STRC at $89, you’ll love it at |
 | [[$GYM]] | 2 | 1 | 6 | 90♥ @PumpfunEco: Ansem (@blknoiz06) just bought $1,000 of $CLAW & $ / 72♥ @cookerbruski: if you like $gym at 2m you’re gonna love it at 20m |
 | [[$DROOLING]] | 2 | 1 | 3 | 85♥ @PumpfunEco: $drooling has pumped 43% today! 🔥  / 69♥ @itspyrored: You know a meme is good when you don’t have to con |
-| [[$ALTSZN]] | 2 | 1 | 3 | 128♥ @Crypto_Alch: $10k to $100k which community is building this?  1 / 113♥ @Crypto_Alch: Unironically, this gotta be lowest volume I seen o |
 | [[$CLAW]] | 2 | 1 | 2 | 90♥ @PumpfunEco: Ansem (@blknoiz06) just bought $1,000 of $CLAW & $ / 23♥ @PumpfunEco: $CLAW has pumped 30% today! 🔥  |
+| [[$CONDOR]] | 2 | 1 | 2 | 18♥ @badattrading_: $CONDOR (CA BQnsQ7LrcKVUqB33cqkVmbN1GNvqCCVYqGLLG5 / 15♥ @badattrading_: 1H chart opportunity here for $CONDOR, hitting rsi |
 
 ## 2) concept 候補（鮮度ゲート通過・閾値超え・まだconcept未登場）
 複数アカが今まさに言及し始めたのにconceptが無い＝emerge候補。動線/型が立つか判断し、立つなら concept を新規/更新。
 
-- [[$QUEST]]（48h 4件/2アカ・総4）まだconcept無し → 動線/型を検討
-- [[$THREE]]（48h 4件/2アカ・総7）まだconcept無し → 動線/型を検討
-- [[$TRIPLET]]（48h 3件/2アカ・総5）まだconcept無し → 動線/型を検討
-- [[$TCG]]（48h 2件/2アカ・総4）まだconcept無し → 動線/型を検討
-- [[$CARDS]]（48h 2件/2アカ・総3）まだconcept無し → 動線/型を検討
+- （なし）
 
 ## 3) 活発になった player（合成メモ更新候補）
 
@@ -64,7 +49,7 @@ updated: 2026-06-23
 |---|---|
 | [[@MarioNawfal]] | 208 |
 | [[@laurashin]] | 133 |
-| [[@Lightspeedpodhq]] | 121 |
+| [[@Lightspeedpodhq]] | 120 |
 | [[@JasonYanowitz]] | 119 |
 | [[@RyanSAdams]] | 118 |
 | [[@mellometrics]] | 118 |
