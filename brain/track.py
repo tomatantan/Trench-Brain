@@ -301,6 +301,50 @@ def cmd_run(args):
     if kol_ingested:
         print(f"KOL-CA ingestion: {kol_ingested}件 新規track(KOL言及銘柄=traction有り対照群)")
 
+    # 1c) ★user-checked ingestion(2026-06-24): 本人が /check した銘柄を tracking に入れ fate を学ぶ。
+    #   本人の自然な実プレイ判定が、追加inputなしに死亡/跳躍台帳と base-rate を厚くする＝魔界基盤の autonomous成長。
+    uc = STATE / "user_checked.jsonl"
+    uc_ingested = 0
+    if uc.exists():
+        seen_uc = set()
+        for ln in uc.read_text(encoding="utf-8", errors="replace").splitlines():
+            ln = ln.strip()
+            if not ln:
+                continue
+            try:
+                ca = json.loads(ln).get("ca")
+            except Exception:
+                continue
+            if not ca or ca in tracked or ca in seen_uc:
+                continue
+            seen_uc.add(ca)
+            m = pf_metrics(pumpfun_coin(ca))
+            if m is None or not m.get("mint"):
+                continue
+            s_ok, s_why = safety_ok(m)
+            base["mints_seen"] += 1
+            if not s_ok:
+                continue
+            base["gate_passed"] += 1
+            if m.get("complete"):
+                base["graduated"] += 1
+            sym = (m["symbol"] or "").upper()
+            disp = "$" + sym if sym else ca[:6]
+            tracked[ca] = {
+                "ticker": disp, "mint": ca, "name": m["name"], "first_seen": now_iso(),
+                "status": "tracked", "peak_mcap": m["mcap_usd"],
+                "kol_ca": kol_ca.get(ca, []), "kol_ticker": kol_tk.get("$" + sym, []),
+                "gate": f"safety:{s_why}/traction:user_checked", "tokenized_agent": m["tokenized_agent"],
+                "last": m, "history": [m], "last_synth": None, "outcome": None,
+            }
+            queue["births"].append({"ticker": disp, "mint": ca, "name": m["name"],
+                                    "gate": tracked[ca]["gate"], "kol_ca": tracked[ca]["kol_ca"],
+                                    "kol_ticker": tracked[ca]["kol_ticker"], "metrics": m})
+            uc_ingested += 1
+            time.sleep(0.2)
+    if uc_ingested:
+        print(f"user-checked ingestion: {uc_ingested}件 新規track(本人の実プレイ→fate学習=基盤autonomous成長)")
+
     # 2) watch: TRACKED を pump.fun で再取得（安いウォッチャー＝diff のみ）
     alive = [k for k, v in tracked.items() if v.get("status") == "tracked" and v.get("mint")]
     for k in alive:

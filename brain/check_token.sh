@@ -112,6 +112,10 @@ done
 LEDGER="$(sed -n '/死亡台帳/,/^## /p' wiki/concepts/rug-anatomy.md 2>/dev/null | head -45)"
 FEEDBACK="$(cat wiki/dashboards/feedback.md 2>/dev/null | head -40)"
 
+# ★usageがcorpusを育てる(本人「inputは少なく・autonomousに」): checkした銘柄を tracking に入れfateを学ぶ。
+#   本人の自然な /check（実プレイ）が、追加inputなしに死亡/跳躍台帳とKOL track-recordを厚くする＝魔界基盤の autonomous成長。
+printf '{"ca":"%s","ts":%d}\n' "$CA" "$(date +%s)" >> brain/state/user_checked.jsonl 2>/dev/null || true
+
 PROMPT="$(cat brain/check_token_prompt.md)
 
 ## 対象トークンの live データ(on-chain=commodity足切り) + wiki合成接続:
