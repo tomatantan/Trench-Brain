@@ -46,7 +46,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - **含意**: graduation は生存の十分条件ではない。**graduation × (reply/KOL traction)** が [[survivor-memes]] の足切り。traction を欠く graduate は死の分母に算入する前提で見る（これが生存者バイアス対策の実装）。
 
 ## ★Feedback 実測（型の hit-rate・2026-06-24・[[feedback]] `brain/feedback.py`）
-観測コホートが N=92 に育ち、型が**数字で**裏付いた（[[feedback]] が tracked.json の実 outcome を採点）：
+観測コホート＝門通過 92件（うち gate/traction 分類済 89件、残は分類待ち）に育ち、型が**数字で**裏付いた（[[feedback]] が tracked.json の実 outcome を採点。以下 N は分類済 89 基準）：
 - **gate別 死亡率に明確な差**: **graduated門 75%（37/49）死** vs **mcap勢い門 13%（3/22）** vs other 11%（2/18）。
   ＝**"graduated-but-empty" が最も死ぬ**（卒業≠生存を数字が強く支持）。勢い門通過(社会的traction/mcap勢い)は相対的に生存。
 - **traction が生存を分ける（N増で反転・確定寄り）**: **traction有り 死12%（2/17）** vs **traction無し 死55%（40/72）**。

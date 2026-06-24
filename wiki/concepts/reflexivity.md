@@ -2,7 +2,7 @@
 type: concept
 title: 型 — 再帰性 reflexivity（trench の根本エンジン：価格↔ナラティブの自己強化）
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-24
 tags: [trench, concept, pattern, reflexivity, soros, classic]
 memetic_potential: 中
 confidence: 高
@@ -30,11 +30,13 @@ trench には減衰させるものが無い＝**より速く・より純粋に b
   - 逆に [[survivor-memes]]（$BONK/$WIF/$PEPE）は **lore/community がナラティブ・ループを長く持続**＝reflexivity が長期間 far-from-equilibrium に留まった稀な生存。
 
 ### 実時間の観測（2026-06-23・**仮説支持段階／確証ではない**・lint 2026-06-23 で格下げ）
-⚠️**まだ仮説**: 「traction無し跳躍＝reflexivity燃料切れ＝崩れる」は **完全弧で確認できたのは [[$PHONEBLACK]] の N=1 のみ**、かつ**反例 [[$MOONLAKE]]（traction0で$1M・未崩壊）が未解決**。＝「確証」でなく「仮説を支持する観測が出始めた」段階。auto-track が同じ銘柄の弧を実時間で記録し始めた点は意義あり（古典の枠組み×自前観測の収束の芽）だが、N が増え $MOONLAKE が決着するまで断定しない（思想＝過剰主張しない・両論を消さない）。
+⚠️**lint 2026-06-24 更新**: $MOONLAKE は 2026-06-24 に dead 確定（rug-anatomy 死亡台帳 N=28・BREAKOUT-then-dead 型）。「反例未解決」は解消済。BREAKOUT-then-dead N=3（$PHONEBLACK/$MOONLAKE/$TOROS）で仮説が支持方向へ転換。ただし N=3 は依然小さく「確証」でなく「仮説支持が強まった」段階に留める。
+
+**仮説支持（N=3・要継続観測）**: 「traction無し跳躍＝reflexivity燃料切れ＝崩れる」は、$PHONEBLACK/$MOONLAKE/$TOROS の3件で弧が完結し方向が揃った。auto-track の観測が古典の枠組みと収束した初期証拠。断定には N がまだ少ない（思想＝過剰主張しない）。
 - **観測（完結した弧）**: [[$PHONEBLACK]] $89.8k→**$214.3k(BREAKOUT)**→**$3.2k(-98%全損)**。reply/KOL は一度もゼロのまま。＝跳躍台帳([[launchpad-economics]])と死亡台帳([[rug-anatomy]])に**同一銘柄が両方載る**＝燃料無しの自己強化が点火せず一撃で反転した archetype。
 - **観測（崩壊中）**: [[$AEGIS]]（+160%→ fading）/ [[$RO]]（+348%→ -48% fading）＝同じ traction-less の弧を辿りつつある。
-- **⚠️ 未決（過剰主張しない）**: [[$MOONLAKE]] は traction0 のまま **$1M 突破（+147%）でまだ崩れていない**＝この型の**反証候補/まだ途中**。これも崩れれば確証が強まる／生き残れば「traction無しでも whale 仕込みで持続する例外」として型に但し書きが要る。**観測継続が決着をつける**（思想5: 両論を消さない）。
-- **判断**: 燃料計(traction)の predictive 精度は**死側で高い**（traction0 → 崩壊が複数確認）。跳躍側の「生存するか」は traction だけでは決まらない（$MOONLAKE）＝**screening は "traction無し→危険" の側を強く、"traction有り→安全" は弱く**使うのが現データの含意。
+- **観測（反例→解消）**: [[$MOONLAKE]] は traction0 のまま $1M 突破（+147%）で一時「反証候補」だったが、**2026-06-24 に dead 確定（BREAKOUT後即死・[[rug-anatomy]] 死亡台帳）**＝反例でなく**型を支持**（traction無し跳躍は遅れて崩れた）。完結弧 N=3（$PHONEBLACK/$MOONLAKE/$TOROS）。
+- **判断（2026-06-24 更新）**: 燃料計(traction)の predictive 精度は**死側で高い**（traction0 → 崩壊が複数確認・[[feedback]] でも traction無し死55% vs 有り12%）。跳躍側も traction0 は遅れて崩れる傾向（$MOONLAKE が示す）＝**screening は "traction無し→危険" を強く使う**。"traction有り→相対的に生存"も [[feedback]] N増で支持され始めた（但し小N・[[manipulation-playbook]] の偽traction除外が前提）。
 
 ## 既存 concept をこの1原理で束ねる
 - [[launchpad-economics]]: 98.5%が死ぬ＝**bust 側が常態**（自己強化は大半が早期に反転）。graduation×traction の足切り＝ループ燃料の有無。
