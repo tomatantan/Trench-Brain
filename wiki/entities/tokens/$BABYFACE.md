@@ -8,7 +8,7 @@ tags: [token, pump-fun, traction, solana, new-entry, kol-absent]
 
 # BABYFACE
 
-pump.fun 発の traction candidate。第28窓で初登場（1窓目）。前窓 recent_samples に "BABYFACE / other" として観測されていたものが今窓でtraction閾値を突破。
+pump.fun 発の traction candidate。第28窓初登場・第29窓で2窓目。初登場 +32.5%（$34k→$45k）に続き2窓目で $45k→$200k（+341%）の爆発的上昇を確認。1窓フラッシュではなく継続モメンタムが判明。
 
 ## 観測（T1 on-chain）
 
@@ -17,33 +17,34 @@ pump.fun 発の traction candidate。第28窓で初登場（1窓目）。前窓 
 | Sym | BABYFACE |
 | Mint | `GWmmE9n99MeAzMetXcebRrXskTrXxSgCUjopAgp9pump` |
 | MCap 検知時 | ~$34,342 |
-| MCap live（第28窓） | **~$45,518（+32.5%）← 初登場** |
+| MCap live（第28窓） | ~$45,518（+32.5%）← 初登場 |
+| MCap live（第29窓） | **~$200,532（+483.9% / 前窓比 +340.6%）← 2窓目爆発** |
 | Reply | 0 |
 | テーマ推定 | other |
 
-**採用理由（T1 price movement）**: 第28窓で +32.5%（$34k→$45k）を T1 on-chain 確認。前窓 recent_samples からの昇格。
+**採用理由（T1 price movement）**: 第28窓で +32.5%（$34k→$45k）T1 on-chain 確認。第29窓で +340.6%（$45k→$200k）の継続急騰を確認——1窓フラッシュでないことが判明。
 
 ## Tier 格付け
 
-- **T1（on-chain）**: ✓ — $34k→$45k（+32.5%）。1窓のみ確認。
-- **T3（KOL）**: ✗ — reply:0・KOL 言及なし。[[reflexivity]] 燃料③不在。
+- **T1（on-chain）**: ✓ — $34k→$45k（+32.5%、28窓）→$200k（+483.9%検知時比、+340.6%前窓比、29窓）。2窓連続 T1 on-chain 確認。
+- **T3（KOL）**: ✗ — reply:0・KOL 言及なし（2窓連続）。[[reflexivity]] 燃料③不在。純オーガニックかどうかは不明（bot の可能性も）。
 - **T5（hype）**: ✗
 
 ## 判断
 
-初登場1窓のみで評価は時期尚早。+32.5% は T1 on-chain movement として有意だが、SHAK のように「1窓急騰→1窓崩壊」のパターンも観測されている（[[rug-anatomy]]）。T3 なし・$34k という低い検知時 mcap は、early-stage momentum か1窓フラッシュかの区別がつかない段階。
+第28窓（+32.5%）に続き第29窓で $45k→$200k（+340.6%）。SHAK の「1窓急騰→1窓崩壊」との違いが確認され、2窓連続で上昇継続。検知時 $34k→現在 $200k（+483.9%）は3候補中最大の変化率——COVER($156k+152%)・JUSTICE($264k+160.4%ピーク)を上回るペースで上昇中。
 
-次窓での継続/崩壊が判断の起点。$34k 検知時比を割り込めば即縮退判定。
+ただし reply:0・T3 なし。$200k 到達後の次窓が最大の分岐点——継続なら survivor 候補として追跡、崩壊なら「2窓フラッシュ」として縮退記録に入る。KOL なしで $200k を維持できるかは COVER の事例（13窓・KOLゼロ）が唯一の参照点。$34k を割り込んだ時点で exit 確定。
 
 ## 生存条件（次窓）
 
-1. live mcap $45k 以上を維持（今窓水準）
-2. T3 KOL 言及の発生（T3 なしで継続できるかのテスト）
+1. live mcap $200k 以上を維持（今窓水準・爆発後の継続確認）
+2. T3 KOL 言及の発生（2窓ゼロ継続——T3なしで COVER 並みの継続ができるかのテスト）
 
 検知時比（$34k）を割り込んだ時点で縮退パターン入りとして exit 確定とする。
 
 ## 関連
-- [[launch-pulse]] — 流れ合成（第28窓初登場）
-- [[rug-anatomy]] — 1窓フラッシュのパターン（SHAK 事例）
-- [[reflexivity]] — KOL不在での momentum の限界
-- [[survivor-memes]] — T3なしで継続するための条件
+- [[launch-pulse]] — 流れ合成（第28窓初登場・第29窓爆発）
+- [[rug-anatomy]] — 2窓フラッシュのリスク（SHAK との比較）
+- [[reflexivity]] — KOL不在での momentum 継続の限界
+- [[survivor-memes]] — T3なしで継続するための条件（COVER が参照点）

@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-24 launch-pulse 第29窓 auto-synthesis: [[launch-pulse]] 更新（6h window・1,521件非scam・scam 55.5%・AI/agent 85→88初回復）。entity更新: $COVER（13窓目・$193k→$261k +35.2%・新高値更新$261k>旧高値$256k）/ $JUSTICE（12窓目・$212k→$211k -0.4%・反落停止安定化）/ $BABYFACE（2窓目・$45k→$200k +341%・爆発継続）。KOL真空29窓目（≈174h/7.25日）継続。died 累計16（42.1%）。
+
 - 2026-06-24 auto-synthesis (deaths 9件): $MOONLAKE/$PHONEBLACK/$VCSOL/$AXIOS/$TBHR/$EYEZ/$JAKE/$SLICK/$MAYHAM を dead 確定。[[rug-anatomy]] 死亡台帳 N=10（+6行追記）。型：BREAKOUT-then-dead（$MOONLAKE/$PHONEBLACK）/ graduated-but-empty（$VCSOL/$AXIOS/$TBHR）/ traction無し誕生即死（$EYEZ/$JAKE/$SLICK/$MAYHAM）。
 
 - 2026-06-24 backfill auto-synthesis 5件: [[@ShapeFN_]]（$MERLIN/$SERGEYEVNA・バイラル外部事象→token追い手・[[external-event-to-token-pattern]]）/ [[@PumpfunEco]]（pump.fun公式アンプ・$JOTCHUA/$SOLANGELES報告・[[launchpad-economics]]・[[jp-meme-cluster]]）/ [[@Clutch_FIFA2026]]（$CLUTCH専用promo・FIFA W杯2026→meme・[[external-event-to-token-pattern]]）/ [[@xvwmuca]]（$KINTON文化ブリッジ・春麗/Tung Tung Tung・[[jp-meme-cluster]]）/ [[@spyzer]]（$MASK最大KOL・「Save The Trenches」・[[survivor-memes]]・[[external-event-to-token-pattern]]$VINE）。
