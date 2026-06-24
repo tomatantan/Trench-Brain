@@ -38,10 +38,23 @@ $arc / $VIRTUAL（Virtualsプラットフォーム）/ $ZEREBRO。多くは [[la
 - **[[$FARTCOIN]] の二重性**: AI-meme でありながら "team無し/KOL無しの organic"（[[survivor-memes]]）＝最も meme 純度が高い AI-meme。"自律"より"lore"で生き残った皮肉。
 - 監視: [[vc-founder-thesis-layer]] のAI×crypto進捗、Solana agent経済の実数、Virtuals/Pump.fun のAI-meme出荷、上場の整合性。
 
+## 分散型 AI インフラ層（2026-06-23追記）
+
+> 出典: [[bankless-ai-crackdown-internet-2026-06-23]]（Bankless × Illia Polosukhin）⚠️ 創業者の自社宣伝
+
+AI-meme の一つ上の層: **"meme" でなく "privacy インフラ"** として AI×crypto を語る thesis。
+
+- **Near Protocol / Near AI / IronClaw の構成**: confidential inference（データ保持なし）→ IronClaw（private agent layer）→ Venice（VVV token / E2E 暗号化 AI サービス）。
+- **Confidential TVL on Near Intents**: 2026年2月以降増加中。BTC/ETH/SOL/USDC/ZEC が Near native 資産として一体の privacy set を形成。「Zcash の shielded set に相当するが multi-asset」。
+- **カテゴリ位置づけ**: VVV（Venice）は AI meme token の性格を持つが、$ai16z/$FARTCOIN より「実用インフラへのアクセス」として framing → より長期 / より price action が遅い可能性。
+- ⚠️ **規制 tailwind は「来るかもしれない」**: AI 国有化・KYC 義務化が現実になれば narrative tailwind が強まるが、まだ hypothetical。export control が廃止されれば tailwind も消える（[[regulation-catalyst]] 参照）。
+- ⚠️ **算数が未検証**: Venice VVV の実際の稼働・Near Confidential TVL の成長スピード・IronClaw のユーザー数 = 外部独立検証なし（[[onchain-verification]] の規律）。
+
 ## 関連
-- [[vc-founder-thesis-layer]]（AI×cryptoの上流thesis）/ [[launchpad-economics]]（発射元）/ [[survivor-memes]]（$FARTCOIN）/ [[l1-substrate-wars]]（Solana agent経済）
-- [[$FARTCOIN]] / [[@shawmakesmagic]] / [[@blknoiz06]] / 集計の入口: [[signal|Signal digest]]
+- [[vc-founder-thesis-layer]]（AI×cryptoの上流thesis / 分散型AI thesis）/ [[launchpad-economics]]（発射元）/ [[survivor-memes]]（$FARTCOIN）/ [[l1-substrate-wars]]（Solana agent経済）/ [[regulation-catalyst]]（AI 輸出規制が narrative trigger）
+- [[$FARTCOIN]] / [[@shawmakesmagic]] / [[@blknoiz06]] / [[@Bankless]] / 集計の入口: [[signal|Signal digest]]
 
 ## 出典(生ソース)
 [[@lookonchain]] AI-meme PnL, [[@a1lon9]] 配布層, [[@rajgokal]]/[[@CoinMarketCap]] agentic economy, [[@solana]] ERC-8004,
 [[@blknoiz06]] $10B確信/勝者不明, [[@lmrankhan]] 自壊論, [[@DefiIgnas]] 上場歪み。（全て sources/x/ の原ツイに保存済）
+Bankless × Illia Polosukhin (2026-06-23): Near 分散型 AI インフラ / VVV (Venice) / Confidential TVL。→ [[bankless-ai-crackdown-internet-2026-06-23]]

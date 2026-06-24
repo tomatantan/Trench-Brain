@@ -4,17 +4,17 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 34
-accounts: 8
+mentions: 36
+accounts: 9
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 34件 / 8アカ。
+> 自動生成(brain/build_entities.py)。言及 36件 / 9アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
+[[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
 [[$ETH]] [[$BTC]] [[$USELESS]] [[$USDC]] [[$WIF]] [[$LIBRA]] [[$PENGU]] [[$BONK]]
@@ -50,4 +50,7 @@ accounts: 8
 - **⚠️ 矛盾（同日内で相反）**: coinkeiba「HYPE 夏枯れ → SOL なのかもしれない」（前回更新①、強気方向）⇄ whale 0x9137「$38.15M の 20x short」（本更新、強気の否定）。coinkeiba の観測と whale の行動が**同日に逆方向**。coinkeiba の likes は 15♥（小さい）、lookonchain は 164♥（中程度）。
 - **代表ツイ（旧 MOO / diamond hands）の実態**: worklist の lookonchain 代表ツイ「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」(tweet_id 1650703881528307712 = 2023年) / 「From a $1M loss (-90%) to a $2.5M profit—this diamond hands」(1877551033460863307 = 2024年) は古ツイ再キャプチャ。本サイクルで実質的な新 SOL シグナルは whale 0x9137 の short のみ。
 - **示唆**: 「HYPE → SOL ローテ」は KOL レベルの観測に留まり、実際のオンチェーン大口は SOL に強いベア賭けをしている。ETH short 解消（[[$ETH]] 更新③）と SOL 大口 short 開始が同日に生じた = **大口の方向性は ETH・SOL ともにポジティブでない**。coinkeiba の「SOL 雰囲気良い」は KOL 層の感覚、whale の行動が反証。[[majors-rotation-supercycle]] 上、大口は alt 先行ではなく様子見・空売りの段階。confidence 変わらず中。
+
+### 2026-06-24 確認（新 beat なし）
+- worklist 代表ツイ「This guy spent only 6 $SOL to buy 30.1M $MOO」([[@lookonchain]] = 2023 年古ツイ) / 「$1M loss → $2.5M profit」([[@lookonchain]] = 2024 年古ツイ) は古ツイ再キャプチャ。本サイクルの新 beat なし。既存合成に変化なし。
 <!-- synthesis:end -->

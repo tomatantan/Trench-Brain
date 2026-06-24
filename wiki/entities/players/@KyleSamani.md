@@ -4,12 +4,12 @@ kind: player
 title: @KyleSamani
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 106
+posts: 109
 ---
 
 # @KyleSamani
 
-> 自動生成。信号投稿 106件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 109件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$FORD]](1)

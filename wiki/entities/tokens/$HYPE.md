@@ -4,17 +4,17 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 19
-accounts: 10
+mentions: 21
+accounts: 11
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 19件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 21件 / 11アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@therollupco]]
+[[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]]
 
 ## 共起トークン
 [[$ETH]] [[$AXIOM]] [[$ZEC]] [[$ASTER]] [[$LIT]] [[$AERO]] [[$TNSR]] [[$NEAR]]
@@ -75,4 +75,9 @@ accounts: 10
 - Hoffman: 「世界の AUM が Hyperliquid に来る。Hyperliquid が "私が使う DEX" から "機関の liquidity layer" に変わるストーリーの一part」。
 - **示唆（判断）**: TOP10 whale が $HYPE をショートし Hayes がスイングしている状況でも、**機関レベルの流動性が接続される infrastructure が着実に整備されている**。短期の token price 弱気と、長期の platform 構築が並走している対比。
 - [[perp-dex-wars]] に全詳細。
+
+### 2026-06-24 更新
+- **$EITHER（HYPE 周辺エコシステム）**: [[@Crypto_Alch]]（2026-06-23T19:59Z）: 「smartest traders が $EITHER を $10M valuation で積んでいる。Solana 上の vibe coding launchpad（front/backend + payments + web3 monetization）。**$HYPE と integration 済み** + OpenClaw AI companion 搭載。Solana が range 回復し市場が強気転換する中で upside 大きい」([[Crypto_Alch__2069510682937049102]] 115♥ / CA: HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi)。これは $HYPE 本体ではなく **$HYPE ecosystem の周辺トークン $EITHER** についての言及。$HYPE の platform 化が進む中で ecosystem トークンが生まれている傍証。
+- **therollupco（2♥）**: 「Andy asks Eliezer Ndinga what the next $HYPE catalyst」= 2♥ は noise 水準。信号として扱わない。
+- **判断**: $EITHER の登場は「HYPE integration を掲げる周辺トークンが $10M mcap で KOL の注目を集めている」という HYPE platform 化の側面証拠。ただし $EITHER は別トークン。既存合成（TOP10 short 継続・Hayes swing trading・Anchorage integration）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

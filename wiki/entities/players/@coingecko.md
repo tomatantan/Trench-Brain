@@ -4,15 +4,15 @@ kind: player
 title: @coingecko
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 30
+posts: 38
 ---
 
 # @coingecko
 
-> 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 38件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HYPE]](3) [[$BTC]](2) [[$ASTER]](1) [[$LIT]](1) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$VERONA]](1) [[$TAIKO]](1) [[$SYN]](1)
+[[$HYPE]](3) [[$BTC]](3) [[$ETH]](2) [[$SPCX]](2) [[$ASTER]](1) [[$LIT]](1) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1) [[$JPYSC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -24,9 +24,9 @@ posts: 30
 | 1,160 |  | JUST IN: Bitcoin falls below $63,000. | [[coingecko__2067635553583993272]] |
 | 742 | [[$BP]] | INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock. | [[coingecko__2066073983913447663]] |
 | 617 | [[$BTC]] | JUST IN: Strategy purchases another 520 Bitcoin for ~$35M, bringing its total holdin | [[coingecko__2069030123341304208]] |
+| 495 |  | JUST IN: Bitcoin falls below $63,000 amid heightened liquidation-driven volatility. | [[coingecko__2069306973229588538]] |
+| 458 | [[$SPCX]] | NEWS: $SPCX falls 17.8%, erasing most of its gains since its market debut. | [[coingecko__2069288716133425284]] |
 | 415 | [[$XPL]] | INSIGHT: $XPL pumps 27.4% following the launch of Plasma One. | [[coingecko__2067313691700142135]] |
-| 401 | [[$HYPE]] [[$PENGU]] [[$SIREN]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
-| 390 |  | Global crypto market cap is up 4.4% in the last 24 hours - following the de-escalati | [[coingecko__2066529440658842091]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

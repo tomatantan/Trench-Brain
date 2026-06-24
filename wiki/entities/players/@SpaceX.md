@@ -4,12 +4,12 @@ kind: player
 title: @SpaceX
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 18
+posts: 22
 ---
 
 # @SpaceX
 
-> 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -24,9 +24,9 @@ posts: 18
 | 9,885 |  | Falcon 9 launches from pad 40 in Florida | [[SpaceX__2067158320142512386]] |
 | 9,743 |  | Falcon 9’s first stage lands on LZ-4 | [[SpaceX__2067894930467692791]] |
 | 9,236 |  | Falcon 9 is vertical at pad 4E in California ahead of tomorrow’s launch of the @NRO_ | [[SpaceX__2067718208157835768]] |
+| 7,860 |  | Deployment of Starfall confirmed | [[SpaceX__2069420637383168301]] |
 | 7,227 |  | Falcon 9 launches 24 @Starlink satellites from California | [[SpaceX__2068763409940705752]] |
 | 6,501 |  | Dragon’s four main parachutes have deployed | [[SpaceX__2067217801798918250]] |
-| 6,485 |  | Deployment of 24 @Starlink satellites confirmed | [[SpaceX__2068750546043847057]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

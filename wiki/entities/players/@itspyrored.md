@@ -4,12 +4,12 @@ kind: player
 title: @itspyrored
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 17
+posts: 19
 ---
 
 # @itspyrored
 
-> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$DROOLING]](1)
@@ -26,7 +26,7 @@ posts: 17
 | 67 |  | Charts like this will retire your bloodline | [[itspyrored__2068325772431970321]] |
 | 58 |  | Would you buy this daily chart ? | [[itspyrored__2066434725237952893]] |
 | 58 |  | This would’ve been a multi million coin 2 years ago | [[itspyrored__2066690894334403010]] |
-| 54 |  | Might’ve found a cook 👨🏽‍🍳 | [[itspyrored__2067560766115389716]] |
+| 57 |  | Pay attention to the coins that aren’t priced in yet. | [[itspyrored__2069398400777273714]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

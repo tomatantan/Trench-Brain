@@ -2,19 +2,19 @@
 type: entity
 kind: token
 title: $ARX
-updated: 2026-06-23
+updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 2
-accounts: 2
+mentions: 3
+accounts: 3
 ---
 
 # $ARX
 
-> 自動生成(brain/build_entities.py)。言及 2件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@solana]] [[@coingecko]]
+[[@coingecko]] [[@moonshot]] [[@solana]]
 
 ## 共起トークン
 —
@@ -24,6 +24,7 @@ accounts: 2
 |---|---|---|---|
 | 537 | [[@solana]] | BREAKING: $ARX from @Arcium is now live on Solana | [[solana__2069030283257733554]] |
 | 169 | [[@coingecko]] | $ARX just launched its TGE today and is currently trading at ~$56M market cap. | [[coingecko__2069110920492482837]] |
+| 38 | [[@moonshot]] | Arcium ($ARX) is now verified on Moonshot. | [[moonshot__2069547151395307787]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

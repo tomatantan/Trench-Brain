@@ -4,12 +4,12 @@ kind: player
 title: @binance
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 29
+posts: 36
 ---
 
 # @binance
 
-> 自動生成。信号投稿 29件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,6 +18,7 @@ posts: 29
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 3,730 |  | No calculators. Pick one:  1000 BTC instantly 1 BTC every week 0.01 BTC every minute | [[binance__2068665436372177251]] |
+| 1,969 |  | Shoutout to everyone building something nobody believed in yet. | [[binance__2069302968235462768]] |
 | 1,269 |  | There is no second best 💛 | [[binance__2068212523745038441]] |
 | 1,206 |  | When to check charts? | [[binance__2068529403265417501]] |
 | 1,186 |  | Happy Father’s Day to all the amazing dads out there! 💛 | [[binance__2068575136635031758]] |
@@ -26,7 +27,6 @@ posts: 29
 | 781 |  | Sleep is temporary. Screenshots are forever. | [[binance__2068393650506064375]] |
 | 637 |  | Your Stocks. Your Wallet.  Tokenize 1:1 and withdraw to any wallet. | [[binance__2068711158681383307]] |
 | 632 |  | BRB.Taking a hydration break. | [[binance__2068051441319657752]] |
-| 625 |  | Last-minute Father’s Day shopper? 👀 We’ve got you!  Send 🎁 across borders in minutes | [[binance__2068303173140324620]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

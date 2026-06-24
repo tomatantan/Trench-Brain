@@ -4,12 +4,12 @@ kind: player
 title: @toly
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 34
 ---
 
 # @toly
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 34件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -21,12 +21,12 @@ posts: 23
 | 192 |  | Happy solstice!!! | [[toly__2068840028030345578]] |
 | 136 |  | I first mentioned Solana on 19 April 2018 — Genesis tier, rank #3. How early were yo | [[toly__2068880219650585055]] |
 | 128 |  | Hire engineers better then you. | [[toly__2069057822730678486]] |
+| 121 |  | If you can’t handle remote work, you have too many people.  It’s a big company probl | [[toly__2069420553308704883]] |
+| 119 |  | Bullish, fr.  Budget constraints force prioritization and focus.  Ethereum isn’t goi | [[toly__2069433506195996935]] |
 | 109 |  | Less dumb idea would be to privatize social security, make them investment accounts. | [[toly__2069083436963504499]] |
 | 107 |  | Comrades,  The real class struggle of our epoch is not capitalist versus proletarian | [[toly__2068840479538688130]] |
 | 104 |  | Incredible amount of wealth returned back to the proletariat. | [[toly__2069166452964479417]] |
 | 97 |  | 🧠🪱  > If regular people are ever going to get back into owning homes or other assets | [[toly__2069069927802392616]] |
-| 96 |  | Why did @vibhu short oil 🤦‍♂️🤦‍♂️🤦‍♂️ | [[toly__2068773705195634991]] |
-| 95 |  | We can’t tell apart our idiots from foreign agents helping our adversaries | [[toly__2069076210852716739]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,12 +4,12 @@ kind: player
 title: @ilyunow
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 8
+posts: 9
 ---
 
 # @ilyunow
 
-> 自動生成。信号投稿 8件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 9件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -25,6 +25,7 @@ posts: 8
 | 31 |  | some of yall need to study memetics because you clearly don’t get shit | [[ilyunow__2069086693014266079]] |
 | 27 |  | cats cats dog cats cats | [[ilyunow__2067278118843462008]] |
 | 22 |  | these local mini pancakes in japan are so fire | [[ilyunow__2065755684743037165]] |
+| 14 |  | @elonmusk do you also like cats or just dogs? | [[ilyunow__2069478821569716327]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

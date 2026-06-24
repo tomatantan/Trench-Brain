@@ -4,12 +4,12 @@ kind: player
 title: @inversebrah
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 34
+posts: 41
 ---
 
 # @inversebrah
 
-> 自動生成。信号投稿 34件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 41件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -25,8 +25,8 @@ posts: 34
 | 59 |  | quotes and replies | [[inversebrah__2068807861850050731]] |
 | 57 |  | we live in a goyocracy | [[inversebrah__2069019124454572476]] |
 | 54 |  | utterly unserious planet wtf | [[inversebrah__2069219038421758080]] |
+| 52 |  | wintermute D:< | [[inversebrah__2069306618840519162]] |
 | 46 |  | 14k+ likes  just liek dat | [[inversebrah__2068838706593829239]] |
-| 36 |  | late q2 2026 mood snippet | [[inversebrah__2068857241009266740]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

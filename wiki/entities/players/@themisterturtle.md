@@ -4,12 +4,12 @@ kind: player
 title: @TheMisterTurtle
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 2
+posts: 3
 ---
 
 # @TheMisterTurtle
 
-> 自動生成。信号投稿 2件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 3件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,6 +18,7 @@ posts: 2
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 408 |  | I actually think meme coins will be bigger this cycle than they were last cycle. | [[TheMisterTurtle__2068911611759268049]] |
+| 206 |  | Solana looks great here. | [[TheMisterTurtle__2069305741345771693]] |
 | 167 |  | there is so much money out there   it really doesn’t take as much money as you’d thi | [[TheMisterTurtle__2068918880253132994]] |
 
 <!-- synthesis:start -->

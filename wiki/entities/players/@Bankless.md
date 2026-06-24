@@ -4,12 +4,12 @@ kind: player
 title: @Bankless
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 23
 ---
 
 # @Bankless
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$STRC]](1)
@@ -34,6 +34,7 @@ posts: 20
 **役割**: Bankless は crypto 媒体の中でも大型ゲスト（KOL・VCファウンダー・規制当局）を呼ぶ「インタビュー型知識生産」ハブ。ツイートよりもYouTube/podcast が一次ソース。合成メモのメインは guest に帰属し、Bankless 自体は amplifier として扱う。
 
 **重要ゲスト履歴（2026-06-22前後）**:
+- Illia Polosukhin（Near Protocol / Near AI / IronClaw 共同創業者）「AI Crackdown Could Change the Internet Forever」→ [[bankless-ai-crackdown-internet-2026-06-23]]。thesis: Fable 輸出規制 = インターネット断片化の前例 / AI 国有化 → Claude co-worker = 政府エージェント / 分散型 AI = Near が bullish。⚠️ ポジション最大。
 - [[@CryptoHayes]] × 2件（AI Crash → BTC $1M thesis / perp 起源）→ 詳細 [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]]
 - CFTC Chairman Mike Selig（perps onshore の方向性・親crypto規制姿勢）
 - MegaETH MOSS（wallet UX）
@@ -44,5 +45,5 @@ posts: 20
 
 **W杯 clip（2026-06-19）**: 短い clip で話者が Polymarket × チケット ヘッジを実演。Polymarket の IRL 実用事例。詳細 [[bankless-world-cup-polymarket-2026-06-19]]。
 
-関連: [[@CryptoHayes]] / [[regulation-catalyst]]（CFTC Selig）/ [[perp-dex-wars]]
+関連: [[@CryptoHayes]] / [[regulation-catalyst]]（CFTC Selig / Fable 輸出規制）/ [[vc-founder-thesis-layer]]（Near / 分散型 AI）/ [[perp-dex-wars]]
 <!-- synthesis:end -->

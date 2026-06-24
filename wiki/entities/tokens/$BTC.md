@@ -4,13 +4,13 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 109
+mentions: 114
 accounts: 14
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 109件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 114件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -64,4 +64,7 @@ accounts: 14
 - 既存の「Saylor が $300M 積み増し中」（前回更新）と逆方向の force が同時に存在 = **Saylor が BTC を積みながら、その financing 手段（STRC）が BTC を dragging している構造的矛盾**。
 
 **関連**: [[$STRC]] / [[$MSTR]] / [[majors-rotation-supercycle]]（STRC崩壊＝BTC downside trigger 候補）
+
+### 2026-06-24 確認（新 beat なし）
+- worklist 代表ツイ「$BTC balance on exchanges just hit 7-year low」([[@milesdeutscher]] 5,655♥) は **2025-01-16 の古ツイ**（前回更新②で既確認）。「$1000 in $BTC in 2012」([[@zhusu]] 5,398♥) は複数年前の古ツイ。本サイクルの新 beat なし。既存合成に変化なし。
 <!-- synthesis:end -->

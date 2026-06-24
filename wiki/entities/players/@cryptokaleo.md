@@ -1,32 +1,32 @@
 ---
 type: entity
 kind: player
-title: @CryptoKaleo
+title: @cryptokaleo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 14
+posts: 12
 ---
 
-# @CryptoKaleo
+# @cryptokaleo
 
-> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MSTR]](2) [[$STRC]](2)
+[[$STRC]](3)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 331 | [[$MSTR]] | You can still sell your $MSTR for more than $100. | [[CryptoKaleo__2069114688684585059]] |
-| 201 | [[$STRC]] | $STRC   If you like STRC at $89, you’ll love it at $75. | [[CryptoKaleo__2069117421827362909]] |
-| 131 | [[$MSTR]] [[$STRC]] | Saylor and Strategy are finally admitting cash is their new priority, as it should b | [[CryptoKaleo__2069066734099685388]] |
-| 128 |  | I’ve lost several thousand followers over the last several weeks.  I started sharing | [[CryptoKaleo__2069133341983445068]] |
-| 124 |  | Bitcoin has been up only vs. MSTR since STRC launched. | [[CryptoKaleo__2069153057410068919]] |
-| 78 |  | GOOODDDDD MORNING to everyone still here | [[CryptoKaleo__2069063782039511405]] |
-| 73 |  | FWIW - I still believe Bitcoin runs it back to new all time highs when the MSTR / ST | [[CryptoKaleo__2069228883862266234]] |
-| 28 |  | Is X broken for anyone else??  Can’t reply to anything right now | [[CryptoKaleo__2069132032890827065]] |
-| 28 |  | BOOMER SOONER | [[CryptoKaleo__2069252674684424481]] |
-| 22 |  | Reminder:  STRC isn’t guaranteed to go back to its peg, even if they keeps paying th | [[CryptoKaleo__2069203521879036094]] |
+| 381 |  | Pudgy Penguins builds the right way.  Luca and the team have entered both Walmart an | [[CryptoKaleo__2068016517317378366]] |
+| 245 | [[$STRC]] | There’s a much higher chance $STRC never returns to $100 than anyone gives it credit | [[CryptoKaleo__2068336189443027032]] |
+| 244 |  | The last Saylor post reeks of desperation.  It doesn’t address anything about the si | [[CryptoKaleo__2068325951134429287]] |
+| 219 |  | Buying more here has the same type of feel as when you have a huge levered position  | [[CryptoKaleo__2068693968054034657]] |
+| 151 | [[$STRC]] | “Absolute power corrupts absolutely”  In 2022, Strategy was completely different str | [[CryptoKaleo__2068320480713494946]] |
+| 131 |  | Every Bitcoin buy he makes right now is just a mask to try and make MSTR holders hap | [[CryptoKaleo__2068709272222105824]] |
+| 81 |  | GOODDDD MORNING CRYPTO TWITTER | [[CryptoKaleo__2068691498695356567]] |
+| 64 | [[$STRC]] | $STRC isn’t the first multi-billion dollar cash like preferred instrument to exist.  | [[CryptoKaleo__2068370260617572731]] |
+| 52 |  | Gonna bring home a natty today fellas   Boomer | [[CryptoKaleo__2068752461024600217]] |
+| 47 |  | I'll gladly hop on stream and discuss MSTR / STRC with anyone else who has a differe | [[CryptoKaleo__2068008254945239198]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

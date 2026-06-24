@@ -4,17 +4,17 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 108
-accounts: 14
+mentions: 114
+accounts: 15
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 108件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 114件 / 15アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CredibleCrypto]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MurphyBTC]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
 [[$BTC]] [[$USDC]] [[$SOL]] [[$PEPE]] [[$SHIB]] [[$ATOM]] [[$AAVE]] [[$ENA]]
@@ -54,4 +54,7 @@ accounts: 14
 - **ETH short クローズ（MurphyBTC、2026-06-22T13:17）**: 「Hyperliquid TOP10 鯨が ETH 約 133 億円分のショートポジションをクローズ。$HYPE は変わらず約 160 億円のショート継続」([[MurphyBTC__2069047162751840655]] 5♥)。前回②で観測した「ETH 273 億円 short」は解消 = TOP10 が **ETH の弱気賭けを手仕舞い**。
 - **示唆**: ETH short の解消 = 「大口の弱気最前線はETHから外れた」。HYPE short は維持されているため、ETH/HYPE の方向性が TOP10 内で**分岐**した。ETH 単体としては大口 short という重しが一つ減。ただしこれは「ETH 強気転換」ではなく「弱気ポジション解消」のレベル。KOL コンセンサス（Hayes 等の強気）と合わせると、ETH の **"弱気材料の1つが外れた"** 状態。
 - 既存合成「ETH = コンセンサストレード（リターン薄）」に変化なし。confidence 中（変化なし）。
+
+### 2026-06-24 確認（新 beat なし）
+- worklist 代表ツイ「Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = 2022-10-25) / 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = 2022-04-07) は古ツイ再キャプチャ（前回更新で既確認）。本サイクルの新 beat なし。既存合成に変化なし。
 <!-- synthesis:end -->

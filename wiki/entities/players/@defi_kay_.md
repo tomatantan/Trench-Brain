@@ -4,12 +4,12 @@ kind: player
 title: @defi_kay_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 110
+posts: 111
 ---
 
 # @defi_kay_
 
-> 自動生成。信号投稿 110件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 111件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$ZK]](1)

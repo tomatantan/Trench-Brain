@@ -36,6 +36,7 @@
 
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。
+- [[bankless-ai-crackdown-internet-2026-06-23]] — Illia Polosukhin (Near Protocol) × Bankless: Fable 輸出規制 / AI 国有化 / 分散型 AI "full sovereign mode"（⚠️ 創業者ポジション最大）（2026-06-23）
 - [[bankless-arthur-hayes-ai-crash-bitcoin-1m-2026-06-22]] — [[@CryptoHayes]] AI bubble thesis / ETH setup / perp起源 / BTC $1M causal chain（2026-06-22）
 - [[bankless-world-cup-polymarket-2026-06-19]] — W杯チケット × Polymarket IRL ヘッジ事例（2026-06-19）
 

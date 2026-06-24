@@ -4,12 +4,12 @@ kind: player
 title: @noritaka_okabe
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 17
+posts: 20
 ---
 
 # @noritaka_okabe
 
-> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -25,8 +25,8 @@ posts: 17
 | 26 |  | 投資家の村口さんがご来社。 ありがとうございました！ | [[noritaka_okabe__2069281225794281645]] |
 | 20 |  | JPYCの使い道がわからない方、 こども食堂に寄附しませんか？ | [[noritaka_okabe__2068932611997897045]] |
 | 19 |  | 日本ならJPYCがあります！ | [[noritaka_okabe__2068844234833358883]] |
+| 19 |  | 2019年春に現JPYC立ち上げて、2021年1月にJPYC Prepaid始めたの、なかなか神がかってますよね？ でもね、金利ってマイナスなのは本来おかしいんです。  | [[noritaka_okabe__2069557392925507642]] |
 | 17 |  | 参考になります。 JPYCは余剰資金のまず2%を目指します。 みんなそうすれば2.6兆円になります。 | [[noritaka_okabe__2068841898404638908]] |
-| 15 |  | 石草流の名前の通りで、日本の美を感じますね！ | [[noritaka_okabe__2069280343044342166]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

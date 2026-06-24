@@ -4,12 +4,12 @@ kind: player
 title: @blknoiz06
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 109
+posts: 113
 ---
 
 # @blknoiz06
 
-> 自動生成。信号投稿 109件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 113件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$PENG]](1) [[$ETH]](1) [[$WIF]](1) [[$TRUMP]](1) [[$MU]](1)

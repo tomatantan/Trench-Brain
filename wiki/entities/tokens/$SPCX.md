@@ -4,13 +4,13 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 23
+mentions: 25
 accounts: 16
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 23件 / 16アカ。
+> 自動生成(brain/build_entities.py)。言及 25件 / 16アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -24,6 +24,7 @@ accounts: 16
 |---|---|---|---|
 | 6,182 | [[@WatcherGuru]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
 | 779 | [[@WatcherGuru]] | JUST IN: Elon Musk is down $150 billion from his net worth today after SpaceX $SPCX  | [[WatcherGuru__2069188912619081898]] |
+| 458 | [[@coingecko]] | NEWS: $SPCX falls 17.8%, erasing most of its gains since its market debut. | [[coingecko__2069288716133425284]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 278 | [[@CryptoHayes]] | $SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive? | [[CryptoHayes__2064196537908085090]] |
 | 259 | [[@CryptoHayes]] | Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market? | [[CryptoHayes__2065237665440804899]] |
@@ -31,7 +32,6 @@ accounts: 16
 | 191 | [[@theunipcs]] | i'm objectively curious:  is a $2.6 trillion valuation too high for SpaceX / $SPCX?  | [[theunipcs__2066971886785900644]] |
 | 176 | [[@MEXC]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
 | 139 | [[@cryptocom]] | Earn 4% p.a. on the SpaceX ($SPCX) tokenized stock with a flexible term.   A first f | [[cryptocom__2067548618341384397]] |
-| 118 | [[@DefiIgnas]] | $SPCX Open Interest:  - Binance: $312.8M - Hyperliquid: $309.0M - Variational: $15.6 | [[DefiIgnas__2065455392646201375]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -70,4 +70,7 @@ accounts: 16
 - **示唆（判断）**: [[@CryptoHayes]]「9月 unlock = low float high FDV shitcoin」（2026-06-22）の thesis が **unlock 前の現在時点で既に全騰幅消去**として実現しつつある。DefiIgnas の「低 float / 高 FDV」懐疑 + MurphyBTC の「lockup 解除で売り圧フェーズ」という論理の前半が今証明された。残るのは 9 月 unlock 以降の売り圧が追加でどれほどか。既存の強気サイド（「初値割れ予想を覆した」[[0xFunX]]・Tesla-run 類比 [[solbrdl]]）は全騰幅消去で根拠消失。
 - **⚠️ MEXC の $SPACEX(PRE) とは分けて考える**: MEXC 広告は先物（perp）商品ラインの継続。$SPCX 本体の株価が -17.8% でもデリバティブ取引所は存続する（[[perp-dex-wars]]の観点では板・流動性が生き続ける可能性）。ただし underlying が全騰幅消去なら perp の強気 funding は剥落方向。
 - **confidence = 弱気（更に強化）**。[[spacex-ipo-narrative]] の「外部イベント→フィーバー→ダンプで全消し」完結パターン確定へ近づいている。
+
+### 2026-06-24 確認（新 beat なし）
+- worklist 代表ツイ「$SPCX falls 17.8%」([[@coingecko]] 458♥) は更新④で既合成済。[[@MEXC]]「Every pullback creates a new question」(37♥) は取引所プロモ = 独立信号なし。本サイクルの新 beat なし。既存合成（全騰幅消去・弱気強化）に変化なし。
 <!-- synthesis:end -->

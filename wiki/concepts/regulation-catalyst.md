@@ -46,10 +46,39 @@ confidence: 中
 - **WhiteHouse は"外部の発端"の早期検知点**だが⚠️crypto直接シグナルは薄い（[[@WhiteHouse]] の投稿はマクロ/外交中心）＝政策の crypto 含意は KOL の解釈を経由。
 - 監視: 立法の可決/署名（GENIUS済/CLARITY係争中）、SEC人事、Trump政策のdeliver、EU MiCA。
 
+## AI 輸出規制 — 新しい規制フロンティア（2026-06-23追記）
+
+> 出典: [[bankless-ai-crackdown-internet-2026-06-23]]（Bankless × Illia Polosukhin / Near Protocol）
+
+### 事実（観測）
+- 米政府が Anthropic の Fable 5 に export control を発動。理由: 安全懸念・ジェイルブレークリスク。
+- Anthropic は同時にプライバシーポリシーを変更（有料でも安全目的でデータ保持）。
+
+### Illia thesis（⚠️ 最大ポジション持ち）
+- **インターネット断片化の前例**: 「一サービスが止まった = 次はどこでも止められる」。スペクトル: UK 制限 → ロシア検閲 → イラン停止 → 今回の Fable。
+- **AI 国有化シナリオ**: 「AI は核兵器と同等」と AI lab 自身が言う → 政府が国安保案件として国有化へ。帰結 = Claude co-worker が PC に居る = 政府エージェント。全会話・療法記録・財務データへのアクセス。
+- **KYC 義務化**: Export control が続けば「米国市民だけ」を確認する手段 = AI 利用者 KYC が現実的要件になる。
+
+### ⚠️ 懐疑・反証
+- Fable 輸出規制 = Iran/Russia と同列化は修辞的飛躍。export control ≠ 全体ネット停止。
+- AI 国有化はまだ政治的議論の段階。廃止・撤回の可能性も同等。
+- Illia の「分散型 AI = 解」は自社製品(Near / IronClaw)への誘導。
+- Export control の**対抗効果**（Illia 指摘): 米外のソブリン AI ラボ設立を促進 → 逆に AI 開発が分散 = 米国の意図に反する可能性。
+
+### 動線（AI 規制 → trench）
+```
+AI export control / 国有化論
+  → 中央集権 AI への不信感増大
+    → 分散型 AI ナラティブ追い風（Near / Venice 等の AI privacy tokens）
+      → crypto のソブリン価値訴求が強化
+```
+⇄ 但し: 制度化の本当の時系列は不明。「来るかもしれない」で張る前に政策の実行を確認（[[onchain-verification]] の規律）。
+
 ## 関連
-- [[vc-founder-thesis-layer]]（規制=追い風thesis）/ [[external-event-to-token-pattern]]（政策meme $TRUMP）/ [[majors-rotation-supercycle]]（マクロ）/ [[onchain-verification]]（政策言説の検算）
-- [[@cdixon]] / [[@RyanSAdams]] / [[@brian_armstrong]] / [[@WhiteHouse]] / [[@balajis]] / 集計の入口: [[signal|Signal digest]]
+- [[vc-founder-thesis-layer]]（規制=追い風thesis / 分散型AI thesis）/ [[external-event-to-token-pattern]]（政策meme $TRUMP）/ [[majors-rotation-supercycle]]（マクロ）/ [[onchain-verification]]（政策言説の検算）/ [[ai-memes]]（confidential inference / AI privacy tokens）
+- [[@cdixon]] / [[@RyanSAdams]] / [[@brian_armstrong]] / [[@WhiteHouse]] / [[@balajis]] / [[@Bankless]] / 集計の入口: [[signal|Signal digest]]
 
 ## 出典(生ソース)
 [[@cdixon]] FIT21/GENIUS/CLARITY, [[@hosseeb]]/[[@KyleSamani]] Trump政策/summit, [[@RyanSAdams]] SAB121/debanking,
 [[@laurashin]] reserve仕込み, [[@brian_armstrong]]/[[@balajis]] 規制=制約。（全て sources/x/ の原ツイに保存済）
+Bankless × Illia Polosukhin (2026-06-23): Fable 輸出規制・AI 国有化・分散型 AI 動線。→ [[bankless-ai-crackdown-internet-2026-06-23]]

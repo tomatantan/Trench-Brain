@@ -4,24 +4,25 @@ kind: token
 title: $TRIPLET
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
-accounts: 2
+mentions: 5
+accounts: 3
 ---
 
 # $TRIPLET
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@PumpfunEco]] [[@xvwmuca]]
+[[@Crypto_Alch]] [[@PumpfunEco]] [[@xvwmuca]]
 
 ## 共起トークン
-[[$KINTON]]
+[[$ALTSZN]] [[$ASTEROID]] [[$AURA]] [[$BUTTCOIN]] [[$JOTCHUA]] [[$KINS]] [[$NEET]] [[$THREE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 76 | [[@PumpfunEco]] | $TripleT has pumped 44% today! 🔥 | [[PumpfunEco__2068987840583676395]] |
 | 72 | [[@PumpfunEco]] | This trader bought $430 worth of $TripleT at $61K market cap and never sold a single | [[PumpfunEco__2069021232616415540]] |
 | 51 | [[@PumpfunEco]] | $TripleT is rallying, currently up 34% in 24 hours 👀 | [[PumpfunEco__2068762770183536753]] |
@@ -41,4 +42,7 @@ accounts: 2
 - [[survivor-memes]] 観点では持続力未証明：PumpfunEcoの宣伝的言及が多数を占めており、独立したKOL signalは薄い。
 
 ⚠️矛盾: 言及4のうち3がpump.fun公式ECOアカウント=自己宣伝的コンテキスト。独立KOLの追認がない段階では signal強度を割り引く必要がある。
+
+### 2026-06-24 更新
+- **Crypto_Alch $10K→$100K バスケット #6**: [[Crypto_Alch__2069507304773374136]] 128♥ で $TripleT をリスト 6 番目に掲載（$USELESS > $ASTEROID > $NEET > $Buttcoin > $KINS > **$TripleT**）。既存の PumpfunEco 単体言及に Crypto_Alch が加わった形 = 2 ソース確認。ただしバスケット 10 銘柄の一角であり個別強度ではない。既存合成に変化なし。
 <!-- synthesis:end -->
