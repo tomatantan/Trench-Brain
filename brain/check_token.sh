@@ -88,6 +88,23 @@ for q in [CA] + ([f"${sym}"] if sym and len(sym) >= 3 else []):
         live[u] = {"by": u, "followers": au.get("followers"), "text": (t.get("text") or "")[:140],
                    "likes": t.get("likeCount"), "matched": ("CA" if q == CA else "ticker")}
 ranked = sorted(live.values(), key=lambda x: -(x.get("followers") or 0))[:12]
+# ★live×corpus融合: 各 live account を corpus(player entity＋過去call track-record)と照合＝「誰が語ってるか」の質
+try:
+    _td = json.load(open("brain/state/tracked.json", encoding="utf-8"))
+    _items = _td if isinstance(_td, list) else list(_td.values())
+except Exception:
+    _items = []
+for v in ranked:
+    a = v["by"]
+    ent = os.path.exists(f"wiki/entities/players/@{a}.md")
+    their = [x for x in _items if a in (x.get("kol_ca") or [])]
+    if their:
+        dd = sum(1 for x in their if x.get("status") == "dead")
+        v["corpus"] = f"corpus既知{'(watchlist)' if ent else ''}・過去call{len(their)}件中死{dd}=track-record"
+    elif ent:
+        v["corpus"] = "corpus既知(watchlist entity有・call記録未蓄積)"
+    else:
+        v["corpus"] = "corpus未知(無名/watchlist外=信頼性不明)"
 out["live_X_誰が語ってるか"] = ranked or "X上で言及ゼロ(誰も語ってない=無風・新規の典型)"
 out["live_X_要約"] = {"語ってる人数": len(live), "最大follower": (ranked[0]["followers"] if ranked else 0),
                       "CA一致投稿": sum(1 for v in live.values() if v["matched"] == "CA")}
