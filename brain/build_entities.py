@@ -13,6 +13,7 @@ Karpathy の LLM Wiki パターン準拠:
   wiki/entities/tokens/$<TICKER>.md    閾値超えの $ticker
 """
 import html
+import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -147,6 +148,13 @@ def main():
         ]
         (ENT / "tokens" / f"{tk}.md").write_text("\n".join(page), encoding="utf-8")
 
+    # KOL track-record(call生存率)を entity に焼く=信頼性の合成(kol_track_record.py が生成・/checkも読む)
+    ktr_f = ROOT / "brain" / "state" / "kol_track_records.json"
+    try:
+        ktr = json.loads(ktr_f.read_text(encoding="utf-8")) if ktr_f.exists() else {}
+    except Exception:
+        ktr = {}
+
     # ---- player entity ----
     for h, posts in pl_posts.items():
         n_pl += 1
@@ -154,12 +162,23 @@ def main():
         toptok = [f"[[{t}]]({c})" for t, c in pl_tokens[h].most_common(10)]
         rows = [f"| {lk:,} | {' '.join('[['+t+']]' for t in tks[:3])} | {snip(bd)} | [[{fn}]] |"
                 for lk, bd, fn, tks in posts[:10]]
+        hl = h.lower()
+        tr = ktr.get(hl) or ktr.get(hl.rstrip("_")) or ktr.get(hl + "_")  # handle variant(末尾_)も照合
+        if tr and tr.get("evaluated", 0) >= 2:
+            dr = tr["death_rate"]
+            read = "⚠️callの死多(信頼性低)" if (dr or 0) >= 70 else "平均的" if (dr or 0) >= 40 else "callが残りやすい(相対的に注目)"
+            tr_section = [f"## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）",
+                          f"CA言及 {tr['mentioned']}件 / 現outcome評価 {tr['evaluated']}件中 **死{tr['dead']}（{dr}%）** ＝{read}。",
+                          "> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。", ""]
+        else:
+            tr_section = []
         page = [
             "---", "type: entity", "kind: player", f"title: @{h}",
             "updated: 2026-06-22", "tags: [trench, entity, player]",
             f"posts: {len(posts)}", "---", "",
             f"# @{h}", "",
             f"> 自動生成。信号投稿 {len(posts)}件。watchlist: [[watchlist]]。", "",
+            *tr_section,
             "## よく言及するトークン", " ".join(toptok) or "—", "",
             "## 高エンゲージ投稿",
             "| likes | tickers | 抜粋 | source |", "|---|---|---|---|",
