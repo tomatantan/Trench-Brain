@@ -234,9 +234,14 @@ def _r3c():
     except Exception:
         return "WARN", "base_rate parse不可"
     n_ledger = len(ledger)
+    # ★厳格化(再監査2026-06-24): 旧版は died==0 でしかFAILせず「tracker走ってるが台帳合成が遅れてる」を
+    #   見逃すfalse-greenだった。tracker(died)が台帳件数を大きく上回る=合成側backlog=FAILで検出する。
+    LAG = 2
     if died == 0 and n_ledger >= 2:
-        return "FAIL", f"base_rate died=0 だが死亡台帳に{n_ledger}件の確定死亡=矛盾(tracker計測が台帳に追いついてない)"
-    return "PASS", f"died={died} / 死亡台帳{n_ledger}件(整合)"
+        return "FAIL", f"died=0 だが台帳{n_ledger}件=tracker計測が台帳に未反映"
+    if died > n_ledger + LAG:
+        return "FAIL", f"tracker died={died} > 死亡台帳{n_ledger}件(差{died-n_ledger})=死の合成backlog(両輪の合成側が遅れ・指針3)"
+    return "PASS", f"died={died} / 死亡台帳{n_ledger}件(差≤{LAG}=整合)"
 
 
 @check("H1", "衛生/指針6", "concept が confidence frontmatter を持つ(主張の確信度を明示)")

@@ -20,7 +20,8 @@ status: dead
 - reply: 0 / tokenized_agent: no / real_sol: 0（bonding curve消費済）
 - links: [twitter @MoonlakeAI](https://x.com/MoonlakeAI) / [website](https://moonlake.design)
 - pool: `59XdiyMnAuKQk2kFwFuKBc4Krh99m6LJM4tvQHY7GAPC`
-- status: **dead**（BREAKOUT $1M 突破後 -96.8% で死亡閾値突破）
+- 最終確認: mcap $3,529（2026-06-24）
+- status: **dead**（BREAKOUT $1M 突破後 peak比 -99.7% で死亡確定）
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

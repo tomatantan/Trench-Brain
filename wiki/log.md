@@ -2,6 +2,8 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-24 auto-synthesis (deaths 9件): $MOONLAKE/$PHONEBLACK/$VCSOL/$AXIOS/$TBHR/$EYEZ/$JAKE/$SLICK/$MAYHAM を dead 確定。[[rug-anatomy]] 死亡台帳 N=10（+6行追記）。型：BREAKOUT-then-dead（$MOONLAKE/$PHONEBLACK）/ graduated-but-empty（$VCSOL/$AXIOS/$TBHR）/ traction無し誕生即死（$EYEZ/$JAKE/$SLICK/$MAYHAM）。
+
 - 2026-06-24 backfill auto-synthesis 5件: [[@ShapeFN_]]（$MERLIN/$SERGEYEVNA・バイラル外部事象→token追い手・[[external-event-to-token-pattern]]）/ [[@PumpfunEco]]（pump.fun公式アンプ・$JOTCHUA/$SOLANGELES報告・[[launchpad-economics]]・[[jp-meme-cluster]]）/ [[@Clutch_FIFA2026]]（$CLUTCH専用promo・FIFA W杯2026→meme・[[external-event-to-token-pattern]]）/ [[@xvwmuca]]（$KINTON文化ブリッジ・春麗/Tung Tung Tung・[[jp-meme-cluster]]）/ [[@spyzer]]（$MASK最大KOL・「Save The Trenches」・[[survivor-memes]]・[[external-event-to-token-pattern]]$VINE）。
 
 - 2026-06-24 YouTube auto-synthesis 1件: [[bankless-ai-crackdown-internet-2026-06-23]]（Bankless × Illia Polosukhin / Near Protocol）。主要 thesis: Fable 5 輸出規制=インターネット断片化前例 / AI 国有化 → KYC義務化 / 分散型 AI = Near の tailwind（⚠️ 創業者ポジション最大）/ オープンソース 3〜6ヶ月で Fable 同水準予測 / "alignment is a meme"。波及: [[regulation-catalyst]]（AI輸出規制セクション追記）/ [[vc-founder-thesis-layer]]（分散型AI 6本柱追加・Near 詳細）/ [[ai-memes]]（confidential inference インフラ層追記）/ [[@Bankless]]（Illia ゲスト追記）。frontmatter synthesized: true に消し込み済。

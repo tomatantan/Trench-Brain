@@ -1,6 +1,6 @@
 # 憲法 conformance レポート（機械検査・自己採点でない）
 
-PASS 18 / FAIL 0 / WARN 1 / 計19
+PASS 19 / FAIL 0 / WARN 0 / 計19
 
 | id | 指針/節 | 要件 | 判定 | 証拠/違反 |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ PASS 18 / FAIL 0 / WARN 1 / 計19
 | I1 | §Ingest | index.md/log.md を維持＝取込を記録・カタログ化 | ✅PASS | index=True log=True |
 | L2 | §Lint実挙動 | lintが実際に動いてる(stampが新しい＝存在でなく実行) | ✅PASS | last_lint 13h前(実行痕) |
 | Q2 | §Query実挙動 | /wiki が実際に queries を蓄積してる(存在でなく稼働痕) | ✅PASS | queries 1枚(0なら未稼働) |
-| R3b | 指針2/3 計測鮮度 | 死の分母tracker(base_rate/tracked)が凍結してない=最近更新されてる | ✅PASS | base_rate 最終更新 0.3h前（>6h=凍結=FAIL） |
-| R3c | 指針6 矛盾 | base_rateのdiedと死亡台帳が矛盾してない(計測整合) | ✅PASS | died=9 / 死亡台帳4件(整合) |
-| H1 | 衛生/指針6 | concept が confidence frontmatter を持つ(主張の確信度を明示) | ⚠️WARN | confidence欠落: ['launch-pulse.md'] |
+| R3b | 指針2/3 計測鮮度 | 死の分母tracker(base_rate/tracked)が凍結してない=最近更新されてる | ✅PASS | base_rate 最終更新 0.5h前（>6h=凍結=FAIL） |
+| R3c | 指針6 矛盾 | base_rateのdiedと死亡台帳が矛盾してない(計測整合) | ✅PASS | died=9 / 死亡台帳10件(差≤2=整合) |
+| H1 | 衛生/指針6 | concept が confidence frontmatter を持つ(主張の確信度を明示) | ✅PASS | 全conceptにconfidence有 |
 | H2 | 衛生/前のめり防止 | 強い断定(確証/確定/必ず)が裏付け(⚠️/仮説/N)無しに先走ってない=型化バイアス防止 | ✅PASS | 裏付け無き断定なし(前のめり型化なし) |

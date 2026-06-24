@@ -3,10 +3,10 @@ type: entity
 kind: token
 title: $TBHR
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-24
 source: auto-track (pump.fun)
 tags: [trench, entity, token, auto-track]
-status: fading
+status: dead
 ---
 
 # $TBHR — Task Bar Hero
@@ -16,16 +16,17 @@ status: fading
 
 ## ライフサイクル（auto-track）
 - 初観測: 2026-06-23 / 門: **graduated**（complete=true＝Raydium移行済）
-- mcap 推移: $19,260 → $17,900 → **$2,459**（-86%、直近サイクル比）
-- reply: 0 / tokenized_agent: no / real_sol: 79030801588（bonding curve 残存）
+- mcap 推移: $19,260 → $17,900 → $2,459（-86%・2026-06-23）→ **$1,321**（最終・2026-06-24）
+- reply: 0 / tokenized_agent: no / real_sol: 79030801588
 - links: [twitter @TaskBarHero_](https://x.com/TaskBarHero_) / [website (Steam)](https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/)
 - pool: `4MG59UzXFn21aZygfmfKGLJ139o8sFiHiNBwDxXW9mU9`
-- status: **fading**（mcap -86%・死亡圏に接近）
+- status: **dead**（peak $19.3k → $1,321・-93.1%・KOL ゼロ・reply 0 のまま死亡確定）
 
 <!-- synthesis:start -->
 ## 合成メモ
 - **観測更新（2026-06-23）**: mcap が $17.9k→$2.5k（-86%）まで急落。reply 0・KOL ゼロ継続。graduated だが流動性が枯れている典型的 "graduated but empty" 型（[[launchpad-economics]]）。
 - **ナラティブ角度**: Steam ストアリンク（App ID 3678970）というユニーク属性は残るが、KOL 一次ソース（sources/x）に言及ゼロ＝narrative が伝播していない。gaming × meme ナラティブが立つ前に価格が崩落。
 - **⚠️ real_sol 残存**: `real_sol: 79030801588`（≒79 SOL）は bonding curve 上の residual 可能性（graduated=true との整合は API ラグかもしれない）。
-- **判断**: traction ゼロ × mcap 急落 = 死亡台帳入り候補。[[rug-anatomy]] の "traction 無し即死" 型に近い。Steam リンクがあっても社会的接続ゼロでは機能しない実例。次サイクルで RETIRE 基準を超える見込み。
+- **判断**: traction ゼロ × mcap 急落。[[rug-anatomy]] の "traction 無し即死" 型。Steam リンクがあっても社会的接続ゼロでは機能しない実例。
+- **最終確認(2026-06-24)**: peak $19.3k → **$1,321**（-93.1%）・**dead 確定**。cause=gaming/Steam 命名の独自性もKOL 経由で伝播せず traction ゼロで自然死。[[launchpad-economics]] 「graduated but empty」分母確定。[[rug-anatomy]] 死亡台帳へ。
 <!-- synthesis:end -->

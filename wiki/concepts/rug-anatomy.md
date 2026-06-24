@@ -2,7 +2,7 @@
 type: concept
 title: 型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-24
 tags: [trench, concept, pattern, rug, scam, screening, risk]
 memetic_potential: —
 confidence: 中〜高
@@ -52,9 +52,15 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | [[$AXIOS]] | graduated | ~$53k | reply0 / KOL0 | 複数サイクル(~1.5日) | 出来高消費後・買い手不在 | **graduated-but-empty**＝KOL無し卒業型の自然死 |
 | [[$VCSOL]] | graduated | ~$192k | reply0 / KOL0 | ~1日 | IP参照命名もtraction取れず・興味消滅 | graduated-but-empty（IP借用≠KOL代替） |
 | [[$MOONLAKE]] | graduated | $1.03M | reply0 / KOL0 | ~1日(BREAKOUT後即死) | AIテーマ冠・有機的需要ゼロ | **BREAKOUT-then-dead**＝traction無しBREAKOUTは持続しない |
+| [[$PHONEBLACK]] | graduated | ~$214k | reply0 / KOL0 | ~1日(BREAKOUT後崩壊) | traction無しBREAKOUT→全損 | BREAKOUT-then-dead（$MOONLAKEと同型・崩壊深度最大-98.7%） |
+| [[$TBHR]] | graduated | ~$19k | reply0 / KOL0 | ~1日 | gaming/Steam命名もtraction伝播ゼロ | graduated-but-empty（実在リンク≠traction代替） |
+| [[$EYEZ]] | graduated | ~$1.4k | reply0 / KOL0 | 誕生即死 | mcap枯れ（初観測≒最終） | traction無しの即死 |
+| [[$JAKE]] | graduated | ~$1.4k | reply0 / KOL0(twitter無し) | 誕生即死 | mcap枯れ | traction無しの即死（social基盤ゼロ） |
+| [[$SLICK]] | graduated | ~$1.5k | reply0 / KOL0 | 誕生即死 | mcap枯れ | traction無しの即死 |
+| [[$MAYHAM]] | graduated | ~$421 | reply0 / KOL0(twitter/web無し) | 誕生即死(peak=last) | mcap枯れ（コホート最低） | traction無しの即死（social基盤ゼロ最低mcap） |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
-**現時点で浮いている型（N=4 確定死亡・2026-06-23 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=4**（$KRILLION/$AXIOS/$VCSOL/$MOONLAKE）。全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化しつつある（⚠️ ただし全件が同一コホート・同一時間帯の観測で独立性低い・母集団は小）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③$MOONLAKE の「traction-less BREAKOUT → 即死」は BREAKOUT が社会的需要を生まない実証。→ BREAKOUT flags を見た時の判断基準：KOL/reply の有無を必ず確認する。
+**現時点で浮いている型（N=10 確定死亡・2026-06-24 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=10**（$KRILLION/$AXIOS/$VCSOL/$MOONLAKE/$PHONEBLACK/$TBHR/$EYEZ/$JAKE/$SLICK/$MAYHAM）。全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化（⚠️ 同一コホート・同一時間帯の観測で独立性は限定的・母集団は依然小）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③$MOONLAKE・$PHONEBLACK の「traction-less BREAKOUT → 即死」は BREAKOUT が社会的需要を生まない実証（N=2）。→ BREAKOUT flags を見た時の判断基準：KOL/reply の有無を必ず確認する。④誕生即死（初観測mcap≒$1.3k）の量産型（$EYEZ/$JAKE/$SLICK/$MAYHAM）は型通りにつき1行記録のみ・深掘り不要。
 
 ## ⚠️ 境界の論争（何をrugと呼ぶか）
 - **インサイダー≠rug?**: 「割当を持つteamが利確しただけ」論 ⇄ [[@a1lon9]] は**害(at expense of users)**で rug 認定。$LIBRA の POPE wash は「意図的抽出」の証拠＝単なる利確と一線。

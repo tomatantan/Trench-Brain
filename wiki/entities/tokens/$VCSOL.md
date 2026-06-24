@@ -20,7 +20,8 @@ status: dead
 - links: [twitter @vcsoltoken](https://x.com/vcsoltoken) / [website](https://vicecitysol.site)
 - pool: `3L789E8eQXLCzpQsTxHY45LUbT17RgGKzK7jjdfHxUGn`
 - **変化(2026-06-23)**: mcap **-99%**（$191.5k→$1,676）→ 死亡閾値（-90%）突破。**dead 確定**。
-- status: **dead**（peak ~$191.5k → $1.7k・-99.1%・KOL ゼロ・reply 0 のまま死亡）
+- 最終確認: mcap $1,662（2026-06-24）
+- status: **dead**（peak ~$191.5k → $1,662・-99.1%・KOL ゼロ・reply 0 のまま死亡）
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
