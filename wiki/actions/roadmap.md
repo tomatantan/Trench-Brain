@@ -1,44 +1,42 @@
 ---
 type: actions
-title: ロードマップ / Action-Tracker（これからやること）
+title: ロードマップ / WBS（進め方）
 created: 2026-06-24
 updated: 2026-06-24
-tags: [actions, roadmap]
+tags: [actions, roadmap, wbs]
 ---
 
-# これからやること（優先順・2026-06-24）
+# 進め方 WBS（2026-06-24 整理）
 
-> 起点は常に「中身を厚くする」。賢くなる仕組み＞入力拡張＞運用。
-> 凡例: 🔧=俺が組む / ✅=承認/判断が要る(君) / ⏳=継続
+> **目的**: Sol魔界(pump meme)の **actionable edge** を返す脳＋残る地盤。
+> **整理の結論**: 土台(LLM Wiki)＋魔界エンジンは正しい＝pivot不要。emphasis を「作る」→「**使う＋pullで厚く＋sharpen**」へ。
+> finite はタスク化 / ongoing はリズム化（重いガントは不要）。凡例 🔧俺 / ✅君 / ⏳継続
 
-## ① 中身を厚くする＝最優先（"微妙/弱い"の根因＝corpus薄さ・全ての土台）
-- [x] ✅ **watchlist拡張 6人承認(段階)**＝@pumpdotfun/@mert/@HyperliquidX/@fundstrat/@VitalikButerin/@armaniferrante を追加(2026-06-24)。25一括は芯違反(収集バースト)なので段階。次枠は backlog bounded 確認後。
-- [~] 🔧 **BTCマクロ/cycle coverage**＝@fundstrat 追加で一部着手。さらに cycle analyst/MVRV を段階追加予定。
-- [ ] ⏳ 日々 `/add` で濃いソース投入（君）→ engine が自動消化（両輪）。
+## P0 魔界edgeを"使える"状態に【finite・今すぐ】
+- [x] 🔧 **/check を bot配線**＝`/check <CA>`→ape/avoid判定（2026-06-24 done）
+- [ ] ✅ 使い方の定着＝`/wiki <問い>`横断 / `/check <CA>`銘柄判定 / `/add`取り込み / 画像=vision
 
-## ② 賢くなる仕組み＝「時間軸で賢くなる」＋複利ループ
-- [ ] 🔧 **★query feedback（最優先）**＝`/wiki` の質問+答えを保存しない現状の穴を直す。価値ある Q&A を `wiki/queries/` に資産化（選別）・「薄い→要ingest」flag を action に溜め**君の質問が ingest を駆動**・質問ログ→君の関心。＝**問うほど wiki が育つ複利**。
-- [ ] 🔧 **Feedbackループ**＝脳の判断/予測を ledger に記録→track.py が結果照合→hit-rate で型/レンズを自己採点（過学習の実証チェック）。
-- [ ] 🔧 **知識の衛生管理**＝各ページ frontmatter に `confidence / status(active|stale) / source_count / last_reviewed` ＋ 主張/根拠/**未確定** を分離（誤要約の事実化＝劣化を防ぐ）。新規/更新分と重要concept から。
-- [x] 🔧 **時系列強化**＝`snapshot.py` が主要metricsを日次 dated append→`pulse_history.jsonl`＋ask.sh が /wiki で読む(「何が変わった/速度」に答える)。data+使用が揃った(2026-06-24)。trajectoryはcron日次で richen。残: pageごとの変遷節は今後。
+## P1 使う＋pullで厚く【ongoing・主フェーズ・一番効く】
+- [ ] ✅ 君が**実魔界プレイで /wiki・/check を叩く**（usageが corpus を複利化＝§Query資産化）
+- [ ] 🔧 出た gap（「薄い→要ingest」flag）→ `ingest-queue.md`→ 俺が ingest（**pull駆動**）
+- [ ] 🔧 watchlist **段階拡張**（backlog bounded 確認しながら・一括禁止＝芯）
 
-## ③ 入力を広げる
-- [x] ✅ **画像ミーム vision取り込み**＝完了（bot に画像送る→見て取り込む）。
-- [ ] ✅ **X長文記事**（`x.com/i/article/…`）＝ログイン壁で自動取得不可。判断: **(a) 貼り運用** / **(b) 認証fetch**（X cookie要・セキュリティ注意）。
-- [ ] 🔧 **Memory.md（ユーザートレード文脈）**＝何を張る/リスク許容/時間軸/関心セクター を1枚に→ `/wiki` が君に最適化（俺が枠・君が中身）。
+## P2 魔界sharpen【pull・随時】
+- [ ] 🔧 使って判明した弱点を sharpen（ape/avoid精度・型・coverage）
+- [ ] ⏳ Feedback 対照群を育て「**traction が生存を分けるか**」を検証（今N=4で未支持）
 
-## ④ 運用 / 技術的負債
-- [ ] ⏳ **24/7＝Mac電源ON＋繋ぎっぱ**が条件（caffeinate でスリープ防止・自己修復cron で daemon 永続）。
-- [ ] 🔧 **git競合の恒久対策**＝(1)collector が著者名を小文字正規化(cloud PumpfunEco vs local pumpfuneco の macOS case衝突を断つ) (2)launch_stream daemon の launch-pulse 書換えと手動gitのrace→手動git前にdaemon一時停止 or daemon自身がlock付きcommit。
-- [ ] ⏳ 君は たまに **watchlist候補を承認**するだけ。
+## P3 運用リズム
+- [ ] ⏳ **daily** = 自走(cron/daemon・24/7 on AC) + 君が使う
+- [ ] ⏳ **weekly** = review（Feedback hit-rate / coverage / 次に何を厚く / conformance）
 
-## 推奨の次の一手
-①の候補承認＋BTC macro ingest（中身を厚く）。並行で②の **query feedback**（問うほど育つ）から組む。
+## 技術負債【finite・随時】
+- [ ] 🔧 git恒久化（case正規化済・daemon race=write-only済／残: 監視）
+- [ ] 🔧 24/7 を Mac非依存に（合成をcloud化＝"いずれ"）
 
-## 完了済（この期間）
-- LLM Wiki 3層・門付き収集（cloud X 24/7＋local）・5合成輪・lint(過学習対策)
-- 対話脳 `/wiki`（@Sensitive_Wiki_bot）・`/add`・**画像vision**
-- **Skill Graph**（6レンズ＋ソースtier＋矛盾プロトコル＋確信度）→ /wiki とトークン評価
-- **punt殺し**（薄くても確信度付きの読みを必ず出す）
-- **pump再構築**（リアルタイム検知→明白scam門→流れの集約合成 launch-pulse＋standout採用）
-- watchlist自動拡張・死亡/跳躍台帳・永続化(caffeinate+自己修復cron)
+## 完了済（土台＋魔界エンジン）
+- LLM Wiki 3層・門付き収集(cloud X 24/7+local)・5合成輪・lint・**独立監査でsolid**
+- 対話脳 /wiki(@Sensitive_Wiki_bot)・/add・画像vision・**/check(ape/avoid)**
+- Skill Graph(6レンズ+tier)・punt殺し・時系列(snapshot+/wiki)・**Feedback(型hit-rate)**
+- pump再構築(リアルタイム検知→scam門→launch-pulse+standout)・KOL-CA ingestion(対照群)
+- watchlist自動拡張・死亡/跳躍台帳・conformance19(ドリフト防止)・永続化(caffeinate+自己修復cron)
+- 俺の運用憲法 `~/.claude/CLAUDE.md`（9原則+会話前後確認+取材+ユーザー像）

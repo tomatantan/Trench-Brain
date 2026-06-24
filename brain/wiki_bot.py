@@ -181,6 +181,21 @@ def assetize_query(q, ans):
             f.write(f"- [{date}] 問い「{q[:50]}」→ {(' / '.join(gaps))[:200]}\n")
 
 
+def handle_check(chat_id, arg):
+    """魔界スクリーニング: /check <CA or pump.fun URL> → ape/avoid 判定(check_token.sh)。"""
+    arg = arg.strip()
+    if not arg:
+        send(chat_id, "使い方: /check <CA(mint address) or pump.fun URL>"); return
+    send(chat_id, "🔍 スクリーニング中…(scam門+KOL+型+base-rate)")
+    try:
+        out = subprocess.run(["bash", str(ROOT / "brain" / "check_token.sh"), arg],
+                             capture_output=True, text=True, timeout=300)
+        ans = (out.stdout or "").strip() or (out.stderr or "").strip() or "(判定が空。CAを確認して)"
+    except subprocess.TimeoutExpired:
+        ans = "⚠️ タイムアウト。再試行を。"
+    send(chat_id, ans)
+
+
 def handle_wiki(chat_id, q):
     q = q.strip()
     if not q:
@@ -283,15 +298,17 @@ def main():
             if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd in ("wiki", "add", "start", "help"):
+            if cmd in ("wiki", "add", "check", "start", "help"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
                     handle_wiki(chat_id, arg)
                 elif cmd == "add":
                     handle_add(chat_id, arg)
+                elif cmd == "check":
+                    handle_check(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
-                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
                 print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
                 try:
