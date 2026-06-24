@@ -8,9 +8,10 @@ tags: [actions, roadmap, wbs]
 
 # 進め方 WBS（2026-06-24 整理）
 
-> ★**現在地(2026-06-24)**: P0(魔界edge使える)完了＝/check live＋on-chain批判をfix(wiki合成知識をlead)。
-> 基盤の autonomous成長機構を据えた(KOL-CA＋user-checked ingestion＝usageが自動でcorpus/track-recordを厚くする)。
-> パイプライン健康(synth_queue空・daemon3稼働・junk正しくskip)。**今はP1(使う＋pullで厚く)＝主フェーズ**。
+> ★**現在地(2026-06-24)**: 魔界toolkit comprehensive＝**/check(判定)・/wiki(横断)・/discover(信頼KOLの現役plays)・KOL信頼性ランキング**、全て live×corpus。
+> /check は on-chain批判をfix(wiki合成知識lead)＋live X(今の熱)＋KOL track-record bootstrap(killer edge)。
+> 基盤 autonomous成長(KOL-CA/user-checked/track-record refresh)・パイプライン健康(daemon3稼働)。
+> **core tooling揃った→次はuse+sharpen+accrual**(新tool量産はdiminishing returns)。今P1(使う)主フェーズ。
 
 > **目的**: Sol魔界(pump meme)の **actionable edge** を返す脳＋残る地盤。
 > **整理の結論**: 土台(LLM Wiki)＋魔界エンジンは正しい＝pivot不要。emphasis を「作る」→「**使う＋pullで厚く＋sharpen**」へ。
@@ -40,10 +41,13 @@ tags: [actions, roadmap, wbs]
 - [ ] 🔧 git恒久化（case正規化済・daemon race=write-only済／残: 監視）
 - [ ] 🔧 24/7 を Mac非依存に（合成をcloud化＝"いずれ"）
 
-## 完了済（土台＋魔界エンジン）
+## 完了済（土台＋魔界エンジン＋edge tooling）
 - LLM Wiki 3層・門付き収集(cloud X 24/7+local)・5合成輪・lint・**独立監査でsolid**
-- 対話脳 /wiki(@Sensitive_Wiki_bot)・/add・画像vision・**/check(ape/avoid)**
-- Skill Graph(6レンズ+tier)・punt殺し・時系列(snapshot+/wiki)・**Feedback(型hit-rate)**
-- pump再構築(リアルタイム検知→scam門→launch-pulse+standout)・KOL-CA ingestion(対照群)
-- watchlist自動拡張・死亡/跳躍台帳・conformance19(ドリフト防止)・永続化(caffeinate+自己修復cron)
+- 対話脳 /wiki(@Sensitive_Wiki_bot)・/add・画像vision
+- **/check v3**＝ape/avoid(live X×wiki合成知識×KOL track-record×live発信者の信頼性照合・on-chainは足切り)
+- **/discover**＝credibility-gated discovery(信頼KOLの現役alive言及をsurface)
+- **KOL track-record bootstrap**＝歴史CA言及の現outcome照合→per-KOL hit-rate(killer edge)
+- Skill Graph(6レンズ+tier)・punt殺し・時系列(snapshot+/wiki live X)・Feedback(型hit-rate)
+- pump再構築(検知→scam門→launch-pulse)・KOL-CA/user-checked ingestion(autonomous成長)
+- watchlist自動拡張・死亡/跳躍台帳・conformance19・永続化(caffeinate+自己修復cron)
 - 俺の運用憲法 `~/.claude/CLAUDE.md`（9原則+会話前後確認+取材+ユーザー像）
