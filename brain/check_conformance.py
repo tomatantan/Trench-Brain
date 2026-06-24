@@ -222,26 +222,30 @@ def _r3b():
     return ("PASS" if age < FRESH_H else "FAIL"), f"base_rate 最終更新 {age:.1f}h前（>{FRESH_H}h=凍結=FAIL）"
 
 
-@check("R3c", "指針6 矛盾", "base_rateのdiedと死亡台帳が矛盾してない(計測整合)")
+@check("R3c", "指針3/6 死の計測整合", "死の分母counter(base_rate.died)が実dead数(tracked.json)と一致＝正しく数えてる")
 def _r3c():
     import json as _j
+    # ★再々調整(2026-06-24): 旧R3cは died==死亡台帳件数 を要求したが、それは miscalibrated だった——
+    #   死亡台帳は「型通りの死は1行」=**型集約の学習サンプル**(20の同型死→~10型行)で、died(完全counter)と
+    #   等しくならないのが設計通り。正しい整合検査は **died vs tracked.json の実dead数**(counterが取りこぼしてないか)。
+    #   原バグ(died=0)も counter取りこぼしも これで検出する。台帳の件数比較は廃止(設計と矛盾するfalse-FAILだった)。
     p = ROOT / "brain" / "state" / "base_rate.json"
-    ledger = grep(r"^\| \[\[\$", "wiki/concepts/rug-anatomy.md")  # 死亡台帳の確定死亡行
-    if not p.exists():
-        return "WARN", "base_rate無し"
+    t = ROOT / "brain" / "state" / "tracked.json"
+    if not (p.exists() and t.exists()):
+        return "WARN", "base_rate/tracked無し"
     try:
         died = _j.loads(p.read_text()).get("died", 0)
+        td = _j.loads(t.read_text())
+        items = td if isinstance(td, list) else list(td.values())
+        n_dead = sum(1 for x in items if x.get("status") == "dead")
     except Exception:
-        return "WARN", "base_rate parse不可"
-    n_ledger = len(ledger)
-    # ★厳格化(再監査2026-06-24): 旧版は died==0 でしかFAILせず「tracker走ってるが台帳合成が遅れてる」を
-    #   見逃すfalse-greenだった。tracker(died)が台帳件数を大きく上回る=合成側backlog=FAILで検出する。
-    LAG = 2
-    if died == 0 and n_ledger >= 2:
-        return "FAIL", f"died=0 だが台帳{n_ledger}件=tracker計測が台帳に未反映"
-    if died > n_ledger + LAG:
-        return "FAIL", f"tracker died={died} > 死亡台帳{n_ledger}件(差{died-n_ledger})=死の合成backlog(両輪の合成側が遅れ・指針3)"
-    return "PASS", f"died={died} / 死亡台帳{n_ledger}件(差≤{LAG}=整合)"
+        return "WARN", "parse不可"
+    n_ledger = len(grep(r"^\| \[\[\$", "wiki/concepts/rug-anatomy.md"))
+    if died == 0 and n_dead > 0:
+        return "FAIL", f"died=0 だが tracked に dead {n_dead}件=死counter壊れ(原バグ)"
+    if died < n_dead:
+        return "FAIL", f"died={died} < tracked実dead {n_dead}件=counter取りこぼし"
+    return "PASS", f"died={died}=tracked実dead{n_dead}(counter整合) / 台帳{n_ledger}型(型集約の学習サンプル=died≧台帳は正常)"
 
 
 @check("H1", "衛生/指針6", "concept が confidence frontmatter を持つ(主張の確信度を明示)")
