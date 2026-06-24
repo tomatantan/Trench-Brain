@@ -238,3 +238,4 @@ brain/state/bot.out
 brain/state/launch_synth.log
 brain/state/launch_stream.log
 brain/state/conformance.log
+ca_outcome_cache.json

@@ -94,13 +94,20 @@ try:
     _items = _td if isinstance(_td, list) else list(_td.values())
 except Exception:
     _items = []
+try:
+    _ktr = json.load(open("brain/state/kol_track_records.json", encoding="utf-8"))  # bootstrap済 track-record
+except Exception:
+    _ktr = {}
 for v in ranked:
     a = v["by"]
     ent = os.path.exists(f"wiki/entities/players/@{a}.md")
+    tr = _ktr.get(a.lower())
     their = [x for x in _items if a in (x.get("kol_ca") or [])]
-    if their:
+    if tr and tr.get("evaluated", 0) >= 2:  # bootstrap済の歴史track-record優先(richer)
+        v["corpus"] = f"corpus既知{'(watchlist)' if ent else ''}・歴史track-record: 言及{tr['mentioned']}/評価{tr['evaluated']}中死{tr['dead']}({tr['death_rate']}%死)"
+    elif their:
         dd = sum(1 for x in their if x.get("status") == "dead")
-        v["corpus"] = f"corpus既知{'(watchlist)' if ent else ''}・過去call{len(their)}件中死{dd}=track-record"
+        v["corpus"] = f"corpus既知{'(watchlist)' if ent else ''}・過去call{len(their)}件中死{dd}"
     elif ent:
         v["corpus"] = "corpus既知(watchlist entity有・call記録未蓄積)"
     else:
