@@ -272,6 +272,21 @@ def _h2():
     return ("WARN" if bad else "PASS"), (f"前のめり断定疑い: {bad[:3]}" if bad else "裏付け無き断定なし(前のめり型化なし)")
 
 
+@check("OP1", "運用/パイプライン健全", "build_entities が成功して entity が新鮮(=合成パイプラインが crash してない)")
+def _op1():
+    import time as _t
+    pdir = ROOT / "wiki" / "entities" / "players"
+    if not pdir.exists():
+        return "WARN", "players entity dir無し"
+    files = list(pdir.glob("@*.md"))
+    if not files:
+        return "WARN", "player entity無し"
+    newest = max(f.stat().st_mtime for f in files)
+    age_h = (_t.time() - newest) / 3600
+    # build_entities が crash すると entity が更新されず古くなる→検出(2026-06-24 の @/add-image crash を捕まえる為)
+    return ("FAIL" if age_h > 12 else "PASS"), f"最新player entity {age_h:.1f}h前更新({len(files)}件)＝{'古い=build_entities停止疑い' if age_h > 12 else 'パイプライン稼働'}"
+
+
 def main():
     rows = []
     for id, ref, req, fn in CHECKS:
