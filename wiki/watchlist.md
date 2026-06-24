@@ -194,6 +194,17 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 | [[@SpaceX]] | SpaceX | SpaceX designs, manufactures and launches the world’s m |
 | [[@elonmusk]] | Elon Musk | https://t.co/dDtDyVssfm |
 
+## 自動拡張→承認（2026-06-24・引用グラフ候補から本人承認・段階追加）
+| account | name | 役割/理由 | 優先 |
+|---|---|---|---|
+| [[@pumpdotfun]] | Pump.fun | launchpad本体・新規ローンチの源（[[launchpad-economics]]） | 高 |
+| [[@mert]] | mert | Helius/Solana インフラ・dev動線 | 中 |
+| [[@HyperliquidX]] | Hyperliquid | perp dex本体（[[perp-dex-wars]] 直結） | 中 |
+| [[@fundstrat]] | Fundstrat | マクロ/BTC cycle 分析（BTC coverage 穴埋め） | 中 |
+| [[@VitalikButerin]] | Vitalik | Ethereum 共同創業・思想/影響力 | 中 |
+| [[@armaniferrante]] | Armani | Backpack 共同創業・RWA/tokenized株($SPCX系) | 中 |
+> ↑ signal_backlog を見ながら段階追加（一括でなく＝合成が追いつくレート維持・芯）。次枠は backlog が bounded を確認してから。
+
 <!-- auto-candidates:start -->
 ## 自動拡張候補（引用グラフ・要承認 / `expand_watchlist.py` 自動生成）
 watchlist の **3アカ以上**が言及した未収集アカ＝門に足す候補（指針2: 繰り返し引用＝KOL言及門）。
