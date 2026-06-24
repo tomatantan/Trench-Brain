@@ -2,7 +2,7 @@
 type: concept
 title: 型 — 外部イベント → token（二股: RWA と meme）
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-24
 tags: [trench, concept, pattern, causal-chain, external-factor, playbook]
 memetic_potential: —
 confidence: 中
@@ -30,6 +30,13 @@ trench に token を生む。しばしば **2系統に分岐**する:
 | (elon/Tesla比較) | — | [[$ASTEROID]]($SPCXのTesla-run類推) | [[spacex-ipo-narrative]] |
 
 サンプルが2-3→**6件超**に増え、型の確度が上がった。同時に**meme側が更に2サブ型に割れる**ことが見えた（下記）。
+
+## ★死亡側の実証：イベント/IP借用 × traction無し → 死（[[rug-anatomy]] 死亡台帳）
+「外部イベント発」は点火条件であって生存条件でない。**借用名が crypto の有機的 traction に転換しないと死ぬ**＝死亡台帳での実証（全て reply0/KOL0 で死）：
+- [[$VINTEDGATE]]（Vinted 欧州論争借用・X/TikTok social 有り）→ crypto traction 未伝播で -92.9% 死。**social整備≠crypto need**。
+- [[$LEGACY]]（Pokemon IP "Legacy Pikachu" 借用）→ prebond で -97.1% 消滅。[[$VCSOL]]（GTA参照）と同型＝**IP参照命名≠traction代替**。
+- [[$ADTX]]（実株ティッカー借用・reddit link）/ [[$TBHR]]（gaming/Steam命名）→ graduated-but-empty 死。
+- ＝この型の **FAILURE モード**: 発端の話題性だけでは [[reflexivity]] の燃料(認知→買い)が点火せず、[[launchpad-economics]] の98.5%死に合流。**borrowed narrative**([[manipulation-playbook]] 型3)とも重なる＝/checkは「イベント借用×traction0」を死signalとして読む。
 
 ## サブ型: 政治/要人 meme = grift で急減衰（[[$TRUMP]]系で観測）
 meme側のうち**政治家/要人を発端**にするものは、IPO/世界大会発と違う固有の崩れ方をする＝別サブ型として括る。
