@@ -12,8 +12,37 @@ launch_synth.sh がこれを claude に渡し『launch-pulse concept』を更新
 import json
 import sys
 import time
+import urllib.request
 from collections import Counter
 from pathlib import Path
+
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+
+def live_mcap(mint):
+    """検知時でなく今の mcap を pump.fun から再取得(監査2026-06-24 重大2: snapshot固定=追跡フリを潰す)。"""
+    if not mint:
+        return None
+    try:
+        req = urllib.request.Request(f"https://frontend-api-v3.pump.fun/coins/{mint}",
+                                     headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=8) as r:
+            d = json.loads(r.read().decode("utf-8", "replace"))
+        return d.get("usd_market_cap")
+    except Exception:
+        return None
+
+
+def _cand(d):
+    """候補に live mcap と検知時からの変化%を付ける=stale(動いてない)か実movementか分かる。"""
+    det = d.get("usd_mcap") or 0
+    live = live_mcap(d.get("mint"))
+    delta = None
+    if live and det:
+        delta = round((live - det) / det * 100, 1)
+    stale = (delta is not None and abs(delta) < 2)
+    return {"sym": d.get("symbol"), "reply": d.get("reply"), "mint": d.get("mint"),
+            "mcap_検知時": det, "mcap_live": live, "変化pct": delta, "stale": stale}
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "brain" / "state"
@@ -84,8 +113,7 @@ def main():
         "scam_reject_rate": round(rejected / max(1, stats.get("rugchecked", 1)), 3),
         "theme_distribution": dict(themes.most_common()),
         "kol_standouts": [{"sym": d.get("symbol"), "mint": d.get("mint"), "twitter": d.get("twitter")} for d in kol[:8]],
-        "traction_candidates": [{"sym": d.get("symbol"), "reply": d.get("reply"), "mcap": d.get("usd_mcap"),
-                                 "mint": d.get("mint")} for d in traction[:8]],
+        "traction_candidates": [_cand(d) for d in traction[:8]],  # live mcap+変化%付き(stale判定)
         "recent_samples": [{"sym": d.get("symbol"), "name": d.get("name"), "theme": theme_of(d.get("name", ""), d.get("symbol", ""))}
                            for d in sorted(rows, key=lambda d: -(d.get("detected_at") or 0))[:12]],
         "death_denominator": {"mints_seen": base.get("mints_seen"), "gate_passed": base.get("gate_passed"),
