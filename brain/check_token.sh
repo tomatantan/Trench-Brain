@@ -170,6 +170,7 @@ done
 LEDGER="$(sed -n '/死亡台帳/,/^## /p' wiki/concepts/rug-anatomy.md 2>/dev/null | head -45)"
 FEEDBACK="$(cat wiki/dashboards/feedback.md 2>/dev/null | head -40)"
 MANIP="$(cat wiki/concepts/manipulation-playbook.md 2>/dev/null | sed -n '/^## 型/,/出典/p' | head -50)"
+RISKW="$(cat brain/state/risk_weights.json 2>/dev/null | head -40)"
 
 # ★usageがcorpusを育てる(本人「inputは少なく・autonomousに」): checkした銘柄を tracking に入れfateを学ぶ。
 #   本人の自然な /check（実プレイ）が、追加inputなしに死亡/跳躍台帳とKOL track-recordを厚くする＝魔界基盤の autonomous成長。
@@ -188,5 +189,9 @@ $LEDGER
 $FEEDBACK
 
 ## 魔界 manipulation playbook(social手口・live Xがこの型に当てはまるか照合):
-$MANIP"
+$MANIP
+
+## ★経験的 risk weights(predictive study・lift_vs_base>1=baseより死にやすい/<1=生存寄り):
+この銘柄の gate/traction を下の factor に当てはめ、**lift で定量的に**死寄り/生存寄りを述べよ（例: graduated×traction無=lift高=強avoid）。peak mcap<10kは事実上全滅。
+$RISKW"
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"

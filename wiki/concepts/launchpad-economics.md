@@ -54,6 +54,12 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - ⚠️ 留保: 母集団は同一launchpad・近時間帯で独立性低・現mcap近似。だが gate差(75% vs 13%)は大きく型として頑健。
 - 含意（賭け）: **"graduated・traction無し" は最強の死signal**（/check が avoid に振る根拠）。逆に **mcap勢い門通過 × KOL/reply traction** が相対的 survivor 候補＝[[manipulation-playbook]] で手口を除外した上で見る。
 
+### peak mcap 規模の予測力（[[predictive-study]] N=99）
+- **peak mcap <10k ＝ 死亡率 100%（24/24）**＝最も clean な死signal。小peakは mcap勢いが立たず事実上全滅＝/check は「peak/現mcap が極小」を強い avoid に。
+- 10-50k 42% → 50k超は概ね 23-25%＝**規模が立つほど(=社会的需要の代理)生存率上昇**。但し >1M でも 25%死＝大型でも安全でない。
+- **死は崩落**: dead 銘柄の平均 drawdown **-47.8%**（多くは-90%超）＝"fading だから様子見"は通用せず**早期判定**が要る。
+- 経験的重みは `brain/state/risk_weights.json`＝/check が単純照合でなく **lift付き予測** に使う。詳細 [[predictive-study]]。
+
 ## auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
 死(→[[rug-anatomy]] 死亡台帳)と対。`brain/track.py` が **BREAKOUT(mcap前回比+100%超) / GRADUATED** を検知する度、
 `brain/synthesize.sh` の合成が**跳躍シグネチャを1行追記**する。「跳ねる前に何が見えていたか」の共通項を貯める学習台帳。

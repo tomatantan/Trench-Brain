@@ -33,6 +33,7 @@
 - [[regulation-catalyst]] — ★動線: 規制/政策→trench（GENIUS/FIT21・SEC・Trump政策・⚠️発表≠実行）
 - [[rug-anatomy]] — ★型: rugの解剖（[[$LIBRA]]・赤旗チェックリスト＝screeningの入力・実用edge寄り）
 - [[manipulation-playbook]] — ★型: 魔界social手口（pumper exit/bot投票campaign/借用ナラ＝/checkが検出する"乗せられ方")
+- [[predictive-study]] — ★実証: 死の分母data N=99 で「何が運命を分けるか」（peak<10k=100%死/graduated×tr無70%/traction有18%＝/checkの予測重み）
 - [[launch-pulse]] — ★観測: ローンチの流れ合成（pump非scam flow・死の分母・テーマ分布・KOL standout）
 
 ## 要約ページ（summaries）
