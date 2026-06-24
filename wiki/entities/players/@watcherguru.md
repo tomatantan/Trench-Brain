@@ -30,5 +30,8 @@ posts: 24
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **マクロ/金融ニュース速報アカウント（組織メディア）**。crypto 専業でなく株/マクロ/地政学(Trump/Fed/JPMorgan/オイル)まで広く「JUST IN」速報。エンゲージ大(数千〜6千♥)＝市場全体のセンチメント broadcaster。
+- **trenchでの絡み**: 個別 meme でなく**外部マクロイベントの中継**。[[spacex-ipo-narrative]] では「$SPCX が10.5%下落、$2500億超を時価から消去」を速報＝tokenized stock フィーバーの**反転の時系列マーカー**(6/22 -10.5%→-16%)として参照。trench を動かす外部イベント(株市場・Fed・地政学)の入口として機能。
+- **⚠️**: 「JUST IN」ヘッドライン速報は煽り/釣り見出しが多くトーンは割引く。crypto-native の深い分析でなく速報の量で勝負＝signal の濃さより速さのアカウント。
+- **関連**: [[spacex-ipo-narrative]]
 <!-- synthesis:end -->

@@ -30,5 +30,8 @@ posts: 42
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **中央集権取引所（CEX）の組織アカウント**。個人KOLでなく取引所マーケティング。投稿はサッカーキャンペーン/イベント/AIアバター等の販促が大半＝**trench signal は薄い宣伝アカ**。
+- **trenchでの絡み**: 例外は $SPCX 先物の宣伝＝取引所が tokenized stock フィーバーに**煽り参加**した点。「$SPCX 先物の日次出来高 800M USDT」を誇示＝[[spacex-ipo-narrative]] で資金フローの兆候として参照（取引所の listing/出来高がフィーバー加速の燃料）。それ以外は trench 動線への寄与小。
+- **⚠️**: 取引所＝出来高を煽る利害。$SPCX の OI/出来高アピールはポジショントーク。listing が pump の出口になる構造も意識（CEX上場＝流動性供給かつ売り場）。
+- **関連**: [[spacex-ipo-narrative]]
 <!-- synthesis:end -->

@@ -30,5 +30,8 @@ posts: 22
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: L1 の**公式アカウント（組織）**。個人KOLでなくエコシステムの一次広報。投稿は機関採用(Moody's/AWS/Kraken/Toss Bank/MoneyGram)・tokenized equity・agent経済(ERC-8004)の announce が中心＝「Solana という地面の宣伝」。
+- **trenchでの絡み**: trench の meme/launchpad が乗る**基盤の代弁者**。$MU/$ARX 等の tokenized stock・新規プロジェクト発射を公式が告知＝下流の meme/RWA に居場所を与える上流。[[l1-substrate-wars]] の Solana 陣営、[[spacex-ipo-narrative]] の tokenized equity 拡張($SPCX→$MU)、[[ai-memes]] の agent経済基盤として参照される。
+- **⚠️**: 自社プラットフォームの booster＝採用ニュースは公式バイアスあり。tokenized stock の backing 未検証は別途要検算（[[onchain-verification]]）。
+- **関連**: [[l1-substrate-wars]] / [[spacex-ipo-narrative]] / [[ai-memes]]
 <!-- synthesis:end -->

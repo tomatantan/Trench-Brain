@@ -30,5 +30,8 @@ posts: 95
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 大物 crypto コメンテーター／ビルダー（Echo 創業）。高エンゲ（1-2.6万♥）投稿は皮肉/相場マクロ/政治評で、trench に対しては**距離を置いた懐疑者**。launchpad concept で「pumpfun で数秒ごとに新商品を作ってる訳じゃない」という冷笑として引用される。
+- **思想/スタンス**: 反・煽り。「毎日トップを叫ぶ暇があれば母親に電話しろ」「Elon が pleb に DOGE を買わせて自分は BTC を15億ドル買った」等＝**KOL/インフルの煽りと利益相反を皮肉る**立場。alt の severe flush を淡々と記録する観測者寄り。
+- **⚠️**: tickerは集計上ゼロ＝個別 meme を推さない。Echo 創業者ゆえ launchpad/トークン発行の利害は持つが、投稿テーブルからは特定銘柄ポジトークは読めない。役割は「trench の外から醒めた視点」。
+- **賭け仮説/関連**: launchpad の持続性懸念を体現する懐疑層（[[launchpad-economics]] 内で a1lon9 の楽観に対する皮肉として引用）。煽り（[[majors-rotation-supercycle]] の supercycle 連呼や [[survivor-memes]] の強気一色）に対する逆張りトーンの参照点。関連: [[launchpad-economics]]。
 <!-- synthesis:end -->

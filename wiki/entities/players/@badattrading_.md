@@ -30,5 +30,8 @@ posts: 100
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: trench の degen トレーダー兼 on-chain解析者。低エンゲ（数十～百♥）の高頻度ポストで、無名銘柄を早期に拾う逆張り嗜好＋ rug の構造解析（sniper%/insider%/集中度/bundled）を提供。後者が [[rug-anatomy]] の赤旗チェックリストの中核入力。
+- **思想/スタンス**: 逆張り＝「ネガティブが多いコインが正解」「聞いたことない物が最良」「結局はホールド」（投稿テーブル）。同時に fake volume を嫌い「get this shit out of my dex front page」と board の不正を糾弾＝**ナラティブでなく板/オンチェーンの実態を見る**スタンス。
+- **⚠️**: 「2k views instantly / treasury wallet から 10 SOL borrow」等、自身の影響力・資金繰りを率直に晒すタイプ＝ポジション開示は素直だが degen 自認。逆張り格言（ネガティブ＝買い）は survivor bias の発生源にもなりうる。
+- **賭け仮説/関連**: rug を「sniper(集中リスク) vs bundled(無条件アウト)」と程度で分離する解析が型化の核（[[rug-anatomy]]）。集中度解析（$WIF top70 66.1%）は生存memeの薄い実流動を暴く（[[survivor-memes]]）。＝自動化すれば指針2の traction門に"安全門"を足せる候補。関連: [[rug-anatomy]] / [[survivor-memes]] / [[onchain-verification]]。
 <!-- synthesis:end -->

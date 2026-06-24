@@ -30,5 +30,8 @@ posts: 16
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **Alliance（crypto系アクセラレータ）の運営者／VC側の論者**。trenchではmemeでなく、上流の「何が作られるか(token markets/AI agents/perp deployer)」のthesisを供給する。
+- **思想/スタンス/影響**: ①AI agent経済への構造的懐疑＝「全員がoutbound agentを持てばfiltering agentが要り、systemは自重で崩壊」＝[[ai-memes]] の**"自律＝価値"への反証(tragedy-of-the-commons)**の出典。②token market/HIP-3 deployer/PMFシグナル(顧客がinvestしたがる)等のVC観点。③Kalshi/Polymarket(prediction市場)はon-chain流動性に net negative との見立て。
+- **⚠️**: position＝Allianceのbacker(Founders Fund/Jump/Jane St系)＝出資先thesisを推す当事者。AI-meme強気一色のcorpusに対し**懐疑側**を供給する稀な声＝バイアス補正に有用だが、deal flowの利害は割り引く。直接のtoken pumpではない。
+- **関連**: [[ai-memes]]（agent乱立の自壊論＝"自律"懐疑の出典）。
 <!-- synthesis:end -->

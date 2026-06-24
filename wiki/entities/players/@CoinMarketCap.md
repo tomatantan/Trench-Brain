@@ -30,5 +30,8 @@ posts: 88
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **価格情報アグリゲータ（組織・Binance傘下）**。投稿は要人発言の引用速報(Saylor/SEC Peirce/CLARITY Act/Jack Mallers)＋"shill me"等のコミュニティ煽り＝価格メディア兼ソーシャル運営。CoinGecko と同型だが本 corpus はニュース引用と engagement bait が混在。
+- **trenchでの絡み**: 個別動線への参加でなく**要人発言の拡声器**。[[ai-memes]] では Strategy CEO の「60億人→6兆エージェントが crypto rails で取引」という agentic-economy マクロ物語を**経由(@CoinMarketCap 経由)**して trench に流す中継点＝AI-meme の上流ナラティブ供給ルートの一つ。
+- **⚠️**: Binance 傘下＝中立データを謳うが親会社バイアスの可能性。"Shill me / 強いコミュニティ"系の投稿は engagement 稼ぎで signal 価値は低い。引用速報は発言者の主張であって CMC の検証ではない。
+- **関連**: [[ai-memes]]
 <!-- synthesis:end -->

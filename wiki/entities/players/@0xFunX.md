@@ -30,5 +30,8 @@ posts: 25
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 中国語圏の**生活/テック系インフルエンサー（W杯4K直播・giffgaff SIM配布・X会員等の雑談中心）**。crypto専業ではなく、観測の大半はtrench外。役割は限定的＝周辺観測者。
+- **思想/スタンス/影響**: crypto関連の数少ない動線は**SpaceX/Elon礼賛**(「SpaceXは人類史上最も偉大な企業になるか」「Elonは万亿富翁」)から $SPCX 言及へ。[[spacex-ipo-narrative]] では**強気側の反例**＝「初日必ず破発と言われたが開盘150→高値176→終値161」とHayes系skepticismに反論する声として登場(後にHayes thesis=9月unlock/全騰幅消去が部分実現し、この反論は短命と判明)。
+- **⚠️**: crypto signalは薄く役割不明瞭＝**要追加観測**。pump-dump懸念より、雑談に混じる散発的な強気コメントの一つ。
+- **関連**: [[spacex-ipo-narrative]]（$SPCX 初値割れ不発の強気反論者）/ [[$SPCX]]。
 <!-- synthesis:end -->

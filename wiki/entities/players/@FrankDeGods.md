@@ -30,5 +30,8 @@ posts: 104
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Solana NFT/meme 文化の中心人物（DeGods / y00ts 創業）兼コミュニティ点火役。高エンゲ（数千～1.7万♥）投稿で chain/プロジェクトを号令し動員する。[[external-event-to-token-pattern]] では「Trump が自分の $TRUMP ツイを RT した」と本人RTによる点火を記録した出所。
+- **思想/スタンス**: ハイプ駆動・コミュニティ動員型＝「fuck it, send it to $100」「$300 今夜行くよな」等の煽り、y00tlist のピッチ募集、「massive chain を始めよう」とコミュニティ召集。Trump/crypto 親和（「Trump が国の債務を解決したかも」「TRUMP IS FINE WITH CRYPTO」）。AI 興味（DeepSeek 絶賛）も。
+- **⚠️**: 典型的な**煽り発信者**＝price target を絵文字で叫ぶタイプ＝指針9（淡々）とは逆の信号源。動員力が大きいぶん grift/influencer pump の触媒になりうる（[[rug-anatomy]] の influencer pump-dump 型に隣接）。投稿テーブルに具体ポジトークは薄いが y00ts/DeGods 当事者の利害は持つ。
+- **賭け仮説/関連**: trench での記録上の価値は「政治meme の点火＝本人RTで最大動員」の一次例（[[external-event-to-token-pattern]] の政治/要人 meme サブ型＝点火は最大・定着はゼロ）。関連: [[external-event-to-token-pattern]]（$TRUMP 点火）/ [[rug-anatomy]]（influencer 動員の影）/ [[l1-substrate-wars]]（Solana 文化側）。
 <!-- synthesis:end -->

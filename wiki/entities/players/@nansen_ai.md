@@ -30,5 +30,8 @@ posts: 17
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **on-chain 分析プラットフォーム（組織）**。本来は smart-money ラベル/wallet 追跡が売りだが、観測投稿は大半が **$1M Trading Raffle の販促**＝自社トレード/perp プロダクトの集客キャンペーン。本来の分析 signal はこの corpus には薄い。
+- **trenchでの絡み**: 「Solana spot trader は Nansen を開いておくべき」＝on-chain 監視ツールとしての立ち位置を主張。$SPCX perp を Hyperliquid/tradexyz 経由で提供＝[[spacex-ipo-narrative]] の perp 側プレイヤー兼 raffle 集客。原理上は [[onchain-verification]] の観測装置（[[@arkham]]/[[@lookonchain]] と同系）だが、本 corpus では raffle 宣伝が前面。
+- **⚠️**: 自社プロダクト(raffle/perp)の集客バイアス。分析ツールとしての中立 signal と販促ツイは分けて読む。
+- **関連**: [[spacex-ipo-narrative]] / [[onchain-verification]]
 <!-- synthesis:end -->

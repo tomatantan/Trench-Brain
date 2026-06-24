@@ -30,5 +30,8 @@ posts: 28
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 日本語の個人トレーダー／自作シグナル系発信者（信号投稿28件と少なめ）。「上昇下落を事前検知する独自システム」で $BEAT 等の暴落を予告し、SPCX のロックアップ解除リスク等を日本語で解説。[[perp-dex-wars]] では Hyperliquid TOP10 鯨のオンチェーン short 観測の出所として引用。
+- **思想/スタンス**: short/逆張り＋低フロート相場の売り圧警戒。「$SPCX の低フロート相場の次に来る売り圧フェーズに注意」「TOP10 鯨が $HYPE 約160億円・$ETH 約273億円を short」＝大口の弱気ポジションを板/オンチェーンで拾う観測者。Claude でコードを書く非エンジニア自認。
+- **⚠️**: シグナルシステムの精度・的中は本人主張ベースで一次裏取り無し（自己宣伝色）。AMA/賞金/アンバサダー申請等の集客投稿も混じり、trench 解析と販促が同居。tickerは $BTC/$BEAT/$SPCX 等マクロ＋株寄りで純 meme は薄い。
+- **賭け仮説/関連**: trench での価値は [[perp-dex-wars]] への「TOP10 内部 short＝自家中毒的構造」という生々しい観測供給（HYPE buyback flywheel の影の実証、ただし lookonchain 系の wallet 紐付け推定と同じ限界）。関連: [[perp-dex-wars]] / [[spacex-ipo-narrative]]（SPCX ロックアップ解除＝売り圧）/ [[onchain-verification]]（大口ポジの裏取り規律）。
 <!-- synthesis:end -->

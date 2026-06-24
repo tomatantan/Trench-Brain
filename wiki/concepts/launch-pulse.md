@@ -3,6 +3,7 @@ type: concept
 title: 型 — launch pulse（出来立ての流れ）
 created: 2026-06-24
 updated: 2026-06-24
+confidence: 観測ベース（数字はT1集計・読みは仮説）
 tags: [launch, pump, flow, pulse, death-denominator]
 ---
 

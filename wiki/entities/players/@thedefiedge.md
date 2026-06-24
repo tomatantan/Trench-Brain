@@ -30,5 +30,8 @@ posts: 118
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: educational/構造分析寄りの crypto analyst（KOL）。高エンゲ投稿は cognitive biases / portfolio構築 / VC史（3AC）等の教養スレッドで、trench の数字面（perp OI・vol・供給）を venue 横断で相対化する解説者として複数 concept に引用される。
+- **思想/スタンス**: 構造的・データ駆動。perp では「$170B 30D vol, $8.7B OI」「Phoenix は 6x 安いが airdrop 無し」と venue 比較で moat を見る（[[perp-dex-wars]]）。alt season には弱気＝「2021は$1Bステーブルあたり~2.6Kトークン、今は~125K＝供給希釈でローテが薄まる」と構造論で諌める（[[majors-rotation-supercycle]]）。
+- **⚠️**: 投稿テーブル自体は教養/自己啓発スレッドが上位で trench 固有のポジトークは表に出ていない。trench での価値は concept 内で引用される「数字の相対化」役であり、tickerは [[$TIME]]/[[$WMEMO]] 等の旧 OHM 系で現trenchと薄い。
+- **賭け仮説/関連**: 「数字を venue/供給で相対化する懐疑層」の代表。[[majors-rotation-supercycle]]（供給希釈論＝4枯渇説の#2）/ [[perp-dex-wars]]（OI/vol/Phoenix比較）/ [[onchain-verification]]（OI のvenue差で板シグナルを相対化）/ [[launchpad-economics]]（供給希釈の蛇口）/ [[spacex-ipo-narrative]]・[[l1-substrate-wars]]（複数チェーン観測の中立解説）。
 <!-- synthesis:end -->

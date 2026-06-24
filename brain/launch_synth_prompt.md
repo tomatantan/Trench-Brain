@@ -7,7 +7,7 @@
 
 ## やること（2つ）
 ### ① `wiki/concepts/launch-pulse.md` を更新（流れの生きた合成＝メイン）
-「今 trench が何を発射してるか」の常時更新ページ。frontmatter(type: concept / title: 型 — launch pulse（出来立ての流れ）/ updated)。中身:
+「今 trench が何を発射してるか」の常時更新ページ。frontmatter(type: concept / title: 型 — launch pulse（出来立ての流れ）/ updated / **confidence: 観測ベース（数字はT1集計・読みは仮説）**)。中身:
 - **観測(JSONから)**: 直近window の非scam flow 件数・**scam reject率**・**テーマ分布**(AI/animal/political/IP/defi/meme/other)・死の分母(mints_seen/gate_passed/graduated/died)。
 - **判断(あなたの読み・横断)**: いま濃いテーマは何か／scam率が示すもの／死の分母の動き／前回updateからの変化。[[launchpad-economics]] [[rug-anatomy]] [[reflexivity]] [[survivor-memes]] に必ず接続。
 - 簡潔に。網羅でなく「流れの要点と意味」。前回の本文は上書き更新（最新の流れを映す）。

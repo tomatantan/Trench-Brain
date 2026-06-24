@@ -30,5 +30,8 @@ posts: 120
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: Bankless 共同創業の**Ethereum陣営の主筆／規制ナラティブの当事者**。trenchではmemeでなくETH=settlement層・規制という上流の語り部。
+- **思想/スタンス/影響**: ①Ethereum推し＝「ETHは唯一黒字のチェーン($2.7B annualized profit)・the money layer・L2はtidal wave」([[l1-substrate-wars]] のETH陣営代表)。②反規制/反銀行＝Tornado Cash開発者逮捕への抗議・自身のdebanking証言(BofA 2019, 6,591♥)・SAB121拒否権批判([[regulation-catalyst]] の逆風=adversaryの記憶パート)。「crypto vs banks」のフレーム。
+- **⚠️**: 立場はEthereum/DeFi擁護に強くバイアス。「financial prison」等の修辞は規制を一律に制約と描く側＝[[regulation-catalyst]] の追い風⇄逆風の対立軸の片側として割り引く。pump-dump懸念は薄い(個別token煽りでなくセクター/思想の論者)。
+- **関連**: [[l1-substrate-wars]]（ETH settlement/profit/L2）/ [[regulation-catalyst]]（debanking/SAB121の逆風証言）。
 <!-- synthesis:end -->

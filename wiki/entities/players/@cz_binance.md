@@ -30,5 +30,8 @@ posts: 12
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **Binance 創業者（個人＝最大級の影響力 KOL）**。組織アカでなく本人。エンゲージは桁違い(数千〜1.4万♥)＝発言が市場/規制の方向に重みを持つ要人。RWA/tokenized stock 推し・各国規制当局との折衝・ユーザー保護をテーマに発信。
+- **trenchでの絡み**: 「各国は株をトークン化して世界中の買い手に開放すべき(RWA)」「トークン化後に最大の流動性プールへアクセスしたがる」＝**tokenized equity ナラティブの旗振り**で [[spacex-ipo-narrative]] の RWA 側 thesis を上流から後押し。[[perp-dex-wars]] では $ASTER(equity perps)の buyback/burn を RT＝BNB 寄り competitor を後援＝Hyperliquid 一強への対抗軸の backer。
+- **⚠️**: 世界最大 CEX(Binance/BNB エコ)の創業者＝発言は自陣(BNB チェーン・$ASTER・Binance 上場銘柄)に有利な方向のポジショントーク。「規制前進」アピールも自社の正当化文脈。
+- **関連**: [[spacex-ipo-narrative]] / [[perp-dex-wars]]
 <!-- synthesis:end -->

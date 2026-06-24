@@ -30,5 +30,8 @@ posts: 109
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: VC（Multicoin Capital 共同創業）＝trench ナラティブの最上流"思想層"の主唱者の一人。投稿は Solana/Ethereum・規制（White House summit）・Forward Industries($1.65B PIPE)等で、個別 trench より構造 thesis を語る。
+- **思想/スタンス**: app層 optionality 派＝「SOL/ETH が次の bear market を通じて BTC を substantially outperform」（[[vc-founder-thesis-layer]] の6本柱）。stablecoin=インフラ／規制=追い風（Trump の Digital Assets Summit を「crypto thrives を確実にする」と評価＝[[regulation-catalyst]]）。Solana 強気（NYSE 取引・golden Solana card 等を連投）。
+- **⚠️**: Multicoin の持ち高で thesis を割り引く必要（規制裁定で米国に資本/人材を留めたい当事者＝指針6）。[[$FORD]](Forward Industries) は自社共催 PIPE 案件＝ポジトーク。タイムライン欠如の大言（「BTC を outperform」に年限なし）も VC 思想層共通の弱点。
+- **賭け仮説/関連**: [[vc-founder-thesis-layer]] の「BTC一極(saylor) vs app層optionality(本人)」断層の app層側＝**ここが未決着＝リターンの源泉**。[[regulation-catalyst]]（規制=追い風 thesis の実証/反証）/ [[l1-substrate-wars]]（SOL/ETH 評価軸）/ [[majors-rotation-supercycle]]（app層 outperform 論）。
 <!-- synthesis:end -->

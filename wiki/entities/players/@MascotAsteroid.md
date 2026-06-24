@@ -30,5 +30,8 @@ posts: 19
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: [[$ASTEROID]]（SpaceXマスコット発 memecoin）の**公式アカ/物語供給源**。「Asteroid = official @SpaceX mascot」「first Shiba in space」を発信し、コミュニティ越境(世界一周写真・グッズ)を演出するブランディング中枢。
+- **思想/スタンス**: トークン値動きは語らず、**物語の正統性(SpaceX公式性/IPO当日登場)とコミュニティの熱量**だけで価値を構築する純物語駆動。Asteroid Shiba のリブランド等、IP整備に注力。
+- **⚠️**: 「official SpaceX mascot」「IPOステージに実在」は当アカ/[[@solbrdl]]主張ベースで**一次裏取り未確認**。SpaceX公式を騙る/含意するブランディング自体が価格の物語リスク。プロジェクト当事者ゆえ全投稿がポジトーク。
+- **関連**: [[spacex-ipo-narrative]]（外部イベント→meme 分岐の $ASTEROID 側、物語の真偽が価格リスクとして記載）。
 <!-- synthesis:end -->

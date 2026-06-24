@@ -30,5 +30,8 @@ posts: 12
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: **[[$PEPE]] の公式/コミュニティ発信アカウント＝memeトークン本体の語り部**。trenchでは生存memeの blue-chip 化を体現する当事者。
+- **思想/スタンス/影響**: 投稿は lore/ミーム文化の供給(「4.269兆PEPE mint済・追加発行なし」「we ride at dawn」「Banksy's Walled Off Hotelに登場」)＝**物語と固定供給の正当性**を旗に。[[survivor-memes]] では $PEPE が「ETH legacy・memeの正当性を確立した原型(375,000x lore)」の代表＝本アカはその champion。Shibへの煽り合いも meme 文化の一部。
+- **⚠️**: トークン本体の発信＝**構造的に強気バイアス**(自身のtokenを推す)。[[survivor-memes]] の核心＝語られる超リターンは全て後知恵の早期entry・「$PEPE overvalued」型の弱気証言はcorpusに皆無＝懐疑はwiki側が供給。pump-dumpというより「生存者バイアスの発生源」側。
+- **関連**: [[survivor-memes]]（$PEPE=原型memeのchampion / 生存者バイアスの旗）/ [[$PEPE]]。
 <!-- synthesis:end -->

@@ -30,5 +30,8 @@ posts: 11
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 日本の個人トレーダーで、**Backpack エコシステム + tokenized 株(RWA)**を追う論者。$BP(Backpack)・[[$MU]](Micron tokenized)・[[$DRAM]] や、Solana の tokenized $SPCX 157x を拡散しSolanaへの波及を担う窓口。
+- **思想/スタンス**: 「Backpackは多くのアルトの役目を終わらせるモデル」= CEX/インフラ志向で、純memeより**RWAトークン化株でAIブームに乗る**テーマ投資派。決算(dRSI/エリオット波動)で押し目を拾うテクニカル混合の分析スタイル。
+- **⚠️**: $MU等 tokenized 株の backing(実株裏付け)は未検証([[onchain-verification]])。保有/参入銘柄のポジトーク（「遅れて参入した私もWバガー」等）あり。
+- **関連**: [[spacex-ipo-narrative]]（Solana 157x 拡散・$SPCX→$MU の Backpack tokenized equity 拡張の担い手として記載）。
 <!-- synthesis:end -->

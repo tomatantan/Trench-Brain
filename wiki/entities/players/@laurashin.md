@@ -30,5 +30,8 @@ posts: 134
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: crypto **ジャーナリスト（Unchained podcast / 著書）**。trenchではトークンを推す側でなく、要人インタビューと調査報道で**事実の検算層**を供給する。Do Kwon・Hester Peirce等を取材。
+- **思想/スタンス/影響**: 観測は取材・書籍・spot ETF引用・個人省察が中心でmeme言及は薄い($SATA/$MOTHER各1)。trenchへの作用は**政策言説の裏取り**＝[[regulation-catalyst]] で「strategic reserve(XRP/SOL/ADA)のTrump投稿はRipple系ロビーが仕込んだもの、crypto czar Sacksが内部で苦言」を報道＝**親crypto政権内でも"発表"が不真正**という反証を供給。
+- **⚠️**: pump-dump懸念は構造的に低い(報道者/利害は推奨でなく取材)。むしろ強気ナラティブに対する**懐疑のソース**として機能する。
+- **関連**: [[regulation-catalyst]]（政策の announce≠deliver / reserve仕込み投稿の報道）。観測は政策・取材寄りで個別trenchトークンへの動線は薄い＝memeシグナルとしては要追加観測。
 <!-- synthesis:end -->

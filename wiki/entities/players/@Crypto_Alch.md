@@ -30,5 +30,8 @@ posts: 44
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+- **役割**: 英語で発信する meme トレーダー/シラー。[[$KINS]]/[[$JOTCHUA]] など Pump.fun 系の直近ラリーを実況する旗振り役。日本クラスタの中では海外CT寄りの窓口。
+- **思想/スタンス**: 「Rise and gamble / No one is coming to save you」「Solana to $1000」など強気・ギャンブル肯定の degen ナラティブ。$ASTEROID・$WOJAK・$AMERICA など雑食に値動きの出ているmemeを乗り換えていく momentum 追従型。
+- **⚠️**: 「Accepting requests to join my FREE TG / share market alpha」= 自前TG誘導でフォロワー収益化の動機あり。ポジトーク前提で読む。$ASTEROID を「bundled supply」と認識した上で煽る投稿もあり、リスク承知でシルしている。
+- **関連**: [[jp-meme-cluster]]（$KINS/$JOTCHUA の Pump.fun 側担当として記載）、$ASTEROID 経由で [[spacex-ipo-narrative]] とも接触。
 <!-- synthesis:end -->
