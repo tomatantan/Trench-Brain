@@ -29,10 +29,46 @@ posts: 110
 | 2,763 |  | if the CA of your memecoin ends in bonk  then shill me in the comments with a nice t | [[theunipcs__1947289853625786663]] |
 
 <!-- synthesis:start -->
-## 合成メモ（synthesis / エージェント記述）
-- **役割**: [[$BONK]] maxi（「$16,000→$18M upnl on a single $BONK」自称）＋ memecoin超強気の旗手。「stop buying memecoins. invest in utility... utility project:（空）」＝**anti-utility のmemeネイティブ思想**。
-- **★perp-OIシグナル論**: [[$USELESS]] の perp OI（Lighter/Binance）が「OI-to-market-cap比で全memより高い」「$DOGE/$SHIB/$PEPE/$BONK/$PENGU/$WIF を超える」＝2023 $PEPE型パラの前兆と主張。**物語の前に板（数字）で先回り**する流派（[[onchain-verification]] の板シグナル変種）。
-- **⚠️**: OIは venue次第で予測力に差（[[@thedefiedge]]）。本人は確信過剰/ポエム系ツイも多い＝煽り強度に注意。
-- **ローテとの整合**: 「memecoins about to absolutely turbo send」系＝[[majors-rotation-supercycle]] の "alt-now" 軸（早撃ち派）。
-- **賭け仮説**: $BONK系/$USELESS の perp OI を先回り指標として監視。ただしOI単独でなく言説・資金移動と合わせて検算。
+## 思考の型（how they reason・視点エンジン用）
+
+---
+
+**lens（何を見るか）**
+
+- **narrative velocity** — 「もうすぐ爆発する」という大気圧を感じ取ることに特化。on-chain指標や板でなく、「場の空気」と「コミュニティの文化的エネルギー」を一次シグナルとして読む。
+- **相対MC比較** — $CAT分析に見られるように、同カテゴリ内での市場非効率（「なぜこれがあれより安いのか」）を手がかりにする。fundamental論というより *比較感覚*。
+- **platform influence 自体をlensにする** — 自分のフォロワー＆ウォレット公開がシグナルと認識。「誰がコメントを読んでいるか」を意識してポストする（観測: トークンshill募集ツイート、BonkFunスキャンをわざわざ公開）。
+
+---
+
+**style / edge（どう読み・賭けるか）**
+
+- **extreme conviction + long duration** — $16k→$18M超のBONK、12ヶ月一株も売らず。売ることへの拒否感が哲学レベル（"HODL"/"don't get shaken out"の反復）。
+- **同時に巨額レバレッジ** — スポット超長期と八桁perpsを並走させ、liquidation一撃で$30M消失。「信念の深さ」と「ポジション管理の甘さ」が共存する二重構造。観測と推論: スポットは確信、perpsは "取り返したい" 衝動ドリブンの可能性。
+- **contrarian timing（macro dip買い）** — FOMC前パニック売り→FOMC後FOMO買いのパターンを繰り返し指摘、自分は反対方向に構える。
+- **manifestation・宗教的フレーム** — "GOD WILLING"・引用句(Job 1:21)・アファーメーション連投。これは信仰の表明でもあり、フォロワー感情を束ねるコミュニティ儀式でもある（観測）。どちらが主かは不明。
+
+---
+
+**stance / thesis（核の主張）**
+
+- **永続的memecoin強気** — 「utility pushback」を嘲笑し、memecoinsを擁護し続ける。サイクルの底でも「サバイブして待て」。
+- **Sol/BonkFun推し** — BonkFunをscreening layerとして使い、BONK・FARTCOIN・$CAT等Solアセットに集中。
+
+⚠️ **利益相反明示**: 人々が彼にトークン供給を送る（マーケティング目的）と本人が認めており、推し発言がポジション起因かどうか外部からは不明。PnL公開自体がフォロワー影響力の行使。彼の強気callは**真正の確信と自己ポジション保護が混在**している可能性を常に割り引いて読む。
+
+---
+
+**tells（この人の発言/callが意味するもの）**
+
+- 「memecoins are about to rip」連投が増えたとき → 既に構築済みのポジションを持っているサイン（または持ちたいタイミング）。根拠なき予言でなく **ポジション公開の別形態** と読む。
+- $PUMP批判（"the great extraction"）→ 彼が珍しく特定トークンに懐疑を示した稀なケース。こちらは自分に不利な事象を認める傾向があり、信頼度が高い。
+- PnL公開ポスト → フォロワー引きつけの儀式であると同時に「自分はまだここにいる」という復活シグナル（特に大損後）。
+- track-record: CA言及1件のみで判断材料少。**小サンプル**＝callの再現性は現時点で不明。
+
+---
+
+**視点エンジンでの使い方**
+
+> 「@theunipcs なら：このコインを長期で持てるnarrative cultureがあるか・BonkFunで火がついてるか、を見る。あるなら '全力スポット+待つ一択' と言う。leverageは別の衝動で動く——callとperpsポジションは切り離して読め。」
 <!-- synthesis:end -->
