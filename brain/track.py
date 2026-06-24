@@ -262,6 +262,45 @@ def cmd_run(args):
     print(f"births(門通過): {len(queue['births'])} / mints_seen累計 {base['mints_seen']} "
           f"/ gate_pass累計 {base['gate_passed']}")
 
+    # 1b) ★KOL-CA ingestion(2026-06-24): watchlist KOL が tweet した CA を**直接** track する。
+    #   従来は launch feed の銘柄が KOL言及されてるか照合するだけ→新規pump launchのCAはツイに出ず
+    #   KOL-gateが空回り→traction有り銘柄がtrackedにゼロ→Feedbackの「traction→生存」が検証不能だった。
+    #   KOLが語る銘柄(launch feedに無くても)を ingest＝憲法の「pump門=traction+KOL」のKOL門そのもの＝対照群を作る。
+    #   CA_RE は wallet も拾うので、pumpfun_coin で実在pumpトークンのみ採用(無効はskip)。新規のみ・上限で backlog安全。
+    KOL_CA_MAX = 25
+    kol_ingested = 0
+    for ca, accts in list(kol_ca.items()):
+        if kol_ingested >= KOL_CA_MAX:
+            break
+        if ca in tracked:
+            continue
+        m = pf_metrics(pumpfun_coin(ca))
+        if m is None or not m.get("mint"):
+            continue  # base58だがpumpトークンでない(wallet等)=skip
+        s_ok, s_why = safety_ok(m)
+        if not s_ok:
+            continue
+        base["mints_seen"] += 1
+        base["gate_passed"] += 1
+        if m.get("complete"):
+            base["graduated"] += 1
+        sym = (m["symbol"] or "").upper()
+        disp = "$" + sym if sym else ca[:6]
+        tracked[ca] = {
+            "ticker": disp, "mint": ca, "name": m["name"], "first_seen": now_iso(),
+            "status": "tracked", "peak_mcap": m["mcap_usd"],
+            "kol_ca": accts, "kol_ticker": kol_tk.get("$" + sym, []),
+            "gate": f"safety:{s_why}/traction:kol", "tokenized_agent": m["tokenized_agent"],
+            "last": m, "history": [m], "last_synth": None, "outcome": None,
+        }
+        queue["births"].append({"ticker": disp, "mint": ca, "name": m["name"],
+                                "gate": tracked[ca]["gate"], "kol_ca": accts,
+                                "kol_ticker": tracked[ca]["kol_ticker"], "metrics": m})
+        kol_ingested += 1
+        time.sleep(0.2)
+    if kol_ingested:
+        print(f"KOL-CA ingestion: {kol_ingested}件 新規track(KOL言及銘柄=traction有り対照群)")
+
     # 2) watch: TRACKED を pump.fun で再取得（安いウォッチャー＝diff のみ）
     alive = [k for k, v in tracked.items() if v.get("status") == "tracked" and v.get("mint")]
     for k in alive:

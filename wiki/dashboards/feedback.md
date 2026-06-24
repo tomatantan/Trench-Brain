@@ -10,16 +10,17 @@ tags: [feedback, learning, hit-rate]
 > `brain/feedback.py` が tracked.json の実死亡/生存から型のhit-rateを計算（報告のみ）。
 > 断定はデータが出てから。小N/pending/比較群欠如は正直に出す。
 
-## 母集団: tracked 45件（dead 20 / pending(tracked) 25）
+## 母集団: tracked 51件（dead 26 / pending(tracked) 25）
 
 ## 型の hit-rate（観測）
 
 | 型(仮説) | 検証 | 判定 |
 |---|---|---|
-| **traction無し→死ぬ** | 死亡 20/45 (44%)・残り25はpending | 支持(死多) |
-| **traction有り→生存** | traction有り母集団 N=0（死0） | **検証不能=比較群ほぼ無し**(KOL言及銘柄がtrackedに要る→watchlist拡張①が効く) |
-| gate=graduated の死亡率 | 20/31 (64%) | 観測 |
+| **traction無し→死ぬ** | 死亡 24/47 (51%)・残り23はpending | 支持(死多) |
+| **traction有り→生存** | traction有り母集団 N=4（死2） | **検証不能=比較群ほぼ無し**(KOL言及銘柄がtrackedに要る→watchlist拡張①が効く) |
+| gate=graduated の死亡率 | 24/33 (72%) | 観測 |
 | gate=mcap勢い門 の死亡率 | 0/14 (0%) | 観測 |
+| gate=other の死亡率 | 2/4 (50%) | 観測 |
 
 ## ⚠️ 計測の限界（正直に）
 - pending(tracked)が25件＝まだ生死未決着＝hit-rateは暫定（決着で更新）。
