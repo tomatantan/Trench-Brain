@@ -26,8 +26,12 @@ for f in glob.glob("wiki/entities/**/*.md",recursive=True):
     if "_（未記入" not in t: continue
     m=re.search(r"^mentions:\s*(\d+)",t,re.M); a=re.search(r"^accounts:\s*(\d+)",t,re.M)
     men=int(m.group(1)) if m else 0; acc=int(a.group(1)) if a else 0
-    if men>=mn and acc>=2:
-        rows.append((men,f))
+    # 監査2026-06-24 重大3: 旧基準(他者言及 mentions≥3)は own投稿多の watchlist KOL を取りこぼす。
+    # players/ で own投稿(テーブル行)が多い=我々が選んで follow した signal源 も対象に加える。
+    posts=t.count("| [[")
+    is_kol_poster=("/players/" in f.replace("\\","/")) and posts>=6
+    if (men>=mn and acc>=2) or is_kol_poster:
+        rows.append((max(men,posts),f))
 rows.sort(reverse=True)
 for men,f in rows[:topn]:
     print(f"- {f} (言及{men})")
