@@ -95,14 +95,24 @@ def main():
             continue
         acct = meta.get("account", "?")
         via = meta.get("via", acct)
+        # ★handle健全化(2026-06-24 bug fix): image/system source の via(例 "/add-image")が
+        #   player entity の path を壊す(players/@/add-image.md で crash)のを防ぐ。有効X handle のみ player化。
+        def _handle(x):
+            x = str(x or "").lstrip("@").strip()
+            return x if re.match(r"^[A-Za-z0-9_]{1,30}$", x) else None
+        via_h = _handle(via)
+        acct_h = _handle(acct)
         likes = to_int(meta.get("likes"))
         tickers = sorted({t.upper() for t in TICKER_RE.findall(body)})
-        # player集計は監視主体(via)に寄せる
-        pl_posts[via].append((likes, body, p.stem, tickers))
+        # player集計は監視主体(via)に寄せる。handleでない source(画像/system)は player化しない。
+        if via_h:
+            pl_posts[via_h].append((likes, body, p.stem, tickers))
         for tk in tickers:
-            pl_tokens[via][tk] += 1
-            tk_notes[tk].append((likes, acct, body, p.stem))
-            tk_accounts[tk].add(acct)
+            if via_h:
+                pl_tokens[via_h][tk] += 1
+            tk_notes[tk].append((likes, acct_h or "?", body, p.stem))
+            if acct_h:
+                tk_accounts[tk].add(acct_h)
             for other in tickers:
                 if other != tk:
                     tk_cooc[tk][other] += 1
