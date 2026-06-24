@@ -22,7 +22,7 @@ accounts: 3
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 76 | [[@PumpfunEco]] | $TripleT has pumped 44% today! 🔥 | [[PumpfunEco__2068987840583676395]] |
 | 72 | [[@PumpfunEco]] | This trader bought $430 worth of $TripleT at $61K market cap and never sold a single | [[PumpfunEco__2069021232616415540]] |
 | 51 | [[@PumpfunEco]] | $TripleT is rallying, currently up 34% in 24 hours 👀 | [[PumpfunEco__2068762770183536753]] |

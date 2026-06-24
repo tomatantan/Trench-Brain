@@ -4,24 +4,25 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 114
+mentions: 118
 accounts: 14
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 114件 / 14アカ。
+> 自動生成(brain/build_entities.py)。言及 118件 / 14アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@DefiIgnas]] [[@MurphyBTC]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$SPX]] [[$USDC]] [[$XRP]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$STRC]] [[$PENGU]] [[$SPX]] [[$MSTR]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
+| 18,413 | [[@saylor]] | Strategy has acquired 1,587 BTC for $100 million to increase our $BTC Reserve to ₿84 | [[saylor__2066491610863419722]] |
 | 13,315 | [[@milesdeutscher]] | $BTC in March: $71k Coinbase app store ranking: 20  $BTC now: $71k Coinbase app stor | [[milesdeutscher__1851091445035515940]] |
 | 12,088 | [[@saylor]] | Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to  | [[saylor__2069028571880845340]] |
 | 10,391 | [[@zhusu]] | I'm only going to make one prediction for 2022 and it's that at least 10 nation-stat | [[zhusu__1486588538267193345]] |
@@ -31,7 +32,6 @@ accounts: 14
 | 7,304 | [[@milesdeutscher]] | $BTC in March: $72k Coinbase app store ranking: 20  $BTC now: $68k Coinbase app stor | [[milesdeutscher__1846564796021485781]] |
 | 7,163 | [[@CryptoHayes]] | The plan:  Be fucking patient. $BTC likely bottoms around $70k. 36% correction from  | [[CryptoHayes__1899261481805566368]] |
 | 7,073 | [[@milesdeutscher]] | $BTC is de-correlating from prior cycles. | [[milesdeutscher__1895362445298016468]] |
-| 6,816 | [[@milesdeutscher]] | 137k (~$3b) worth of #Bitcoin could be dumped onto the market, 8 years after the Mt. | [[milesdeutscher__1545764969118978048]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -29,8 +29,8 @@ accounts: 2
 | 252 | [[@theunipcs]] | $SOL continues to outperform $BTC, $ETH, and the other majors  now look at the $USEL | [[theunipcs__2068969521990234574]] |
 | 246 | [[@theunipcs]] | in my quoted tweet, i highlighted objective OI and volume data showing why $USELESS  | [[theunipcs__2067007170537787693]] |
 | 213 | [[@theunipcs]] | $SOL strength and outperformance is becoming increasingly obvious by the day  could  | [[theunipcs__2068789564198560214]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 135 | [[@theunipcs]] | $USELESS whales are once again buying the dip  are you? | [[theunipcs__2069457557035352227]] |
-| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

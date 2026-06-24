@@ -40,7 +40,7 @@ blue-chip 化する。[[$BONK]] [[$WIF]] [[$PEPE]] [[$FARTCOIN]] [[$PENGU]] が�
 上は **後知恵の blue-chip**。こちらは [[launchpad-economics]] の死の分母から、**早期に生存を分ける signal を実測**で抽出（retrospective lore でなく我々のコホート）：
 - **traction(KOL/reply)有り → 死12%（2/17）** vs 無し → 死55%（40/72）＝**tractionが最強の早期生存signal**（死亡率 約1/4）。
 - **mcap勢い門通過 → 死13%（3/22）** vs **graduated-but-empty → 死75%（37/49）**＝「卒業した空っぽ」より「勢いで買われてる初期」が生存。
-- ＝**早期 survivor の素描**: graduated-but-empty でない × KOL/reply traction有り × [[manipulation-playbook]] の手口(bot/borrowed/pumper-exit)を除外して残るもの。これが [[check_token]]/check の "ape寄り" 条件。
+- ＝**早期 survivor の素描**: graduated-but-empty でない × KOL/reply traction有り × [[manipulation-playbook]] の手口(bot/borrowed/pumper-exit)を除外して残るもの。これが /check の "ape寄り" 条件。
 - ⚠️ 留保: 母集団は同一launchpad・近時間帯・現mcap近似・小N＝**依然 survivorship-bias の只中**。大半は死ぬ前提。signalは確率を上げるだけで保証でない。
 
 ## プレイヤー相関

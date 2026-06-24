@@ -22,12 +22,12 @@ accounts: 4
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 2,722 | [[@CryptoHayes]] | The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e | [[CryptoHayes__2062723034369458520]] |
+| 2,725 | [[@CryptoHayes]] | The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e | [[cryptohayes__2062723034369458520]] |
 | 2,580 | [[@CryptoHayes]] | It's just ludicrous.  $ZEC to $10k | [[CryptoHayes__1986692678310899854]] |
 | 2,571 | [[@CryptoHayes]] | Vibe check   $ZEC to $10k | [[CryptoHayes__1982371104082596248]] |
 | 229 | [[@lookonchain]] | Garrett Jin(@GarrettBullish) has closed his $ZEC long for a $417K profit and his $UN | [[lookonchain__2067763889945890997]] |
-| 186 | [[@RookieXBT]] | $hype $zec barbell for q2 really do be comfy | [[RookieXBT__2056115832569413825]] |
-| 151 | [[@BinanceUS]] | We've added a new trading pair for $ZEC on @BinanceUS!  🔸 Trading is now available o | [[BinanceUS__2067446797484859794]] |
+| 187 | [[@RookieXBT]] | $hype $zec barbell for q2 really do be comfy | [[rookiexbt__2056115832569413825]] |
+| 151 | [[@BinanceUS]] | We've added a new trading pair for $ZEC on @BinanceUS!  🔸 Trading is now available o | [[binanceus__2067446797484859794]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

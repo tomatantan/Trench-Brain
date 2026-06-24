@@ -4,20 +4,20 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 21
+mentions: 24
 accounts: 11
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 21件 / 11アカ。
+> 自動生成(brain/build_entities.py)。言及 24件 / 11アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]]
 
 ## 共起トークン
-[[$ETH]] [[$AXIOM]] [[$ZEC]] [[$ASTER]] [[$LIT]] [[$AERO]] [[$TNSR]] [[$NEAR]]
+[[$ETH]] [[$SOL]] [[$AXIOM]] [[$ZEC]] [[$ASTER]] [[$LIT]] [[$AERO]] [[$TNSR]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -30,8 +30,8 @@ accounts: 11
 | 743 | [[@DefiIgnas]] | Pump fun's has only one real competitor: Axiom.  Weirdly, CT is quiet about it.  I m | [[DefiIgnas__1940679296387109279]] |
 | 543 | [[@arkham]] | THIS WHALE JUST BOUGHT $20M OF $ETH AND $HYPE  A fresh whale wallet just withdrew $1 | [[arkham__2068410022975922260]] |
 | 401 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
-| 209 | [[@DefiIgnas]] | Solana is a better 'everything chain' than Ethereum right now.  At least if what you | [[DefiIgnas__2068000315937603586]] |
-| 186 | [[@RookieXBT]] | $hype $zec barbell for q2 really do be comfy | [[RookieXBT__2056115832569413825]] |
+| 249 | [[@lookonchain]] | A whale is rotating from $ETH into $HYPE.  Two weeks ago, whale 0xEe0A sold all 3,06 | [[lookonchain__2069668599716077853]] |
+| 206 | [[@DefiIgnas]] | Solana is a better 'everything chain' than Ethereum right now.  At least if what you | [[defiignas__2068000315937603586]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

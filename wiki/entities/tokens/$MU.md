@@ -4,31 +4,33 @@ kind: token
 title: $MU
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 7
+mentions: 9
 accounts: 6
 ---
 
 # $MU
 
-> 自動生成(brain/build_entities.py)。言及 7件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 9件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@AdimsSHOGUN]] [[@DEG_2020]] [[@MEXC]] [[@blknoiz06]] [[@cryptocom]] [[@solana]]
 
 ## 共起トークン
-[[$SNDK]] [[$BB]] [[$CCL]] [[$DRI]] [[$FDX]] [[$FUL]] [[$KBH]] [[$MKC]]
+[[$SNDK]] [[$DRAM]] [[$BB]] [[$CCL]] [[$DRI]] [[$FDX]] [[$FUL]] [[$KBH]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 400 | [[@solana]] | NEW: $MU (@MicronTech) via @SunriseDeFi. issued by @Backpack Securities | [[solana__2069058195038032064]] |
 | 351 | [[@blknoiz06]] | airmass might be the greatest to ever do it with this $MU long | [[blknoiz06__2069044444393808329]] |
-| 34 | [[@MEXC]] | One investor has stayed bullish on $MU through every dip.  Her reason? The Perilla L | [[MEXC__2069379334327128388]] |
-| 27 | [[@DEG_2020]] | 恐怖強欲指数はSP500のモメンタム低下で極度の恐怖一歩手前 $MU と $SNDK -13%と暴落もSOXは月初から大きくプラス、今月は四半期末フロー意識 貴金属の下 | [[DEG_2020__2069556912782520704]] |
+| 61 | [[@DEG_2020]] | 恐怖強欲指数はSP500のモメンタム低下で極度の恐怖一歩手前 $MU と $SNDK -13%と暴落もSOXは月初から大きくプラス、今月は四半期末フロー意識 貴金属の下 | [[deg_2020__2069556912782520704]] |
+| 49 | [[@MEXC]] | One investor has stayed bullish on $MU through every dip.  Her reason? The Perilla L | [[mexc__2069379334327128388]] |
+| 42 | [[@MEXC]] | Chip stocks just had one of their biggest selloffs this month.  Now $MU earnings are | [[mexc__2069707102503710768]] |
+| 36 | [[@DEG_2020]] | $DRAM $MU $SNDK メモリ系時間外で5%近くのリバ 韓国指数Kospi連動っぽいねぇ | [[deg_2020__2069581256049017112]] |
 | 26 | [[@cryptocom]] | This week’s earnings watchlist 👀  Jun 23 👉 $FDX $KBH $CCL Jun 24 👉 $FUL $TCOM $MU Ju | [[cryptocom__2069423984219680934]] |
+| 6 | [[@AdimsSHOGUN]] | Backpackに $MU Micronキタぁ👀‼️ RWAトークン化株式でAIブームにガッツリ乗って行く🌊🏄🎒🔥 | [[adimsshogun__2069059485990269147]] |
 | 2 | [[@AdimsSHOGUN]] | みんな大好き $MU Micron  前回2026/3/18の決算では、約2wかけて約35%DOWN⤵️ dRSIは30台前半へ  6/24の決算で落ちたら拾いたいです | [[AdimsSHOGUN__2068533288885772565]] |
-| 2 | [[@AdimsSHOGUN]] | Backpackに $MU Micronキタぁ👀‼️ RWAトークン化株式でAIブームにガッツリ乗って行く🌊🏄🎒🔥 | [[AdimsSHOGUN__2069059485990269147]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

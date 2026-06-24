@@ -93,17 +93,17 @@ traction分類: 17（有り） + 72（無し）                 = 89 ≠ 92
 
 ---
 
-### M2: broken link 3 種（[[KOL track-record]] / [[feedback]] / [[check_token]]）
+### M2: broken link 3 種（[[kol-track-records|KOL track-record]] / [[feedback]] / /check）
 
 **該当**:
-- `manipulation-playbook.md`: `[[KOL track-record]]` × 2 箇所、`[[feedback]]` × 1、`[[check_token]]` × 1
-- `survivor-memes.md`: `[[check_token]]` × 1
+- `manipulation-playbook.md`: `[[kol-track-records|KOL track-record]]` × 2 箇所、`[[feedback]]` × 1、`/check` × 1
+- `survivor-memes.md`: `/check` × 1
 
-**証拠**: wiki/concepts/ に [[KOL track-record]] は存在しない。[[feedback]] は launchpad-economics.md のセクション名であり独立ページではない。[[check_token]] も独立ページ不在。
+**証拠**: wiki/concepts/ に [[kol-track-records|KOL track-record]] は存在しない。[[feedback]] は launchpad-economics.md のセクション名であり独立ページではない。/check も独立ページ不在。
 
-**なぜ過学習リスクか**: manipulation-playbook の型1（pumper exit 検出）は「[[KOL track-record]]で過去callの生存率を照合」を処理の核に置いているが、そのページが存在しない。防御ロジックの核心部分が宙に浮いている。型が機能している体裁だが、照合先が無いため型1は今のところ半完成。
+**なぜ過学習リスクか**: manipulation-playbook の型1（pumper exit 検出）は「[[kol-track-records|KOL track-record]]で過去callの生存率を照合」を処理の核に置いているが、そのページが存在しない。防御ロジックの核心部分が宙に浮いている。型が機能している体裁だが、照合先が無いため型1は今のところ半完成。
 
-**提案 top-1**: [[KOL track-record]] concept を新設。players/ にある KOL entity（@CryptoHayes/@blknoiz06/@theunipcs 等）の call 実績・PnL・逆指標歴を横断合成したページ。manipulation-playbook の「勝ち自慢→call 信頼性」文脈に直結。
+**提案 top-1**: [[kol-track-records|KOL track-record]] concept を新設。players/ にある KOL entity（@CryptoHayes/@blknoiz06/@theunipcs 等）の call 実績・PnL・逆指標歴を横断合成したページ。manipulation-playbook の「勝ち自慢→call 信頼性」文脈に直結。
 
 ---
 
@@ -185,6 +185,6 @@ traction分類: 17（有り） + 72（無し）                 = 89 ≠ 92
 
 1. **H3 → manipulation-playbook への ⚠️ 1行追記**（最速対応・1行修正）: 「traction有=生存は未支持」は screening ロジックの逆方向フレーミング。誤読が実際の判断に影響するため最優先。
 
-2. **M2 → [[KOL track-record]] concept 新設**（合成エージェントで対応）: manipulation-playbook の型1の照合先。players/ の KOL entity の call 実績を横断合成し「KOL 信頼性マトリクス」として立てる。[[KOL track-record]] は既に players/AdimsSHOGUN.md 等で実測ベースの track-record 合成が始まっているため、それを束ねる concept として位置づけ可能。
+2. **M2 → [[kol-track-records|KOL track-record]] concept 新設**（合成エージェントで対応）: manipulation-playbook の型1の照合先。players/ の KOL entity の call 実績を横断合成し「KOL 信頼性マトリクス」として立てる。[[kol-track-records|KOL track-record]] は既に players/AdimsSHOGUN.md 等で実測ベースの track-record 合成が始まっているため、それを束ねる concept として位置づけ可能。
 
 3. **M3 → external-event-to-token-pattern 更新合成**（合成エージェントで対応）: 全 concept 中唯一の最古更新ページ（2026-06-22）。GTA-VI IP 波・association marketing 確定例・$VINTEDGATE 欧州イベント型の3サブ型を追加。「IP 借用→即死」の死亡例 N を明示し、rug-anatomy との接続を強化。

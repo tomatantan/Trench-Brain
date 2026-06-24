@@ -4,13 +4,13 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 36
+mentions: 37
 accounts: 9
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 36件 / 9アカ。
+> 自動生成(brain/build_entities.py)。言及 37件 / 9アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント

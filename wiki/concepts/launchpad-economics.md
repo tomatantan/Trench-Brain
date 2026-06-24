@@ -52,7 +52,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - **traction が生存を分ける（N増で反転・確定寄り）**: **traction有り 死12%（2/17）** vs **traction無し 死55%（40/72）**。
   ＝初期(N=4)は「差なし」だったが、対照群が育ち **traction(KOL/reply)有りは死亡率が約1/4** に。[[survivor-memes]] の「traction足切り」を実測が支持。
 - ⚠️ 留保: 母集団は同一launchpad・近時間帯で独立性低・現mcap近似。だが gate差(75% vs 13%)は大きく型として頑健。
-- 含意（賭け）: **"graduated・traction無し" は最強の死signal**（[[check_token]]/check が avoid に振る根拠）。逆に **mcap勢い門通過 × KOL/reply traction** が相対的 survivor 候補＝[[manipulation-playbook]] で手口を除外した上で見る。
+- 含意（賭け）: **"graduated・traction無し" は最強の死signal**（/check が avoid に振る根拠）。逆に **mcap勢い門通過 × KOL/reply traction** が相対的 survivor 候補＝[[manipulation-playbook]] で手口を除外した上で見る。
 
 ## auto-track 跳躍台帳（大きく跳ねた型を貯めて学習する）
 死(→[[rug-anatomy]] 死亡台帳)と対。`brain/track.py` が **BREAKOUT(mcap前回比+100%超) / GRADUATED** を検知する度、

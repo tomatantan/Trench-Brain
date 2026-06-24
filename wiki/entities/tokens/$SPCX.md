@@ -26,9 +26,9 @@ accounts: 16
 | 779 | [[@WatcherGuru]] | JUST IN: Elon Musk is down $150 billion from his net worth today after SpaceX $SPCX  | [[WatcherGuru__2069188912619081898]] |
 | 458 | [[@coingecko]] | NEWS: $SPCX falls 17.8%, erasing most of its gains since its market debut. | [[coingecko__2069288716133425284]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
-| 278 | [[@CryptoHayes]] | $SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive? | [[CryptoHayes__2064196537908085090]] |
-| 259 | [[@CryptoHayes]] | Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market? | [[CryptoHayes__2065237665440804899]] |
-| 228 | [[@DefiIgnas]] | Crypto PTSD tells me $SPCX will end up as crypto hyped low-float/high-FDV token laun | [[DefiIgnas__2065716814169202728]] |
+| 278 | [[@CryptoHayes]] | $SPCX IPO pop indicating +17%, is that enough to keep the AI dream alive? | [[cryptohayes__2064196537908085090]] |
+| 258 | [[@CryptoHayes]] | Happy Friday the $SPCX  IPO edition. Can Barron von Elon save the market? | [[cryptohayes__2065237665440804899]] |
+| 222 | [[@DefiIgnas]] | Crypto PTSD tells me $SPCX will end up as crypto hyped low-float/high-FDV token laun | [[defiignas__2065716814169202728]] |
 | 191 | [[@theunipcs]] | i'm objectively curious:  is a $2.6 trillion valuation too high for SpaceX / $SPCX?  | [[theunipcs__2066971886785900644]] |
 | 176 | [[@MEXC]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
 | 139 | [[@cryptocom]] | Earn 4% p.a. on the SpaceX ($SPCX) tokenized stock with a flexible term.   A first f | [[cryptocom__2067548618341384397]] |

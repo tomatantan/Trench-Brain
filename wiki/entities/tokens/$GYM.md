@@ -22,12 +22,12 @@ accounts: 2
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 90 | [[@PumpfunEco]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[PumpfunEco__2069507554682515894]] |
+| 171 | [[@PumpfunEco]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[pumpfuneco__2069507554682515894]] |
 | 72 | [[@cookerbruski]] | if you like $gym at 2m you’re gonna love it at 20m | [[cookerbruski__2068346040579674515]] |
 | 71 | [[@cookerbruski]] | the best products sell themselves  $GYM | [[cookerbruski__2065559887002640555]] |
+| 59 | [[@PumpfunEco]] | $GYM is rallying, currently up 40% in 24 hours 👀 | [[pumpfuneco__2069517341612786036]] |
 | 57 | [[@cookerbruski]] | $Gym dev quietly shipping the best update yet  battle other trainers in a skill-base | [[cookerbruski__2068703027737809324]] |
 | 49 | [[@cookerbruski]] | i am long gamified pokémon card hunting experiences   cozy in the $gym | [[cookerbruski__2066182494387409045]] |
-| 31 | [[@PumpfunEco]] | $GYM is rallying, currently up 40% in 24 hours 👀 | [[PumpfunEco__2069517341612786036]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

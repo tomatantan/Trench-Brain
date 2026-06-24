@@ -4,17 +4,17 @@ kind: token
 title: $CARDS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 3
-accounts: 3
+mentions: 4
+accounts: 4
 ---
 
 # $CARDS
 
-> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 4件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@Lightspeedpodhq]] [[@golocojp]]
+[[@CryptoHayes]] [[@Lightspeedpodhq]] [[@coingecko]] [[@golocojp]]
 
 ## 共起トークン
 [[$HYPE]] [[$POKERX]] [[$TCG]]
@@ -22,8 +22,9 @@ accounts: 3
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 98 | [[@CryptoHayes]] | The ticker is $CARDS degens. The thesis is solid. The price will be pamping!  Yachtz | [[CryptoHayes__2069520800856826230]] |
-| 6 | [[@Lightspeedpodhq]] | New episode with @defi_kay_ @Kunallegendd & @0xcarlosg  We Discuss: - Crypto Perps - | [[Lightspeedpodhq__2062520121638191476]] |
+| 512 | [[@CryptoHayes]] | The ticker is $CARDS degens. The thesis is solid. The price will be pamping!  Yachtz | [[cryptohayes__2069520800856826230]] |
+| 75 | [[@coingecko]] | INSIGHT: $CARDS is up 22% after Maelstrom published a thesis projecting ~$109M in an | [[coingecko__2069698359820960046]] |
+| 6 | [[@Lightspeedpodhq]] | New episode with @defi_kay_ @Kunallegendd & @0xcarlosg  We Discuss: - Crypto Perps - | [[lightspeedpodhq__2062520121638191476]] |
 | 2 | [[@golocojp]] | Just 4months, solana:GDaQVH7GoHCRJWHpH7vXfQg2Vrb7kkhCoQ545w4Dhyc3 has done buybuck & | [[golocojp__2069499791319732734]] |
 
 <!-- synthesis:start -->
