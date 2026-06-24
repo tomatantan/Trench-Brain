@@ -58,9 +58,25 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | [[$JAKE]] | graduated | ~$1.4k | reply0 / KOL0(twitter無し) | 誕生即死 | mcap枯れ | traction無しの即死（social基盤ゼロ） |
 | [[$SLICK]] | graduated | ~$1.5k | reply0 / KOL0 | 誕生即死 | mcap枯れ | traction無しの即死 |
 | [[$MAYHAM]] | graduated | ~$421 | reply0 / KOL0(twitter/web無し) | 誕生即死(peak=last) | mcap枯れ（コホート最低） | traction無しの即死（social基盤ゼロ最低mcap） |
+| [[$NUERS]] | 勢い門(T1) | ~$33,800 | reply0 / KOL0 | 数サイクル(~1日) | mcap枯れ(peak比-90.2%) | graduated-but-empty（KOL無し→出来高消費後・自然死） |
+| [[$WORLDCRAFT]] | graduated | ~$112k | reply0 / KOL0 | 短期 | mcap枯れ($1,383、-98.8%) | graduated-but-empty（twitter/web整備済・社会需要ゼロ） |
+| [[$BABYFACE]] | T1(4窓) | ~$267k | reply0 / KOL0 | 4窓(~24h) | mcap枯れ($3,389、-98.7%) | T1-only4窓survivor候補→mcap枯れ（KOL不在の上限）|
+| [[$RONALDINU]] | traction:kol(SeruDefi) | ~$1.4k | reply0 / KOL:SeruDefi(10likes) | 誕生即死 | mcap枯れ($1,407) | KOL言及あり誕生即死（KOL engagement低・community不追随） |
+| [[$BBQ]] | traction:kol(SeruDefi) | ~$2.2k | reply68 / KOL:SeruDefi(28likes) | 誕生即死 | mcap枯れ($2,186) | rug後revival・KOL強推薦も誕生即死（revival≠生存保証） |
+| [[$COVER]] | T1(15窓) | ~$289k | reply0 / KOL0 | 15窓(~3.75日) | mcap枯れ($2,364、-99.2%) | T1-only最長15窓→mcap枯れ（KOLゼロの天井・BABYFACE4窓と同死因） |
+| [[$TAG]] | graduated | ~$6k | reply0 / KOL0 | 誕生即死 | mcap枯れ($5,790) | traction無しの即死（low-signal $6kコホート・social有り需要ゼロ） |
+| [[$VORTEX]] | graduated | ~$1,259 | reply0 / KOL0 | 誕生即死 | mcap枯れ($1,259) | traction無しの即死（deployer toolブランド名でも community ゼロ） |
+| [[$ADTX]] | graduated | ~$12k | reply0 / KOL0 | 短期(1〜2サイクル) | mcap枯れ($3,675・peak比-70%) | graduated-but-empty（実株ティッカー借用・reddit link・社会需要ゼロ） |
+| [[$ANYONE]] | traction:mcap>=30000 | ~$134k | reply0 / KOL0 | 即死(1サイクル) | mcap枯れ($465・peak比-99.7%) | association marketing偽装(@jup_studio 借用)×traction0→1サイクル完全崩壊（-99.7%は観測最速級） |
+| [[$TOROS]] | graduated | ~$125.6k | reply0 / KOL0（全3窓） | 3窓（~12h） | mcap枯れ($1,963・peak比-98.4%) | BREAKOUT-then-dead（Toros Finance association marketing × whale pump・$MOONLAKE/$PHONEBLACK と同型・12h完結） |
+| $HI×3(squatter) | graduated/prebond | ~$84〜$146 | reply0 / KOL0 | 誕生即死 | mcap枯れ($84〜$146) | $HIコピー量産squatter誕生即死（generic name ticker の多重 mint・同名コホート同時多発型） |
+| [[$VORTEX-4YLTUY]] | graduated | ~$1,326 | reply0 / KOL0 | 誕生即死 | mcap枯れ($1,324) | 同ブランド再登場の即死（VortexDeployer.com 2nd mint・前回$1,259と同水準で同じ死・ブランド再利用≠traction） |
+| [[$HI-UZWrgk]] | graduated | ~$46,542 | reply0 / KOL0 | 誕生即死 | mcap枯れ($120・-99.7%) | squatter コホート高 peak 版——$46k まで立ったが peak 比 -99.7% 崩壊（$ANYONE と同崩壊率・generic name は peak mcap 高低によらず死ぬ実証） |
+| [[$VINTEDGATE]] | graduated | ~$49,212 | reply0 / KOL0 | 短期(1サイクル以内) | mcap枯れ($3,505・-92.9%) | [[external-event-to-token-pattern]] 欧州イベント借用型——Vinted 論争 × X/TikTok social 有り × crypto traction 未伝播で死（イベント名×social整備≠crypto need） |
+| [[$LEGACY]] | prebond(mcap>=30k) | ~$31,597 | reply0 / KOL0 | 誕生即死(bonding curve未卒業) | mcap枯れ($911・-97.1%) | Pokemon IP借用（Legacy Pikachu）× traction0 → prebond で消滅（$VCSOL と同型：IP参照命名≠traction代替・N 追加） |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
-**現時点で浮いている型（N=10 確定死亡・2026-06-24 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=10**（$KRILLION/$AXIOS/$VCSOL/$MOONLAKE/$PHONEBLACK/$TBHR/$EYEZ/$JAKE/$SLICK/$MAYHAM）。全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化（⚠️ 同一コホート・同一時間帯の観測で独立性は限定的・母集団は依然小）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③$MOONLAKE・$PHONEBLACK の「traction-less BREAKOUT → 即死」は BREAKOUT が社会的需要を生まない実証（N=2）。→ BREAKOUT flags を見た時の判断基準：KOL/reply の有無を必ず確認する。④誕生即死（初観測mcap≒$1.3k）の量産型（$EYEZ/$JAKE/$SLICK/$MAYHAM）は型通りにつき1行記録のみ・深掘り不要。
+**現時点で浮いている型（N=28 確定死亡・2026-06-24 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=28**（N=26 前回 + [[$VINTEDGATE]]×1 + [[$LEGACY]]×1）。⑦**BREAKOUT-then-dead の association marketing 確定例**（$TOROS）——Toros Finance DeFi ブランド借用 × traction0 で BREAKOUT → 3窓12h で peak比-98.4%崩壊。⑧**generic name squatter 量産コホート**（$HI×3+$HI-UZWrgk）——generic ticker の多重 mint は高 peak（$46k）でも peak 比 -99.7% で死ぬ実証（peak mcap 高低によらない）。⑨**同ブランド再登場即死**（[[$VORTEX]] 2例）——同一 VortexDeployer.com ブランドが mint を変えて再登場しても community 需要がゼロのまま同水準で死亡；ブランド名の再利用が traction を呼ばない N=2 実証。⑤**KOL 言及あり誕生即死**（$RONALDINU/$BBQ）——KOL gate 通過 ≠ community 追随の実証。⑥**T1-only の上限実証**（$BABYFACE:4窓/$COVER:15窓）——KOL ゼロで到達可能な momentum の天井（$267k〜$289k）を N=2 で可視化。他は全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化（⚠️ 同一コホート・同一時間帯の観測で独立性は限定的）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③**traction-less BREAKOUT → 即死**（$MOONLAKE/$PHONEBLACK/$TOROS・N=3）——BREAKOUT が社会的需要を生まない実証が N=3 に強化。④誕生即死量産型（$EYEZ/$JAKE/$SLICK/$MAYHAM）は型通りにつき1行記録のみ。
 
 ## ⚠️ 境界の論争（何をrugと呼ぶか）
 - **インサイダー≠rug?**: 「割当を持つteamが利確しただけ」論 ⇄ [[@a1lon9]] は**害(at expense of users)**で rug 認定。$LIBRA の POPE wash は「意図的抽出」の証拠＝単なる利確と一線。
@@ -75,6 +91,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 - 監視: 新規launchの sniper/insider/LP構成、team wallet の取引所入金、whaleの清算誘発（perp）。
 
 ## 関連
+- **on-chainの死(本ページ)に対し social手口は [[manipulation-playbook]]**（pumper exit誘導/協調bot投票/借用ナラ＝出口工作フェーズで多発・両輪で読む）
 - [[reflexivity]]（**根本エンジン**＝bust は reflexive ゆえ突然・holder集中は反転時 exit の増幅器）/ [[onchain-verification]]（資金移動の検算）/ [[launchpad-economics]]（98.5%が死ぬ母集団＝rugの温床）/ [[perp-dex-wars]]（$JELLY whale操作）/ [[external-event-to-token-pattern]]（政治meme grift）
 - [[$LIBRA]] / [[$TRUMP]] / [[@lookonchain]] / [[@badattrading_]] / [[@a1lon9]] / 集計の入口: [[signal|Signal digest]]
 

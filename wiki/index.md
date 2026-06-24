@@ -32,6 +32,7 @@
 - [[perp-dex-wars]] — ★動線: perp DEX戦争（[[$HYPE]]一強 vs 群雄・⚠️buyback燃料は清算retail）
 - [[regulation-catalyst]] — ★動線: 規制/政策→trench（GENIUS/FIT21・SEC・Trump政策・⚠️発表≠実行）
 - [[rug-anatomy]] — ★型: rugの解剖（[[$LIBRA]]・赤旗チェックリスト＝screeningの入力・実用edge寄り）
+- [[manipulation-playbook]] — ★型: 魔界social手口（pumper exit/bot投票campaign/借用ナラ＝/checkが検出する"乗せられ方")
 - [[launch-pulse]] — ★観測: ローンチの流れ合成（pump非scam flow・死の分母・テーマ分布・KOL standout）
 
 ## 要約ページ（summaries）

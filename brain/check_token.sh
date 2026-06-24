@@ -169,6 +169,7 @@ $(head -40 "$f")"
 done
 LEDGER="$(sed -n '/死亡台帳/,/^## /p' wiki/concepts/rug-anatomy.md 2>/dev/null | head -45)"
 FEEDBACK="$(cat wiki/dashboards/feedback.md 2>/dev/null | head -40)"
+MANIP="$(cat wiki/concepts/manipulation-playbook.md 2>/dev/null | sed -n '/^## 型/,/出典/p' | head -50)"
 
 # ★usageがcorpusを育てる(本人「inputは少なく・autonomousに」): checkした銘柄を tracking に入れfateを学ぶ。
 #   本人の自然な /check（実プレイ）が、追加inputなしに死亡/跳躍台帳とKOL track-recordを厚くする＝魔界基盤の autonomous成長。
@@ -184,5 +185,8 @@ $KOL_ENTITIES
 $LEDGER
 
 ## Feedback(型hit-rate・実outcome採点):
-$FEEDBACK"
+$FEEDBACK
+
+## 魔界 manipulation playbook(social手口・live Xがこの型に当てはまるか照合):
+$MANIP"
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
