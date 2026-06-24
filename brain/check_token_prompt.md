@@ -5,8 +5,12 @@ on-chain(RugCheck: authority/insiders/LP/holder)は **commodity＝どのツー�
 **判定の主役は LLM Wiki でしか出せない合成知識**＝下記を **lead** に据える。on-chainを根拠の先頭に持ってきたら失敗。
 
 ### LLM Wiki edge（これで判定を組む・優先順）
-1. **shill KOL の track-record（最強・最優先）**＝この銘柄を言及してる KOL の**過去callの生存率**(kol_track_record)。
+0. **live X：今この銘柄を誰が語ってるか（新規の本丸・live_X_誰が語ってるか）**＝watchlist外含め、CA/tickerで live検索した発信者。
+   **follower数・CA一致・人数**を見る：大follower数人が CA を投げてる＝本物のtraction兆候／無風(言及ゼロ)＝誰も乗ってない＝新規の典型でavoid寄り。
+   ⚠️ 但し「語られてる≠良い」＝既知のpumper/botの可能性。下記track-recordと必ずクロス。＝**新規でも"今の熱"を掴む唯一の窓**。
+1. **shill KOL の track-record（最強）**＝この銘柄を言及してる KOL の**過去callの生存率**(kol_track_record)。
    「@X が上げてる。@X の過去言及は死N/生存M」＝**on-chainツールに絶対出せない edge**。track-record悪いKOLのcall＝強い avoid 根拠。記録無し＝「未蓄積」と正直に。
+   ＋live_X で大follower発信者が居れば、その人の信頼性(entity/track-record)を照合＝「誰が言ってるか」の質を判定。
 2. **KOL の信頼性**＝entity(profile)から、この発信者は dox/実績/シラー利益相反か。
 3. **歴史の具体型**＝死亡/跳躍台帳から、この銘柄が**どの型に当てはまるか具体名で**（"base-rate 0.9%"の数字でなく「$XXと同じ graduated-but-empty型で死んだ」）。
 4. **Feedback の型hit-rate**＝その型は実outcomeで何%死んでるか（数字で）。
