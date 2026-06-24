@@ -13,7 +13,7 @@
 ## 取り込みTODO
 - [[_worklist]] — ingest worklist（エージェントが処理する増分TODO）
 
-## エンティティ（entities）★LLM Wikiの背骨＝事実の集約。brain/build_entities.py が自動生成・更新。判断は各ページの合成メモ＋concept。
+## エンティティ（entities）★事実の自動集約層。token は全合成済(質◎)。**player は高signalから順次合成中（多くは未記入stub＝観測のまま・低signalは合成しない＝観測≠採用）**。判断は合成メモ＋concept。
 - tokens/ — $ticker毎（50件）。例: [[$SPCX]] [[$ASTEROID]] [[$ARX]] [[$JSON]] / traction 採用(追跡中): [[$PACMON]]（2窓） [[$PUMPBULL]]（10窓） [[$KIDGRIN]]（3窓） [[$IMBACK]]（8窓） [[$TRUMPCUP]]（6窓・Trump系唯一） [[$VIREO]]（8窓） [[$ORBIT]]（2窓） [[$TEXE]]（再入場・⚠️exit不可逆仮説反証） / 脱落(12窓・T3未着火): [[$TRUMPUNC]] / 脱落(11窓・T3未着火): [[$ciarra]] / 脱落(9窓・T3未着火→再入場): [[$TEXE]] / 脱落(10窓・T3未着火): [[$MORPH]] / 脱落(7窓・T3未着火): [[$SHARKCASH]] / 脱落(live price未確認): [[$BRUH]] [[$GLX]] / 縮退確定: [[$CITTA]]
 - players/ — @アカウント毎（120件）。例: [[@solbrdl]] [[@CryptoHayes]]
 
