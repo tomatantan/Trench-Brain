@@ -233,6 +233,19 @@ def spawn_drain():
         log(f"drain spawn err: {type(e).__name__}")
 
 
+def run_track():
+    """死の分母tracker(track.py)を背景実行=launchd cron非依存でbase_rate鮮度を保つ(監査2026-06-24 重大1)。
+    cron未発火(Mac sleep等)でも daemon が回ってる限り base_rate が凍結しない。多重起動はguard。"""
+    try:
+        if subprocess.run(["pgrep", "-f", "brain/track.py"], capture_output=True).returncode == 0:
+            return
+        subprocess.Popen([sys.executable, str(ROOT / "brain" / "track.py"), "run"],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        log("track.py 背景実行(死の分母更新=launchd非依存)")
+    except Exception as e:
+        log(f"track spawn err: {type(e).__name__}")
+
+
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
     seen = load_seen()
@@ -245,6 +258,7 @@ def main():
             if cyc % 10 == 0:
                 save_seen(seen)
             if cyc % DRAIN_EVERY == 0:
+                run_track()          # 死の分母を launchd非依存で更新(凍結防止)
                 spawn_drain()        # 連続合成: 定期的に queue を drain(背景・throughput分だけ)
         except Exception as e:
             log(f"cycle err: {type(e).__name__}: {e}")
