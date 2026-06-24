@@ -17,6 +17,10 @@ tags: [trench, concept, decision, framework, pump, ape, capstone]
 - [[reflexivity]]＝価格↔ナラティブの自己強化が trench の唯一のエンジン。memeはファンダが無く reflexivity が裸＝**boom/bustが純粋で速い**。
 - [[launchpad-economics]]＝供給工場。**98.5%が死ぬ母集団**（実観測 base 死亡率も ~46%＋pending）。＝**デフォルトは avoid。乗るには reflexivity 点火の根拠が要る**。
 
+## ★層が2つある（卒業前 / 卒業後）
+本框は元々 **post-graduation**（卒業後のサバイバル）寄りで設計。**bonding-curve段階の low-cap は別フレーム＝[[early-lowcap-entry]]** で見る
+（卒業/流動性で評価すると一律 danger＝tautology＝無情報。早期は mcap velocity / organic traction初動 / theme-fit / 最初のKOL で「早期の中で生存を分けるもの」を見る・本人指摘2026-06-24）。下記の層は主に卒業後・確立段階の判断。
+
 ## 判断の層（上から順に効く・[[predictive-study]] N=99 で重み実証）
 1. **scam門（T1・即avoid）**＝[[rug-anatomy]] 赤旗（authority未放棄/insider集中/LP非対称/bundled）→ 乗る価値の前に rug れる。
 2. **規模・gate**＝[[predictive-study]]: **peak mcap <10k = 死100%**／**graduated-but-empty = 死70%**（最頻死型）／mcap勢い門 = 死13%。＝小peak・空graduated は強 avoid。

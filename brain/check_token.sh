@@ -170,6 +170,7 @@ done
 LEDGER="$(sed -n '/死亡台帳/,/^## /p' wiki/concepts/rug-anatomy.md 2>/dev/null | head -45)"
 FEEDBACK="$(cat wiki/dashboards/feedback.md 2>/dev/null | head -40)"
 MANIP="$(cat wiki/concepts/manipulation-playbook.md 2>/dev/null | sed -n '/^## 型/,/出典/p' | head -50)"
+EARLY="$(cat wiki/concepts/early-lowcap-entry.md 2>/dev/null | sed -n '/フレームの転換/,/## ⚠️/p' | head -45)"
 
 # ★usageがcorpusを育てる(本人「inputは少なく・autonomousに」): checkした銘柄を tracking に入れfateを学ぶ。
 #   本人の自然な /check（実プレイ）が、追加inputなしに死亡/跳躍台帳とKOL track-recordを厚くする＝魔界基盤の autonomous成長。
@@ -188,5 +189,9 @@ $LEDGER
 $FEEDBACK
 
 ## 魔界 manipulation playbook(social手口・live Xがこの型に当てはまるか照合):
-$MANIP"
+$MANIP
+
+## ★low-cap/卒業前なら このフレームで評価せよ(危険一律にしない・本人指摘):
+対象が **bonding-curve段階/低mcap/未graduated** なら、「卒業した?流動性ある?」(post-grad指標)で一律dangerにするな＝tautologyで無情報。下の**早期signal(mcap velocity↑/scam clean/organic traction初動/theme-fit/最初のKOL)**で「早期の中で生存を分けるもの」を評価せよ。早期は base-rate最悪だが非対称最大＝サイズ小で early signal の重なりを見る。
+$EARLY"
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
