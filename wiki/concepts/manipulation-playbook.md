@@ -35,7 +35,7 @@ tags: [trench, concept, manipulation, pump, scam, social]
 ## 横断: 死(on-chain)と手口(social)の接続
 これらは [[rug-anatomy]] の **graduated-but-empty / BREAKOUT後即死** の**出口工作フェーズ**で多発する。
 パターン: **pump済 → social工作(型1-4) → 崩壊**（[[launchpad-economics]] base-rate=大半死ぬの"どう死ぬか"の社会面）。
-[[feedback]] の「**traction有=生存は未支持**」と整合＝KOL/socialが有っても生存を保証しない。
+[[feedback]] の実測＝traction有り死12% vs 無し55%＝**tractionは有意に生存を助けるが"非十分条件"**（保証ではない）。だから手口(型1-4)で**偽traction**を除外して初めて、本物のtractionが survival signal になる（[[launchpad-economics]] Feedback参照）。
 
 ## 示唆（防御の読み・賭け）
 - **traction を見たら質を疑う**＝誰が・follower質・engagement質・[[KOL track-record]]・borrowedでないか。⚠️「語られてる＝良い」は罠。
