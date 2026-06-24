@@ -4,15 +4,15 @@ kind: player
 title: @Crypto_Alch
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 44
+posts: 52
 ---
 
 # @Crypto_Alch
 
-> 自動生成。信号投稿 44件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 52件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$KINS]](6) [[$THREE]](5) [[$WOJAK]](4) [[$ALTSZN]](4) [[$ASTEROID]](4) [[$JOTCHUA]](4) [[$BUTTCOIN]](2) [[$NEET]](2) [[$AMERICA]](2) [[$HYPE]](2)
+[[$KINS]](7) [[$THREE]](6) [[$WOJAK]](5) [[$ALTSZN]](4) [[$ASTEROID]](4) [[$JOTCHUA]](4) [[$DROOLING]](2) [[$BULL]](2) [[$BUTTCOIN]](2) [[$NEET]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -24,9 +24,9 @@ posts: 44
 | 217 |  | Gm my trench people  Till death all defeat us psychological | [[Crypto_Alch__2067957052895277148]] |
 | 214 |  | Accepting requests to join my FREE TG   Where I share market alpha with my community | [[Crypto_Alch__2067966154383958293]] |
 | 179 |  | Solana to $1000 is not too crazy if you think about it  - Gamers onboarding  - Gambl | [[Crypto_Alch__2069057968327344451]] |
+| 171 | [[$KINS]] | Entry on $KINS IMO  $50-$100M to to bring gaming trenches back   Few understand, man | [[crypto_alch__2069678933960770011]] |
 | 161 | [[$ASTEROID]] | $ASTEROID pulling a ‘fvck you’ reversal   How are nvggas betting against a bundled s | [[Crypto_Alch__2067990029964644410]] |
 | 160 | [[$WOJAK]] | Why is $WOJAK pumping  Any news? | [[Crypto_Alch__2067898956231639482]] |
-| 157 | [[$FARM]] | What is $FARM and why is it going parabolic? | [[Crypto_Alch__2067981071292002678]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

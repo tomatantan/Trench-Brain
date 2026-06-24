@@ -4,29 +4,33 @@ kind: player
 title: @JPY_TO_Crypto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 16
+posts: 17
 ---
 
 # @JPY_TO_Crypto
 
-> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
+CA言及 3件 / 現outcome評価 3件中 **死2（67%）** ＝平均的。
+> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$KINTON]](5) [[$IROHA]](2) [[$YAJUCOIN]](2) [[$TACTICS]](1) [[$CURAK]](1)
+[[$KINTON]](5) [[$YAJUCOIN]](3) [[$IROHA]](2) [[$YARIRAFY]](1) [[$TACTICS]](1) [[$CURAK]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 32 | [[$IROHA]] | $IROHA sticker | [[JPY_TO_Crypto__2041936236668187109]] |
-| 30 | [[$IROHA]] | $IROHA game character | [[JPY_TO_Crypto__2041936537252982874]] |
-| 15 |  | Just set a new PFP. Still, I can’t drop the frog element. 🐸  @Trencher_Sol @grizzle_ | [[JPY_TO_Crypto__2049523942948524241]] |
-| 12 | [[$KINTON]] [[$YAJUCOIN]] | If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc | [[JPY_TO_Crypto__2046639740552872278]] |
-| 12 | [[$KINTON]] | I watch this every day now. You’ve really become a full-fledged TikToker lol $Kinton | [[JPY_TO_Crypto__2054423121281900899]] |
-| 9 |  | 木村 萌那選手(@mona_world412 ) 4戦目勝利おめでとうございます🎉  同い歳で頑張っている萌那選手を応援しています🦶🏻  #K1 #k1wgp | [[JPY_TO_Crypto__2042862174662725956]] |
-| 9 | [[$KINTON]] | $KINTON is going global. I can feel it. | [[JPY_TO_Crypto__2059862039234044105]] |
-| 8 |  | きんとんがアメ横で踊ってるぅ〜💃 | [[JPY_TO_Crypto__2053013438587396108]] |
-| 8 | [[$KINTON]] | $Kinton reminded me that it’s Mother’s Day.  It really makes you realize how importa | [[JPY_TO_Crypto__2050407434343391726]] |
-| 7 | [[$KINTON]] | $Kinton  You're already a full-fledged TikToker! | [[JPY_TO_Crypto__2056234994121707693]] |
+| 32 | [[$IROHA]] | $IROHA sticker | [[jpy_to_crypto__2041936236668187109]] |
+| 29 | [[$IROHA]] | $IROHA game character | [[jpy_to_crypto__2041936537252982874]] |
+| 15 |  | Just set a new PFP. Still, I can’t drop the frog element. 🐸  @Trencher_Sol @grizzle_ | [[jpy_to_crypto__2049523942948524241]] |
+| 13 | [[$KINTON]] [[$YAJUCOIN]] | If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc | [[jpy_to_crypto__2046639740552872278]] |
+| 12 | [[$KINTON]] | I watch this every day now. You’ve really become a full-fledged TikToker lol $Kinton | [[jpy_to_crypto__2054423121281900899]] |
+| 9 |  | 木村 萌那選手(@mona_world412 ) 4戦目勝利おめでとうございます🎉  同い歳で頑張っている萌那選手を応援しています🦶🏻  #K1 #k1wgp | [[jpy_to_crypto__2042862174662725956]] |
+| 9 | [[$KINTON]] | $KINTON is going global. I can feel it. | [[jpy_to_crypto__2059862039234044105]] |
+| 8 |  | きんとんがアメ横で踊ってるぅ〜💃 | [[jpy_to_crypto__2053013438587396108]] |
+| 8 | [[$KINTON]] | $Kinton reminded me that it’s Mother’s Day.  It really makes you realize how importa | [[jpy_to_crypto__2050407434343391726]] |
+| 7 | [[$YAJUCOIN]] [[$YARIRAFY]] | $YARIRAFY (CA HDwgnqxECqywwHTWUKibQJZksvwSv96uMYNxwYfpump) doesn't have snipers and  | [[jpy_to_crypto__2069719887727984780]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

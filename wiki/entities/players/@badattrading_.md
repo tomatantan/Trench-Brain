@@ -4,15 +4,19 @@ kind: player
 title: @badattrading_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 100
+posts: 118
 ---
 
 # @badattrading_
 
-> 自動生成。信号投稿 100件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 118件。watchlist: [[watchlist]]。
+
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
+CA言及 75件 / 現outcome評価 68件中 **死32（47%）** ＝平均的。
+> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$AGI]](3) [[$CONDOR]](2) [[$WORLD]](2) [[$GREG]](1) [[$SAKANA]](1) [[$KURUMI]](1) [[$JOE]](1) [[$LOT]](1) [[$QDOG]](1) [[$ASCEND]](1)
+[[$AGI]](3) [[$CONDOR]](2) [[$WORLD]](2) [[$STARMIND]](2) [[$CATWIF]](2) [[$GREG]](1) [[$EC43]](1) [[$SAKANA]](1) [[$KURUMI]](1) [[$JOE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -23,10 +27,10 @@ posts: 100
 | 92 |  | be part of the story ! in 10 years they'll watch it to understand how it happened lo | [[badattrading___2069026127037833674]] |
 | 69 |  | I get like 2k views instantly on any new posts and this isn’t my doing I don’t need  | [[badattrading___2069009029209137203]] |
 | 69 |  | Coin with **8 players online** end quote, is making some moves for some reason I don | [[badattrading___2069008040456528203]] |
+| 67 | [[$HOUSE]] | If you see Keemo as mod or admin of a coin just fking run away, same thing happened  | [[badattrading___2069675707500736719]] |
 | 65 |  | Some guy is preparing for the Merlin pump | [[badattrading___2068755580437549133]] |
 | 64 |  | in the end all it takes is just holding | [[badattrading___2068738027946496016]] |
 | 64 |  | I've been borrowing like 10 SOL from the treasury wallet in the past days but it's b | [[badattrading___2069114602420351356]] |
-| 57 |  | how fake volume looks like, please get this shit out of my dex front page for the lo | [[badattrading___2069389196872073432]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

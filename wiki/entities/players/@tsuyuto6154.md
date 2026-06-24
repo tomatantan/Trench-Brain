@@ -4,15 +4,19 @@ kind: player
 title: @tsuyuto6154
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 19
+posts: 24
 ---
 
 # @tsuyuto6154
 
-> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
+CA言及 8件 / 現outcome評価 8件中 **死3（38%）** ＝callが残りやすい(相対的に注目)。
+> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$YAJUCOIN]](6) [[$HUNTER]](1) [[$KIYOMASA]](1) [[$SAMPAIO]](1)
+[[$YAJUCOIN]](7) [[$HUNTER]](1) [[$KIYOMASA]](1) [[$SAMPAIO]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -22,11 +26,11 @@ posts: 19
 | 12 |  | still depressed? | [[tsuyuto6154__2064661923376103698]] |
 | 12 |  | solana:8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump  売った直後にインチキ上げが発動、6k→900k チャンス逃しに | [[tsuyuto6154__2067152170546610591]] |
 | 9 | [[$YAJUCOIN]] | イカれてる野獣コインbagworker達。 万バズ垢に進化し始めてる  バイラルを待つんじゃなくて自分たちがviralになるという黒崎一護スタイル  そして買われてるの | [[tsuyuto6154__2065663478401274146]] |
+| 9 |  | These impressions are fucking wild Shit’s going viral as we speak and every single o | [[tsuyuto6154__2069612101744964017]] |
 | 5 |  | イキスギミーム作って凍結くらったみたいです。 フォローして、どうぞ。  Dev got frozen by posting crazy memes. | [[tsuyuto6154__2066540684228894887]] |
+| 5 |  | constantly adding new stickers to the sticker pack | [[tsuyuto6154__2069690243230695650]] |
 | 4 | [[$YAJUCOIN]] | ミームのクオリティが1人だけおかしいんよ $YAJUcoin | [[tsuyuto6154__2066129403961282617]] |
 | 4 |  | perfect timing solana:Ddrae7atujkL2Np8myWgMF2LBU1E4ewRVQ3cwpAJpump | [[tsuyuto6154__2066434956394705217]] |
-| 4 |  | OG always wins? solana:4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump   OG 9Ki8dAqc1wa | [[tsuyuto6154__2067062005299826781]] |
-| 4 |  | CT still hasn’t noticed.  This much buzz and sitting at 10K? Japan has at least two  | [[tsuyuto6154__2066724409101144562]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

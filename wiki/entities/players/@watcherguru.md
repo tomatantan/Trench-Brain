@@ -4,12 +4,12 @@ kind: player
 title: @WatcherGuru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 28
 ---
 
 # @WatcherGuru
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 28件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$SPCX]](2) [[$GOOGL]](1) [[$VZ]](1) [[$META]](1)
@@ -17,16 +17,16 @@ posts: 24
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 20,484 |  | JUST IN: 🇺🇸 US Senate passes bill to ban the Federal Reserve from creating a Central | [[watcherguru__2069213657821561273]] |
+| 9,186 |  | JUST IN: 🇪🇺 Ripple receives preliminary MiCA approval to offer regulated crypto paym | [[watcherguru__2069363171354181742]] |
+| 8,198 |  | JUST IN: 🇺🇸 US House Committee schedules crypto Clarity Act hearing for July 17. | [[watcherguru__2069471422812946746]] |
+| 8,112 |  | JUST IN: Ethereum Foundation fires 20% of its staff. | [[watcherguru__2069420796066320884]] |
+| 6,855 |  | JUST IN: 🇺🇸 Over $1.1 trillion wiped out from US stock market at open. | [[watcherguru__2069416106344018003]] |
+| 6,309 |  | JUST IN: Bitcoin falls under $63,000  Over $150,000,000 longs liquidated from the cr | [[watcherguru__2069305922824888434]] |
 | 6,182 | [[$SPCX]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
+| 5,644 |  | JUST IN: 🇺🇸 $1 trillion wiped out from the US stock market today. | [[watcherguru__2069511171720249420]] |
+| 5,321 |  | JUST IN: 🇺🇸🇮🇳 Donald Trump Jr. held a private meeting with Indian billionaire Gautam | [[watcherguru__2069454387437531176]] |
 | 5,076 |  | JUST IN: JPMorgan CEO Jamie Dimon says "we're in a bull market."  "It's like a littl | [[WatcherGuru__2069140304381280259]] |
-| 4,871 |  | JUST IN: 🇺🇸 Over $1.1 trillion wiped out from US stock market at open. | [[WatcherGuru__2069416106344018003]] |
-| 4,541 |  | JUST IN: Ethereum Foundation fires 20% of its staff. | [[WatcherGuru__2069420796066320884]] |
-| 3,984 |  | JUST IN: 🇺🇸 Former Federal Reserve Chair Alan Greenspan dies at age 100. | [[WatcherGuru__2069024088010719249]] |
-| 3,870 |  | JUST IN: Bitcoin falls under $63,000  Over $150,000,000 longs liquidated from the cr | [[WatcherGuru__2069305922824888434]] |
-| 3,647 |  | JUST IN: 🇺🇸🇮🇷 President Trump says "19 million barrels of oil flowed out of the Stra | [[WatcherGuru__2069382787082182737]] |
-| 3,496 |  | JUST IN: $65,000 Bitcoin | [[WatcherGuru__2069038041159885306]] |
-| 3,329 |  | JUST IN: Michael Saylor's 'Strategy' buys 520 Bitcoin worth $35 million. | [[WatcherGuru__2069029003877642620]] |
-| 3,026 |  | JUST IN: 🇺🇸 Bank of America expects the Federal Reserve to raise interest rates thre | [[WatcherGuru__2069043368068559175]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

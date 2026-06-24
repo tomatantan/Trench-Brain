@@ -1,32 +1,36 @@
 ---
 type: entity
 kind: player
-title: @shapefn_
+title: @ShapeFN_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 11
+posts: 94
 ---
 
-# @shapefn_
+# @ShapeFN_
 
-> 自動生成。信号投稿 11件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 94件。watchlist: [[watchlist]]。
+
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
+CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
+> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$SERGEYEVNA]](5) [[$MERLIN]](5) [[$KINTARA]](1)
+[[$MITCH]](8) [[$MERLIN]](6) [[$SERGEYEVNA]](5) [[$NOSEY]](5) [[$INDIAN]](5) [[$AIZEN]](4) [[$SUBARU]](2) [[$REN]](2) [[$KINTARA]](1) [[$ANNABELLE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 1,969 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[ShapeFN___2068315352124006863]] |
-| 108 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[ShapeFN___2067616747088142496]] |
-| 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[ShapeFN___2067754051551265088]] |
-| 39 | [[$MERLIN]] | $Merlin is everywhere | [[ShapeFN___2067658928456896611]] |
-| 33 | [[$KINTARA]] [[$MERLIN]] | $Merlin available in $Kintara | [[ShapeFN___2067675267959501142]] |
-| 22 |  | The right name is Sergeyevna  After being rescued by the NerpaLand team, Sergeevna b | [[ShapeFN___2067576792353833412]] |
-| 15 | [[$SERGEYEVNA]] | most cute seal out there $Sergeyevna | [[ShapeFN___2067579108750446642]] |
-| 13 | [[$SERGEYEVNA]] | This rescues seal named $Sergeyevna (Сергеевна)  is going insanely viral on IG and T | [[ShapeFN___2067582494325518826]] |
-| 10 | [[$SERGEYEVNA]] | $Sergeyevna mogg face | [[ShapeFN___2067580789814894634]] |
-| 5 | [[$SERGEYEVNA]] | $Sergeyevna is everywhere | [[ShapeFN___2067583700670271909]] |
+| 1,973 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[shapefn___2068315352124006863]] |
+| 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[ShapeFN___2067208855918960741]] |
+| 109 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[shapefn___2067616747088142496]] |
+| 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[shapefn___2067754051551265088]] |
+| 63 |  | I THINK I FOUND THE NEXT VIRAL TIKTOK MEME ITS GOING CRAZY ON TIKTOK | [[ShapeFN___1898406623153963026]] |
+| 58 |  | The real Annabelle lore 👻  Annabelle is a haunted doll kept in a locked glass case b | [[ShapeFN___1927028226573885709]] |
+| 51 | [[$MITCH]] | When she doesn’t believe $MITCH will 100x, but you know. | [[ShapeFN___1946602057110045050]] |
+| 50 | [[$MITCH]] | When $MITCH hits 100x and the DMs start flooding in. | [[ShapeFN___1946564354381390132]] |
+| 46 | [[$MITCH]] | When you walk in and everyone’s portfolio is down but yours is +500%  $Mitch | [[ShapeFN___1946579742884262318]] |
+| 44 | [[$AIZEN]] [[$ALIEN]] [[$PLANKTON]] | I want to announce I’m leading $AIZEN as CTO. We’re now at $1M market cap. My previo | [[ShapeFN___1882960805827665934]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

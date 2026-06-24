@@ -19,10 +19,10 @@ posts: 83
 |---|---|---|---|
 | 9,392 |  | 10k likes and I (Ledger) will recreate this | [[UpOnlyTV__1501067725657063427]] |
 | 7,277 |  | For the culture. | [[UpOnlyTV__1502053122780409871]] |
-| 5,272 |  | Seems like as good a time as any. Let’s do this. | [[UpOnlyTV__1864502720024944890]] |
-| 4,082 |  | Welcome back | [[UpOnlyTV__1799077255295140246]] |
+| 5,272 |  | Seems like as good a time as any. Let’s do this. | [[uponlytv__1864502720024944890]] |
+| 4,083 |  | Welcome back | [[uponlytv__1799077255295140246]] |
 | 3,960 |  | See you on Thursday | [[UpOnlyTV__1483115842065817603]] |
-| 3,855 |  | Maybe we should run it back soon | [[UpOnlyTV__1704016863737643407]] |
+| 3,856 |  | Maybe we should run it back soon | [[uponlytv__1704016863737643407]] |
 | 3,331 |  | So… who should our new sponsor be lol | [[UpOnlyTV__1590094167551901697]] |
 | 3,156 |  | In case you wondered why the markets were nuking so badly, hi, and sorry | [[UpOnlyTV__1570446180773154816]] |
 | 3,141 |  | Saylor on Up Only today, what’s the worst that can happen | [[UpOnlyTV__1486359340684660739]] |

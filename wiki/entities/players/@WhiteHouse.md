@@ -4,12 +4,12 @@ kind: player
 title: @WhiteHouse
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 30
+posts: 33
 ---
 
 # @WhiteHouse
 
-> 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 33件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -23,10 +23,10 @@ posts: 30
 | 13,547 |  | Air Force One enters its next era 🔥🇺🇸 | [[WhiteHouse__2068782594485866613]] |
 | 11,658 |  | ︎︎White House will be Q posting today…  ︎  ︎  ︎  ︎ ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎   | [[WhiteHouse__2069071254829609256]] |
 | 11,069 |  | Oil prices are tumbling down, and the World is a much safer place!! 🇺🇸 | [[WhiteHouse__2069399355547590968]] |
+| 10,589 |  | "Six people have been arrested, and seven people have been cited, for the damage the | [[whitehouse__2069447413811540258]] |
 | 9,395 |  | Six ARRESTS have been made for vandalizing our Reflecting Pool. President Trump will | [[WhiteHouse__2069234054667333969]] |
-| 8,949 |  | 🇺🇸 2 DAYS.   America kicks off the most patriotic celebration yet. Join us for the o | [[WhiteHouse__2069222705178579381]] |
-| 8,396 |  | The Next Frontier of Quantum Innovation | [[WhiteHouse__2069171719953097192]] |
-| 6,814 |  | RECORD HIGH DEPORTATIONS.  ⚠️WARNING: If you are here illegally, LEAVE NOW or we wil | [[WhiteHouse__2069135638205465057]] |
+| 9,024 |  | Record oil is flowing and gas prices are TUMBLING. 🇺🇸 | [[whitehouse__2069419977946349967]] |
+| 9,024 |  | CELEBRATING 250 YEARS OF AMERICA WITH AN EPIC LINE UP. 🇺🇸  Mark your calendars, here | [[whitehouse__2069577706111455725]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

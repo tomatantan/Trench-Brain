@@ -1,13 +1,13 @@
 ---
 type: entity
 kind: player
-title: @TheMisterTurtle
+title: @themisterturtle
 updated: 2026-06-22
 tags: [trench, entity, player]
 posts: 3
 ---
 
-# @TheMisterTurtle
+# @themisterturtle
 
 > 自動生成。信号投稿 3件。watchlist: [[watchlist]]。
 
@@ -17,9 +17,9 @@ posts: 3
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 408 |  | I actually think meme coins will be bigger this cycle than they were last cycle. | [[TheMisterTurtle__2068911611759268049]] |
-| 206 |  | Solana looks great here. | [[TheMisterTurtle__2069305741345771693]] |
-| 167 |  | there is so much money out there   it really doesn’t take as much money as you’d thi | [[TheMisterTurtle__2068918880253132994]] |
+| 671 |  | there are approximately 14,700 people left in the meme coin trenches   congratulatio | [[TheMisterTurtle__2067726689694630239]] |
+| 378 |  | keep going anon | [[TheMisterTurtle__2067530398507151438]] |
+| 265 |  | if you got 1,000 Solana’s every dollar Solana goes down you lose $1,000 man smh | [[TheMisterTurtle__2067542159423598992]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

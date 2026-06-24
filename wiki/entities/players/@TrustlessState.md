@@ -4,12 +4,12 @@ kind: player
 title: @TrustlessState
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 21
+posts: 22
 ---
 
 # @TrustlessState
 
-> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$LIT]](1)
@@ -17,16 +17,16 @@ posts: 21
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 373 |  | The EF is intentionally leaving a power vacuum for new structures to step up and inf | [[TrustlessState__2069110440903196810]] |
+| 628 |  | The EF is intentionally leaving a power vacuum for new structures to step up and inf | [[trustlessstate__2069110440903196810]] |
 | 103 |  | Funding Secured | [[TrustlessState__2068036318836277573]] |
+| 100 |  | Why would anyone hold MSTR?   @PunterJeff on our pod, you called this 'amplified BTC | [[trustlessstate__2069086341770383871]] |
+| 85 |  | Arthur Hayes invented the Perp, so I asked him what he thinks of Hyperliquid taking  | [[trustlessstate__2069074030628364349]] |
 | 65 | [[$LIT]] | $LIT offering a deal today | [[TrustlessState__2067736157010469294]] |
 | 59 |  | If the USA just committed to soccer as a sport we could achieve world peace | [[TrustlessState__2068091072559845515]] |
-| 44 |  | GOOOAAALLLLLLL | [[TrustlessState__2069115019325825295]] |
-| 44 |  | BTC once again tapping the 200 week | [[TrustlessState__2067638545511035146]] |
-| 43 |  | ARGENTINNNAAAA | [[TrustlessState__2069111256221405490]] |
-| 42 |  | This is now a Soccer account | [[TrustlessState__2068046007862989119]] |
-| 39 |  | I’m never moving back home | [[TrustlessState__2068192710553456856]] |
-| 36 |  | Some unexpected spice from Canada vs Qatar | [[TrustlessState__2067748369448018281]] |
+| 56 |  | You gotta listen to Trump pronounce cryptography  First time he’s ever read that wor | [[trustlessstate__2069186391582429384]] |
+| 47 |  | Trent’s essay is a must-read for those paying attention to Ethereum   “It is time fo | [[trustlessstate__2069619028176314885]] |
+| 46 |  | GOOOAAALLLLLLL | [[trustlessstate__2069115019325825295]] |
+| 46 |  | ARGENTINNNAAAA | [[trustlessstate__2069111256221405490]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

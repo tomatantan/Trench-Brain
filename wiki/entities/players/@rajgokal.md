@@ -4,12 +4,12 @@ kind: player
 title: @rajgokal
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 102
+posts: 103
 ---
 
 # @rajgokal
 
-> 自動生成。信号投稿 102件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 103件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$ETH]](1) [[$USDC]](1) [[$BONK]](1)

@@ -18,15 +18,15 @@ posts: 54
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 389 | [[$PUMPCADE]] [[$QUEST]] [[$SQUIRE]] | Ansem (@blknoiz06) makes first purchases on his @Pumpfun wallet 🔥  He bought $PUMPCA | [[pumpfuneco__2069407494300950984]] |
+| 349 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[pumpfuneco__2069430064580641055]] |
+| 211 | [[$THREE]] | $three is rallying, currently up 29% in 24 hours 👀 | [[pumpfuneco__2069426642204667975]] |
 | 201 | [[$JOTCHUA]] | $Jotchua is rallying, currently up 92% in 24 hours 👀 | [[PumpfunEco__2068633451973247417]] |
 | 186 | [[$JOTCHUA]] | $Jotchua has pumped 900% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068756088174882931]] |
 | 181 | [[$JOTCHUA]] | $Jotchua has pumped 49% today! 🔥 | [[PumpfunEco__2068440964801196350]] |
 | 173 | [[$SOLANGELES]] | $SOLANGELES has pumped 100% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068742566137274401]] |
-| 160 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[PumpfunEco__2069430064580641055]] |
+| 171 | [[$CLAW]] [[$GYM]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[pumpfuneco__2069507554682515894]] |
 | 159 | [[$JOTCHUA]] | One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥 | [[PumpfunEco__2068619724649308222]] |
-| 149 | [[$FRAG]] | $FRAG has pumped 108% today! 🔥 | [[PumpfunEco__2069025005287903497]] |
-| 140 | [[$SOLANGELES]] | $SOLANGELES has pumped 200% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068774140224356546]] |
-| 139 | [[$KINS]] | $KINS is rallying, currently up 28% in 24 hours 👀 | [[PumpfunEco__2068793368239317204]] |
+| 151 | [[$SOLANGELES]] | $SOLANGELES is rallying, up 28% in the past hour 👀 | [[pumpfuneco__2069379112989339718]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
