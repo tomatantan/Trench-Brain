@@ -75,6 +75,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | [[$VINTEDGATE]] | graduated | ~$49,212 | reply0 / KOL0 | 短期(1サイクル以内) | mcap枯れ($3,505・-92.9%) | [[external-event-to-token-pattern]] 欧州イベント借用型——Vinted 論争 × X/TikTok social 有り × crypto traction 未伝播で死（イベント名×social整備≠crypto need） |
 | [[$LEGACY]] | prebond(mcap>=30k) | ~$31,597 | reply0 / KOL0 | 誕生即死(bonding curve未卒業) | mcap枯れ($911・-97.1%) | Pokemon IP借用（Legacy Pikachu）× traction0 → prebond で消滅（$VCSOL と同型：IP参照命名≠traction代替・N 追加） |
 | [[$GTASOLANA]] | traction:kol(badattrading_・警告) | ~$89k | reply0 / KOL:警告のみ | 短期（数時間） | mcap枯れ($2,094・-97.7%) | bundled scam×GTA6便乗×KOL「buy するな」警告後崩壊——KOL traction が「ネガティブ警告」だった初例。警告KOL言及は有機的需要でなく即死加速シグナル |
+| [[$HARU]] | traction:kol(badattrading_・警告) | **~$1,044,616（コホート最高）** | reply0 / KOL:警告のみ | 短期（数時間） | mcap枯れ($6,759・**-99.4%**) | bundled scam×KOL警告後崩壊＝$GTASOLANA同型・peak $1M超でも-99.4%崩壊（peak mcap高さ≠生存の実証強化） |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（N=28 確定死亡・2026-06-24 更新）**: ①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=28**（N=26 前回 + [[$VINTEDGATE]]×1 + [[$LEGACY]]×1）。⑦**BREAKOUT-then-dead の association marketing 確定例**（$TOROS）——Toros Finance DeFi ブランド借用 × traction0 で BREAKOUT → 3窓12h で peak比-98.4%崩壊。⑧**generic name squatter 量産コホート**（$HI×3+$HI-UZWrgk）——generic ticker の多重 mint は高 peak（$46k）でも peak 比 -99.7% で死ぬ実証（peak mcap 高低によらない）。⑨**同ブランド再登場即死**（[[$VORTEX]] 2例）——同一 VortexDeployer.com ブランドが mint を変えて再登場しても community 需要がゼロのまま同水準で死亡；ブランド名の再利用が traction を呼ばない N=2 実証。⑤**KOL 言及あり誕生即死**（$RONALDINU/$BBQ）——KOL gate 通過 ≠ community 追随の実証。⑥**T1-only の上限実証**（$BABYFACE:4窓/$COVER:15窓）——KOL ゼロで到達可能な momentum の天井（$267k〜$289k）を N=2 で可視化。他は全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化（⚠️ 同一コホート・同一時間帯の観測で独立性は限定的）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③**traction-less BREAKOUT → 即死**（$MOONLAKE/$PHONEBLACK/$TOROS・N=3）——BREAKOUT が社会的需要を生まない実証が N=3 に強化。④誕生即死量産型（$EYEZ/$JAKE/$SLICK/$MAYHAM）は型通りにつき1行記録のみ。
@@ -92,6 +93,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 - 監視: 新規launchの sniper/insider/LP構成、team wallet の取引所入金、whaleの清算誘発（perp）。
 
 ## 関連
+- **全層を1判断に束ねる capstone**: [[ape-or-avoid]]（乗るか避けるかの統合フレーム）
 - **on-chainの死(本ページ)に対し social手口は [[manipulation-playbook]]**（pumper exit誘導/協調bot投票/借用ナラ＝出口工作フェーズで多発・両輪で読む）
 - [[reflexivity]]（**根本エンジン**＝bust は reflexive ゆえ突然・holder集中は反転時 exit の増幅器）/ [[onchain-verification]]（資金移動の検算）/ [[launchpad-economics]]（98.5%が死ぬ母集団＝rugの温床）/ [[perp-dex-wars]]（$JELLY whale操作）/ [[external-event-to-token-pattern]]（政治meme grift）
 - [[$LIBRA]] / [[$TRUMP]] / [[@lookonchain]] / [[@badattrading_]] / [[@a1lon9]] / 集計の入口: [[signal|Signal digest]]

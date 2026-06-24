@@ -72,6 +72,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$MOONLAKE]] | +147% | $415.6k→$1.03M | reply0 / KOL0 | 不明(AI テーマ "Moonlake AI" + moonlake.design 整備済だが有機的言及ゼロ) | traction0×出来高先行＝$AEGIS/$RO/$PHONEBLACK と同型・コホート初 $1M 突破 |
 | [[$JOKER]] | +134% | $34k→$80k | reply0 / KOL0 | 不明(JOKER名・twitter/web無し・social起点ゼロ) | traction0×出来高先行＝$AEGIS/$PHONEBLACK/$MOONLAKE と同型・BREAKOUT-then-dead 候補 |
 | [[$TOROS]] | +124%（→ピーク+452.5%） | $52.7k→$118k（ピーク$125.6k） | reply0 / KOL0（全3窓） | Toros Finance DeFi ブランド借用（association marketing）・whale 計画的買い | **BREAKOUT-then-dead確定**（association marketing×traction0・3窓12h完結・peak比-98.4%崩壊）—— $MOONLAKE/$PHONEBLACK と同型・association marketing 借用での whale pump が今サイクル初確定 |
+| [[$JALAPEÑO]] | +102% | $50.8k→$102.3k | reply0 / KOL0 | 不明(wallstengine trading tweet・website=Axiom DEX pulse) | traction0×出来高先行＝$AEGIS/$PHONEBLACK/$JOKER/$TOROS と同型・BREAKOUT-then-dead 候補 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。
@@ -90,6 +91,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - 監視: [[@a1lon9]] の buyback/burn 実績、graduation率、BonkFun との市場シェア争い。
 
 ## 関連
+- **全層を1判断に束ねる capstone**: [[ape-or-avoid]]（乗るか避けるかの統合フレーム）
 - [[reflexivity]]（**根本エンジン**＝98.5%死は reflexive bust が常態・graduation×traction はループ燃料の有無）/ [[survivor-memes]]（工場から生き残った稀な graduate）/ [[majors-rotation-supercycle]]（供給希釈）/ [[onchain-verification]]（$LIBRA rug）
 - [[$PUMP]] / [[$BONK]] / [[@a1lon9]] / [[@theunipcs]] / 集計の入口: [[signal|Signal digest]]
 
