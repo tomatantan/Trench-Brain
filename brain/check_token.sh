@@ -103,8 +103,10 @@ PY
 # (2) ★合成知識を prompt に inject(claude が Read 任せでなく確実に使う): KOL entity / 死亡台帳 / Feedback / narrative
 KOL_ENTITIES=""
 for a in $(printf '%s' "$DATA" | grep -oE '"[A-Za-z0-9_]+": "(過去言及|trackedに)' | grep -oE '^"[A-Za-z0-9_]+"' | tr -d '"'); do
-  f="wiki/entities/players/$(printf '%s' "$a" | tr 'A-Z' 'a-z').md"
-  [ -f "$f" ] && KOL_ENTITIES="$KOL_ENTITIES
+  # entity は @<Handle>.md(原case)。見つからなければ小文字でも試す(macOS case)。
+  f="wiki/entities/players/@${a}.md"
+  [ -f "$f" ] || f="$(ls wiki/entities/players/ 2>/dev/null | grep -ix "@${a}.md" | head -1 | sed 's|^|wiki/entities/players/|')"
+  [ -n "$f" ] && [ -f "$f" ] && KOL_ENTITIES="$KOL_ENTITIES
 
 ### KOL @$a の entity(信頼性/profile):
 $(head -40 "$f")"
