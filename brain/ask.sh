@@ -12,12 +12,19 @@ Q="${*:-}"
 [ -n "$Q" ] || { echo "問いを渡して: bash brain/ask.sh \"...\"" >&2; exit 1; }
 command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }
 
+# 時系列データ(直近)＝「いつ何が変わった/速度/トレンド」の問いに使う。日次snapshot。
+TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列データなし)')"
+
 PROMPT="$(cat brain/ask_prompt.md)
 
 ## 方法論（Skill Graph: 内部でこれに沿って考える・出力は簡潔に合成）
 $(cat brain/methodology/lenses.md)
 $(cat brain/methodology/source-tiers.md)
 $(cat brain/methodology/synthesis-rules.md)
+
+## 時系列データ（直近14日の日次snapshot＝pulse_history）
+「先週から何が変わった/トレンド/速度」系の問いは**このデータで答える**（死/backlog/テーマ分布/台帳/watchlistの推移）。スナップショットの差分を読め。死亡/跳躍台帳(append式)も時系列の根拠に使える。
+$TS
 
 ## ユーザーの問い:
 $Q"
