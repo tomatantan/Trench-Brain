@@ -2,7 +2,7 @@
 type: concept
 title: 型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-24
 tags: [trench, concept, pattern, meme, survivorship-bias, solana]
 memetic_potential: 中
 confidence: 中
@@ -35,6 +35,13 @@ blue-chip 化する。[[$BONK]] [[$WIF]] [[$PEPE]] [[$FARTCOIN]] [[$PENGU]] が�
 - **集中リスク**: [[@badattrading_]]「$WIF top 70 holders have 66.1%... 56.5% in CEX cluster」([[badattrading___2068749549443703244]])＝薄い実流動。
 - **レバレッジの罠**: [[@lookonchain]]「James Wynn just got liquidated again. Both his $PEPE longs and $BTC longs partially liquidated」＝生存memeでも高レバは飛ぶ。
 - **corpusは強気一色**: 「$BONK is dead」「$PEPE overvalued」という弱気証言は収集範囲に**一件も無い**。＝**懐疑は wiki が供給する**しかない（観測が強気に偏る時こそ⚠️を立てる）。
+
+## ★実測の早期生存signal（自前tracking・[[feedback]] N=92）
+上は **後知恵の blue-chip**。こちらは [[launchpad-economics]] の死の分母から、**早期に生存を分ける signal を実測**で抽出（retrospective lore でなく我々のコホート）：
+- **traction(KOL/reply)有り → 死12%（2/17）** vs 無し → 死55%（40/72）＝**tractionが最強の早期生存signal**（死亡率 約1/4）。
+- **mcap勢い門通過 → 死13%（3/22）** vs **graduated-but-empty → 死75%（37/49）**＝「卒業した空っぽ」より「勢いで買われてる初期」が生存。
+- ＝**早期 survivor の素描**: graduated-but-empty でない × KOL/reply traction有り × [[manipulation-playbook]] の手口(bot/borrowed/pumper-exit)を除外して残るもの。これが [[check_token]]/check の "ape寄り" 条件。
+- ⚠️ 留保: 母集団は同一launchpad・近時間帯・現mcap近似・小N＝**依然 survivorship-bias の只中**。大半は死ぬ前提。signalは確率を上げるだけで保証でない。
 
 ## プレイヤー相関
 - proof-of-patience派: [[@theunipcs]]（$BONK）。ecosystem-beta論: [[@theunipcs]]「$SOL outperforming majors → BONK/BonkFun reprice」。
