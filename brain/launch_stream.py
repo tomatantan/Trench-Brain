@@ -246,6 +246,27 @@ def run_track():
         log(f"track spawn err: {type(e).__name__}")
 
 
+def spawn_synth():
+    """track.py が synth_queue に貯めた pump births/deaths を合成(→死亡/跳躍台帳に同期)。
+    再監査(2026-06-24)発見: daemonがdeathを検出し続けるのに ledger合成は cron(3h)依存で遅れた(died>台帳)。
+    両輪の合成側も daemon で回し、ledger を検出に追従させる(launchd非依存)。queue空/既走なら何もしない(guard)。"""
+    try:
+        q = STATE / "synth_queue.json"
+        if not q.exists():
+            return
+        d = json.loads(q.read_text(encoding="utf-8"))
+        if not (d.get("births") or d.get("deaths") or d.get("changes")):
+            return
+        if subprocess.run(["pgrep", "-f", "brain/synthesize.sh"], capture_output=True).returncode == 0:
+            return
+        env = dict(os.environ, SYNTH_ENABLED="1")
+        subprocess.Popen(["bash", str(ROOT / "brain" / "synthesize.sh")], env=env,
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        log("synthesize.sh 背景実行(pump births/deaths→台帳同期=両輪balance)")
+    except Exception as e:
+        log(f"synth spawn err: {type(e).__name__}")
+
+
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
     seen = load_seen()
@@ -259,6 +280,7 @@ def main():
                 save_seen(seen)
             if cyc % DRAIN_EVERY == 0:
                 run_track()          # 死の分母を launchd非依存で更新(凍結防止)
+                spawn_synth()        # pump births/deaths を台帳に同期(両輪balance=ledger-lag防止)
                 spawn_drain()        # 連続合成: 定期的に queue を drain(背景・throughput分だけ)
         except Exception as e:
             log(f"cycle err: {type(e).__name__}: {e}")
