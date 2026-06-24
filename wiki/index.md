@@ -35,6 +35,7 @@
 - [[manipulation-playbook]] — ★型: 魔界social手口（pumper exit/bot投票campaign/借用ナラ＝/checkが検出する"乗せられ方")
 - [[predictive-study]] — ★実証: 死の分母data N=99 で「何が運命を分けるか」（peak<10k=100%死/graduated×tr無70%/traction有18%＝/checkの予測重み）
 - [[ape-or-avoid]] — ★capstone: 全概念を「乗るか避けるか」1判断に束ねる決定フレーム（reflexivity→base-rate→予測因子→手口→KOL信頼性→live・/checkの知識側）
+- [[early-lowcap-entry]] — ★早期層: 卒業前low-capを「危険一律」でなく評価（mcap velocity/organic traction初動/theme-fit/最初のKOL＝早期の中で生存を分ける・本人指摘から合成）
 - [[launch-pulse]] — ★観測: ローンチの流れ合成（pump非scam flow・死の分母・テーマ分布・KOL standout）
 
 ## 要約ページ（summaries）
