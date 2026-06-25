@@ -65,7 +65,12 @@ print(json.dumps(out, ensure_ascii=False, indent=1))
 PY
 )"
 
+# ★評価軸の源＝合成された手口の型(manipulation-playbook)を inject＝固定listでなくここから導出(本人2026-06-25)
+MANIP="$(sed -n '/^## 型/,/出典/p' wiki/concepts/manipulation-playbook.md 2>/dev/null | head -55)"
 PROMPT="$(cat brain/check_account_prompt.md)
 ## 対象アカウント: @${H}
-$DATA"
+$DATA
+
+## 合成された魔界の手口の型（[[manipulation-playbook]]＝評価軸はここから導く・実ツイがどの型に当てはまるか照合）:
+$MANIP"
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
