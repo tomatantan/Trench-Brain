@@ -199,6 +199,21 @@ def assetize_query(q, ans):
             f.write(f"- [{date}] 問い「{q[:50]}」→ {(' / '.join(gaps))[:200]}\n")
 
 
+def handle_who(chat_id, arg):
+    """アカウント信頼性: /who <@handle or Xリンク> → 嘘つき/pumperか信頼できるか(check_account.sh)。"""
+    arg = arg.strip()
+    if not arg:
+        send(chat_id, "使い方: /who <@handle または Xリンク>"); return
+    send(chat_id, "🕵️ アカウント信頼性を読み中…(実ツイ+track-record+赤旗)")
+    try:
+        out = subprocess.run(["bash", str(ROOT / "brain" / "check_account.sh"), arg],
+                             capture_output=True, text=True, timeout=300)
+        ans = (out.stdout or "").strip() or (out.stderr or "").strip() or "(読めず。@handleかXリンクを確認)"
+    except subprocess.TimeoutExpired:
+        ans = "⚠️ タイムアウト。再試行を。"
+    send(chat_id, ans)
+
+
 def handle_discover(chat_id, arg):
     """credibility-gated discovery: 信頼KOLが今 shill してる alive 銘柄を surface(discover.py)。"""
     send(chat_id, "🔭 信頼KOLの現役言及を探索中…")
@@ -336,7 +351,7 @@ def main():
             if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd in ("wiki", "add", "check", "discover", "start", "help"):
+            if cmd in ("wiki", "add", "check", "discover", "who", "start", "help"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
@@ -347,6 +362,8 @@ def main():
                     handle_check(chat_id, arg)
                 elif cmd == "discover":
                     handle_discover(chat_id, arg)
+                elif cmd == "who":
+                    handle_who(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
                     send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
