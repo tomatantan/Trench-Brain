@@ -162,10 +162,15 @@ for a in $(printf '%s' "$DATA" | grep -oE '"[A-Za-z0-9_]+": "(過去言及|track
   # entity は @<Handle>.md(原case)。見つからなければ小文字でも試す(macOS case)。
   f="wiki/entities/players/@${a}.md"
   [ -f "$f" ] || f="$(ls wiki/entities/players/ 2>/dev/null | grep -ix "@${a}.md" | head -1 | sed 's|^|wiki/entities/players/|')"
-  [ -n "$f" ] && [ -f "$f" ] && KOL_ENTITIES="$KOL_ENTITIES
+  if [ -n "$f" ] && [ -f "$f" ]; then
+    # ★思考の型(synthesis block=この人がどう読むか)を優先注入=視点エンジンの燃料。無ければstub先頭。
+    prof="$(sed -n '/## 思考の型/,/synthesis:end/p' "$f" | grep -v 'synthesis:end' | head -50)"
+    [ -z "$prof" ] && prof="$(head -22 "$f")"
+    KOL_ENTITIES="$KOL_ENTITIES
 
-### KOL @$a の entity(信頼性/profile):
-$(head -40 "$f")"
+### KOL @$a の思考の型(この人ならどう読むか):
+$prof"
+  fi
 done
 LEDGER="$(sed -n '/死亡台帳/,/^## /p' wiki/concepts/rug-anatomy.md 2>/dev/null | head -45)"
 FEEDBACK="$(cat wiki/dashboards/feedback.md 2>/dev/null | head -40)"
