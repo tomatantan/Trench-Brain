@@ -296,11 +296,19 @@ def main():
         return 1
     print("wiki_bot 起動。/wiki /add /画像 に反応。", file=sys.stderr)
     offset = 0
+    errs = 0  # 連続poll error。network復帰でretry回復するが、長期stuck(=耳が死ぬ)なら self-exit→cron self-healがfresh restart
     while True:
         try:
             r = _get(f"{API}/getUpdates?offset={offset}&timeout=30", timeout=40)
+            errs = 0
         except Exception as e:
-            print(f"poll error: {e}", file=sys.stderr); time.sleep(5); continue
+            errs += 1
+            print(f"poll error({errs}): {e}", file=sys.stderr)
+            if errs >= 30:  # ~連続失敗が続く=回復不能stuck→fresh processに任せる(self-heal cronが起こす)
+                print("poll error 連続30=stuck→self-exit(self-healが再起動)", file=sys.stderr)
+                return 1
+            time.sleep(min(5 + errs, 30))  # backoff
+            continue
         for upd in r.get("result", []):
             offset = upd["update_id"] + 1
             msg = upd.get("message") or upd.get("channel_post") or {}
