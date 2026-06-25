@@ -14,6 +14,7 @@
    - **観測（事実）と判断（推論）を分離**（指針6）。観測＝誰が何を言った/数字/links。判断＝動線・型・賭け仮説。
    - **物語/役割、動線上の位置、⚠️矛盾（強気/弱気の両論併記＝指針5）、賭け仮説、スコア感（confidence）**。
    - **13 concept のどこに刺さるか** を [[wikilink]]（[[launchpad-economics]] [[survivor-memes]] [[ai-memes]] [[majors-rotation-supercycle]] [[perp-dex-wars]] [[rug-anatomy]] [[onchain-verification]] [[spacex-ipo-narrative]] 等）。関連 entity/player も [[wikilink]]（指針7）。
+- ★単一playerの思考/視点は **player entityのsynthesis block** に書く(synthesize_player担当)＝**新規conceptにしない**(指針8=conceptは横断の型のみ・per-player濫造禁止)。横断archetype(複数playerに共通する型)だけconcept可。
    - **波及（指針4）**: 新signalが刺さる concept の **像を実質的に変える**時は、リンクだけでなく**その concept 本体も更新**する（両論/⚠️は維持）。1ソースを複数ページへ波及させるのが目的＝単一ページ更新で止めない。像が変わらないなら link のみでよい。
 5. **赤旗を立てる**: holder集中/bundle/単一シラー依存/プロモーター利益相反/装い≠実体は ⚠️ で明示（[[rug-anatomy]] [[onchain-verification]]）。
 
