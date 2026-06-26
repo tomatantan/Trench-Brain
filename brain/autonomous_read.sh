@@ -14,6 +14,28 @@ try:
     d=json.load(sys.stdin); print(json.dumps({k:d.get(k) for k in ("flow_count_nonscam","scam_reject_rate","theme_distribution","kol_standouts","traction_candidates","death_denominator")}, ensure_ascii=False)[:1400])
 except Exception: print("{}")' 2>/dev/null || echo '{}')"
 DISCOVER="$(python3 brain/discover.py 2>/dev/null | head -18)"
+# ★A4自律調査: discover候補の上位CAを自分で on-chain 掘る=aggregateでなく実tokenを調べた上で判断
+INVESTIGATED="$(python3 - <<PY
+import re, json, urllib.request
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+cas=re.findall(r"[1-9A-HJ-NP-Za-km-z]{32,44}", '''$DISCOVER''')[:3]
+out=[]
+for ca in cas:
+    info={"ca":ca}
+    try:
+        c=json.loads(urllib.request.urlopen(urllib.request.Request(f"https://frontend-api-v3.pump.fun/coins/{ca}",headers={"User-Agent":UA}),timeout=8).read())
+        info.update({"sym":c.get("symbol"),"mcap":c.get("usd_market_cap"),"reply":c.get("reply_count"),"complete":c.get("complete")})
+    except Exception: pass
+    try:
+        d=json.loads(urllib.request.urlopen(urllib.request.Request(f"https://api.rugcheck.xyz/v1/tokens/{ca}/report",headers={"User-Agent":UA}),timeout=10).read())
+        th=d.get("topHolders") or []
+        info["top_pct"]=round(max((h.get("pct") or 0) for h in th),1) if th else None
+        info["insiders"]=bool(d.get("insiderNetworks"))
+    except Exception: pass
+    out.append(info)
+if out: print(json.dumps(out,ensure_ascii=False))
+PY
+)"
 LEDGER="$(sed -n '/死亡台帳/,/浮いている型/p' wiki/concepts/rug-anatomy.md 2>/dev/null | tail -6)"
 WORKLIST="$(grep -A18 '§1a' wiki/_worklist.md 2>/dev/null | head -18 || true)"
 
@@ -24,6 +46,8 @@ PROMPT="$(cat brain/autonomous_read_prompt.md)
 $PULSE
 ### discover(信頼KOLの現役plays):
 $DISCOVER
+### ★自分で掘った候補の on-chain(top holder集中/insider/mcap=aggregateでなく実態):
+$INVESTIGATED
 ### 死亡台帳の直近:
 $LEDGER
 ### hot discourse(worklist §1a):
