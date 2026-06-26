@@ -14,6 +14,30 @@ try:
     d=json.load(sys.stdin); print(json.dumps({k:d.get(k) for k in ("flow_count_nonscam","scam_reject_rate","theme_distribution","kol_standouts","traction_candidates","death_denominator")}, ensure_ascii=False)[:1400])
 except Exception: print("{}")' 2>/dev/null || echo '{}')"
 DISCOVER="$(python3 brain/discover.py 2>/dev/null | head -18)"
+# ★A5学習: 過去の自律read仮説と、その後の実outcome を自己レビュー=自分の読みから学ぶ
+PAST="$(python3 - <<'PY'
+import json, os
+hp = "brain/state/hypotheses.jsonl"
+if not os.path.exists(hp):
+    print("(過去の自律read仮説なし)"); raise SystemExit
+try:
+    td = json.load(open("brain/state/tracked.json", encoding="utf-8")); items = td if isinstance(td, list) else list(td.values())
+    by = {x.get("mint"): x for x in items}
+except Exception:
+    by = {}
+rows = [l for l in open(hp, encoding="utf-8") if l.strip()][-6:]
+out = []
+for l in rows:
+    try: h = json.loads(l)
+    except Exception: continue
+    fates = []
+    for ca in (h.get("cas") or [])[:3]:
+        t = by.get(ca)
+        fates.append(f"{ca[:6]}={'死' if (t and t.get('status')=='dead') else 'tracked' if t else '未追跡'}")
+    out.append(f"[{h.get('date','?')}] 自分の読み: {(h.get('read') or '')[:90]} → 結果: {' '.join(fates) or '対象不明'}")
+print("\n".join(out) or "(なし)")
+PY
+)"
 # ★A4自律調査: discover候補の上位CAを自分で on-chain 掘る=aggregateでなく実tokenを調べた上で判断
 INVESTIGATED="$(python3 - <<PY
 import re, json, urllib.request
@@ -51,7 +75,11 @@ $INVESTIGATED
 ### 死亡台帳の直近:
 $LEDGER
 ### hot discourse(worklist §1a):
-$WORKLIST"
+$WORKLIST
+
+## ★お前の過去の自律read仮説と、その後の実結果（学べ＝自分の読みが当たったか外れたか）:
+$PAST
+（過去外したパターンは今回割り引く・当てたパターンは型として強める＝自分の読みから学習する）"
 
 OUT="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
 
@@ -61,6 +89,16 @@ if printf '%s' "$OUT" | head -1 | grep -qi "NOTABLE:[[:space:]]*true"; then
   LASTH="$(cat brain/state/last_auto_read.txt 2>/dev/null || echo none)"
   if [ "$H" = "$LASTH" ]; then echo "自律read: notable だが直近と同一→skip"; exit 0; fi
   printf '%s' "$H" > brain/state/last_auto_read.txt
+  # ★A5: この仮説を log=次回 outcome と照合して学ぶ
+  python3 - "$READ" <<'PY'
+import sys, re, json
+from datetime import datetime, timezone
+read = sys.argv[1]
+cas = re.findall(r"[1-9A-HJ-NP-Za-km-z]{32,44}", read)[:4]
+rec = {"date": datetime.now(timezone.utc).strftime("%Y-%m-%d"), "cas": cas, "read": read[:200]}
+with open("brain/state/hypotheses.jsonl", "a", encoding="utf-8") as f:
+    f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+PY
   TMP="$(mktemp)"; printf '🧠 自律read（聞かれてないけど、今これ見とけ）:\n\n%s' "$READ" > "$TMP"
   TOKEN="$(grep '^TG_WIKI_BOT_TOKEN=' .env | cut -d= -f2)"
   python3 - "$TOKEN" "$CHAT" "$TMP" <<'PY'
