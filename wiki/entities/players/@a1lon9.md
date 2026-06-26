@@ -4,12 +4,12 @@ kind: player
 title: @a1lon9
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 111
+posts: 112
 ---
 
 # @a1lon9
 
-> 自動生成。信号投稿 111件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 112件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$PUMP]](5) [[$TROLL]](2) [[$TOKABU]](1) [[$USDUC]](1) [[$LIBRA]](1)

@@ -4,12 +4,12 @@ kind: player
 title: @milesdeutscher
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 126
+posts: 139
 ---
 
 # @milesdeutscher
 
-> 自動生成。信号投稿 126件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 139件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$BTC]](10) [[$ARB]](5) [[$SOL]](3) [[$ETH]](3) [[$JTO]](2) [[$TRUMP]](2) [[$ZKS]](2) [[$MATIC]](2) [[$BUSD]](1) [[$DOGE]](1)

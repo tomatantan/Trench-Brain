@@ -4,12 +4,12 @@ kind: player
 title: @moonshot
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 21
+posts: 24
 ---
 
 # @moonshot
 
-> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$FARM]](1) [[$SON]](1) [[$TURTLE]](1) [[$ZERO]](1) [[$ARX]](1) [[$MERLIN]](1) [[$SOLANGELES]](1) [[$MANIFEST]](1) [[$SPCXX]](1)

@@ -4,12 +4,12 @@ kind: player
 title: @ametomuchi123
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 21
+posts: 22
 ---
 
 # @ametomuchi123
 
-> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

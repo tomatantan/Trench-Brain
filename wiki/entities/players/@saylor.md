@@ -4,15 +4,15 @@ kind: player
 title: @saylor
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 14
+posts: 15
 ---
 
 # @saylor
 
-> 自動生成。信号投稿 14件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](6) [[$BTC]](5) [[$MSTR]](4) [[$SATA]](1) [[$IBIT]](1)
+[[$STRC]](6) [[$MSTR]](5) [[$BTC]](5) [[$SATA]](1) [[$IBIT]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -25,8 +25,8 @@ posts: 14
 | 12,088 | [[$BTC]] [[$MSTR]] [[$STRC]] | Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to  | [[saylor__2069028571880845340]] |
 | 8,070 |  | ₿uild them a product they’re allowed to buy.  Bitcoin Capitalism — in 2 minutes. | [[saylor__2066888546212872454]] |
 | 7,362 |  | Building on ₿846,842. | [[saylor__2067573786698805279]] |
+| 5,597 | [[$MSTR]] | Volatility tests every capital structure. Strategy remains focused on Bitcoin, disci | [[saylor__2070420835358183827]] |
 | 5,096 | [[$BTC]] | Digital Money should be stable, liquid, digital, and yield-bearing. Bitcoin-backed c | [[saylor__2066836220747903414]] |
-| 4,824 | [[$BTC]] [[$SATA]] [[$STRC]] | The hardest thing in business is not seeing the future. It is surviving long enough  | [[saylor__2067234930946408752]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

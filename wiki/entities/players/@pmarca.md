@@ -4,12 +4,12 @@ kind: player
 title: @pmarca
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 29
+posts: 54
 ---
 
 # @pmarca
 
-> 自動生成。信号投稿 29件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 54件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -20,13 +20,13 @@ posts: 29
 | 8,898 |  | Hey, this gives me a great idea! | [[pmarca__2068624303759978645]] |
 | 7,085 |  | Did cancer write this? | [[pmarca__2069137336508801360]] |
 | 3,859 |  | American hero. | [[pmarca__2068577394806710651]] |
+| 2,935 |  | I, on the other hand, remember 2014-2024. | [[pmarca__2069931975235027131]] |
 | 2,439 |  | I have bad news about your podcast, dude. | [[pmarca__2069198492887814157]] |
+| 1,423 |  | While I’m at it: America at 250 is now an older society than what we still call “Eng | [[pmarca__2070296734815961441]] |
+| 821 |  | As one thing (digital content) becomes cheap and plentiful, another thing (in-person | [[pmarca__2070175954497065135]] |
+| 815 |  | The infernal fascist disinformation machine that is destroying our democracy and rui | [[pmarca__2070232891326685656]] |
+| 774 |  | Cyberpunk AF. | [[pmarca__2070023917071433995]] |
 | 668 |  | Using old models is the #1 cause of AI cope right now. | [[pmarca__2069531438391926833]] |
-| 370 |  | Interesting. | [[pmarca__2069530545470796041]] |
-| 287 |  | Interesting. | [[pmarca__2068449276985049517]] |
-| 280 |  | Many people are saying! | [[pmarca__2068513273960628419]] |
-| 235 |  | It is time to monitor the situation. | [[pmarca__2069533135524749791]] |
-| 224 |  | E/Acc Index! | [[pmarca__2068796967086617021]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

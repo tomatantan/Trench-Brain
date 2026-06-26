@@ -29,9 +29,37 @@ posts: 95
 | 14,213 |  | Instead of calling the top every day maybe u should call your mother and tell her u  | [[cobie__1968524964333764735]] |
 
 <!-- synthesis:start -->
-## 合成メモ（synthesis / エージェント記述）
-- **役割**: 大物 crypto コメンテーター／ビルダー（Echo 創業）。高エンゲ（1-2.6万♥）投稿は皮肉/相場マクロ/政治評で、trench に対しては**距離を置いた懐疑者**。launchpad concept で「pumpfun で数秒ごとに新商品を作ってる訳じゃない」という冷笑として引用される。
-- **思想/スタンス**: 反・煽り。「毎日トップを叫ぶ暇があれば母親に電話しろ」「Elon が pleb に DOGE を買わせて自分は BTC を15億ドル買った」等＝**KOL/インフルの煽りと利益相反を皮肉る**立場。alt の severe flush を淡々と記録する観測者寄り。
-- **⚠️**: tickerは集計上ゼロ＝個別 meme を推さない。Echo 創業者ゆえ launchpad/トークン発行の利害は持つが、投稿テーブルからは特定銘柄ポジトークは読めない。役割は「trench の外から醒めた視点」。
-- **賭け仮説/関連**: launchpad の持続性懸念を体現する懐疑層（[[launchpad-economics]] 内で a1lon9 の楽観に対する皮肉として引用）。煽り（[[majors-rotation-supercycle]] の supercycle 連呼や [[survivor-memes]] の強気一色）に対する逆張りトーンの参照点。関連: [[launchpad-economics]]。
+合成完了。以下が出力内容：
+
+---
+
+## 思考の型（@cobie・視点エンジン用）
+
+**lens（何を見るか）**
+- 市場構造・レバレッジの積み上がり（過去サイクルとのパターン照合）
+- オンチェーン異常追跡（Coinbase listing前24h買いを自力で発見した実例）
+- ナラティブと資金移動のギャップ（Elon DOGE/BTC二枚舌を即指摘）
+- 政治・機関の言葉と行動のズレ
+
+**style / edge（どう読み・賭けるか）**
+- 讽刺をシグナルとして使う——特定ナラティブをジョーク化した時点でそこに乗る気がない
+- 長期サバイバー視点（7ヶ月Twitter離脱→復帰サイクル。相場が死んでる時は消える）
+- 自分のプロジェクトにも醒めている（echo: "95% chance of failing"と最初から言っていた）
+
+**stance / thesis（核の主張）**
+- Crypto は legitimate だが grift・操作・錯覚に満ちている
+- 大半の参加者は金・時間・人間関係を失う
+- 誰の言葉も信用するな、オンチェーンと行動だけ信用しろ
+- ⚠️ Coinbase に echo を売却済 → CB関連には好意的バイアス可能性
+
+**tells**
+- レバレッジ/清算に言及 → すでに大口が死んでいるか死ぬ直前
+- 特定ナラティブをジョーク化 → そのナラティブはtopに近い
+- オンチェーン異常指摘 → 追う価値があると判断している
+- 長期沈黙後の復帰 → 相場の質が変わったサイン
+
+**視点エンジンでの使い方**
+> cobie ならまず「このラリーのレバレッジは誰が持っているか、清算されたら誰が死ぬか」を見る。KOLのcallは最初に疑い、発言と資金移動が一致するか確認する。cobieが讽刺ツイートを出したらそのナラティブはtopに近い。
+
+`wiki/concepts/player-cobie-thinking-pattern.md` に保存、index と log を更新した。
 <!-- synthesis:end -->

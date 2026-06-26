@@ -4,12 +4,12 @@ kind: player
 title: @TheRollupCo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 47
+posts: 80
 ---
 
 # @TheRollupCo
 
-> 自動生成。信号投稿 47件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 80件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$HYPE]](1) [[$AERO]](1)
@@ -24,9 +24,9 @@ posts: 47
 | 69 |  | Hester Peirce (@HesterPeirce)  just casually revealed she's leaving the SEC.  Her pa | [[therollupco__2068529343429820669]] |
 | 34 |  | Rand Hindi (@randhindi) says privacy should be the standard in every transaction.  “ | [[therollupco__2067979716364304540]] |
 | 21 |  | SEC Commissioner Hester Peirce (@HesterPeirce) on what should never be compromised:  | [[therollupco__2068338081678143545]] |
+| 18 |  | Se Yong says people have never been able to be early enough to the best trades.  "By | [[therollupco__2069854978655559690]] |
+| 16 |  | 🚨LIVE: Saylor's MSTR In Trouble?! Debasement Trade Over? Volatility Incoming. Fomo C | [[therollupco__2069821263993086269]] |
 | 16 |  | Binji (@binji_x) explains why full-stack privacy matters for Ethereum and the intern | [[therollupco__2068802894657114186]] |
-| 15 |  | NEW: Full episode with SEC Commissioner Hester Peirce drops tomorrow.  Very busy tim | [[therollupco__2067774887842734577]] |
-| 15 |  | "Brazil is one of the only top 20 economies whose currency can't settle outside the  | [[therollupco__2067726540629045680]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

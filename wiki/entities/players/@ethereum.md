@@ -4,12 +4,12 @@ kind: player
 title: @ethereum
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 16
 ---
 
 # @ethereum
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

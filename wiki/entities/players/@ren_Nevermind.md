@@ -4,12 +4,12 @@ kind: player
 title: @ren_Nevermind
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 22
+posts: 44
 ---
 
 # @ren_Nevermind
 
-> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 44件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -23,10 +23,10 @@ posts: 22
 | 5 |  | 海外旅行系TikTokerなろうかな | [[ren_Nevermind__2068649412684042568]] |
 | 5 |  | ひぐらしリメイクを祝うために、トライアルのおはぎを食べています㊗️ | [[ren_Nevermind__2068695056266276870]] |
 | 5 |  | my twin🐱  her name’s ramadan (ram for short) | [[ren_nevermind__2069290271146467548]] |
+| 5 |  | my new gear…… | [[ren_nevermind__2070178617309684095]] |
 | 3 |  | どうやったら炎上できるんだ | [[ren_Nevermind__2068644230738903144]] |
 | 3 |  | おれが男だから炎上できないのか | [[ren_Nevermind__2068646217077387770]] |
 | 3 |  | うちの猫めちゃ奇妙な体勢で寝てる変だよ😥 | [[ren_Nevermind__2069245832139022559]] |
-| 2 |  | しばらく自炊を我慢する 食器洗いできずに部屋が腐る | [[ren_nevermind__2069403832686375157]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

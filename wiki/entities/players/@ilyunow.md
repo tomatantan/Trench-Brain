@@ -4,12 +4,12 @@ kind: player
 title: @ilyunow
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 9
+posts: 11
 ---
 
 # @ilyunow
 
-> 自動生成。信号投稿 9件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 11件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -20,6 +20,7 @@ posts: 9
 | 145 |  | bring back having fun instead of soulless extraction👍 | [[ilyunow__2068387796776255897]] |
 | 77 |  | don’t need to predict perfectly. you need a position size that lets you live with bo | [[ilyunow__2061817846976368950]] |
 | 73 |  | **dream_bigger** | [[ilyunow__2068309761003803120]] |
+| 33 |  | what if it was the start of an end that leads to the start of the beginning | [[ilyunow__2069836646208692460]] |
 | 33 |  | adin called the top, lacy will call the bottom. | [[ilyunow__2059778931801116985]] |
 | 32 |  | do you still remember? | [[ilyunow__2068668759435534738]] |
 | 31 |  | some of yall need to study memetics because you clearly don’t get shit | [[ilyunow__2069086693014266079]] |

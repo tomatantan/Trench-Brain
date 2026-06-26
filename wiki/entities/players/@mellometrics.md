@@ -4,12 +4,12 @@ kind: player
 title: @mellometrics
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 118
+posts: 119
 ---
 
 # @mellometrics
 
-> 自動生成。信号投稿 118件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 119件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$SOL]](2) [[$DEV]](1)

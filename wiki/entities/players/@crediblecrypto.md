@@ -4,15 +4,15 @@ kind: player
 title: @CredibleCrypto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 18
 ---
 
 # @CredibleCrypto
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$XRP]](5) [[$CRV]](4) [[$BTC]](3) [[$ETH]](3)
+[[$XRP]](5) [[$CRV]](4) [[$ETH]](4) [[$BTC]](3) [[$HBAR]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

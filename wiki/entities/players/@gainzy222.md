@@ -4,12 +4,12 @@ kind: player
 title: @gainzy222
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 27
 ---
 
 # @gainzy222
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 27件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -24,9 +24,9 @@ posts: 24
 | 423 |  | One more legit bull run like 2017 or 2021 and we will see insane prices again  I’ve  | [[gainzy222__2069234640800633096]] |
 | 338 |  | Most unreal display of wealth I’ve ever seen  The gym has only solid gold dumbbells | [[gainzy222__2065983351975206981]] |
 | 232 |  | Messi the greatest to ever do it | [[gainzy222__2067077435900731415]] |
+| 185 |  | USA is gonna win the world cup and it will globally be called soccer in my lifetime | [[gainzy222__2070091922727940514]] |
 | 162 |  | banana bread lowkey goated | [[gainzy222__2066333357722779790]] |
 | 156 |  | dirty bulked my way into a massive double chin on accident   and now we diet to dimi | [[gainzy222__2067183149315244205]] |
-| 150 |  | What an insane card though   100% finishes by KO/TKO  Boxing could never | [[gainzy222__2066395489847660936]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

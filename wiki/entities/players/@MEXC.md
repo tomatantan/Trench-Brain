@@ -4,15 +4,15 @@ kind: player
 title: @MEXC
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 51
+posts: 79
 ---
 
 # @MEXC
 
-> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 79件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$USDT]](4) [[$SPCX]](3) [[$MU]](2) [[$SPACEX]](1) [[$GOOGL]](1) [[$NVDA]](1) [[$XAUT]](1)
+[[$MU]](8) [[$USDT]](5) [[$SPCX]](4) [[$SNDK]](2) [[$SPACEX]](1) [[$GOOGL]](1) [[$NVDA]](1) [[$AMD]](1) [[$ARM]](1) [[$NAS100]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

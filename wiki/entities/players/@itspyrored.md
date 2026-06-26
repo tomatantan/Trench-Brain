@@ -4,15 +4,15 @@ kind: player
 title: @itspyrored
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 30
 ---
 
 # @itspyrored
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$DROOLING]](1)
+[[$DROOLING]](1) [[$WEN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

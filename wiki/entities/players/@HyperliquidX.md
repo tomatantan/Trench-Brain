@@ -4,12 +4,12 @@ kind: player
 title: @HyperliquidX
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 20
+posts: 22
 ---
 
 # @HyperliquidX
 
-> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$CHIP]](1) [[$XMR]](1) [[$AXS]](1) [[$FOGO]](1) [[$LIT]](1) [[$SKR]](1) [[$DASH]](1) [[$AZTEC]](1)

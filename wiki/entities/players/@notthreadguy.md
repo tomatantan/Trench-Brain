@@ -4,12 +4,12 @@ kind: player
 title: @notthreadguy
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 22
+posts: 31
 ---
 
 # @notthreadguy
 
-> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 31件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,6 +17,7 @@ posts: 22
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 1,085 |  | remember how the gym used to be niche and semi gatekept for elites? it wasn’t cool t | [[notthreadguy__2070299269781762215]] |
 | 643 |  | Phantom launched a card | [[notthreadguy__2067673462206840964]] |
 | 385 |  | i never appreciated how boring trading is when the stock market is closed | [[notthreadguy__2067967544258863324]] |
 | 252 |  | i appear to have forgotten about “always be selling” | [[notthreadguy__2067607995408675309]] |
@@ -26,7 +27,6 @@ posts: 22
 | 196 |  | holy fuck yes | [[notthreadguy__2067706685334978748]] |
 | 193 |  | irl is so back | [[notthreadguy__2068808913495998589]] |
 | 167 |  | i've seen enough we need rate cuts wtf is warsh doing | [[notthreadguy__2069417050355740995]] |
-| 161 |  | i’ve come to the conclusion the more i talk to ai the smarter i am. not in a one sho | [[notthreadguy__2069433622331855074]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

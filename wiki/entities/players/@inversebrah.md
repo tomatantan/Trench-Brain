@@ -4,12 +4,12 @@ kind: player
 title: @inversebrah
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 47
+posts: 92
 ---
 
 # @inversebrah
 
-> 自動生成。信号投稿 47件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 92件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -19,14 +19,14 @@ posts: 47
 |---|---|---|---|
 | 151 |  | had to be smolchained :3 | [[inversebrah__2068978090362143123]] |
 | 134 |  | underappreciated gigabanger   smolchained | [[inversebrah__2069056871659618317]] |
+| 97 |  | its picking up | [[inversebrah__2069974117030461650]] |
+| 75 |  | plz plz plz can we haz | [[inversebrah__2069913788397371565]] |
 | 70 |  | gigabanger  hanged in the smollouvre | [[inversebrah__2069586302597845393]] |
+| 69 |  | uhm  punpfun dot go ad? | [[inversebrah__2069970127689527726]] |
 | 66 |  | the new beeple tho | [[inversebrah__2069029430966866389]] |
+| 66 |  | (green is bitcoin) | [[inversebrah__2070180844967432302]] |
 | 65 |  | final days of q2 2026 | [[inversebrah__2068836841281982670]] |
-| 60 |  | seriously?  how unserious can dis planet be wtf | [[inversebrah__2069257053412176024]] |
-| 59 |  | quotes and replies | [[inversebrah__2068807861850050731]] |
-| 57 |  | we live in a goyocracy | [[inversebrah__2069019124454572476]] |
-| 54 |  | utterly unserious planet wtf | [[inversebrah__2069219038421758080]] |
-| 52 |  | wintermute D:< | [[inversebrah__2069306618840519162]] |
+| 64 |  | tf is wrong with dis planet | [[inversebrah__2069767292746146136]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,15 +4,15 @@ kind: player
 title: @WatcherGuru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 28
+posts: 50
 ---
 
 # @WatcherGuru
 
-> 自動生成。信号投稿 28件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 50件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SPCX]](2) [[$GOOGL]](1) [[$VZ]](1) [[$META]](1)
+[[$SPCX]](2) [[$AAPL]](2) [[$MU]](1) [[$MSFT]](1) [[$ETH]](1) [[$GOOGL]](1) [[$VZ]](1) [[$META]](1) [[$RLUSD]](1) [[$BTC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -21,12 +21,12 @@ posts: 28
 | 9,186 |  | JUST IN: 🇪🇺 Ripple receives preliminary MiCA approval to offer regulated crypto paym | [[watcherguru__2069363171354181742]] |
 | 8,198 |  | JUST IN: 🇺🇸 US House Committee schedules crypto Clarity Act hearing for July 17. | [[watcherguru__2069471422812946746]] |
 | 8,112 |  | JUST IN: Ethereum Foundation fires 20% of its staff. | [[watcherguru__2069420796066320884]] |
+| 6,932 |  | JUST IN: GTA 6 will officially cost $79.99.   Ultimate Edition: $99.99 | [[watcherguru__2069739708599673118]] |
 | 6,855 |  | JUST IN: 🇺🇸 Over $1.1 trillion wiped out from US stock market at open. | [[watcherguru__2069416106344018003]] |
 | 6,309 |  | JUST IN: Bitcoin falls under $63,000  Over $150,000,000 longs liquidated from the cr | [[watcherguru__2069305922824888434]] |
 | 6,182 | [[$SPCX]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
+| 5,833 |  | JUST IN: 🇺🇸 President Trump says the United States will have an "economic boom the l | [[watcherguru__2069955865046642941]] |
 | 5,644 |  | JUST IN: 🇺🇸 $1 trillion wiped out from the US stock market today. | [[watcherguru__2069511171720249420]] |
-| 5,321 |  | JUST IN: 🇺🇸🇮🇳 Donald Trump Jr. held a private meeting with Indian billionaire Gautam | [[watcherguru__2069454387437531176]] |
-| 5,076 |  | JUST IN: JPMorgan CEO Jamie Dimon says "we're in a bull market."  "It's like a littl | [[WatcherGuru__2069140304381280259]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

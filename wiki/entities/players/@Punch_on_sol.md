@@ -4,12 +4,12 @@ kind: player
 title: @Punch_on_sol
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 21
+posts: 22
 ---
 
 # @Punch_on_sol
 
-> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -26,7 +26,7 @@ posts: 21
 | 1,149 |  | The eyes, Chico, they never lie | [[punch_on_sol__2067210233336754461]] |
 | 1,018 |  | Punch.  That's the tweet. | [[punch_on_sol__2067966127200723408]] |
 | 742 |  | Punch knows what it feels like to be the small one figuring everything out. | [[punch_on_sol__2065048116370296883]] |
-| 177 |  | 10 more Oran-Mama plushies are ready to find a new their new homes! | [[punch_on_sol__2069046653768671432]] |
+| 223 |  | What a diva 🥰😍 | [[punch_on_sol__2069941444630974597]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,12 +4,12 @@ kind: player
 title: @armaniferrante
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 5
+posts: 13
 ---
 
 # @armaniferrante
 
-> 自動生成。信号投稿 5件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 13件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,6 +22,11 @@ posts: 5
 | 197 |  | Backpack is The Crypto Stock Broker. | [[armaniferrante__2069106157789360378]] |
 | 160 |  | Surprises me everyday how little people care about this. You would expect there to b | [[armaniferrante__2069315738276696530]] |
 | 159 |  | I feel like a paid shill for @Backpack at this point but what they are doing with th | [[armaniferrante__2069648309095121157]] |
+| 154 |  | As crypto matures, not only will it grow 100x, but the market structure of the entir | [[armaniferrante__2070055299910979884]] |
+| 133 |  | new dividends tab is live on @Backpack web | [[armaniferrante__2070309044016099561]] |
+| 125 |  | Modern Finance. 🎒 | [[armaniferrante__2070326850493309246]] |
+| 93 |  | The people have spoken. | [[armaniferrante__2070121357774655587]] |
+| 88 |  | Light mode live on the @Backpack wallet extension. Web, mobile, and extension all no | [[armaniferrante__2070312783263203571]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

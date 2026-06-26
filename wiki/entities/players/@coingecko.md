@@ -4,12 +4,12 @@ kind: player
 title: @coingecko
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 43
+posts: 60
 ---
 
 # @coingecko
 
-> 自動生成。信号投稿 43件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 60件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$HYPE]](4) [[$BTC]](4) [[$SOL]](2) [[$ETH]](2) [[$SPCX]](2) [[$ASTER]](1) [[$LIT]](1) [[$BP]](1) [[$AERO]](1) [[$TNSR]](1)
@@ -23,10 +23,10 @@ posts: 43
 | 1,277 | [[$BTC]] | JUST IN: Strategy purchases another 1,587 Bitcoin for ~$100M, bringing its total hol | [[coingecko__2066491800911552975]] |
 | 1,160 |  | JUST IN: Bitcoin falls below $63,000. | [[coingecko__2067635553583993272]] |
 | 742 | [[$BP]] | INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock. | [[coingecko__2066073983913447663]] |
+| 707 |  | JUST IN: Bitcoin falls below $59,000. | [[coingecko__2070144744009662478]] |
 | 617 | [[$BTC]] | JUST IN: Strategy purchases another 520 Bitcoin for ~$35M, bringing its total holdin | [[coingecko__2069030123341304208]] |
 | 495 |  | JUST IN: Bitcoin falls below $63,000 amid heightened liquidation-driven volatility. | [[coingecko__2069306973229588538]] |
 | 458 | [[$SPCX]] | NEWS: $SPCX falls 17.8%, erasing most of its gains since its market debut. | [[coingecko__2069288716133425284]] |
-| 415 | [[$XPL]] | INSIGHT: $XPL pumps 27.4% following the launch of Plasma One. | [[coingecko__2067313691700142135]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

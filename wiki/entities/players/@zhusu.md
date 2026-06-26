@@ -4,12 +4,12 @@ kind: player
 title: @zhusu
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 114
+posts: 116
 ---
 
 # @zhusu
 
-> 自動生成。信号投稿 114件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 116件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$BTC]](12) [[$ETH]](6) [[$LUNA]](1) [[$AAVE]](1) [[$SUSHI]](1)

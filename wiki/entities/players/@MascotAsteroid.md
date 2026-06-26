@@ -4,15 +4,15 @@ kind: player
 title: @MascotAsteroid
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 19
+posts: 20
 ---
 
 # @MascotAsteroid
 
-> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$SHIB]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

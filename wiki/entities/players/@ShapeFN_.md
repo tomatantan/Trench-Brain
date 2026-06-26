@@ -4,33 +4,33 @@ kind: player
 title: @ShapeFN_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 94
+posts: 99
 ---
 
 # @ShapeFN_
 
-> 自動生成。信号投稿 94件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 99件。watchlist: [[watchlist]]。
 
-## call track-record（[[manipulation-playbook]]・[[kol-track-records|KOL track-record]]）
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$MITCH]](8) [[$MERLIN]](6) [[$SERGEYEVNA]](5) [[$NOSEY]](5) [[$INDIAN]](5) [[$AIZEN]](4) [[$SUBARU]](2) [[$REN]](2) [[$KINTARA]](1) [[$ANNABELLE]](1)
+[[$MITCH]](8) [[$MERLIN]](8) [[$SERGEYEVNA]](5) [[$NOSEY]](5) [[$INDIAN]](5) [[$AIZEN]](4) [[$VINTEDGATE]](3) [[$SUBARU]](2) [[$REN]](2) [[$KINTARA]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 1,973 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[shapefn___2068315352124006863]] |
-| 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[ShapeFN___2067208855918960741]] |
+| 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[shapefn___2067208855918960741]] |
+| 141 | [[$MERLIN]] | From selling water on the streets to the top of the World Cup. 🦆🏆 $Merlin | [[shapefn___2067195484842651871]] |
 | 109 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[shapefn___2067616747088142496]] |
+| 80 | [[$MERLIN]] | POV: You accidentally become FIFA's newest ambassador. $Merlin | [[shapefn___2067201353361785315]] |
 | 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[shapefn___2067754051551265088]] |
 | 63 |  | I THINK I FOUND THE NEXT VIRAL TIKTOK MEME ITS GOING CRAZY ON TIKTOK | [[ShapeFN___1898406623153963026]] |
 | 58 |  | The real Annabelle lore 👻  Annabelle is a haunted doll kept in a locked glass case b | [[ShapeFN___1927028226573885709]] |
 | 51 | [[$MITCH]] | When she doesn’t believe $MITCH will 100x, but you know. | [[ShapeFN___1946602057110045050]] |
 | 50 | [[$MITCH]] | When $MITCH hits 100x and the DMs start flooding in. | [[ShapeFN___1946564354381390132]] |
-| 46 | [[$MITCH]] | When you walk in and everyone’s portfolio is down but yours is +500%  $Mitch | [[ShapeFN___1946579742884262318]] |
-| 44 | [[$AIZEN]] [[$ALIEN]] [[$PLANKTON]] | I want to announce I’m leading $AIZEN as CTO. We’re now at $1M market cap. My previo | [[ShapeFN___1882960805827665934]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

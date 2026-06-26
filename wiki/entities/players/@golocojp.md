@@ -4,33 +4,33 @@ kind: player
 title: @golocojp
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 16
+posts: 26
 ---
 
 # @golocojp
 
-> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
 
-## call track-record（[[manipulation-playbook]]・[[kol-track-records|KOL track-record]]）
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 7件 / 現outcome評価 5件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$CARDS]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1) [[$VEN]](1)
+[[$CARDS]](2) [[$REYA]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1) [[$VEN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 20 |  | solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump @c0mputeAI FDV1.7Mでトップブラストして良かった | [[golocojp__2068244837426696341]] |
 | 18 |  | これぞまさにGud Tek！！  leyten氏に賭けたい、応援の気持ちで solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7d | [[golocojp__2067702170162798877]] |
+| 10 |  | .@seyong Thanks for building @fomo  Not only we can enjoy day trading in multi-chain | [[golocojp__2069870809573896194]] |
+| 7 |  | Ornn     for Compute. solana:AWGCDT2gd8JadbYbYyZy1iKxfWokPNgrEQoU24zUpump for Memory | [[golocojp__2070074350750076989]] |
+| 7 |  | EasyA x fomo....なんだ？？👀 | [[golocojp__2069795779494244617]] |
 | 5 |  | ほんとさらなるベア相場への警戒感強すぎてチャレンジウォレッとNansen以外で買い控えてたけど、   solana:Eg2ymQ2aQqjMcibnmTt8erC6Tv | [[golocojp__2067825859688648792]] |
+| 5 | [[$CARDS]] | Have one or two of project tokens positioned in the strong markets such as RWAs & Pr | [[golocojp__2069742548936278521]] |
+| 4 | [[$REYA]] | Reya $Reya が毎日トレードする人を応援する「Streakers」キャンペーン開始  期間: 2026年6月25日（木）日本時間9時〜7月9日（木）同8時59分 | [[golocojp__2070097555552395711]] |
 | 4 | [[$VEN]] | Aped $Ven  Red @redemptionarcc always publicly give us the right "mispriced" project | [[golocojp__2069131913579933988]] |
 | 4 |  | 1.7M*FDV → 6.8M 4倍👏 solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump まだいけちゃう？ | [[golocojp__2068086426861015299]] |
-| 3 |  | 昨日共有した solana:GDaQVH7GoHCRJWHpH7vXfQg2Vrb7kkhCoQ545w4Dhyc3 もx1.5  トークンローンチから26%の供給をバ | [[golocojp__2068089675550712139]] |
-| 3 |  | いや、昨日の solana:EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA の @0xgilbert 回も神回だったな。  そ | [[golocojp__2069604114468872277]] |
-| 3 |  | Still a few good tech traders I follow have noticed, more good tech traders jump in  | [[golocojp__2069504474981491150]] |
-| 3 |  | PumpFunの圧倒的首位は変わらないけど、EasyAがPumpに次ぐ出来高2位に⤴️  「Tech」は @EasyA_Kickstart をしっかり築いてって欲しい。 | [[golocojp__2069097193974456690]] |
-| 3 |  | BPなあ、BPなあ、、、、😭 | [[golocojp__2067815411132035432]] |
 
 <!-- synthesis:start -->
 ## 思考の型（how they reason・視点エンジン用）

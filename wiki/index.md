@@ -38,6 +38,8 @@
 - [[early-lowcap-entry]] — ★早期層: 卒業前low-capを「危険一律」でなく評価（mcap velocity/organic traction初動/theme-fit/最初のKOL＝早期の中で生存を分ける・本人指摘から合成）
 - [[launch-pulse]] — ★観測: ローンチの流れ合成（pump非scam flow・死の分母・テーマ分布・KOL standout）
 
+## player 思考の型（view-engine 燃料）
+
 ## 要約ページ（summaries）
 - ツイートは原子的なので source note 自体が summary を兼ねる（sources/x/）。長文ソース(news等)取込時に作成。
 - [[bankless-ai-crackdown-internet-2026-06-23]] — Illia Polosukhin (Near Protocol) × Bankless: Fable 輸出規制 / AI 国有化 / 分散型 AI "full sovereign mode"（⚠️ 創業者ポジション最大）（2026-06-23）

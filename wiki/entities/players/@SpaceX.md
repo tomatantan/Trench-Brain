@@ -4,12 +4,12 @@ kind: player
 title: @SpaceX
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 22
+posts: 25
 ---
 
 # @SpaceX
 
-> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 25件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

@@ -4,12 +4,12 @@ kind: player
 title: @Bankless
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 25
 ---
 
 # @Bankless
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 25件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$STRC]](1) [[$RE]](1)
@@ -17,6 +17,7 @@ posts: 23
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 757 |  | INTERVIEW: Fomo’s $75M Bet on Making Crypto Trading Mainstream  Crypto trading is st | [[bankless__2069752402895655023]] |
 | 347 |  | INTERVIEW: @CryptoHayes - The AI Crash That Could Send bitcoin:native  to $1M  Arthu | [[bankless__2069027635582103941]] |
 | 225 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[bankless__2065488183656378680]] |
 | 99 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[bankless__2067655855646945787]] |
@@ -26,7 +27,6 @@ posts: 23
 | 51 |  | "...I saw @HunterBiden is a big fan of that one..."   @CFTC's @ChairmanSelig, when a | [[Bankless__2064791354937606484]] |
 | 37 | [[$RE]] | INTERVIEW: How Re is Rebuilding the $1T Reinsurance Market with Stablecoins / Karn S | [[bankless__2067578073134809332]] |
 | 34 |  | Coinbase joined Robinhood this week in giving agents access to their platforms, turn | [[bankless__2067240144323637610]] |
-| 34 |  | Blockchain technology could replace parts of financial regulation.  @CFTC @ChairmanS | [[bankless__2066950118075715773]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

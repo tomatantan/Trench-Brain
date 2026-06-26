@@ -4,12 +4,12 @@ kind: player
 title: @fundstrat
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 7
+posts: 9
 ---
 
 # @fundstrat
 
-> 自動生成。信号投稿 7件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 9件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$BMNR]](1) [[$ETH]](1)
@@ -23,7 +23,9 @@ posts: 7
 | 594 |  | Great blast from the past | [[fundstrat__2068445304232321460]] |
 | 442 |  | The press conference post FOMC rate decisions has only been in place since 2019:  -  | [[fundstrat__2067305096619209034]] |
 | 410 |  | Oldie but a goodie | [[fundstrat__2066640552263553512]] |
+| 164 |  | Tune into @CNBCClosingBell at 3pm ET with @TheJudgeCNBC   - I will be on discussing  | [[fundstrat__2070215030188945779]] |
 | 139 |  | Tune into CNBC Closing Bell @CNBCClosingBell at 3:35pm (bit later)... with @TheJudge | [[fundstrat__2067692887928684703]] |
+| 137 |  | Ai jobs for humans | [[fundstrat__2070316191092990365]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
