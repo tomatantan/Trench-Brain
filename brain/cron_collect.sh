@@ -54,6 +54,8 @@ python3 brain/snapshot.py >> "$LOG" 2>&1 || echo "snapshot skipped" >> "$LOG"
 python3 brain/feedback.py >> "$LOG" 2>&1 || echo "feedback skipped" >> "$LOG"
 python3 brain/kol_track_record.py >> "$LOG" 2>&1 || echo "kol-track-record skipped" >> "$LOG"
 python3 brain/predictive_study.py >> "$LOG" 2>&1 || echo "predictive-study skipped" >> "$LOG"
+# (2h)★自律read=trenchを見てgenuine notableな時だけ本人にpush(大半沈黙・spam無)
+bash brain/autonomous_read.sh >> "$LOG" 2>&1 || echo "auto-read skipped" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
