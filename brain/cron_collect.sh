@@ -41,6 +41,8 @@ python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
 bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
 # (2b)X側合成層=worklist §1a(鮮度ゲート通過)全件 を headless claude が合成(§1a空なら呼ばない=コスト0)
 bash brain/synthesize_x.sh || echo "synth-x skipped" >> "$LOG"
+# ★単一player思考conceptの濫造防止(指針8): synthesize_xが作っても掃除=player思考はentity(synthesize_player)がcanonical
+rm -f wiki/concepts/player-*.md 2>/dev/null || true
 # (2c)長文合成層=未合成transcriptを3本/サイクル deep 合成(0本なら呼ばない=コスト0)
 bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 # (2d)backfill層=高signal未合成stubを5件/サイクル deep 合成=グラフ密度UP(対象無で呼ばない=コスト0・自己限定)
