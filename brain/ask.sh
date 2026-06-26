@@ -46,6 +46,40 @@ if out: print(json.dumps(out, ensure_ascii=False, indent=1))
 PY
 )"
 
+# ★A3統合: 問いに CA→on-chain / accountリンク/@→そのツイ を gather＝1つの頭で全部読む(道具選ばせない)
+ENTDATA="$(python3 - "$Q" <<'PY'
+import sys, re, json, urllib.request, urllib.parse
+q = sys.argv[1]; UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+key = ""
+try:
+    for ln in open(".env", encoding="utf-8"):
+        if ln.startswith("TWITTERAPI_KEY="): key = ln.strip().split("=", 1)[1]
+except Exception: pass
+out = {}
+m = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q)
+if m:
+    ca = m.group(0)
+    try:
+        c = json.loads(urllib.request.urlopen(urllib.request.Request(f"https://frontend-api-v3.pump.fun/coins/{ca}", headers={"User-Agent": UA}), timeout=10).read())
+        out["token"] = {"sym": c.get("symbol"), "name": c.get("name"), "mcap": c.get("usd_market_cap"), "reply": c.get("reply_count"), "complete": c.get("complete"), "twitter": c.get("twitter")}
+    except Exception: pass
+    try:
+        d = json.loads(urllib.request.urlopen(urllib.request.Request(f"https://api.rugcheck.xyz/v1/tokens/{ca}/report", headers={"User-Agent": UA}), timeout=12).read())
+        th = d.get("topHolders") or []
+        out["token_onchain"] = {"mint_auth": d.get("mintAuthority"), "rugged": d.get("rugged"), "top_pct": round(max((h.get("pct") or 0) for h in th), 1) if th else None, "insiders": bool(d.get("insiderNetworks")), "danger": [r.get("name") for r in (d.get("risks") or []) if r.get("level") == "danger"]}
+    except Exception: pass
+a = re.search(r"(?:x\.com|twitter\.com)/([A-Za-z0-9_]+)", q) or re.search(r"@([A-Za-z0-9_]{2,15})", q)
+if a and key:
+    h = a.group(1)
+    try:
+        r = urllib.request.urlopen(urllib.request.Request("https://api.twitterapi.io/twitter/user/last_tweets?" + urllib.parse.urlencode({"userName": h}), headers={"X-API-Key": key}), timeout=15)
+        arr = (json.loads(r.read()).get("tweets") or [])[:15]
+        out["account"] = {"handle": h, "recent_tweets": [(t.get("text") or "")[:150] for t in arr]}
+    except Exception: pass
+if out: print(json.dumps(out, ensure_ascii=False, indent=1))
+PY
+)"
+
 PROMPT="$(cat brain/ask_prompt.md)
 
 ## 方法論（Skill Graph: 内部でこれに沿って考える・出力は簡潔に合成）
@@ -61,6 +95,11 @@ ${LIVEX:+
 ## live X（問いの \$ticker/CA を今 誰が語ってるか・watchlist外含む・follower重み）
 新規/今の熱はこれで読む（大follower数人がCA投げてる=traction兆候／無風=誰も乗ってない）。⚠️語られてる≠良い(bot/pumper疑い)→corpusのKOL track-recordとクロス。
 $LIVEX}
+${ENTDATA:+
+
+## ★この問いに含まれる銘柄/アカウントの実データ（1つの頭で全部読め＝道具を選ばせない）
+問いに CA/アカウントがあれば下に on-chain/ツイを gather 済。これと corpus・合成知識・liveを**統合して1つの読み**にせよ（/check だの /who だの分けない）。
+$ENTDATA}
 
 ## ユーザーの問い:
 $Q"
