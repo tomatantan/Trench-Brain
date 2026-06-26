@@ -93,11 +93,13 @@ if printf '%s' "$OUT" | head -1 | grep -qi "NOTABLE:[[:space:]]*true"; then
   if [ "$H" = "$LASTH" ]; then echo "自律read: notable だが直近と同一→skip"; exit 0; fi
   printf '%s' "$H" > brain/state/last_auto_read.txt
   # ★A5: この仮説を log=次回 outcome と照合して学ぶ
-  python3 - "$READ" <<'PY'
+  python3 - "$READ" "$DISCOVER" "$INVESTIGATED" <<'PY'
 import sys, re, json
 from datetime import datetime, timezone
 read = sys.argv[1]
-cas = re.findall(r"[1-9A-HJ-NP-Za-km-z]{32,44}", read)[:4]
+extra = (sys.argv[2] if len(sys.argv) > 2 else "") + " " + (sys.argv[3] if len(sys.argv) > 3 else "")
+# read本文(CA truncate されがち)＋discover/investigated(full CA)から抽出=学習loopが正しいtokenを追跡
+cas = list(dict.fromkeys(re.findall(r"[1-9A-HJ-NP-Za-km-z]{32,44}", read + " " + extra)))[:4]
 rec = {"date": datetime.now(timezone.utc).strftime("%Y-%m-%d"), "cas": cas, "read": read[:200]}
 with open("brain/state/hypotheses.jsonl", "a", encoding="utf-8") as f:
     f.write(json.dumps(rec, ensure_ascii=False) + "\n")
