@@ -61,7 +61,7 @@ python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
-git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json >> "$LOG" 2>&1 || true
+git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
