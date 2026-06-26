@@ -65,6 +65,9 @@ WORKLIST="$(grep -A18 '§1a' wiki/_worklist.md 2>/dev/null | head -18 || true)"
 
 PROMPT="$(cat brain/autonomous_read_prompt.md)
 
+## ★この人(本人)の文脈＝これを前提に何が notable か判断(A6):
+$(cat brain/user_context.md 2>/dev/null)
+
 ## 現在の live state:
 ### launch-pulse(観測の流れ):
 $PULSE

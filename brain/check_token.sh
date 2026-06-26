@@ -183,6 +183,9 @@ printf '{"ca":"%s","ts":%d}\n' "$CA" "$(date +%s)" >> brain/state/user_checked.j
 
 PROMPT="$(cat brain/check_token_prompt.md)
 
+## ★この人(本人)の文脈＝これを前提に「この人のために」読む(A6):
+$(cat brain/user_context.md 2>/dev/null)
+
 ## 対象トークンの live データ(on-chain=commodity足切り) + wiki合成接続:
 $DATA
 $KOL_ENTITIES

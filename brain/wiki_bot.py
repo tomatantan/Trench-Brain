@@ -199,6 +199,21 @@ def assetize_query(q, ans):
             f.write(f"- [{date}] 問い「{q[:50]}」→ {(' / '.join(gaps))[:200]}\n")
 
 
+def handle_context(chat_id, arg):
+    """A6: 本人のトレード文脈を記録→脳がこれを前提に「お前のために」考える。"""
+    arg = arg.strip()
+    if not arg:
+        send(chat_id, "使い方: /context <あなたの文脈>（何を主に張る/リスク許容/時間軸/サイズ/避けるもの/スタイル）→ 脳がこれを前提に考える"); return
+    f = ROOT / "brain" / "user_context.md"
+    try:
+        with open(f, "a", encoding="utf-8") as fp:
+            fp.write(f"\n- （本人追記）: {arg}")
+        git_commit_push(["brain/user_context.md"], "context: 本人がトレード文脈を追記")
+        send(chat_id, "文脈を記録した。以降、これを前提に「お前のために」読む。")
+    except Exception as e:
+        send(chat_id, f"⚠️ 記録失敗: {type(e).__name__}")
+
+
 def handle_who(chat_id, arg):
     """アカウント信頼性: /who <@handle or Xリンク> → 嘘つき/pumperか信頼できるか(check_account.sh)。"""
     arg = arg.strip()
@@ -351,7 +366,7 @@ def main():
             if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd in ("wiki", "add", "check", "discover", "who", "start", "help"):
+            if cmd in ("wiki", "add", "check", "discover", "who", "context", "start", "help"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
@@ -364,6 +379,8 @@ def main():
                     handle_discover(chat_id, arg)
                 elif cmd == "who":
                     handle_who(chat_id, arg)
+                elif cmd == "context":
+                    handle_context(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
                     send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:

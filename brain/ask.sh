@@ -82,6 +82,9 @@ PY
 
 PROMPT="$(cat brain/ask_prompt.md)
 
+## ★この人(本人)の文脈＝これを前提に「この人のために」考える(A6)
+$(cat brain/user_context.md 2>/dev/null)
+
 ## 方法論（Skill Graph: 内部でこれに沿って考える・出力は簡潔に合成）
 $(cat brain/methodology/lenses.md)
 $(cat brain/methodology/source-tiers.md)
