@@ -1,0 +1,60 @@
+/* ============================================================
+   mobile.css — Trench-Brain モバイル可読性スニペット
+   `body.is-mobile` 限定 = PC/デスクトップには一切影響しない。
+   ミラー(Trench-Brain-wiki)経由で端末 Obsidian に同期される。
+   appearance.json の enabledCssSnippets で有効化。
+   ============================================================ */
+
+/* --- 本文: 読みやすい行間/サイズ --- */
+body.is-mobile .markdown-rendered {
+  font-size: 1.02em;
+  line-height: 1.7;
+}
+
+/* --- 横長テーブル(死亡台帳/跳躍台帳=多列)を横スクロール可に ---
+   モバイル最大の痛み解消。画面外に溢れず指でスクロールできる。 */
+body.is-mobile .markdown-rendered table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 0.82em;
+  -webkit-overflow-scrolling: touch;
+}
+body.is-mobile .markdown-rendered th,
+body.is-mobile .markdown-rendered td {
+  padding: 4px 8px;
+}
+
+/* --- 内部リンク([[wikilink]])を目立たせる = 知識グラフを指で辿りやすく --- */
+body.is-mobile .markdown-rendered a.internal-link {
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--text-accent);
+}
+
+/* --- 見出し: 階層を視認しやすく --- */
+body.is-mobile .markdown-rendered h1 { font-size: 1.5em; margin-top: 0.5em; }
+body.is-mobile .markdown-rendered h2 {
+  font-size: 1.25em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.2em;
+}
+body.is-mobile .markdown-rendered h3 { font-size: 1.1em; }
+
+/* --- 引用/⚠️注記ブロックを左罫線で強調 --- */
+body.is-mobile .markdown-rendered blockquote {
+  border-left: 3px solid var(--text-accent);
+  padding-left: 0.8em;
+}
+
+/* --- frontmatter(プロパティ)はモバイルでは小さく=本文を邪魔しない --- */
+body.is-mobile .metadata-container {
+  font-size: 0.8em;
+}
+
+/* --- インラインコード/ティッカーを読みやすく --- */
+body.is-mobile .markdown-rendered code {
+  font-size: 0.88em;
+  word-break: break-word;
+}

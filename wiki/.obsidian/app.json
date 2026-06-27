@@ -1,1 +1,6 @@
-{}
+{
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "preview",
+  "livePreview": true
+}
