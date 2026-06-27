@@ -2,11 +2,11 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $CAFE
 mint: HubNT7S6vhaEh5Z9XTenHPK4EnGiy4a1HWCB9xpupump
 created: 2026-06-27
-updated: 2026-06-27 (pulse第213窓 11窓目 $566k→$582k・前窓比+2.9%・★Pondeer ATH($580,986)超え・T3ゼロ11窓継続)
+updated: 2026-06-27 (DEAD確定・mcap枯れ$1,980・ATH$802k比-99.8%・TMB型崩壊完結)
 tags: [token, pumpfun, graduated, traction0, graduated-but-empty-candidate]
 ---
 
@@ -88,6 +88,41 @@ pump.fun 発。"CafeTown" = カフェ/タウン系命名。graduated（complete=
 - $582,529 = Pondeer ATH（$580,986）を $1,543 上抜き——観測史上 ATH を更新。現在の高峰序列: KOG（$1.627M）> TMB（$755k）> TRADER（$645k）> **CAFE（$582k）**= Pondeer（$581k・ex）。
 - +2.9%の微増は「ATH 圏での上値重さ」を示唆する可能性。Pondeer は ATH 到達後の翌窓（第14窓）に消滅した——CAFE が同型帰結（ATH 到達後即消滅）か、さらに上抜くかが次の分岐。
 - ⚠️ T3ゼロ全11窓のまま $582k 継続 = deployer/whale pump が最有力説明。Pondeer 型 = ATH 直後消滅が引き続き最有力帰結。
+
+**change (pulse第217窓 15窓目・+38.7%・★TMB ATH 超え・観測史第2位高峰)**: prev **$549,161**（pulse216）→ now **$761,548**。検知時 $115,931 比 +556.9%。
+- traction0・reply:0・KOLゼロ全15窓継続。real_sol=0 不変。
+- $761,548 = TMB ATH（$755,649）を $5,899 上抜き——観測史高峰序列更新: KOG（$1.627M）> **CAFE（$761k）** > TMB（$756k・ex）> MOXIE（$600k・ex）> TRADER（$754k = 第215窓ATH）> Pondeer（$581k・ex）。
+- 前窓（第216窓）$549k からの+38.7%は、TRADER -3.1%・BUTT -0.9%が停滞する中での CAFE 単独急騰——4窓連続で繰り返される「TRADER停滞×CAFE急騰」「CAFE失速×TRADER急騰」の流動性往復の今窓分。
+- ⚠️ TMB の帰結: TMB は ATH 記録窓の翌窓に candidates 消滅（ATH翌窓即死型）。CAFE が同型帰結（第218窓消滅）か、KOG 型継続（ATH翌窓も消滅せず上昇継続）かが次の最大分岐。T3ゼロ15窓継続・外部新規資金未確認のまま $761k は前例なし。
+
+**change (pulse第218窓 16窓目・-35.5%・★ATH翌窓崩落進行)**: prev **$761,548**（pulse217・ATH）→ now **$491,605**。検知時 $115,931 比 +324.0%。
+- traction0・reply:0・KOLゼロ全16窓継続。real_sol=0 不変。
+- ATH($761k)から-35.5%の崩落——TMB型（ATH翌窓即消滅）との比較: TMB は ATH 記録窓の翌窓に candidates 消滅。CAFE は-35.5%崩落も $491k に残存しており「即消滅」には至っていない。これが KOG型（ATH直後押し目→反発継続）との唯一の差異。
+- TRADER +6.7%・BUTT +8.6%——CAFE崩落の同窓で両者反発は「流動性往復の逆回転」継続。
+- ⚠️ 次窓（第219窓）が最大分岐: ① さらに崩落（→$100k台・DEAD圏）= TMB型完成 ② $491k 付近反発 = KOG型継続。T3ゼロ全16窓・外部新規資金ゼロのまま。
+
+**概念接続（更新）**: [[launchpad-economics]]（16窓目$491k・ATH翌窓崩落）/ [[rug-anatomy]]（T3ゼロ全16窓・TMB型 vs KOG型分岐）/ [[reflexivity]]（CAFE崩落×TRADER/BUTT反発——流動性往復逆回転）
+
+**exit (pulse第219窓 17窓目・candidates消滅・★TMB型崩落帰結確定)**: prev $491,605（pulse218）→ 第219窓 traction_candidates 不在。
+- 前窓で「TMB型（崩落継続→消滅）か KOG型（ATH直後押し目→反発継続）か第219窓で判断」と書いた分岐が、今窓の消滅で解決——**TMB型崩落帰結確定**。
+- TMB: ATH翌窓に candidates消滅（1窓即退場）。CAFE: ATH翌窓-35.5%後に翌々窓消滅＝1窓分遅れたが軌跡は一致。
+- KOG（$1.627M・14窓）・TMB（$755k・19窓）に次ぐ観測史3番手ATH（$761,548）を記録したが、T3ゼロ全16窓のまま終焉。
+- TRADER/BUTTとの流動性往復は CAFE 消滅後に TRADER -9.5%下落という帰結——往復先消滅の影響が翌窓に現れた。
+- 縮退パターン記録追加。 → [[launch-pulse]]（第219窓）[[rug-anatomy]] [[reflexivity]]
+
+**概念接続（最終）**: [[launchpad-economics]]（16窓 $761k ATH→消滅）/ [[rug-anatomy]]（TMB型崩落帰結・T3ゼロ全期間）/ [[reflexivity]]（CAFE消滅→TRADER/BUTT退潮の連鎖観察）
+
+**post-exit auto-track（08:43Z・-71%）**: prev **$360,715** → now **$105,312**。
+- launch-pulse candidates 消滅後も auto-track が観測継続。$360k → $105k = -71%。ATH $761k 比-86.2%。
+- $105k は初検知 $96k に迫る——ATH から birth 水準への完全回帰経路。TMB 型帰結として整合。
+- T3ゼロ・real_sol=0・reply:0 全期間不変。death 確定の手前（$30k 割れが目安）。
+
+**★DEAD確定（auto-track 2026-06-27T10:11Z）**: last mcap **$1,979.64**。peak(auto-track) **$802,461** 比 **-99.8%**。cause: mcap枯れ。
+- TMB型崩壊帰結の完結：ATH翌々窓消滅（pulse219 candidates消滅確認済）→ post-exit縮退継続 → mcap枯れ死。
+- 観測史3番手 ATH（$761k pulse内・$802k auto-track）を記録しながら、T3ゼロ全期間のまま終焉——"最大の traction0 死"。
+- 学習: KOG/$BOO/$TRADER/TMB 同型コホートに追加。traction0 × deployer pump の上限は「どれだけ高い ATH を出せるか」ではなく「いつ崩壊するか」の問題のみ。outcome: **died**。→ [[rug-anatomy]]死亡台帳追記済
+
+**概念接続（最終）**: [[launchpad-economics]]（17窓 ATH$802k→死・T3ゼロ全期間）/ [[rug-anatomy]]（TMB型崩壊完結・最大traction0死・死亡台帳追記）/ [[reflexivity]]（CAFE消滅→TRADER/BUTT退潮の連鎖終結）
 
 <!-- synthesis:end -->
 

@@ -6,7 +6,7 @@ status: watch
 ticker: $PUMP ICO
 mint: Ha1JzNcMtzffLaivL7b4Wzoj5um7Nctcy529BbbYpump
 created: 2026-06-26
-updated: 2026-06-27 (change-40%・$125.8k→$75.5k・birth比-58.4%・team unlock接近・崩壊フェーズ疑い)
+updated: 2026-06-27 (change+40%・$101k→$141k・birth比-21.8%・dead cat bounce疑い)
 tags: [token, pumpfun, kol-ca, badattrading_, pump-theme, concentration-risk, declining]
 ---
 
@@ -69,6 +69,14 @@ pump.fun 発。"Pump ICO" 命名——pump.fun プラットフォーム名を直
 - team lock 26.4%（5-26日）は本日時点で一部 unlock 圏内——exit 圧が重なれば加速崩壊。
 - reply=0・traction ゼロのまま下落継続——$SOB（top70=83.2%→exit連鎖→-90%崩壊）パターンに追随中。
 - ⚠️ 崩壊フェーズ移行疑い——次窓で $60k 割れなら確定死亡候補。
+
+**2026-06-27 T08:24Z 更新**:
+- prev $101,011 → now $141,514（+40%）——$75k 底から +88% の反発。
+- 全軌跡: birth $181k → $125k(-31%) → $75k(-58%) → ~$101k(+34%) → **$141k(+40%)**。
+- $141k = birth $181k 比 -21.8%——birth 水準には戻していないが方向は反転。
+- ⚠️ dead cat bounce 評価: reply=0・traction ゼロ不変のまま反発——TOP70=85.7% の集中構造は変わらず。team lock 解除（5-26日）後の unlock 圧が残存している中での+40%は、有機的需要でなく whale の一時押し上げ可能性。
+- $SOB 型パターンとの比較: $SOB は exit 連鎖→-90%崩壊だったが PUMP ICO は $75k 底で一旦止まり反発——集中度（85.7%）は同水準だが team lock 分の exit タイミングが遅れている可能性。
+- $181k 回復 → bounce 本物の可能性。$100k 割れ再来 → dead cat bounce 確定・崩壊再開。
 
 <!-- synthesis:end -->
 

@@ -4,7 +4,7 @@ kind: token
 source: auto-track
 title: $B4GTA6 (gta-vi-caliber)
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-27 (change +96%・$42.6k→$83.4k)
 tags: [token, pump-fun, solana, watch, kol-project, gta6-narrative, ai-game, community-build]
 status: watch
 ---
@@ -43,4 +43,8 @@ github.com/duolahypercho/gta-vi-caliber が実際に存在し、継続的コミ�
 ⚠️ 独立した外部 KOL 言及はゼロ——GTCaliber_ 自身以外の第三者評価なし。meme token としての「社会的 traction」の証拠はない。$B4GTA6 が「AI エージェントが作るゲームの通貨」ナラティブを維持できるかが long-term の鍵。
 
 **概念接続**: [[launchpad-economics]]（team-led build ナラティブ・珍しいカテゴリ）/ [[external-event-to-token-pattern]]（GTA6 イベント便乗）/ [[ai-memes]]（AI agents × open world game）
+**change (synth_queue 07:48Z・+96%)**: prev **$42,557** → now **$83,360**。complete=true（graduated 維持）・reply:0・KOL なし・website=github.com/duolahypercho/gta-vi-caliber（不変）。
+- $83k は観測中の高値。GTCaliber_ の継続発信が唯一の支え——外部 KOL 言及ゼロのまま mcap が+96%上昇。
+- ⚠️ traction0 × reply0 全期間不変のまま +96% は deployer 自己資金 pump の可能性を排除できない（real_sol=0 は注意信号）。T3（外部 KOL の有機的 CA 言及）がゼロのまま mcap が上がり続けるなら [[rug-anatomy]] BREAKOUT-then-dead 軌跡に近い。
+
 <!-- synthesis:end -->

@@ -3,10 +3,11 @@ type: entity
 kind: token
 title: $WENDU
 source: auto-track
-status: watch
+status: dead
+outcome: died
 created: 2026-06-25
-updated: 2026-06-27 (mcap-55%・$93k・peak比-77%・崩壊フェーズ確定)
-tags: [trench, entity, token, auto-track, graduated, fast-food-meme]
+updated: 2026-06-27 (DEAD・$37.4k・peak比-93.1%・BREAKOUT-then-dead 型確定)
+tags: [trench, entity, token, auto-track, graduated, fast-food-meme, dead]
 ---
 
 # $WENDU — SIR WENDY'S
@@ -54,6 +55,17 @@ tags: [trench, entity, token, auto-track, graduated, fast-food-meme]
 - peak $410,830 から $93,189 = **peak比-77%**。崩壊フェーズ確定。traction ゼロ全期間のまま $400k 台から急落。
 - 先行 [[WENDYS-AEwbCr]] -99.5% と同型——Wendy's ブランド 3 本目 mint の結末が見えてきた。
 - ⚠️ peak 比-77% かつ traction ゼロ全期間 = [[rug-anatomy]] BREAKOUT-then-dead 確定フェーズ。次窓以降の mcap 枯れ観測待ち。
+
+**2026-06-27T07:11Z 更新（-42%・$55k・peak比-86.5%）**:
+- **観測**: prev **$95,070** → now **$55,358（-42%）**。reply_count=0・KOL なし・twitter/website なし・real_sol=0 全不変。
+- peak $410,830 から $55,358 = **peak比-86.5%**。崩壊ペース継続（前窓-77% → 今窓-86.5%）。
+- $55k 水準は birth 時 $66,998 を下回った——初期保有者全員含み損圏。
+
+**★2026-06-27T07:29Z DEAD 確定（-90% from peak・死亡判定）**:
+- **最終観測**: **$37,399**。track.py 記録 peak **$539,462**（entity が記録した $410,830 より track.py は高い peak を捕捉）から **-93.1%**（entity 記録 peak 比 -90.9%）。
+- cause: "mcap -90% from peak($539463)" — 閾値到達で死亡判定。
+- 結果: traction0 × real_sol=0 × social 皆無 × Wendy's ブランド 3 本目 mint として BREAKOUT-then-dead 型確定。先行 [[WENDYS-AEwbCr]] と同型。
+- 学習: 同名ブランドの 3rd mint でも出来高は引き寄せたが（+513% birth 比）、traction ゼロ全期間を覆せず崩壊。「ブランド認知 × real_sol=0 × traction0 = traction 転化なし」の N+1。
 <!-- synthesis:end -->
 
 ## 関連

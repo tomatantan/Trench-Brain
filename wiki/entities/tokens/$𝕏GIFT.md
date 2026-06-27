@@ -6,7 +6,7 @@ status: watch
 ticker: $𝕏GIFT
 mint: FGnzUzwqULDuZk3WX4CGdKeeZiSwp9kHQKL5HGeFpump
 created: 2026-06-26
-updated: 2026-06-26 (auto-track $702,806・+54%・launch-pulse exit後も継続上昇・全期間新ATH)
+updated: 2026-06-27 (auto-track 08:24Z・$337k→$115k・-66%・ATH$702k比-83.5%・二次反発崩壊確定)
 tags: [token, pumpfun, graduated, traction0, x-meme, elon-adjacent, post-exit-survivor]
 ---
 
@@ -151,6 +151,19 @@ pump.fun 発。bonding curve 卒業済（complete=true）。𝕏（双重打ち 
 - **$702,806 = 全追跡期間新ATH**。launch-pulse ATH $342,371（第150窓）の+2.05倍。
 - ⚠️ T3ゼロ・reply:0 継続を前提とすると、この上昇は traction なき価格形成の継続——「launch-pulse 外でも KOL 不在型高 mcap が維持される」事例として新型。あるいは launch-pulse 外観測期間中に T3 signal が発生した可能性（auto-track ではキャプチャされない）。
 - 「launch-pulse exit = token 死亡」ではないことが実証。exit 後の追跡が必要なケースがある——[[launchpad-economics]] のシステム上の盲点。
+
+**更新（synth_queue 08:06Z・+83% / ATH$702k比-52%後の二次反発）**: prev **$184,172** → now **$337,693**。
+- ATH $702,806（2026-06-26T14:46Z）から$184k まで急落（ATH比-73.8%）したのち、現在$337k まで+83%二次反発。
+- ATH $702k からの軌跡: $702k→$184k（-73.8%・崩壊フェーズ）→$337k（+83%・二次反発）——依然 ATH の51.9% 水準。
+- ⚠️ real_sol=0・reply:0・KOL なし 全不変。traction ゼロのまま ATH 後に等比崩落→二次反発の繰り返し——DUMPSTR 型長期死亡経路（$DUMPSTR: $382k ATH→複数窓→DEAD $26k）と構造が類似。
+- 二次反発が $702k ATH を超えられるか、それとも $337k 圏でのフェイク bounce で終わるかが分岐点。T3 signal（外部 KOL の有機的 CA 言及）は依然ゼロ。
+
+**更新（synth_queue 08:24Z・-66% / 二次反発崩壊確定）**: prev **$337,693** → now **$115,874**。
+- $184k→$337k（+83%）の二次反発が $337k でピークアウトし、再び $115k まで急落（-66%）。
+- 全軌跡: ATH $702k → 崩壊 $184k (-73.8%) → bounce $337k (+83%) → **再崩壊 $115k (-65.7%)**。
+- $115,874 = 初検知 mcap $111,300 に限りなく接近——19 日間の全上昇を吐き出し、事実上の原点回帰。
+- ⚠️ DUMPSTR 型死亡経路の最終段階と評価: 「ATH → 崩壊 → 一時bounce → さらに下落」の 3 段降下。DUMPSTR 自身の帰結（$382k→複数窓→DEAD $26k）に追随中。
+- next: $100k 割れ → 初検知 mcap 割れ = DEAD 確定候補。bounce が再度来ても ATH $702k 比-83.5% の水準では次の bounce も死に向かう。T3 ゼロ全期間。
 
 <!-- synthesis:end -->
 

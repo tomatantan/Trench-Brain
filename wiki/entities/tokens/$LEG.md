@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: exited
+outcome: evaporated
 ticker: $LEG
 mint: K5c5rHNftqs3dD33J4CV4ZiX3suD5vuBqpNyiH1pump
 created: 2026-06-27
-updated: 2026-06-27 (pulse第212窓 12窓目 $215k→$188k・前窓比-12.8%・初反落・oscillation継続・T3ゼロ12窓)
-tags: [token, pumpfun, graduated, traction0, sports-meme]
+updated: 2026-06-27 (pulse第218窓 18窓目 list exit確定・緩慢下落型エバポレーション収束・最終$165k・T3ゼロ全17窓)
+tags: [token, pumpfun, graduated, traction0, sports-meme, exited]
 ---
 
 # $LEG — Messi Third Leg（K5c5rH）
@@ -73,6 +74,17 @@ pump.fun 発。bonding curve 卒業済（complete=true）。"Messi Third Leg"—
 - 11窓目の+13.8%小幅回復が今窓-12.8%反落に転じた——oscillation パターン継続（V字複数回・上→下→上→下が繰り返す）。
 - $188k は過去 9-11 窓の平均回帰圏——$200k 超を安定して維持できない state が12窓継続している。
 - T3ゼロ全12窓はエバポレーション収束（TRIVIA・$60K 型）への収斂を示唆。KOL 点火なしで $200k 超を再度突破する可能性は低下している。採用基準未達継続。
+
+**change (pulse第217窓 17窓目・-5.6%・緩慢下落2窓継続)**: prev **$174,811**（pulse216）→ now **$165,057**。検知時 $88,917 比 +85.6%。
+- traction0・reply:0・KOLゼロ全17窓継続。real_sol=0 不変。
+- 前窓（第216窓）-4.5%に続き今窓も-5.6%——2窓連続で-4〜-6%台の小幅下落が継続。エバポレーション移行フェーズの可能性が高まっていた。
+
+**★pulse第218窓 18窓目 list exit確定——緩慢下落型エバポレーション収束**: 第218窓 traction_candidates 不在——exit確定。
+- 最終観測: $165,057（第217窓・17窓目）→ 第218窓 不在。
+- 検知時 $88,917 比 +85.6%のまま消滅——検知時比プラスのままエバポレーションした CHILLCAT/GETA/SENDIT/PARABOLA 型の継続例。
+- T3/KOL 点火ゼロ全17窓。sports meme × social 基盤ゼロ × real_sol=0 の型通り帰結。
+
+**概念接続（最終）**: [[launchpad-economics]]（17窓追跡・緩慢下落エバポレーション型）/ [[rug-anatomy]]（T3ゼロ全期間・graduated-but-empty 帰結）/ [[$LBJ MEME]]（同バッチ sports meme コホート）
 
 <!-- synthesis:end -->
 

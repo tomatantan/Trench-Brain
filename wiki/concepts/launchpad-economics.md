@@ -98,6 +98,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$BOO]] 2nd BREAKOUT | +119%（2nd BREAKOUT） | $324k→$709k | reply0 / KOL0（全期間）・real_sol ~82.7SOL | BooBeat ⑬コホート 2段 pump——1st $324k 後も deployer SOL 継続・T3ゼロ不変 | **⑬コホート 2段 BREAKOUT**（1st $324k→2nd $709k と 2 波連続。$FLYRO/$GIRLS はこの水準前に崩壊——$700k+ は⑬コホート新高値。T3ゼロ全期間継続中・deployer SOL 消費後の崩壊が焦点） |
 | [[$PISS]] | +102%（BREAKOUT） | $161.3k→$326.4k | reply0 / KOL0（全期間）・real_sol=0 | pisscoin vulgar-humor × X community 設定（独立twitter無し）× badattrading_ KOL CA確認済(birth時)・traction0 | **vulgar meme traction0 BREAKOUT**（top10=17.3%・cluster3.4%の構造分散最良クラス × reply:0全期間のまま $326k 到達。deployer pump vs organic vulgar community 両義——次窓の reply/KOL CA 確認が分岐点。BREAKOUT-then-dead 候補（$MOXIE/-92.1%同型）） |
 | [[$PEAK]] | +150% | $54.2k→$135.6k | reply0 / KOL0 | 不明（generic 到達感 ticker "PEAK"・twitter/website 両方皆無・prebond 継続・birth 直後~1分以内 BREAKOUT） | birth直後即BREAKOUT×traction0×social皆無×prebond継続＝whale単独 pump 疑い最有力（$AEGIS/$SCOOREX/$RRN 同型。bonding curve 未卒業での $135k は organic 需要ゼロ確定候補） |
+| [[$0TT]] | +114% | $40.3k→$86.2k | reply0 / KOL0 | 不明（otter animal meme・@natureunedited 自然映像リンク・prebond継続・real_sol 32M→7.8M と売り圧あり） | traction0 × 出来高先行 × prebond BREAKOUT＝association marketing + real_sol 減少中の whale pump 疑い。$AEGIS/$JALAPEÑO/$SCOOREX 同型・BREAKOUT-then-dead 候補 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。
