@@ -12,6 +12,7 @@ JSON を `wiki/ui-data.json` に書き出す。UI側はこの配列を fetch し
 """
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -141,6 +142,7 @@ def main():
     live, base_rate = track_data()   # launch pipeline のライブ層
 
     OUT.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
         "schema": ("signals[]: concept由来の泡 {type,title,size,color,glow,trace} / "
                    "live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,"
