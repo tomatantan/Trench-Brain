@@ -73,4 +73,10 @@ accounts: 7
 - 6/23-24 の「決算下落で拾う」(AdimsSHOGUN) thesis は **方向が逆に出た**（beat → ATH）。代わりに blknoiz06 の「beat = memory top、ここから Q3 red」thesis が price action で裏付けられつつある＝**$MU を AI capex サイクルの天井シグナル**として読むのが現時点で最も整合的。
 - $MU = 現物の semis/AI インフラプレイとしての価値は本物だが、トレード文脈では「ここが数ヶ月の天井」かつ「crypto bottom の先行指標」。confidence=中（決算 beat ＋ ATH→反落 ＋ blknoiz06 予言的中という3点が揃った）。
 - Concept 接続: [[spacex-ipo-narrative]]（Backpack tokenized equity ライン）/ [[external-event-to-token-pattern]]（決算イベント=価格カタリスト）/ [[onchain-verification]]（backing 未検証）/ [[majors-rotation-supercycle]]（memory top → リスク資産全面安 → BTC/SOL bottom の伝播）。
+
+### 2026-06-28 確認（DEG_2020 リアルタイム観測・既合成の補完）
+出典: [[deg_2020__2069874321045299580]]（39♥・2026-06-24T20:04Z）/ [[deg_2020__2069875900561449433]]（38♥・2026-06-24T20:10Z）/ 匿名確認（2026-06-24T20:48Z）
+
+- **DEG_2020 リアルタイム観測（2026-06-24 決算後 AH）**: 「マイクロンアフターマーケットで+3.4%」→ 6分後「マイクロンアフターマーケット+10%!!!!!」→ 44分後「マイクロンアフターマーケットでATHの1214ドル更新したね」= 決算後 AH で **$MU が ATH $1,214 を更新**する過程を日本語 JP KOL ([[@DEG_2020]]) がリアルタイム追跡。前回更新（blknoiz06 thesis「ATH → 即反落」）の "ATH" が具体的に $1,214 と確定。
+- 既存合成（blknoiz06「beat = memory top」thesis・ATH→反落・AI capex 天井シグナル）に変化なし。DEG_2020 の観測はその経緯の傍証。confidence=中（変化なし）。
 <!-- synthesis:end -->

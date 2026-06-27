@@ -88,4 +88,7 @@ accounts: 19
 - BlackRock の Coinbase Prime 入金は「機関が積む」サインと「ETF 出口売り」の両方に読める（Coinbase Prime = spot ETF のカストディアン）。ETF 流出が続く中での入金は**リバランスまたは出口向け spot 売りの準備**の可能性が高い（[[onchain-verification]]）。
 - 20x short 再参入 + ETF 流出 + $1.45B 清算 = **大口の弱気は利確後も構造的に継続**。
 - 既存合成「BTC = 最上流アンカー・Fed 政策連動」は変化なし。足元は「上流まで売られた全体収縮フェーズ」の確証が追加された。confidence=中（弱含み側の証拠追加）。
+
+### 2026-06-28 確認（新 beat なし）
+- worklist 代表ツイ「$BTC balance on exchanges just hit a 7-year low」([[@milesdeutscher]] 5,655♥ = [[milesdeutscher__1879921568236896769]]・2025年初の古ツイ再キャプチャ）/「If you had invested $1000 in $BTC in 2012」([[@zhusu]] 5,398♥ = [[zhusu__1363396833834201093]]・2021年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（21ヶ月来安値・大規模清算・BlackRock 入金・20x short）に変化なし。
 <!-- synthesis:end -->

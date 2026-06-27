@@ -101,4 +101,22 @@ accounts: 13
 - **⚠️ 対立は継続**: TOP10 鯨の HYPE short（$16B規模、既記）は引き続き維持されている。「大口 long（蓄積）vs 大口 short（TOP10 Hyperliquid）」の分裂が深化。回転側と構造 short 側が両立している異常な構造。
 - confidence=中（中立）。前回②「弱気寄り→中立」からさらに**やや強気方向**に動く（ETH→HYPE rotation + $17M 蓄積の重み）。ただし TOP10 short が解消されるまでは完全に強気とは言えない。
 - 接続: [[perp-dex-wars]]（Hyperliquid の long/short 板）/ [[majors-rotation-supercycle]]（ETH 崩れ→HYPE へのローテ軸）/ [[onchain-verification]]（大口 wallet 行動の裏取り）。
+
+### 2026-06-28 更新（新 beat: theunipcs "$HYPE x $USELESS バーベル" 年末ホールドテーゼ）
+**観測（事実・2026-06-14〜15、キャプチャ 2026-06-25）**
+- **[[theunipcs__2066287677717074231]]（243♥/25RT・2026-06-14T22:32Z）**: 「most people are overcomplicating this cycle / $USELESS x $HYPE barbell and chilling until year-end probably outperforms 95% of portfolios / one owns the casino / the other is the ultimate meme / that's the trade!」
+- **[[theunipcs__2066489537895731282]]（188♥/19RT・2026-06-15T11:54Z）**: 「$HYPE x $USELESS barbell and chill / no need to be on either ends of the spectrum / simply embrace both the most disruptive and the most useless cryptocurrencies of our era / outperform the rest of the market / few.」
+= 2026-06-25 にキャプチャ（worklist 収録）。2 ツイート計 431♥。
+
+**観測の核（theunipcs の論理構造）**:
+- **$HYPE = "casino"（カジノを所有する側）**: [[perp-dex-wars]] の Hyperliquid = パーペチュアル DEX の一強 = ユーザーが清算されるたびに buyback/burn でトークン保有者が利益を得る。
+- **$USELESS = "ultimate meme"（最もメセスな meme）**: [[survivor-memes]] の上位候補。
+- **バーベル** = 「最も生産的な infrastructure」と「最も純粋な meme」の両端を同時保有 → 中間層（理由のないアルトコイン）は全部捨てる。
+
+**⚠️ 判断**
+- theunipcs は $USELESS の主要 KOL であり **$USELESS への利益相反**がある点は留保。しかし $HYPE への推奨は利益相反でない（$USELESS とは別資産）ため、$HYPE 側の見方としては独立性がある。
+- このテーゼは「複雑なローテは不要、2資産に絞る」という**コンビクション＋シンプル化**の論理。majors（[[$BTC]]/[[$ETH]]/[[$SOL]]）が多月安の今、「メジャーを避けてHYPE+USELESSバーベル」というポジションを強化している。
+- 既存合成（blknoiz06の bottom-bounce コール・ETH→HYPE rotation・$17M 蓄積）と方向性は一致。KOL レイヤーの「HYPE = 生産的 crypto の代表」という共通認識が複数ソースから確認された。
+- **HYPE + USELESS の組み合わせ**: [[survivor-memes]]（USELESS）と [[perp-dex-wars]]（HYPE）を接続するポートフォリオ論。新規 concept 候補と言えるかは「複数 KOL で型が立つか」で判断。現状は theunipcs が中心（KOL1名）= concept 化は見送り、entity 内での記録に留める。
+- confidence=中（変化なし・強気サイドの材料追加）。
 <!-- synthesis:end -->

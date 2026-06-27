@@ -96,4 +96,20 @@ accounts: 9
 - 「Digital Credit が volatility を除去する」というSaylor のナラティブに、CryptoKaleo が「でもあなたは volatility をエンジニアするでしょ？」と反論＝**装い（安定収益商品）vs 実体（BTC volatility に引きずられる preferred）**の矛盾が市場で意識され始めた。
 - confidence=低（6/19 以来の最低水準。mNAV 0.59x・$60s コール・Digital Credit フレーミング批判が三位一体で弱気を強化）。
 - 接続: [[$MSTR]]（mNAV 0.59x = MSTR の市場評価）/ [[rug-anatomy]]（"Digital Credit" = 装いと実体の乖離）/ [[majors-rotation-supercycle]]（STRC/MSTR 崩壊 = BTC downside trigger 候補の probability が上昇）。
+
+### 2026-06-28 更新（新 beat: $71 到達・MSTR に並走・Saylor 宣伝文句の可視化・「現金優先」自認）
+**観測（事実・2026-06-26）**
+
+- **[[cryptokaleo__2070501353990799421]]（148♥・2026-06-26T13:36Z）**: 「$STRC down to $71. Already knocking on the door of the $60s. Insane unraveling.」= 前回更新②で「$60s へ」とコールした CryptoKaleo が、その **$71 到達をリアルタイム確認**。「Insane unraveling（異常な崩壊）」という表現は、単なる下落でなく構造的崩壊と位置づけている。
+- **[[cryptokaleo__2070502021875061242]]（82♥・2026-06-26T13:38Z）**: 「Would be surprised if $MSTR isn't trading lower than $STRC (currently $71.80) by the end of the day.」= **MSTR 株価が STRC 価格（$71.80）を下回る可能性を示唆**。par $100 の優先株が $71、普通株 MSTR がそれより低い局面→「優先株が普通株より高い」という逆転状態。発行体 (MSTR) の株価が担保価値を示すとすれば、STRC の配当根拠が問われる構図。
+- **[[cryptokaleo__2070458587810340872]]（1221♥・2026-06-26T10:46Z）**: Kaleo が Saylor の宣伝文句を引用→「"I give you the upside. You have no downside. And I pay you a dividend while you wait to get rich." - @saylor」。**1221♥ = 本サイクルで最高エンゲージの $STRC 関連 tweet**。Kaleo が直接言及はしていないが、この引用は「$71 に崩落した今も Saylor はこのピッチをしていた」という**文脈的批判**（前後のツイート時系列から明確）。ナラティブのバイラル可視化 = 市場が Saylor の約束と現実の乖離を嗤っている。
+- **[[CryptoKaleo__2069066734099685388]]（131♥・2026-06-22T14:35Z）**: 「Saylor and Strategy are finally admitting cash is their new priority... diluting $MSTR holders for billions of dollars while they still can is the best option they have right now. The question is how much more the common shareholders are willing to take it... and whether $STRC holders believe it's enough on a long term basis to believe in the underlying collateral backing their dividends and the $100 peg.」= **Saylor が「現金補充が最優先」と実質的に認めた**という観測。Kaleo の解釈：「MSTR 株主を希薄化しながら現金を積む」= 前回更新（USD Reserve $1.4B への増額）と一致。さらに「BTC は強気でも MSTR を保有することは弱気になりうる理由はここにある」と明言。
+
+**⚠️ 判断（更新・confidence さらに低下）**
+- 2026-06-26 の $71 到達で「$60s コール」の実現が加速。MSTR 価格 ≈ STRC 価格 という逆転局面は「優先株が普通株より高い」異常需給を示す。
+- Saylor の「upside・no downside・dividend while you wait to get rich」という宣伝文句が1221♥ で拡散 = CT が Saylor のナラティブを嗤っている。これは**信頼の崩壊が可視化されたフェーズ**。
+- 「現金優先」の自認 + MSTR 希薄化継続は、6/19 の Hoffman 分析「片ポケから別ポケ」と同じ構造。解決でなく時間稼ぎ。
+- **⚠️ 「Digital Credit = 無リスク・upside 付き」という Saylor の主張と「$71 に崩落中」という現実の乖離**は [[rug-anatomy]] の「装い≠実体」パターンの典型。
+- confidence=低（さらに悪化。$71 実現＋1221♥ バイラル批判＋MSTR 並走という3点）。
+- 接続: [[$MSTR]]（STRC の崩落は MSTR 価格とほぼ連動）/ [[rug-anatomy]]（Saylor pitch vs $71 現実）/ [[majors-rotation-supercycle]]（STRC 崩壊 = BTC downside trigger 候補、確率上昇）。
 <!-- synthesis:end -->

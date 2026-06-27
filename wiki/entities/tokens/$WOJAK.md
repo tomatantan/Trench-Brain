@@ -61,4 +61,15 @@ accounts: 5
 
 ### 2026-06-27 更新②（Binance カラー化コミュニティ画像・軽微）
 - [[wojakcto__2069769761454469622]]（139♥ / **44RT**・2026-06-24T13:09Z）: 「$wojak but make it @binance colors」+ 画像。RT:likes 比が高い（44/139 ≒ 32%）＝**コミュニティ内での拡散特性が高い**。BinanceUS Boost と連動した"公認ビジュアル"の自発的生成＝[[survivor-memes]] の文化ブランド維持行動の一例。Boost 終了後もコミュニティが能動的に資産を生み出せるかの指標として観察。confidence 変わらず低〜中。
+
+### 2026-06-28 更新（新 beat: Alch 条件付き反転コール + Boost 最終週確定）
+**観測（事実・2026-06-24〜25）**
+- **[[crypto_alch__2069677353605746821]]（136♥・2026-06-24T07:01Z）**: 「$wojak due for a reversal soon / If the markets allow it」= Alch が **$WOJAK の反転が近いとコール**。ただし「If the markets allow it（市場が許せば）」という**条件付き**。この留保は前回の $JOTCHUA オールイン宣言（「ステーブル全部 in」）と対比的に慎重。Alch は $WOJAK と $JOTCHUA を同時期に言及しているが、$JOTCHUA にはオールイン、$WOJAK には条件付き反転という温度差がある。
+- **[[binanceus__2070175733507653761]]（158♥/35RT・2026-06-25T16:02Z）**: 「Only one week left to earn your share of ~$100K $WOJAK in our @wojakcto x Boost event!」= Boost インセンティブの**最終週入り確認**。前回更新で「打ち切り後の出来高維持が試金石」と記録した局面が到来。
+
+**⚠️ 判断**
+- Boost 最終週 + Alch 条件付き反転コール = 「インセンティブ終了後の自立」が問われるタイミングが重なった。
+- Alch の「If the markets allow it」という留保は珍しい慎重さ。majors 一斉多月安（[[$BTC]] 21mo・[[$ETH]] 14mo・[[$SOL]] 30mo、前回更新参照）の環境では「市場が許す」条件が厳しい。
+- Boost 終了後に出来高と価格が維持されれば [[survivor-memes]] の文化的持続性が証明される。維持できなければ CEX Boost 依存型の典型として確定（[[external-event-to-token-pattern]]）。
+- confidence=低〜中（変化なし）。Boost 終了後の 1〜2 週間が判断の節目。
 <!-- synthesis:end -->

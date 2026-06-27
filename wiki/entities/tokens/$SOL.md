@@ -62,4 +62,7 @@ accounts: 10
 ### 2026-06-27 更新②（SOL 20x short 利確・但し BTC/ETH は再参入）
 - **観測（[[lookonchain__2070517197781508193]] 170♥・2026-06-26）**: 「BTC/ETH/SOL を 20x short していた鯨が前ポジを +$4.4M 利確でクローズ。新たに BTC 912.9枚 + ETH 10,025 枚の 20x short を開始」＝**SOL short は今回の再エントリーに含まれていない**。SOL のショートポジションは利確・解消された。
 - **⚠️ 判断**: SOL の大口 20x short（0x9137/$38.15M）が利確されたことは「SOL の直接的な売り圧の一つが外れた」ことを意味する。ただし SOL 30ヶ月来安値（前回 06-27 更新）はその後も継続しており、short の解消が即 SOL 強気転換ではない。BTC+ETH には引き続き large short が維持されており、majors 全体の弱気構造は変化なし。SOL は「short の圧力は外れたが価格は最深部」という状態。confidence 中（変化なし）。
+
+### 2026-06-28 確認（新 beat なし）
+- worklist 代表ツイ「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」([[@lookonchain]] 2,270♥ = [[lookonchain__1650703881528307712]]・2023年の古ツイ）/「From a $1M loss (-90%) to a $2.5M profit—this diamond hands」([[@lookonchain]] 2,022♥ = [[lookonchain__1877551033460863307]]・2024年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（30ヶ月来安値・SOL short 利確・alt 母艦機能は未点火）に変化なし。
 <!-- synthesis:end -->

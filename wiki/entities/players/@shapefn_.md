@@ -34,5 +34,23 @@ CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- 主要取り上げトークン: [[$MERLIN]](5件) / [[$SERGEYEVNA]](5件) / [[$KINTARA]](1件)。CA言及7件・出口評価6件中死4(67%)＝平均的トラックレコード。
+- 最高エンゲージ(1,969♥): 「Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽」（2026-06-20）= スペイン語「木曜日に会いましょう、Merlinはそこにいる」+ メキシコ国旗。FOXSportsイベントへの事前予告型煽り。
+- FOXSports公式がXプロフに$Merlinを追加(108♥) / DoorDashがプロフ画像をMerlinキャラに変更(78♥) / 「$Merlin is everywhere」(39♥)＝ブランド採用の観測を連投。
+- [[$SERGEYEVNA]]はロシアで救助されたアザラシがSNS viral→meme化した事例（Инстаグам/TikTok起源）。
+- [[$KINTARA]]で$Merlinが使える旨のツイート1件あり＝エコシステム紐付け試み。
+
+### 判断（推論）
+- @shapefn_のポジション＝[[external-event-to-token-pattern]]「**ブランド採用サブ型**」の観測・推進者。FOXSports・DoorDashという実在ブランドが公式プロフにmemeキャラを採用する行動を素早く捕捉してnarrative化する役割。これは政治meme（本人RT→即点火）より検証可能な発端だが、**ブランドのプロフ変更がcrypto tractionに転換するかは別問題**。
+- [[$SERGEYEVNA]]はブランド採用でなくorganic viral（動物救助→SNS感染）からのmeme化＝[[external-event-to-token-pattern]]内の別サブ型（無機的ブランドvs有機的バイラル）を同一アカウントが両方扱っている。
+- 死亡率67%（4/6）は[[launchpad-economics]]の全体baseline（〜98.5%死）より大幅に優れるが、「ブランドがプロフ変えた」という発端単独では[[reflexivity]]の燃料（crypto community内のreply/KOL連鎖）が点火する保証はない。
+- スペイン語ツイート・メキシコ国旗＝ラテン系コミュニティへのリーチ層。Solanaのグローバル展開の一角。
+- ⚠️ $MERLINへの集中度（5/7 CA言及）が高い。単一トークン依存のKOLはtokenの命運とリンク。
+
+### concept接続
+- [[external-event-to-token-pattern]]（ブランド採用サブ型・organic viral型の両方を観測）
+- [[reflexivity]]（ブランド採用の認知→buyingへの転換が燃料点火のカギ）
+- [[survivor-memes]]（$MERLINが生き残るかは traction の持続次第）
 <!-- synthesis:end -->

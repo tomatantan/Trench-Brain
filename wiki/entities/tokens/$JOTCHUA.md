@@ -87,4 +87,15 @@ accounts: 3
 ### 2026-06-27 更新②（whale $121K bag・軽微更新）
 - **[[pumpfuneco__2070309600755118481]]**（66♥・2026-06-26T00:54Z）: 「A $Jotchua whale is currently holding a $121,000 bag」。前回（06-23 更新）の $114K → $121K。同一人物なら含み益が回復（pump 新レグで mark-to-market 上昇）、別人なら新大口の参入。いずれも $100K 超の単一大口が存在する事実は継続。ホルダー集中リスク（[[rug-anatomy]]）に変化なし。
 - confidence 低（変化なし）。
+
+### 2026-06-28 更新（新 beat: $500M target・"Savior" メシア化・傍観者への呼びかけ）
+**観測（事実・2026-06-25〜26）**
+- **[[crypto_alch__2070062832368877704]]（42♥/7RT・2026-06-25T08:33Z）**: 「If the whole timeline could stop vamping and run $Jotchua to $500M / The trenches will be back」= Alch が初めて明示的な **$500M mcap ターゲット**を提示。同時に「vamping（別トークンをシルすること）をやめろ」という傍観者への呼びかけ = コミュニティを一点に集中させる動員型発言。「The trenches will be back」= meme 市場全体の復活をJOTCHUAに賭ける大義名分化。
+- **[[crypto_alch__2070445014728016005]]（10♥・2026-06-26T09:52Z）**: 「$Jotchua the savior of the trenches / Bring back 'believe in something' / Heal the trenchers rotatory PTSD and make them start believing」= **メシア・癒し役としての位置づけ**。「rotatory PTSD」= trench民が次々とトークンで損した疲弊感を $JOTCHUA で癒すという感情訴求。likes=10 は低いが、フレームが「投資対象」から「信仰対象」にシフトしている。
+
+**判断（型の照合・更新）**
+- Alch の言説がエスカレーション一直線: ①「bottom is in」（likes=1）→ ②「ステーブル全部 in / Savior of the trenches」→ ③「$500M mcap ターゲット」→ ④「Savior = trench の救世主、PTSDを癒す」。各ステップで**ポジションに対するナラティブの格上げ**が起きている。[[rug-anatomy]] の「保有者が出口を作るためにナラティブを煽る」パターンが最高度に達しつつある。
+- $500M コールは現在 $10M mcap（前回更新）から **50倍**。根拠は「みんなが本気になれば」という共同幻想の動員のみ = [[launchpad-economics]] の価格発見ではなく social consensus の強要。
+- ⚠️ 赤旗（強化）: Alch の「傍観者全員がシルをやめれば」という呼びかけは、独立 KOL の新規参入でなく**既存シラーが他者を動員しようとしている**構造 = 出口流動性を自ら作ろうとしている可能性が高い。独立 KOL（WL外）の言及は依然ゼロ。
+- confidence=**低**（変化なし・型の進行が確認された）。
 <!-- synthesis:end -->

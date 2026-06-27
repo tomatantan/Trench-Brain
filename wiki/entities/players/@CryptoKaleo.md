@@ -30,5 +30,25 @@ posts: 74
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- 信号74件（5件中最多）。主要トークン: [[$MSTR]](15) / [[$STRC]](13) / [[$ETH]](2) / [[$GME]](2) / [[$AMC]](2)。
+- 最高エンゲージ(1,221♥, 2026-06-26): Saylorの投資家向けピッチ「I give you the upside. You have no downside. And I pay you a dividend while you wait to get rich.」を画像付きで引用（⚠️文脈=皮肉・批判）。
+- $MSTR一連: 「まだ$100超で売れる」(331♥) → 「$100で売れる」(274♥) → 「もう$100で売れない」(206♥) = 価格下落を段階的に記録した一連投稿。
+- [[$STRC]]: 「$89が好きなら$75はもっと好き」(201♥) = 強いbear call。
+- [[$ETH]]: 「$1,000 for one Vitalik coinで反発」(386♥) = 下値ターゲット。
+- HYPE: 「30台にwickして$100+へ」(291♥) = 二段階シナリオ。
+- [[$GME]]/[[$AMC]] 言及 = meme stock出自あり。
+
+### 判断（推論）
+- @CryptoKaleはテクニカル価格目標caller。ファンダでなくチャート・水準感でコールを出し、一連の$MSTR/$STRCコールは時系列で価格が追従した（観測内）。ただし本wikiのcorpusは一部のみ=全体track recordは未把握。
+- [[majors-rotation-supercycle]]の「Saylor/STRCoverhang」（#3枯渇）にKaleが既に出現。本エンティティで追加されるのは役割の性格: **「overhangを市場に広める触媒」**。Saylor pitchの皮肉引用（1,221♥）はoverhang懐疑ナラティブを最も広域に拡散した事例の一つ。
+- $ETHの$1,000目標 = bullmarket文脈での「まだ下がる」宣言。[[majors-rotation-supercycle]]の「OG降伏・4枯渇」局面（confidence低）と整合。
+- [[$HYPE]]の「30台→$100+」シナリオ = alt rotationの中でperp-dex系への期待を保持。[[perp-dex-wars]]接続。
+- ⚠️ $GME/$AMCの言及は「crypto固有のトレーダー」でなく「meme投資文化層」の住人であることを示す。このコミュニティへの影響力がある一方、crypto特有の信号としての解釈には注意。
+
+### concept接続
+- [[majors-rotation-supercycle]]（Saylor/STRC overhang#3・ETH下値目標・overhang懐疑の拡散役）
+- [[perp-dex-wars]]（$HYPE「30→$100+」シナリオ）
+- [[reflexivity]]（Saylor pitchへの公開批判=overhangナラティブの自己強化に加担）
 <!-- synthesis:end -->

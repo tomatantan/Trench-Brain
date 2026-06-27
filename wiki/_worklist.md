@@ -6,9 +6,9 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7454件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7435件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
-§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**294ティッカーは降格**して非表示。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**296ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
 ## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
@@ -16,16 +16,15 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 20 | 10 | 118 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
-| [[$ETH]] | 17 | 4 | 117 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$BTC]] | 14 | 10 | 112 | 5655♥ @milesdeutscher: $BTC balance on exchanges just hit a 7-year low.   / 5398♥ @zhusu: If you had invested $1000 in $BTC in 2012, you'd p |
 | [[$STRC]] | 12 | 4 | 20 | 148♥ @CryptoKaleo: $STRC down to $71.  Already knocking on the door o / 131♥ @CryptoKaleo: Saylor and Strategy are finally admitting cash is  |
+| [[$ETH]] | 6 | 4 | 105 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
 | [[$MU]] | 5 | 3 | 6 | 39♥ @DEG_2020: マイクロンアフターマーケットで+3.4% $MU  / 26♥ @MEXC: 🔥 More USD1-M Futures are now available on MEXC! @ |
-| [[$JOTCHUA]] | 5 | 3 | 5 | 66♥ @PumpfunEco: A $Jotchua whale is currently holding a $121,000 b / 42♥ @Crypto_Alch: If the whole timeline could stop vamping and run $ |
-| [[$SOL]] | 4 | 3 | 19 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 2022♥ @lookonchain: From a $1M loss (-90%) to a $2.5M profit—this diam |
+| [[$JOTCHUA]] | 4 | 3 | 4 | 42♥ @Crypto_Alch: If the whole timeline could stop vamping and run $ / 29♥ @PumpfunEco: $Jotchua is rallying, currently up 26% in 24 hours |
 | [[$SPCX]] | 3 | 3 | 9 | 29♥ @MurphyBTC: $SPCX #株   買い増し前に確認したい「ロックアップ解除リスク」 低フロート相場の次に来る“売 / 26♥ @MEXC: 🔥 More USD1-M Futures are now available on MEXC! @ |
-| [[$HYPE]] | 3 | 3 | 8 | 249♥ @lookonchain: A whale is rotating from $ETH into $HYPE.  Two wee / 249♥ @coingecko: Top 20 Trending Coins on CoinGecko 🦎  This week, $ |
-| [[$WOJAK]] | 3 | 2 | 7 | 158♥ @BinanceUS: Only one week left to earn your share of ~$100K $W / 139♥ @wojakcto: $wojak but make it @binance colors  |
-| [[$CHAMELEON]] | 2 | 2 | 2 | 37♥ @PumpfunEco: This trader refused to sell early & now their $626 / 14♥ @badattrading_: $Chameleon (CA GuSborgzpo6Hc7msoRouQyPJ3psxgAHm4am |
+| [[$SOL]] | 3 | 2 | 18 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 2022♥ @lookonchain: From a $1M loss (-90%) to a $2.5M profit—this diam |
+| [[$WOJAK]] | 3 | 2 | 6 | 158♥ @BinanceUS: Only one week left to earn your share of ~$100K $W / 136♥ @Crypto_Alch: $wojak due for a reversal soon   If the markets al |
+| [[$HYPE]] | 2 | 2 | 6 | 249♥ @coingecko: Top 20 Trending Coins on CoinGecko 🦎  This week, $ / 188♥ @theunipcs: $HYPE x $USELESS barbell and chill  no need to be  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
 
@@ -61,8 +60,8 @@ updated: 2026-06-26
 | [[@JasonYanowitz]] | 139 |
 | [[@blknoiz06]] | 139 |
 | [[@RyanSAdams]] | 138 |
-| [[@lookonchain]] | 128 |
 | [[@KyleSamani]] | 127 |
 | [[@thedefiedge]] | 121 |
 | [[@mellometrics]] | 119 |
 | [[@milesdeutscher]] | 118 |
+| [[@DefiIgnas]] | 116 |

@@ -89,4 +89,7 @@ ETF 流出（2026-06-25）:
 - 20x short 再参入: 大口ベア勢は「利確後も下目線を維持」。
 - 既存合成「ETH = コンセンサストレード（リターン薄）」に対し、OG 降伏 + ETF 流出 + 20x short 再参入は**さらなる下方圧力の裏付け**。confidence=低〜中（既存より弱め）。
 - [[majors-rotation-supercycle]] 上: ローテ点火の前提が OG 投げ売り局面から始まる構造（「底は OG が諦めた後」という逆張り論）との関連は今後観察。
+
+### 2026-06-28 確認（新 beat なし）
+- worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・機関逆張り・20x short）に変化なし。
 <!-- synthesis:end -->

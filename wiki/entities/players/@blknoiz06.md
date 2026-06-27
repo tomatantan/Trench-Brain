@@ -11,6 +11,10 @@ posts: 159
 
 > 自動生成。信号投稿 159件。watchlist: [[watchlist]]。
 
+## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
+CA言及 3件 / 現outcome評価 2件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
+> ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
+
 ## よく言及するトークン
 [[$BTC]](4) [[$MU]](4) [[$HYPE]](2) [[$SOLETH]](1) [[$VVV]](1) [[$TRUMP]](1) [[$ZEC]](1) [[$WIF]](1) [[$JTO]](1) [[$PENG]](1)
 
