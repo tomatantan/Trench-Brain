@@ -17,7 +17,8 @@ command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }
 
 # (1) live on-chain + KOL track-record + cross-source を収集(python)
 DATA="$(python3 - "$CA" <<'PY'
-import json, sys, urllib.request, glob, re, os
+import json, sys, urllib.request, glob, re, os, socket
+socket.setdefaulttimeout(12)  # 全socket強制timeout=network hang根絶
 CA = sys.argv[1]
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 def get(u, t=12):
@@ -49,7 +50,7 @@ except Exception as e:
 
 # --- ★KOL-CA照合: このCAを watchlist の誰が言及してるか ---
 accts = set()
-for p in sorted(glob.glob("sources/x/*.md"))[-2000:]:
+for p in sorted(glob.glob("sources/x/*.md"))[-600:]:
     try:
         t = open(p, encoding="utf-8", errors="replace").read()
     except Exception:
@@ -202,4 +203,22 @@ $MANIP
 ## ★low-cap/卒業前なら このフレームで評価せよ(危険一律にしない・本人指摘):
 対象が **bonding-curve段階/低mcap/未graduated** なら、「卒業した?流動性ある?」(post-grad指標)で一律dangerにするな＝tautologyで無情報。下の**早期signal(mcap velocity↑/scam clean/organic traction初動/theme-fit/最初のKOL)**で「早期の中で生存を分けるもの」を評価せよ。早期は base-rate最悪だが非対称最大＝サイズ小で early signal の重なりを見る。
 $EARLY"
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
+# claude を hard timeout で包む(macOSにtimeout無い→hang根絶)＝空/timeoutなら1回retry→それでも空ならfallback
+# (本人2026-06-27 /check空判定bug＝claudeがintermittentにhang/空応答→「判定が空」silentになってた)
+run_claude() {
+  python3 -c 'import subprocess,sys
+try:
+    r=subprocess.run(["claude","--print","--model",sys.argv[1],"--dangerously-skip-permissions","--strict-mcp-config",sys.argv[2]],capture_output=True,text=True,timeout=130)
+    sys.stdout.write(r.stdout or "")
+except Exception: pass' "$MODEL" "$PROMPT"
+}
+OUT="$(run_claude)"
+[ -n "$(printf '%s' "$OUT" | tr -d '[:space:]')" ] || OUT="$(run_claude)"
+if [ -z "$(printf '%s' "$OUT" | tr -d '[:space:]')" ]; then
+  # fallback は壊れにくい grep/sed のみ(inline python は set -e で死ぬ)
+  SYM="$(printf '%s' "$DATA" | grep -oE '"symbol": "[^"]*"' | head -1 | sed 's/.*: *"//;s/"$//')"
+  MC="$(printf '%s' "$DATA" | grep -oE '"usd_mcap": [0-9.]+' | head -1 | grep -oE '[0-9]+' | head -1)"
+  OUT="⚠️ 合成が一時的に応答せず（claudeが遅延/空応答＝負荷時に起きる）。もう一度 /check して。
+取れてるon-chain: ${SYM:-?} / mcap \$${MC:-?}"
+fi
+printf '%s\n' "$OUT"
