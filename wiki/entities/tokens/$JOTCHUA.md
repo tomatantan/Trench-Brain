@@ -71,4 +71,16 @@ accounts: 3
 - **Crypto_Alch $10K→$100K バスケット #7**: [[Crypto_Alch__2069507304773374136]] 128♥ で $Jotchua がリスト 7 番目。既存の「Crypto_Alch = 主要シラー」の構図に変化なし。
 - **PumpfunEco 出来高（2026-06-23）**: $2.55M/24h = pump.fun volume ランキング 5 位（$QUEST $5.34M / $KINS $2.99M / $ZERO $2.78M / **$Jotchua $2.55M**）。$10M mcap 達成後に出来高が $QUEST に抜かれている。
 - **判断**: pump 頂点後の出来高低下傾向と Ansem 買いで QUEST が注目を奪っている構図。Alch の「bottom is in」（likes=1）は信頼性低。confidence 変化なし（低）。
+
+### 2026-06-27 更新（新たな pump レグ＋Alch のオールイン化）
+**観測（事実・2026-06-25）**
+- **新たな +58% pump 日**: [[@PumpfunEco]]「$Jotchua has pumped 58% today! 🔥」（[[pumpfuneco__2070222901719028164]] 119♥・2026-06-25T19:09Z）。先の頂点後低下から、もう一段の上昇レグが入った観測。
+- **⚠️ Alch のコンビクション・エスカレーション**: [[@Crypto_Alch]]「ステーブル全部を the cute dog に。全く動じてない。$Jotchua で comfy。Savior of the trenches」（[[crypto_alch__2070173703862644882]] 124♥・2026-06-25）。前回までの「bottom is in」（likes=1）から**「全資金オールイン」宣言へ強気が増幅**。
+- **出来高は相対的に後退（#5）**: 同日の pump.fun 24h 出来高で $Jotchua $2.31M ＝ $Fartcoin $14.8M / $WEN $6.30M / $world $5.02M / $KINS $2.56M に次ぐ**5位**（[[pumpfuneco__2070119982063870255]]）。[[$WEN]] と $world に出来高で抜かれ、クラスタ内（[[$KINS]]）にも僅差で劣後。
+
+**判断（型の照合・更新）**
+- 価格の +58% レグは fresh だが、**構成は不変**＝旗振りは依然 [[@PumpfunEco]]（プラットフォーム feed）＋ [[@Crypto_Alch]] の2アカのみ。独立 KOL（WL外・越境）の言及は今回も無し＝[[jp-meme-cluster]] の「越境がカタリスト」未達。
+- **⚠️ 利益相反の深化（[[rug-anatomy]]）**: Alch の「ステーブル全部 in／Savior of the trenches」は、自己ポジションを最大化した上での**最強度のシラー発言**＝退出時の出口を作るためのナラティブ煽りリスクが前回（「bottom is in」）より高い。likes は付くが論拠は感情のみ。
+- 出来高ランクの後退（#1〜3ではなく#5、$WEN/world に被弾）は、pump レグが単発の投機回転で、板の resilience は [[$FARTCOIN]]/[[$WEN]] に劣ることを示唆。
+- confidence 変化なし（**低**）。賭け仮説は据え置き＝主シラーが自己ポジを talk up している pump 後トークンで、独立検証なし。
 <!-- synthesis:end -->

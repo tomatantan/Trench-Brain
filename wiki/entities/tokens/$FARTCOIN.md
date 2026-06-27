@@ -39,4 +39,15 @@ accounts: 3
 - **PnL/出来高**: [[@lookonchain]]「$18M+ profit on $Fartcoin（1,490x）」、[[@PumpfunEco]] が pump.fun 24h volume leader（$3.97M）に挙げる（[[launchpad-economics]]）。
 - **⚠️ 二重性の皮肉**: AI-memeの建付けだが、実際は"自律エージェント"より **lore とコミュニティで生き残った**＝AI-meme純度は低く meme純度が高い。「AIだから」でなく「memeとして強い」が生存理由。
 - **賭け仮説**: AI-memeカテゴリβ＋organic生存lore の二枚看板。ただし [[survivor-memes]] の生存者バイアス（後知恵の早期entry）は同様に適用。
+
+### 2026-06-27 更新（pump.fun 出来高で断トツ首位＋"major meme" 基準への昇格）
+**観測（事実・2026-06-23〜26）**
+- **pump.fun 24h 出来高で一貫して #1、6/25に急増**: [[@PumpfunEco]] の出来高 feed で連日トップ。$7.66M（[[PumpfunEco__2069416873025065167]]・6/23）→ $6.83M（[[pumpfuneco__2069760704882868678]]・6/24）→ **$14.8M（[[pumpfuneco__2070119982063870255]]・6/25）**。6/25 は2位 [[$WEN]] $6.30M の**2倍超**で独走＝pump.fun エコシステムで断トツの流動性。
+- **⚠️→○ "major memecoin" 基準への昇格**: [[@theunipcs]] が [[$USELESS]] の相対強度を語る際、$FARTCOIN を $DOGE/$PEPE/$PENGU/$WIF と並ぶ「major memecoins」の一角として**ベンチマーク扱い**（[[theunipcs__2070425996038140331]] 131♥・6/26）。USELESS が「FARTCOIN 等に対し年初来高値」と言われる＝FARTCOIN は今や"超えるべき確立した meme"の基準点。launchpad 産 meme が blue-chip yardstick 化した観測。
+
+**判断（更新）**
+- [[survivor-memes]]: 既存合成の「AI-meme純度は低いが meme として生存」を、流動性データが裏打ち。pump.fun 出来高首位の継続＋KOL の基準点扱い＝サバイバー最上位層に定着。
+- [[launchpad-economics]]: pump.fun 産で最大の二次流動性を持つ＝ローンチプラットフォーム上の"終着点"型サバイバーの代表例。
+- **⚠️ 相対的劣後の観測**: theunipcs の枠組みでは FARTCOIN は USELESS に**負けている側**（USELESS が FARTCOIN に年初来高値）。出来高は FARTCOIN が上だが、相対強度ナラティブの主役は USELESS に移っている＝「流動性 top ≠ 物語 top」。FARTCOIN は地盤、USELESS は narrative momentum という棲み分け。
+- **賭け仮説（更新・confidence=中）**: 高流動の survivor blue-chip meme として板は厚い（大口の出入りに耐える）。ただし新規の上方カタリストは観測されず、theunipcs フレームでは比較対象＝劣後側。FARTCOIN を持つ理由は「meme β＋流動性」であって個別の物語ドライバーは現状薄い。
 <!-- synthesis:end -->

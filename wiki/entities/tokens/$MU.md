@@ -52,4 +52,25 @@ accounts: 7
 - **MEXC プロモ（2026-06-23T11:17Z）**: 「Perilla Leaf Theory で一貫して強気。明日 Micron が決算発表。理論は証明されるか」([[MEXC__2069379334327128388]] 34♥)。MEXC の取引所プロモ = signal としての独立性なし。内容的には「強気論者の決算 watch」を演出。
 - **⚠️ 統合（判断）**: 決算前に株価 -13% + DEG_2020 が「extreme fear 一歩手前」を確認 = AdimsSHOGUN の「下がったら拾う」thesis にとっての入場候補局面が近づいている。ただし:**tokenized stock $MU（Backpack/Sunrise DeFi）は現物株価と同期するか、ペッグが成立しているか未検証**（[[onchain-verification]]）。現物株で -13% が tokenized spot に即時反映される保証はない。
 - **決算結果（2026-06-24 発表予定）**: 本記録時点で未発表。前回 -35% の再現 vs. 決算 beat で反発のどちらになるか = AI/HBM capex 継続論（=beat 方向）vs. memory 過剰供給懸念（=miss 方向）の二択。confidence=低（決算不確実性 max のタイミング）。
+
+### 2026-06-27 更新（決算 beat 確定 → ATH → 反落 / blknoiz06 thesis が的中）
+出典: [[watcherguru__2069874469414269065]] (6/24 1,188♥) / [[blknoiz06__2069766422620733585]] (6/24 685♥) / [[blknoiz06__2070143696692023795]] (6/25 355♥) / [[blknoiz06__2070347290296930655]] (6/26 186♥)
+
+**観測（事実・決算結果が出た）**:
+- [[@WatcherGuru]] (6/24 20:05Z): **Micron $MU が Q2 2026 で売上 $41.5B を報告、予想を beat**（[[watcherguru__2069874469414269065]]）。= 6/24 synthesis で「未発表」だった決算が **beat で確定**。前回 -35% の再現ではなく beat 方向に着地。
+- 価格反応: 6/26（[[blknoiz06__2070347290296930655]]）「$MU は briefly に新 ATH を付けた後、高値から -10%。Kospi 韓国指数 -8% でサーキットブレーカー halt」= **決算 beat で ATH 更新 → 即反落**という pump-and-fade。
+
+**⚠️ blknoiz06 の "memory top" thesis が正確に的中（判断の検証）**:
+- 6/24 事前予言（[[blknoiz06__2069766422620733585]]）: 「$MU は ER beat で新 ATH を付け、**それが向こう数ヶ月の memory のトップになる**」「mag7 は既に弱く、memory & semis が市場を支えてきた」「capex 懸念は open-source モデルが安価に closed-source と競合し続ければ material に重要化」。→ **6/26 に ATH→反落で thesis 通りに進行**。
+- 6/25 続報（[[blknoiz06__2070143696692023795]]）: 「memory が決算後の pump を維持できなければ Q3 は red、何でも割引で買える。ER 前安値 ~$1050 割れで確認」「mag7 still weak、infinite spending の loop」「上がってる人は derisk 推奨」。
+- → **memory/semi が market の最後の柱→そこが topping** という macro 読み。$MU は単体銘柄でなく **AI capex サイクルの天井マーカー**として機能している。
+
+**⚠️ crypto/majors への波及（判断・接続）**:
+- blknoiz06 の同 thread が直接 crypto に接続: 「memory pump が続かなければ Q3 red で everything 割引」「BTC $60K / SOL $60 の月足・週足割れで -30%+ haircut、そこが bear market low」「long btc/mstr ペアは良いトレード」。= **$MU 決算反落 → AI capex 不安 → リスク資産全面安 → BTC/SOL bottom** という伝播シナリオ。[[$MSTR]]/[[$BTC]] の弱気進行（27ヶ月安値・mNAV 1.0 接近）と同じ macro 流れの semis 側の現れ。
+- ⚠️ 赤旗（継続）: ①tokenized $MU（[[@solana]]/Backpack/Sunrise DeFi）の backing・現物株ペッグは**依然未検証**（[[onchain-verification]]）。ATH→-10% の現物株値動きが on-chain $MU に同期する保証なし。②[[@MEXC]] の "Perilla Leaf Theory" プロモは取引所マーケティング＝signal 独立性なし。
+
+**賭け仮説（更新）**:
+- 6/23-24 の「決算下落で拾う」(AdimsSHOGUN) thesis は **方向が逆に出た**（beat → ATH）。代わりに blknoiz06 の「beat = memory top、ここから Q3 red」thesis が price action で裏付けられつつある＝**$MU を AI capex サイクルの天井シグナル**として読むのが現時点で最も整合的。
+- $MU = 現物の semis/AI インフラプレイとしての価値は本物だが、トレード文脈では「ここが数ヶ月の天井」かつ「crypto bottom の先行指標」。confidence=中（決算 beat ＋ ATH→反落 ＋ blknoiz06 予言的中という3点が揃った）。
+- Concept 接続: [[spacex-ipo-narrative]]（Backpack tokenized equity ライン）/ [[external-event-to-token-pattern]]（決算イベント=価格カタリスト）/ [[onchain-verification]]（backing 未検証）/ [[majors-rotation-supercycle]]（memory top → リスク資産全面安 → BTC/SOL bottom の伝播）。
 <!-- synthesis:end -->

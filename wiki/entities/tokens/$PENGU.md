@@ -51,4 +51,8 @@ accounts: 3
 SOL がmajors を牽引する局面でPENGU を「meme ローテーション先行指標」として監視。PENGU の pumping 度合いが小型 meme への資金流入タイミングの早期警報になりうる。[[external-event-to-token-pattern]] の逆用（PENGU 動向を外部シグナルとして読む）。
 
 関連：[[survivor-memes]] [[majors-rotation-supercycle]] [[external-event-to-token-pattern]] [[$WIF]] [[$DOGE]] [[$PEPE]] [[$SHIB]] [[$SOL]] [[@DefiIgnas]] [[@theunipcs]]
+
+### 2026-06-27 更新（薄シグナル・短）
+- **観測**: §1a の新規キャプチャは PENGU 固有 signal が薄い。(a) 既出の「$PENGU pump should be celebrated」(2025-07 [[theunipcs__1944432932916985947]]) の再キャプチャ、(b) [[theunipcs__2066522036818542958]]（2026-06-15, 366♥）は **$USELESS 中心**ツイで、PENGU は「USELESS が Coinbase 出来高で $FARTCOIN/$PENGU/$PEPE/$SHIB を抜いた」という**比較対象としての passing mention**。
+- **判断**: PENGU 自体の新しい beat はなし。相対シグナルとして読めるのは「新興 rotation [[$USELESS]] が大型 meme（PENGU 含む）を Coinbase 出来高で上回り始めた」＝PENGU の大型 meme 内 mindshare が新顔に侵食されている傍証。これは既存合成の「PENGU = meme ローテーション先行指標」と整合（先行指標が今指す先が USELESS）。NFT→token / 先行指標フレーム（[[majors-rotation-supercycle]]）に変化なし。confidence 据え置き。
 <!-- synthesis:end -->

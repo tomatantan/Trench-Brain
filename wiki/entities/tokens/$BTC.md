@@ -67,4 +67,10 @@ accounts: 18
 
 ### 2026-06-24 確認（新 beat なし）
 - worklist 代表ツイ「$BTC balance on exchanges just hit 7-year low」([[@milesdeutscher]] 5,655♥) は **2025-01-16 の古ツイ**（前回更新②で既確認）。「$1000 in $BTC in 2012」([[@zhusu]] 5,398♥) は複数年前の古ツイ。本サイクルの新 beat なし。既存合成に変化なし。
+- worklist 代表ツイ「Strategy が 1,587 BTC を $100M で取得」([[saylor__2066491610863419722]] 18,413♥) は **2026-06-15** のツイで前回更新（Saylor の継続積み増し）の文脈内＝新規性なし。
+
+### 2026-06-27 更新（新 beat: majors 揃って多月安・light-touch）
+- **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で「$BTC 21ヶ月来安値 / $ETH 14ヶ月来安値 / $SOL 30ヶ月来安値 / $MSTR 27ヶ月来安値」を更新。([[theunipcs__2070425996038140331]]) ＝**majors 複合（BTC/ETH/SOL/MSTR）が揃って多月安**。同氏の論点は「その中で $USELESS だけ崩れず」だが、majors 側の事実として BTC が 21ヶ月来安値を付けた節目を記録。
+- **観測（KOL conviction）**: [[@blknoiz06]]（2026-06-25、313♥）が Mert(Helius CEO)の主要5保有=「$ZEC / SOL / $HYPE / $BTC / NEAR」を引用し「well aligned」。([[blknoiz06__2070274427799867510]]) ＝drawdown 下でも BTC は KOL の core-hold に残る。
+- **判断**: [[majors-rotation-supercycle]] 上、BTC は「ローテ上流」だが現状は**上流から下流まで一斉に多月安＝水が落ちる前の全体収縮フェーズ**。Saylor の機関積み増し（既記）と多月安の同時進行は、価格弱含み×機関吸収の既存両論の継続。confidence 変わらず（弱含み観測の追加のみ）。
 <!-- synthesis:end -->

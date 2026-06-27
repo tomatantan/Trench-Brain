@@ -73,4 +73,9 @@ accounts: 18
 
 ### 2026-06-24 確認（新 beat なし）
 - worklist 代表ツイ「$SPCX falls 17.8%」([[@coingecko]] 458♥) は更新④で既合成済。[[@MEXC]]「Every pullback creates a new question」(37♥) は取引所プロモ = 独立信号なし。本サイクルの新 beat なし。既存合成（全騰幅消去・弱気強化）に変化なし。
+
+### 2026-06-27 確認（新 beat なし・instrument 分類再確認）
+- worklist 代表の [[@MEXC]] 2件＝「Every pullback creates a new question（$SPCX is down from its post-IPO highs）」(134♥, [[MEXC__2069348737064026145]]) と「Earn deposit/spin で $NVDA $GOOGL $SPCX が当たる」(107♥, [[MEXC__2069269215534883003]]) は **いずれも取引所プロモ＝独立 signal なし**。前者は post-IPO 高値からの下落を認める設問形だが新情報なし。
+- **instrument 分類は不変（再確認済）**: $SPCX = 傘ティッカー[合成 perp/futures（非RWA, MEXC/Hyperliquid/Binance）＋ tokenized spot 株（RWA claim, Backpack/SunriseDeFi/cryptocom, **backing 未検証**）]。[[spacex-ipo-narrative]] の2系統対比と整合。新規 instrument の登場なし。
+- 既存合成（全騰幅消去・lockup 売り圧・弱気バイアス）に変化なし。confidence=弱気（維持）。
 <!-- synthesis:end -->

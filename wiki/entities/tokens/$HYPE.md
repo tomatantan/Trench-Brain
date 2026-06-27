@@ -80,4 +80,10 @@ accounts: 13
 - **$EITHER（HYPE 周辺エコシステム）**: [[@Crypto_Alch]]（2026-06-23T19:59Z）: 「smartest traders が $EITHER を $10M valuation で積んでいる。Solana 上の vibe coding launchpad（front/backend + payments + web3 monetization）。**$HYPE と integration 済み** + OpenClaw AI companion 搭載。Solana が range 回復し市場が強気転換する中で upside 大きい」([[Crypto_Alch__2069510682937049102]] 115♥ / CA: HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi)。これは $HYPE 本体ではなく **$HYPE ecosystem の周辺トークン $EITHER** についての言及。$HYPE の platform 化が進む中で ecosystem トークンが生まれている傍証。
 - **therollupco（2♥）**: 「Andy asks Eliezer Ndinga what the next $HYPE catalyst」= 2♥ は noise 水準。信号として扱わない。
 - **判断**: $EITHER の登場は「HYPE integration を掲げる周辺トークンが $10M mcap で KOL の注目を集めている」という HYPE platform 化の側面証拠。ただし $EITHER は別トークン。既存合成（TOP10 short 継続・Hayes swing trading・Anchorage integration）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-27 更新（新 beat: blknoiz06 の bottom-bounce 強気 + Mert 保有）
+- **観測（強気・新）**: [[@blknoiz06]]（2026-06-25T15:54Z、334♥）: 「$VVV & $HYPE strongest bounces on low timeframes so far, likely lead off the bottom」([[blknoiz06__2070173782069715134]]) ＝主要 KOL が HYPE を**底打ち主導候補**としてコール。majors 一斉多月安（[[$BTC]]/[[$ETH]]/[[$SOL]] 06-27 更新参照）の中で HYPE が相対強さを見せたという観測。
+- **観測（KOL conviction・新）**: [[@blknoiz06]]（2026-06-25T22:34Z、313♥）: Mert(Helius CEO)の主要5保有=「$ZEC / SOL / $HYPE / $BTC / NEAR」を引用し「safe to say we're well aligned」([[blknoiz06__2070274427799867510]]) ＝HYPE が KOL の core-hold バスケットに ZEC/SOL/BTC と並んで入る。
+- **判断（両論の更新）**: 既存の弱気側（TOP10 鯨の HYPE short 継続・Hayes 退出ナラティブ）に対し、**KOL レイヤーの強気（blknoiz06 の bottom-bounce + Mert 保有 alignment）が新たに対抗材料として加わった**。構図は「内部大口 short（構造的弱気）⇄ KOL/Mert の core-hold 確信（外部強気）」の分裂が継続。blknoiz06 は[[perp-dex-wars]]の文脈で HYPE を productive-crypto の代表に置く既存ポジションと整合。
+- **⚠️**: blknoiz06 の bounce コールは「low timeframes」＝短期テクニカルであり、TOP10 short が示す中期構造弱気を否定しない。両者は時間軸が違う。confidence=中（弱気寄り→中立、強気 KOL シグナル追加で）。
 <!-- synthesis:end -->

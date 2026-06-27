@@ -52,4 +52,9 @@ accounts: 3
 SHIB 自体よりも「SHIB 初期保有 wallet が次に動く先」が賭けの核。lookonchain がリストアップした wallet group の最新動向を追う方が alpha になる。
 
 関連：[[survivor-memes]] [[onchain-verification]] [[$PEPE]] [[$DOGE]] [[$PENGU]] [[@lookonchain]] [[@theunipcs]]
+
+### 2026-06-27 更新（light-touch: SHIB ナラティブの co-opt 観測）
+- **観測（新・SHIB 自体の beat ではない）**: [[@MascotAsteroid]]（2026-06-25、75♥）が SHIB の「チームでなくユーザー需要で上場された」史実を引いて、SpaceX マスコットトークンも「同様に需要が system を無視できなくなる」と主張。([[mascotasteroid__2070196114112880986]])
+- **⚠️ 赤旗**: これは SHIB のモメンタムでなく、**単一プロモーター([[@MascotAsteroid]])が SHIB の survivor 物語を未検証の SpaceX マスコットトークンの shill に転用**したもの。SpaceX の公式マスコット発表は未了（本人も「yet to officially announce」と認める）＝**装い（SHIB類比）≠実体（未承認）**。[[spacex-ipo-narrative]] / [[$SPCX]] 側の蓋然性論として扱い、SHIB 本体の signal にはカウントしない。
+- **市場文脈**: [[@theunipcs]]（06-26、131♥）も SHIB を「$USELESS = この cycle の $DOGE/$SHIB play」の**歴史ベンチマーク**として言及（[[theunipcs__2070425996038140331]]）＝既存合成「SHIB は今や比較の目盛り」を補強。SHIB 自体の新規モメンタムは依然観測なし。
 <!-- synthesis:end -->

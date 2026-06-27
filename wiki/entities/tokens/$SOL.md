@@ -53,4 +53,9 @@ accounts: 10
 
 ### 2026-06-24 確認（新 beat なし）
 - worklist 代表ツイ「This guy spent only 6 $SOL to buy 30.1M $MOO」([[@lookonchain]] = 2023 年古ツイ) / 「$1M loss → $2.5M profit」([[@lookonchain]] = 2024 年古ツイ) は古ツイ再キャプチャ。本サイクルの新 beat なし。既存合成に変化なし。
+
+### 2026-06-27 更新（新 beat: SOL 30ヶ月来安値＝majors中最深・light-touch）
+- **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で $SOL が **30ヶ月来安値**を更新（majors 一斉安: BTC 21mo / ETH 14mo / SOL 30mo / MSTR 27mo）。**SOL が majors 中で最も深い多月安**＝下落のβが majors の中で最大。([[theunipcs__2070425996038140331]])
+- **観測（KOL conviction）**: [[@blknoiz06]]（2026-06-25、313♥）が Mert(Helius CEO)主要5保有に SOL を含むと引用「well aligned」。([[blknoiz06__2070274427799867510]]) ＝SOL native 勢の core-hold には残る。
+- **判断**: 前回②の whale 0x9137 大口 20x short（$38.15M）と SOL 30ヶ月来安値が整合＝**大口ベア賭けが価格で実現**。「HYPE 夏枯れ→SOL ローテ」（coinkeiba、既記）は依然 KOL 感覚に留まり、実価格は逆。[[majors-rotation-supercycle]] 上、SOL は alt 母艦だが現状は majors 一斉収縮の最深部。confidence 変わらず中。
 <!-- synthesis:end -->

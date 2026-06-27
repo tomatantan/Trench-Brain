@@ -62,4 +62,25 @@ accounts: 2
 - 独立 KOL（WL 外）の言及がトリガー。現時点 theunipcs が孤立した強気シグナル = コンセンサス前。
 
 **Concept 接続**: [[survivor-memes]] / [[majors-rotation-supercycle]] / [[perp-dex-wars]] / [[launchpad-economics]]
+
+### 2026-06-27 更新（直近48h・macro メルトダウン下のストレステスト）
+**観測（事実・2026-06-25〜26）**
+- **macro 全面安の最中での相対強度主張**: [[@theunipcs]]「過去1ヶ月で $BTC=21ヶ月安値 / $ETH=14ヶ月安値 / $SOL=30ヶ月安値 / [[$MSTR]]=27ヶ月安値。なのに $USELESS は微動だにせず、5/31 終値より上。$DOGE/$PEPE/$PENGU/$WIF/[[$FARTCOIN]] 等の主要 meme に対して年初来高値圏。さらに全 memecoin 中で OI＋出来高/時価総額比が断トツ最大」（[[theunipcs__2070425996038140331]] 131♥/30RT・2026-06-26）。「$USELESS はこのサイクルの $DOGE/$SHIB プレイ」「週足はコイルしていて parabolic breakout 寸前」と明言。
+- **メルトダウン文脈の明示**: 「BTC とクリプトのセンチメントはサイクル最悪。多くが Saylor と [[$STRC]] 起因の Luna/FTX 級の崩壊を本気で懸念。その中で USELESS は今日 USDT/SOL/BTC 全てに対して上」（[[theunipcs__2070240442369630253]] 109♥・2026-06-25）。[[$STRC]]（Strategy のソブリン/プリファード筋）への不安が trench にまで波及している observ。
+- **$DOGE フリップ問い**: 「$USELESS が $DOGE をフリップするオッズは？真剣な質問」（[[theunipcs__2070150742669762644]] 152♥・2026-06-25）。
+- **外部アカの RT 増幅（弱い相互補強）**: theunipcs が RT @cryptoklotz「useless:btc は約3ヶ月アップトレンド、ラージキャップ meme をターゲット」（[[theunipcs__2070210427774996740]] 41♥）／RT @bootzz「$USELESS/$SOL は底から+200%後で ATH の2x手前」（[[theunipcs__2070219293090807855]] 68♥）。WL 外の声が出てきたが、いずれも theunipcs が選んで RT＝selection bias 残る。
+
+**動線・型（更新）**
+- [[survivor-memes]]: macro 全面安（majors が複数ヶ月安値更新）の中で価格を保ったという主張は、survivor 層の中でも「ベア下で相対的に効く」候補としての位置づけを強める。ただし主張の onchain/価格裏取りは本ページ未済（[[onchain-verification]]）。
+- [[majors-rotation-supercycle]]: SOL ローテのβ乗り（既存合成）。**⚠️ 内部矛盾の表面化**: 既存合成の「levered SOL beta（SOL が動くと増幅）」と、今回の「SOL が30ヶ月安値の中で USELESS は decouple して耐えた」は**整合しない**。前者なら SOL 急落時に USELESS は更に深く落ちるはず。theunipcs は局面に応じて「増幅β」と「耐性のある $DOGE/$SHIB 型 store」を使い分けており、論拠が場当たり的になりうる＝両論として残す。
+
+**⚠️ 矛盾・赤旗（更新）**
+- **依然 single-shiller**: 新証拠も実質 theunipcs 1人。RT 2本で外部の声を借りたが本人の選別。複数独立 KOL のコンセンサスはまだ無い。
+- **テーゼ内部の不整合**（上記）: levered SOL beta ⇄ macro 耐性 store の二枚舌。どちらが本当かで賭けの形が真逆。
+- **相関1リスク**: 「Saylor/$STRC 起因の Luna/FTX 級崩壊」が現実化した場合、低流動 meme は通常 correlation→1 で最も深く沈む。「耐えた」は晴天時の観測で、真の tail event は未検証。
+- **OI 集中の裏表**: 「全 meme 中最大の OI/mcap」は資金流入の傍証であると同時に、清算カスケードの燃料（[[perp-dex-wars]]）。ベア継続なら逆回転トリガー。
+
+**賭け仮説（confidence=中・据え置き、ただし観測点が増えた）**
+- 強気: majors メルトダウン下での相対強度が事実なら、ローテ復帰時の先頭 beta として大きい upside。「$DOGE/$SHIB プレイ」テーゼに価格が追随し始めている主張。
+- 弱気/反証ポイント: ①テーゼの内部矛盾 ②single-shiller ③真の macro tail（STRC 崩壊）での相関1。**監視トリガー**: WL 外の独立 KOL が「USELESS が majors 安値下で耐えた」を**独自に**検証・言及し始めるか。theunipcs の RT でなく自発言及がコンセンサス化のサイン。
 <!-- synthesis:end -->

@@ -50,4 +50,21 @@ accounts: 4
 
 ### concept 接続
 [[external-event-to-token-pattern]]（ブランド memefication 型・企業アイコン変更） / [[survivor-memes]]（$PENGUIN 比較・viral から blue-chip への仮説） / [[rug-anatomy]]（単一チャンピオン・独立 KOL ゼロ ⚠️） / [[$KINTARA]] / [[$PENGUIN]] / [[@ShapeFN_]] / [[@moonshot]]
+
+### 2026-06-27 更新
+#### 観測（新 beat）
+- [[@badattrading_]]（49♥, 6/25, [[badattrading___2070160534645637240]]）: 「coin を買って大量 supply を hold し、-$20k 含み損でも hold 続けると "kol scammer" 呼ばわりされる…$Merlin の top holders の iron balls に敬意」= **top holder への KOL-scam 疑惑が表面化＋holder が含み損**。
+- [[@PumpfunEco]]（49♥, [[pumpfuneco__2069848138391719974]]）: 「$Merlin +41% today」= pump status（薄い signal）。
+- [[@ShapeFN_]]（406♥, [[ShapeFN___2067208855918960741]]）: lore 宣言「best memes aren't just memes — they're stories people want to believe in / FIFA と W杯 ambassador 化を交渉中 / メキシコで水を売る家族の物語」= **物語駆動の正当化を明文化**。メキシコ実イベント出演（jueves, 1973♥, [[ShapeFN___2068315352124006863]]）。
+
+#### 判断
+物語（W杯/FIFA/water-seller）は [[survivor-memes]] の「viral→blue-chip」仮説そのもの（ShapeFN_ 自身が $PENGUIN 比較で主張）。だが badattrading_ の "KOL scammer" 疑惑＋top holder 含み損は、**ShapeFN_ 単一チャンピオン × holder 集中**という [[rug-anatomy]] リスクが実際に軋み始めたサイン（reflexivity の燃料が切れかけ→holder 含み損→KOL dump 疑惑）。⚠️ 強気（物語）と弱気（KOL-scam/含み損）の両論が同時進行。
+
+#### §2 concept 候補の所見（動線/型が立つか＝worklist §2 への回答）
+**独立 concept は不要＝既存で覆える**:
+- 型「実ブランド/スポーツ権威付け（FIFA/FOX Sports/DoorDash）＋家族の物語 → character meme を次の blue-chip survivor に」は **[[external-event-to-token-pattern]]（ブランド memefication 側）＋ [[survivor-memes]]（$PENGUIN 系 viral→blue-chip）** の2既存 concept の交点に完全に収まる。新規の横断構造を生んでいない（$PENGUIN の後追い1事例）。
+- 脆弱性側は [[rug-anatomy]]（単一チャンピオン・独立 KOL ゼロ・holder 集中・KOL-scam 疑惑）でカバー。
+- 結論: bottom-up 原則（指針8）に照らし **concept 新規作成はしない**。MERLIN 固有の concept 化は、独立 KOL が複数本格参入し "Merlinfication" 型が他トークンにも再現された時点で再検討。現状は entity synthesis ＋ 既存3 concept へのリンクで十分。
+
+confidence: 物語は強いが独立検証ゼロ＋KOL-scam 疑惑＝合成優先度は引き続き低〜中。
 <!-- synthesis:end -->

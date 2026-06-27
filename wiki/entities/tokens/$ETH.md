@@ -57,4 +57,8 @@ accounts: 18
 
 ### 2026-06-24 確認（新 beat なし）
 - worklist 代表ツイ「Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = 2022-10-25) / 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = 2022-04-07) は古ツイ再キャプチャ（前回更新で既確認）。本サイクルの新 beat なし。既存合成に変化なし。
+
+### 2026-06-27 更新（新 beat: ETH 14ヶ月来安値・light-touch）
+- **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で $ETH が **14ヶ月来安値**を更新（majors 一斉安の一部: BTC 21mo / ETH 14mo / SOL 30mo / MSTR 27mo）。([[theunipcs__2070425996038140331]])
+- **判断**: 強気 KOL コンセンサス（Hayes「$ETH=$10k」等、既記）と現実の14ヶ月来安値が**乖離**＝既存合成「ETH＝コンセンサストレード（リターン薄）」を実価格が裏付け。TOP10 鯨の ETH short は前回③で解消済みだが、価格自体は majors と共に崩落継続。[[majors-rotation-supercycle]] の「ローテ中継点」は**まだ点火していない**。confidence 変わらず中。
 <!-- synthesis:end -->

@@ -45,4 +45,13 @@ accounts: 3
 - **Crypto_Alch $10K→$100K バスケット #5**: [[Crypto_Alch__2069507304773374136]] 128♥ でリスト 5 番目（$USELESS > $ASTEROID > $NEET > $Buttcoin > **$KINS**）。既存の連投に加わる新シグナルはなし。バスケット掲載 = Alch が現時点でも保有継続・推奨継続の傍証。
 - **PumpfunEco 出来高（2026-06-23）**: $2.99M/24h = 前回合成時（$3.52M）から微減。Fartcoin ($7.66M) / QUEST ($5.34M) / ZERO ($2.78M) の下位 = 出来高順位が後退傾向。
 - **判断**: 既存合成（単一シラー依存・出来高は本物）に変化なし。QUEST が Ansem 買いで出来高 2 位に急浮上した影響で、KINS の相対的な注目度が低下している可能性。confidence 変化なし（低〜中）。
+
+### 2026-06-27 更新
+**観測（事実）**
+- [[@PumpfunEco]]（2026-06-23 00:44Z, 104♥ [[PumpfunEco__2069220128609141035]]）: 「A $KINS whale is currently holding a $135,000 bag 🔥」＝単一 whale の $135K 保有 callout。
+
+**判断（推論）**
+- 既存の「holder集中/bundle 未検証」フラグに**直接刺さる新データ点**。$135K 単一 whale = 集中の傍証。ただし PumpfunEco が🔥で**強気フレーム**＝promotional。**観測と装いを分離**: 「whale が大口保有」＝事実 / 「だから強気」＝PumpfunEco の主張（whale 集中は供給リスクでもあり、好材料とは限らない）。
+- ⚠️ holder集中（単一 $135K whale）。[[onchain-verification]] で top holder 分布の精査が依然必要＝集中度が高ければ単一 whale の利確で板が崩れる。
+- 総括: 既存合成（出来高は本物・物語は単一シラー Crypto_Alch 依存）に方向転換なし。confidence 据え置き（低〜中）。
 <!-- synthesis:end -->

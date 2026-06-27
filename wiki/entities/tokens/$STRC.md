@@ -70,4 +70,17 @@ accounts: 9
 - 「Saylor の psyche を underwrite しなければ買えない」（Schmidt）= ファンダでなく人物賭け。confidence=低〜中（悪化方向）。
 
 **関連**: [[$MSTR]] / [[$BTC]] / [[perp-dex-wars]]（Stretch per / cash-and-carry）/ [[majors-rotation-supercycle]]（BTC macro 引力）
+
+### 2026-06-27 更新（Saylor が credit quality 防衛に動く / "Digital Credit" フレーミング）
+出典: [[saylor__2069028571880845340]] (6/22 12,088♥) / [[saylor__2066558321394426082]] (6/15 BTCPrague keynote 4,368♥) / [[saylor__2069682624956612731]] (2,598♥)
+
+**観測（事実・6/19 からの新情報）**:
+- 6/22 Saylor: **USD Reserve を +$300M → $1.4B に増額、「Digital Credit 証券の credit quality を支えるため継続的に補充する」と明言**（[[saylor__2069028571880845340]]）。= 6/19 synthesis の「par 割れ」局面に対し、Saylor が **$STRC の元本/配当の信用を現金積み増しで防衛しに動いた**実弾。6/19 時点では「BTC 売却で confidence inoculation」だったが、ここでは USD Reserve 直接補充にシフト。
+- Saylor のフレーミング: $STRC = 「**Digital Credit**＝Bitcoin を信じる投資家のための income」([[saylor__2069682624956612731]] 2,598♥)。BTCPrague keynote ([[saylor__2066558321394426082]]) では Digital Credit を「12ヶ月前はゼロだった ~$11–12B の新アセットクラス」と位置づけ、$STRC / $MSTR / $IBIT を Bitcoin-backed product 群の一角として提示。= **STRC を「魔界トークン」でなく機関向け固定収益商品として正当化する物語**。
+
+**⚠️ 評価（判断・6/19 ジレンマの更新）**:
+- 6/19 で言語化した「金利引き上げ ↔ cash 消耗」のジレンマに対し、Saylor の回答は**第3の手＝外部 USD Reserve 補充**（BTC 含み益/equity dilution を現金化して preferred を支える）。これは [[$MSTR]] holder の希薄化を原資にしており（[[blknoiz06__2069766422620733585]] 6/24 が指摘）、**STRC の信用を MSTR equity が肩代わりする構造**＝両者一蓮托生。STRC 防衛が進むほど MSTR の mNAV 圧縮（1.0 割れ目前）が進む trade-off。
+- ⚠️ 赤旗: ①credit quality の "防衛" は BTC 価格と equity 調達市場の継続アクセスに依存（資本市場が閉じれば nuclear シナリオ）②「Digital Credit」「機関向け income」は **Saylor 側の主張的フレーミング**＝実体は par 割れ・配当を外部現金注入で支える preferred。装い（安定 income）≠ 実体（要防衛の構造）。
+- confidence=低〜中（6/19 から不変・やや悪化）。Saylor が現金補充の意志と実弾を示した点は短期 confidence にプラスだが、構造的ジレンマは未解決で、防衛コストが MSTR 側に転嫁されているだけ。
+- 接続: [[$MSTR]]（防衛原資＝MSTR 希薄化・一蓮托生）/ [[majors-rotation-supercycle]] / [[onchain-verification]]（"Digital Credit" の機関向け正当化は主張＝実体で評価）。
 <!-- synthesis:end -->

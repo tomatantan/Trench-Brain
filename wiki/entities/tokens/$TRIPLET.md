@@ -47,4 +47,17 @@ accounts: 3
 
 ### 2026-06-24 更新
 - **Crypto_Alch $10K→$100K バスケット #6**: [[Crypto_Alch__2069507304773374136]] 128♥ で $TripleT をリスト 6 番目に掲載（$USELESS > $ASTEROID > $NEET > $Buttcoin > $KINS > **$TripleT**）。既存の PumpfunEco 単体言及に Crypto_Alch が加わった形 = 2 ソース確認。ただしバスケット 10 銘柄の一角であり個別強度ではない。既存合成に変化なし。
+
+### 2026-06-27 更新
+**観測（事実）**
+- [[@Crypto_Alch]]（2026-06-25 10:42Z, 105♥ [[crypto_alch__2070095384798454114]]）: 「$TripleT prediction coming to light。問題は size-in しなかった事だけ」＝バスケット掲載から踏み込んだ **TripleT 専用シル＋FOMO 煽り**。
+- [[@PumpfunEco]]（2026-06-24 21:59Z, 22♥ [[pumpfuneco__2069903337625891320]]）: 「$TripleT +21% today 🔥」＝低エンゲージの価格 pump bot 投稿。
+
+**判断（推論）**
+- signal の実体は依然 **Crypto_Alch（バスケ→専用シル化）＋PumpfunEco bot の2源**。独立 KOL の追認は依然なし。$KINS と同じ Crypto_Alch basket クラスタ＝rotation 在庫。「prediction coming to light / didn't size-in more」は典型的 FOMO 文句＝**発信者の保有/利益相反が濃厚**。
+- ⚠️ 単一シラー依存（Crypto_Alch）＋自己宣伝的 ECO bot。holder/bundle 未検証＝[[onchain-verification]] 要。
+
+**concept候補（worklist §2）所見**
+- TRIPLET 単体では **動線/型 は立たない**（総7言及/2アカ＝薄い・[[launchpad-economics]] の rotation 在庫の一例に留まる）。**TRIPLET concept は作らない**。
+- むしろ立ちつつある型は **token でなく player レベル**＝[[@Crypto_Alch]] が basket（$KINS / $TripleT / $JOTCHUA / $WOJAK / $USELESS / $ASTEROID / $NEET / $Buttcoin）を TG 誘導付きで連投する「**KOL rotation basket シル**」構造（$KINS synthesis でも既出）。型を資産化するなら @Crypto_Alch player synthesis か "KOL-basket-shill" concept 側＝**entity スコープ外**。confidence=低。
 <!-- synthesis:end -->
