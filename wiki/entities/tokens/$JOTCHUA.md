@@ -4,17 +4,17 @@ kind: token
 title: $JOTCHUA
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 14
-accounts: 2
+mentions: 22
+accounts: 3
 ---
 
 # $JOTCHUA
 
-> 自動生成(brain/build_entities.py)。言及 14件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 22件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@Crypto_Alch]] [[@PumpfunEco]]
+[[@Crypto_Alch]] [[@PumpfunEco]] [[@badattrading_]]
 
 ## 共起トークン
 [[$KINS]] [[$FARTCOIN]] [[$ZERO]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]] [[$NEET]] [[$QUEST]]
@@ -26,12 +26,12 @@ accounts: 2
 | 186 | [[@PumpfunEco]] | $Jotchua has pumped 900% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068756088174882931]] |
 | 181 | [[@PumpfunEco]] | $Jotchua has pumped 49% today! 🔥 | [[PumpfunEco__2068440964801196350]] |
 | 159 | [[@PumpfunEco]] | One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥 | [[PumpfunEco__2068619724649308222]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 124 | [[@Crypto_Alch]] | All my stables on the cute dog and I’m not even bothered    Comfy in $Jotchua   Savi | [[crypto_alch__2070173703862644882]] |
+| 119 | [[@PumpfunEco]] | $Jotchua has pumped 58% today! 🔥 | [[pumpfuneco__2070222901719028164]] |
 | 119 | [[@Crypto_Alch]] | Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a | [[Crypto_Alch__2068927200036880866]] |
-| 110 | [[@Crypto_Alch]] | My Nigerian quant thinks the $Jotchua bottom is in   I tend to believe him | [[crypto_alch__2069370952098468236]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
-| 106 | [[@PumpfunEco]] | $Jotchua is now trending on the Pumpfun app! 🔥 | [[PumpfunEco__2068638119839277264]] |
-| 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
+| 110 | [[@Crypto_Alch]] | My Nigerian quant thinks the $Jotchua bottom is in   I tend to believe him | [[Crypto_Alch__2069370952098468236]] |
+| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

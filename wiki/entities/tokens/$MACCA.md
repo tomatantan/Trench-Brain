@@ -4,10 +4,12 @@ kind: token
 title: $MACCA (Macca The Gator)
 mint: Hs8JDjxT2gGzSXe6KtycDhKkFGBu7BHR71emwJz5pump
 source: auto-track
-status: watch
+status: dead
+outcome: died
+cause: mcap枯れ（多重dead cat bounce後）
 created: 2026-06-24
-updated: 2026-06-24
-tags: [token, launchpad, watch, pumpfun, ip-meme, gtavi]
+updated: 2026-06-26
+tags: [token, launchpad, dead, pumpfun, ip-meme, gtavi, external-event, graduated-but-empty, dead-cat-bounce]
 ---
 
 # $MACCA (Macca The Gator)
@@ -17,7 +19,9 @@ tags: [token, launchpad, watch, pumpfun, ip-meme, gtavi]
 | 項目 | 値 |
 |---|---|
 | mint | Hs8JDjxT2gGzSXe6KtycDhKkFGBu7BHR71emwJz5pump |
-| peak mcap | ~$92,207（+63%・2窓目） |
+| peak mcap | **~$124,596**（多重bounce後 track.py 確認・2026-06-25） |
+| 追跡経路 | ~$57k 初観測 → $92,207（+63%・2窓目）→ 急落 → $37,327 底値圏 → $53,564（+43%）→ $66,982（+44%・2026-06-25T00:47Z）→ peak $124,596 → $11,742（DEAD） |
+| last mcap | $11,742（2026-06-25T20:22Z） |
 | gate | safety:ok / traction:graduated |
 | reply_count | 0 |
 | KOL | なし（直接言及なし） |
@@ -26,8 +30,8 @@ tags: [token, launchpad, watch, pumpfun, ip-meme, gtavi]
 | tokenized_agent | false |
 | complete | true（graduated） |
 | pool | 8B12CtadcmjTC41AyH1xBHdWq4jAFbPmzy2RS9PhSk91 |
-| outcome | — |
-| cause | — |
+| outcome | died |
+| cause | mcap -90.6% from peak($124,596)——多重dead cat bounce後枯れ死 |
 
 <!-- synthesis:start -->
 ## 合成メモ
@@ -40,8 +44,16 @@ tags: [token, launchpad, watch, pumpfun, ip-meme, gtavi]
 
 ⚠️ **矛盾**: 公式 IP リンクあり（強い narrative 基盤）vs reply0/KOL0（community 需要ゼロ）——narrative の強さと市場需要は別。traction なし+63%反発は [[launchpad-economics]] 跳躍台帳の「traction無し出来高主導型」と同型。
 
+**2026-06-25 更新**: +43%（$37,327 → $53,564）。peak $92.2k → 急落後の底値（$37k）から部分回復。peak 比 -42%。reply 0・KOL ゼロ変わらず。出来高だけで上下を繰り返すパターン継続——traction なし持続。GTA VI ナラティブは継続的な関心を呼んでいない観測。次窓で $37k を割るか $92k に迫るかが分岐点。
+
+**★死亡確定（2026-06-26）**: track.py が peak $124,596 → last $11,742（-90.6%）を確認。DEAD 判定。
+- 追跡全期間（2026-06-24〜06-25）を通じて reply:0 / KOL:0 変わらず——traction ゼロのまま死亡。
+- 死因: GTA VI IP meme（Macca the Alligator 公式キャラ）× association marketing（@ShabbatMonster tweet）× traction0 → 多重 dead cat bounce（$92k→$37k→$53k→$67k→$124k）の後、最終崩壊。
+- Rockstar 公式サイトへの IP リンクは narrative 強度を持ったが、市場需要（KOL/reply）に変換されなかった——"narrative 強度 ≠ crypto traction" の実証。[[external-event-to-token-pattern]] GTA wave コホートの一例として死亡台帳へ。
+- 型: graduated-but-empty（IP参照型）+ 多重 dead cat bounce——単純 1〜2 bounce でなく $37k→$53k→$67k→$124k と複数ラウンドの bounce を経て最終崩壊。[[rug-anatomy]] ⑦/②と整合。
+
 **concept 接続**:
-- [[external-event-to-token-pattern]]: GTA VI キャラクター IP → token 追い手
-- [[launchpad-economics]]: graduated → traction 待ち（KOL/reply が発生するか）
-- [[rug-anatomy]]: IP参照型 graduated-but-empty 候補（reply/KOL 次第）
+- [[external-event-to-token-pattern]]: GTA VI キャラクター IP → token 追い手（$VCSOL/$GTA6Begin/$GTASOLANA と同 wave）
+- [[launchpad-economics]]: graduated → traction ゼロのまま多重bounce死
+- [[rug-anatomy]]: IP参照型 graduated-but-empty（reply/KOL ゼロの天井・多重bounce型）
 <!-- synthesis:end -->

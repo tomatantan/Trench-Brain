@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 120
-accounts: 17
+mentions: 134
+accounts: 18
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 120件 / 17アカ。
+> 自動生成(brain/build_entities.py)。言及 134件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$USDC]] [[$SOL]] [[$PEPE]] [[$HYPE]] [[$SHIB]] [[$ATOM]] [[$AAVE]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$SHIB]] [[$PENGU]] [[$USELESS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

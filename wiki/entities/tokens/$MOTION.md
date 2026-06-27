@@ -3,7 +3,7 @@ type: entity
 kind: token
 title: $MOTION
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-26
 source: auto-track (pump.fun)
 tags: [trench, entity, token, auto-track]
 status: tracked
@@ -26,4 +26,5 @@ status: tracked
 - **観測**: graduation 済・mcap $187k は本バッチ2番手。`getmotion.fun`/twitter あり＝プロダクト風ブランディングだがナラティブ不明（"MOTION" だけでは型が読めない）。reply 0・KOL ゼロ。
 - **判断**: mcap は高いが社会的 traction を欠く、本バッチ共通の「graduation 出来高先行・KOL 不在」型。[[launchpad-economics]] 直下。ナラティブが読めないため concept への新規動線は立てない（指針8: 型が立つ時だけ）。
 - **追跡更新(2026-06-23)**: mcap **+82%**（$194k→$354k）。KOL/reply は依然ゼロだが mcap だけが膨らむ＝出来高先行の継続。$354k は tracked batch 内で最大値に。ナラティブ不明のまま mcap が伸びるのは「whale が仕込んでいる」か「pump and dump の初動」のどちらか。KOL 言及が出なければ後者の確率が上がる。引き続き watch。
+- **追跡更新(2026-06-26)**: prev $193,476 → now **$341,697**（+77%・2026-06-25T20:21Z）。$354k ピーク後 $193k 付近まで押しが入り再浮上——oscillation 確認。KOL/reply は依然ゼロ。T3 signal ゼロ継続。website getmotion.fun・twitter @getmotion_sol は変化なし。出来高先行の上下動が3観測にわたって継続しており、whale 主導の複数ラウンド pump 仮説が強まる。KOL 言及が現れない限り [[rug-anatomy]] graduated-but-empty 確定路線。
 <!-- synthesis:end -->

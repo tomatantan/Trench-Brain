@@ -1,35 +1,17 @@
 ---
 type: entity
 kind: token
-source: auto-track
-title: $ZERO (c0mpute)
-mint: EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump
-updated: 2026-06-24
-tags: [trench, entity, token, launchpad, graduated, ai-memes, high-volume, user-checked]
+title: $ZERO
+updated: 2026-06-22
+tags: [trench, entity, token]
 mentions: 4
 accounts: 2
-status: watch（user_checked・mcap $3.49M・高信号）
 ---
 
-# $ZERO (c0mpute)
+# $ZERO
 
-> build_entities.py + auto-track 統合。言及 4件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
-
-## ライフサイクル(auto-track)
-
-| 項目 | 値 |
-|---|---|
-| mint | EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump |
-| mcap（auto-track観測時） | ~$3,494,281（**高信号**） |
-| gate | safety:ok / traction:user_checked |
-| reply_count | 0 |
-| KOL（X言及） | @PumpfunEco（volume top・プラットフォーム公式）/ @moonshot（verification） |
-| twitter | https://x.com/c0mputeAI |
-| website | https://c0mpute.ai |
-| tokenized_agent | false |
-| pool | GN9whJWrkgU8jBRpM5oa4iwSzYw1LivjB397DSyvbVG |
-| status | watch（complete:true・graduated・user_checked） |
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@moonshot]]
@@ -41,7 +23,7 @@ status: watch（user_checked・mcap $3.49M・高信号）
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 153 | [[@moonshot]] | c0mpute ($ZERO) is now verified on Moonshot. | [[moonshot__2068386440539451504]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
+| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
 | 80 | [[@PumpfunEco]] | 24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu | [[PumpfunEco__2068691523894706265]] |
 

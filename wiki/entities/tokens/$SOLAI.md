@@ -6,7 +6,7 @@ status: dead
 ticker: $SOLAI
 mint: nZdJAqPctShfYATmiwDkqcX4ze7ntDuJpQPWUSZpump
 created: 2026-06-27
-updated: 2026-06-27 (第190窓 4窓目 $1,535・-98.7%・DEAD確定・ai-memes型帰結)
+updated: 2026-06-27 (第202窓 list exit確定・DEAD残存12窓後消滅)
 tags: [token, pumpfun, traction0, ai-agent]
 ---
 
@@ -42,6 +42,8 @@ pump.fun 発。"SOLAI" 命名——Solana + AI の直接結合型。AI/agent テ
 **第189窓（2026-06-27）— 3窓目・$100,087・-17.8%検知時比（stale後本格下落・DEAD圏接近）**: $120,640（2窓目）→ $100,087（前窓比-17.0%）。staleから本格下落へ転換。ai-memes 型の縮退パス——YAI・AYY・AYAI等と同様 T3 点火ゼロのまま下落継続。DEAD圏（~$1.3k）まで距離はあるが加速中。→ [[launch-pulse]]（第189窓）[[ai-memes]]
 
 **第190窓（2026-06-27）— 4窓目・$1,535・-98.7%検知時比（DEAD確定・ai-memes型帰結）**: $100,087（3窓目）→ $1,535（窓間-98.5%）。ai-memes 型の教科書的帰結——AYAI・AYY・YAI・AIAIAI 等と同じパスで完結。「Sol×AI結合型命名・T3ゼロ全4窓・低初窓動意・stale→緩慢下落→最終崩壊」のシーケンス通り。初窓低動意（+6.9%）はそのまま生存力の乏しさを示していた。ai-memes ナラティブは命名だけでは T3 点火を生まない——外部KOL接触ゼロのまま4窓で終焉。縮退パターン記録に追加。→ [[launch-pulse]]（第190窓）[[ai-memes]][[rug-anatomy]]
+
+**第202窓（2026-06-27）— list exit確定（DEAD残存12窓後消滅）**: 第190窓 DEAD確定（$1,535）から第201窓まで $1.3-1.5k 帯に12窓残存し、第202窓 traction_candidates 消滅。SOL×AI命名型の全ライフサイクル完結——traction 4窓＋DEAD残存12窓＝計16窓で終焉。→ [[launch-pulse]]（第202窓）
 
 <!-- synthesis:end -->
 

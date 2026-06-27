@@ -23,8 +23,8 @@ accounts: 2
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 389 | [[@PumpfunEco]] | Ansem (@blknoiz06) makes first purchases on his @Pumpfun wallet 🔥  He bought $PUMPCA | [[pumpfuneco__2069407494300950984]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
-| 70 | [[@PumpfunEco]] | This trader refused to sell early & now their $922 buy on $QUEST is worth $12,730 | [[pumpfuneco__2069486811043238005]] |
+| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
+| 70 | [[@PumpfunEco]] | This trader refused to sell early & now their $922 buy on $QUEST is worth $12,730 | [[PumpfunEco__2069486811043238005]] |
 | 21 | [[@badattrading_]] | $QUEST (CA Et3nNiuGyhQxwVW3W8pLTvsMXcSKiyogHrNjdr4wpoke) doesn't have snipers, insid | [[badattrading___2069312569395863714]] |
 
 <!-- synthesis:start -->

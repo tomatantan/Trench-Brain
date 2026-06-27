@@ -4,17 +4,17 @@ kind: token
 title: $TROLL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
-accounts: 2
+mentions: 5
+accounts: 3
 ---
 
 # $TROLL
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@a1lon9]] [[@cookerbruski]]
+[[@a1lon9]] [[@badattrading_]] [[@cookerbruski]]
 
 ## 共起トークン
 [[$NEET]] [[$TOKABU]] [[$USDUC]]
@@ -26,6 +26,7 @@ accounts: 2
 | 3,324 | [[@a1lon9]] | $TROLL is the first time in a long time that we're seeing genuine onboarding into th | [[a1lon9__1953226817583616022]] |
 | 243 | [[@cookerbruski]] | similar to the way that $troll ranged for months, when $neet breaks out of accumulat | [[cookerbruski__1957891121515794699]] |
 | 132 | [[@cookerbruski]] | prayers out to my friend who’s been bullish on $troll coin for the last 5 months jus | [[cookerbruski__1914248024718536861]] |
+| 20 | [[@badattrading_]] | In any case, on a pure TA level despite what the market is doing, this is an entry,  | [[badattrading___2069834056888402121]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

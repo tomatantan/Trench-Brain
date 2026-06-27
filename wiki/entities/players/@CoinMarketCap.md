@@ -25,8 +25,8 @@ posts: 182
 | 764 |  | LATEST: 💰 Michael Saylor: Would you rather have Strategy buy 200,000 Bitcoin a year  | [[CoinMarketCap__2068672847166190021]] |
 | 701 |  | EXPLAINED: 🏦 Wall Street seems to only be getting more and more bullish on blockchai | [[CoinMarketCap__2068306626411467120]] |
 | 695 |  | Tag the most unshakeable community! 💪 | [[CoinMarketCap__2068257573036314682]] |
-| 692 |  | LATEST: 🇱🇺 Ripple has received preliminary MiCA approval in Luxembourg, just days be | [[coinmarketcap__2069531738724802684]] |
-| 649 |  | LATEST: 🏦 Tether-backed Oobit has integrated Brazil’s PIX payment network, letting n | [[coinmarketcap__2069504570674327829]] |
+| 692 |  | LATEST: 🇱🇺 Ripple has received preliminary MiCA approval in Luxembourg, just days be | [[CoinMarketCap__2069531738724802684]] |
+| 649 |  | LATEST: 🏦 Tether-backed Oobit has integrated Brazil’s PIX payment network, letting n | [[CoinMarketCap__2069504570674327829]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

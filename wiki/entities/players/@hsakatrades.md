@@ -17,16 +17,16 @@ posts: 19
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 4,395 |  | slurped a little | [[hsakatrades__1983607985248305272]] |
-| 4,096 |  | real number is probably 5x this | [[hsakatrades__1886395500699558353]] |
-| 2,561 |  | closed everything at breakeven yesterday btw | [[hsakatrades__1983947510088438022]] |
-| 1,996 |  | Merry Christmas ya filthy animals. | [[hsakatrades__2004252217667395741]] |
-| 1,790 |  | wintermute must be stopped | [[hsakatrades__1983753888835760639]] |
-| 1,785 |  | >Saylor on forbes cover >Global crypto OI -$700m in 15 minutes  there is no second b | [[hsakatrades__1884992612592947482]] |
-| 1,524 |  | which sophisticated market participant woke up and decided to speedrun weeks worth o | [[hsakatrades__1986965111333134411]] |
-| 1,490 |  | nance on track to list more perps this year than the past 3 years combined.  fix thi | [[hsakatrades__1985326419107328265]] |
-| 1,482 |  | hamster racing time (version 2.0) | [[hsakatrades__1887257270591070270]] |
-| 1,446 |  | web2 founders rn after shitting on crypto for years | [[hsakatrades__1884871736170062016]] |
+| 4,395 |  | slurped a little | [[HsakaTrades__1983607985248305272]] |
+| 4,096 |  | real number is probably 5x this | [[HsakaTrades__1886395500699558353]] |
+| 2,561 |  | closed everything at breakeven yesterday btw | [[HsakaTrades__1983947510088438022]] |
+| 1,996 |  | Merry Christmas ya filthy animals. | [[HsakaTrades__2004252217667395741]] |
+| 1,790 |  | wintermute must be stopped | [[HsakaTrades__1983753888835760639]] |
+| 1,785 |  | >Saylor on forbes cover >Global crypto OI -$700m in 15 minutes  there is no second b | [[HsakaTrades__1884992612592947482]] |
+| 1,524 |  | which sophisticated market participant woke up and decided to speedrun weeks worth o | [[HsakaTrades__1986965111333134411]] |
+| 1,490 |  | nance on track to list more perps this year than the past 3 years combined.  fix thi | [[HsakaTrades__1985326419107328265]] |
+| 1,482 |  | hamster racing time (version 2.0) | [[HsakaTrades__1887257270591070270]] |
+| 1,446 |  | web2 founders rn after shitting on crypto for years | [[HsakaTrades__1884871736170062016]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

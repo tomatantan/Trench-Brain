@@ -28,7 +28,7 @@ accounts: 2
 | 180 | [[@solbrdl]] | Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th | [[solbrdl__2065418374553673842]] |
 | 163 | [[@solbrdl]] | In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea | [[solbrdl__2068007977982828945]] |
 | 161 | [[@Crypto_Alch]] | $ASTEROID pulling a ‘fvck you’ reversal   How are nvggas betting against a bundled s | [[Crypto_Alch__2067990029964644410]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 140 | [[@solbrdl]] | Scenario 2 is literally in the play  No mentioning of $ASTEROID at SpaceX IPO, peopl | [[solbrdl__2066368103873749063]] |
 | 133 | [[@solbrdl]] | Elon literally dropped an easter egg on $ASTEROID   All you have to do is hold and b | [[solbrdl__2066617204087382129]] |
 | 127 | [[@solbrdl]] | Testing something.  $ASTEROID community vibe check | [[solbrdl__2068787544439795978]] |

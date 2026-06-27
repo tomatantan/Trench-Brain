@@ -18,11 +18,11 @@ posts: 79
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 674 | [[$XAUT]] | The best investment he ever made: You. 💙  This Father's Day, let's give something ba | [[MEXC__2068544439945982225]] |
-| 494 | [[$SPACEX]] [[$USDT]] | Got rewarded in the $SPACEX(PRE) 0-Fee Gala yet?   🎁 20 winners × 15 $USDT. To enter | [[mexc__2069284313808646519]] |
+| 494 | [[$SPACEX]] [[$USDT]] | Got rewarded in the $SPACEX(PRE) 0-Fee Gala yet?   🎁 20 winners × 15 $USDT. To enter | [[MEXC__2069284313808646519]] |
 | 460 |  | ⚽️ What's your Kickoff Trade?  Share the first trade you made during MEXC Kickoff Fe | [[MEXC__2067903212426842399]] |
-| 388 | [[$USDT]] | The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d | [[mexc__2069314511450919395]] |
+| 388 | [[$USDT]] | The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d | [[MEXC__2069314511450919395]] |
 | 377 |  | 🇪🇸 Spain vs 🇸🇦 Saudi Arabia kicks off in hours.  Right now, what's on your screen? ⚽ | [[MEXC__2068689120432714005]] |
-| 320 |  | Everyone’s first stock has a story.   Vugar’s? A Happy Meal his dad believed in. @us | [[mexc__2069405108463632517]] |
+| 320 |  | Everyone’s first stock has a story.   Vugar’s? A Happy Meal his dad believed in. @us | [[MEXC__2069405108463632517]] |
 | 222 |  | Think you've got an eye for opportunities? 👀    First 10 correct answers earn a Spot | [[MEXC__2068242449445830785]] |
 | 215 | [[$USDT]] | New look. Same infinite opportunities. ♾️  What do you think of MEXC's brand upgrade | [[mexc__2069692004196597941]] |
 | 176 | [[$SPCX]] [[$USDT]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |

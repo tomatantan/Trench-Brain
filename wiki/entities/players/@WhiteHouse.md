@@ -26,7 +26,7 @@ posts: 63
 | 13,547 |  | Air Force One enters its next era 🔥🇺🇸 | [[WhiteHouse__2068782594485866613]] |
 | 11,658 |  | ︎︎White House will be Q posting today…  ︎  ︎  ︎  ︎ ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎   | [[WhiteHouse__2069071254829609256]] |
 | 11,069 |  | Oil prices are tumbling down, and the World is a much safer place!! 🇺🇸 | [[WhiteHouse__2069399355547590968]] |
-| 10,589 |  | "Six people have been arrested, and seven people have been cited, for the damage the | [[whitehouse__2069447413811540258]] |
+| 10,589 |  | "Six people have been arrested, and seven people have been cited, for the damage the | [[WhiteHouse__2069447413811540258]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

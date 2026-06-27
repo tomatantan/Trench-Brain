@@ -4,20 +4,20 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 24
-accounts: 11
+mentions: 30
+accounts: 13
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 24件 / 11アカ。
+> 自動生成(brain/build_entities.py)。言及 30件 / 13アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]]
+[[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$AXIOM]] [[$ZEC]] [[$ASTER]] [[$LIT]] [[$AERO]] [[$TNSR]]
+[[$ETH]] [[$SOL]] [[$ZEC]] [[$BTC]] [[$USELESS]] [[$AXIOM]] [[$UNI]] [[$ASTER]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -30,8 +30,8 @@ accounts: 11
 | 743 | [[@DefiIgnas]] | Pump fun's has only one real competitor: Axiom.  Weirdly, CT is quiet about it.  I m | [[DefiIgnas__1940679296387109279]] |
 | 543 | [[@arkham]] | THIS WHALE JUST BOUGHT $20M OF $ETH AND $HYPE  A fresh whale wallet just withdrew $1 | [[arkham__2068410022975922260]] |
 | 401 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
-| 249 | [[@lookonchain]] | A whale is rotating from $ETH into $HYPE.  Two weeks ago, whale 0xEe0A sold all 3,06 | [[lookonchain__2069668599716077853]] |
-| 206 | [[@DefiIgnas]] | Solana is a better 'everything chain' than Ethereum right now.  At least if what you | [[defiignas__2068000315937603586]] |
+| 334 | [[@blknoiz06]] | $VVV & $HYPE strongest bounces on low timeframes so far, likely lead off the bottom | [[blknoiz06__2070173782069715134]] |
+| 313 | [[@blknoiz06]] | MERT'S 5 MAIN HOLDINGS: - $ZEC - solana:So11111111111111111111111111111111111111112  | [[blknoiz06__2070274427799867510]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

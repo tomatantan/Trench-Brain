@@ -4,13 +4,13 @@ kind: token
 title: $TRIPLET
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 5
+mentions: 7
 accounts: 3
 ---
 
 # $TRIPLET
 
-> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -22,10 +22,12 @@ accounts: 3
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 105 | [[@Crypto_Alch]] | $TripleT prediction coming to light   There’s only problem you’ll have is that you d | [[crypto_alch__2070095384798454114]] |
 | 76 | [[@PumpfunEco]] | $TripleT has pumped 44% today! 🔥 | [[PumpfunEco__2068987840583676395]] |
 | 72 | [[@PumpfunEco]] | This trader bought $430 worth of $TripleT at $61K market cap and never sold a single | [[PumpfunEco__2069021232616415540]] |
 | 51 | [[@PumpfunEco]] | $TripleT is rallying, currently up 34% in 24 hours 👀 | [[PumpfunEco__2068762770183536753]] |
+| 22 | [[@PumpfunEco]] | $TripleT has pumped 21% today! 🔥 | [[pumpfuneco__2069903337625891320]] |
 | 15 | [[@xvwmuca]] | $TripleT × $Kinton Tung Tung Tung Sahur Japanese PEPE | [[xvwmuca__2059849100921901499]] |
 
 <!-- synthesis:start -->

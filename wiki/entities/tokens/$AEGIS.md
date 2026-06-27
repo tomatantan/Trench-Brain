@@ -3,10 +3,11 @@ type: entity
 kind: token
 title: $AEGIS
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-25
 source: auto-track (pump.fun)
-tags: [trench, entity, token, auto-track]
-status: fading
+tags: [trench, entity, token, auto-track, dead]
+status: dead
+outcome: died
 ---
 
 # $AEGIS — AegisPrivacy
@@ -27,4 +28,5 @@ status: fading
 - **判断**: privacy は [[zec]]（$ZEC）など major 側で周期的に来るテーマだが、この銘柄は KOL 言及も出来高も無くテーマ便乗の薄い graduation。`.org` ドメインは「機関/非営利を装う」よくある演出で [[rug-anatomy]] の装い系チェック対象。
 - **追跡更新(2026-06-23)**: mcap **+160%**（$29k→$76k）。reply・KOL ゼロのまま mcap が急拡大＝$MOTION と同様の「出来高先行型」上昇。privacy テーマとして特有の買い圧があるのか、ランダムな bot 買いかは判別不能。⚠️ traction ゼロで +160% は [[rug-anatomy]] の「whale dump 前の価格つり上げ」パターンと合致しうる。KOL 一次ソース確認が必要。
 - **追跡更新(2026-06-23 v2)**: mcap -41%（$66.3k→$38.9k）。BREAKOUT peak $76k から反落開始。KOL・reply 引き続きゼロ＝「traction 無し BREAKOUT → 短命反落」型の通り道を進んでいる。$RO（peak $42.8k→$16k）と同じ軌跡。このまま traction が出なければ死亡分母入り確実。[[rug-anatomy]] の「traction-less つり上げ後反落」パターンの実例として台帳の観測を補強。
+- **死確定（2026-06-24）**: last mcap $6,086（peak $76,008 → -92.0%）。cause: mcap枯れ。型通り——traction ゼロで +160% BREAKOUT → 3日で崩壊。[[rug-anatomy]] BREAKOUT-then-dead 台帳 N=39 に追加。[[launchpad-economics]] の観測コホート死亡分母に算入。
 <!-- synthesis:end -->

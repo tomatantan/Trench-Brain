@@ -5,9 +5,9 @@ source: auto-track
 title: $GTT (Grand Theft Token)
 mint: DeQQoQoaRnMD8K1ZKKjAhYGk58thjbA2km15KXSupump
 created: 2026-06-24
-updated: 2026-06-24
-tags: [token, pump-fun, solana, watch, kol-absent, traction, gta-wave]
-status: watch
+updated: 2026-06-25
+tags: [token, pump-fun, solana, dead, kol-absent, traction, gta-wave]
+status: DEAD（第54窓 $1,471・窓間-98.6%・7窓追跡・縮退記録確定）
 ---
 
 # $GTT (Grand Theft Token)
@@ -24,6 +24,11 @@ pump.fun 発。名称「Grand Theft Token」——GTA6 ナラティブ × meme t
 | MCap（第48窓） | ~$127,289（+6.6%） |
 | MCap（auto-track birth） | ~$129,418（+8.4%） |
 | MCap（第49窓） | ~$99,364（-16.8%・1窓で反転下落） |
+| MCap（第50窓） | ~$96,141（-19.5%・縮退加速・$100k 割れ） |
+| MCap（第51窓） | ~$97,893（-18.0%・窓間+1.9%・縮退一時停止・$100k 未回復） |
+| MCap（第52窓） | ~$74,302（-37.8%・窓間-24.1%・縮退加速・$75k割れ） |
+| MCap（第53窓） | **~$101,087（-15.4%・窓間+36.0%・意外反転・縮退記録保留）** |
+| MCap（第54窓） | **~$1,471（-98.8%・窓間-98.6%・DEAD・縮退記録確定）** |
 | Reply | 0 |
 | KOL | なし |
 | twitter | https://x.com/grandtheftoken |
@@ -37,7 +42,11 @@ pump.fun 発。名称「Grand Theft Token」——GTA6 ナラティブ × meme t
 
 **観測**: 「Grand Theft Token」——GTA の頭字語を token に転用したワードプレイ meme。twitter @grandtheftoken・website grandtheftoken.lol を持つ（social 基盤あり）。第48窓 +6.6%（$127.3k）→ 第49窓 **-16.8%（$99.4k）**。窓間 -21.9%。reply 0・KOL ゼロ継続。
 
-**判断**: 第48窓「1窓目のため判断保留」としたが、第49窓で $127.3k → $99.4k（窓間-21.9%）と即反転した——前窓の懸念「KOL:0 のまま +6.6%＝whale 初期買い1窓で完了」が的中。social 基盤（twitter+website）は整備済みだが reply:0 のまま——外部参加者がゼロで社準備が空振り。$99.4k は traction gate 付近まで縮退。次窓で $80k 以下なら縮退記録へ移行。[[rug-anatomy]]
+**判断**: 第49窓 -16.8%→第50窓 -19.5%→第51窓 -18.0%（一時停止）→第52窓 -37.8%（GTA6Begin崩壊連動）→**第53窓 +36.0%（$74.3k→$101.1k・意外反転）**。
+
+縮退加速（第48-52窓）→ 第53窓: **+36.0%（$101.1k・意外反転）** → 第54窓: **$1,471（窓間-98.6%・DEAD）**。
+
+「GTA 6Begin 消滅後のナラティブ集約効果」という前窓仮説は一窓で崩れた——集約されたのではなく、最後の売り手が $101.1k の反転を出口として利用したと見るのが整合的。reply:0・KOL:0 全7窓継続。外部資本ゼロの whale 単独動き。縮退記録確定。[[rug-anatomy]] [[external-event-to-token-pattern]]
 
 **concept 接続**:
 - [[external-event-to-token-pattern]]: GTA6 IP ナラティブ便乗波

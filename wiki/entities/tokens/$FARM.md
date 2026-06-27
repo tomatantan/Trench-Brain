@@ -24,9 +24,9 @@ accounts: 3
 |---|---|---|---|
 | 277 | [[@moonshot]] | FarmTown ($FARM) is now verified on Moonshot. | [[moonshot__2069167695489077702]] |
 | 157 | [[@Crypto_Alch]] | What is $FARM and why is it going parabolic? | [[Crypto_Alch__2067981071292002678]] |
-| 133 | [[@PumpfunEco]] | $FARM has pumped 55% today! 🔥 | [[pumpfuneco__2069371268508311857]] |
+| 133 | [[@PumpfunEco]] | $FARM has pumped 55% today! 🔥 | [[PumpfunEco__2069371268508311857]] |
 | 123 | [[@PumpfunEco]] | $FARM is rallying, currently up 36% in 24 hours! 👀 | [[PumpfunEco__2068693463256703052]] |
-| 107 | [[@PumpfunEco]] | This trader is up $11,810 after buying $751 worth of  $FARM at a $​158K market cap   | [[pumpfuneco__2069178273712452042]] |
+| 107 | [[@PumpfunEco]] | This trader is up $11,810 after buying $751 worth of  $FARM at a $​158K market cap   | [[PumpfunEco__2069178273712452042]] |
 | 63 | [[@PumpfunEco]] | $FARM has pumped 50% today! 🔥 | [[PumpfunEco__2069076901906280851]] |
 
 <!-- synthesis:start -->

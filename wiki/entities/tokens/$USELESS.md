@@ -4,20 +4,20 @@ kind: token
 title: $USELESS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 17
 accounts: 2
 ---
 
 # $USELESS
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 17件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$DOGE]] [[$ETH]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]]
+[[$BTC]] [[$DOGE]] [[$SOL]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -25,12 +25,13 @@ accounts: 2
 | 1,083 | [[@theunipcs]] | i'm seeing a lot of similarities between $USELESS and $BONK before i took my legenda | [[theunipcs__2044876322170703877]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
+| 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
+| 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
 | 252 | [[@theunipcs]] | $SOL continues to outperform $BTC, $ETH, and the other majors  now look at the $USEL | [[theunipcs__2068969521990234574]] |
 | 246 | [[@theunipcs]] | in my quoted tweet, i highlighted objective OI and volume data showing why $USELESS  | [[theunipcs__2067007170537787693]] |
+| 243 | [[@theunipcs]] | most people are overcomplicating this cycle  $USELESS x $HYPE barbell and chilling u | [[theunipcs__2066287677717074231]] |
 | 213 | [[@theunipcs]] | $SOL strength and outperformance is becoming increasingly obvious by the day  could  | [[theunipcs__2068789564198560214]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
-| 135 | [[@theunipcs]] | $USELESS whales are once again buying the dip  are you? | [[theunipcs__2069457557035352227]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -17,16 +17,16 @@ posts: 20
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 21 | [[$CLUTCH]] | USA just unveiled the Star-Spangled 2026 kits — American energy on another level! Cl | [[clutch_fifa2026__2035274444269396159]] |
-| 16 | [[$CLUTCH]] | game is fun in beta, $clutch saving the day. CA: BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swz | [[clutch_fifa2026__2036835314850025936]] |
-| 11 |  | Load up or watch from the bench. solana:BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk | [[clutch_fifa2026__2059322927796154846]] |
-| 10 | [[$CLUTCH]] | ~87 days till 2026 World Cup blasts off—all 104 matches SOLD OUT! Clutch the mascot  | [[clutch_fifa2026__2033171031964496265]] |
-| 9 | [[$CLUTCH]] | USMNT locks in Irvine, CA as official 2026 World Cup training base — perfect for tha | [[clutch_fifa2026__2031739608090947900]] |
-| 9 | [[$CLUTCH]] | FOX Sports just dropped the full 2026 World Cup broadcast schedule — Final on July 1 | [[clutch_fifa2026__2017224905981604057]] |
-| 8 | [[$CLUTCH]] | Random Selection Draw results start dropping as early as Feb 5 — after 500M+ ticket  | [[clutch_fifa2026__2018701912841855081]] |
-| 8 | [[$CLUTCH]] | 100 days till 2026 World Cup kickoff—FIFA says ALL 104 matches SOLD OUT with 500M+ t | [[clutch_fifa2026__2029627880997802102]] |
-| 8 | [[$CLUTCH]] | $Clutch - the Bald Eagle possesses an unquenchable thirst for adventure, soaring acr | [[clutch_fifa2026__2021131917605933455]] |
-| 7 | [[$CLUTCH]] | From Atlanta's airport upgrades to Delaware's massive watch parties and Vancouver's  | [[clutch_fifa2026__2022337854383489326]] |
+| 21 | [[$CLUTCH]] | USA just unveiled the Star-Spangled 2026 kits — American energy on another level! Cl | [[Clutch_FIFA2026__2035274444269396159]] |
+| 16 | [[$CLUTCH]] | game is fun in beta, $clutch saving the day. CA: BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swz | [[Clutch_FIFA2026__2036835314850025936]] |
+| 11 |  | Load up or watch from the bench. solana:BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk | [[Clutch_FIFA2026__2059322927796154846]] |
+| 10 | [[$CLUTCH]] | ~87 days till 2026 World Cup blasts off—all 104 matches SOLD OUT! Clutch the mascot  | [[Clutch_FIFA2026__2033171031964496265]] |
+| 9 | [[$CLUTCH]] | USMNT locks in Irvine, CA as official 2026 World Cup training base — perfect for tha | [[Clutch_FIFA2026__2031739608090947900]] |
+| 9 | [[$CLUTCH]] | FOX Sports just dropped the full 2026 World Cup broadcast schedule — Final on July 1 | [[Clutch_FIFA2026__2017224905981604057]] |
+| 8 | [[$CLUTCH]] | Random Selection Draw results start dropping as early as Feb 5 — after 500M+ ticket  | [[Clutch_FIFA2026__2018701912841855081]] |
+| 8 | [[$CLUTCH]] | 100 days till 2026 World Cup kickoff—FIFA says ALL 104 matches SOLD OUT with 500M+ t | [[Clutch_FIFA2026__2029627880997802102]] |
+| 8 | [[$CLUTCH]] | $Clutch - the Bald Eagle possesses an unquenchable thirst for adventure, soaring acr | [[Clutch_FIFA2026__2021131917605933455]] |
+| 7 | [[$CLUTCH]] | From Atlanta's airport upgrades to Delaware's massive watch parties and Vancouver's  | [[Clutch_FIFA2026__2022337854383489326]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

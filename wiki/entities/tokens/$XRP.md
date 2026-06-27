@@ -4,17 +4,17 @@ kind: token
 title: $XRP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 6
-accounts: 2
+mentions: 7
+accounts: 3
 ---
 
 # $XRP
 
-> 自動生成(brain/build_entities.py)。言及 6件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CredibleCrypto]] [[@DefiIgnas]]
+[[@CredibleCrypto]] [[@DefiIgnas]] [[@lookonchain]]
 
 ## 共起トークン
 [[$BTC]] [[$CRV]] [[$ETH]] [[$SOL]]
@@ -23,11 +23,12 @@ accounts: 2
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 906 | [[@DefiIgnas]] | $XRP is 21% away from flipping $ETH in FDV.  $XRP is 2.67 times larger in FDV than $ | [[DefiIgnas__1879895417133085005]] |
-| 735 | [[@CredibleCrypto]] | Not much has changed here, still think most logical outcome on $BTC for now is relie | [[crediblecrypto__2065743233393610974]] |
-| 658 | [[@CredibleCrypto]] | Longed some $XRP here, a near identical setup to the one shared on $CRV in the quote | [[crediblecrypto__2065417989583769925]] |
-| 506 | [[@CredibleCrypto]] | Unfortunately nearly fully retraced our move on $XRP on this pullback.  As stops wer | [[crediblecrypto__2067665232533549481]] |
-| 437 | [[@CredibleCrypto]] | SL can now safely be moved to entry at $1.13, making this a risk-free trade.   Targe | [[crediblecrypto__2066512098637631583]] |
-| 408 | [[@CredibleCrypto]] | Zerp it 😤 $XRP | [[crediblecrypto__2066488850197754184]] |
+| 735 | [[@CredibleCrypto]] | Not much has changed here, still think most logical outcome on $BTC for now is relie | [[CredibleCrypto__2065743233393610974]] |
+| 658 | [[@CredibleCrypto]] | Longed some $XRP here, a near identical setup to the one shared on $CRV in the quote | [[CredibleCrypto__2065417989583769925]] |
+| 506 | [[@CredibleCrypto]] | Unfortunately nearly fully retraced our move on $XRP on this pullback.  As stops wer | [[CredibleCrypto__2067665232533549481]] |
+| 437 | [[@CredibleCrypto]] | SL can now safely be moved to entry at $1.13, making this a risk-free trade.   Targe | [[CredibleCrypto__2066512098637631583]] |
+| 408 | [[@CredibleCrypto]] | Zerp it 😤 $XRP | [[CredibleCrypto__2066488850197754184]] |
+| 181 | [[@lookonchain]] | The market crash just wiped out whale 0xf79C's longs.  His 809.9 $BTC($47.68M) and 2 | [[lookonchain__2070150000311779556]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

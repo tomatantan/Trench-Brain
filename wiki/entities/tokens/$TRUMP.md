@@ -4,20 +4,20 @@ kind: token
 title: $TRUMP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
+mentions: 12
 accounts: 6
 ---
 
 # $TRUMP
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 12件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@DefiIgnas]] [[@blknoiz06]] [[@frankdegods]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BONK]] [[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$SPX]]
+[[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$USELESS]] [[$SOL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -31,7 +31,7 @@ accounts: 6
 | 2,856 | [[@lookonchain]] | After @elonmusk changed his profile name to Harry Bōlz, the price of $HARRYBOLZ surg | [[lookonchain__1889284808054043060]] |
 | 2,617 | [[@frankdegods]] | Trump just retweeted his $TRUMP tweet on top of Melania's, just to make things 100%  | [[frankdegods__1881135041499251071]] |
 | 1,536 | [[@DefiIgnas]] | Bearish $TRUMP & MELANIA  Bullish crypto native assets & memes  The market realized  | [[DefiIgnas__1881103695964000426]] |
-| 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
+| 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

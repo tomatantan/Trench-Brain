@@ -17,16 +17,16 @@ posts: 15
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 819 |  | SpaceX is a historic liquidity transfer event from public market investors to privat | [[rewkang__2065424556471222603]] |
-| 778 |  | Very few people understand attention mechanics, marketing psychology and what makes  | [[rewkang__2064028599909232781]] |
-| 435 |  | Thrilled to lead the Standard Bots Series C  Industrial robots can be thought of as  | [[rewkang__2064352012762837133]] |
-| 357 |  | Life comes at you fast  A humanoid in every home in the not too distant future. It w | [[rewkang__2065080522523459728]] |
-| 328 |  | I cringe when I hear “I missed [X]”  Companies that achieve high market caps get the | [[rewkang__2063634183902122420]] |
-| 265 |  | RoboStrategy intends to continue raising capital through privately negotiated equity | [[rewkang__2067598333531619832]] |
-| 257 |  | The market always has a difficult time accurately pricing inflection points  These a | [[rewkang__2062897755719074044]] |
-| 242 |  | A lot of attention is focused on Figure and Apptronik within our portfolio  But ther | [[rewkang__2062613639379763662]] |
-| 194 |  | The FigureAI live stream was a mini ChatGPT moment for venture capital  Robotics fun | [[rewkang__2066901706294587863]] |
-| 185 |  | NAV is subject to change significantly. | [[rewkang__2064018371062923593]] |
+| 819 |  | SpaceX is a historic liquidity transfer event from public market investors to privat | [[Rewkang__2065424556471222603]] |
+| 778 |  | Very few people understand attention mechanics, marketing psychology and what makes  | [[Rewkang__2064028599909232781]] |
+| 435 |  | Thrilled to lead the Standard Bots Series C  Industrial robots can be thought of as  | [[Rewkang__2064352012762837133]] |
+| 357 |  | Life comes at you fast  A humanoid in every home in the not too distant future. It w | [[Rewkang__2065080522523459728]] |
+| 328 |  | I cringe when I hear “I missed [X]”  Companies that achieve high market caps get the | [[Rewkang__2063634183902122420]] |
+| 265 |  | RoboStrategy intends to continue raising capital through privately negotiated equity | [[Rewkang__2067598333531619832]] |
+| 257 |  | The market always has a difficult time accurately pricing inflection points  These a | [[Rewkang__2062897755719074044]] |
+| 242 |  | A lot of attention is focused on Figure and Apptronik within our portfolio  But ther | [[Rewkang__2062613639379763662]] |
+| 194 |  | The FigureAI live stream was a mini ChatGPT moment for venture capital  Robotics fun | [[Rewkang__2066901706294587863]] |
+| 185 |  | NAV is subject to change significantly. | [[Rewkang__2064018371062923593]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

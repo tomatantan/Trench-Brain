@@ -21,12 +21,12 @@ CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 1,973 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[shapefn___2068315352124006863]] |
-| 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[shapefn___2067208855918960741]] |
+| 1,973 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[ShapeFN___2068315352124006863]] |
+| 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[ShapeFN___2067208855918960741]] |
 | 141 | [[$MERLIN]] | From selling water on the streets to the top of the World Cup. 🦆🏆 $Merlin | [[shapefn___2067195484842651871]] |
-| 109 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[shapefn___2067616747088142496]] |
+| 109 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[ShapeFN___2067616747088142496]] |
 | 80 | [[$MERLIN]] | POV: You accidentally become FIFA's newest ambassador. $Merlin | [[shapefn___2067201353361785315]] |
-| 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[shapefn___2067754051551265088]] |
+| 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[ShapeFN___2067754051551265088]] |
 | 63 |  | I THINK I FOUND THE NEXT VIRAL TIKTOK MEME ITS GOING CRAZY ON TIKTOK | [[ShapeFN___1898406623153963026]] |
 | 58 |  | The real Annabelle lore 👻  Annabelle is a haunted doll kept in a locked glass case b | [[ShapeFN___1927028226573885709]] |
 | 51 | [[$MITCH]] | When she doesn’t believe $MITCH will 100x, but you know. | [[ShapeFN___1946602057110045050]] |

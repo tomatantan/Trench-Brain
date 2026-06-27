@@ -4,10 +4,10 @@ kind: token
 title: $ANGIE (The Trash Can Bandit)
 mint: 3p8Y7BTK6BtYqDDDnVCDqmUjdVCggjW9vAygWLYcpump
 source: auto-track
-status: watch
+status: dead
 created: 2026-06-24
-updated: 2026-06-24
-tags: [token, launchpad, watch, pumpfun, graduated]
+updated: 2026-06-26
+tags: [token, launchpad, dead, pumpfun, graduated]
 ---
 
 # $ANGIE (The Trash Can Bandit)
@@ -17,8 +17,8 @@ tags: [token, launchpad, watch, pumpfun, graduated]
 | 項目 | 値 |
 |---|---|
 | mint | 3p8Y7BTK6BtYqDDDnVCDqmUjdVCggjW9vAygWLYcpump |
-| mcap (観測時) | ~$14,661（直近）/ peak ~$15,791 |
-| 変動 | $10,054→$14,661（+46%）←前回: $10,011→$15,791（+58%）・反発継続中 |
+| mcap (観測時) | ~$11,661（直近）/ peak ~$22,211（前回） |
+| 変動 | $7,297→$11,661（+60%・2026-06-25更新）←前回: $15,409→$22,211（+44%）・prev peak からは低下 |
 | gate | traction:mcap>=30000 で通過後 graduation 確認 |
 | reply_count | 0 |
 | KOL | なし |
@@ -32,15 +32,11 @@ tags: [token, launchpad, watch, pumpfun, graduated]
 <!-- synthesis:start -->
 ## 合成メモ
 
-**観測**: 「The Trash Can Bandit」名でgraduation完了。mcap $10k→$15.7k (+58%)の変化で検知。twitter フィールドは Vibez__Crypto（watchlist 外）のツイートリンク＝creator 提供の social リンクであり、KOL 独立言及ではない。website は X 検索 URL（`search?q=angie`）＝実質的に空。reply_count=0。
+**観測**: 「The Trash Can Bandit」名。graduated。全期間 reply_count=0・KOL ゼロ。twitter は Vibez__Crypto（watchlist 外）ツイートリンク＝creator 提供のみ・独立 KOL 評価なし。website は X search URL（`search?q=angie`）＝placeholder。
 
-**一次ソース確認**: sources/x に Vibez__Crypto のツイートなし。ウォッチリスト未登録アカウント。twitter フィールドは pump.fun トークン作成時に creator が貼るもの＝自己宣言に過ぎない（独立 KOL 評価とは区別）。
-
-**判断**: graduation 済みながら traction は完全ゼロ。mcap ~$15.7k は観測コホートの「graduated but empty」典型値帯（参考: [[$VCSOL]] graduation 後 -99%）。名前「The Trash Can Bandit」は quirky キャラクター meme だが IP/ナラティブの核なし。website が X search URL という点は creator が social 基盤を整備していないか意図的にウォッシュしているサイン。
-
-⚠️ website の X search URL は通常の設置形式でない＝creator 意図不明。mcap 推移が継続しなければ短命パターン入り確実。
+**死亡確定（2026-06-26）**: peak ~$22,211 → last $4,993（peak比 -77.5%）で mcap 枯れ確定。graduated でも traction0 の縮退死——[[rug-anatomy]] 「graduated-but-empty」型。quirky meme 命名（"The Trash Can Bandit"）× placeholder social × KOL ゼロ＝型通りの結末。website が X search URL だった点は creator の整備欠如を示していた先行サイン。
 
 **concept 接続**:
-- [[launchpad-economics]]: graduation × traction0 の「graduated but empty」コホート
-- [[rug-anatomy]]: social 基盤ゼロ・KOL ゼロの赤旗（twitter=creator only / website=placeholder）
+- [[launchpad-economics]]: graduated-but-empty 型の確定死亡
+- [[rug-anatomy]]: social 基盤ゼロ × traction0 → 縮退死（N=138）
 <!-- synthesis:end -->

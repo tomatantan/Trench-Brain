@@ -4,17 +4,17 @@ kind: token
 title: $CARDS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
-accounts: 4
+mentions: 6
+accounts: 5
 ---
 
 # $CARDS
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 6件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@Lightspeedpodhq]] [[@coingecko]] [[@golocojp]]
+[[@CryptoHayes]] [[@Lightspeedpodhq]] [[@coingecko]] [[@golocojp]] [[@nansen_ai]]
 
 ## 共起トークン
 [[$HYPE]] [[$POKERX]] [[$TCG]]
@@ -22,9 +22,11 @@ accounts: 4
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 512 | [[@CryptoHayes]] | The ticker is $CARDS degens. The thesis is solid. The price will be pamping!  Yachtz | [[cryptohayes__2069520800856826230]] |
+| 512 | [[@CryptoHayes]] | The ticker is $CARDS degens. The thesis is solid. The price will be pamping!  Yachtz | [[CryptoHayes__2069520800856826230]] |
 | 75 | [[@coingecko]] | INSIGHT: $CARDS is up 22% after Maelstrom published a thesis projecting ~$109M in an | [[coingecko__2069698359820960046]] |
-| 6 | [[@Lightspeedpodhq]] | New episode with @defi_kay_ @Kunallegendd & @0xcarlosg  We Discuss: - Crypto Perps - | [[lightspeedpodhq__2062520121638191476]] |
+| 15 | [[@nansen_ai]] | .@CryptoHayes is buying.  Smart Money is selling.  After @MaelstromFund published it | [[nansen_ai__2069767764869587201]] |
+| 6 | [[@Lightspeedpodhq]] | New episode with @defi_kay_ @Kunallegendd & @0xcarlosg  We Discuss: - Crypto Perps - | [[Lightspeedpodhq__2062520121638191476]] |
+| 5 | [[@golocojp]] | Have one or two of project tokens positioned in the strong markets such as RWAs & Pr | [[golocojp__2069742548936278521]] |
 | 2 | [[@golocojp]] | Just 4months, solana:GDaQVH7GoHCRJWHpH7vXfQg2Vrb7kkhCoQ545w4Dhyc3 has done buybuck & | [[golocojp__2069499791319732734]] |
 
 <!-- synthesis:start -->
