@@ -6,7 +6,7 @@ status: tracking
 ticker: $MASTERCOIN
 mint: mastydbMDAGbugUV3aFt5QNKiH6KKDqmmn324K9DS9R
 created: 2026-06-27
-updated: 2026-06-27 (第205窓 10窓目 $112,961・+361.0%・前窓比-39.3%・$180k台支持陥落・deep pullback・T3ゼロ継続)
+updated: 2026-06-27 (第206窓 11窓目 $74,039・+202.1%・前窓比-34.5%・deep pullback継続・2窓連続崩壊型・崩壊移行疑念)
 tags: [token, traction, non-pumpfun, finance]
 ---
 
@@ -31,6 +31,7 @@ Launchpad 不明（mint 末尾が pump.fun 形式でない）。"MASTERCOIN" 命
 | MCap（live, 第203窓） | $206,993（+744.7%・前窓比+14.6%・反発） |
 | MCap（live, 第204窓） | $185,987（+659.0%・前窓比-10.1%・pullback） |
 | MCap（live, 第205窓） | $112,961（+361.0%・前窓比-39.3%・$180k台支持陥落・deep pullback） |
+| MCap（live, 第206窓） | $74,039（+202.1%・前窓比-34.5%・deep pullback継続・2窓連続崩壊型） |
 | reply_count | 0 |
 | KOL（CA確認） | なし |
 
@@ -66,6 +67,8 @@ Launchpad 不明（mint 末尾が pump.fun 形式でない）。"MASTERCOIN" 命
 **第204窓（2026-06-27）— 9窓目・$185,987・+659.0%（前窓比-10.1%・pullback・サイクル4回転目）**: $206,993（8窓目反発ATH）→ $185,987（前窓比-10.1%・pullback）。8窓目反発からの9窓目pullback——サイクル4回転目に入った。pullback底値は$180k台（5窓・7窓・今窓）が繰り返し支持帯として機能している。9窓軌跡: $157k→$123k（pullback）→$170k（反発）→$197k（続伸）→$180k（pullback）→$200k（反発）→$180k（pullback）→$206k（反発）→$185k（pullback）。reply=0全9窓・KOL ゼロ全9窓変化なし。次の焦点: $180k台支持が維持されるか、反発すれば4回転目の反発確認。→ [[launch-pulse]]（第204窓）[[reflexivity]]
 
 **第205窓（2026-06-27）— 10窓目・$112,961・+361.0%（前窓比-39.3%・$180k台支持陥落・deep pullback）**: $185,987（9窓目pullback）→ $112,961（前窓比-39.3%・deep pullback）。過去3回のpullback底値$180k台（5窓・7窓・9窓）を今窓初めて大幅に割り込んだ。pullback幅-39.3%は従来（-8〜-10%程度）の約4倍——構造的変化の可能性。ただし検知時比+361%はまだ大幅プラス圏。10窓軌跡: $157k→$123k→$170k→$197k→$180k→$200k→$180k→$206k→$185k→$112k（今窓deep pullback）。次窓での反発可否が分岐: 反発なら「deeper bottom形成後のbounce」、続落なら「最終崩壊移行」。reply=0全10窓・KOL ゼロ全10窓変化なし。→ [[launch-pulse]]（第205窓）[[reflexivity]]
+
+**第206窓（2026-06-27）— 11窓目・$74,039・+202.1%（前窓比-34.5%・deep pullback継続・2窓連続崩壊型）**: $112,961（10窓目deep pullback）→ $74,039（前窓比-34.5%・deep pullback継続）。10窓目-39.3%・11窓目-34.5%と2窓連続で破壊的下落——従来の振動幅（-8〜-10%）の3〜4倍が2窓続いた。累積落差$132k（$206k→$74k）。11窓軌跡: $157k→$123k→$170k→$197k→$180k→$200k→$180k→$206k→$185k→$112k→$74k（今窓）。検知時比+202.1%はまだプラスだが、KOG($1.6M)/TMB($755k)/MOXIE($600k)等の同型ピークとは水準が全く異なる——これらは崩壊後も長期残存したが、本件の下落加速は崩壊移行型に近い。reply=0全11窓・KOL ゼロ全11窓変化なし。→ [[launch-pulse]]（第206窓）[[reflexivity]]
 
 <!-- synthesis:end -->
 

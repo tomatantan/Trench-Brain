@@ -6,7 +6,7 @@ status: watch
 ticker: $VENEZUELA
 mint: 6eSzwRMLjK24g1NAYWUABAq9qDCDT2MW4hsbt513pump
 created: 2026-06-27
-updated: 2026-06-27 (03:23Z・birth・$147k・graduated)
+updated: 2026-06-27 (auto-track synth_queue 05:41Z: prev$78k→$44k -44%・birth$147k比-70%・崩壊フェーズ移行・dead候補)
 tags: [token, pumpfun, graduated, charity-meme, real-world-event, watch]
 ---
 
@@ -48,6 +48,12 @@ pump.fun 発。"Venezuela Relief Fund" = 実世界の人道的イベント（ベ
 ⚠️ 接近条件: toly の実際の CA 言及確認前・reply>0 or KOL CA 確認前は距離を置く（association marketing 偽装リスク）。
 
 **概念接続**: [[external-event-to-token-pattern]] / [[launchpad-economics]] / [[rug-anatomy]]
+
+**change (synth_queue 05:41Z・-44%)**: prev **$78,669** → now **$44,034**。birth $147k 比 -70%。
+- traction0・reply:0・KOLゼロ継続。real_sol=0 不変。twitter メタデータ（toly tweet URL）の CA 未確認状態変わらず。
+- $44k は gate 閾値（$30k）まで残り $14k——このまま traction が付かなければ dead 圏に向けて縮退。
+- association marketing 疑い × graduated-but-empty × -70% drawdown = [[rug-anatomy]] 崩壊フェーズ確定候補。
+- ⚠️ 次窓で $30k 割れ or 枯渇確認なら dead 処理へ。
 
 <!-- synthesis:end -->
 

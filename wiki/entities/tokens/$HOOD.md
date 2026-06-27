@@ -2,11 +2,11 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $HOOD
 mint: 9isPr2ZnuCax4ko7KRbhUXxT5FxU8fSEKkUgbT16pump
 created: 2026-06-27
-updated: 2026-06-27 (birth stub・$142k・graduated・@pixelhood_sol/pixelrobinhood.fun・traction0)
+updated: 2026-06-27 (DEAD確定・peak$208,965→$1,527/-99.3%・mcap枯れ・⑬コホート型崩壊)
 tags: [token, pumpfun, graduated, traction0, culture-meme, pixel-art]
 ---
 
@@ -45,7 +45,15 @@ pump.fun 発。bonding curve 卒業済（complete=true）。"Robin Hood" 命名�
 - Robin Hood（盗む者から貧者へ）× pixel art テーマは独自性あるが crypto community の KOL 接点ゼロのまま。
 - $182k は [[launchpad-economics]] T1 圏に近づいているが、traction なし = BREAKOUT-then-dead 候補に傾く。
 
-**概念接続**: [[launchpad-economics]]（graduated・$182k・real_sol⑬候補） / [[rug-anatomy]]（traction0・⑬コホート疑い・graduated-but-empty候補）
+**DEAD確定（2026-06-27T04:21Z）**:
+- peak $208,965 → last $1,527 / **-99.3%**。cause: mcap枯れ。
+- birth $142k → +41% bounce($182k) → +14% 更上昇($208k peak) → 崩壊 $1,527。
+- traction0 全期間・reply=0・real_sol ~49.4SOL（⑬コホート）——deployer SOL pump 後の出口確定。
+- Robin Hood × pixel art テーマの独自性もコミュニティ不在では機能しなかった。[[rug-anatomy]] ⑬型教科書例（$TBLK/$BOO/$FLYRO 同型）。
+
+**概念接続**: [[launchpad-economics]]（graduated・$208k peak・real_sol⑬） / [[rug-anatomy]]（⑬コホート崩壊・traction0全期間・-99.3%）
+
+**outcome**: died
 
 <!-- synthesis:end -->
 

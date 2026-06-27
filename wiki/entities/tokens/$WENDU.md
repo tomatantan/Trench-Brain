@@ -5,7 +5,7 @@ title: $WENDU
 source: auto-track
 status: watch
 created: 2026-06-25
-updated: 2026-06-26 (mcap+44%・$411k・birth比+513%・traction0継続)
+updated: 2026-06-27 (mcap-55%・$93k・peak比-77%・崩壊フェーズ確定)
 tags: [trench, entity, token, auto-track, graduated, fast-food-meme]
 ---
 
@@ -17,11 +17,11 @@ tags: [trench, entity, token, auto-track, graduated, fast-food-meme]
 | 項目 | 値 |
 |---|---|
 | mint | H7uiPQTTq7d8Rhuqw4V6ntroZhakbLCw9PWzuLyXpump |
-| mcap (birth→直近) | $66,998 → **$410,830（+513%・2026-06-26T12:29Z）** |
+| mcap (birth→直近) | $66,998 → peak **$410,830（+513%）** → $93,189（peak比-77%・2026-06-27T06:37Z） |
 | peak mcap | $410,830 |
 | gate | safety:ok / traction:graduated |
 | links | twitter:なし / website:なし |
-| status | watch (graduated・real_sol=0) |
+| status | watch→崩壊フェーズ（peaked $411k→$93k / peak比-77%） |
 
 <!-- synthesis:start -->
 ## 合成メモ
@@ -43,10 +43,17 @@ tags: [trench, entity, token, auto-track, graduated, fast-food-meme]
 - ⚠️ 対立: ブランド認知による有機需要が後からついてくる（$PEPONK 2nd mint 型）可能性を完全に排除はできない——ただし twitter/website ゼロは同型ケースでも最も弱い社会基盤。
 
 **2026-06-26T12:29Z 更新（+44%・$411k・birth比+513%）**:
+
 - **観測**: prev $284,370 → **$410,830（+44%）**。reply_count=0・KOL なし・twitter/website なし継続。real_sol=0 継続。
 - birth $66,998 から $411k = +513%。前回検知時 $175k 比でも +135%——Wendy's ブランド 3 本目 mint として観測史上最高到達。traction ゼロのまま $400k 台突入。
 - ⚠️ traction 0 × real_sol 0 × social 皆無のまま $411k は [[launchpad-economics]] BREAKOUT-then-dead コホートとして今サイクル最大規模候補。崩壊時の絶対損失幅（$411k×-99%+ ≒ -$407k）は先行[[WENDYS-AEwbCr]]より桁違いに大きい。
 - ⚠️ 対立: $411k まで伸びたことで後追い KOL が言及し始める「認知→demand」転換の可能性は上昇——ただし今窓まで reply 0 が継続する限りその証拠はゼロ。
+
+**2026-06-27T06:37Z 更新（-55%・$93k・peak比-77%・崩壊フェーズ）**:
+- **観測**: prev $206,666 → **$93,189（-55%）**。reply_count=0・KOL なし・twitter/website なし継続。real_sol=0 不変。
+- peak $410,830 から $93,189 = **peak比-77%**。崩壊フェーズ確定。traction ゼロ全期間のまま $400k 台から急落。
+- 先行 [[WENDYS-AEwbCr]] -99.5% と同型——Wendy's ブランド 3 本目 mint の結末が見えてきた。
+- ⚠️ peak 比-77% かつ traction ゼロ全期間 = [[rug-anatomy]] BREAKOUT-then-dead 確定フェーズ。次窓以降の mcap 枯れ観測待ち。
 <!-- synthesis:end -->
 
 ## 関連

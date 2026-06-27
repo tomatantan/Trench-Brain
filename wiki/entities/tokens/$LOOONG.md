@@ -2,11 +2,11 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $LOOONG
 mint: 6krQxt6NxZAxJMrhtGqZ3dwVaZqwTi3HfHDZmaqCpump
 created: 2026-06-27
-updated: 2026-06-27 (change -62%・$26k→$6,883・下落加速・dead候補)
+updated: 2026-06-27 (DEAD確定・peak$26,077→$3,187/-87.8%・mcap枯れ・association marketing型崩壊)
 tags: [token, pumpfun, graduated, traction0, internet-meme, association-marketing]
 ---
 
@@ -44,7 +44,14 @@ pump.fun 発。"looong" = internet スラング（引き伸ばし表現・meme�
 - association marketing 型（外部ツイート借用）× real_sol:0 × traction0 = graduated-but-empty 崩壊型の教科書。
 - 次観測で $5k 未満ならほぼ dead 確定（[[launchpad-economics]] peak<$10k 死亡率100%帯）。
 
-**概念接続**: [[launchpad-economics]]（graduated-but-empty・下落加速・dead 圏接近）/ [[rug-anatomy]]（association marketing × traction0 → 崩壊）
+**DEAD確定（2026-06-27T04:39Z）**:
+- peak $26,077 → last $3,187 / **-87.8%**。cause: mcap枯れ。
+- birth → 中間 $6,883(-62%) → death $3,187。association marketing（外部ツイートURL設定）× real_sol:0 × traction0 の教科書型崩壊。
+- internet meme "looong" の語感は軽く記憶フックはあるが、social 基盤なしでは[[survivor-memes]]に届かない。
+
+**概念接続**: [[launchpad-economics]]（graduated-but-empty崩壊）/ [[rug-anatomy]]（association marketing × traction0 → -87.8%）
+
+**outcome**: died
 
 <!-- synthesis:end -->
 

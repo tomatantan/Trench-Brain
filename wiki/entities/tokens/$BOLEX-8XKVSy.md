@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 ticker: $BOLEX
 mint: 8XKVSyKQudQEBu4jv7RNiXEVG9XXSU7QrnueiRwkpump
 created: 2026-06-27
-updated: 2026-06-27 (birth stub・$69k・graduated・3rd mint・traction0)
-tags: [token, pumpfun, graduated, traction0, brand-relaunch, bolex-cluster]
+updated: 2026-06-27 (DEAD確定・peak $235k→last $4,413/-98.1%・⑨同ブランド3rd BREAKOUT-then-dead)
+tags: [token, pumpfun, graduated, traction0, brand-relaunch, bolex-cluster, dead]
 ---
 
 # $BOLEX — BOLEX（8XKVSy）★ 3rd mint
@@ -53,7 +54,19 @@ pump.fun 発。"BOLEX" 3本目の mint——1st(5RAzU4, dead -50.5%) / 2nd(7j5KP
 - real_sol:0 × traction0 = organic 需要の証拠ゼロ。出来高先行型（deployer pump or bot 買い）最有力。
 - ⚠️ $VORTEX-4YLTUY（同ブランド2nd mint、同水準で死亡）と同型だが今回は mcap が大幅高い——BREAKOUT-then-dead の可能性と同ブランドコミュニティ知名度(累積)が初めて mcap に反映された可能性の両義。
 
-**概念接続**: [[launchpad-economics]]（同ブランド3rd mint・$69k高mcap・traction0）/ [[rug-anatomy]]（⑨同ブランド再登場・3本全滅候補）
+**change (2026-06-27T04:39Z・+99%)**: prev **$84,115** → now **$167,688**。
+- birth $69k → $84k → $167k : 2窓で+142%。BREAKOUT（+100%）を超えてきた。
+- traction0・reply:0 継続——有機的需要の証拠なし。real_sol:0 不変。
+- 同ブランド3本目が初めて $100k 超の BREAKOUT 圏到達——deployer pump 手法の洗練 or 累積認知度の反映の両義。
+- ⚠️ [[rug-anatomy]] ⑨同ブランド再登場かつ BREAKOUT-then-dead 候補最有力（$VORTEX 同型）。次窓で reply/KOL 確認が分岐点。
+
+**概念接続**: [[launchpad-economics]]（同ブランド3rd mint・$167k・BREAKOUT）/ [[rug-anatomy]]（⑨同ブランド再登場・BREAKOUT-then-dead候補）
+
+**死亡確定（synth_queue 06:18Z）**:
+- peak **$235,773** → last **$4,413** / peak比 **-98.1%**。birth $69k → BREAKOUT $167k → peak $235k → 崩壊。
+- traction0・reply:0・KOLゼロ全期間不変。real_sol=0。website: bolex.lol/。
+- 先行 1st(5RAzU4)/2nd(7j5KPs) 全滅後の3rd mint も BREAKOUT-then-dead で完結——BOLEX クラスター全3 mint 全滅。
+- deployer が mint を変えて pump 規模を拡大（1st $3.7k → 2nd $1.5k → 3rd $235k）するも organic traction ゼロ不変——同ブランド繰り返し再登場の典型⑨型崩壊。[[rug-anatomy]] 死亡台帳記録済。
 
 <!-- synthesis:end -->
 
