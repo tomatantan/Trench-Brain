@@ -4,34 +4,34 @@ kind: token
 title: $KINS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 18
+mentions: 23
 accounts: 3
 ---
 
 # $KINS
 
-> 自動生成(brain/build_entities.py)。言及 18件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 23件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@MurphyBTC]] [[@PumpfunEco]]
 
 ## 共起トークン
-[[$JOTCHUA]] [[$FARTCOIN]] [[$ZERO]] [[$THREE]] [[$WORLD]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]]
+[[$JOTCHUA]] [[$FARTCOIN]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]] [[$NEET]] [[$ZERO]] [[$THREE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 171 | [[@Crypto_Alch]] | Entry on $KINS IMO  $50-$100M to to bring gaming trenches back   Few understand, man | [[crypto_alch__2069678933960770011]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 139 | [[@PumpfunEco]] | $KINS is rallying, currently up 28% in 24 hours 👀 | [[PumpfunEco__2068793368239317204]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 122 | [[@Crypto_Alch]] | Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli | [[Crypto_Alch__2068928202135781813]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
+| 112 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[Crypto_Alch__2069087026813530587]] |
+| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
 | 107 | [[@Crypto_Alch]] | $KINS making new highs while the greater majority of the market goes to gulag   Incr | [[Crypto_Alch__2067661259915264449]] |
-| 104 | [[@PumpfunEco]] | A $KINS whale is currently holding a $135,000 bag 🔥 | [[PumpfunEco__2069220128609141035]] |
+| 104 | [[@PumpfunEco]] | A $KINS whale is currently holding a $135,000 bag 🔥 | [[pumpfuneco__2069220128609141035]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
-| 96 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.83M $world  | [[pumpfuneco__2069760704882868678]] |
-| 92 | [[@Crypto_Alch]] | $KINS player and holder influx is insane   This will be 8 figures faster than most p | [[Crypto_Alch__2067615427786604707]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述・2026-06-23）

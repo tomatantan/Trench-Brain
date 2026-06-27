@@ -139,3 +139,18 @@ AI credit event (2027-2028: GPU 償却5-6年 vs 実寿命2年が顕在化)
 [[@DefiIgnas]] productive rotation, [[@zhusu]] supercycle(2021), [[@thedefiedge]] 供給希釈論。
 [[@CryptoHayes]] Bankless 対談 2026-06-22（AI 酸素吸い・ETH setup・causal chain）。
 （全て sources/x/ / sources/youtube/ の原文に保存済）
+
+## ⚠️ 2026-06-27 更新: 4枯渇の現在地・OG 投げ売り + mNAV 0.59x で状況悪化
+
+**#3 Saylor/STRC overhang（2026-06-26 新データ）**:
+- Strategy mNAV = **0.59x**（RT @rektmando・[[cryptokaleo__2070472105422999702]]）。上記合成時点の「1.0 割れ目前」から大幅悪化 = 市場は MSTR を BV の 59% 評価。DAT 群（Bitmine 0.83x / Sharplink 0.64x）の中で最低。
+- CryptoKaleo（[[cryptokaleo__2070457292567282077]] 132♥）: 「"Digital Credit が volatility を除去する"？ あなたは volatility をエンジニアするでしょ？」＝Saylor の正当化ナラティブへの市場 skepticism が KOL 言説に出始めた。
+- **#3の現状**: STRC は $60s を目指す水準（[[cryptokaleo__2070129048504635519]] 160♥）、MSTR mNAV 0.59x、"防衛に動いている Saylor" にも関わらず市場は評価を下げ続けている = overhang は解消でなく強化フェーズ。
+
+**全体収縮フェーズの実データ（2026-06-25〜26）**:
+- ETH 8年・7年 OG wallet が $1,560〜$1,625 で大量降伏（[[lookonchain__2070439414300594447]] 159♥ / [[lookonchain__2070022041567379673]] 218♥）。
+- 24h 清算 $1.45B・215,678 名（[[lookonchain__2070150997260017726]] 145♥）。
+- ETF 流出: BTC -$749M(7D) / ETH -$183M(7D)（[[lookonchain__2070153273986949137]] 57♥）。
+- ⚠️ 逆: BlackRock が2日連続 ~$481M BTC を Coinbase Prime 入金（ETF custody or 売却 precursor、[[onchain-verification]]）。Chun Wang が ETH を月 $152M ペースで取得。
+
+**判断**: 4枯渇のどれも反転の兆候なし。#3 は確実に悪化。「OG の降伏 = 逆指標の底」論は存在するが、ETF 流出・20x short 再参入と同時進行では一本釣りは難しい。bull 再点火の監視点（上記）に変化なし。

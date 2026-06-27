@@ -4,12 +4,12 @@ kind: player
 title: @wojakcto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 24
 ---
 
 # @wojakcto
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$WOJAK]](6)

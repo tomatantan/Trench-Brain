@@ -4,15 +4,15 @@ kind: player
 title: @Lightspeedpodhq
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 126
+posts: 146
 ---
 
 # @Lightspeedpodhq
 
-> 自動生成。信号投稿 126件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 146件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SKR]](1) [[$CARDS]](1)
+[[$CARDS]](2) [[$SKR]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

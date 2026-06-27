@@ -4,20 +4,20 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 30
+mentions: 38
 accounts: 13
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 30件 / 13アカ。
+> 自動生成(brain/build_entities.py)。言及 38件 / 13アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$ZEC]] [[$BTC]] [[$USELESS]] [[$AXIOM]] [[$UNI]] [[$ASTER]]
+[[$ETH]] [[$ZEC]] [[$BTC]] [[$SOL]] [[$XMR]] [[$POLY]] [[$VAR]] [[$EITHER]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -86,4 +86,19 @@ accounts: 13
 - **観測（KOL conviction・新）**: [[@blknoiz06]]（2026-06-25T22:34Z、313♥）: Mert(Helius CEO)の主要5保有=「$ZEC / SOL / $HYPE / $BTC / NEAR」を引用し「safe to say we're well aligned」([[blknoiz06__2070274427799867510]]) ＝HYPE が KOL の core-hold バスケットに ZEC/SOL/BTC と並んで入る。
 - **判断（両論の更新）**: 既存の弱気側（TOP10 鯨の HYPE short 継続・Hayes 退出ナラティブ）に対し、**KOL レイヤーの強気（blknoiz06 の bottom-bounce + Mert 保有 alignment）が新たに対抗材料として加わった**。構図は「内部大口 short（構造的弱気）⇄ KOL/Mert の core-hold 確信（外部強気）」の分裂が継続。blknoiz06 は[[perp-dex-wars]]の文脈で HYPE を productive-crypto の代表に置く既存ポジションと整合。
 - **⚠️**: blknoiz06 の bounce コールは「low timeframes」＝短期テクニカルであり、TOP10 short が示す中期構造弱気を否定しない。両者は時間軸が違う。confidence=中（弱気寄り→中立、強気 KOL シグナル追加で）。
+
+### 2026-06-27 更新②（新 beat: ETH→HYPE 鯨 rotation + $14.4M 大口蓄積）
+**観測（事実・2026-06-24〜26）**
+- **[[lookonchain__2069668599716077853]]**（249♥・2026-06-24）: 「A whale is rotating from $ETH into $HYPE.」鯨 0xEe0A が 2週前に 3,065 ETH（$5.92M）を **-$380K の損失で全売却** → 過去2日で 100,392 HYPE（$6.69M）を購入。現在 497,212 HYPE（$30.93M）保有、含み益 +$8M。＝**ETH で損切りして HYPE に乗り換え**、かつ HYPE で利が乗っている実例。
+- **[[lookonchain__2070320315587281386]]**（150♥・2026-06-26）: 「Despite the market downturn, whales are still accumulating $HYPE.」
+  - 新規 wallet 0x66FE が Coinbase Prime から 222,493 HYPE（**$14.41M**）を引き出し。
+  - 鯨 0x6437 が FalconX から 44,986 HYPE（$2.87M）を受取。
+  → 同日に合計 $17.28M の HYPE が大口に吸収。市場下落中にもかかわらず（"Despite the market downturn"）。
+
+**⚠️ 判断（両論の更新・強気材料が厚くなった）**:
+- **ETH→HYPE rotation** の実例（0xEe0A）は「ETH が崩れた資金の逃げ先として HYPE が機能している」という仮説を支持。coinkeiba「HYPE 夏枯れ→SOL」（前回②）と逆方向の大口行動。
+- 市場下落中の $17.28M 大口蓄積（0x66FE + 0x6437）は「Coinbase Prime レベルの大口が HYPE を押し目買い」という強気データ。Anchorage $28B AUM 統合（2026-06-19 追記）と同じ方向性＝**機関・大口の HYPE への capital allocation が継続**。
+- **⚠️ 対立は継続**: TOP10 鯨の HYPE short（$16B規模、既記）は引き続き維持されている。「大口 long（蓄積）vs 大口 short（TOP10 Hyperliquid）」の分裂が深化。回転側と構造 short 側が両立している異常な構造。
+- confidence=中（中立）。前回②「弱気寄り→中立」からさらに**やや強気方向**に動く（ETH→HYPE rotation + $17M 蓄積の重み）。ただし TOP10 short が解消されるまでは完全に強気とは言えない。
+- 接続: [[perp-dex-wars]]（Hyperliquid の long/short 板）/ [[majors-rotation-supercycle]]（ETH 崩れ→HYPE へのローテ軸）/ [[onchain-verification]]（大口 wallet 行動の裏取り）。
 <!-- synthesis:end -->

@@ -12,7 +12,7 @@ posts: 80
 > 自動生成。信号投稿 80件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MICHI]](1) [[$CHEGG]](1) [[$PRAIST]](1) [[$KEYCAT]](1) [[$FLERDA]](1) [[$BTCW]](1) [[$RIDE]](1) [[$GIKO]](1) [[$MEOW]](1)
+[[$CHEGG]](1) [[$GIKO]](1) [[$MICHI]](1) [[$BTCW]](1) [[$FLERDA]](1) [[$PRAIST]](1) [[$RIDE]](1) [[$KEYCAT]](1) [[$MEOW]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

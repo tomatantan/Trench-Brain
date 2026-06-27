@@ -16,7 +16,7 @@ CA言及 2件 / 現outcome評価 2件中 **死0（0%）** ＝callが残りやす
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$GYM]](4) [[$TROLL]](2) [[$GROW]](2) [[$COOK]](2) [[$RICE]](1) [[$NEET]](1) [[$WOULD]](1) [[$LABUBU]](1) [[$PWEASE]](1)
+[[$GYM]](4) [[$TROLL]](2) [[$COOK]](2) [[$GROW]](2) [[$WOULD]](1) [[$PWEASE]](1) [[$NEET]](1) [[$LABUBU]](1) [[$RICE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -4,20 +4,20 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 42
+mentions: 45
 accounts: 10
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 42件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 45件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$BTC]] [[$USELESS]] [[$PENGU]] [[$WIF]] [[$USDC]] [[$HYPE]] [[$DOGE]]
+[[$ETH]] [[$BTC]] [[$USELESS]] [[$USDC]] [[$WIF]] [[$PENGU]] [[$LIBRA]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -58,4 +58,8 @@ accounts: 10
 - **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で $SOL が **30ヶ月来安値**を更新（majors 一斉安: BTC 21mo / ETH 14mo / SOL 30mo / MSTR 27mo）。**SOL が majors 中で最も深い多月安**＝下落のβが majors の中で最大。([[theunipcs__2070425996038140331]])
 - **観測（KOL conviction）**: [[@blknoiz06]]（2026-06-25、313♥）が Mert(Helius CEO)主要5保有に SOL を含むと引用「well aligned」。([[blknoiz06__2070274427799867510]]) ＝SOL native 勢の core-hold には残る。
 - **判断**: 前回②の whale 0x9137 大口 20x short（$38.15M）と SOL 30ヶ月来安値が整合＝**大口ベア賭けが価格で実現**。「HYPE 夏枯れ→SOL ローテ」（coinkeiba、既記）は依然 KOL 感覚に留まり、実価格は逆。[[majors-rotation-supercycle]] 上、SOL は alt 母艦だが現状は majors 一斉収縮の最深部。confidence 変わらず中。
+
+### 2026-06-27 更新②（SOL 20x short 利確・但し BTC/ETH は再参入）
+- **観測（[[lookonchain__2070517197781508193]] 170♥・2026-06-26）**: 「BTC/ETH/SOL を 20x short していた鯨が前ポジを +$4.4M 利確でクローズ。新たに BTC 912.9枚 + ETH 10,025 枚の 20x short を開始」＝**SOL short は今回の再エントリーに含まれていない**。SOL のショートポジションは利確・解消された。
+- **⚠️ 判断**: SOL の大口 20x short（0x9137/$38.15M）が利確されたことは「SOL の直接的な売り圧の一つが外れた」ことを意味する。ただし SOL 30ヶ月来安値（前回 06-27 更新）はその後も継続しており、short の解消が即 SOL 強気転換ではない。BTC+ETH には引き続き large short が維持されており、majors 全体の弱気構造は変化なし。SOL は「short の圧力は外れたが価格は最深部」という状態。confidence 中（変化なし）。
 <!-- synthesis:end -->

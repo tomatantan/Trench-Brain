@@ -4,20 +4,20 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 140
-accounts: 18
+mentions: 153
+accounts: 19
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 140件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 153件 / 19アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@Bankless]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$STRC]] [[$DOGE]] [[$FARTCOIN]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$STRC]] [[$XRP]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -73,4 +73,19 @@ accounts: 18
 - **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で「$BTC 21ヶ月来安値 / $ETH 14ヶ月来安値 / $SOL 30ヶ月来安値 / $MSTR 27ヶ月来安値」を更新。([[theunipcs__2070425996038140331]]) ＝**majors 複合（BTC/ETH/SOL/MSTR）が揃って多月安**。同氏の論点は「その中で $USELESS だけ崩れず」だが、majors 側の事実として BTC が 21ヶ月来安値を付けた節目を記録。
 - **観測（KOL conviction）**: [[@blknoiz06]]（2026-06-25、313♥）が Mert(Helius CEO)の主要5保有=「$ZEC / SOL / $HYPE / $BTC / NEAR」を引用し「well aligned」。([[blknoiz06__2070274427799867510]]) ＝drawdown 下でも BTC は KOL の core-hold に残る。
 - **判断**: [[majors-rotation-supercycle]] 上、BTC は「ローテ上流」だが現状は**上流から下流まで一斉に多月安＝水が落ちる前の全体収縮フェーズ**。Saylor の機関積み増し（既記）と多月安の同時進行は、価格弱含み×機関吸収の既存両論の継続。confidence 変わらず（弱含み観測の追加のみ）。
+
+### 2026-06-27 更新②（新 beat: 大規模清算・ETF 流出・20x short 再参入・BlackRock 入金）
+**観測（事実・2026-06-25〜26）**
+- **大規模清算**: [[lookonchain__2070150997260017726]]（145♥・2026-06-25）: 24h で 215,678 名が清算、総額 $1.45B。BTC long 鯨 0xf79C も BTC 809.9枚（$47.68M）+ XRP 27.92M 枚が全清算、-$8.42M 損失（[[lookonchain__2070150000311779556]] 181♥）。
+- **ETF 流出継続**: BTC ETF: -$441M（1D）/ -$749M（7D）（[[lookonchain__2070153273986949137]] 57♥・2026-06-25）。組み替え・出口フロー継続。
+- **BlackRock 連続入金**:
+  - 2026-06-25: 3,410 BTC（$209.64M）+ 5,132 ETH（$8.43M）を Coinbase Prime に入金（[[lookonchain__2070098712442081735]] 448♥）
+  - 2026-06-26: 4,577 BTC（$272M）+ 41,996 ETH（$65.2M）を追加入金（[[lookonchain__2070469823705035192]] 523♥）
+  → 2日連続で合計 ~$481M の BTC を Coinbase Prime へ入金＝custody/rebalance 目的か売却 precursor か二択（[[onchain-verification]]）。
+- **20x short 再参入**: [[lookonchain__2070517197781508193]]（170♥・2026-06-26）: BTC/ETH/SOL 20x short で +$4.4M 利確した鯨が **912.9 BTC（$54.55M）+ 10,025 ETH（$15.65M）の新 20x short を開始**。SOL は除外（SOL の short を締め→BTC/ETH short に集中）。
+
+**⚠️ 判断**:
+- BlackRock の Coinbase Prime 入金は「機関が積む」サインと「ETF 出口売り」の両方に読める（Coinbase Prime = spot ETF のカストディアン）。ETF 流出が続く中での入金は**リバランスまたは出口向け spot 売りの準備**の可能性が高い（[[onchain-verification]]）。
+- 20x short 再参入 + ETF 流出 + $1.45B 清算 = **大口の弱気は利確後も構造的に継続**。
+- 既存合成「BTC = 最上流アンカー・Fed 政策連動」は変化なし。足元は「上流まで売られた全体収縮フェーズ」の確証が追加された。confidence=中（弱含み側の証拠追加）。
 <!-- synthesis:end -->

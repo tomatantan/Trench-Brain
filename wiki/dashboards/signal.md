@@ -7,73 +7,73 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 7021 件 → ノイズ(RT/短文/中身なし)除外後 **5589 件**が信号。
+生ツイ 10648 件 → ノイズ(RT/短文/中身なし)除外後 **7944 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
-| $ETH | 114 | 15 | CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC, arkham |
-| $BTC | 114 | 14 | CoinMarketCap, CredibleCrypto, CryptoHayes, DefiIgnas, MurphyBTC, coingecko |
+| $BTC | 153 | 19 | Bankless, CoinMarketCap, CredibleCrypto, CryptoHayes, CryptoKaleo, Crypto_Alch |
+| $ETH | 147 | 18 | CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC, WatcherGuru |
+| $SOL | 45 | 10 | CryptoHayes, DefiIgnas, RookieXBT, blknoiz06, coingecko, coinkeiba |
+| $HYPE | 38 | 13 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
 | $MASK | 37 | 1 | spyzer |
-| $SOL | 36 | 9 | CryptoHayes, DefiIgnas, RookieXBT, coingecko, coinkeiba, lookonchain |
-| $SPCX | 25 | 16 | 0xFunX, CryptoHayes, DefiIgnas, MEXC, MurphyBTC, WatcherGuru |
-| $USDC | 25 | 4 | BinanceUS, DefiIgnas, lookonchain, rajgokal |
-| $HYPE | 21 | 11 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
-| $ASTEROID | 21 | 2 | Crypto_Alch, solbrdl |
-| $PUMPI | 20 | 1 | pumpilians_ |
-| $CLUTCH | 18 | 1 | Clutch_FIFA2026 |
-| $PEPE | 18 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
-| $BONK | 16 | 3 | lookonchain, rajgokal, theunipcs |
-| $JOTCHUA | 14 | 2 | Crypto_Alch, PumpfunEco |
-| $WOJAK | 14 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
-| $KINTON | 13 | 2 | JPY_TO_Crypto, xvwmuca |
-| $KINS | 12 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
-| $YAJUCOIN | 12 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
-| $VINE | 10 | 1 | spyzer |
-| $PUMP | 10 | 3 | PumpfunEco, a1lon9, theunipcs |
-| $STRC | 10 | 4 | Bankless, CryptoKaleo, saylor, theempirepod |
-| $TRUMP | 10 | 6 | DefiIgnas, blknoiz06, frankdegods, lookonchain, milesdeutscher, theunipcs |
-| $USELESS | 9 | 2 | Crypto_Alch, theunipcs |
-| $USDT | 9 | 3 | BinanceUS, MEXC, lookonchain |
-| $SOLANGELES | 9 | 3 | Crypto_Alch, PumpfunEco, moonshot |
-| $DOGE | 8 | 5 | RookieXBT, dogecoin, lookonchain, milesdeutscher, theunipcs |
-| $MITCH | 8 | 1 | ShapeFN_ |
-| $WIF | 8 | 5 | DefiIgnas, badattrading_, blknoiz06, lookonchain, theunipcs |
-| $FARTCOIN | 7 | 3 | PumpfunEco, lookonchain, theunipcs |
-| $ARB | 7 | 3 | DefiIgnas, lookonchain, milesdeutscher |
-| $MU | 7 | 6 | AdimsSHOGUN, DEG_2020, MEXC, blknoiz06, cryptocom, solana |
+| $SPCX | 37 | 18 | 0xFunX, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas, MEXC |
+| $CLUTCH | 36 | 1 | Clutch_FIFA2026 |
+| $STRC | 31 | 9 | Bankless, CryptoKaleo, TrustlessState, coingecko, coinkeiba, saylor |
+| $PUMPI | 27 | 1 | pumpilians_ |
+| $USDC | 27 | 4 | BinanceUS, DefiIgnas, lookonchain, rajgokal |
+| $JOTCHUA | 26 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
+| $MU | 26 | 7 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
+| $WOJAK | 25 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
+| $KINS | 23 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
+| $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
+| $MSTR | 21 | 3 | CryptoKaleo, saylor, theunipcs |
+| $PEPE | 21 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
+| $MERLIN | 20 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |
+| $USELESS | 18 | 2 | Crypto_Alch, theunipcs |
+| $KINTON | 18 | 2 | JPY_TO_Crypto, xvwmuca |
+| $BONK | 17 | 3 | lookonchain, rajgokal, theunipcs |
+| $YAJUCOIN | 16 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
+| $USDT | 15 | 3 | BinanceUS, MEXC, lookonchain |
+| $THREE | 14 | 2 | Crypto_Alch, PumpfunEco |
+| $DOGE | 14 | 6 | RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher, theunipcs |
+| $FARTCOIN | 13 | 3 | PumpfunEco, lookonchain, theunipcs |
+| $XRP | 12 | 3 | CredibleCrypto, DefiIgnas, lookonchain |
+| $TRUMP | 12 | 6 | DefiIgnas, blknoiz06, frankdegods, lookonchain, milesdeutscher, theunipcs |
+| $SOLANGELES | 12 | 3 | Crypto_Alch, PumpfunEco, moonshot |
+| $PUMP | 11 | 4 | PumpfunEco, a1lon9, badattrading_, theunipcs |
 
 ## 活発なアカウント（信号込み投稿数 / 累計いいね）
 
 | account | 投稿数 | 累計likes |
 |---|---|---|
-| [[@MarioNawfal]] | 220 | 88,839 |
-| [[@blknoiz06]] | 171 | 860,059 |
-| [[@noritaka_okabe]] | 171 | 197,163 |
-| [[@laurashin]] | 150 | 141,284 |
-| [[@lookonchain]] | 138 | 256,110 |
-| [[@inversebrah]] | 133 | 186,198 |
-| [[@milesdeutscher]] | 129 | 571,391 |
-| [[@Ministerr]] | 128 | 300,434 |
-| [[@hosseeb]] | 126 | 188,557 |
-| [[@CryptoHayes]] | 125 | 382,735 |
-| [[@cookerbruski]] | 125 | 35,883 |
-| [[@DefiIgnas]] | 125 | 117,641 |
-| [[@theunipcs]] | 124 | 221,379 |
-| [[@KyleSamani]] | 124 | 88,677 |
-| [[@badattrading_]] | 124 | 6,200 |
-| [[@santiagoroel]] | 123 | 116,871 |
-| [[@frankdegods]] | 123 | 356,699 |
-| [[@spyzer]] | 123 | 23,491 |
-| [[@thedefiedge]] | 122 | 436,038 |
-| [[@RyanSAdams]] | 121 | 359,682 |
-| [[@defi_kay_]] | 121 | 3,605 |
-| [[@mellometrics]] | 121 | 140,500 |
-| [[@Lightspeedpodhq]] | 121 | 13,108 |
-| [[@a1lon9]] | 121 | 374,217 |
-| [[@JasonYanowitz]] | 120 | 310,625 |
+| [[@MarioNawfal]] | 499 | 157,766 |
+| [[@noritaka_okabe]] | 354 | 292,023 |
+| [[@inversebrah]] | 296 | 285,033 |
+| [[@blknoiz06]] | 292 | 912,623 |
+| [[@badattrading_]] | 290 | 15,560 |
+| [[@laurashin]] | 224 | 146,654 |
+| [[@CoinMarketCap]] | 205 | 36,110 |
+| [[@DEG_2020]] | 189 | 10,421 |
+| [[@elonmusk]] | 178 | 2,468,800 |
+| [[@lookonchain]] | 166 | 261,724 |
+| [[@WhiteHouse]] | 163 | 978,888 |
+| [[@KyleSamani]] | 153 | 94,321 |
+| [[@DefiIgnas]] | 153 | 121,286 |
+| [[@Ministerr]] | 152 | 302,565 |
+| [[@CryptoHayes]] | 149 | 392,574 |
+| [[@Lightspeedpodhq]] | 147 | 13,472 |
+| [[@milesdeutscher]] | 147 | 572,428 |
+| [[@RyanSAdams]] | 142 | 371,155 |
+| [[@frankdegods]] | 141 | 359,371 |
+| [[@JasonYanowitz]] | 140 | 314,363 |
+| [[@ren_Nevermind]] | 138 | 276,346 |
+| [[@ShapeFN_]] | 137 | 308,188 |
+| [[@CryptoKaleo]] | 136 | 19,656 |
+| [[@theunipcs]] | 135 | 223,083 |
+| [[@hosseeb]] | 134 | 199,282 |
 
 ## 高エンゲージ・ツイート Top 25（信号のみ）
 
@@ -85,6 +85,7 @@ tags: [trench, dashboard]
 | 74,668 | [[@blknoiz06]] |  | bro potatoes are so fucking delicious its absurd  you can mash these hoes, roast these hoe |
 | 67,727 | [[@elonmusk]] |  | Karl’s Dad was cool |
 | 67,502 | [[@thedefiedge]] |  | “Most men die at 27, we just bury them at 72." - Mark Twain |
+| 62,352 | [[@elonmusk]] |  | This is happening throughout the West |
 | 53,882 | [[@elonmusk]] |  | “Robber” Khanna! |
 | 45,880 | [[@blknoiz06]] |  | funniest thing about old bitcoin wallets waking up are the ppl in the comments like "well  |
 | 42,237 | [[@blknoiz06]] |  | bro this is an INSANE chart https://t.co/ppi75a8RmE |
@@ -98,9 +99,8 @@ tags: [trench, dashboard]
 | 27,120 | [[@elonmusk]] |  | Works every time |
 | 27,080 | [[@WhiteHouse]] |  | Happy Father’s Day from the White House!  As a father & grandfather, President Trump, & as |
 | 26,184 | [[@cobie]] |  | In January I asked OpenClaw to send 50,000 small invoices to Fortune500 companies every da |
+| 26,133 | [[@elonmusk]] |  | Lee Kuan Yew was a genius |
 | 25,700 | [[@nikitabier]] |  | Always check your DMs https://t.co/12e9p2cpRZ |
 | 25,253 | [[@elonmusk]] |  | By their logic, yes |
 | 25,111 | [[@elonmusk]] |  | Starlink coming to @AmericanAir next year! |
 | 24,872 | [[@WatcherGuru]] |  | JUST IN: Ship traffic officially resumes in the Strait of Hormuz after US and Iran sign de |
-| 24,634 | [[@cobie]] |  | @POTUS Wait does this mean you think crypto trading is the future too or is it only specif |
-| 24,314 | [[@cobie]] |  | as predicted 🤝🤝 https://t.co/s1xHFFZk5m |

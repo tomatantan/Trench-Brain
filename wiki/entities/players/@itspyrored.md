@@ -12,7 +12,7 @@ posts: 30
 > 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$DROOLING]](1) [[$WEN]](1)
+[[$WEN]](1) [[$DROOLING]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

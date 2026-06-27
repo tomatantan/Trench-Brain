@@ -4,15 +4,15 @@ kind: player
 title: @CryptoHayes
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 113
+posts: 125
 ---
 
 # @CryptoHayes
 
-> 自動生成。信号投稿 113件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 125件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$BTC]](31) [[$ETH]](10) [[$WLD]](5) [[$SOL]](5) [[$ZEC]](3) [[$SPX]](2) [[$SPCX]](2) [[$NDX]](1) [[$HYPE]](1) [[$NEAR]](1)
+[[$BTC]](31) [[$ETH]](10) [[$WLD]](8) [[$SOL]](5) [[$ZEC]](4) [[$SPCX]](4) [[$SPX]](2) [[$CARDS]](2) [[$WBTC]](1) [[$HYPE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

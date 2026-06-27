@@ -4,15 +4,15 @@ kind: player
 title: @hosseeb
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 109
+posts: 110
 ---
 
 # @hosseeb
 
-> 自動生成。信号投稿 109件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 110件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$ETH]](1) [[$ETC]](1) [[$ADA]](1)
+[[$ETH]](1) [[$ADA]](1) [[$ETC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

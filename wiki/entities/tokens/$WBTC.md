@@ -4,13 +4,13 @@ kind: token
 title: $WBTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 3
+mentions: 4
 accounts: 2
 ---
 
 # $WBTC
 
-> 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -25,6 +25,7 @@ accounts: 2
 | 3,312 | [[@CryptoHayes]] | Here we go ...   1/  Looking at onchain data for $wBTC and $ETH, the liquidations ha | [[CryptoHayes__1536530712752697344]] |
 | 2,701 | [[@lookonchain]] | Crazy!  Someone lost 1,155 $WBTC($71M) due to a phishing attack.  How did it happen? | [[lookonchain__1786424681253540337]] |
 | 1,770 | [[@lookonchain]] | A whale lost 1,155 $WBTC($71M) due to a phishing attack on May 3.  A week later, the | [[lookonchain__1789699903041700023]] |
+| 214 | [[@lookonchain]] | Chun Wang(@satofishi) bought another 9,937 $ETH($15.5M) and 147 $WBTC($8.74M) today. | [[lookonchain__2070477670941651026]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

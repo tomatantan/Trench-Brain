@@ -4,13 +4,13 @@ kind: token
 title: $LIT
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 3
+mentions: 4
 accounts: 3
 ---
 
 # $LIT
 
-> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 4件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -25,6 +25,7 @@ accounts: 3
 | 559 | [[@HyperliquidX]] | The LIT hyperp has converted to a regular perp. You can now long or short $LIT with  | [[hyperliquidx__2011810953734860971]] |
 | 91 | [[@coingecko]] | $HYPE vs. $ASTER vs. $LIT  "Is a coin actually pumping, or is its sector just trendi | [[coingecko__2069140924178075884]] |
 | 65 | [[@TrustlessState]] | $LIT offering a deal today | [[TrustlessState__2067736157010469294]] |
+| 8 | [[@TrustlessState]] | Wish I bought more $LIT :( | [[trustlessstate__2070522078629962146]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,13 +4,13 @@ kind: token
 title: $TCG
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
+mentions: 5
 accounts: 2
 ---
 
 # $TCG
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 5件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -24,7 +24,8 @@ accounts: 2
 |---|---|---|---|
 | 57 | [[@PumpfunEco]] | $TCG has pumped 28% today! 🔥 | [[PumpfunEco__2068677004975866210]] |
 | 33 | [[@PumpfunEco]] | $TCG has pumped 83% today! 🔥 | [[PumpfunEco__2068767299293614254]] |
-| 22 | [[@PumpfunEco]] | $TCG has pumped 34% today! 🔥 | [[PumpfunEco__2069497191484256625]] |
+| 22 | [[@PumpfunEco]] | $TCG has pumped 34% today! 🔥 | [[pumpfuneco__2069497191484256625]] |
+| 17 | [[@PumpfunEco]] | $TCG has pumped 34% today! 🔥 | [[PumpfunEco__2069497191484256625]] |
 | 2 | [[@golocojp]] | Just 4months, solana:GDaQVH7GoHCRJWHpH7vXfQg2Vrb7kkhCoQ545w4Dhyc3 has done buybuck & | [[golocojp__2069499791319732734]] |
 
 <!-- synthesis:start -->

@@ -4,29 +4,29 @@ kind: player
 title: @Bankless
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 25
+posts: 45
 ---
 
 # @Bankless
 
-> 自動生成。信号投稿 25件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 45件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](1) [[$RE]](1)
+[[$STRC]](2) [[$CARDS]](1) [[$BTC]](1) [[$RE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 757 |  | INTERVIEW: Fomo’s $75M Bet on Making Crypto Trading Mainstream  Crypto trading is st | [[bankless__2069752402895655023]] |
-| 347 |  | INTERVIEW: @CryptoHayes - The AI Crash That Could Send bitcoin:native  to $1M  Arthu | [[Bankless__2069027635582103941]] |
-| 225 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[Bankless__2065488183656378680]] |
-| 99 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[Bankless__2067655855646945787]] |
-| 84 |  | EARLY ACCESS: "The Fed Can't Print Moore's Law" - @CryptoHayes   🟢 Out now for Bankl | [[Bankless__2067287789536682479]] |
+| 347 |  | INTERVIEW: @CryptoHayes - The AI Crash That Could Send bitcoin:native  to $1M  Arthu | [[bankless__2069027635582103941]] |
+| 225 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[bankless__2065488183656378680]] |
+| 219 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[Bankless__2065488183656378680]] |
+| 99 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[bankless__2067655855646945787]] |
+| 95 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[Bankless__2067655855646945787]] |
+| 84 |  | EARLY ACCESS: "The Fed Can't Print Moore's Law" - @CryptoHayes   🟢 Out now for Bankl | [[bankless__2067287789536682479]] |
+| 73 |  | EARLY ACCESS: "The Fed Can't Print Moore's Law" - @CryptoHayes   🟢 Out now for Bankl | [[Bankless__2067287789536682479]] |
 | 56 |  | INTERVIEW: MegaETH’s MOSS -- One Wallet for Every App  @megaeth wants crypto apps to | [[Bankless__2067260987519164644]] |
-| 51 |  | INTERVIEW: Perps Are Coming Onshore / CFTC Chairman Mike Selig  @CFTC @ChairmanSelig | [[Bankless__2066490918619042178]] |
-| 51 |  | "...I saw @HunterBiden is a big fan of that one..."   @CFTC's @ChairmanSelig, when a | [[Bankless__2064791354937606484]] |
-| 37 | [[$RE]] | INTERVIEW: How Re is Rebuilding the $1T Reinsurance Market with Stablecoins / Karn S | [[Bankless__2067578073134809332]] |
-| 34 |  | Coinbase joined Robinhood this week in giving agents access to their platforms, turn | [[Bankless__2067240144323637610]] |
+| 56 |  | INTERVIEW: MegaETH’s MOSS -- One Wallet for Every App  @megaeth wants crypto apps to | [[bankless__2067260987519164644]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -12,7 +12,7 @@ posts: 15
 > 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PUNCH]](5) [[$MAXIS]](2) [[$BTC]](1) [[$CRASH]](1) [[$YAJUCOIN]](1)
+[[$PUNCH]](5) [[$MAXIS]](2) [[$YAJUCOIN]](1) [[$BTC]](1) [[$CRASH]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -4,20 +4,20 @@ kind: token
 title: $STRC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 28
+mentions: 31
 accounts: 9
 ---
 
 # $STRC
 
-> 自動生成(brain/build_entities.py)。言及 28件 / 9アカ。
+> 自動生成(brain/build_entities.py)。言及 31件 / 9アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Bankless]] [[@CryptoKaleo]] [[@TrustlessState]] [[@coingecko]] [[@coinkeiba]] [[@saylor]] [[@thedefiedge]] [[@theempirepod]] [[@theunipcs]]
 
 ## 共起トークン
-[[$MSTR]] [[$BTC]] [[$SATA]] [[$SOL]] [[$USELESS]] [[$IBIT]]
+[[$MSTR]] [[$BTC]] [[$SOL]] [[$USELESS]] [[$SATA]] [[$IBIT]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -83,4 +83,17 @@ accounts: 9
 - ⚠️ 赤旗: ①credit quality の "防衛" は BTC 価格と equity 調達市場の継続アクセスに依存（資本市場が閉じれば nuclear シナリオ）②「Digital Credit」「機関向け income」は **Saylor 側の主張的フレーミング**＝実体は par 割れ・配当を外部現金注入で支える preferred。装い（安定 income）≠ 実体（要防衛の構造）。
 - confidence=低〜中（6/19 から不変・やや悪化）。Saylor が現金補充の意志と実弾を示した点は短期 confidence にプラスだが、構造的ジレンマは未解決で、防衛コストが MSTR 側に転嫁されているだけ。
 - 接続: [[$MSTR]]（防衛原資＝MSTR 希薄化・一蓮托生）/ [[majors-rotation-supercycle]] / [[onchain-verification]]（"Digital Credit" の機関向け正当化は主張＝実体で評価）。
+
+### 2026-06-27 更新②（新 beat: CryptoKaleo 反論 + Strategy mNAV 0.59x・弱気強化）
+**観測（事実・2026-06-25〜26）**
+- **[[cryptokaleo__2070129048504635519]]**（160♥・2026-06-25）: 「$STRC looks ready to stretch into the $60s. Should be some really great effective yield down there!」＝前回更新 ($89→$75→$71) の続落を受け、**次ターゲットを $60s と明示**。皮肉口調（"great effective yield"）＝par $100 からさらに 40% 以上下の価格でようやく利回りが良くなる、という熊的評価。
+- **[[cryptokaleo__2070457292567282077]]**（132♥・2026-06-26）: 「I thought Digital Credit 'stripped the risk' and 'damped the volatility' Michael? Don't you engineer volatility?」＝**Saylor の「Digital Credit は risk を剥ぎ取る」という主張に対する直接の反論**（前回更新②で記録した Saylor のフレーミングへの返し）。BTC volatility が上昇する局面でこの主張は成立するか？という問いかけ。
+- **[[cryptokaleo__2070472105422999702]]**（79♥・2026-06-26、RT @rektmando）: Strategy mNAV = **0.59x**（Bitmine 0.83x / Sharplink 0.64x / Forward Industries 0.62x）。DAT（Digital Asset Treasury）群の中でも **Strategy が最も低い mNAV**＝市場は MSTR に 41% ディスカウントを付けている。「これは尋常でない」という文脈（後半不明）。
+
+**⚠️ 判断**:
+- 前回更新②（2026-06-27）で「STRC 防衛 = MSTR 希薄化」と分析したが、**mNAV が 0.59x まで下がった事実が判明**＝「1.0 割れ目前」という前回の表現は既に過去。現在は MSTR が **BV の 59% 評価**という深刻な状態。
+- CryptoKaleo の「$60s へ」（前回 $75 コール → $60s コール）は price target の切り下げ。"effective yield" の皮肉は「利回りを享受するためには par から大きく下がることを受け入れるしかない」という本質を突く。
+- 「Digital Credit が volatility を除去する」というSaylor のナラティブに、CryptoKaleo が「でもあなたは volatility をエンジニアするでしょ？」と反論＝**装い（安定収益商品）vs 実体（BTC volatility に引きずられる preferred）**の矛盾が市場で意識され始めた。
+- confidence=低（6/19 以来の最低水準。mNAV 0.59x・$60s コール・Digital Credit フレーミング批判が三位一体で弱気を強化）。
+- 接続: [[$MSTR]]（mNAV 0.59x = MSTR の市場評価）/ [[rug-anatomy]]（"Digital Credit" = 装いと実体の乖離）/ [[majors-rotation-supercycle]]（STRC/MSTR 崩壊 = BTC downside trigger 候補の probability が上昇）。
 <!-- synthesis:end -->

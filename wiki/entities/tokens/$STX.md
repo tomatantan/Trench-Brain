@@ -17,7 +17,7 @@ accounts: 2
 [[@DEG_2020]] [[@DefiIgnas]]
 
 ## 共起トークン
-[[$WDC]] [[$ADA]] [[$EOS]] [[$FTM]] [[$ICP]]
+[[$ADA]] [[$EOS]] [[$FTM]] [[$ICP]] [[$WDC]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

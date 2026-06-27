@@ -4,13 +4,13 @@ kind: token
 title: $BP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
+mentions: 5
 accounts: 4
 ---
 
 # $BP
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 5件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -23,7 +23,8 @@ accounts: 4
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 742 | [[@coingecko]] | INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock. | [[coingecko__2066073983913447663]] |
-| 241 | [[@DefiIgnas]] | Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken | [[DefiIgnas__2067592042579210661]] |
+| 251 | [[@DefiIgnas]] | Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken | [[DefiIgnas__2067592042579210661]] |
+| 241 | [[@DefiIgnas]] | Every bull cycle has a new CEX in town:  • 2010: Mt. Gox • 2012-14: Coinbase, Kraken | [[defiignas__2067592042579210661]] |
 | 53 | [[@coinkeiba]] | これ1.5億くらいの価値あるの？返してくれません？ $BP | [[coinkeiba__2068616669828903008]] |
 | 19 | [[@DEG_2020]] | Backpackの $BP エアドロ大化けしたなぁ ボロッカスに言われてたけど、2年使って愛着ある取引所ってことで全部ステーキングして良かったよ @Backpack | [[DEG_2020__2069058174888583354]] |
 

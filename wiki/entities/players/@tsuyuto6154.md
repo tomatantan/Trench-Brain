@@ -16,7 +16,7 @@ CA言及 8件 / 現outcome評価 8件中 **死3（38%）** ＝callが残りや�
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$YAJUCOIN]](7) [[$HUNTER]](1) [[$KIYOMASA]](1) [[$SAMPAIO]](1)
+[[$YAJUCOIN]](7) [[$KIYOMASA]](1) [[$SAMPAIO]](1) [[$HUNTER]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

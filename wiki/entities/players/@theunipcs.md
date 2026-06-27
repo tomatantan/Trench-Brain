@@ -12,7 +12,7 @@ posts: 117
 > 自動生成。信号投稿 117件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$USELESS]](15) [[$BONK]](15) [[$BTC]](10) [[$SOL]](9) [[$DOGE]](8) [[$PENGU]](7) [[$ETH]](6) [[$PEPE]](6) [[$FARTCOIN]](5) [[$SHIB]](5)
+[[$USELESS]](15) [[$BONK]](15) [[$BTC]](10) [[$SOL]](9) [[$DOGE]](8) [[$PENGU]](7) [[$PEPE]](6) [[$ETH]](6) [[$FARTCOIN]](5) [[$SHIB]](5)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -24,7 +24,7 @@ accounts: 2
 |---|---|---|---|
 | 58 | [[@cryptocom]] | Re ($RE) is now available for trading in the  App 🔔  Purchase $RE easily with USD, E | [[cryptocom__2069296863098867959]] |
 | 39 | [[@cryptocom]] | RE is now available on Limit Orders in the  App!   🤖 Automate orders at your preferr | [[cryptocom__2069305095406162302]] |
-| 37 | [[@Bankless]] | INTERVIEW: How Re is Rebuilding the $1T Reinsurance Market with Stablecoins / Karn S | [[Bankless__2067578073134809332]] |
+| 37 | [[@Bankless]] | INTERVIEW: How Re is Rebuilding the $1T Reinsurance Market with Stablecoins / Karn S | [[bankless__2067578073134809332]] |
 | 30 | [[@cryptocom]] | 1 new token added to the TWAP Trading Bot: $RE 🤖  ✅ Execute large trades efficiently | [[cryptocom__2069710184151224449]] |
 
 <!-- synthesis:start -->

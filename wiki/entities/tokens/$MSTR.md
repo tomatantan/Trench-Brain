@@ -4,20 +4,20 @@ kind: token
 title: $MSTR
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 19
+mentions: 21
 accounts: 3
 ---
 
 # $MSTR
 
-> 自動生成(brain/build_entities.py)。言及 19件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 21件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoKaleo]] [[@saylor]] [[@theunipcs]]
 
 ## 共起トークン
-[[$STRC]] [[$BTC]] [[$DOGE]] [[$ETH]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]]
+[[$STRC]] [[$BTC]] [[$IBIT]] [[$DOGE]] [[$ETH]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -28,7 +28,7 @@ accounts: 3
 | 5,597 | [[@saylor]] | Volatility tests every capital structure. Strategy remains focused on Bitcoin, disci | [[saylor__2070420835358183827]] |
 | 4,368 | [[@saylor]] | Bitcoin Capitalism — my keynote from @BTCPrague 2026.  Digital Capital is the founda | [[saylor__2066558321394426082]] |
 | 331 | [[@CryptoKaleo]] | You can still sell your $MSTR for more than $100. | [[CryptoKaleo__2069114688684585059]] |
-| 274 | [[@CryptoKaleo]] | You can still sell your $MSTR for more than $100 | [[CryptoKaleo__2069467817313788348]] |
+| 274 | [[@CryptoKaleo]] | You can still sell your $MSTR for more than $100 | [[cryptokaleo__2069467817313788348]] |
 | 206 | [[@CryptoKaleo]] | You can no longer sell your $MSTR for $100. | [[cryptokaleo__2069778452182425980]] |
 | 159 | [[@CryptoKaleo]] | $MSTR printing fresh lows.  When BTC breaks beneath $60K and their published mNAV br | [[cryptokaleo__2070140318335344802]] |
 | 131 | [[@theunipcs]] | over the past month:  • $BTC new 21-month lows • $ETH new 14-month lows • $SOL new 3 | [[theunipcs__2070425996038140331]] |

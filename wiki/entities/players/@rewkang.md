@@ -1,15 +1,15 @@
 ---
 type: entity
 kind: player
-title: @Rewkang
+title: @rewkang
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 12
 ---
 
-# @Rewkang
+# @rewkang
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,10 +22,10 @@ posts: 15
 | 435 |  | Thrilled to lead the Standard Bots Series C  Industrial robots can be thought of as  | [[Rewkang__2064352012762837133]] |
 | 357 |  | Life comes at you fast  A humanoid in every home in the not too distant future. It w | [[Rewkang__2065080522523459728]] |
 | 328 |  | I cringe when I hear “I missed [X]”  Companies that achieve high market caps get the | [[Rewkang__2063634183902122420]] |
-| 265 |  | RoboStrategy intends to continue raising capital through privately negotiated equity | [[Rewkang__2067598333531619832]] |
-| 257 |  | The market always has a difficult time accurately pricing inflection points  These a | [[Rewkang__2062897755719074044]] |
+| 263 |  | RoboStrategy intends to continue raising capital through privately negotiated equity | [[Rewkang__2067598333531619832]] |
+| 256 |  | The market always has a difficult time accurately pricing inflection points  These a | [[Rewkang__2062897755719074044]] |
 | 242 |  | A lot of attention is focused on Figure and Apptronik within our portfolio  But ther | [[Rewkang__2062613639379763662]] |
-| 194 |  | The FigureAI live stream was a mini ChatGPT moment for venture capital  Robotics fun | [[Rewkang__2066901706294587863]] |
+| 192 |  | The FigureAI live stream was a mini ChatGPT moment for venture capital  Robotics fun | [[Rewkang__2066901706294587863]] |
 | 185 |  | NAV is subject to change significantly. | [[Rewkang__2064018371062923593]] |
 
 <!-- synthesis:start -->

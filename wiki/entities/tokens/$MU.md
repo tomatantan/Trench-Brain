@@ -4,20 +4,20 @@ kind: token
 title: $MU
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 23
+mentions: 26
 accounts: 7
 ---
 
 # $MU
 
-> 自動生成(brain/build_entities.py)。言及 23件 / 7アカ。
+> 自動生成(brain/build_entities.py)。言及 26件 / 7アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@AdimsSHOGUN]] [[@DEG_2020]] [[@MEXC]] [[@WatcherGuru]] [[@blknoiz06]] [[@cryptocom]] [[@solana]]
 
 ## 共起トークン
-[[$SNDK]] [[$SPCX]] [[$BTC]] [[$AMD]] [[$DRAM]] [[$ARM]] [[$NAS100]] [[$SP500]]
+[[$SNDK]] [[$SPCX]] [[$DRAM]] [[$BB]] [[$CCL]] [[$DRI]] [[$FDX]] [[$FUL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -28,8 +28,8 @@ accounts: 7
 | 355 | [[@blknoiz06]] | if im right on this & memory does not sustain the pump post $MU earnings then Q3 is  | [[blknoiz06__2070143696692023795]] |
 | 351 | [[@blknoiz06]] | airmass might be the greatest to ever do it with this $MU long | [[blknoiz06__2069044444393808329]] |
 | 186 | [[@blknoiz06]] | kospi korean index down -8% today just got halted, $MU down 10% from highs after bri | [[blknoiz06__2070347290296930655]] |
-| 61 | [[@DEG_2020]] | 恐怖強欲指数はSP500のモメンタム低下で極度の恐怖一歩手前 $MU と $SNDK -13%と暴落もSOXは月初から大きくプラス、今月は四半期末フロー意識 貴金属の下 | [[DEG_2020__2069556912782520704]] |
-| 49 | [[@MEXC]] | One investor has stayed bullish on $MU through every dip.  Her reason? The Perilla L | [[MEXC__2069379334327128388]] |
+| 61 | [[@DEG_2020]] | 恐怖強欲指数はSP500のモメンタム低下で極度の恐怖一歩手前 $MU と $SNDK -13%と暴落もSOXは月初から大きくプラス、今月は四半期末フロー意識 貴金属の下 | [[deg_2020__2069556912782520704]] |
+| 49 | [[@MEXC]] | One investor has stayed bullish on $MU through every dip.  Her reason? The Perilla L | [[mexc__2069379334327128388]] |
 | 42 | [[@MEXC]] | Chip stocks just had one of their biggest selloffs this month.  Now $MU earnings are | [[mexc__2069707102503710768]] |
 | 41 | [[@MEXC]] | Every wave is an opportunity. $MU   You just need the right system. ♾ | [[mexc__2069960870298583057]] |
 

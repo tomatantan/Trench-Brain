@@ -12,7 +12,7 @@ posts: 15
 > 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](6) [[$MSTR]](5) [[$BTC]](5) [[$SATA]](1) [[$IBIT]](1)
+[[$STRC]](6) [[$BTC]](5) [[$MSTR]](5) [[$SATA]](1) [[$IBIT]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

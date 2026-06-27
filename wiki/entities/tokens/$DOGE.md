@@ -4,20 +4,20 @@ kind: token
 title: $DOGE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
+mentions: 14
 accounts: 6
 ---
 
 # $DOGE
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 14件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@RookieXBT]] [[@coingecko]] [[@dogecoin]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$USELESS]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]] [[$SOL]]
+[[$USELESS]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]] [[$SPX]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -29,9 +29,9 @@ accounts: 6
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
-| 335 | [[@RookieXBT]] | $doge looks good | [[RookieXBT__2052921674690134221]] |
+| 335 | [[@RookieXBT]] | $doge looks good | [[rookiexbt__2052921674690134221]] |
+| 334 | [[@RookieXBT]] | $doge looks good | [[RookieXBT__2052921674690134221]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
-| 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

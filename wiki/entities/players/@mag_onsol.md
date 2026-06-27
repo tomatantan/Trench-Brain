@@ -12,7 +12,7 @@ posts: 18
 > 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HOLD]](1) [[$HOUSE]](1) [[$PEPE]](1) [[$MICHI]](1) [[$PEACEMAKER]](1)
+[[$HOUSE]](1) [[$PEPE]](1) [[$HOLD]](1) [[$PEACEMAKER]](1) [[$MICHI]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

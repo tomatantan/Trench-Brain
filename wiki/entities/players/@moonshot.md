@@ -12,7 +12,7 @@ posts: 24
 > 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$FARM]](1) [[$SON]](1) [[$TURTLE]](1) [[$ZERO]](1) [[$ARX]](1) [[$MERLIN]](1) [[$SOLANGELES]](1) [[$MANIFEST]](1) [[$SPCXX]](1)
+[[$SOLANGELES]](1) [[$SPCXX]](1) [[$SON]](1) [[$ARX]](1) [[$MERLIN]](1) [[$TURTLE]](1) [[$FARM]](1) [[$MANIFEST]](1) [[$ZERO]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

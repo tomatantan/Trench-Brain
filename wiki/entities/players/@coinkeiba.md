@@ -12,7 +12,7 @@ posts: 40
 > 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SPCX]](2) [[$STRC]](1) [[$HYPE]](1) [[$SOL]](1) [[$TSLA]](1) [[$BP]](1)
+[[$SPCX]](2) [[$TSLA]](1) [[$STRC]](1) [[$HYPE]](1) [[$SOL]](1) [[$BP]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

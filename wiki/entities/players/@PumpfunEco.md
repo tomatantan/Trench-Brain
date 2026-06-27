@@ -4,29 +4,29 @@ kind: player
 title: @PumpfunEco
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 78
+posts: 96
 ---
 
 # @PumpfunEco
 
-> 自動生成。信号投稿 78件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 96件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$JOTCHUA]](14) [[$SOLANGELES]](9) [[$KINS]](8) [[$FARTCOIN]](5) [[$WORLD]](5) [[$FARM]](4) [[$TRIPLET]](4) [[$QUEST]](3) [[$ZERO]](3) [[$GYM]](3)
+[[$JOTCHUA]](15) [[$KINS]](10) [[$SOLANGELES]](10) [[$FARM]](6) [[$FARTCOIN]](6) [[$SQUIRE]](5) [[$QUEST]](5) [[$GYM]](5) [[$WORLD]](5) [[$DROOLING]](4)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 389 | [[$PUMPCADE]] [[$QUEST]] [[$SQUIRE]] | Ansem (@blknoiz06) makes first purchases on his @Pumpfun wallet 🔥  He bought $PUMPCA | [[pumpfuneco__2069407494300950984]] |
-| 349 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[PumpfunEco__2069430064580641055]] |
-| 211 | [[$THREE]] | $three is rallying, currently up 29% in 24 hours 👀 | [[PumpfunEco__2069426642204667975]] |
+| 349 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[pumpfuneco__2069430064580641055]] |
+| 211 | [[$THREE]] | $three is rallying, currently up 29% in 24 hours 👀 | [[pumpfuneco__2069426642204667975]] |
 | 205 | [[$WORLD]] | This trader is up $93,000 after buying $136 worth of $world   They gained a 684x ret | [[pumpfuneco__2070103784248742256]] |
 | 201 | [[$JOTCHUA]] | $Jotchua is rallying, currently up 92% in 24 hours 👀 | [[PumpfunEco__2068633451973247417]] |
 | 186 | [[$JOTCHUA]] | $Jotchua has pumped 900% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068756088174882931]] |
 | 181 | [[$JOTCHUA]] | $Jotchua has pumped 49% today! 🔥 | [[PumpfunEco__2068440964801196350]] |
 | 173 | [[$SOLANGELES]] | $SOLANGELES has pumped 100% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068742566137274401]] |
-| 171 | [[$CLAW]] [[$GYM]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[PumpfunEco__2069507554682515894]] |
-| 159 | [[$JOTCHUA]] | One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥 | [[PumpfunEco__2068619724649308222]] |
+| 171 | [[$CLAW]] [[$GYM]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[pumpfuneco__2069507554682515894]] |
+| 160 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[PumpfunEco__2069430064580641055]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

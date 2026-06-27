@@ -12,7 +12,7 @@ posts: 30
 > 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$ASTER]](3) [[$XDOG]](3) [[$OKB]](1) [[$JSON]](1)
+[[$ASTER]](3) [[$XDOG]](3) [[$JSON]](1) [[$OKB]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

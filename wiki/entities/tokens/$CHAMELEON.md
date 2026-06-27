@@ -68,6 +68,10 @@ pump.fun 発。"Meccha Chameleon" 命名——アニメ/キャラクター系 me
 
 **概念接続**: [[launchpad-economics]]（T2長期生存・KOL attention） / [[rug-anatomy]]（⑮ KOL wallet-analysis・構造クリーン） / [[onchain-verification]]（badattrading_ 分析） / [[survivor-memes]]（9日生存アニメ/character meme）
 
+### 2026-06-27 更新（diamond-hands narrative の追加）
+- **観測（PumpfunEco・2026-06-25T19:51Z、37♥）**: 「This trader refused to sell early & now their $626 buy on $Chameleon is worth $9,270」([[pumpfuneco__2070233434165821924]])。$626 → $9,270 ≒ 14.8x の利益例を Pump.fun プロモ feed が展開。
+- **判断**: 初回合成で記録した「9日長期生存」「snipers/insiders ほぼゼロのクリーン構造」に対し、"refused to sell" = **diamond-hands ナラティブ**が加わった。ただし PumpfunEco はプラットフォーム feed＝独立 KOL ではない（[[rug-anatomy]]）。「14.8x trader story」は pump 期の成功者 highlight に過ぎず全員が同利益ではない。badattrading_（CA確認 KOL）は 2026-06-26 時点でも CA 共有ベース（ticker 言及ではない）。独立 KOL の実質的言及は依然薄い。
+- confidence=低（変化なし）。構造クリーンは事実だが organic community の実証はまだ不足。
 <!-- synthesis:end -->
 
 ## 関連

@@ -4,13 +4,13 @@ kind: token
 title: $FARTCOIN
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 12
+mentions: 13
 accounts: 3
 ---
 
 # $FARTCOIN
 
-> 自動生成(brain/build_entities.py)。言及 12件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 13件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -29,7 +29,7 @@ accounts: 3
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
 | 131 | [[@theunipcs]] | over the past month:  • $BTC new 21-month lows • $ETH new 14-month lows • $SOL new 3 | [[theunipcs__2070425996038140331]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
+| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
 | 96 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.83M $world  | [[pumpfuneco__2069760704882868678]] |
 

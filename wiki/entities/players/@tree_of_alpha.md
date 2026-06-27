@@ -1,13 +1,13 @@
 ---
 type: entity
 kind: player
-title: @Tree_of_Alpha
+title: @tree_of_alpha
 updated: 2026-06-22
 tags: [trench, entity, player]
 posts: 12
 ---
 
-# @Tree_of_Alpha
+# @tree_of_alpha
 
 > 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
 
@@ -18,8 +18,8 @@ posts: 12
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 760 |  | Though today may be grim, And tomorrow hard to foresee, We will get through it as we | [[Tree_of_Alpha__1820430441935212593]] |
-| 541 |  | imagine building a product people actually use and get told you can't sell your toke | [[Tree_of_Alpha__1992538612051878088]] |
-| 506 |  | bought some coins if it keeps going down simply assume I exited safely with no losse | [[Tree_of_Alpha__1989319172883398995]] |
+| 543 |  | imagine building a product people actually use and get told you can't sell your toke | [[Tree_of_Alpha__1992538612051878088]] |
+| 505 |  | bought some coins if it keeps going down simply assume I exited safely with no losse | [[Tree_of_Alpha__1989319172883398995]] |
 | 421 |  | Couple words on what my focus will be for the next 5+ years, in a quest to make TREE | [[Tree_of_Alpha__1757706545826078877]] |
 | 418 |  | bitcoin price is going down even though I did everything right: -I contributed to th | [[Tree_of_Alpha__1991183274601804116]] |
 | 412 |  | 1: the token they listed on every CEX (they all invested in seed raise) 2: the one t | [[Tree_of_Alpha__1959918166609379482]] |

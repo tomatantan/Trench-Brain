@@ -4,20 +4,20 @@ kind: token
 title: $USELESS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 17
+mentions: 18
 accounts: 2
 ---
 
 # $USELESS
 
-> 自動生成(brain/build_entities.py)。言及 17件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 18件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$DOGE]] [[$SOL]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]]
+[[$BTC]] [[$SOL]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

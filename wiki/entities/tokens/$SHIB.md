@@ -17,7 +17,7 @@ accounts: 3
 [[@MascotAsteroid]] [[@lookonchain]] [[@theunipcs]]
 
 ## 共起トークン
-[[$PEPE]] [[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]] [[$ETH]] [[$WIF]]
+[[$PEPE]] [[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]] [[$WIF]] [[$ETH]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

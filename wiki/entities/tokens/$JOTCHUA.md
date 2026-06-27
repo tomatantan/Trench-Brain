@@ -4,20 +4,20 @@ kind: token
 title: $JOTCHUA
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 22
+mentions: 26
 accounts: 3
 ---
 
 # $JOTCHUA
 
-> 自動生成(brain/build_entities.py)。言及 22件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 26件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@PumpfunEco]] [[@badattrading_]]
 
 ## 共起トークン
-[[$KINS]] [[$FARTCOIN]] [[$ZERO]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]] [[$NEET]] [[$QUEST]]
+[[$KINS]] [[$FARTCOIN]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]] [[$NEET]] [[$ZERO]] [[$AURA]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -26,12 +26,12 @@ accounts: 3
 | 186 | [[@PumpfunEco]] | $Jotchua has pumped 900% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068756088174882931]] |
 | 181 | [[@PumpfunEco]] | $Jotchua has pumped 49% today! 🔥 | [[PumpfunEco__2068440964801196350]] |
 | 159 | [[@PumpfunEco]] | One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥 | [[PumpfunEco__2068619724649308222]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 124 | [[@Crypto_Alch]] | All my stables on the cute dog and I’m not even bothered    Comfy in $Jotchua   Savi | [[crypto_alch__2070173703862644882]] |
 | 119 | [[@PumpfunEco]] | $Jotchua has pumped 58% today! 🔥 | [[pumpfuneco__2070222901719028164]] |
 | 119 | [[@Crypto_Alch]] | Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a | [[Crypto_Alch__2068927200036880866]] |
-| 110 | [[@Crypto_Alch]] | My Nigerian quant thinks the $Jotchua bottom is in   I tend to believe him | [[Crypto_Alch__2069370952098468236]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
+| 112 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[Crypto_Alch__2069087026813530587]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -83,4 +83,8 @@ accounts: 3
 - **⚠️ 利益相反の深化（[[rug-anatomy]]）**: Alch の「ステーブル全部 in／Savior of the trenches」は、自己ポジションを最大化した上での**最強度のシラー発言**＝退出時の出口を作るためのナラティブ煽りリスクが前回（「bottom is in」）より高い。likes は付くが論拠は感情のみ。
 - 出来高ランクの後退（#1〜3ではなく#5、$WEN/world に被弾）は、pump レグが単発の投機回転で、板の resilience は [[$FARTCOIN]]/[[$WEN]] に劣ることを示唆。
 - confidence 変化なし（**低**）。賭け仮説は据え置き＝主シラーが自己ポジを talk up している pump 後トークンで、独立検証なし。
+
+### 2026-06-27 更新②（whale $121K bag・軽微更新）
+- **[[pumpfuneco__2070309600755118481]]**（66♥・2026-06-26T00:54Z）: 「A $Jotchua whale is currently holding a $121,000 bag」。前回（06-23 更新）の $114K → $121K。同一人物なら含み益が回復（pump 新レグで mark-to-market 上昇）、別人なら新大口の参入。いずれも $100K 超の単一大口が存在する事実は継続。ホルダー集中リスク（[[rug-anatomy]]）に変化なし。
+- confidence 低（変化なし）。
 <!-- synthesis:end -->

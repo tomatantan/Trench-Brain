@@ -4,34 +4,34 @@ kind: token
 title: $WOJAK
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 19
+mentions: 25
 accounts: 5
 ---
 
 # $WOJAK
 
-> 自動生成(brain/build_entities.py)。言及 19件 / 5アカ。
+> 自動生成(brain/build_entities.py)。言及 25件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@Crypto_Alch]] [[@MurphyBTC]] [[@lookonchain]] [[@wojakcto]]
 
 ## 共起トークン
-[[$USD1]] [[$USDC]] [[$USDT]] [[$PEPE]] [[$SHIB]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]]
+[[$USD1]] [[$USDC]] [[$USDT]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]] [[$BUTTCOIN]] [[$HYPE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 1,423 | [[@lookonchain]] | We noticed an early buyer of $SHIB also bought $PEPE and $WOJAK.  The SmartMoney sta | [[lookonchain__1654100186988445696]] |
-| 686 | [[@BinanceUS]] | Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will | [[BinanceUS__2067066448409702774]] |
-| 477 | [[@BinanceUS]] | It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over  | [[BinanceUS__2068502676531478709]] |
-| 339 | [[@BinanceUS]] | The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA | [[BinanceUS__2067638719750811781]] |
-| 326 | [[@BinanceUS]] | Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available | [[BinanceUS__2067427074491781168]] |
+| 686 | [[@BinanceUS]] | Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will | [[binanceus__2067066448409702774]] |
+| 683 | [[@BinanceUS]] | Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will | [[BinanceUS__2067066448409702774]] |
+| 477 | [[@BinanceUS]] | It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over  | [[binanceus__2068502676531478709]] |
+| 441 | [[@BinanceUS]] | It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over  | [[BinanceUS__2068502676531478709]] |
+| 339 | [[@BinanceUS]] | The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA | [[binanceus__2067638719750811781]] |
+| 335 | [[@BinanceUS]] | The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA | [[BinanceUS__2067638719750811781]] |
+| 326 | [[@BinanceUS]] | Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available | [[binanceus__2067427074491781168]] |
+| 322 | [[@BinanceUS]] | Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available | [[BinanceUS__2067427074491781168]] |
 | 292 | [[@wojakcto]] | omw to @BinanceUS to deposit some $WOJAK | [[wojakcto__2067067819707994586]] |
-| 281 | [[@wojakcto]] | we used to pray for times like this  @wojakcto 🤝 @BinanceUS   $WOJAK is live on Bina | [[wojakcto__2067432030913098158]] |
-| 230 | [[@BinanceUS]] | The Boost × @wojakcto event lands on @BinanceUS tomorrow, June 18 @ 12 p.m. EDT!  🎁  | [[BinanceUS__2067281907528925448]] |
-| 217 | [[@Crypto_Alch]] | Imagine being bearish on memes when $wojak printing bullish like this   Idk bros $10 | [[Crypto_Alch__2069009974873800901]] |
-| 160 | [[@Crypto_Alch]] | Why is $WOJAK pumping  Any news? | [[Crypto_Alch__2067898956231639482]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -58,4 +58,7 @@ accounts: 5
 **concept候補（worklist §2）所見**
 - WOJAK は既存 [[survivor-memes]]（2009 古meme→CTO token→CEX 上場）＋[[external-event-to-token-pattern]]（CEX listing 発火）で**十分カバー＝新規 concept 不要**。
 - 唯一の novel 角＝「CEX が **Earn/Boost という incentive program** で meme 上場の出来高をブートストラップする」型。WOJAK(BinanceUS Boost) と $SPCX(@MEXC Earn・worklist §1a) で2例見え始めるが**まだ2点＝型として立たない**。3例目が出たら [[external-event-to-token-pattern]] のサブ型として検討。現時点は concept 作成**見送り（watch）**。confidence=低〜中。
+
+### 2026-06-27 更新②（Binance カラー化コミュニティ画像・軽微）
+- [[wojakcto__2069769761454469622]]（139♥ / **44RT**・2026-06-24T13:09Z）: 「$wojak but make it @binance colors」+ 画像。RT:likes 比が高い（44/139 ≒ 32%）＝**コミュニティ内での拡散特性が高い**。BinanceUS Boost と連動した"公認ビジュアル"の自発的生成＝[[survivor-memes]] の文化ブランド維持行動の一例。Boost 終了後もコミュニティが能動的に資産を生み出せるかの指標として観察。confidence 変わらず低〜中。
 <!-- synthesis:end -->

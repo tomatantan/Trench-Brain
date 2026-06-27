@@ -4,13 +4,13 @@ kind: token
 title: $KINTON
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
+mentions: 18
 accounts: 2
 ---
 
 # $KINTON
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 18件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -24,14 +24,14 @@ accounts: 2
 |---|---|---|---|
 | 20 | [[@xvwmuca]] | 木村 萌那選手 × $Kinton Real Chun-Li リアル春麗 真实的春丽 | [[xvwmuca__2043526688769028121]] |
 | 15 | [[@xvwmuca]] | $TripleT × $Kinton Tung Tung Tung Sahur Japanese PEPE | [[xvwmuca__2059849100921901499]] |
-| 13 | [[@JPY_TO_Crypto]] | If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc | [[JPY_TO_Crypto__2046639740552872278]] |
+| 13 | [[@JPY_TO_Crypto]] | If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc | [[jpy_to_crypto__2046639740552872278]] |
+| 12 | [[@JPY_TO_Crypto]] | If you hold a total of 2M across $Kinton and $YAJUCOIN, you’ve unlocked access to Sc | [[JPY_TO_Crypto__2046639740552872278]] |
+| 12 | [[@JPY_TO_Crypto]] | I watch this every day now. You’ve really become a full-fledged TikToker lol $Kinton | [[jpy_to_crypto__2054423121281900899]] |
 | 12 | [[@JPY_TO_Crypto]] | I watch this every day now. You’ve really become a full-fledged TikToker lol $Kinton | [[JPY_TO_Crypto__2054423121281900899]] |
 | 10 | [[@xvwmuca]] | 7000❤️ $kinton | [[xvwmuca__2061041463212056906]] |
 | 10 | [[@xvwmuca]] | gm big $kinton | [[xvwmuca__2044612790682575214]] |
 | 9 | [[@xvwmuca]] | gm $kinton fam | [[xvwmuca__2042344932560777316]] |
 | 9 | [[@xvwmuca]] | gm $kinton Monday began | [[xvwmuca__2040978021872795679]] |
-| 9 | [[@xvwmuca]] | beautiful yozakura w $kinton | [[xvwmuca__2041815915642417385]] |
-| 9 | [[@JPY_TO_Crypto]] | $KINTON is going global. I can feel it. | [[JPY_TO_Crypto__2059862039234044105]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

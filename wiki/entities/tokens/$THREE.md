@@ -4,34 +4,34 @@ kind: token
 title: $THREE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
+mentions: 14
 accounts: 2
 ---
 
 # $THREE
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 14件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@PumpfunEco]]
 
 ## 共起トークン
-[[$KINS]] [[$FARTCOIN]] [[$FITNESS]] [[$WORLD]] [[$ALTSZN]] [[$ASTEROID]] [[$AURA]] [[$BUTTCOIN]]
+[[$KINS]] [[$ALTSZN]] [[$ASTEROID]] [[$AURA]] [[$BUTTCOIN]] [[$JOTCHUA]] [[$NEET]] [[$TRIPLET]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
-| 211 | [[@PumpfunEco]] | $three is rallying, currently up 29% in 24 hours 👀 | [[PumpfunEco__2069426642204667975]] |
-| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
-| 146 | [[@Crypto_Alch]] | Comfy in the $three technology   Did you faded? | [[Crypto_Alch__2069378274535395731]] |
+| 211 | [[@PumpfunEco]] | $three is rallying, currently up 29% in 24 hours 👀 | [[pumpfuneco__2069426642204667975]] |
+| 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
+| 146 | [[@Crypto_Alch]] | Comfy in the $three technology   Did you faded? | [[crypto_alch__2069378274535395731]] |
+| 132 | [[@Crypto_Alch]] | $three looking like this in this imploding market   There’s a thing about good tek m | [[Crypto_Alch__2069340238997017006]] |
 | 128 | [[@Crypto_Alch]] | Pay attention to the projects that hold levels when the market retrace   $three buil | [[crypto_alch__2069716722257473577]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 126 | [[@Crypto_Alch]] | Comfy in the $three technology   Did you faded? | [[Crypto_Alch__2069378274535395731]] |
+| 124 | [[@PumpfunEco]] | $three is rallying, currently up 29% in 24 hours 👀 | [[PumpfunEco__2069426642204667975]] |
 | 116 | [[@Crypto_Alch]] | It’s $three O’clock   I hope you tailed   They’re releasing developments on the 3D A | [[Crypto_Alch__2067884483051725243]] |
 | 112 | [[@Crypto_Alch]] | 99.998877% of CT sleeping on $three while it’s looking like this   Couldn’t be me    | [[Crypto_Alch__2068961752075624499]] |
-| 96 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.83M $world  | [[pumpfuneco__2069760704882868678]] |
-| 82 | [[@Crypto_Alch]] | $three looking like this in this imploding market   There’s a thing about good tek m | [[Crypto_Alch__2069340238997017006]] |
-| 56 | [[@PumpfunEco]] | $three has pumped 50% today! 🔥 | [[PumpfunEco__2068957437126947070]] |
-| 0 | [[@Crypto_Alch]] | Classic textbook break/retest on the $three technology   Patience | [[crypto_alch__2070089521710956976]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

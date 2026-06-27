@@ -4,17 +4,17 @@ kind: token
 title: $PUMP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
-accounts: 3
+mentions: 11
+accounts: 4
 ---
 
 # $PUMP
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 11件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
-[[@PumpfunEco]] [[@a1lon9]] [[@theunipcs]]
+[[@PumpfunEco]] [[@a1lon9]] [[@badattrading_]] [[@theunipcs]]
 
 ## 共起トークン
 [[$BONK]]

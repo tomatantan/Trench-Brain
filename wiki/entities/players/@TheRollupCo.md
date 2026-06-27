@@ -4,15 +4,15 @@ kind: player
 title: @TheRollupCo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 80
+posts: 81
 ---
 
 # @TheRollupCo
 
-> 自動生成。信号投稿 80件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 81件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HYPE]](1) [[$AERO]](1)
+[[$AERO]](1) [[$HYPE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

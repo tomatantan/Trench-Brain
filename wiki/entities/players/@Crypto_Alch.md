@@ -4,15 +4,15 @@ kind: player
 title: @Crypto_Alch
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 74
+posts: 91
 ---
 
 # @Crypto_Alch
 
-> 自動生成。信号投稿 74件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 91件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$KINS]](9) [[$THREE]](7) [[$JOTCHUA]](7) [[$WOJAK]](5) [[$ALTSZN]](5) [[$ASTEROID]](4) [[$DROOLING]](2) [[$TRIPLET]](2) [[$BULL]](2) [[$BUTTCOIN]](2)
+[[$KINS]](11) [[$JOTCHUA]](10) [[$THREE]](10) [[$ALTSZN]](8) [[$ASTEROID]](6) [[$WOJAK]](6) [[$BUTTCOIN]](4) [[$NEET]](4) [[$HYPE]](4) [[$TRIPLET]](3)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

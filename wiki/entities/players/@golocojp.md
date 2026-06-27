@@ -16,7 +16,7 @@ CA言及 7件 / 現outcome評価 5件中 **死0（0%）** ＝callが残りやす
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$CARDS]](2) [[$REYA]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1) [[$VEN]](1)
+[[$CARDS]](2) [[$VEN]](1) [[$REYA]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -12,7 +12,7 @@ posts: 112
 > 自動生成。信号投稿 112件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PUMP]](5) [[$TROLL]](2) [[$TOKABU]](1) [[$USDUC]](1) [[$LIBRA]](1)
+[[$PUMP]](5) [[$TROLL]](2) [[$LIBRA]](1) [[$TOKABU]](1) [[$USDUC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

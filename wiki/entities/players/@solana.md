@@ -12,7 +12,7 @@ posts: 40
 > 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PAXG]](2) [[$ARX]](1) [[$BAGEY]](1) [[$MU]](1) [[$SNDK]](1)
+[[$PAXG]](2) [[$BAGEY]](1) [[$MU]](1) [[$ARX]](1) [[$SNDK]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

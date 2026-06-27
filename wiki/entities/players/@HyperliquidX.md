@@ -12,7 +12,7 @@ posts: 22
 > 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$CHIP]](1) [[$XMR]](1) [[$AXS]](1) [[$FOGO]](1) [[$LIT]](1) [[$SKR]](1) [[$DASH]](1) [[$AZTEC]](1)
+[[$FOGO]](1) [[$AXS]](1) [[$XMR]](1) [[$AZTEC]](1) [[$SKR]](1) [[$LIT]](1) [[$DASH]](1) [[$CHIP]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

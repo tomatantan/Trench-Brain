@@ -1,32 +1,32 @@
 ---
 type: entity
 kind: player
-title: @WatcherGuru
+title: @watcherguru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 50
+posts: 20
 ---
 
-# @WatcherGuru
+# @watcherguru
 
-> 自動生成。信号投稿 50件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SPCX]](2) [[$AAPL]](2) [[$MU]](1) [[$MSFT]](1) [[$ETH]](1) [[$GOOGL]](1) [[$VZ]](1) [[$META]](1) [[$RLUSD]](1) [[$BTC]](1)
+—
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
-| 20,484 |  | JUST IN: 🇺🇸 US Senate passes bill to ban the Federal Reserve from creating a Central | [[WatcherGuru__2069213657821561273]] |
-| 9,186 |  | JUST IN: 🇪🇺 Ripple receives preliminary MiCA approval to offer regulated crypto paym | [[WatcherGuru__2069363171354181742]] |
-| 8,198 |  | JUST IN: 🇺🇸 US House Committee schedules crypto Clarity Act hearing for July 17. | [[WatcherGuru__2069471422812946746]] |
-| 8,112 |  | JUST IN: Ethereum Foundation fires 20% of its staff. | [[WatcherGuru__2069420796066320884]] |
-| 6,932 |  | JUST IN: GTA 6 will officially cost $79.99.   Ultimate Edition: $99.99 | [[watcherguru__2069739708599673118]] |
-| 6,855 |  | JUST IN: 🇺🇸 Over $1.1 trillion wiped out from US stock market at open. | [[WatcherGuru__2069416106344018003]] |
-| 6,309 |  | JUST IN: Bitcoin falls under $63,000  Over $150,000,000 longs liquidated from the cr | [[WatcherGuru__2069305922824888434]] |
-| 6,182 | [[$SPCX]] | JUST IN: Elon Musk's SpaceX $SPCX falls 10.5%, erasing over $250 billion from its ma | [[WatcherGuru__2069071268905701414]] |
-| 5,833 |  | JUST IN: 🇺🇸 President Trump says the United States will have an "economic boom the l | [[watcherguru__2069955865046642941]] |
-| 5,644 |  | JUST IN: 🇺🇸 $1 trillion wiped out from the US stock market today. | [[WatcherGuru__2069511171720249420]] |
+| 24,872 |  | JUST IN: Ship traffic officially resumes in the Strait of Hormuz after US and Iran s | [[WatcherGuru__2067615076534943776]] |
+| 11,296 |  | JUST IN: GTA 6 pre-orders officially begin on June 25. | [[WatcherGuru__2067602270766653746]] |
+| 9,346 |  | JUST IN: 🇺🇸 FBI Director Kash Patel says the FBI will find crypto scammers and bring | [[WatcherGuru__2067987713194643596]] |
+| 7,159 |  | JUST IN: 🇺🇸🇮🇷 US Department of War requests $80,000,000,000 to cover Iran war and ot | [[WatcherGuru__2067807855495786570]] |
+| 7,068 |  | JUST IN: 🇯🇵 Japan's National Business Corporate Pension Fund to allocate 1% of its a | [[WatcherGuru__2068564986356498468]] |
+| 6,683 |  | JUST IN: 🇮🇷 Iran's IRGC officially declares the Strait of Hormuz closed to all vesse | [[WatcherGuru__2068342211776074026]] |
+| 6,529 |  | JUST IN: 🇺🇸 Illinois passes law to tax crypto transfers regardless of profit or loss | [[WatcherGuru__2067704496000524745]] |
+| 6,211 |  | JUST IN: Bitcoin falls under $63,000 | [[WatcherGuru__2067633514762117130]] |
+| 6,171 |  | JUST IN: 🇺🇸🇮🇷 US Military says blockade on the Strait of Hormuz has officially been  | [[WatcherGuru__2067661710513864818]] |
+| 5,741 |  | JUST IN: GTA 6 new in-game teaser. | [[WatcherGuru__2067618097574625723]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

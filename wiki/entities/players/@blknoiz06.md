@@ -4,15 +4,15 @@ kind: player
 title: @blknoiz06
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 152
+posts: 159
 ---
 
 # @blknoiz06
 
-> 自動生成。信号投稿 152件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 159件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$BTC]](4) [[$MU]](4) [[$HYPE]](2) [[$PENG]](1) [[$ZEC]](1) [[$ETH]](1) [[$WIF]](1) [[$VVV]](1) [[$SOL]](1) [[$TRUMP]](1)
+[[$BTC]](4) [[$MU]](4) [[$HYPE]](2) [[$SOLETH]](1) [[$VVV]](1) [[$TRUMP]](1) [[$ZEC]](1) [[$WIF]](1) [[$JTO]](1) [[$PENG]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

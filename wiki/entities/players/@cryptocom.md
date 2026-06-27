@@ -12,7 +12,7 @@ posts: 43
 > 自動生成。信号投稿 43件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HPP]](4) [[$RE]](3) [[$GRAM]](3) [[$BTC]](2) [[$AERGO]](2) [[$CRO]](1) [[$ATOM]](1) [[$SPCX]](1) [[$ONDO]](1) [[$SEI]](1)
+[[$HPP]](4) [[$GRAM]](3) [[$RE]](3) [[$BTC]](2) [[$AERGO]](2) [[$CRO]](1) [[$ETH]](1) [[$TON]](1) [[$SPCX]](1) [[$ATOM]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

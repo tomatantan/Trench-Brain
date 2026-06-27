@@ -4,15 +4,15 @@ kind: player
 title: @lookonchain
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 161
+posts: 166
 ---
 
 # @lookonchain
 
-> 自動生成。信号投稿 161件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 166件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$ETH]](72) [[$BTC]](42) [[$USDC]](21) [[$SOL]](15) [[$PEPE]](10) [[$HYPE]](5) [[$SHIB]](4) [[$USDT]](4) [[$LIBRA]](4) [[$LINK]](3)
+[[$ETH]](77) [[$BTC]](46) [[$USDC]](21) [[$SOL]](16) [[$PEPE]](10) [[$HYPE]](5) [[$LIBRA]](4) [[$USDT]](4) [[$SHIB]](4) [[$TRUMP]](3)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

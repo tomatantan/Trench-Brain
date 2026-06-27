@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 134
+mentions: 147
 accounts: 18
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 134件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 147件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$SHIB]] [[$PENGU]] [[$USELESS]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$HYPE]] [[$PEPE]] [[$SHIB]] [[$XRP]] [[$WBTC]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -61,4 +61,32 @@ accounts: 18
 ### 2026-06-27 更新（新 beat: ETH 14ヶ月来安値・light-touch）
 - **観測（市場状態・新）**: [[@theunipcs]]（2026-06-26、131♥）: 過去1ヶ月で $ETH が **14ヶ月来安値**を更新（majors 一斉安の一部: BTC 21mo / ETH 14mo / SOL 30mo / MSTR 27mo）。([[theunipcs__2070425996038140331]])
 - **判断**: 強気 KOL コンセンサス（Hayes「$ETH=$10k」等、既記）と現実の14ヶ月来安値が**乖離**＝既存合成「ETH＝コンセンサストレード（リターン薄）」を実価格が裏付け。TOP10 鯨の ETH short は前回③で解消済みだが、価格自体は majors と共に崩落継続。[[majors-rotation-supercycle]] の「ローテ中継点」は**まだ点火していない**。confidence 変わらず中。
+
+### 2026-06-27 更新②（新 beat: OG 投げ売り vs 機関逆張り・対立構造）
+**観測（事実・2026-06-24〜26）**
+
+OG 投げ売り（複数事例・2026-06-25〜26）:
+- [[lookonchain__2070022041567379673]]（218♥・2026-06-25）: 7年長期鯨が 27,585 ETH（$44.84M）を avg $1,625 で売却。利益 $39M だがピーク利益 $130M を逃した。
+- [[lookonchain__2070439414300594447]]（159♥・2026-06-26）: 8年長期 OG 4 wallet が 33,623 ETH（$52.46M）を ~$1,560 で売却。2021/2025 強気相場で含み益 $150M あったが一度も売らず→今回降伏。現利益 $27.4M のみ。
+→ **$1,560〜$1,625 帯で長期 OG が一斉降伏**＝長期 conviction holder が限界点に達した証拠。
+
+機関・大口の逆張り買い（同期間）:
+- [[lookonchain__2070037369643028647]]（225♥・2026-06-25）: 新規 wallet 0xA708 が Binance から 17,675 ETH（$28.58M）を引き出し（dip buy）。
+- [[lookonchain__2070473375986950381]]（270♥・2026-06-26）: 鯨 0x8dCe が BTC 464枚（$27.56M）を **ETH 17,750 枚に swap**（BTC→ETH rotation）。
+- [[lookonchain__2070477670941651026]]（214♥・2026-06-26）: Chun Wang が 9,937 ETH（$15.5M）+ 147 WBTC（$8.74M）追加。過去1ヶ月で総計 86,998 ETH（avg $1,749）。
+- [[lookonchain__2070310933986201903]]（442♥・2026-06-26）: SharpLink が 8ヶ月ぶりに 5,000 ETH（$7.85M）追加。avg コスト ~$3,609→含み損 -$1.71B 継続中の bottom-averaging。
+- [[lookonchain__2070369433172988325]]（134♥・2026-06-26）: Bitmine(Tom Lee) が 160,480 ETH（$248.7M）を追加 stake。総 4.88M ETH の 86% がステーク済み。
+
+ETF 流出（2026-06-25）:
+- [[lookonchain__2070153273986949137]]（57♥）: ETH ETF -$33M（1D） / -$183M（7D）。BTC ETF -$441M（1D） / -$749M（7D）。アウトフロー継続。
+
+大口 short 再エントリー（2026-06-26）:
+- [[lookonchain__2070517197781508193]]（170♥）: 以前 BTC/ETH/SOL 20x short で +$4.4M 利確した鯨が **912.9 BTC（$54.55M）+ 10,025 ETH（$15.65M）の新 20x short を開始**（今回は SOL なし）。
+
+**⚠️ 判断**:
+- OG 投げ売りは「最後の弱い手の降伏」逆指標の可能性もあるが、同時に ETF -$441M(BTC)/-$183M(ETH) 7D 流出が構造的出口を示す。
+- 機関買い（Chun Wang $152M/月 etc.）は BTC→ETH rotation を含む。ただし SharpLink -$1.71B は「損失中の買い増し」で信頼度は低い。
+- 20x short 再参入: 大口ベア勢は「利確後も下目線を維持」。
+- 既存合成「ETH = コンセンサストレード（リターン薄）」に対し、OG 降伏 + ETF 流出 + 20x short 再参入は**さらなる下方圧力の裏付け**。confidence=低〜中（既存より弱め）。
+- [[majors-rotation-supercycle]] 上: ローテ点火の前提が OG 投げ売り局面から始まる構造（「底は OG が諦めた後」という逆張り論）との関連は今後観察。
 <!-- synthesis:end -->

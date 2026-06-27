@@ -1,34 +1,30 @@
 ---
 type: entity
 kind: token
-source: auto-track
-status: dead
-ticker: $MANIFEST
-mint: fERD9husU3nj3YbFS1P2kesCW2Z5KHkq8FyGFfnpump
-created: 2026-06-26
-updated: 2026-06-27 (DEAD確定・peak$43.3k→$2,611/-94.0%・mcap枯れ)
-tags: [token, pumpfun, graduated, traction0]
+title: $MANIFEST
+updated: 2026-06-22
+tags: [trench, entity, token]
+mentions: 3
+accounts: 2
 ---
 
-# $MANIFEST — MANIFEST（fERD9h）
+# $MANIFEST
 
-pump.fun 発。"MANIFEST"——マニフェスト（宣言）命名。twitter/website なし・social 皆無。bonding curve 卒業済（complete=true）・real_sol=0。reply:0・KOL なし。
+> 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
-## ライフサイクル(auto-track)
+## 言及アカウント
+[[@PumpfunEco]] [[@moonshot]]
 
-| 項目 | 値 |
-|---|---|
-| mint | fERD9husU3nj3YbFS1P2kesCW2Z5KHkq8FyGFfnpump |
-| Pool | GCoV6k4Zw7UeBbV9XvHEoBzGcuxpAEAkFXDg6UBkfkCp |
-| Gate | safety:ok / traction:graduated |
-| MCap（birth） | $32,864 |
-| reply_count | 0 |
-| KOL（CA確認） | なし |
-| Twitter | — |
-| Website | — |
-| complete | true（graduated） |
-| real_sol | 0 |
-| tokenized_agent | false |
+## 共起トークン
+—
+
+## 高エンゲージ言及
+| likes | account | 抜粋 | source |
+|---|---|---|---|
+| 165 | [[@moonshot]] | Manifesting ($MANIFEST) is now verified on Moonshot. | [[moonshot__2069117116842696738]] |
+| 98 | [[@PumpfunEco]] | One of the top holders of $MANIFEST is sitting on a $238,000 position! 🔥 | [[pumpfuneco__2069500078847312350]] |
+| 66 | [[@PumpfunEco]] | One of the top holders of $MANIFEST is sitting on a $238,000 position! 🔥 | [[PumpfunEco__2069500078847312350]] |
 
 <!-- synthesis:start -->
 ## 合成
@@ -42,6 +38,3 @@ graduated × social 皆無 × real_sol=0 × traction0。"Manifest" 宣言系命�
 - outcome: died。[[launchpad-economics]]（educated-but-empty型） / [[rug-anatomy]]（型通り・台帳追記）
 
 <!-- synthesis:end -->
-
-## 関連
-[[launchpad-economics]] / [[rug-anatomy]]

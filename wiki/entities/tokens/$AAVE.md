@@ -17,7 +17,7 @@ accounts: 2
 [[@lookonchain]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$LINK]] [[$ENA]] [[$TRX]] [[$USDC]] [[$SUSHI]]
+[[$ETH]] [[$LINK]] [[$USDC]] [[$ENA]] [[$TRX]] [[$SUSHI]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

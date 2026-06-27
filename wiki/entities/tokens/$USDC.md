@@ -4,20 +4,20 @@ kind: token
 title: $USDC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 25
+mentions: 27
 accounts: 4
 ---
 
 # $USDC
 
-> 自動生成(brain/build_entities.py)。言及 25件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 27件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@DefiIgnas]] [[@lookonchain]] [[@rajgokal]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USDT]] [[$LIBRA]] [[$BTC]] [[$USD1]] [[$WOJAK]] [[$LINK]]
+[[$ETH]] [[$USDT]] [[$USD1]] [[$WOJAK]] [[$SOL]] [[$BTC]] [[$LIBRA]] [[$LINK]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

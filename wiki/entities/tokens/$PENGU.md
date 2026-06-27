@@ -4,13 +4,13 @@ kind: token
 title: $PENGU
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 10
 accounts: 3
 ---
 
 # $PENGU
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 10件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -30,6 +30,7 @@ accounts: 3
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
+| 249 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week, $BTC (@Bitcoin) leads the pack, fol | [[coingecko__2070469656750535096]] |
 | 131 | [[@theunipcs]] | over the past month:  • $BTC new 21-month lows • $ETH new 14-month lows • $SOL new 3 | [[theunipcs__2070425996038140331]] |
 
 <!-- synthesis:start -->
