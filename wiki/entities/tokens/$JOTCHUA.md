@@ -88,6 +88,19 @@ accounts: 3
 - **[[pumpfuneco__2070309600755118481]]**（66♥・2026-06-26T00:54Z）: 「A $Jotchua whale is currently holding a $121,000 bag」。前回（06-23 更新）の $114K → $121K。同一人物なら含み益が回復（pump 新レグで mark-to-market 上昇）、別人なら新大口の参入。いずれも $100K 超の単一大口が存在する事実は継続。ホルダー集中リスク（[[rug-anatomy]]）に変化なし。
 - confidence 低（変化なし）。
 
+### 2026-06-28 更新②（新 beat: badattrading_ TA entry + +26% 新レグ起点）
+出典: [[badattrading___2069843573013373057]]（11♥・2026-06-24T18:02Z）/ [[pumpfuneco__2070170439809216912]]（29♥・2026-06-25T15:41Z）
+
+**観測（事実）**
+- **badattrading_（2026-06-24、11♥）**: 「No brainer entry for $Jotchua, hitting the ascending support (red line), about to hit rsi 50, and below the middle line so it's oversold atm」= TA（テクニカル分析）ベースの具体的エントリーコール。「ascending support / RSI 50 / oversold」という複数指標を根拠にする。
+- **PumpfunEco（2026-06-25、29♥）**: 「$Jotchua is rallying, currently up 26% in 24 hours!」= 前回の +58% 日（119♥・2026-06-25T19:09Z、06-27 更新で記録）の**同日早い時点**の +26% 観測。同日に価格が 26% → 58% と推移したことが確認できる。
+
+**判断（light-touch）**
+- **badattrading_** は entity の言及アカウント一覧に存在するが、synthesis では @PumpfunEco + @Crypto_Alch の2アカとして扱ってきた。今回が**初の badattrading_ 固有発言の記録**。
+- TA エントリー call（11♥）は低エンゲージで signal 独立性は弱い。ただし「FA（ファンダ）なし・感情（Alch のオールイン）なし・純 TA」という手法の多様性は記録に値する。3つ目の独立アカが TA 根拠でコールしたという事実を追記するにとどめる。
+- ⚠️ 既存の構造（主シラー＝プラットフォーム feed + Alch 利益相反オールイン）に変化なし。badattrading_ の 1 件で独立 KOL 複数化とは評価しない（likes=11）。
+- confidence=低（変化なし）。
+
 ### 2026-06-28 更新（新 beat: $500M target・"Savior" メシア化・傍観者への呼びかけ）
 **観測（事実・2026-06-25〜26）**
 - **[[crypto_alch__2070062832368877704]]（42♥/7RT・2026-06-25T08:33Z）**: 「If the whole timeline could stop vamping and run $Jotchua to $500M / The trenches will be back」= Alch が初めて明示的な **$500M mcap ターゲット**を提示。同時に「vamping（別トークンをシルすること）をやめろ」という傍観者への呼びかけ = コミュニティを一点に集中させる動員型発言。「The trenches will be back」= meme 市場全体の復活をJOTCHUAに賭ける大義名分化。

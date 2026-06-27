@@ -30,5 +30,30 @@ posts: 24
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-28 初回合成
+
+**正体（観測）**:
+- @moonshot は Moonshot ラウンチパッド/取引プラットフォームの公式アカウント（個人ではない）。
+- 投稿はプラットフォーム促進：トークン認証（"X is now verified on Moonshot"）、giveaway、trench 温度の煽り投稿。
+- 「48 nations. one log」（438♥）＝グローバルユーザーベースを示すプロモーション。
+- 「majors down, memes UP」（422♥）＝相場局面を使ったプラットフォーム誘引メッセージ。
+
+**[[launchpad-economics]] 上の位置（判断）**:
+- [[launchpad-economics]] に記録された「Moonshot」競合（vs Pump.fun / Raydium LaunchLab / Axiom / Zora）の当事者アカウント。
+- 認証済みトークン（$TURTLE・$SON・$SOLANGELES）を流入誘引の anchor に使う。
+- 「any trillion dollar runners?」（476♥）・「trenches heating up」（331♥）＝ユーザーエンゲージメント target は「trench 参加者の FOMO」。
+
+**[[majors-rotation-supercycle]] との接点（観測）**:
+- 「majors down, memes UP」（422♥）は [[majors-rotation-supercycle]] ナラティブをプラットフォーム側が明示的に使っていることを示す。
+  ナラティブが platform 公式ツイートに乗る＝narrative の主流化フェーズを示す傍証。
+
+**⚠️ 懐疑**:
+- プラットフォーム公式ツイートは本質的に「自社への誘引」目的＝言説を中立情報として扱わない。
+- 「good boys get green candles」（355♥）など感情誘導型コピーが多い。
+
+**賭け仮説**:
+- Moonshot の投稿エンゲージメント（特に認証 token 発表）は launchpad 間の流動性争いの温度計として使える。
+  認証 token の一覧が Moonshot に多く集まれば、Pump.fun に対して launchpad シェアが移行中のシグナル。
+- 関連: [[launchpad-economics]] / [[majors-rotation-supercycle]] / [[$TURTLE]] / [[$SON]] / [[$SOLANGELES]]
 <!-- synthesis:end -->

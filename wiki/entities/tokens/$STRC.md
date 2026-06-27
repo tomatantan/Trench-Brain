@@ -97,6 +97,20 @@ accounts: 9
 - confidence=低（6/19 以来の最低水準。mNAV 0.59x・$60s コール・Digital Credit フレーミング批判が三位一体で弱気を強化）。
 - 接続: [[$MSTR]]（mNAV 0.59x = MSTR の市場評価）/ [[rug-anatomy]]（"Digital Credit" = 装いと実体の乖離）/ [[majors-rotation-supercycle]]（STRC/MSTR 崩壊 = BTC downside trigger 候補の probability が上昇）。
 
+### 2026-06-28 更新②（新 beat: Kaleo「STRD/STRK 先例」＋「50-100K BTC 売却を今すぐ」）
+出典: [[cryptokaleo__2069820277635031071]]（116♥・2026-06-24T16:29Z）
+
+**観測（事実）**
+- 「$STRC just made new all time lows again in the low 80s. Honestly think this might get a bit worse than just going to the mid 70s.」= 2026-06-24 時点で ATL が **low 80s**（→ その後 $77 → $71 と続落、前回更新③で記録済み）。
+- **「Expect it to more closely follow the path of what we've seen with STRD, STRK, etc.」** = **STRD・STRK（他の Strategy 優先証券）が辿った崩壊経路を $STRC も踏むという明示的な先例指摘**。STRD/STRK の具体的な崩落幅は本ソースに記載なし（外部確認推奨）が、Kaleo が比較対象として出すほど知られた崩落事例。
+- 「Strategy still has the opportunity to save their holders and assets from absolutely cannibalizing themselves, but... it'll take some humility and doing something drastic. e.g. **sell 50-100K+ BTC now and put $10B+ on their balance sheet rather than waiting until it dips into the mid 30s... the sooner they sell – the less they have to sell.**」= **50-100K BTC 売却・$10B+ 現金積み上げを今すぐやれ** という具体的要求。Jeff Dorman「25% scenario: $3-4B 売却」（既記・6/19）より規模が大きく（$3-4B → $10B+）、より急を要する旨を強調。「sooner they sell, the less they have to sell」= 売却を遅らせるほど BTC 価格が下がり、必要売却量が増えるという逆説の指摘。
+
+**⚠️ 判断**
+- STRD/STRK の先例は「Strategy が過去に発行した優先証券が par 割れ→崩落した先行事例として既知」という市場の認識を示す。$STRC が同じ経路を辿る確率を Kaleo は高く見ている。
+- 「$10B+ 現金・50-100K BTC 売却」= $BTC に対して直接的な大規模売り圧シナリオ。Jeff Dorman 25% scenario の「$3-4B 売却」より保守的でない（より大規模）。この規模感の乖離は「最低限何を売れば Stretch が助かるか」についての市場参加者間の不一致を示す。
+- この時点（2026-06-24）で「mid 70s への悪化」を予言 → 実際に $77 ATL（coingecko 2026-06-25）→ $71 到達（2026-06-26、前回更新③）と通りに推移 = Kaleo の short term price call は2回連続で的中している。
+- 接続: [[$MSTR]]（売却原資・希薄化）/ [[rug-anatomy]]（装い≠実体・par 崩落経路）/ [[majors-rotation-supercycle]]（50-100K BTC 売却 = BTC 直接の売り圧・既記 Jeff Dorman より規模 upgrade）/ [[onchain-verification]]（STRD/STRK 崩落の詳細は外部確認推奨）。
+
 ### 2026-06-28 更新（新 beat: $71 到達・MSTR に並走・Saylor 宣伝文句の可視化・「現金優先」自認）
 **観測（事実・2026-06-26）**
 

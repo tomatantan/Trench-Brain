@@ -102,6 +102,23 @@ accounts: 13
 - confidence=中（中立）。前回②「弱気寄り→中立」からさらに**やや強気方向**に動く（ETH→HYPE rotation + $17M 蓄積の重み）。ただし TOP10 short が解消されるまでは完全に強気とは言えない。
 - 接続: [[perp-dex-wars]]（Hyperliquid の long/short 板）/ [[majors-rotation-supercycle]]（ETH 崩れ→HYPE へのローテ軸）/ [[onchain-verification]]（大口 wallet 行動の裏取り）。
 
+### 2026-06-28 更新②（新 beat: lookonchain 2026-06-24 大口蓄積 $23.46M + CoinGecko trending #3）
+出典: [[lookonchain__2069600729468441066]]（168♥・2026-06-24T01:57Z）/ [[coingecko__2070469656750535096]]（249♥・2026-06-26T11:30Z）
+
+**観測（事実・時系列）**
+- **2026-06-24 大口蓄積（168♥）**: lookonchain「Whales are accumulating $HYPE! A newly created wallet, 0x987f, withdrew 278,827 HYPE (**$17.45M**) from Coinbase Prime 1 hour ago. Meanwhile, whale 0x2386 withdrew another 96,930 HYPE (**$6.01M**) from BitGo after a one-month break.」→ 合計 **$23.46M**。
+  - 0x987f: 新規作成 wallet（= fresh money の新規参入）
+  - 0x2386: 1ヶ月ぶりに BitGo から引出し（= dormant whale の再稼働）
+  - 既記の 2026-06-26 accumulation（0x66FE $14.41M + 0x6437 $2.87M / 0x987f $17.45M…）とは**別事象**＝合計で 2 日にわたり大口が $40M 以上を HYPE に移動。
+- **2026-06-26 trending（249♥）**: CoinGecko 週次 Top 20「This week, $BTC leads the pack, followed by $PENGU, and **$HYPE** (@HyperliquidX)」= HYPE が CoinGecko 週間で **BTC・PENGU に次ぐ全体 #3**。前回記録した 2026-06-22 「本日最多閲覧」よりも高い visible に。
+
+**⚠️ 判断**
+- 2026-06-24 と 06-26 を合わせると **1週間未満で $40M 超の大口引出し**（Coinbase Prime / BitGo / FalconX）が複数 wallet にわたって観測されている。market 下落中（BTC 21mo安・ETH 14mo安・SOL 30mo安）に逆行した蓄積が継続。
+- CoinGecko trending #3 = 検索・attention が BTC・PENGU（meme 代表）と並ぶ水準に上昇 = 短期 retail attention が HYPE に向いている傍証。ただし trending ≠ 資金流入であり独立 signal として過剰評価しない。
+- 「大口買い（$40M+）＋ retail attention 上昇」が同時進行している局面。TOP10 short（既記・継続中）との対立構造に「資金フローの累積規模」が加わった。
+- confidence=中（変化なし。蓄積の絶対額は増えたが TOP10 short 解消の確認なし）。
+- 接続: [[perp-dex-wars]]（Hyperliquid の板・蓄積 vs short）/ [[majors-rotation-supercycle]]（ETH崩れ→HYPE への capital allocation）/ [[onchain-verification]]（wallet 行動の裏取り）。
+
 ### 2026-06-28 更新（新 beat: theunipcs "$HYPE x $USELESS バーベル" 年末ホールドテーゼ）
 **観測（事実・2026-06-14〜15、キャプチャ 2026-06-25）**
 - **[[theunipcs__2066287677717074231]]（243♥/25RT・2026-06-14T22:32Z）**: 「most people are overcomplicating this cycle / $USELESS x $HYPE barbell and chilling until year-end probably outperforms 95% of portfolios / one owns the casino / the other is the ultimate meme / that's the trade!」

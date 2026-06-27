@@ -89,6 +89,13 @@ accounts: 19
 - 20x short 再参入 + ETF 流出 + $1.45B 清算 = **大口の弱気は利確後も構造的に継続**。
 - 既存合成「BTC = 最上流アンカー・Fed 政策連動」は変化なし。足元は「上流まで売られた全体収縮フェーズ」の確証が追加された。confidence=中（弱含み側の証拠追加）。
 
+### 2026-06-28 更新②（新 beat: CryptoHayes「fiat liquidity smoke alarm」フレーミング）
+出典: [[CryptoHayes__1908282149373124851]]（4,958♥・2025-04-04T22:14Z・2026-06-21 キャプチャ）
+
+**観測（事実）**: 「$BTC hodlers need to learn to love tariffs, maybe we finally broke the correlation with Nasdaq, and can move onto the purest form of a fiat liquidity smoke alarm.」（2025-04-04 = Trump 関税 shock 当日）。
+
+**判断（light-touch）**: 既存合成「BTC = 最上流アンカー・Fed政策連動」の補足。Hayes が使う **"fiat liquidity smoke alarm"** = fiat 流動性が拡大/縮小するとき最初に反応する警報装置、という BTC 役割定義。背景は 2025-04-04 の Trump 関税発動日で Nasdaq が急落した局面で BTC がデカップルした可能性を Hayes が観測。「Nasdaq との相関が切れた＝ BTC が独自の fiat liquidity センサーに移行しつつある」という phase shift 仮説。既存合成（QT→QE での BTC 最上流）と方向は同じだが、**Nasdaq デカップル**の可能性という軸が加わる。足元（2026-06-28）の BTC は多月安局面であり、「smoke alarm が鳴っている＝fiat 収縮サイン」とも読める。confidence=中（Hayes の macro フレーム補足、事実の新規性は薄い）。
+
 ### 2026-06-28 確認（新 beat なし）
 - worklist 代表ツイ「$BTC balance on exchanges just hit a 7-year low」([[@milesdeutscher]] 5,655♥ = [[milesdeutscher__1879921568236896769]]・2025年初の古ツイ再キャプチャ）/「If you had invested $1000 in $BTC in 2012」([[@zhusu]] 5,398♥ = [[zhusu__1363396833834201093]]・2021年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（21ヶ月来安値・大規模清算・BlackRock 入金・20x short）に変化なし。
 <!-- synthesis:end -->

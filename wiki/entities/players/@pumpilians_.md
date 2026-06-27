@@ -30,5 +30,27 @@ posts: 51
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 2026-06-28 初回合成
+
+**正体（観測）**:
+- Pumpilians はオンチェーンゲーム（Solana 上）の公式アカウント。[[$PUMPI]] を in-game 通貨として採用。
+- 投稿内容は一貫してプロダクト更新（mobile対応・PvP・clan system・quest NPC・monster実装）＝価格煽りなし。
+
+**[[$PUMPI]] のトークン需要構造（観測）**:
+- Clan 作成に 500,000 $PUMPI が必要（[[pumpilians___2067258935669866831]] 53♥）＝ゲーム内消費 = demand sink。
+- Starter Quest NPC・Clan War Room（PvP with wager）＝ゲームが複雑化するほどトークン消費機会が増える設計。
+- 51件の発信はほぼ全てアップデート通知＝dev は継続的に稼働中。
+
+**動線上の位置（判断）**:
+- [[launchpad-economics]] の「tokenized product」サブカテゴリ。単純 meme でなくゲームに組み込まれた token＝需要の発生源がゲーム採用数に依存する点で純 meme と異なる。
+- [[survivor-memes]] との接点：ゲーム traction（DAU・clan数・PvP参加者）が伸びれば $PUMPI の demand は内生的に持続＝外部 KOL 言及依存型より耐久性が高い構造。ただし「ゲームが流行るか」という別リスクを持つ。
+
+**⚠️ 懐疑（両論）**:
+- ゲームの実際のユーザー数・TVL が不明。dev 更新は active だが採用規模のデータがソース内にない。
+- Clan 作成コスト 500k $PUMPI＝参入障壁が高く、clan数の伸びが頭打ちになれば demand sink が鈍化する。
+
+**賭け仮説**:
+- $PUMPI は「ゲーム成長 ≒ トークン需要」の連動を持つ。DAU・clan数の増加が確認できれば [[survivor-memes]] 候補として評価できる。確認できなければ dev 見せ（体裁だけ更新）の可能性。
+- 関連: [[$PUMPI]] / [[launchpad-economics]] / [[survivor-memes]]
 <!-- synthesis:end -->
