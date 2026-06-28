@@ -106,4 +106,7 @@ ETF 流出（2026-06-25）:
 
 ### 2026-06-29 確認（新 beat なし）
 - worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/ 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 6/23・6/24・6/27・6/28 他で複数回確認済み。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・BTC beta 脱却未達・20x short）に変化なし。
+
+### 2026-06-29 確認②（新 beat なし・worklist 代表ツイ確認）
+- **4097♥ [[CryptoHayes__1584967277635522560]]**（2022-10-25）: 「1/ Guess who is pumping $BTC and $ETH」= **旧ツイ再キャプチャ**。前確認エントリで別 ID を引用（誤）、本ツイの実 ID を確認・記録。新情報なし。既存合成（OG 投げ売り・ETF 流出・BTC beta 脱却未達・20x short）に変化なし。
 <!-- synthesis:end -->

@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $INSENTOS（The Onboarder）
 mint: 7JynQAvMuBwkxo6oW2dbAjemXmUJh7juqKjpv7pxpump
 pool: GmkKuCUe475nEcvs3kNHf2MTawnpZ19fZugqTgfmYfHa
@@ -47,4 +47,12 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=低）
 - @KOLDestroyer のアカウント性質（批判系 vs genuine）が確認できれば signal 質が変わる。現状 traction0 × real_sol=0 = 崩壊デフォルト想定。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $1,724（2026-06-28T21:35Z）・peak $57,584 比 **-97.0%**。cause: "mcap枯れ"。
+
+**死因の型**
+- "The Onboarder" × @KOLDestroyer × Instagram website = 新規性ある組み合わせも traction0 → [[rug-anatomy]] "graduated-but-empty" 標準崩壊。
+- Twitter の風刺アカウント名（KOL Destroyer）× kol_ca 空 = 仮に genuine でも KOL 波及ゼロ。outcome: dead。
 <!-- synthesis:end -->

@@ -141,4 +141,8 @@ accounts: 19
 - **4214♥ [[CryptoHayes__1908113888291250647]]**（2025-04-04）: 「This weekend $BTC faces the Final Boss are you ready fam?」= **旧ツイ再キャプチャ**（tariff shock 週末前の煽り投稿、smoke alarm ツイートと同日 04/04）。
 - **4199♥ [[CryptoHayes__1909113124592161226]]**（2025-04-07）: 「So close fam. Oh what shall I do, if $BTC breaks below $76,500 my credibility will be in tatters ... BUY THE FUCKING DIP MOTHER FUCKER!」= **旧ツイ再キャプチャ**（smoke alarm 04/04 → 本ツイ 04/07 → donkey kong 04/11 の Hayes April 2025 BTFD シリーズ中間点）。
 - **light-touch 追記**: Hayes が $76,500 を自分の credibility floor として公言した実ツイの確認。その後 BTC は $59K まで下落（2026-06-25 既記）= BTFD コールが失敗した track record データ点。「smoke alarm / safe haven」ナラティブ vs 実価格乖離（既合成）の補強。confidence=中（変化なし）。
+
+### 2026-06-29 確認③（新 beat なし・worklist 代表ツイ確認）
+- **4097♥ [[CryptoHayes__1584967277635522560]]**（2022-10-25）: 「1/ Guess who is pumping $BTC and $ETH」= **旧ツイ再キャプチャ**（2022-06-23 更新で既確認）。新情報なし。
+- **3968♥ [[zhusu__1379630801566887940]]**（2021-04-07）: 「$BTC over 70k usd equiv in Korea now / Koreans truly a futuristic society」= **旧ツイ再キャプチャ**（2021-04 の韓国 kimchi premium 観測、当時 BTC ~$57K グローバル・韓国内で 70K USD 相当）。現時点の新 beat なし。既存合成（21ヶ月来安値・LTHS 80%・safe haven ナラティブ vs 実価格乖離）に変化なし。
 <!-- synthesis:end -->

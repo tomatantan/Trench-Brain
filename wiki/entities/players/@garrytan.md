@@ -30,5 +30,20 @@ posts: 17
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- YCombinator社長。VCレイヤーの代表的声。
+- 最高エンゲージ（814likes）："AGI gives you the intelligence / You still have to collect your personal context to get the real unlock"（[[garrytan__2068701356358308112]]）→「personal brain / company brain」が2026年の差別化要素という主張。
+- "California asset seizure tax is only going to impoverish the state"（[[garrytan__2069234760615096344]], 236likes）→ CA税制批判。crypto資産への規制コスト懸念と重なる。
+- "Jarvis-core is the new most powerful launch video meme"（[[garrytan__2070165863907668426]], 86likes）→ AI agent のlaunch文化・meme認識を示す発言。
+- SF政治系投稿複数（extremist left, City Attorney, 7x7 art exhibit）→ Bay Area政治活動家としての側面。
+
+**判断（推論）**
+- 役割：[[vc-founder-thesis-layer]] の典型例。VCがAGI・personal context・agent launchをどう定義しているかの一次観察先。
+- "personal brain" 発言は、trench-brainが実現しようとしているLLM Wiki コンセプトそのものと一致する——VC層でもこのフレームが広まっている証拠。
+- [[external-event-to-token-pattern]]：Garrytan が言及するAI agent概念（Jarvis-core等）はtoken化される可能性があり、YC endorsement はナラティブ起点になり得る。
+- [[regulation-catalyst]]：CA税制批判はcrypto移住（TX/FL）ナラティブの背景として機能。規制コストが資本移動を促す動線。
+- ⚠️矛盾：投稿の多くはSF政治・startup教訓であり、直接的なcrypto/token言及は薄い。crypto trenchへの波及はナラティブ接続（AGI×token）に依存する推論層。
+
+関連：[[vc-founder-thesis-layer]] [[external-event-to-token-pattern]] [[regulation-catalyst]]
 <!-- synthesis:end -->

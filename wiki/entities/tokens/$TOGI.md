@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $TOGI（The Gambling Bull）
 mint: 5CrjzbLgpE7vVR35vBFSS5AGytCvTcbaoYyRXyWLpump
 pool: 3qc7zAUJxGX5WSEH1KdUF3j9ZdS2cb3KNGY9njzDYLF2
 created: 2026-06-29
-updated: 2026-06-29
-tags: [trench, entity, token, auto-track, watch]
+updated: 2026-06-29（死亡確定）
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $TOGI（The Gambling Bull）
@@ -20,7 +20,9 @@ tags: [trench, entity, token, auto-track, watch]
 | pool | 3qc7zAUJxGX5WSEH1KdUF3j9ZdS2cb3KNGY9njzDYLF2 |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $407,671（2026-06-28T18:18Z） |
-| peak_mcap | $407,671（暫定） |
+| peak_mcap | $407,671（確定） |
+| last_mcap | $32,421（2026-06-28T21:35Z） |
+| outcome | mcap -92% from peak → dead |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/jeromedev11/status/2071295052228255794 |
@@ -49,4 +51,14 @@ tags: [trench, entity, token, auto-track, watch]
 **賭け仮説**（confidence=低）
 - $407k 誕生という数値の大きさ自体が観測シグネチャ。traction0 × real_sol=0 のまま維持できれば [[survivor-memes]] 候補格上げも、現状は [[rug-anatomy]] "BREAKOUT-then-dead" コホートに近い。
 - 次サイクルで reply/KOL 言及が確認されなければ dead-spiral 標準展開。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $32,421（2026-06-28T21:35Z）・peak $407,671 比 **-92.1%**。cause: "mcap -90% from peak"。
+- real_sol=0・reply=0 全期間変化なし。kol_ca 未発生。
+
+**死因の型**
+- $407k × traction0 = [[rug-anatomy]] "whale pump / deployer 自転車" BREAKOUT-then-dead 確定。T3ゼロ全期間のまま peak を記録し崩壊。
+- [[launchpad-economics]]: 今バッチ内最高 mcap の誕生が 1 サイクル以内に -92% 死亡 = peak mcap の高さと生存率の無相関を再実証。
+- outcome: dead / T3ゼロ全期間 / whale pump疑い確定。
 <!-- synthesis:end -->

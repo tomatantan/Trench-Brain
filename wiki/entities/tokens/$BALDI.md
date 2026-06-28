@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $BALDI
 mint: 2wGX6NEfUhUGkAeVL59RVeTXrfBbWg3GiJrPBUCfpump
 created: 2026-06-26
@@ -49,6 +49,13 @@ pump.fun 発。twitter: @blameBaldi。名前「Baldi」はゲーム "Baldi's Bas
 
 **概念接続**: [[launchpad-economics]]（graduated・kol-gate通過・監視対象） / [[rug-anatomy]]（real_sol 0 × community ゼロ = 崩壊リスク・KOL波及なし型）
 
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $5,788（2026-06-28T21:35Z）・peak $11,512（推定）比 **-76.3%**（birth $24,403 比 -76.3%）。cause: "mcap枯れ"。
+
+**死因の型**
+- KOL CA 裏取り確認済み（tsuyuto6154・67likes/19RT）でも community 需要は発生せず。"KOL 1本支持では community 形成に至らない" N 追加。[[rug-anatomy]] "KOL RT 波及なし崩壊" 型確定。
+- outcome: dead。
 <!-- synthesis:end -->
 
 ## 関連

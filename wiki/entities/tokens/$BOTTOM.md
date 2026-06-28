@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $BOTTOM（Generational Bottom）
 mint: DSMvmfQij2CcpkePqWeD5UCUAxM5vALYvp6JtTHwpump
 pool: Grw5UaiMnSJ4EuCGQ4BazDQqDQWEfSpR7kHL3R4GYGsV
@@ -46,4 +46,11 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=最低）
 - 名前の面白さはあるが traction なし。崩壊デフォルト想定。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $2,882（2026-06-28T21:35Z）・peak $6,553 比 **-56.0%**。cause: "mcap枯れ"。
+
+**死因の型**
+- "Generational Bottom" 反語的命名 × traction0 = 命名の面白さは traction に転化せず。ultra-low コホート。outcome: dead。
 <!-- synthesis:end -->

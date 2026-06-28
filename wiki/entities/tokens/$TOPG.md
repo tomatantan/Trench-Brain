@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $TOPG（The Top G）
 mint: c9r8gwFNbPC1pQD8cLk4rKMJ7CNDtq1qh9cPdWPpump
 pool: 5a2LQDoTM4vwMEphXn9yvhr6eJWMnv6s9DFNS9xuPJSS
@@ -46,4 +46,11 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=低）
 - Tate brand association meme は需要が見込める一方、kol_ca 空 × traction0 = [[rug-anatomy]] "association marketing × traction0" 標準パターン。次サイクルで reply 増加や独立 KOL 支持がなければ崩壊デフォルト。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $3,929（2026-06-28T21:35Z）・peak $39,417 比 **-90.0%**。cause: "mcap枯れ"。
+
+**死因の型**
+- Tate brand（"Top G"）association × traction0 → celebrity 命名需要は KOL 言及なしでは持続せず。[[rug-anatomy]] "association marketing 崩壊" N 追加。outcome: dead。
 <!-- synthesis:end -->

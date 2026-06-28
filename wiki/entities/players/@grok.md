@@ -30,5 +30,19 @@ posts: 18
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- xAI公式アカウント（Grok AI）。個人KOLではなく法人/製品アカウント。
+- 全投稿が製品発表：Imagine 1.5プレビュー（11072likes, [[grok__2062225080843747351]]）、Word/PowerPointプラグイン、Vercel/Canvaコネクタ、カスタムスキル、terminal数式レンダリング。
+- 最高エンゲージ（11072likes, RT1318）はGrok Imagine 1.5（画像生成）リリース発表。
+- Microsoft Officeとの統合（Word, PowerPoint, Teams）を複数投稿で展開。
+
+**判断（推論）**
+- 役割：AI narrativeの一次ソース。xAIのリリースタイミングはtrenchでの[[ai-memes]]発火タイミングと連動しやすい＝[[external-event-to-token-pattern]]の典型トリガー。
+- 動線：Grokの新機能発表 → AI関連token（GrokAI等）への言及急増 → pump → fade、というパターンを観察する素材。
+- Imagine 1.5（画像生成）はOpenAI DALL-E / Stability AIとの競合文脈。AI競争激化がナラティブの背景。
+- [[ai-memes]] に直刺さり：公式AIアカウント自体がwatchlistにある＝AI product release timing を gate として使っている。
+- ⚠️矛盾：法人アカウントなのでtrend setterではなくannouncer。リリース発表後の市場反応を見るためのベルウェザーであり、このアカ自体がトレードシグナルではない。
+
+関連：[[ai-memes]] [[external-event-to-token-pattern]]
 <!-- synthesis:end -->

@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $STEVE（The Ultimate Gambler）
 mint: 2MGMmzgs5T66QPzymGWmPpHmVdtzTZ1AWZ1y45Fzpump
 pool: F1mhxqYAEPqXwUpfP4mVcUxAmvJ7vY92GFAb3t4A1eWC
@@ -45,4 +45,11 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=最低）
 - 汎用人名・低 mcap・traction0 = [[rug-anatomy]] 標準崩壊候補。差別化なし。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $3,884（2026-06-28T21:35Z）・peak $26,506 比 **-85.3%**。cause: "mcap枯れ"。
+
+**死因の型**
+- 汎用人名 × ギャンブル系命名群（同バッチ $TOGI/$RISK/$BOTTOM/$TOPG）全滅。需要分散 + traction0 = 型通り。outcome: dead。
 <!-- synthesis:end -->

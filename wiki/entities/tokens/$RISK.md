@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $RISK（Take The Risk）
 mint: 9BTwPcqiHZBAsaQwnPNG9LBHjGeD1GBu3YW2P89tpump
 pool: 2mkqU9gnG2eTM6fHQR5c5HtzsvE3X9KCeeD6ouCY7PoA
@@ -43,4 +43,11 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=最低）
 - social 皆無 × real_sol=0 = 崩壊デフォルト確実視。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $1,536（2026-06-28T21:35Z）・peak $7,232 比 **-78.8%**。cause: "mcap枯れ"。
+
+**死因の型**
+- ultra-low × social 皆無 = [[launchpad-economics]] <10k 死亡率100% コホート。型通り。outcome: dead。
 <!-- synthesis:end -->

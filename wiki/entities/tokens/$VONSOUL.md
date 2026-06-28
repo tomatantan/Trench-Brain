@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $VONSOUL（The Artist）
 mint: A1oXmM78zn6PVm2XkkAY8Eh8vNzGuzrbEeZcLLBppump
 pool: Hcyh1yu6dSaJ1AFFkbt9Q3msC3PuTEymxb1hWGzMchNX
@@ -46,4 +46,11 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=低）
 - @vonsoulart が genuine クリエイターであれば creator-token 型の需要が期待できるが、kol_ca 空 × traction0 の現状では証拠不十分。次サイクルで @vonsoulart の独立発信や reply 増加があれば格上げ候補。
+
+### 2026-06-29 死亡確定（auto-track death）
+**観測（事実）**
+- last mcap $1,427（2026-06-28T21:35Z）・peak $24,102 比 **-94.1%**。cause: "mcap枯れ"。
+
+**死因の型**
+- creator-token 疑い（ticker/account 名一致）でも traction0 × real_sol=0 → community 需要不発のまま崩壊。"creator が発行すれば支持される" は未証明。outcome: dead。
 <!-- synthesis:end -->

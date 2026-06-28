@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7375件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7373件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**297ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,7 +16,7 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 11 | 8 | 97 | 4214♥ @CryptoHayes: This weekend $BTC faces the Final Boss are you rea / 4199♥ @CryptoHayes: So close fam. Oh what shall I do, if $BTC breaks b |
+| [[$BTC]] | 11 | 8 | 95 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3968♥ @zhusu: $BTC over 70k usd equiv in Korea now  Koreans trul |
 | [[$ETH]] | 4 | 3 | 104 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
