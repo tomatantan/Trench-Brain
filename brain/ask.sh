@@ -15,6 +15,10 @@ command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }
 # 時系列データ(直近)＝「いつ何が変わった/速度/トレンド」の問いに使う。日次snapshot。
 TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列データなし)')"
 
+# ★リアルタイム pump 観測(裏で常時更新=live_pulse_writer が数分間隔で書く別store)。
+# 「今 何が pump/launch してる/熱い」系はこれを主に参照(corpus/wikiは合成済だが数時間〜古い)。
+LIVEPULSE="$(cat brain/state/live_pulse.json 2>/dev/null || echo '(リアルタイムpumpデータなし=launch_stream/live_pulse_writer 未稼働)')"
+
 # 問いに $TICKER / CA があれば live X検索(今の熱・watchlist外含む)。無ければ空=スキップ(一般問いはcorpusのみ)。
 LIVEX="$(python3 - "$Q" <<'PY'
 import sys, re, json, urllib.request, urllib.parse
@@ -93,6 +97,10 @@ $(cat brain/methodology/synthesis-rules.md)
 ## 時系列データ（直近14日の日次snapshot＝pulse_history）
 「先週から何が変わった/トレンド/速度」系の問いは**このデータで答える**（死/backlog/テーマ分布/台帳/watchlistの推移）。スナップショットの差分を読め。死亡/跳躍台帳(append式)も時系列の根拠に使える。
 $TS
+
+## ★リアルタイム pump 観測（裏で常時更新＝今の生の流れ・最重要の鮮度層）
+「今 何が pump/launch してる/盛り上がってる/熱い meme は」系は**まずこれを参照して答える**（corpus/wikiは合成済だが数時間〜数日古い・X収集は課金切れ停止中）。flow件数・scam率・theme分布・traction候補(live mcap＋検知時からの変化%＝動いてるか死んでるか)・death分母。**generated_at が古い or flow=0 なら「リアルタイム観測が止まっている」と正直に言え**（捏造禁止）。
+$LIVEPULSE
 ${LIVEX:+
 
 ## live X（問いの \$ticker/CA を今 誰が語ってるか・watchlist外含む・follower重み）
