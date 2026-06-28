@@ -30,5 +30,19 @@ posts: 67
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 投稿67件、最高エンゲ20,484likes（"US Senate passes bill to ban the Federal Reserve from creating a CBDC"、2,454RT）。
+- 投稿スタイル: "JUST IN:" ヘッドライン形式。速報特化、独自分析なし。
+- 主要ニュース（likes順）: CBDC禁止法可決(20k)、Ripple MiCA承認(9k)、Crypto Clarity Act hearing(8k)、ETH Foundation 20%リストラ(8k)、$SPCX -10.5%(6k)、株式市場$1T喪失(6k)、BTC$63k割れ(6k)、Trump "economic boom"発言(5.8k)。
+- ticker: $SPCX(2)、伝統株($META/$AAPL/$GOOGL/$VZ各2)、$BTC/$ETH/$MU/$RLUSD(各1)。
+
+**判断（推論）**
+- **役割: trench速報インフラ**。マクロ・規制ニュースを最速でcrashさせる増幅器。多数KOLが一次情報源として参照し、リアクション起点となる。
+- [[regulation-catalyst]] に直結: CBDC禁止法・Crypto Clarity Act・Ripple MiCAがすべて上位エンゲ＝規制動向の感度計として機能。このアカウントが拾った規制ニュースがtrench全体のリアクション起点になる動線。
+- [[spacex-ipo-narrative]]: $SPCX 10.5%下落ニュースが6k likes ＝ SpaceX価格イベントの速報拠点としても機能。
+- [[majors-rotation-supercycle]]: BTC$63k割れ・株市場$1T喪失などマクロ下落フェーズの速報→ majors売り圧の即時可視化ノードとして機能。
+
+**⚠️矛盾**
+- 速報特化のため独自見解なし。エンゲ数はニュース強度を反映するがWatcherGuru自身の分析価値は引き出せない（増幅器）。高エンゲ＝重要ニュース、ではあるが、クリプト外（GTA6価格発表が6.9k）も混在するため信号/ノイズの選別が必要。
 <!-- synthesis:end -->

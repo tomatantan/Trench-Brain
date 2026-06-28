@@ -83,4 +83,12 @@ accounts: 10
 - SOL 30ヶ月来安値 × zhusu「Solana summer」= **フロア形成への期待 KOL が出始めた**シグナル。既存合成「大口 short 利確済み・alt 母艦機能未点火」に対し「底近い可能性」の声が加わった。
 - ⚠️ zhusu は 2022 年の前回強気コール（「undeniably wrong」の自認、既記）の再現リスクがある。confidence=中（変化なし、zhusu 強気は逆指標リスク付きで残す）。
 - 接続: [[majors-rotation-supercycle]]（SOL = alt 母艦、bottom timing の観察対象）/ [[jp-meme-cluster]]（SOL 上 meme の温床・bottom から meme szn の時計）。
+
+### 2026-06-28 更新③（新 beat: DefiIgnas「SOL が ETH の ultra sound money 奪取」・light-touch）
+出典: [[defiignas__2070503628604162480]]（40♥・2026-06-26T13:45Z）
+
+**観測（事実）**: [[@DefiIgnas]]（2026-06-26T13:45Z）: 「$SOL が ETH の "ultra sound money" ナラティブを奪える想像をしてみよ。現状: base-fee burn ~648 SOL/日 vs インフレーション ~60,000 SOL/日（burn 率 1.2%）。Solana が推進中: ①インフレーション削減 ②SIMD-547 resource-based base fee（100% burn）→ 追加 1,500-1,800+ SOL/day burn 可能。**tokenized stock が onchain demand を創出 → txs 増加 → burn 増加**。bull market 時に SOL が deflationary になる可能性。」([[defiignas__2070503628604162480]] 40♥)
+
+**判断（light-touch）**: 40♥ = 低エンゲージ。SOL 30ヶ月来安値（既記）という底値局面で「deflationary SOL」「ETH ultra sound money を奪う」という **bull market 後の SOL ナラティブ転換の種** として記録価値あり。tokenized stock = SOL onchain demand の鍵という論は [[spacex-ipo-narrative]] ライン（Backpack tokenized equities）との接続で整合する。zhusu「Solana summer」（既記）と方向一致。confidence=低（40♥・まだ narrative レベル・実装未完）。
+- 接続: [[majors-rotation-supercycle]]（SOL の deflationary 化 = alt 母艦として次フェーズの前提）/ [[spacex-ipo-narrative]]（tokenized stock = SOL onchain demand 創出の鍵として DefiIgnas が明示）/ [[l1-substrate-wars]]（ETH vs SOL ultra sound money ナラティブ競争の新軸）。
 <!-- synthesis:end -->

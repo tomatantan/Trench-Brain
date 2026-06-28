@@ -197,4 +197,24 @@ accounts: 9
 - 接続: [[$MSTR]]（MSTR 株価 = STRC の崩壊に並走・希薄化の原資）/ [[rug-anatomy]]（"false advertising" × "Ponzi" 命名 = 装い≠実体の完熟事例）/ [[majors-rotation-supercycle]]（BTC $60K 割れ + STRC 崩壊 = downside trigger の確度上昇）/ [[onchain-verification]]（Wall Street が "distressed credit" と識別 = 信用市場の外部検証）。
 - confidence=低（最低水準継続。"Strategy Ponzi" 命名・Wall Street 零値評価・chooserich "apocalypse" = 言論爆発で悪化方向）。
 - ⚠️ zhusu counter-bullish「$90 回復」は confidence=低（26♥ 薄く、BTC $60K 割れ吸収が前提）。残す（指針5 両論）。
+
+### 2026-06-28 更新⑤（新 beat: Apyx = 最大 STRC ホルダー + apxUSD = STRC 担保 stablecoin・systemic cascade 新リスク）
+出典: [[cryptokaleo__2069789814317019144]]（57♥・2026-06-24T14:28Z）/ [[cryptokaleo__2069832770503754167]]（22♥・2026-06-24T17:19Z）/ [[trustlessstate__2070145958420079094]]（63♥・2026-06-25T14:03Z）
+
+**観測（事実・2026-06-24〜25）**:
+- [[@CryptoKaleo]]（2026-06-24T14:28Z）: 「The largest holder of $STRC invited me to join them on a space this afternoon to discuss all things Strategy. We'll cover: - **Apyx's flagship product apxUSD（a stablecoin backed by STRC）** - All things $MSTR - Bitcoin & DATs - Saylor.」([[cryptokaleo__2069789814317019144]] 57♥・[[cryptokaleo__2069818627440759264]] 109♥ RT)
+  → **Apyx = $STRC の最大保有者**、かつ flagship product = **apxUSD = STRC を担保とする stablecoin**。$STRC が par $100 に対し $71-76 で崩落している局面で、その STRC を担保に stablecoin を発行している最大保有者が存在する。
+- [[@CryptoKaleo]]（2026-06-24T17:19Z）: 「Drop any questions you want me to ask Apyx（the largest holder of $STRC）during our space:」([[cryptokaleo__2069832770503754167]] 22♥) = CT が直接 Apyx に問い直す場として機能。
+- [[@TrustlessState]]（2026-06-25T14:03Z）: 「yikes dude! $STRC trading down to $76」([[trustlessstate__2070145958420079094]] 63♥) = Kaleo 以外の watchlist KOL（TrustlessState）が $76 到達を "yikes" と表現 = **STRC 崩落の認知が Kaleo 外にも広がった**。
+
+**⚠️ 判断（cascade リスクの追加）**:
+- **apxUSD = STRC 担保 stablecoin** の存在は、既存の「STRC 崩壊 → BTC 売り圧」伝播ルートに **第3の経路**を追加する:
+  ① STRC $71 崩落 → Apyx の collateral value 劣化（par $100 比 29% 下） → apxUSD のアンダーコラテ状態に入る可能性
+  ② apxUSD de-peg リスク → Apyx が STRC を清算/売却 → さらに STRC を圧迫 → 負のフィードバックループ
+  ③ stablecoin de-peg は systemic event（2022 UST 崩壊の記憶） = 市場センチメントへの二次打撃
+- ⚠️ **重要な留保**: apxUSD の具体的な担保率・清算メカニクムはソースに不明。"a stablecoin backed by STRC" はプロモーター（Apyx/Kaleo スペース告知）の呼称 = 実体で分類が必要（[[onchain-verification]]）。overcollateralized か、STRC 価格感応度がどれほどかは**未検証**。
+- ⚠️ 赤旗: Apyx = 最大ホルダーとしてスペース開催 = **利益相反**（STRC 価格防衛インセンティブあり）。apxUSD プロモ兼務の可能性。Kaleo が参加・告知したことは記録するが Apyx の主張を鵜呑みにしない。
+- TrustlessState "yikes dude" は $76（→ その後 $71、既記）の3rd-party 確認 = Kaleo コミュニティ外での驚き＝崩落の認知拡散。
+- confidence=低（変化なし。apxUSD cascade リスクが判明し、STRC 崩壊の潜在的 contagion 経路が追加された）。
+- 接続: [[rug-anatomy]]（STRC 担保 stablecoin = 2重の装い×実体乖離の連鎖・[[rug-anatomy]] の「構造的崩壊」完熟事例に新次元追加）/ [[onchain-verification]]（apxUSD backing 構造・清算メカニクムは独立確認推奨）/ [[majors-rotation-supercycle]]（STRC → apxUSD → BTC という cascade 経路の発見 = downside trigger の連鎖性が拡大）。
 <!-- synthesis:end -->

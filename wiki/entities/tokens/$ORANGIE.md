@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dying
 title: $ORANGIE
 mint: DuBrjnHaC8BMP6EZ2md38oSERYU1msh8VumPoG2Gpump
 pool: 5e8xaAzjXFzPxqe5LF9h4jreveRXKkNzXx23nCXvfxaF
 created: 2026-06-28
 updated: 2026-06-28
-tags: [trench, entity, token, auto-track]
+tags: [trench, entity, token, auto-track, dying]
 ---
 
 # $ORANGIE（The Italian Stallion）
@@ -19,7 +19,7 @@ tags: [trench, entity, token, auto-track]
 | mint(主体) | DuBrjnHaC8BMP6EZ2md38oSERYU1msh8VumPoG2Gpump |
 | pool | 5e8xaAzjXFzPxqe5LF9h4jreveRXKkNzXx23nCXvfxaF |
 | gate | safety:ok / traction:graduated |
-| mcap(birth観測) | $101,831 |
+| mcap(birth観測) | $101,831 → $97,398 → $12,371（-87% 2026-06-28T08:52Z） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/orangie/status/2071102988970590458 |
@@ -47,4 +47,8 @@ tags: [trench, entity, token, auto-track]
 **賭け仮説**（confidence=低）
 - traction0 × real_sol=0 × graduated = [[rug-anatomy]] "graduated-but-empty" 最頻パターン。
 - 独立 KOL の CA 言及が確認されなければ dead-spiral 候補。[[survivor-memes]] 到達条件未達。
+
+### 2026-06-28 update（mcap-87%）
+**観測**: mcap $97,398 → $12,371（-87%）。reply_count 0 のまま。status: dying に更新。
+**判断**: 初回合成で指摘した「traction0 × real_sol=0 = graduated-but-empty」パターンが的中。-87% = [[rug-anatomy]] dead-spiral 進行中。KOL 支持の裏取り未確認のまま dump。次サイクルで死亡確認されれば台帳記録。
 <!-- synthesis:end -->

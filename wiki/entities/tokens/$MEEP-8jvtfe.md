@@ -6,7 +6,7 @@ mint: 8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump
 source: auto-track
 status: watch
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-28
 tags: [token, pumpfun, graduated, kol-ca, watch, cat-meme, reply-high, jp-adjacent]
 ---
 
@@ -20,7 +20,7 @@ pump.fun 発。名称「MEEP CAT」——cat meme 系。同名の別 mint（E7wb
 |---|---|
 | mint | 8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump |
 | Gate | safety:ok / traction:kol（tsuyuto6154 CA 言及） |
-| MCap (観測時) | ~$60,669 |
+| MCap (観測時) | ~$60,669 → $36,331 → $51,435（+42% 2026-06-28T08:52Z） |
 | reply_count | 164（今バッチ最高水準） |
 | KOL (kol_ca) | tsuyuto6154 |
 | KOL (kol_ticker) | なし |
@@ -42,6 +42,10 @@ pump.fun 発。名称「MEEP CAT」——cat meme 系。同名の別 mint（E7wb
 - リスク: 先行 $MEEP との混同資金（同 ticker で wallet 検索が混乱）、reply は pump.fun コメント欄であり buying interest と必ずしも一致しない（⚠️ [[rug-anatomy]] 型 ⑳『reply≠buying interest』の注記参照）。
 
 **概念接続**: [[launchpad-economics]]（graduated・KOL gate） / [[survivor-memes]]（reply×KOL = traction 足切りクリア） / [[external-event-to-token-pattern]]（TikTok viral 起点可能性）
+
+### 2026-06-28 update（mcap+42%）
+**観測**: mcap $36,331 → $51,435（+42%）。reply_count 164 変化なし。graduated 維持。
+**判断**: 短期反発の観測。reply が横這いのまま mcap だけ動いた = 新規 buying があるが新たな community 反応は出ていない。TikTok 起点の散発的買いか、KOL（tsuyuto6154）フォロワーの遅延 entry が疑われる。引き続き reply / KOL 再言及を監視。
 <!-- synthesis:end -->
 
 ## 関連

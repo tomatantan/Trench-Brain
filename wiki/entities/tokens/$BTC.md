@@ -114,4 +114,18 @@ accounts: 19
 ### 2026-06-28 確認③（worklist代表ツイ確認）
 - worklist 代表ツイ「Buy the rumor buy the news buy the dip light the fuse」([[@zhusu]] 4,552♥ = [[zhusu__1450003590517452801]]・2021-10-18の古ツイ）= 旧ツイ再キャプチャ。
 - 「Do you hear that? … it's the sound of the money printers」([[@CryptoHayes]] 4,452♥ = [[CryptoHayes__1936854369980346588]]・2025-06-22）= 上記更新③で合成済み。
+
+### 2026-06-28 更新④（新 beat: CredibleCrypto LTHS 80% 底近し論 + Hayes "donkey kong" 補完）
+出典: [[crediblecrypto__2070478528832057362]]（408♥・2026-06-26T12:05Z）/ [[CryptoHayes__1910707923824894114]]（4,414♥・2025-04-11T14:54Z・旧ツイ・2026-06-21キャプチャ）
+
+**観測（事実）**:
+- [[@CredibleCrypto]]（2026-06-26T12:05Z）: 「LTHS（Long-Term Holder Supply）が記録的 16.6M BTC（~80% of total supply）に到達。2023/2024 の $27K 底と同様の構造—panic 売り・強制売りが出尽くし、新たな買い手が吸収した後に supply が歴史的制約となって価格が急回復した先例。**"odds are that a bottom is closer than most think"**。強制売りの black swan がなければ底からの回復はほとんどが思う以上に速い。」([[crediblecrypto__2070478528832057362]] 408♥)
+  = onchain LTHS データを根拠とする逆張り底論。LTHS 80% は「売るべき weak hands が売り切った」供給制約シグナル。
+- [[@CryptoHayes]]（2025-04-11T14:54Z）: 「It's on like donkey kong. We will be getting more policy response this weekend if this keeps up. We are about to enter UP ONLY mode for $BTC.」([[CryptoHayes__1910707923824894114]] 4,414♥ = 2025-04-11 = Trump 関税 shock の翌週) = 「fiat liquidity smoke alarm」（2025-04-04・既記）の1週後。"政策対応が来る → BTC UP ONLY" という macro policy bet の継続表明。
+
+**⚠️ 判断**:
+- CredibleCrypto の LTHS 80% は観測データ根拠の bullish 論。2023→$100K の先例は有力だが、CredibleCrypto 自身が「例外: LUNA/3AC 型の強制売り black swan があれば遅延する」と but を付ける。**$STRC 崩壊 → Saylor 大量 BTC 売却シナリオ**（Jeff Dorman 25%/Kaleo $10B+ 要求、既記）は正にその "black swan 候補" として同時並行で存在する。LTHS bullish × STRC 潜在的強制売り = 相殺するリスク二極構造。
+- Hayes "donkey kong" は既存合成（BTC = fiat liquidity smoke alarm / macro policy driven）の方向内。新規性は薄く、April 2025 tariff 週の連続 Hayes 強気コールの一環として参照のみ。
+- 接続: [[majors-rotation-supercycle]]（LTHS 底論 = ローテ号砲の前提条件）/ [[onchain-verification]]（LTHS = onchain 観測データ、16.6M BTC で独立確認推奨）/ [[$STRC]]（LTHS "black swan 例外" = STRC 崩壊起因 BTC 強制売りシナリオ）。
+- confidence=中（LTHS データは強固だが STRC リスクが black swan 条件に該当しうる）。
 <!-- synthesis:end -->

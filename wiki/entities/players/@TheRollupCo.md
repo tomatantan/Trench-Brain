@@ -30,5 +30,21 @@ posts: 81
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 投稿81件、最高エンゲ153likes（$AERO言及）。
+- $AERO(1), $HYPE(1)。
+- 153likes: "Alexander Cutler says Coinbase Ventures had to buy $AERO on the open market (and it was their biggest onchain token purchase to this day). 'No, we do not have any tokens to sell.'"（CB Venturesがトークン未保有で市場から買った事実）。
+- 129likes: "Andy got a payout and put nearly all of it into aerodrome-finance:native at $0.54"（インサイダー的観測）。
+- 79likes: "SEC Commissioner Hester Peirce on Perps, Prediction Markets, & The Future of Crypto"（Peirce SEC退任示唆）。
+- 75likes: "token buybacks mean nothing if insiders are dumping more"（トークノミクス批判）。
+
+**判断（推論）**
+- **役割: podcast/メディア型KOL**。インタビュー・要人発言切り抜きを速供給。主取材対象: DeFiプロトコル創業者・SEC規制当局・L2/rollup分野。
+- [[vc-founder-thesis-layer]]: "token buybacks mean nothing if insiders are dumping more"はVC/インサイダーのトークンダンプ批判の典型フレーム。CB Venturesが$AEROをOTC非受領でopen market購入という非標準VC動線も記録＝「資本が公正に市場から買った」事例として対比参照可能。
+- [[perp-dex-wars]]: Hester Peirce on Perps/Prediction Marketsインタビュー＝perp規制の最前線追跡。$HYPE言及も同一動線。
+- [[regulation-catalyst]]: Hester Peirce SEC退任（暗号資産フレンドリーコミッショナーの離脱）を速報。規制環境変化の観測点。
+
+**⚠️矛盾**
+- エンゲ上限153と低い。リサーチ品質は高いがtrench内の直接価格影響力は限定的（分析受信者層向け媒体か）。$AEROを肯定的に取り上げているが、これがポジションを持っているかは不明。
 <!-- synthesis:end -->

@@ -30,5 +30,18 @@ posts: 23
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 公式アカウント（DOGEプロジェクトの公式発信拠点）。投稿23件。
+- 最高エンゲ2,059likes: "Hey @Costco, your hot dog is $1.50 in an inflationary economy. you already don't believe in fiat. accept doge."（インフレ＋外部企業への採用呼びかけ）。
+- 879likes: "doge has survived more 'this is over' posts than there are transactions on the blockchain"（meme耐久性の自己言及）。
+- ticker言及は$DOGE 1件のみ。大半の投稿は感情・文化・meme素材（Harambe, moon等）。
+
+**判断（推論）**
+- **役割: survivor meme の基準点**。[[survivor-memes]] conceptの最典型事例。"this is over" への反論を公式が繰り返し出力することで、耐久性の物語を自己強化している。
+- [[external-event-to-token-pattern]]: @Costco＋インフレという外部ネタをDOGE採用ナラティブに変換する型を公式自ら実演。外部イベント→トークン文脈化のシンプルな実例。
+- [[majors-rotation-supercycle]]: DOGEはmajors層の1つだが、公式発信は価格より文化（"Do Only Good Everyday", "funniest place for DOGE ACCEPTED HERE"）に集中。fiat批判をフレームとした採用拡大が長期戦略。
+
+**⚠️矛盾**
+- エンゲ上位投稿に価格/チャート関連はほぼ無い。公式アカウントが直接価格ナラティブを押し上げる動きは薄い＝長期コミュニティ保持型だが短期のトレード触媒としては機能しにくい。
 <!-- synthesis:end -->
