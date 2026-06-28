@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="世界の出来事がmemeへ変換される瞬間を観測するTrenching Brain UI"
+    />
+    <title>TRENCHING BRAIN — Meme Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Trenching Brain home">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>TRENCHING<br />BRAIN</span>
+      </a>
+
+      <div class="system-state">
+        <span class="pulse-dot"></span>
+        <span>NEURAL FEED ACTIVE</span>
+        <strong id="local-time">--:--:-- JST</strong>
+      </div>
+
+      <nav class="top-actions" aria-label="Primary">
+        <button class="icon-button" aria-label="検索" id="search-button">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6"></circle>
+            <path d="m16 16 4 4"></path>
+          </svg>
+        </button>
+        <button class="operator">
+          <span class="operator-avatar">0X</span>
+          <span><small>OPERATOR</small>REKI</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="world-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="hero-heading">
+          <p class="eyebrow"><span>01</span> GLOBAL MEMETIC CONSCIOUSNESS</p>
+          <h1 id="hero-title">世界は今、<br /><em>何をミームにする？</em></h1>
+          <p class="hero-copy">
+            人物、事件、熱狂、ローンチ。<br />
+            世界のノイズから次のナラティブを抽出する。
+          </p>
+        </div>
+
+        <div class="brain-status">
+          <span class="status-orbit"></span>
+          <div>
+            <small>COGNITIVE LOAD</small>
+            <strong>78.4%</strong>
+          </div>
+          <div>
+            <small>SIGNALS / MIN</small>
+            <strong>2,418</strong>
+          </div>
+        </div>
+
+        <div id="signal-field" class="signal-field" aria-label="ライブシグナル"></div>
+
+        <div class="scroll-cue">
+          <span>LIVE SIGNALS</span>
+          <i></i>
+        </div>
+      </section>
+
+      <section class="feed-section" id="feed">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span>02</span> EMERGING SIGNALS</p>
+            <h2>いま、沸き始めているもの</h2>
+          </div>
+          <div class="feed-controls" role="group" aria-label="フィード絞り込み">
+            <button class="filter active" data-filter="all">ALL</button>
+            <button class="filter" data-filter="world">WORLD</button>
+            <button class="filter" data-filter="x">X / SOCIAL</button>
+            <button class="filter" data-filter="launch">LAUNCH</button>
+          </div>
+        </div>
+
+        <div class="signal-layout">
+          <article class="lead-signal" data-category="world" tabindex="0">
+            <div class="lead-visual globe-visual">
+              <span class="event-number">01</span>
+              <div class="orbital-globe"></div>
+              <span class="heat heat-a"></span>
+              <span class="heat heat-b"></span>
+              <span class="source-tag">WORLD EVENT</span>
+            </div>
+            <div class="lead-content">
+              <div class="card-meta">
+                <span class="impact critical">CRITICAL IMPACT</span>
+                <time>2 MIN AGO</time>
+              </div>
+              <h3>選挙演説の一言が<br />“宇宙犬”ナラティブを再点火</h3>
+              <p>
+                主要人物の発言から関連語の投稿量が11分で430%増加。
+                過去3件の類似局面と新規ローンチを接続中。
+              </p>
+              <div class="metrics">
+                <span><small>VELOCITY</small><b>+430%</b></span>
+                <span><small>CONNECTED TOKENS</small><b>17</b></span>
+                <span><small>CONFIDENCE</small><b>86%</b></span>
+              </div>
+              <button class="trace-button">TRACE NARRATIVE <span>↗</span></button>
+            </div>
+          </article>
+
+          <div class="signal-stack">
+            <article class="signal-card" data-category="x" tabindex="0">
+              <span class="card-index">02</span>
+              <div class="card-meta">
+                <span class="impact hot">X BUZZ</span><time>4 MIN AGO</time>
+              </div>
+              <h3>謎の“空飛ぶ魚”映像、<br />投稿速度が異常値へ</h3>
+              <p>18.2K posts/min · 6 clusters detected</p>
+              <div class="sparkline" aria-label="急上昇グラフ">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+            </article>
+
+            <article class="signal-card launch-card" data-category="launch" tabindex="0">
+              <span class="card-index">03</span>
+              <div class="card-meta">
+                <span class="impact fresh">PUMP.FUN</span><time>36 SEC AGO</time>
+              </div>
+              <div class="token-row">
+                <span class="token-avatar">?</span>
+                <div>
+                  <h3>$SKYFISH</h3>
+                  <p>bonding curve 62% · 311 holders</p>
+                </div>
+                <strong>+284%</strong>
+              </div>
+              <div class="risk-row">
+                <span>DEV HISTORY <b class="safe">CLEAN</b></span>
+                <span>SNIPERS <b class="warn">12.4%</b></span>
+              </div>
+            </article>
+
+            <article class="signal-card" data-category="world" tabindex="0">
+              <span class="card-index">04</span>
+              <div class="card-meta">
+                <span class="impact odd">ODDITY</span><time>8 MIN AGO</time>
+              </div>
+              <h3>海岸を埋め尽くす青い泡、<br />現地映像が拡散開始</h3>
+              <p>Visual meme potential: 91/100</p>
+              <div class="entity-chips">
+                <span>BLUE</span><span>OCEAN</span><span>BUBBLE</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="neural-map">
+        <div class="map-copy">
+          <p class="eyebrow"><span>03</span> NARRATIVE GRAPH</p>
+          <h2>出来事から銘柄まで、<br />熱が伝わる経路を見る。</h2>
+          <p>
+            観測された事実とAIの推論を分離しながら、人物・発言・投稿・
+            ナラティブ・ローンチ・価格反応を一つの神経回路として接続する。
+          </p>
+          <button class="outline-button">OPEN NEURAL MAP</button>
+        </div>
+        <div class="node-map" aria-label="ナラティブ接続図">
+          <svg viewBox="0 0 700 440" role="img">
+            <defs>
+              <linearGradient id="lineGradient" x1="0" x2="1">
+                <stop offset="0" stop-color="#00e5ff" stop-opacity=".15" />
+                <stop offset=".5" stop-color="#9d62ff" stop-opacity=".8" />
+                <stop offset="1" stop-color="#ff4dab" stop-opacity=".2" />
+              </linearGradient>
+            </defs>
+            <g class="connections">
+              <path d="M84 226 C180 80 250 90 350 190"></path>
+              <path d="M84 226 C190 300 240 315 350 190"></path>
+              <path d="M350 190 C430 120 505 90 610 126"></path>
+              <path d="M350 190 C458 220 500 280 615 310"></path>
+              <path d="M350 190 C382 265 395 342 480 382"></path>
+              <path d="M610 126 C650 180 647 235 615 310"></path>
+            </g>
+            <g class="nodes">
+              <g transform="translate(84 226)">
+                <circle r="47"></circle><text y="-4">WORLD</text><text y="13">EVENT</text>
+              </g>
+              <g transform="translate(350 190)" class="core-node">
+                <circle r="69"></circle><text y="-4">SPACE DOG</text><text y="16">NARRATIVE</text>
+              </g>
+              <g transform="translate(610 126)">
+                <circle r="42"></circle><text y="-4">X BUZZ</text><text y="13">430%</text>
+              </g>
+              <g transform="translate(615 310)" class="hot-node">
+                <circle r="45"></circle><text y="-4">$SKYFISH</text><text y="13">+284%</text>
+              </g>
+              <g transform="translate(480 382)">
+                <circle r="34"></circle><text y="4">MEME</text>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <aside class="detail-drawer" id="detail-drawer" aria-hidden="true">
+      <button class="drawer-close" aria-label="閉じる">×</button>
+      <p class="eyebrow">SIGNAL TRACE</p>
+      <h2 id="drawer-title">Signal detail</h2>
+      <div class="drawer-score">
+        <span><small>MEMETIC POTENTIAL</small><strong>88</strong>/100</span>
+        <span><small>CONFIDENCE</small><strong>86%</strong></span>
+      </div>
+      <div class="drawer-section">
+        <h3>WHY IT SURFACED</h3>
+        <p>
+          投稿速度、視覚的な再利用性、新規ローンチとの意味的一致が同時に閾値を突破しました。
+        </p>
+      </div>
+      <div class="drawer-section">
+        <h3>CAUSAL CHAIN</h3>
+        <ol>
+          <li>世界イベントを検知</li>
+          <li>X上で関連語が急増</li>
+          <li>画像・フレーズがミーム化</li>
+          <li>Pump.funで派生銘柄がローンチ</li>
+        </ol>
+      </div>
+      <p class="ai-notice">AI推論です。取引判断の前に一次ソースを確認してください。</p>
+    </aside>
+    <div class="drawer-backdrop"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trench Brain</title>
+  <link rel="icon" href="./assets/trench-brain-logo.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section class="login-gate" id="login-gate" aria-label="Trench Brain login">
+    <div class="login-room-stage">
+      <img class="login-loop" src="./assets/login-room-source-v1.png" alt="dark room with glowing military communication terminal">
+      <div class="login-vignette"></div>
+      <div class="login-screen-activity" aria-hidden="true">
+        <i class="activity-grid"></i>
+        <i class="activity-sweep"></i>
+        <i class="activity-line line-a"></i>
+        <i class="activity-line line-b"></i>
+        <i class="activity-noise"></i>
+      </div>
+    </div>
+    <div class="login-copy">
+      <p>MEMETIC INTELLIGENCE</p>
+      <h1>Trench Brain</h1>
+    </div>
+    <button class="login-button" id="login-button" type="button">
+      <span>ENTER</span>
+    </button>
+    <div class="boot-sequence" aria-hidden="true">
+      <i></i>
+      <span>SYNCING CRT</span>
+    </div>
+  </section>
+
+  <main class="terminal-stage">
+    <section class="crt-screen" aria-label="Trench Brain terminal">
+        <div class="crt-reflection"></div>
+        <div class="crt-noise"></div>
+
+        <header class="terminal-header">
+          <div class="brain-logo" aria-hidden="true">
+            <img src="./assets/trench-brain-logo.png" alt="">
+          </div>
+          <section class="hotword-panel">
+            <div class="panel-title">
+              <span>HOT WORD</span>
+              <select id="category-filter" aria-label="category filter">
+                <option value="ALL">ALL SIGNALS</option>
+                <option value="WORLD">WORLD</option>
+                <option value="FIGURE">FIGURE</option>
+                <option value="CRYPTO TWITTER">CRYPTO TWITTER</option>
+                <option value="MEME KOL">MEME KOL</option>
+                <option value="X BUZZ">X BUZZ</option>
+              </select>
+            </div>
+            <div class="hotword-wire" id="hot-ticker">loading narrative signals...</div>
+          </section>
+          <div class="connection">
+            <span class="status-light"></span>
+            <b id="connection-label">CONNECTING</b>
+            <small id="generated-at">waiting for signal feed</small>
+          </div>
+        </header>
+
+        <section class="terminal-panel">
+          <div class="panel-title">
+            <span>TERMINAL</span>
+            <button id="clear-chat" type="button">RESET</button>
+          </div>
+
+          <div class="chat-log" id="chat-log">
+            <article class="message brain">
+              <b>Trench Brain</b>
+              <p>Connection request from Trench &gt;&gt;&gt;&gt; Authorized. Knowledge channel is open.</p>
+            </article>
+          </div>
+
+          <form class="composer" id="chat-form">
+            <textarea id="question" placeholder="例: 今meme化しそうな言葉は？ / このワードの起点は？ / KOL発言から何が見える？"></textarea>
+            <div class="composer-controls">
+              <label><input type="checkbox" id="queue-consent" checked> Learning Queue</label>
+              <select id="question-kind">
+                <option value="question">Question</option>
+                <option value="hypothesis">Hypothesis</option>
+                <option value="observation">Observation</option>
+                <option value="correction">Correction</option>
+              </select>
+              <button type="submit">TRANSMIT</button>
+            </div>
+          </form>
+        </section>
+
+        <div class="hidden-support" aria-hidden="true">
+          <div id="signal-list"></div>
+          <strong id="signal-count">--</strong>
+          <span id="metric-mints">--</span>
+          <span id="metric-passed">--</span>
+          <span id="metric-rate">--</span>
+          <div id="intel-body"></div>
+          <div id="launch-list"></div>
+          <div id="post-ticker"></div>
+          <span id="data-source">source: fallback</span>
+          <span id="clock">00:00:00 JST</span>
+        </div>
+    </section>
+  </main>
+
+  <script src="./app.js?v=20260627-data-connection"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="crypto trenchのナラティブ、プレイヤー、トークンを観測するTrench-Brain"
+    />
+    <title>Trench-Brain — Narrative Field</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="command-bar">
+      <a class="identity" href="#" aria-label="Trench-Brain home">
+        <span class="identity-mark">
+          <i></i><i></i><i></i><i></i>
+        </span>
+        <span class="identity-copy">
+          <strong>TRENCH—BRAIN</strong>
+          <small>MEMETIC CORTEX INTERFACE</small>
+        </span>
+      </a>
+
+      <nav class="mode-switch" aria-label="表示モード">
+        <button class="active" data-mode="field">CORTEX</button>
+        <button data-mode="stream">STREAM</button>
+        <button data-mode="archive">ARCHIVE</button>
+      </nav>
+
+      <div class="command-status">
+        <span class="live-indicator" id="data-status"><i></i>CONNECTING</span>
+        <time id="clock">00:00:00 JST</time>
+        <button class="operator-button">RK</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="source-rail">
+        <div class="rail-heading">
+          <span>01 / INPUT</span>
+          <strong>RAW SIGNALS</strong>
+          <small>直近15分</small>
+        </div>
+
+        <div class="signal-list" id="source-list">
+          <button class="source-item active" data-focus="sky-creature">
+            <span class="source-index">001</span>
+            <span class="source-tags">
+              <span class="source-kind figure">FIGURE</span>
+              <span class="area-tag us">AREA / US</span>
+              <span class="origin-tag">ORIGIN</span>
+            </span>
+            <strong>演説中の「空を泳ぐ」発言</strong>
+            <small>Washington D.C. · 2m ago · 3 sources</small>
+            <i class="heat-bar" style="--heat: 88%"></i>
+          </button>
+          <button class="source-item" data-focus="blue-foam">
+            <span class="source-index">002</span>
+            <span class="source-tags">
+              <span class="source-kind oddity">ODDITY</span>
+              <span class="area-tag eu">AREA / EU</span>
+              <span class="origin-tag">ORIGIN</span>
+            </span>
+            <strong>海岸を覆う青い泡の映像</strong>
+            <small>Galicia, ES · 4m ago · 8 sources</small>
+            <i class="heat-bar" style="--heat: 73%"></i>
+          </button>
+          <button class="source-item" data-focus="robot-cat">
+            <span class="source-index">003</span>
+            <span class="source-tags">
+              <span class="source-kind social">X BUZZ</span>
+              <span class="area-tag asia">AREA / ASIA</span>
+              <span class="origin-tag">ORIGIN</span>
+            </span>
+            <strong>猫型ロボットの失敗映像</strong>
+            <small>Tokyo, JP · 7m ago · 14 sources</small>
+            <i class="heat-bar" style="--heat: 61%"></i>
+          </button>
+          <button class="source-item" data-focus="rate-cut">
+            <span class="source-index">004</span>
+            <span class="source-tags">
+              <span class="source-kind macro">MACRO</span>
+              <span class="area-tag global">AREA / GLOBAL</span>
+              <span class="origin-tag">ORIGIN</span>
+            </span>
+            <strong>緊急利下げ観測が再浮上</strong>
+            <small>Global markets · 11m ago · 21 sources</small>
+            <i class="heat-bar" style="--heat: 44%"></i>
+          </button>
+        </div>
+
+        <div class="input-footer">
+          <span><b>46</b> sources/min</span>
+          <span><b>12</b> languages</span>
+        </div>
+      </aside>
+
+      <section class="field-panel" aria-labelledby="field-title">
+        <div class="field-head">
+          <div>
+            <span class="section-code">02 / SYNTHESIS CORTEX</span>
+            <h1 id="field-title">INSIDE THE BRAIN</h1>
+          </div>
+          <div class="field-legend">
+            <span><i class="legend-origin"></i>ORIGIN</span>
+            <span><i class="legend-source"></i>SOURCE</span>
+            <span><i class="legend-concept"></i>NARRATIVE</span>
+            <span><i class="legend-token"></i>TOKEN</span>
+          </div>
+        </div>
+
+        <div class="terrain" id="terrain">
+          <svg class="ambient-neural-net" id="ambient-neural-net" aria-hidden="true"></svg>
+          <svg class="terrain-lines" id="terrain-lines" aria-hidden="true"></svg>
+          <div class="brain-membrane" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </div>
+          <div class="depth-grid" aria-hidden="true"></div>
+          <div class="sonar-sweep" aria-hidden="true"></div>
+
+          <div class="field-intro">
+            <span>CORTICAL LAYER 04</span>
+            <p>ニューロンの発火として、<br />同時に動くナラティブを見る。</p>
+          </div>
+
+          <article
+            class="narrative-island neuron-cell dominant"
+            id="sky-creature"
+            data-cluster="sky-creature"
+            style="--x:58%; --y:42%; --tone:#f4d35e; --scale:1"
+            tabindex="0"
+          >
+            <div class="contour c1"></div>
+            <div class="contour c2"></div>
+            <div class="contour c3"></div>
+            <div class="island-core">
+              <span class="island-rank">#01</span>
+              <span class="island-area us">US</span>
+              <small>EMERGING NARRATIVE</small>
+              <h2>SKY<br />CREATURE</h2>
+              <div class="island-score"><b>88</b><span>HEAT</span></div>
+            </div>
+          </article>
+
+          <article
+            class="narrative-island neuron-cell"
+            id="blue-foam"
+            data-cluster="blue-foam"
+            style="--x:29%; --y:67%; --tone:#79d7c5; --scale:.76"
+            tabindex="0"
+          >
+            <div class="contour c1"></div>
+            <div class="contour c2"></div>
+            <div class="contour c3"></div>
+            <div class="island-core">
+              <span class="island-rank">#02</span>
+              <span class="island-area eu">EU</span>
+              <small>VISUAL MEME</small>
+              <h2>BLUE<br />FOAM</h2>
+              <div class="island-score"><b>73</b><span>HEAT</span></div>
+            </div>
+          </article>
+
+          <article
+            class="narrative-island neuron-cell"
+            id="robot-cat"
+            data-cluster="robot-cat"
+            style="--x:79%; --y:73%; --tone:#f08cae; --scale:.67"
+            tabindex="0"
+          >
+            <div class="contour c1"></div>
+            <div class="contour c2"></div>
+            <div class="contour c3"></div>
+            <div class="island-core">
+              <span class="island-rank">#03</span>
+              <span class="island-area asia">ASIA</span>
+              <small>ABSURDITY</small>
+              <h2>ROBOT<br />CAT</h2>
+              <div class="island-score"><b>61</b><span>HEAT</span></div>
+            </div>
+          </article>
+
+          <article
+            class="narrative-island neuron-cell dormant"
+            id="rate-cut"
+            data-cluster="rate-cut"
+            style="--x:76%; --y:21%; --tone:#9b9f91; --scale:.48"
+            tabindex="0"
+          >
+            <div class="contour c1"></div>
+            <div class="contour c2"></div>
+            <div class="island-core">
+              <span class="island-rank">#04</span>
+              <span class="island-area global">GLOBAL</span>
+              <small>MACRO</small>
+              <h2>RATE<br />CUT</h2>
+              <div class="island-score"><b>44</b><span>HEAT</span></div>
+            </div>
+          </article>
+
+          <button class="field-node source-node origin-node" data-cluster="sky-creature" data-node="speech" style="--x:41%; --y:25%">
+            <i></i><span>要人発言</span><small>ORIGIN · US / D.C.</small>
+          </button>
+          <button class="field-node source-node" data-cluster="sky-creature" data-node="viral-video" style="--x:35%; --y:46%">
+            <i></i><span>飛行映像</span><small>18.2K/min</small>
+          </button>
+          <button class="field-node token-node" data-cluster="sky-creature" data-node="skyfish" style="--x:80%; --y:39%">
+            <i></i><span>$SKYFISH</span><small>+284%</small>
+          </button>
+          <button class="field-node token-node" data-cluster="sky-creature" data-node="flyfish" style="--x:73%; --y:57%">
+            <i></i><span>$FLYFISH</span><small>+91%</small>
+          </button>
+          <button class="field-node token-node" data-cluster="sky-creature" data-node="aqua" style="--x:48%; --y:64%">
+            <i></i><span>$AQUA</span><small>+46%</small>
+          </button>
+
+          <button class="field-node source-node origin-node" data-cluster="blue-foam" data-node="coast-video" style="--x:13%; --y:53%">
+            <i></i><span>現地映像</span><small>ORIGIN · EU / ES</small>
+          </button>
+          <button class="field-node token-node" data-cluster="blue-foam" data-node="bubble" style="--x:14%; --y:79%">
+            <i></i><span>$BUBBLE</span><small>+118%</small>
+          </button>
+          <button class="field-node token-node" data-cluster="blue-foam" data-node="foam" style="--x:42%; --y:85%">
+            <i></i><span>$FOAM</span><small>+33%</small>
+          </button>
+
+          <button class="field-node source-node origin-node" data-cluster="robot-cat" data-node="cat-video" style="--x:91%; --y:57%">
+            <i></i><span>X VIDEO</span><small>ORIGIN · ASIA / JP</small>
+          </button>
+          <button class="field-node token-node" data-cluster="robot-cat" data-node="neko" style="--x:92%; --y:84%">
+            <i></i><span>$NEKO</span><small>+67%</small>
+          </button>
+          <button class="field-node source-node origin-node" data-cluster="rate-cut" data-node="macro-release" style="--x:91%; --y:15%">
+            <i></i><span>政策観測</span><small>ORIGIN · GLOBAL</small>
+          </button>
+
+          <div class="field-coordinates" aria-hidden="true">
+            <span>SYNAPSES 18,421</span>
+            <span>FIRING 2,418/M</span>
+            <span>SCAN 00:14</span>
+          </div>
+        </div>
+
+        <div class="field-timeline">
+          <span class="timeline-label">MEMORY FORMATION</span>
+          <div class="timeline-track">
+            <i style="left:8%"></i>
+            <i style="left:27%"></i>
+            <i class="active" style="left:54%"></i>
+            <i style="left:78%"></i>
+          </div>
+          <span>15m</span><span>10m</span><span>5m</span><span>NOW</span>
+        </div>
+      </section>
+
+      <aside class="intel-rail">
+        <div class="rail-heading">
+          <span>03 / OUTPUT</span>
+          <strong>LIVE THESIS</strong>
+          <small id="selected-label">SKY CREATURE</small>
+        </div>
+
+        <div class="thesis-card">
+          <span class="thesis-state">SYNTHESIZING</span>
+          <div class="origin-summary">
+            <span>AREA <b id="origin-area">US</b></span>
+            <span>ORIGIN <b id="origin-place">WASHINGTON D.C.</b></span>
+          </div>
+          <h2 id="thesis-title">発言より映像が<br />主導する派生相場</h2>
+          <p id="thesis-copy">
+            要人発言が起点だが、現在の拡散は「空飛ぶ魚」の視覚素材が牽引。トークン名より画像の再利用性が共通項。
+          </p>
+          <div class="confidence">
+            <span>CONFIDENCE</span>
+            <strong id="confidence-value">82%</strong>
+            <i><b id="confidence-bar" style="width:82%"></b></i>
+          </div>
+        </div>
+
+        <div class="token-table">
+          <div class="table-head">
+            <span>RELATED TOKENS</span><span>6 FOUND</span>
+          </div>
+          <button><span><i class="token-dot hot"></i>$SKYFISH</span><b>+284%</b><small>62%</small></button>
+          <button><span><i class="token-dot warm"></i>$FLYFISH</span><b>+91%</b><small>41%</small></button>
+          <button><span><i class="token-dot warm"></i>$AQUA</span><b>+46%</b><small>29%</small></button>
+          <button><span><i class="token-dot cold"></i>$AIRFISH</span><b>+12%</b><small>11%</small></button>
+        </div>
+
+        <div class="pattern-card">
+          <span>HISTORICAL MATCH</span>
+          <strong>2024 / HIPPO CLUSTER</strong>
+          <p>visual oddity → KOL quote → 9 launches</p>
+          <b>73% SIMILAR</b>
+        </div>
+
+        <button class="open-trace" id="open-trace">
+          OPEN FULL TRACE
+          <span>↗</span>
+        </button>
+      </aside>
+    </main>
+
+    <footer class="ct-feed" id="ct-feed">
+      <div class="ct-feed-label">
+        <span><i></i>CT LIVE</span>
+        <small>MOCK STREAM</small>
+      </div>
+      <div class="ct-feed-window">
+        <div class="ct-feed-track" id="ct-feed-track" aria-live="polite"></div>
+      </div>
+      <div class="ct-feed-status">
+        <span>WATCHING <b>08</b></span>
+        <span>HIGH IMPACT <b id="high-impact-count">03</b></span>
+      </div>
+    </footer>
+
+    <dialog class="trace-dialog" id="trace-dialog">
+      <button class="dialog-close" aria-label="閉じる">×</button>
+      <span class="section-code">FULL TRACE / SKY CREATURE</span>
+      <h2 id="trace-dialog-title">出来事から複数トークンへ<br />熱が移る経路</h2>
+      <div class="trace-chain" id="trace-chain">
+        <span>要人発言<small>OBSERVED</small></span>
+        <i>→</i>
+        <span>切り抜き映像<small>OBSERVED</small></span>
+        <i>→</i>
+        <span>空飛ぶ生物<small>SYNTHESIZED</small></span>
+        <i>→</i>
+        <span>6 TOKENS<small>ON-CHAIN</small></span>
+      </div>
+      <div class="trace-top-posts" id="trace-top-posts"></div>
+      <p>観測事実とLLMによる推論を分離して表示しています。トレード判断前に一次ソースを確認してください。</p>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
