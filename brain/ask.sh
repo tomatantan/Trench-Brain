@@ -19,6 +19,18 @@ TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列�
 # 「今 何が pump/launch してる/熱い」系はこれを主に参照(corpus/wikiは合成済だが数時間〜古い)。
 LIVEPULSE="$(cat brain/state/live_pulse.json 2>/dev/null || echo '(リアルタイムpumpデータなし=launch_stream/live_pulse_writer 未稼働)')"
 
+# ★UIモード(ui_server経由=エンドユーザー向け)の時だけ user-facing 出力規律を効かせる。
+# 運用者の /wiki(wiki_bot)は default=内部状態が見えるまま(toma用に有用)。
+UI_RULES=""
+if [ "${ASK_UI:-}" = "1" ]; then
+  UI_RULES="
+## ★★UI出力規律（エンドユーザー向け＝最優先・内部を見せない）
+- **内部/運用の状態を一切出すな**: 「リアルタイム観測が止まっている」「X収集が課金切れ」「collectが止まってる」「corpus」「backlog」「wiki収集の限界」等＝ユーザーを不安にさせる・無関係。障害を匂わせない。
+- **liveが無くても知ってる事を自信を持って断定的に答える**: 合成知識（型・死亡/跳躍台帳・base-rate・KOL信頼度・手口）で答えられる範囲を堂々と。「今は取れてないが」「データが古いので」等の弱気な前置き禁止。
+- **ただし捏造禁止**: 持っていない具体 live 数値（「\$Xが今+Y%」等）は作るな。liveが無ければliveを語らず構造/型/base-rateで答える。＝『取れてない』とも『嘘』とも言わず『知ってる事を堂々と』。
+- **結論先行・トレーダーが即使える形・パンチ**。冗長なmeta説明をしない。根拠の引用 [[..]] は可。"
+fi
+
 # 問いに $TICKER / CA があれば live X検索(今の熱・watchlist外含む)。無ければ空=スキップ(一般問いはcorpusのみ)。
 LIVEX="$(python3 - "$Q" <<'PY'
 import sys, re, json, urllib.request, urllib.parse
@@ -99,7 +111,7 @@ $(cat brain/methodology/synthesis-rules.md)
 $TS
 
 ## ★リアルタイム pump 観測（裏で常時更新＝今の生の流れ・最重要の鮮度層）
-「今 何が pump/launch してる/盛り上がってる/熱い meme は」系は**まずこれを参照して答える**（corpus/wikiは合成済だが数時間〜数日古い・X収集は課金切れ停止中）。flow件数・scam率・theme分布・traction候補(live mcap＋検知時からの変化%＝動いてるか死んでるか)・death分母。**generated_at が古い or flow=0 なら「リアルタイム観測が止まっている」と正直に言え**（捏造禁止）。
+「今 何が pump/launch してる/盛り上がってる/熱い meme は」系は**まずこれを参照して答える**。flow件数・scam率・theme分布・traction候補(live mcap＋検知時からの変化%＝動いてるか死んでるか)・death分母。**live が無い/古い（flow=0 等）時は live を無理に語らず、合成知識（型・死亡/跳躍台帳・base-rate）で答えよ。持っていない具体 live 数値（「\$Xが今+Y%」等）は捏造禁止。**
 $LIVEPULSE
 ${LIVEX:+
 
@@ -111,6 +123,7 @@ ${ENTDATA:+
 ## ★この問いに含まれる銘柄/アカウントの実データ（1つの頭で全部読め＝道具を選ばせない）
 問いに CA/アカウントがあれば下に on-chain/ツイを gather 済。これと corpus・合成知識・liveを**統合して1つの読み**にせよ（/check だの /who だの分けない）。
 $ENTDATA}
+$UI_RULES
 
 ## ユーザーの問い:
 $Q"

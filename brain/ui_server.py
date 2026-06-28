@@ -13,6 +13,7 @@ UI:   http://localhost:8000/ui/index.html
 """
 import argparse
 import json
+import os
 import subprocess
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -75,6 +76,7 @@ class Handler(SimpleHTTPRequestHandler):
             r = subprocess.run(
                 ["bash", str(ASK), q],
                 capture_output=True, text=True, timeout=ASK_TIMEOUT, cwd=str(ROOT),
+                env={**os.environ, "ASK_UI": "1"},  # UI経由=user-facing出力規律ON(内部状態を見せない)
             )
             ans = (r.stdout or "").strip()
             if not ans:
