@@ -136,4 +136,9 @@ accounts: 19
 ### 2026-06-29 確認（worklist 代表ツイ確認・Hayes「Trump/JAYPOW = BTC wins both ways」nuance 追記）
 - **4328♥ [[CryptoHayes__1856116830055907446]]**（2024-11-11）: 「The sun is rising on $BTC $100k. Fuck Fiat」= **旧ツイ再キャプチャ**（2024年11月 BTC $100K 初突破時）。新情報なし。
 - **4225♥ [[CryptoHayes__1914799532564533608]]**（2025-04-22）: 「Trump says he wants to fire JAYPOW - dollar dips, $BTC rips / Trump says he has no intention of firing JAYPOW - dollar rips, $BTC rips some more」= 2025-04 Trump/Fed standoff 週のツイ。既合成の Hayes April 2025 シリーズ（smoke alarm 04/04 → donkey kong 04/11）の後続（04/22）。**未合成の nuance**: BTC は「JAYPOW 解雇 → dollar 安 → BTC rip」と「解雇せず → dollar 高 → BTC さらに rip」の**両シナリオで上昇する = asymmetric macro hedge**。「smoke alarm」（fiat 収縮を先行察知）という役割定義に加え、**Fed 独立性問題の行方に対して BTC がどちらに転んでもプラスに動く**という二重性を Hayes が観察した記録。足元の macro（Fed 独立性圧力が依然くすぶる）との接続として参照。confidence 変わらず（補足のみ・light-touch）。
+
+### 2026-06-29 確認②（新 beat なし・Hayes「Final Boss / BTFD at $76,500」April 2025 シリーズ追記）
+- **4214♥ [[CryptoHayes__1908113888291250647]]**（2025-04-04）: 「This weekend $BTC faces the Final Boss are you ready fam?」= **旧ツイ再キャプチャ**（tariff shock 週末前の煽り投稿、smoke alarm ツイートと同日 04/04）。
+- **4199♥ [[CryptoHayes__1909113124592161226]]**（2025-04-07）: 「So close fam. Oh what shall I do, if $BTC breaks below $76,500 my credibility will be in tatters ... BUY THE FUCKING DIP MOTHER FUCKER!」= **旧ツイ再キャプチャ**（smoke alarm 04/04 → 本ツイ 04/07 → donkey kong 04/11 の Hayes April 2025 BTFD シリーズ中間点）。
+- **light-touch 追記**: Hayes が $76,500 を自分の credibility floor として公言した実ツイの確認。その後 BTC は $59K まで下落（2026-06-25 既記）= BTFD コールが失敗した track record データ点。「smoke alarm / safe haven」ナラティブ vs 実価格乖離（既合成）の補強。confidence=中（変化なし）。
 <!-- synthesis:end -->

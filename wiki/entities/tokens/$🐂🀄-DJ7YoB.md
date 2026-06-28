@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: dying
+status: dead
 title: $🐂🀄（Ansem's Army）
 mint: DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump
 pool: EbQGftsrm2VoyhYdgkNd6r1Dw5vAdCZuvLAuxzB6vfxC
 created: 2026-06-28
-updated: 2026-06-28
-tags: [trench, entity, token, auto-track, dying]
+updated: 2026-06-29
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $🐂🀄-DJ7YoB（Ansem's Army）
@@ -19,11 +19,11 @@ tags: [trench, entity, token, auto-track, dying]
 | mint | DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump |
 | pool | EbQGftsrm2VoyhYdgkNd6r1Dw5vAdCZuvLAuxzB6vfxC |
 | gate | safety:ok / traction:graduated |
-| mcap推移 | $53,078（birth 2026-06-28T12:05Z）→ $49,632（変化観測前）→ $26,043（-48% 2026-06-28T15:12Z） |
+| mcap推移 | $53,078（birth 2026-06-28T12:05Z）→ $49,632 → $26,043（-48% 2026-06-28T15:12Z）→ $8,754（-66% 2026-06-28T18:18Z） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/ShabbatMonster/status/2071202738415804552 |
-| status | watch |
+| status | dead |
 | auto-track birth | 2026-06-28T12:05Z |
 
 <!-- synthesis:start -->
@@ -56,4 +56,15 @@ tags: [trench, entity, token, auto-track, dying]
 **動線・型**
 - birth $53k から継続的に下落中（-51% total）。traction0 × real_sol=0 × KOL未確認の状態で dead-spiral 進行中。
 - [[rug-anatomy]] "graduated-but-empty" 教科書展開。同バッチ Ansem meme の中で最後の生き残りだが崩壊継続。
+
+### 2026-06-29 最終確認（mcap-66%・dead確定）
+
+**観測（事実）**
+- prev_mcap $26,043 → now $8,754（-66%・2026-06-28T18:18Z）。total: birth $53,078 → $8,754（-83.5%）。
+- reply_count=0 継続。KOL 言及なし。
+
+**動線・型**
+- 3サイクル連続下落（$53k→$50k→$26k→$8.7k）。traction0 × real_sol=0 のまま dead-spiral 完了。
+- [[rug-anatomy]] 型通り死亡。outcome: died / cause: mcap枯れ（-84% from birth）。
+- 同バッチ Ansem meme（[[MOONSEM]]・$ANSEMWHEEL 各 mint）はすでに全枯死確定。Ansem brand multi-mint wave 全滅で終了。
 <!-- synthesis:end -->

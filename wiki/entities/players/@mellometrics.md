@@ -30,5 +30,27 @@ posts: 119
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- 投稿 119件（watchlist内最多水準）・最高エンゲ 14,576♥（"Sell EVERYTHING when..." 天井リスト）。トークン言及: [[$SOL]] (2) [[$DEV]] (1)。
+- 高エンゲ投稿の主題:
+  - ①天井サイン列挙（Coinbase App Store #1/instagram crypto/tiktoker/全員が儲かる → 全売り: [[mellometrics__1858310631377801413]] 14,576♥）
+  - ②勝つトレーダー=選択的（1 high conviction play, weeks/months 待機: [[mellometrics__1860448492780417115]] 4,932♥）
+  - ③最適取引時間帯（12-4PM EST / 9PM-1AM EST: [[mellometrics__1882490581047468393]] 4,052♥）
+  - ④利確後 stables に変えたら戻さない（[[mellometrics__1868443293824192596]] 2,349♥）
+  - ⑤「1 SOL を 100 SOL にする roadmap」（段階的な sizing 戦略: [[mellometrics__1850950990951825744]] 2,548♥）
+  - ⑥大統領がミームコインをローンチ→「これは何か大きなことの始まり」（[[mellometrics__1880643345774727298]] 1,928♥）
+
+### 判断（推論）
+- **役割**: crypto/memecoin リテール向けトレード educator。格言形式の短文で高拡散。ポジション不開示の汎用ルール発信者 = 自身のトレードではなく**群衆行動の解説者**として機能。
+- **動線の位置**: [[reflexivity]] の「センチメント観測者」として機能。"Sell EVERYTHING" リスト（=大衆化の指標）は [[reflexivity]] の boom 末期＝自己強化サイクルが破裂寸前のサインとして定式化している。これは [[launchpad-economics]] の graduation exit timing とも対応。
+- **Solana bias**: 「1 SOL → 100 SOL roadmap」「大統領 meme on Solana」投稿から Solana ベースのリテール文脈で発信している。[[l1-substrate-wars]] の Solana retail側の民意 layer。
+- **大統領 meme 発言（2025-01-18）**: [[external-event-to-token-pattern]] の $TRUMP launch への反応 = 外部イベントがリテール参加者を引き込む動線の実況として価値あり。
+
+### ⚠️ 矛盾
+- 格言形式の汎用ルール = 個別ポジション不開示 → shill かどうか判断不能。大量投稿（119件）は教育コンテンツ製造者として一定の注目集約は保証されるが、個別分析の精度は未検証。
+- 「all-in = gambling」と言いながら「1 SOL → 100 SOL roadmap」は aggressive sizing を肯定 = 二律背反含み。
+
+### 賭け仮説
+- mellometrics が「天井サイン」を投稿するタイミングは**市場センチメント過熱の遅行指標**として機能しうる（人々がそのリストを思い出し始める = 過熱中という確認）。[[reflexivity]] の boom 末期の集合知インジケータとして観察を継続。
 <!-- synthesis:end -->

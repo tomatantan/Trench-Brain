@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $MOONSEM（Ansem to the moon）
 mint: D4cgMvxcyqme3uKmdDrhGv1UKsKLwTinu3gTNdCnpump
 pool: J3YxDP3hnzeDtTcJDcbPxMihHQ6BcSaHiTDhKHGGedur
 created: 2026-06-28
-updated: 2026-06-28
-tags: [trench, entity, token, auto-track, watch]
+updated: 2026-06-29
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $MOONSEM（Ansem to the moon）
@@ -25,7 +25,10 @@ tags: [trench, entity, token, auto-track, watch]
 | reply_count | 0 |
 | twitter | null |
 | website | null |
-| status | watch |
+| status | dead |
+| outcome | died |
+| peak_mcap | $87,366 |
+| cause | mcap枯れ（$87,366 → $1,498・-98.3%） |
 | auto-track birth | 2026-06-28T15:12Z |
 
 <!-- synthesis:start -->
@@ -48,4 +51,14 @@ tags: [trench, entity, token, auto-track, watch]
 **賭け仮説**（confidence=低）
 - バッチ内最高 mcap $87k は [[launchpad-economics]] の「mcap高くてもtraction0なら崩壊」コホート（$CAFE $802k/$WENDU $539k等）の縮小版候補。
 - Ansem 本人の CA 言及または独立 KOL 支持が出れば [[survivor-memes]] 候補格上げ。現状は traction0 × social 皆無 = dead-spiral 最有力。
+
+### 2026-06-29 最終合成（死亡確定）
+
+**観測（事実）**
+- mcap $1,498（peak $87,366 比 -98.3%）。2026-06-28T18:18Z。cause: "mcap枯れ($1498)"。
+
+**動線・型**
+- バッチ内最高 mcap($87k)だった Ansem brand multi-mint wave の最後の生き残りが枯死で終了。
+- KOL 言及ゼロのまま $87k → $1.5k。outcome: died / 型: "Ansem association × twitter=null × traction0 = 名前需要のみで $87k 乗せ後崩壊"。
+- [[rug-anatomy]] "graduated-but-empty" 高 mcap バリエーション事例として台帳記録。
 <!-- synthesis:end -->
