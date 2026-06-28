@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $FLARO（Flaro）
 mint: 9NKToDBF9tiYxoGSjyhcBi2NqVyJjFJyCW98UPVrpump
 pool: As64AsYkBx18ypt9LKwREQJJeQxxXegFTBtj9rvjkhzU
 created: 2026-06-28
 updated: 2026-06-28
-tags: [trench, entity, token, auto-track, watch]
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $FLARO（Flaro）
@@ -19,7 +19,9 @@ tags: [trench, entity, token, auto-track, watch]
 | mint | 9NKToDBF9tiYxoGSjyhcBi2NqVyJjFJyCW98UPVrpump |
 | pool | As64AsYkBx18ypt9LKwREQJJeQxxXegFTBtj9rvjkhzU |
 | gate | safety:ok / traction:graduated |
-| mcap(birth観測) | $47,174 |
+| mcap推移 | $47,174（birth 2026-06-28T12:05Z）→ peak $62,698 → $1,504（死亡 2026-06-28T15:12Z） |
+| outcome | died |
+| cause | mcap枯れ（peak比-97.6%） |
 | real_sol | ~84 SOL（84,362,057,251 lamports） |
 | reply_count | 0 |
 | twitter | https://x.com/FlaroSol |
@@ -46,4 +48,10 @@ tags: [trench, entity, token, auto-track, watch]
 **賭け仮説**（confidence=中-低）
 - バッチ内で唯一 real_sol + 独立ドメインを持つ。traction が伴えば[[survivor-memes]] 最有力候補。
 - 現状は「準備は整っているが需要の裏付けがない」段階。KOL 言及または reply 急増が次の判断トリガー。
+
+### 2026-06-28 最終合成（dead確定）
+
+- peak $62,698 → 最終 $1,504（-97.6%・2026-06-28T15:12Z）。cause=mcap枯れ。
+- real_sol ~84 SOL（バッチ最高）+ 独立ドメイン/専用 twitter を持ちながら traction0 で崩壊。⑬高real_sol崩壊コホート（[[rug-anatomy]]）に追加——$URANUS(81SOL/-97.3%)・$FLYRO(84.4SOL/-98.5%) 同型。
+- 示唆: social インフラ（独立ドメイン・専用 twitter）+ real_sol は KOL/traction ゼロを補えない。準備が整っていても需要が来なければ型通り崩壊。[[launchpad-economics]] / [[rug-anatomy]] ⑬コホート確認。
 <!-- synthesis:end -->

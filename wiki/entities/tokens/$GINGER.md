@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $GINGER（Ginger）
 mint: 2Pf2BnCWrkp8BgRJKzHTvaiBUk1D6mVZTxwTQr22pump
 pool: BmDZRx49wYCufq9W2kSuxDZqGLrZTPXYXycdezWogr29
 created: 2026-06-28
 updated: 2026-06-28
-tags: [trench, entity, token, auto-track, watch]
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $GINGER（Ginger）
@@ -19,7 +19,9 @@ tags: [trench, entity, token, auto-track, watch]
 | mint | 2Pf2BnCWrkp8BgRJKzHTvaiBUk1D6mVZTxwTQr22pump |
 | pool | BmDZRx49wYCufq9W2kSuxDZqGLrZTPXYXycdezWogr29 |
 | gate | safety:ok / traction:graduated |
-| mcap(birth観測) | $12,441 |
+| mcap推移 | $12,441（birth 2026-06-28T12:05Z）→ peak $12,573 → $1,298（死亡 2026-06-28T15:12Z） |
+| outcome | died |
+| cause | mcap枯れ（peak比-89.7%） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/MindyIsenstein/status/2071195664311292000 |
@@ -43,4 +45,9 @@ tags: [trench, entity, token, auto-track, watch]
 
 **賭け仮説**（confidence=低）
 - traction0 × real_sol=0 × 低 mcap ($12k) = stub レベル。独立 KOL 裏付けなし。消えるが分母として記録。
+
+### 2026-06-28 最終合成（dead確定）
+
+- peak $12,573 → 最終 $1,298（-89.7%・2026-06-28T15:12Z）。cause=mcap枯れ。
+- 型通り: 汎用名詞命名（"Ginger"）× association marketing外部tweet × real_sol=0 × traction0 → 型通り崩壊。[[rug-anatomy]] / [[launchpad-economics]] 分母追加。
 <!-- synthesis:end -->

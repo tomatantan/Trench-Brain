@@ -103,4 +103,7 @@ ETF 流出（2026-06-25）:
 
 **判断（light-touch）**: 26♥ = 低エンゲージ。ただし「ETH = コンセンサストレード（リターン薄）」という既存合成を **BTC beta = 構造的天井** という角度で補強。ETH が BTC から独立するには「cashflow = revenue と user」が必要という命題は、ETH の "DeFi settlement" narrative が実際の revenue に転化するまでコンセンサストレードに留まることを示す。Saylor の STRC/BTC 動向が ETH 全体を動かすという相互依存も観測。confidence=中（変化なし、補強のみ）。
 - 接続: [[majors-rotation-supercycle]]（BTC ベータ脱却 = ETH ローテ点火の必要条件）/ [[perp-dex-wars]]（HYPE = 唯一 BTC gravity 脱却成功例・revenue + buyback 構造）/ [[$STRC]]（Saylor STRC 売りが ETH にも波及する BTC beta 経路）。
+
+### 2026-06-29 確認（新 beat なし）
+- worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/ 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 6/23・6/24・6/27・6/28 他で複数回確認済み。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・BTC beta 脱却未達・20x short）に変化なし。
 <!-- synthesis:end -->

@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $ANSEMWHEEL（Ansem Wheel）
 mint: 3i3xCsMzmhGwAMZSojGH7uGEaizkGibBWPnZ5bgnpump
 pool: DALvBc3qpd7uZmfbeEjaYmSGhHE15J6TNp5FTtMdAb1p
 created: 2026-06-28
 updated: 2026-06-28
-tags: [trench, entity, token, auto-track, watch]
+tags: [trench, entity, token, auto-track, dead]
 ---
 
 # $ANSEMWHEEL-3i3xCs（Ansem Wheel）
@@ -19,7 +19,9 @@ tags: [trench, entity, token, auto-track, watch]
 | mint | 3i3xCsMzmhGwAMZSojGH7uGEaizkGibBWPnZ5bgnpump |
 | pool | DALvBc3qpd7uZmfbeEjaYmSGhHE15J6TNp5FTtMdAb1p |
 | gate | safety:ok / traction:graduated |
-| mcap推移 | $28,795（birth 2026-06-28T12:05Z）→ $16,091（-44% 2026-06-28T12:06Z） |
+| mcap推移 | $28,795（birth 2026-06-28T12:05Z）→ $16,091（-44% 2026-06-28T12:06Z）→ $1,351（死亡 2026-06-28T15:12Z） |
+| outcome | died |
+| cause | mcap枯れ（peak比-95.3%） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/0xSavior/status/2071202952866418954 |
@@ -49,4 +51,10 @@ tags: [trench, entity, token, auto-track, watch]
 **賭け仮説**（confidence=低）
 - traction0 × real_sol=0 × -44% 急落 = [[rug-anatomy]] "graduated-but-empty" 標準展開。
 - Ansem 本人の言及または KOL 独立裏付けがなければ dead-spiral 最有力。[[survivor-memes]] 到達条件未達。
+
+### 2026-06-28 最終合成（dead確定）
+
+- peak $28,795 → 最終 $1,351（-95.3%・2026-06-28T15:12Z）。cause=mcap枯れ。
+- 型通り: Ansem brand association × multi-mint下位 × real_sol=0 × traction0 → dead-spiral 完結。同バッチ Ansem meme（$🐂🀄 Ansem's Army・$MOONSEM）の中で最下位 mint として先に枯死。
+- [[launchpad-economics]] / [[rug-anatomy]] の "graduated-but-empty" コホートに追加。生存者バイアスの分母として閉じる。
 <!-- synthesis:end -->

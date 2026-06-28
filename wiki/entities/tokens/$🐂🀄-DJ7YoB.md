@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dying
 title: $🐂🀄（Ansem's Army）
 mint: DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump
 pool: EbQGftsrm2VoyhYdgkNd6r1Dw5vAdCZuvLAuxzB6vfxC
 created: 2026-06-28
 updated: 2026-06-28
-tags: [trench, entity, token, auto-track, watch]
+tags: [trench, entity, token, auto-track, dying]
 ---
 
 # $🐂🀄-DJ7YoB（Ansem's Army）
@@ -19,7 +19,7 @@ tags: [trench, entity, token, auto-track, watch]
 | mint | DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump |
 | pool | EbQGftsrm2VoyhYdgkNd6r1Dw5vAdCZuvLAuxzB6vfxC |
 | gate | safety:ok / traction:graduated |
-| mcap(birth観測) | $53,078 |
+| mcap推移 | $53,078（birth 2026-06-28T12:05Z）→ $49,632（変化観測前）→ $26,043（-48% 2026-06-28T15:12Z） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/ShabbatMonster/status/2071202738415804552 |
@@ -46,4 +46,14 @@ tags: [trench, entity, token, auto-track, watch]
 **賭け仮説**（confidence=低）
 - traction0 × real_sol=0 = [[rug-anatomy]] "graduated-but-empty" 候補。バッチ内最高 mcap はあくまで相対的指標。
 - Ansem 本人言及または KOL 独立裏付けが出なければ dead-spiral 標準展開。
+
+### 2026-06-28 更新（mcap-48%）
+
+**観測（事実）**
+- prev_mcap $49,632 → now $26,043（-48%・2026-06-28T15:12Z）。reply_count=0 継続。
+- 同バッチの $ANSEMWHEEL-3i3xCs は今サイクルで dead 確定（peak $28k → $1,351）。
+
+**動線・型**
+- birth $53k から継続的に下落中（-51% total）。traction0 × real_sol=0 × KOL未確認の状態で dead-spiral 進行中。
+- [[rug-anatomy]] "graduated-but-empty" 教科書展開。同バッチ Ansem meme の中で最後の生き残りだが崩壊継続。
 <!-- synthesis:end -->

@@ -233,4 +233,29 @@ accounts: 9
 - TrustlessState "yikes dude" は $76（→ その後 $71、既記）の3rd-party 確認 = Kaleo コミュニティ外での驚き＝崩落の認知拡散。
 - confidence=低（変化なし。apxUSD cascade リスクが判明し、STRC 崩壊の潜在的 contagion 経路が追加された）。
 - 接続: [[rug-anatomy]]（STRC 担保 stablecoin = 2重の装い×実体乖離の連鎖・[[rug-anatomy]] の「構造的崩壊」完熟事例に新次元追加）/ [[onchain-verification]]（apxUSD backing 構造・清算メカニクムは独立確認推奨）/ [[majors-rotation-supercycle]]（STRC → apxUSD → BTC という cascade 経路の発見 = downside trigger の連鎖性が拡大）。
+
+### 2026-06-29 更新（新 beat: Kaleo「Apyx と disagreement・弱気維持」+ thedefiedge「dividend coverage 14ヶ月・cash -38%」定量新データ）
+出典: [[cryptokaleo__2070138462418727165]]（27♥・2026-06-25T13:34Z）/ [[thedefiedge__2070155929585434980]]（15♥・2026-06-25T14:43Z）
+
+**観測（事実）**
+
+**[1] Kaleo post-space 総括（2026-06-25T13:34Z）**:
+「Enjoyed the conversation with the guys at Apyx about $STRC, $MSTR, Saylor, their stablecoin apxUSD and more. Didn't agree on most things outside of being bullish on Bitcoin long term, but managed to have a respectful conversation on a pretty crazy day.」
+= **最大 STRC ホルダー（Apyx）と直接対話した後も、Kaleo は "didn't agree on most things" と弱気継続を明示**。合意できた唯一の点は「長期的に Bitcoin は強気」のみ。$77 ATL・$71 到達の当日に実施したスペース後の wrap-up = 議論した上で弱気が揺らがなかった公的確認。
+
+**[2] thedefiedge「dividend coverage 崩壊・cash buffer 問題」（2026-06-25T14:43Z）**:
+- Strategy 保有: **847k BTC / ~$52B / 全 BTC の ~4%**
+- **配当カバレッジ: 7年超 → 約14ヶ月に激減**（annual dividend 義務 ~$1.2B / 今年の cash reserves -38%）
+- CryptoQuant 提言: **BTC 購入をいったん停止し、cash buffer を再建してから再開**
+- 核心: "Strategy の問題は Bitcoin でなく cash buffer"
+- **リスク（核心）**: 「明日の強制売却でなく、Bitcoin の最大の限界買い手の1つが資金調達機械の弱体化で**buying pressure を失う**」= 漸進的な需要消失
+
+**⚠️ 判断（統合）**
+
+- **「14ヶ月」は定量的転換点の新記録**: 既存合成では「$1.7B/year outflow 義務」という方向性は記録済みだが、配当カバレッジが **7年超 → 14ヶ月** に崩壊したという具体的タイムラインは未記録。2027年8月頃の cash runway 制約として実装的な意味を持つ。
+- **⚠️ "cash -38%"・"14ヶ月" は thedefiedge／CryptoQuant 由来の数値**（[[onchain-verification]] 独立確認推奨）。
+- **Kaleo と Apyx の対話の意味**: Apyx（最大ホルダー・利益相反あり）が弱気 Kaleo を説得できなかった = "didn't agree on most things" は STRC ホルダー側の論拠が通用しなかった公的確認。
+- **[[$BTC]] への波及（thedefiedge 分析）**: Strategy = Bitcoin の最大限界買い手の1つが CryptoQuant 提言（BTC 購入停止）に動けば、BTC への機関需要に欠落が生じる。**売り圧でなく買い需要の消失**という形の BTC downside factor。既存の「50-100K BTC 売却シナリオ」とは別経路（売らないが買わない）として併記。
+- confidence=低（変化なし。定量データが悪化を数値で裏付けた）。
+- 接続: [[rug-anatomy]]（cash coverage 14ヶ月 = 「無リスク dividend」装いの実体崩壊が数値化）/ [[majors-rotation-supercycle]]（最大限界買い手の purchasing pause = BTC demand 消失 → downside factor 追加）/ [[onchain-verification]]（"14ヶ月"・"cash -38%" は独立確認推奨）/ [[$BTC]]（Saylor の buying capacity 喪失リスク）。
 <!-- synthesis:end -->

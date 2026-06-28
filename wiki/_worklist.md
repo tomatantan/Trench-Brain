@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7383件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7379件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**296ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,9 +16,9 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 12 | 8 | 102 | 4404♥ @zhusu: We're seeing some of the earliest and most ambitio / 4372♥ @CryptoHayes: The #DoomLoop has begun. 1 USD = 1 EUR. Prepare yo |
+| [[$BTC]] | 12 | 8 | 100 | 4328♥ @CryptoHayes: The sun is rising on $BTC $100k.   Fuck Fiat  / 4225♥ @CryptoHayes: Trump says he wants to fire JAYPOW -  dollar dips, |
 | [[$ETH]] | 4 | 3 | 104 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
-| [[$STRC]] | 4 | 3 | 8 | 32♥ @TrustlessState: Why would anyone ever buy $STRC above $95 ever aga / 29♥ @CryptoKaleo: GOING LIVE WITH THE LARGEST $STRC HOLDER NOW! |
+| [[$STRC]] | 2 | 2 | 6 | 27♥ @CryptoKaleo: Enjoyed the conversation with the guys at Apyx abo / 15♥ @thedefiedge: The most aggressive Bitcoin buyer in the world is  |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

@@ -132,4 +132,8 @@ accounts: 19
 - Hayes "donkey kong" は既存合成（BTC = fiat liquidity smoke alarm / macro policy driven）の方向内。新規性は薄く、April 2025 tariff 週の連続 Hayes 強気コールの一環として参照のみ。
 - 接続: [[majors-rotation-supercycle]]（LTHS 底論 = ローテ号砲の前提条件）/ [[onchain-verification]]（LTHS = onchain 観測データ、16.6M BTC で独立確認推奨）/ [[$STRC]]（LTHS "black swan 例外" = STRC 崩壊起因 BTC 強制売りシナリオ）。
 - confidence=中（LTHS データは強固だが STRC リスクが black swan 条件に該当しうる）。
+
+### 2026-06-29 確認（worklist 代表ツイ確認・Hayes「Trump/JAYPOW = BTC wins both ways」nuance 追記）
+- **4328♥ [[CryptoHayes__1856116830055907446]]**（2024-11-11）: 「The sun is rising on $BTC $100k. Fuck Fiat」= **旧ツイ再キャプチャ**（2024年11月 BTC $100K 初突破時）。新情報なし。
+- **4225♥ [[CryptoHayes__1914799532564533608]]**（2025-04-22）: 「Trump says he wants to fire JAYPOW - dollar dips, $BTC rips / Trump says he has no intention of firing JAYPOW - dollar rips, $BTC rips some more」= 2025-04 Trump/Fed standoff 週のツイ。既合成の Hayes April 2025 シリーズ（smoke alarm 04/04 → donkey kong 04/11）の後続（04/22）。**未合成の nuance**: BTC は「JAYPOW 解雇 → dollar 安 → BTC rip」と「解雇せず → dollar 高 → BTC さらに rip」の**両シナリオで上昇する = asymmetric macro hedge**。「smoke alarm」（fiat 収縮を先行察知）という役割定義に加え、**Fed 独立性問題の行方に対して BTC がどちらに転んでもプラスに動く**という二重性を Hayes が観察した記録。足元の macro（Fed 独立性圧力が依然くすぶる）との接続として参照。confidence 変わらず（補足のみ・light-touch）。
 <!-- synthesis:end -->
