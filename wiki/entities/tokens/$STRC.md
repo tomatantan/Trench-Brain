@@ -126,4 +126,17 @@ accounts: 9
 - **⚠️ 「Digital Credit = 無リスク・upside 付き」という Saylor の主張と「$71 に崩落中」という現実の乖離**は [[rug-anatomy]] の「装い≠実体」パターンの典型。
 - confidence=低（さらに悪化。$71 実現＋1221♥ バイラル批判＋MSTR 並走という3点）。
 - 接続: [[$MSTR]]（STRC の崩落は MSTR 価格とほぼ連動）/ [[rug-anatomy]]（Saylor pitch vs $71 現実）/ [[majors-rotation-supercycle]]（STRC 崩壊 = BTC downside trigger 候補、確率上昇）。
+
+### 2026-06-28 更新③（新 beat: coingecko $77 ATL + BTC $59K 相関確認・Kaleo "mid $70s wow"）
+出典: [[coingecko__2070187355734974520]]（117♥・2026-06-25T16:48Z）/ [[cryptokaleo__2070140650339664325]]（96♥・2026-06-25T13:42Z）
+
+**観測（事実・2026-06-25 = $71 到達の前日）**:
+- [[@coingecko]]（2026-06-25T16:48Z）: 「$STRC falls to an all-time low of ~$77 amidst Bitcoin's drop to the $59,000 mark.」= **$77 ATL が BTC の $59K 下落と連動**して発生した旨を coingecko が公式確認。→ **BTC $59K という具体的価格水準**（既存合成の「21ヶ月来安値」に対応する実価格）が初めてソースに明示された。
+- [[@CryptoKaleo]]（2026-06-25T13:42Z）: 「$STRC already in the mid $70s / wow」= 前日時点で "mid $70s" に到達した事実への驚き。前回更新②（[[cryptokaleo__2070129048504635519]] 160♥）の「$60s へ」コール直前の中間確認。
+
+**⚠️ 判断（light-touch・時系列補完）**:
+- 既存の $71 到達（2026-06-28 更新）はこの $77（2026-06-25）→ $71（2026-06-26）の連続下落の続きとして位置付けられる。
+- **BTC $59K = $STRC $77 ATL の同時性**は「STRC の崩壊は BTC 下落を増幅する（mNAV 0.59x + preferred 崩落が同日に動く）」という既存合成の因果を実価格で裏付け。
+- BTC $59K の文脈は [[$BTC]] 合成にも接続（[[majors-rotation-supercycle]] 上の BTC downside trigger 候補の「具体的価格帯」として）。
+- confidence=低（変化なし）。
 <!-- synthesis:end -->

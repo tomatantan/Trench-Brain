@@ -30,5 +30,20 @@ posts: 24
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- $WOJAK の公式プロジェクトアカウント。3年の歴史、2サイクル経験を自称。
+- ETH上のトークン（`ethereum:0x8de39b057cc6522230ab19c0205080a8663331ef`）、10,000+ holders。
+- 2026-06-18: $WOJAK が Binance US に上場（[[wojakcto__2067432030913098158]]）。
+- 高エンゲージ投稿はいずれもミームの感情言語（"bullishtosterone" / "Feels Guys" / "watch the world burn"）が主体。ticker言及は全体の一部にとどまる。
+
+### 判断（推論）
+- 役割: meme token の公式アカウントを兼ねる KOL ポジション（独立アナリストではなく当事者）。
+- 動線上の位置: 長期生存→CEX上場という [[survivor-memes]] の典型動線を辿っている。複数サイクルを経た meme が「3 years, 2 cycles」というナラティブを積み上げ、CEX listing でバリデーションを得るパターン。
+- [[reflexivity]]: 感情コンテンツ（ミーム投稿）が信念を形成→保有者が増える→ナラティブが強化されるループ。投稿内容は意図的にトークンへの言及を薄め、感情的帰属（"this feels right"）を強調している。
+- ⚠️矛盾: BinanceUS上場は流動性・信頼性を与えるが、[[vc-founder-thesis-layer]] 文脈での「CEX上場 = VC グリフト」批判（→ [[@tree_of_alpha]] 参照）とは逆の評価軸。wojakcto は無資金調達か否かの情報はない。上場イベントが出口流動性かバリデーションかは要継続観測。
+
+### 接続 concept
+- [[survivor-memes]]: 複数サイクル生存 + CEX listing が動線の核。
+- [[reflexivity]]: 感情ミームが信念を作り信念がミームを強化するサイクルを体現。
 <!-- synthesis:end -->

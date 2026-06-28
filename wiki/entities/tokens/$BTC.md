@@ -98,4 +98,8 @@ accounts: 19
 
 ### 2026-06-28 確認（新 beat なし）
 - worklist 代表ツイ「$BTC balance on exchanges just hit a 7-year low」([[@milesdeutscher]] 5,655♥ = [[milesdeutscher__1879921568236896769]]・2025年初の古ツイ再キャプチャ）/「If you had invested $1000 in $BTC in 2012」([[@zhusu]] 5,398♥ = [[zhusu__1363396833834201093]]・2021年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（21ヶ月来安値・大規模清算・BlackRock 入金・20x short）に変化なし。
+
+### 2026-06-28 確認②（新 beat なし・STRC経由でBTC $59K実価格が確認される）
+- worklist 代表ツイ「International oil+gas will be priced in $BTC within 24months」([[@zhusu]] 5,031♥ = [[zhusu__1458765410573062148]]・2021-11-11の古ツイ）/「Odds of a Strategic $BTC Reserve just skyrocketed on Polymarket」([[@milesdeutscher]] 4,729♥ = [[milesdeutscher__1881239737723441244]]・2025-01-20の古ツイ）= いずれも旧ツイ再キャプチャ。本サイクルの新 beat なし。
+- **補足（他ソース経由）**: [[@coingecko]] が $STRC $77 ATL 報告（[[coingecko__2070187355734974520]] 117♥・2026-06-25）にて「amidst Bitcoin's drop to the **$59,000 mark**」と明記 = 2026-06-25 時点で BTC が $59K 水準まで下落していた実価格が確認される。既存合成「21ヶ月来安値」の具体的ドル価格。既存合成（BTC = 最上流アンカー・全体収縮フェーズ継続）に変化なし。
 <!-- synthesis:end -->

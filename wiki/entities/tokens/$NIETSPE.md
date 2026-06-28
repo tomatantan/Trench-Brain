@@ -2,12 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $NIETSPE
 mint: 3tDBEiibR4CErHDjZBoRmxKTPpahBvxBcK8Ewd5wpump
 created: 2026-06-28
 updated: 2026-06-28
-tags: [token, pumpfun, graduated, traction0, conspiracy-meme]
+tags: [token, pumpfun, graduated, traction0, dead, conspiracy-meme]
+outcome: died
+cause: mcap枯れ($3,056)
 ---
 
 # $NIETSPE — Epstein Didnt Kill Himself (3tDBEi)
@@ -43,7 +45,9 @@ pump.fun 発。名称 "Epstein Didnt Kill Himself"——米国の定番陰謀論
 - mcap $29k は [[launchpad-economics]] の死亡率データでは 10-50k 帯（死亡率 42%）——traction 不在なら死亡率は上振れ。
 - ⚠️ 陰謀論命名トークンは「ネタ先行で TikTok/X でバズれば跳ねる」と「traction が来なければ即死」の二択。現状後者寄り。
 
-**概念接続**: [[launchpad-economics]]（graduated-but-empty 候補）/ [[rug-anatomy]]（real_sol=0 × association marketing）/ [[external-event-to-token-pattern]]（政治文化イベント命名）
+**概念接続**: [[launchpad-economics]]（graduated-but-empty → dead）/ [[rug-anatomy]]（real_sol=0 × association marketing 型確定）/ [[external-event-to-token-pattern]]（政治文化スローガン命名）
+
+**最終確定（2026-06-28）**: peak $29,260 → 最終 $3,056（-89.5%）。memetic フックのある陰謀論命名でも traction 転化ゼロなら崩壊。[[rug-anatomy]] 死亡台帳追記済。
 
 <!-- synthesis:end -->
 

@@ -104,4 +104,9 @@ accounts: 18
 - $SPCX 株価が現在「全騰幅消去」水準（[[coingecko__2069288716133425284]] 458♥ = -17.8%）であっても、ロックアップ解除後の **7〜10 倍の需要** を必要とする計算は、現在の板では到底吸収できない規模感。
 - 既存合成の弱気バイアスを**更に具体的日程で裏付け**。confidence=弱気（維持・スケジュール追加で確度↑）。
 - 接続: [[spacex-ipo-narrative]]（IPO → ロックアップ → 売り圧フェーズのライフサイクル）/ [[external-event-to-token-pattern]]（解除日=カタリスト）。
+
+### 2026-06-28 確認（新 beat なし・MEXC USD1-M futures 継続確認）
+- [[@MEXC]] (2026-06-26): USD1-M Futures に $SPCX を追加（$MU / $SP500 / $NAS100 / $ARM と併列、[[mexc__2070416779948568669]] 26♥）= 取引所プロモ・独立信号なし。ただし perp 取引所が **$SPCX を株式系 futures ライン**として継続提供している事実 = 株価が全騰幅消去済みでも perp 板は生存（[[perp-dex-wars]]上の plate 継続）。
+- [[@spyzer]] (2026-06-12T15:55Z): 「$SPCX gonna be an interesting study case considering launch dynamics」([[spyzer__2065462914383859910]] 21♥) = IPO 直後（6/12）の薄い観察。launch dynamics への着目のみ = 本サイクルで既合成の「DefiIgnas の低 float/高 FDV」「MurphyBTC の lockup 売り圧」に対し新情報なし。likes 21♥・thin。
+- 既存合成（全騰幅消去・lockup 解除スケジュール 2026年8月〜12月・弱気バイアス）に変化なし。confidence=弱気（維持）。
 <!-- synthesis:end -->

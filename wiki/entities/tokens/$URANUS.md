@@ -2,12 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $URANUS
 mint: 7EKtAJTruNL5qURjXrEzfdHzmqucxkQNh1922hz8pump
 created: 2026-06-28
 updated: 2026-06-28
-tags: [token, pumpfun, graduated, traction0, toilet-humor]
+tags: [token, pumpfun, graduated, traction0, dead, toilet-humor, real-sol-high]
+outcome: died
+cause: mcap枯れ($1,310)
 ---
 
 # $URANUS — The Uranus (7EKtAJ)
@@ -43,7 +45,9 @@ pump.fun 発。名称 "The Uranus"——惑星/下ネタ両義の toilet-humor m
 - real_sol 81.16SOL は [[rug-anatomy]] ⑬コホート（$FLYRO ~84.4SOL→-98.5% / $GIRLS ~82.9SOL→-98.6%）と近似——deployer pool SOL による人工 pump の可能性を排除できない。
 - ⚠️ high real_sol × traction0 = 危険シグネチャ（[[rug-anatomy]] ⑬）。social 整備があっても T3 ゼロが続けば BREAKOUT-then-dead 候補。
 
-**概念接続**: [[launchpad-economics]]（graduated-but-empty 候補）/ [[rug-anatomy]]（⑬高 real_sol 型）
+**概念接続**: [[launchpad-economics]]（graduated-but-empty → dead）/ [[rug-anatomy]]（⑬高 real_sol 型確定）
+
+**最終確定（2026-06-28）**: peak $49,390 → 最終 $1,310（-97.3%）。⑬高 real_sol コホート崩壊確定。[[rug-anatomy]] 死亡台帳追記済。
 
 <!-- synthesis:end -->
 

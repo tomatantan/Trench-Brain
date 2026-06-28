@@ -6,7 +6,7 @@ mint: 4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump
 source: auto-track
 status: watch
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-28
 tags: [token, pumpfun, graduated, kol-ca, watch, memorial-meme, old-launch, reply-high, blknoiz06]
 ---
 
@@ -20,7 +20,7 @@ pump.fun 発。名称「mutumbo」——NBA 伝説 Dikembe Mutombo（2024年9月
 |---|---|
 | mint | 4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump |
 | Gate | safety:ok / traction:kol（tsuyuto6154 CA 言及） |
-| MCap (観測時) | ~$26,318 |
+| MCap (最新) | ~$54,252（+43% from $37,897・2026-06-28T02:23Z） |
 | reply_count | 253（今バッチ最高） |
 | KOL (kol_ca) | tsuyuto6154 |
 | Launch date | 2025-04-12（1年以上前） |

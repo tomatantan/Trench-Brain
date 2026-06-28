@@ -65,4 +65,9 @@ accounts: 10
 
 ### 2026-06-28 確認（新 beat なし）
 - worklist 代表ツイ「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」([[@lookonchain]] 2,270♥ = [[lookonchain__1650703881528307712]]・2023年の古ツイ）/「From a $1M loss (-90%) to a $2.5M profit—this diamond hands」([[@lookonchain]] 2,022♥ = [[lookonchain__1877551033460863307]]・2024年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（30ヶ月来安値・SOL short 利確・alt 母艦機能は未点火）に変化なし。
+
+### 2026-06-28 確認②（新 beat なし）
+- worklist 代表ツイ①「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」([[@lookonchain]] 2,270♥ = [[lookonchain__1650703881528307712]]・2023年の古ツイ）= 前サイクル確認済み（変化なし）。
+- worklist 代表ツイ②「Not everyone can make money by trading #memecoins on #Solana! This guy traded 11 #memecoins in 3 days, losing money on each one, for a total loss of 754 $SOL($147K).」([[@lookonchain]] 1,998♥ = [[lookonchain__1769438534262243448]]・2024-03-17の古ツイ）= 古ツイ再キャプチャ。2024年の Solana memecoin FOMO/FOMO 損失事例の定番ツイ。
+- 本サイクルの新 beat なし。既存合成（30ヶ月来安値・SOL short 利確済み・alt 母艦機能は未点火）に変化なし。
 <!-- synthesis:end -->

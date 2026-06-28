@@ -79,4 +79,16 @@ accounts: 7
 
 - **DEG_2020 リアルタイム観測（2026-06-24 決算後 AH）**: 「マイクロンアフターマーケットで+3.4%」→ 6分後「マイクロンアフターマーケット+10%!!!!!」→ 44分後「マイクロンアフターマーケットでATHの1214ドル更新したね」= 決算後 AH で **$MU が ATH $1,214 を更新**する過程を日本語 JP KOL ([[@DEG_2020]]) がリアルタイム追跡。前回更新（blknoiz06 thesis「ATH → 即反落」）の "ATH" が具体的に $1,214 と確定。
 - 既存合成（blknoiz06「beat = memory top」thesis・ATH→反落・AI capex 天井シグナル）に変化なし。DEG_2020 の観測はその経緯の傍証。confidence=中（変化なし）。
+
+### 2026-06-28 確認（新 beat: Q4 ガイダンス $49-51B + USD1-M futures 上場・MEXC プロモ経由）
+出典: [[mexc__2070069491149439294]]（23♥・2026-06-25T09:00Z）/ [[mexc__2070416779948568669]]（26♥・2026-06-26T08:00Z）
+
+**観測（MEXC プロモ経由・独立性は低い）**:
+- [[@MEXC]] (2026-06-25): 「Micron's Q3 beat was only half the story. $MU guided Q4 revenue to $49–51B, above market expectations. Can AI demand sustain Micron's pricing power?」= Q3 beat の後 **Q4 ガイダンス $49-51B（市場予想超）** が示された事実を確認。blknoiz06 の「beat = memory top」thesis に対して、**経営陣は Q4 も強気ガイダンスを出した** = guidance と実価格の乖離（ATH→-10%）が示す「market は既に信じていない」構造の追加証拠。
+- [[@MEXC]] (2026-06-26): USD1-M Futures に $MU を追加（$SP500 / $SPCX / $NAS100 / $ARM と併列）= perp 取引所が $MU を株式系 tokenized futures ラインの一角として扱い続けている。
+
+**判断（light-touch）**:
+- Q4 ガイダンス $49-51B = **ファンダとしては良好**だが、blknoiz06 の「Q3 beat + ATH = memory top」は市場が guidance より forward-looking で天井を見た可能性と整合する（guidance 強気 × price action 弱気 = "good news already priced in" のパターン）。
+- MEXC プロモは独立信号なし。USD1-M futures = perp ライン継続確認のみ（[[onchain-verification]] 未変化）。
+- 既存合成（blknoiz06「beat = memory top」・AI capex 天井シグナル・backing 未検証）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

@@ -30,5 +30,23 @@ posts: 41
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- Uniswap Protocol 公式アカウント。信号投稿41件（最多クラス）。
+- 高エンゲージ投稿の主題: Arc展開でのstablecoin戦略（737 likes）、Bankr経由の $4B+ オール
+
+タイムボリューム（594 likes）、Fidelity（[[$FIDD]]）のonchain展開告知（558 likes）、"The world's value is moving onchain"ナラティブ（562 likes）。
+- [[$FIDD]] 言及(2件): Fidelityという世界最大級資産運用会社がUniswap経由でonchain移行（→[[uniswap__2065159152486199396]]）。
+
+### 判断（推論）
+- 役割: DeFi インフラ層の中心的プロトコル。情報発信は市場参加者へのナラティブ形成（公式広報ポスト）。
+- [[external-event-to-token-pattern]]: Fidelity（TradFi機関）のonchain参入をUniswapがfeatureする構造 = 伝統金融イベント→DeFiボリューム→トークン評価 の連鎖パターンの実例。
+- [[regulation-catalyst]]: stablecoin展開の強調は規制整備（stablecoin法案）との連動を示唆。規制が整うほどUniswapのstable取引量が拡大する逆説的恩恵。
+- [[onchain-verification]]: "world's value moving onchain" は単なるスローガンではなく、$4B+ ボリュームという実数値を伴った主張。
+- ⚠️矛盾: 公式アカウントのポストはマーケティング性が高く、数字（$4B+ volume）のコンテキスト（累積 vs 直近等）は一次確認が必要。signal として読む際は当事者バイアスを織り込む。
+
+### 接続 concept
+- [[external-event-to-token-pattern]]: TradFi機関のonchain参入パターンの実例。
+- [[regulation-catalyst]]: stablecoin規制整備とUniswapの展開タイミング。
+- [[onchain-verification]]: volumeデータによる実証的「onchain化」主張。
 <!-- synthesis:end -->

@@ -30,5 +30,22 @@ posts: 42
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- crypto podcast / メディアアカウント。信号投稿42件。
+- 最高エンゲージ投稿（628 likes）: 「EFは意図的に権力空白を作っており、@ethlabs_orgの方向性がEthereumの最善の未来だと思う」（[[TrustlessState__2069110440903196810]]、2026-06-22）。
+- MSTR言及（100 likes）: MSTRを「amplified BTC exposure」と見る論を紹介しつつ、「Saylorが刷る新たな法定通貨」説を提示（[[trustlessstate__2069086341770383871]]）。
+- Hyperliquid言及（85 likes）: Arthur Hayesがperpを発明した経緯→Hyperliquidがmainstream化という引用（"Jeff and his 11 engineers has whooped their ass"）（[[trustlessstate__2069074030628364349]]）。
+- $STRC $76まで下落を観測（63 likes）、$LIT deal告知（65 likes）。
+
+### 判断（推論）
+- 役割: 分析・教育的なpodcast/メディア。KOL・要人発言の橋渡し役（Hayesインタビュー等）。独自ポジションよりキュレーション・整理型。
+- [[l1-substrate-wars]] / EF権力空白: EFがLeadershipを意図的に手放し、@ethlabs_orgのような新構造が台頭するというナラティブ。Ethereumのガバナンス移行期の観測として刺さる。
+- [[majors-rotation-supercycle]]: MSTR「新fiat currency説」はBTC建て資産の膨張とSaylorの株式希薄化サイクルを批判的に捉えた視点。amplified BTC ≠ safe haven という懐疑。
+- [[perp-dex-wars]]: Arthur HayesのHyperliquid評価引用は、CEX perp（NYSE系）vs HyperLiquid（onchain perp）の構図を補強。
+
+### 接続 concept
+- [[l1-substrate-wars]]: EFの権力空白とethlabs台頭の観測。
+- [[majors-rotation-supercycle]]: MSTR fiat-currency-of-Saylor説。
+- [[perp-dex-wars]]: Hayes引用によるHyperliquid評価。
 <!-- synthesis:end -->
