@@ -115,6 +115,10 @@ accounts: 19
 - worklist 代表ツイ「Buy the rumor buy the news buy the dip light the fuse」([[@zhusu]] 4,552♥ = [[zhusu__1450003590517452801]]・2021-10-18の古ツイ）= 旧ツイ再キャプチャ。
 - 「Do you hear that? … it's the sound of the money printers」([[@CryptoHayes]] 4,452♥ = [[CryptoHayes__1936854369980346588]]・2025-06-22）= 上記更新③で合成済み。
 
+### 2026-06-28 確認④（新 beat なし・worklist 代表ツイ確認）
+- worklist 代表ツイ「We're seeing some of the earliest and most ambitious ideas in crypto starting to unfold... $BTC $LUNA」([[@zhusu]] 4,404♥ = [[zhusu__1508603726143328256]]・**2022-03-29**) = **LUNA 崩壊 6 週前**の古ツイ再キャプチャ。zhusu が Terra/LUNA の cross-chain stablecoin を "holy grail" と称賛した時点のもの＝LUNA 崩壊後の zhusu 評価と真逆の過去地点。BTC についての新情報はない。
+- 「The #DoomLoop has begun. 1 USD = 1 EUR. Prepare yourselves for YCC and $BTC = $1 million.」([[@CryptoHayes]] 4,372♥ = [[CryptoHayes__1546505432386211840]]・**2022-07-11**) = 2022 年夏の古ツイ再キャプチャ。「1 USD = 1 EUR」は 2022-09 に実際に達成された（EUR/USD parity）。「$BTC = $1 million」は未達。Hayes の macro フレームの先行事例として記録のみ＝既存合成「BTC = fiat liquidity smoke alarm / macro policy driven」の方向と同一。**BTC についての新 beat なし**。既存合成（21ヶ月来安値・大規模清算・BlackRock 入金・LTHS 80%）に変化なし。
+
 ### 2026-06-28 更新④（新 beat: CredibleCrypto LTHS 80% 底近し論 + Hayes "donkey kong" 補完）
 出典: [[crediblecrypto__2070478528832057362]]（408♥・2026-06-26T12:05Z）/ [[CryptoHayes__1910707923824894114]]（4,414♥・2025-04-11T14:54Z・旧ツイ・2026-06-21キャプチャ）
 

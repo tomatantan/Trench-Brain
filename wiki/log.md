@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-28 backfill (高signal未合成 5件): $NEET・@uyunicham・@uponlytv・@tomuisan・@themisterturtle。主な接続先: [[survivor-memes]]（$NEET/TheMisterTurtle）[[reflexivity]]（$NEET/TheMisterTurtle）[[jp-meme-cluster]]（uyunicham/tomuisan）[[spacex-ipo-narrative]]（uyunicham）[[launchpad-economics]]（TheMisterTurtle・14,700人統計）[[regulation-catalyst]]（tomuisan・bitbank/SBI）[[l1-substrate-wars]]（TheMisterTurtle・SOL）[[vc-founder-thesis-layer]]（uponlytv）。
+
+- 2026-06-28 X-synthesis (worklist §1a HOT 4件・最終サイクル): 主な新 beat = ①**$STRC** TrustlessState「Why would anyone ever buy $STRC above $95 ever again?」(32♥・2026-06-25) = par 近辺が買い場から売り場に転換した**反射性の逆転**を言語化（ARS アナロジー・Ponzi 命名・apxUSD cascade の次の構造的確証）②**$BTC** 代表ツイ 2 件とも 2022 年古ツイ（zhusu 4,404♥: 2022-03-29 LUNA 崩壊 6 週前の "holy grail" 称賛 / Hayes 4,372♥: 2022-07-11 #DoomLoop「1 USD = 1 EUR → BTC $1M」= EUR/USD parity は的中・BTC $1M 未達）新 beat なし ③**$ETH** 代表ツイ 2022 古ツイ確認・新 beat なし ④**$MU** 代表ツイ複数サイクル確認済み・新 beat なし。→ $BTC $ETH $STRC $MU
+
+- 2026-06-28 auto-synthesis (synth_queue 12:05Z): births=4（$ANSEMWHEEL-3i3xCs・$🐂🀄 Ansem's Army・$FLARO・$GINGER）・changes=1（$ANSEMWHEEL-3i3xCs -44%反映）・deaths=1台帳（$ANSEMWHEEL-Av5FFK multi-mint下位 $5.8k枯れ死・entity作成スキップ）。Ansem association meme multi-mint同時発射パターン確認（[[rug-anatomy]]死亡台帳+1）。$FLARO のみ real_sol ~84SOL + 独立ドメイン保有で watch継続。
+
 - 2026-06-28 lint: 検出 9 件（新規3・継続6）・主な型リスク＝①$STRC Kaleo単一ソースロックイン+観測/推論混同(CRITICAL) ②BREAKOUT-then-dead過剰ラベル継続/$TRADER/$BUTT 14窓T3ゼロ生存(CRITICAL) ③base_rate.json不整合継続(CRITICAL)。→ [[lint-report]]
 
 - 2026-06-28 backfill-synthesis (高signal未合成 player 5件): @dogecoin・@WatcherGuru・@Tree_of_Alpha・@TheRollupCo・@GTCaliber_。接続→[[survivor-memes]]・[[external-event-to-token-pattern]]（dogecoin: 公式アカウント、survivor meme基準点・@Costco等外部事象→DOGE採用型実演）/ [[regulation-catalyst]]・[[spacex-ipo-narrative]]・[[majors-rotation-supercycle]]（WatcherGuru: "JUST IN:"速報インフラ、CBDC禁止法20k/Ripple MiCA9k/BTCマクロ下落速報）/ [[vc-founder-thesis-layer]]・[[regulation-catalyst]]（Tree_of_Alpha: genuine builder vs VC grift対比・$TREEはon-chainのみ・SECの非対称批判）/ [[vc-founder-thesis-layer]]・[[perp-dex-wars]]・[[regulation-catalyst]]（TheRollupCo: podcast型メディアKOL・$AERO CB Ventures市場買い観測・insider dump批判・Hester Peirce退任速報）/ [[external-event-to-token-pattern]]・[[ai-memes]]（GTCaliber_: GTA6先回り型build in public・$B4GTA6・AI Agents 24/7ゲーム生成ナラティブ・エンゲ低・観測フェーズ）。

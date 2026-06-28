@@ -93,6 +93,9 @@ ETF 流出（2026-06-25）:
 ### 2026-06-28 確認（新 beat なし）
 - worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 前サイクル確認済み（6/23・6/24 で既確認）。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・機関逆張り・20x short）に変化なし。
 
+### 2026-06-28 確認②（新 beat なし・worklist 代表ツイ確認）
+- worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥) / 「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥) = 2022 年の古ツイ再キャプチャ（前サイクル（6/23・6/24・6/27 他）で複数回確認済み）。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・BTC ベータ脱却未達・20x short）に変化なし。
+
 ### 2026-06-28 更新（新 beat: DefiIgnas「ETH は BTC ベータを抜けられない」light-touch）
 出典: [[defiignas__2070448021691879536]]（26♥・2026-06-26T10:04Z）
 

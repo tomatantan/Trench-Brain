@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:14:30Z",
+  "generated_at": "2026-06-28T12:22:52Z",
   "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
   "schema": "signals[]: concept由来の泡 {type,title,size,color,glow,trace} / live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)",
   "count": 40,
@@ -1771,8 +1771,8 @@
       "ticker": "$JOTCHUA",
       "name": "Jotchua",
       "mint": "BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
-      "mcap": 9686555,
-      "peak_mcap": 9686555,
+      "mcap": 11129332,
+      "peak_mcap": 11129332,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -1788,14 +1788,15 @@
       "spark": [
         8601556,
         8603465,
-        9686555
+        9686555,
+        11129332
       ]
     },
     {
       "ticker": "$ZERO",
       "name": "c0mpute",
       "mint": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-      "mcap": 1813189,
+      "mcap": 1755351,
       "peak_mcap": 2924082,
       "status": "tracked",
       "outcome": null,
@@ -1815,14 +1816,15 @@
         1751759,
         1842857,
         2063282,
-        1813189
+        1813189,
+        1755351
       ]
     },
     {
       "ticker": "$滑る猫",
       "name": "Sliding Cat",
       "mint": "3oX9emrqYRGzFEDPP3jA6tYnUBML4QSr3DfgD2r5pump",
-      "mcap": 621822,
+      "mcap": 666039,
       "peak_mcap": 972231,
       "status": "tracked",
       "outcome": null,
@@ -1842,14 +1844,15 @@
         594454,
         623417,
         659127,
-        621822
+        621822,
+        666039
       ]
     },
     {
       "ticker": "$BLOB",
       "name": "BLOB",
       "mint": "8LhAAmnECtqG1ZXnzHx5QfPar6iLFbBy1FgjyeDipump",
-      "mcap": 127710,
+      "mcap": 127539,
       "peak_mcap": 127710,
       "status": "tracked",
       "outcome": null,
@@ -1869,14 +1872,15 @@
         126136,
         125336,
         124996,
-        127710
+        127710,
+        127539
       ]
     },
     {
       "ticker": "$WEN",
       "name": "Wendy's Co",
       "mint": "66pQgfLHEfbHSBgYSZSrKEdJHHaGiYbgCtNbz48Apump",
-      "mcap": 111181,
+      "mcap": 111614,
       "peak_mcap": 185387,
       "status": "tracked",
       "outcome": null,
@@ -1896,14 +1900,15 @@
         157112,
         158145,
         143280,
-        111181
+        111181,
+        111614
       ]
     },
     {
       "ticker": "$BBR",
       "name": "BABY BULL RUN 2028",
       "mint": "22fidZDkuj1ixv8wXGakCRuGSzRdVdRrRiXzcx3vpump",
-      "mcap": 108837,
+      "mcap": 108617,
       "peak_mcap": 108837,
       "status": "tracked",
       "outcome": null,
@@ -1919,14 +1924,15 @@
         106817,
         106741,
         106445,
-        108837
+        108837,
+        108617
       ]
     },
     {
       "ticker": "$BANANA",
       "name": "Banana For Scale",
       "mint": "3Uu8anjcxD5Z5nWbyY4Wn2jB5czb5ph1dp41L7e6pump",
-      "mcap": 89339,
+      "mcap": 89158,
       "peak_mcap": 89339,
       "status": "tracked",
       "outcome": null,
@@ -1945,14 +1951,36 @@
         88139,
         87606,
         87361,
-        89339
+        89339,
+        89158
+      ]
+    },
+    {
+      "ticker": "$FLARO",
+      "name": "Flaro",
+      "mint": "9NKToDBF9tiYxoGSjyhcBi2NqVyJjFJyCW98UPVrpump",
+      "mcap": 62698,
+      "peak_mcap": 62698,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-28T12:05:57Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/9NKToDBF9tiYxoGSjyhcBi2NqVyJjFJyCW98UPVrpump",
+      "spark": [
+        47174,
+        62698
       ]
     },
     {
       "ticker": "$MUTUMBO",
       "name": "mutumbo",
       "mint": "4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump",
-      "mcap": 84077,
+      "mcap": 62456,
       "peak_mcap": 84077,
       "status": "tracked",
       "outcome": null,
@@ -1974,14 +2002,15 @@
         37897,
         54252,
         65476,
-        84077
+        84077,
+        62456
       ]
     },
     {
       "ticker": "$YAJUCOIN",
       "name": "淫夢 1145141919810 ",
       "mint": "BRrc4qh3t1wpE97FETgea1DEefu8A95Cu3g9vcN5pump",
-      "mcap": 57422,
+      "mcap": 57559,
       "peak_mcap": 58069,
       "status": "tracked",
       "outcome": null,
@@ -2003,14 +2032,15 @@
         57301,
         56948,
         56022,
-        57422
+        57422,
+        57559
       ]
     },
     {
       "ticker": "$MEEP",
       "name": "MEEP CAT",
       "mint": "8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump",
-      "mcap": 51435,
+      "mcap": 49757,
       "peak_mcap": 60672,
       "status": "tracked",
       "outcome": null,
@@ -2032,14 +2062,36 @@
         50205,
         42748,
         36331,
-        51435
+        51435,
+        49757
+      ]
+    },
+    {
+      "ticker": "$🐂🀄",
+      "name": "Ansem's Army",
+      "mint": "DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump",
+      "mcap": 49632,
+      "peak_mcap": 53078,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-28T12:05:57Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/DJ7YoBbUpTyL2gLHEBDVWpxpzSL3ANga25XrZM2Wpump",
+      "spark": [
+        53078,
+        49632
       ]
     },
     {
       "ticker": "$TOUCHED",
       "name": "pocket hitlers touched me",
       "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
-      "mcap": 48521,
+      "mcap": 48422,
       "peak_mcap": 48521,
       "status": "tracked",
       "outcome": null,
@@ -2059,14 +2111,15 @@
         47869,
         47573,
         47453,
-        48521
+        48521,
+        48422
       ]
     },
     {
       "ticker": "$ARENA",
       "name": "Grand Arena",
       "mint": "Ddrae7atujkL2Np8myWgMF2LBU1E4ewRVQ3cwpAJpump",
-      "mcap": 46795,
+      "mcap": 44952,
       "peak_mcap": 46795,
       "status": "tracked",
       "outcome": null,
@@ -2088,15 +2141,16 @@
         39958,
         35985,
         35068,
-        46795
+        46795,
+        44952
       ]
     },
     {
       "ticker": "$$TUPID",
       "name": "$tupid money",
       "mint": "3G8zFxHAnuWXiiC9MobE9EUUqV6m6MjL51YnN6tGpump",
-      "mcap": 16235,
-      "peak_mcap": 16235,
+      "mcap": 16713,
+      "peak_mcap": 16713,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2117,14 +2171,36 @@
         15101,
         14542,
         14258,
-        16235
+        16235,
+        16713
+      ]
+    },
+    {
+      "ticker": "$ANSEMWHEEL",
+      "name": "Ansem Wheel",
+      "mint": "3i3xCsMzmhGwAMZSojGH7uGEaizkGibBWPnZ5bgnpump",
+      "mcap": 16091,
+      "peak_mcap": 28795,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-28T12:05:57Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/3i3xCsMzmhGwAMZSojGH7uGEaizkGibBWPnZ5bgnpump",
+      "spark": [
+        28795,
+        16091
       ]
     },
     {
       "ticker": "$ORANGIE",
       "name": "The Italian Stallion",
       "mint": "DuBrjnHaC8BMP6EZ2md38oSERYU1msh8VumPoG2Gpump",
-      "mcap": 12371,
+      "mcap": 15575,
       "peak_mcap": 101831,
       "status": "tracked",
       "outcome": null,
@@ -2139,14 +2215,36 @@
       "spark": [
         101831,
         97398,
-        12371
+        12371,
+        15575
+      ]
+    },
+    {
+      "ticker": "$GINGER",
+      "name": "Ginger",
+      "mint": "2Pf2BnCWrkp8BgRJKzHTvaiBUk1D6mVZTxwTQr22pump",
+      "mcap": 12573,
+      "peak_mcap": 12573,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-28T12:05:57Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/2Pf2BnCWrkp8BgRJKzHTvaiBUk1D6mVZTxwTQr22pump",
+      "spark": [
+        12442,
+        12573
       ]
     },
     {
       "ticker": "$RO",
       "name": "Ro The Robber",
       "mint": "8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
-      "mcap": 11711,
+      "mcap": 10412,
       "peak_mcap": 14018,
       "status": "tracked",
       "outcome": null,
@@ -2166,14 +2264,15 @@
         12098,
         11168,
         10369,
-        11711
+        11711,
+        10412
       ]
     },
     {
       "ticker": "$BALDI",
       "name": "Baldi",
       "mint": "2wGX6NEfUhUGkAeVL59RVeTXrfBbWg3GiJrPBUCfpump",
-      "mcap": 7778,
+      "mcap": 6661,
       "peak_mcap": 11512,
       "status": "tracked",
       "outcome": null,
@@ -2195,7 +2294,28 @@
         6668,
         7137,
         7549,
-        7778
+        7778,
+        6661
+      ]
+    },
+    {
+      "ticker": "$ANSEMWHEEL",
+      "name": "ansemwheel",
+      "mint": "Av5FFKpTTeh3gCiL1E8srCRoMcVz7KXMQwwe3tZNpump",
+      "mcap": 5205,
+      "peak_mcap": 5858,
+      "status": "dead",
+      "outcome": "died",
+      "color": "#5a6472",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-28T12:05:57Z",
+      "died_at": "2026-06-28T12:06:08Z",
+      "link": "https://pump.fun/coin/Av5FFKpTTeh3gCiL1E8srCRoMcVz7KXMQwwe3tZNpump",
+      "spark": [
+        5858
       ]
     },
     {
@@ -2531,11 +2651,11 @@
     }
   ],
   "base_rate": {
-    "mints_seen": 1989,
-    "gate_passed": 32,
-    "died": 16,
-    "graduated": 26,
-    "pass_rate_pct": 1.61,
+    "mints_seen": 2289,
+    "gate_passed": 37,
+    "died": 17,
+    "graduated": 31,
+    "pass_rate_pct": 1.62,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }
 }

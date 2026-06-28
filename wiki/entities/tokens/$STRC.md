@@ -198,6 +198,22 @@ accounts: 9
 - confidence=低（最低水準継続。"Strategy Ponzi" 命名・Wall Street 零値評価・chooserich "apocalypse" = 言論爆発で悪化方向）。
 - ⚠️ zhusu counter-bullish「$90 回復」は confidence=低（26♥ 薄く、BTC $60K 割れ吸収が前提）。残す（指針5 両論）。
 
+### 2026-06-28 更新⑥（新 beat: TrustlessState「$95 以上には二度と買い手がいない」反射性の逆転）
+出典: [[trustlessstate__2070216218712195396]]（32♥・2026-06-25T18:43Z）/ [[cryptokaleo__2069888567019528596]]（29♥・2026-06-24T21:01Z）
+
+**観測（事実）**:
+- [[@TrustlessState]]（2026-06-25T18:43Z）: 「Why would anyone ever buy $STRC above $95 ever again? Lack of confidence in STRC might mean there's more sellers and fewer buyers as it trades closer to $100.」([[trustlessstate__2070216218712195396]] 32♥) = **$STRC の par 近辺（$95 以上）が買い場でなく売り場に転換した**という構造的観察。
+- [[@CryptoKaleo]]（2026-06-24T21:01Z）: 「GOING LIVE WITH THE LARGEST $STRC HOLDER NOW!」([[cryptokaleo__2069888567019528596]] 29♥) = 更新⑤で合成済みの Apyx スペース開始の実況 tweet（57♥ 事前告知の続き）。新情報なし。
+
+**⚠️ 判断（reflexivity の逆転）**:
+- TrustlessState の観察は既存合成の「ジレンマ」（Hoffman: 金利引き上げ ↔ cash 消耗の悪循環）に**第3の軸**を追加する:
+  - 本来の $STRC par 維持メカニクム: 「$100 より安ければ割安 → 買い手流入 → par に収束」。
+  - 信頼崩壊後の逆転: 「$100 に近づく = 損切りライン（コスト平均 $95-100 で買った投資家の出口）」 = par 近辺が**買い支えでなく売り場**になる反射性（reflexivity）の逆転。
+  - 「二度と $95 以上に買い手はいない」= par 防衛の前提（par への平均回帰を信じる参加者）が市場から消滅したという命題。par $100 の優先株が par を恒久的に下回る商品として再分類された。
+- **Kaleo の ARS アナロジー（既記）との接続**: 2008 ARS も「24年間機能した後、流動性消滅で peg 崩壊」。TrustlessState の観察はその「流動性消滅の瞬間」を STRC で言語化している。
+- confidence=低（変化なし。reflexivity 逆転の言語化は構造的悪化のさらなる確証）。
+- 接続: [[rug-anatomy]]（peg 維持の前提崩壊 = 装い≠実体の最終フェーズ）/ [[$MSTR]]（par 近辺の売り勢力 = STRC 保有者が $100 回復時に売る → MSTR の希薄化による cash 補充コストが永続化）。
+
 ### 2026-06-28 更新⑤（新 beat: Apyx = 最大 STRC ホルダー + apxUSD = STRC 担保 stablecoin・systemic cascade 新リスク）
 出典: [[cryptokaleo__2069789814317019144]]（57♥・2026-06-24T14:28Z）/ [[cryptokaleo__2069832770503754167]]（22♥・2026-06-24T17:19Z）/ [[trustlessstate__2070145958420079094]]（63♥・2026-06-25T14:03Z）
 
