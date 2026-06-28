@@ -29,5 +29,20 @@ posts: 9
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- Fundstrat Global Advisors（Tom Lee 率いる TradFi 調査会社）の公式アカウント。
+- $ETH 2,232 likes「zero chance of this 'crisis' happening for $ETH / zero / Funding secured」→ ETH の存続危機論への強い否定（2026-06-19）。
+- $BMNR（Bitmine）901 likes → Fortune Crypto 100 ランク入りを祝福。マイニング/BTC 保有企業へのポジティブ言及。
+- FOMC 後記者会見制度（2019年導入）に関するマクロ分析投稿 442 likes。
+- CNBC Closing Bell 出演告知。メディア露出が多い。
+
+**判断（推論）**
+- 役割: **TradFi ↔ crypto ブリッジのマクロ KOL**。機関投資家向けフレームで crypto を語る。CNBC/Fortune 等の伝統メディアへのアクセスが強く、[[regulation-catalyst]] や [[majors-rotation-supercycle]] の文脈で ETH・BTC を支持する際のナラティブ補強者。
+- $ETH 「zero chance」発言は [[majors-rotation-supercycle]] の ETH ポジションに直接刺さる。強い断定は**強気ナラティブの重要支点**だが、逆に外れた場合のナラティブ転換も大きい。
+- $BMNR 推しは [[vc-founder-thesis-layer]] のマイニング企業・BTC proxy 系への機関視点の流入を示す。
+
+⚠️ 矛盾/留保: 「zero chance」は強い断定（data なし）→ CORE-CHECK 指針5（断定はデータから）に照らすと過信リスク。ETH の実際の funding dynamics と対比して追跡すべき。「Funding secured」の引用符はムスクの過去 tweet（2018年）パロディの可能性あり（皮肉か本気か文脈依存）。
+
+**接続 concept**: [[majors-rotation-supercycle]] [[regulation-catalyst]] [[vc-founder-thesis-layer]]
 <!-- synthesis:end -->

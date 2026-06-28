@@ -139,4 +139,62 @@ accounts: 9
 - **BTC $59K = $STRC $77 ATL の同時性**は「STRC の崩壊は BTC 下落を増幅する（mNAV 0.59x + preferred 崩落が同日に動く）」という既存合成の因果を実価格で裏付け。
 - BTC $59K の文脈は [[$BTC]] 合成にも接続（[[majors-rotation-supercycle]] 上の BTC downside trigger 候補の「具体的価格帯」として）。
 - confidence=低（変化なし）。
+
+### 2026-06-28 更新④（新 beat 多数: ARS 歴史的アナロジー・"Strategy Ponzi" 命名・Wall Street 零値評価・2026-06-25 CT 言論爆発・zhusu counter-bullish）
+出典群（2026-06-20〜26・以下すべて未合成）:
+- [[CryptoKaleo__2068370260617572731]]（64♥・2026-06-20T16:27Z）
+- [[cryptokaleo__2070000189218132276]]（30♥・2026-06-25T04:24Z）
+- [[cryptokaleo__2070126334240580023]]（82♥・2026-06-25T12:45Z）
+- [[cryptokaleo__2070145174492082264]]（197♥・2026-06-25T14:00Z）
+- [[cryptokaleo__2070154243470696932]]（80♥・2026-06-25T14:36Z）
+- [[cryptokaleo__2070154350421332405]]（265♥ RT @tulipking・2026-06-25T14:37Z）
+- [[cryptokaleo__2070213209097719824]]（503♥ RT @nic_carter・2026-06-25T18:31Z）
+- [[cryptokaleo__2070247515207634973]]（553♥ RT @chooserich・2026-06-25T20:47Z）
+- [[cryptokaleo__2070257843291185373]]（18♥・2026-06-25T21:28Z）
+- [[zhusu__2070527466389586202]]（26♥・2026-06-26T15:19Z）
+- [[cryptokaleo__2069775923050602647]]（80♥・2026-06-24T13:33Z）
+
+**観測（事実）**
+
+**[1] ARS 歴史的アナロジー（Kaleo, 2026-06-20, 64♥）**:
+「$STRC isn't the first multi-billion dollar cash-like preferred instrument to exist. In 2008, APRs were a $330B+ market that were advertised as "cash-like" that used variable interest rates via auctions to maintain their peg. And for 24 years that was accurate… until it wasn't.」= **2008年の ARS（Auction Rate Securities）崩壊との明示的な類比**。ARS は "cash-like"（現金同等物）として $330B+ の市場を形成していたが、2008年の金融危機でオークションが機能不全 → 市場が凍結 → par 崩落。Kaleo は STRC を同じ経路で捉えている。
+
+**[2] "STRC = USD の上位互換" という Saylor ナラティブの総括（Kaleo, 2026-06-25, 30♥）**:
+「Saylor really spent the last year trying to convince everyone that $MSTR is the better version of Bitcoin and $STRC is the better version of USD.」= **Saylor のマーケティング thesis の要約**（"better BTC + better USD"）。このフレーミングが崩壊した事実を前提に、以降の批判群が展開される。
+
+**[3] MSTR mNAV 1.0 割れ予言（Kaleo, 2026-06-25, 82♥）**:
+「This will be under 1.0 for $MSTR by next week btw.」= mNAV 0.59x（既記、前回更新②）の確認。MSTR が BV 以下になる予言。
+
+**[4] trapped by Saylor's lies・best vs worst case（Kaleo, 2026-06-25, 197♥）**:
+「Honestly man this still does suck to see, because I know how many people have been trapped by Saylor's lies.」Best case: Saylor / Strategy が proactive に大量 BTC を売却 → convertible debt の cash 確保 + dividends + pref shares を discount で retire。Worst case: 市場がこれをやってしまい（＝価格がさらに崩落して担保価値が下がり）、Saylor は MSTR ATM 数百 mil を売るだけで何もしない。
+
+**[5] "false advertising" の直接告発（Kaleo, 2026-06-25, 80♥）**:
+「"STRC wasn't built to maintain its $100 peg" — Maybe that's true, but what's also true is that Strategy still marketed it as a safe, low volatility place to put your money for investors. They constantly have preached over the last year about how low the risks were compared to the returns... Just absolutely reckless behavior and false advertising that will hurt a lot of people.」= **Saylor 側の弁護論（"peg 維持は設計外"）を知った上で、それでも "false advertising" と断定**。
+
+**[6] Wall Street による"distressed credit"評価（@tulipking RT, 2026-06-25, 265♥）**:
+「Wall Street is really good at sniffing out distressed credit. They're zero'ing STRC bc they know Saylor won't get away with…」（文末切れ）= **TradFi 信用市場の目線でゼロ評価**という観測。"distressed credit" = STRC が junk bond に準じた信用リスクとして識別されている。
+
+**[7] nic_carter junk bond 視点（@nic_carter RT, 503♥、2026-06-25）**:
+「<not investment advice> think from the perspective of a junk bond investor. what required rate of return would you requi…」（文末切れ）= nic_carter（著名 crypto 研究者）が STRC を **junk bond 水準の期待リターンで評価するよう促す**。現在の STRC yield（par $100 で 11% 配当 → $71 実価格 = 実効利回り ~15.5%）をジャンク債として評価すれば「そのリスクに見合うか？」の問い。
+
+**[8] CT 言論爆発：open letter to Saylor / "frontline of MicroStrategy apocalypse"（@chooserich RT, 553♥、2026-06-25）**:
+「An open letter to Michael Saylor」/ 「Live from the frontline of the Microstrategy apocalypse」= **CT での言論爆発**。chooserich の「open letter」と「apocalypse frontline」という言葉の組み合わせは、STRC 崩壊が trench 内でバイラルな怒り・批判の対象になっていることを示す。553♥（本サイクル最高 RT エンゲージ）。
+
+**[9] "Saylor's Strategy Ponzi" 命名（Kaleo, 2026-06-25, 18♥）**:
+「Going live now with Nick to talk all things MSTR / STRC and Saylor's Strategy Ponzi」/ 「Breaking down the Strategy ponzinomics with Nick」= **Kaleo が初めて "Strategy Ponzi" / "ponzinomics" という語を使用**。[[rug-anatomy]] の「装い≠実体」から一歩踏み込んで「構造的 ponzi」と命名するフェーズに入った。
+
+**[10] 2026-06-24 $85 観測（Kaleo, 2026-06-24, 80♥）**:
+「$STRC back down to $85 as MSTR is making another move down to retest $100」= $85 観測（時系列補完: $85 (6/24) → $77 ATL (6/25) → $71 (6/26)）。MSTR と STRC の連動した下落を確認。
+
+**[11] ⚠️ counter-bullish: zhusu「tail wag dog / sub-60k 吸収 → $90 回復」（zhusu, 2026-06-26, 26♥）**:
+「Probably what's gonna happen now is patient capital absorbs sub 60k and then prints strc back to 90, classic tail wag dog spot.」= **弱気側一色への反証として重要**。zhusu の読み: BTC が $60K 割れで patient capital（長期保有者・機関）が吸収 → BTC 回復 → STRC が $90 へ戻る。"tail wag dog spot" = STRC が先行して下げ、BTC 回復後に STRC が後から戻る。6/19 Bankless 観察「crypto の focal point は STRC になった」の逆方向: BTC が STRC を引き上げる。
+
+**⚠️ 判断（統合）**
+- **ARS アナロジー（Kaleo 2026-06-20）**: 2008年 ARS 崩壊との対比は「24年間機能した仕組みが一瞬で死んだ」= STRC の "peg 維持メカニクム" がどれだけ fragile かを歴史に接続する。ARS は金融危機で流動性が消えた瞬間に全市場凍結した。STRC は BTC 価格下落と機関の credit assessment の変化という2要素による攻撃にさらされている。
+- **"Ponzi" / "false advertising" 命名フェーズ**: Kaleo が "Strategy Ponzi" "ponzinomics" を使用し始めたことは、**CT の言論が「批判」から「糾弾・定義」フェーズに移行した**ことを示す。Wall Street ("distressed credit" / "zero'ing") と CT ("ponzi" / "false advertising" / "apocalypse") の両方から包囲される構造。信頼の崩壊は可視化から定義の段階へ進んだ（[[rug-anatomy]] 「装い≠実体」パターンの完熟）。
+- **best case vs worst case（Kaleo）**: best case＝Saylor が自発的に大量 BTC 売却→構造的解決。worst case＝市場が Saylor を崩壊させ MSTR ATM しか打ち手がない。zhusu の "tail wag dog $90 回復" シナリオは Kaleo の best case（BTC 回復）と方向は同じ。
+- **⚠️ 最大の論点（未解決）**: Kaleo "best case: BTC を大量売却" vs. Saylor 「現金優先・MSTR 希薄化で耐える」（既記、6/22 自認）= Saylor はまだ大量 BTC 売却を発動していない。発動のトリガー（BTC 何ドル割れで追い詰まるか）が不明のまま。
+- 接続: [[$MSTR]]（MSTR 株価 = STRC の崩壊に並走・希薄化の原資）/ [[rug-anatomy]]（"false advertising" × "Ponzi" 命名 = 装い≠実体の完熟事例）/ [[majors-rotation-supercycle]]（BTC $60K 割れ + STRC 崩壊 = downside trigger の確度上昇）/ [[onchain-verification]]（Wall Street が "distressed credit" と識別 = 信用市場の外部検証）。
+- confidence=低（最低水準継続。"Strategy Ponzi" 命名・Wall Street 零値評価・chooserich "apocalypse" = 言論爆発で悪化方向）。
+- ⚠️ zhusu counter-bullish「$90 回復」は confidence=低（26♥ 薄く、BTC $60K 割れ吸収が前提）。残す（指針5 両論）。
 <!-- synthesis:end -->

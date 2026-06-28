@@ -7,19 +7,19 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 10648 件 → ノイズ(RT/短文/中身なし)除外後 **7944 件**が信号。
+生ツイ 10649 件 → ノイズ(RT/短文/中身なし)除外後 **7945 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
-| $BTC | 153 | 19 | Bankless, CoinMarketCap, CredibleCrypto, CryptoHayes, CryptoKaleo, Crypto_Alch |
-| $ETH | 147 | 18 | CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC, WatcherGuru |
-| $SOL | 45 | 10 | CryptoHayes, DefiIgnas, RookieXBT, blknoiz06, coingecko, coinkeiba |
-| $HYPE | 38 | 13 | CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT, arkham |
+| $BTC | 154 | 20 | ?, Bankless, CoinMarketCap, CredibleCrypto, CryptoHayes, CryptoKaleo |
+| $ETH | 148 | 19 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
+| $SOL | 46 | 11 | ?, CryptoHayes, DefiIgnas, RookieXBT, blknoiz06, coingecko |
+| $HYPE | 39 | 14 | ?, CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT |
+| $SPCX | 38 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
 | $MASK | 37 | 1 | spyzer |
-| $SPCX | 37 | 18 | 0xFunX, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas, MEXC |
 | $CLUTCH | 36 | 1 | Clutch_FIFA2026 |
 | $STRC | 31 | 9 | Bankless, CryptoKaleo, TrustlessState, coingecko, coinkeiba, saylor |
 | $PUMPI | 27 | 1 | pumpilians_ |
@@ -27,8 +27,8 @@ tags: [trench, dashboard]
 | $JOTCHUA | 26 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
 | $MU | 26 | 7 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
 | $WOJAK | 25 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
-| $KINS | 23 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
 | $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
+| $KINS | 23 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
 | $MSTR | 21 | 3 | CryptoKaleo, saylor, theunipcs |
 | $PEPE | 21 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $MERLIN | 20 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |

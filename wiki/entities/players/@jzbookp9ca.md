@@ -30,5 +30,18 @@ posts: 39
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 日本語ユーザー。投稿エンゲージメントは最大 likes=10（実質個人メモレベル）。39件投稿。
+- 奨学金・メンタル・仕事の縦割りなど個人的な生活投稿が大半。
+- crypto 言及: $MAXIS（1件）「Trenchers lost the HODL culture and became paper-handed. But $MAXIS Season 1 might be the first sign of diamond hands making a comeback.」
+- $DROOLING（1件）言及あり。
+
+**判断（推論）**
+- 役割: 日本語圏の個人リテール参加者。エンゲージ規模からは KOL・影響者ではなく**日本語感情モニタのサンプル**として機能。
+- $MAXIS 言及は「high-MC runner 不在 / HODL 文化の復活仮説」という[[survivor-memes]] の文脈観察として価値あり。個人 1 件の観測だが [[jp-meme-cluster]] に紐づく日本語話者の trench 参加の実態を示す。
+
+⚠️ 信号規模の注意: エンゲージ最大 10 likes = 個人の呟き水準。watchlist 共起数（11件）は他アカとの共起であり、本アカ自体の影響力を示さない。合成は「日本語リテール視点」として薄く扱う。
+
+**接続 concept**: [[jp-meme-cluster]] [[survivor-memes]]
 <!-- synthesis:end -->

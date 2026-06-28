@@ -30,5 +30,21 @@ posts: 80
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 80件投稿、最大 744 likes（返信バンター）。トレーダー兼 trench 住人。
+- 言及トークン: $MICHI $KEYCAT $MEOW（cat meme 3件）, $GIKO, $CHEGG 等。cat 系に偏重。
+- 「$PEPE を 5m mcap で買った時と同じ weird feeling」（2024-03-13）→ early conviction のパターン認識型。
+- 「bought a stupid amount of $michi hope it ages well」（2024-04-18）→ 早期大量エントリー。
+- 「water towers を study しろ」→ 謎めいたティッカー/シグナルの示唆投稿。
+- 高エンゲージ投稿の多くは shitpost・バンター系（@blknoiz06 @xbtGBH へのリプ）。
+
+**判断（推論）**
+- 役割: **早期エントリー型のリテール KOL**。$PEPE → $MICHI の連続で「大型化前に掴んでいる」実績があり、cat meme セクターの先行指標として機能しうる。
+- 動線: low-cap cat meme の初期ナラティブ発生時に感情投稿 → コミュニティ醸成の補助役。[[survivor-memes]] の「何が残るか」判断の一次観察者。
+- バンター文化との接続: trench コミュニティ内でのポジショニング（@blknoiz06 等 CT 重鎮との絡み）はナラティブ伝播チャネルでもある。
+
+⚠️ 矛盾/留保: 過去実績（$PEPE/$MICHI 早期エントリー）が現在の calls に続くとは限らない。shitpost 比率が高く、真剣な call との区別が必要。直近言及トークンの多くに低 MC 小物が混在。
+
+**接続 concept**: [[survivor-memes]] [[early-lowcap-entry]] [[rug-anatomy]]
 <!-- synthesis:end -->

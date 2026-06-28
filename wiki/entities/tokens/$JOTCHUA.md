@@ -1,9 +1,14 @@
 ---
 type: entity
 kind: token
+source: auto-track
+status: watch
 title: $JOTCHUA
-updated: 2026-06-22
-tags: [trench, entity, token]
+mint: BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump
+pool: AKQyQgEifBBhQmANuKzrRuRGoKSkKBv8NVdccc87FrR8
+created: 2026-06-22
+updated: 2026-06-28
+tags: [trench, entity, token, auto-track]
 mentions: 26
 accounts: 3
 ---
@@ -32,6 +37,21 @@ accounts: 3
 | 119 | [[@PumpfunEco]] | $Jotchua has pumped 58% today! 🔥 | [[pumpfuneco__2070222901719028164]] |
 | 119 | [[@Crypto_Alch]] | Waking up to $Jotchua hitting $10 milli ish over the weekend   It’s going to be an a | [[Crypto_Alch__2068927200036880866]] |
 | 112 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[Crypto_Alch__2069087026813530587]] |
+
+## ライフサイクル(auto-track)
+| 項目 | 値 |
+|---|---|
+| mint | BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump |
+| pool | AKQyQgEifBBhQmANuKzrRuRGoKSkKBv8NVdccc87FrR8 |
+| gate | safety:ok / traction:kol |
+| mcap(auto-track検知) | $8,601,556 |
+| real_sol | 0 |
+| reply_count | 0 |
+| twitter | https://x.com/JotchuaTheMeme/status/2063476580626936225 |
+| community | https://x.com/i/communities/2024722566188060994 |
+| status | watch |
+| created(chain) | 2026-05-05（created: 1780806147000） |
+| auto-track birth 検知 | 2026-06-28T05:38Z |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

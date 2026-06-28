@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7413件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7406件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**295ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,12 +16,12 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 13 | 9 | 107 | 5031♥ @zhusu: International oil+gas will be priced in $BTC withi / 4729♥ @milesdeutscher: Odds of a Strategic $BTC Reserve just skyrocketed  |
-| [[$STRC]] | 9 | 4 | 16 | 117♥ @coingecko: $STRC falls to an all-time low of ~$77 amidst Bitc / 96♥ @CryptoKaleo: $STRC already in the mid $70s  wow  |
-| [[$ETH]] | 6 | 4 | 105 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
-| [[$MU]] | 4 | 3 | 5 | 26♥ @MEXC: 🔥 More USD1-M Futures are now available on MEXC! @ / 23♥ @MEXC: Micron’s Q3 beat was only half the story. #WallStr |
-| [[$SPCX]] | 3 | 3 | 7 | 26♥ @MEXC: 🔥 More USD1-M Futures are now available on MEXC! @ / 21♥ @spyzer: $SPCX gonna be an interesting study case consideri |
-| [[$SOL]] | 3 | 2 | 17 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 1998♥ @lookonchain: Not everyone can make money by trading #memecoins  |
+| [[$BTC]] | 13 | 9 | 106 | 4552♥ @zhusu: Buy the rumor buy the news buy the dip light the f / 4452♥ @CryptoHayes: Do you hear that? … it’s the sound of the money pr |
+| [[$ETH]] | 6 | 4 | 106 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$STRC]] | 7 | 3 | 14 | 80♥ @CryptoKaleo: $STRC back down to $85 as MSTR is making another m / 64♥ @CryptoKaleo: $STRC isn’t the first multi-billion dollar cash li |
+| [[$SOL]] | 3 | 2 | 17 | 2270♥ @lookonchain: This guy spent only 6 $SOL($815) to buy 30.1M $MOO / 1919♥ @lookonchain: FOMO Buying is very dangerous!  This trader lost 3 |
+| [[$SPCX]] | 2 | 2 | 6 | 11♥ @nansen_ai: Trading $SPCX?  Perps on Nansen are powered by @Hy / 8♥ @DEG_2020: $SPCX 値固めに入った？  |
+| [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
 
@@ -60,5 +60,5 @@ updated: 2026-06-26
 | [[@KyleSamani]] | 127 |
 | [[@thedefiedge]] | 121 |
 | [[@mellometrics]] | 119 |
-| [[@milesdeutscher]] | 117 |
+| [[@milesdeutscher]] | 116 |
 | [[@DefiIgnas]] | 116 |

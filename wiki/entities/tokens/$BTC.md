@@ -4,13 +4,13 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 153
+mentions: 154
 accounts: 19
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 153件 / 19アカ。
+> 自動生成(brain/build_entities.py)。言及 154件 / 19アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -102,4 +102,16 @@ accounts: 19
 ### 2026-06-28 確認②（新 beat なし・STRC経由でBTC $59K実価格が確認される）
 - worklist 代表ツイ「International oil+gas will be priced in $BTC within 24months」([[@zhusu]] 5,031♥ = [[zhusu__1458765410573062148]]・2021-11-11の古ツイ）/「Odds of a Strategic $BTC Reserve just skyrocketed on Polymarket」([[@milesdeutscher]] 4,729♥ = [[milesdeutscher__1881239737723441244]]・2025-01-20の古ツイ）= いずれも旧ツイ再キャプチャ。本サイクルの新 beat なし。
 - **補足（他ソース経由）**: [[@coingecko]] が $STRC $77 ATL 報告（[[coingecko__2070187355734974520]] 117♥・2026-06-25）にて「amidst Bitcoin's drop to the **$59,000 mark**」と明記 = 2026-06-25 時点で BTC が $59K 水準まで下落していた実価格が確認される。既存合成「21ヶ月来安値」の具体的ドル価格。既存合成（BTC = 最上流アンカー・全体収縮フェーズ継続）に変化なし。
+
+### 2026-06-28 更新③（新 beat: Hayes「money printers × patriotic duty」・safe haven 強化フレーミング）
+出典: [[CryptoHayes__1936854369980346588]]（4,452♥・2025-06-22T18:30Z・2026-06-21 キャプチャ）
+
+**観測（事実）**: 「Do you hear that? … it's the sound of the money printers revving up to do their patriotic duty. This weakness shall pass and $BTC will leave no doubt as to its safe haven status.」（2025-06-22 = 2025 年夏の弱地局面）。
+
+**判断（light-touch）**: 既存合成「BTC = fiat liquidity smoke alarm」（2025-04-04 tariff shock 時の Hayes フレーミング、既記）の2ヶ月後バージョン。April の「デカップル可能性」から June には「safe haven status に疑いの余地なし」へ Hayes の確信が強まった推移。BTC を国家・中央銀行の fiat 信用から独立した safe haven として位置づける narrative の強化。足元（2026-06-28）の $59K・21ヶ月来安値という価格事実と合わせると、**"safe haven" KOL ナラティブ vs 実価格の乖離**が続いている状態。confidence=中（Hayes フレーム補足のみ）。
+- 接続: [[majors-rotation-supercycle]]（BTC = 上流）/ [[rug-anatomy]]（KOL ナラティブ vs 実価格の乖離を観察）。
+
+### 2026-06-28 確認③（worklist代表ツイ確認）
+- worklist 代表ツイ「Buy the rumor buy the news buy the dip light the fuse」([[@zhusu]] 4,552♥ = [[zhusu__1450003590517452801]]・2021-10-18の古ツイ）= 旧ツイ再キャプチャ。
+- 「Do you hear that? … it's the sound of the money printers」([[@CryptoHayes]] 4,452♥ = [[CryptoHayes__1936854369980346588]]・2025-06-22）= 上記更新③で合成済み。
 <!-- synthesis:end -->

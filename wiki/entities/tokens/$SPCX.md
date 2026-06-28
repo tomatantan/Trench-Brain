@@ -4,13 +4,13 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 37
+mentions: 38
 accounts: 18
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 37件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 38件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -109,4 +109,15 @@ accounts: 18
 - [[@MEXC]] (2026-06-26): USD1-M Futures に $SPCX を追加（$MU / $SP500 / $NAS100 / $ARM と併列、[[mexc__2070416779948568669]] 26♥）= 取引所プロモ・独立信号なし。ただし perp 取引所が **$SPCX を株式系 futures ライン**として継続提供している事実 = 株価が全騰幅消去済みでも perp 板は生存（[[perp-dex-wars]]上の plate 継続）。
 - [[@spyzer]] (2026-06-12T15:55Z): 「$SPCX gonna be an interesting study case considering launch dynamics」([[spyzer__2065462914383859910]] 21♥) = IPO 直後（6/12）の薄い観察。launch dynamics への着目のみ = 本サイクルで既合成の「DefiIgnas の低 float/高 FDV」「MurphyBTC の lockup 売り圧」に対し新情報なし。likes 21♥・thin。
 - 既存合成（全騰幅消去・lockup 解除スケジュール 2026年8月〜12月・弱気バイアス）に変化なし。confidence=弱気（維持）。
+
+### 2026-06-28 確認②（worklist 代表ツイ確認・DEG_2020「値固め？」・nansen_ai promo）
+出典: [[deg_2020__2070086212967440890]]（8♥・2026-06-25T10:06Z）/ [[nansen_ai__2068950016430072308]]（11♥・2026-06-22T06:51Z）
+
+**観測（事実）**:
+- [[@DEG_2020]]（2026-06-25T10:06Z）: 「$SPCX 値固めに入った？」（8♥）= チャートリンク付きで「値固め（consolidation）に入ったか？」という疑問形の観測。全騰幅消去（-17.8%）後の価格動向への JP KOL の着目。内容は問いかけのみ = 独立の強気/弱気 signal としての強度は低い。
+- [[@nansen_ai]]（2026-06-22T06:51Z）: 「Trading $SPCX? Perps on Nansen are powered by @HyperliquidX and @tradexyz. 🎟️ Every $10,000 in perps volume = 1 raffle ticket. 💎 100 winners every week, $1,000 USDC each.」（11♥）= perp 取引所プロモ（raffle キャンペーン）= 独立信号なし。ただし perp ツーリングが SPCX に特化した raffle を組んでいる事実 = 板・出来高ベースのエンゲージが一定存在することの傍証。
+
+**⚠️ 判断（light-touch）**:
+- DEG_2020「値固め？」は全騰幅消去後の横ばいに対する JP KOL の観察。8♥ = 極小エンゲージ・signal 強度低。lockup スケジュール（2026年8月〜）が迫る中での「値固め」は、むしろ lockup 前の一時的な需給均衡（強気サインでなく静止状態）の可能性が高い。
+- 既存合成（全騰幅消去・lockup スケジュール・弱気バイアス）に変化なし。confidence=弱気（維持）。
 <!-- synthesis:end -->

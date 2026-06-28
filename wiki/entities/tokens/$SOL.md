@@ -4,20 +4,20 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 45
+mentions: 46
 accounts: 10
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 45件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 46件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$BTC]] [[$USELESS]] [[$USDC]] [[$WIF]] [[$PENGU]] [[$LIBRA]] [[$DOGE]]
+[[$ETH]] [[$BTC]] [[$USELESS]] [[$USDC]] [[$WIF]] [[$PENGU]] [[$HYPE]] [[$LIBRA]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -70,4 +70,17 @@ accounts: 10
 - worklist 代表ツイ①「This guy spent only 6 $SOL($815) to buy 30.1M $MOO」([[@lookonchain]] 2,270♥ = [[lookonchain__1650703881528307712]]・2023年の古ツイ）= 前サイクル確認済み（変化なし）。
 - worklist 代表ツイ②「Not everyone can make money by trading #memecoins on #Solana! This guy traded 11 #memecoins in 3 days, losing money on each one, for a total loss of 754 $SOL($147K).」([[@lookonchain]] 1,998♥ = [[lookonchain__1769438534262243448]]・2024-03-17の古ツイ）= 古ツイ再キャプチャ。2024年の Solana memecoin FOMO/FOMO 損失事例の定番ツイ。
 - 本サイクルの新 beat なし。既存合成（30ヶ月来安値・SOL short 利確済み・alt 母艦機能は未点火）に変化なし。
+
+### 2026-06-28 更新（新 beat: zhusu「Solana summer」・worklist FOMO 古ツイ確認）
+出典: [[zhusu__2070402771090571672]]（136♥・2026-06-26T07:04Z）/ [[lookonchain__1769717744260554920]]（1,919♥・2024-03-18の古ツイ）
+
+**観測（事実）**:
+- [[@zhusu]]（2026-06-26T07:04Z）: 「Solana summer」（136♥）= **2 語のみのシンプルな強気宣言**。30ヶ月来安値局面（既記）で zhusu が "Solana summer" というフレーズを投下。
+- worklist 代表ツイ「FOMO Buying is very dangerous! This trader lost 3,731 $SOL($775K) in just 1 hour by trading $SLERF」([[@lookonchain]] 1,919♥ = [[lookonchain__1769717744260554920]]・2024-03-18の古ツイ）= 古ツイ再キャプチャ。新情報なし。
+
+**⚠️ 判断（light-touch）**:
+- zhusu「Solana summer」は 136♥ = 中程度のエンゲージ。同日 zhusu は「patient capital absorbs sub 60k and then prints strc back to 90」（[[zhusu__2070527466389586202]]、STRC 合成）も発言 = **BTC の底値吸収 → STRC/SOL の回復をセットで見ている**。「Solana summer」は明示的な根拠なしの感覚論だが、大局的 macro 回復観（BTC $60K 吸収論）との一体感がある。
+- SOL 30ヶ月来安値 × zhusu「Solana summer」= **フロア形成への期待 KOL が出始めた**シグナル。既存合成「大口 short 利確済み・alt 母艦機能未点火」に対し「底近い可能性」の声が加わった。
+- ⚠️ zhusu は 2022 年の前回強気コール（「undeniably wrong」の自認、既記）の再現リスクがある。confidence=中（変化なし、zhusu 強気は逆指標リスク付きで残す）。
+- 接続: [[majors-rotation-supercycle]]（SOL = alt 母艦、bottom timing の観察対象）/ [[jp-meme-cluster]]（SOL 上 meme の温床・bottom から meme szn の時計）。
 <!-- synthesis:end -->

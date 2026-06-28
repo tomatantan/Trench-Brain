@@ -4,13 +4,13 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 147
+mentions: 148
 accounts: 18
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 147件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 148件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
@@ -91,5 +91,5 @@ ETF 流出（2026-06-25）:
 - [[majors-rotation-supercycle]] 上: ローテ点火の前提が OG 投げ売り局面から始まる構造（「底は OG が諦めた後」という逆張り論）との関連は今後観察。
 
 ### 2026-06-28 確認（新 beat なし）
-- worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 前サイクル確認済み。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・機関逆張り・20x short）に変化なし。
+- worklist 代表ツイ「1/ Guess who is pumping $BTC and $ETH」([[@CryptoHayes]] 4,097♥ = [[CryptoHayes__1738008677360239091]]・2022年の古ツイ）/「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022年の古ツイ）= 前サイクル確認済み（6/23・6/24 で既確認）。本サイクルの新 beat なし。既存合成（OG 投げ売り・ETF 流出・機関逆張り・20x short）に変化なし。
 <!-- synthesis:end -->

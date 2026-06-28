@@ -10,20 +10,20 @@ tags: [feedback, learning, hit-rate]
 > `brain/feedback.py` が tracked.json の実死亡/生存から型のhit-rateを計算（報告のみ）。
 > 断定はデータが出てから。小N/pending/比較群欠如は正直に出す。
 
-## 母集団: tracked 27件（dead 13 / pending(tracked) 14）
+## 母集団: tracked 32件（dead 16 / pending(tracked) 16）
 
 ## 型の hit-rate（観測）
 
 | 型(仮説) | 検証 | 判定 |
 |---|---|---|
-| **traction無し→死ぬ** | 死亡 10/18 (55%)・残り8はpending | 支持(死多) |
-| **traction有り→生存** | traction有り母集団 N=9（死3） | 検証可 |
-| gate=graduated の死亡率 | 5/5 (100%) | 観測 |
+| **traction無し→死ぬ** | 死亡 13/22 (59%)・残り9はpending | 支持(死多) |
+| **traction有り→生存** | traction有り母集団 N=10（死3） | 検証可 |
+| gate=graduated の死亡率 | 8/9 (88%) | 観測 |
 | gate=mcap勢い門 の死亡率 | 1/4 (25%) | 観測 |
-| gate=other の死亡率 | 7/18 (38%) | 観測 |
+| gate=other の死亡率 | 7/19 (36%) | 観測 |
 
 ## ⚠️ 計測の限界（正直に）
-- pending(tracked)が14件＝まだ生死未決着＝hit-rateは暫定（決着で更新）。
+- pending(tracked)が16件＝まだ生死未決着＝hit-rateは暫定（決着で更新）。
 - **traction有り銘柄がほぼゼロ**＝「traction が生存を分ける」仮説の対照群が無い＝今は**反証も確証もできない**。
   → ①watchlist拡張でKOL言及銘柄が tracked に入れば対照群ができ、初めて型が検証可能になる（①と②Feedbackは連動）。
 - 全件 同一launchpad/近時間帯＝独立性低い（[[rug-anatomy]]の注記と同じ留保）。

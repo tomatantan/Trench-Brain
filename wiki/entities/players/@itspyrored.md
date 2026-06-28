@@ -30,5 +30,20 @@ posts: 30
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+**観測（事実）**
+- 30件投稿。最大 106 likes。チャート・パターン主体のコンテンツ。
+- 一貫した発言パターン: 「Buy charts like this and do nothing」「buy, forget & sell at 100x szn」「Charts like this will retire your bloodline」。
+- 「You know a meme is good when you don't have to constantly bull post」→ $DROOLING を例として使用。
+- 「Is this actually the next viral Hippo?」→ 動物ミームの次なる viral 候補を探す posture。
+- 「Pay attention to the coins that aren't priced in yet」→ early discovery フレーム。
+
+**判断（推論）**
+- 役割: **チャート提示型の meme 教育者**。「買って放置で100x」という bullish バイアスを持つコンテンツで、retail のエントリーを促す動線。トレードアドバイスより「感情の醸成」がメイン。
+- $DROOLING の例示は [[survivor-memes]] の「良いミームの定義＝常時 shill 不要」という観察として価値あり。
+- Hippo ミームへの言及は [[external-event-to-token-pattern]] 的な「viral animal → token」パターンの観察例。
+
+⚠️ 矛盾/留保: 100x 提示が繰り返されるが具体的な根拠がない投稿が多い。chart 画像なしの投稿（source にURL のみ）は検証不能。強気一色のコンテンツは認知バイアスの醸成装置として機能する側面もある（[[rug-anatomy]] との接続: 過度な強気発信 = rug の前兆パターンとの区別が必要）。
+
+**接続 concept**: [[survivor-memes]] [[early-lowcap-entry]] [[rug-anatomy]] [[external-event-to-token-pattern]]
 <!-- synthesis:end -->
