@@ -38,6 +38,25 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_response(204)
         self.end_headers()
 
+    def do_GET(self):
+        # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
+        if self.path.split("?")[0] == "/api/live":
+            p = ROOT / "brain" / "state" / "live_pulse.json"
+            if not p.exists():
+                self._json(404, {"ok": False, "error": "live_pulse 未生成(brain/live_pulse_writer.py を起動)"})
+                return
+            try:
+                b = p.read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Content-Length", str(len(b)))
+                self.end_headers()
+                self.wfile.write(b)
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        super().do_GET()
+
     def do_POST(self):
         if self.path.split("?")[0] != "/api/ask":
             self.send_error(404)
