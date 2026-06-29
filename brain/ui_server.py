@@ -81,6 +81,11 @@ API_INDEX = [
      "desc": "孤立ページ(被リンク0=死蔵候補)"},
     {"path": "/api/gaps", "method": "GET", "desc": "繋がり弱い/薄いconcept=知識ギャップ"},
     {"path": "/api/stats", "method": "GET", "desc": "wiki全体統計(kind別/links/orphans/矛盾/tags)"},
+    {"path": "/api/survivors", "method": "GET", "desc": "graduated&生存 token(survivor memes・traction先頭)"},
+    {"path": "/api/watchlist", "method": "GET", "desc": "現watchlist(追跡アカ)"},
+    {"path": "/api/themes", "method": "GET", "desc": "現narrative分布(live_pulse theme)"},
+    {"path": "/api/creator", "method": "GET", "params": {"wallet": "creator address"},
+     "desc": "creator発行履歴=連続rugger検出(serial_flag)"},
 ]
 
 
@@ -108,6 +113,26 @@ def _tail_jsonl(name, n, maxbytes=300000):
         return out
     except Exception:
         return []
+
+
+def _creator_history(wallet, limit=60):
+    """launch_queue を流し読みして creator の発行履歴(連続rugger検出)。`in`前置で高速化。"""
+    out = []
+    try:
+        with open(STATE / "launch_queue.jsonl", encoding="utf-8", errors="replace") as f:
+            for ln in f:
+                if wallet not in ln:
+                    continue
+                try:
+                    r = json.loads(ln)
+                except Exception:
+                    continue
+                if r.get("creator") == wallet:
+                    out.append({k: r.get(k) for k in
+                                ("symbol", "name", "mint", "usd_mcap", "rc_score", "top_pct", "insiders", "created")})
+    except Exception:
+        pass
+    return out[-limit:]
 
 
 _UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -338,6 +363,42 @@ class Handler(SimpleHTTPRequestHandler):
         if path0 == "/api/stats":
             try:
                 self._json(200, {"ok": True, **_retriever().stats()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★Batch4 intelligence機能(wiki/state読むだけ・$0)
+        if path0 == "/api/survivors":
+            try:
+                self._json(200, {"ok": True, "survivors": _retriever().survivors()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/watchlist":
+            try:
+                p = WIKI / "watchlist.md"  # wiki直下(rag SUBDIRS外)なので直接読む
+                md = None
+                if p.exists():
+                    md = re.sub(r"\A---\n.*?\n---\n", "", p.read_text(encoding="utf-8"), flags=re.S).strip()
+                self._json(200, {"ok": True, "markdown": md})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/themes":
+            live = _state_json("live_pulse.json", {})
+            th = live.get("theme_distribution", {})
+            self._json(200, {"ok": True, "themes": th, "total": sum(th.values()) if th else 0,
+                             "generated_at": live.get("generated_at")})
+            return
+        if path0 == "/api/creator":
+            qs = parse_qs(urlparse(self.path).query)
+            w = (qs.get("wallet", qs.get("creator", [""]))[0]).strip()
+            if not w:
+                self._json(400, {"ok": False, "error": "wallet が空"})
+                return
+            try:
+                hist = _creator_history(w)
+                self._json(200, {"ok": True, "wallet": w, "token_count": len(hist),
+                                 "serial_flag": len(hist) >= 3, "tokens": hist})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return

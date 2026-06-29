@@ -254,6 +254,13 @@ class Retriever:
         return [{"title": d["title"], "path": d["path"], "inbound": self._inbound_n(d),
                  "outbound": len(d["links"]), "body_len": d["len"]} for d in cs[:k]]
 
+    def survivors(self, k=80):
+        """graduated かつ dead でない token＝生存者(survivor memes)。traction有を先頭に。"""
+        out = [d for d in self.docs
+               if d["kind"] == "tokens" and "graduated" in d["tags"] and "dead" not in d["tags"]]
+        out.sort(key=lambda d: 0 if ("traction" in d["tags"] or "breakout" in d["tags"]) else 1)
+        return [{"title": d["title"], "path": d["path"], "tags": d["tags"]} for d in out[:k]]
+
     def stats(self):
         """wiki全体の統計(健康ダッシュボード素材)。"""
         by_kind = {}
