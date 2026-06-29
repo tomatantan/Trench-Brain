@@ -116,11 +116,17 @@ class Retriever:
                 body = FM.sub("", raw)
                 tf = Counter(tokenize(title + " " + body))
                 links = {t.strip().lower() for t in LINK.findall(body)}  # 外向き[[link]]先(正規化)
+                mu = re.search(r"^updated:\s*(.+)$", raw, re.M)
+                mt = re.search(r"^tags:\s*\[(.*?)\]", raw, re.M)
+                tags = [x.strip() for x in mt.group(1).split(",")] if mt else []
+                kind = sub.split("/")[-1]  # concepts/tokens/players/queries/dashboards/summaries
                 self.docs.append({
                     "path": str(p.relative_to(ROOT)), "title": title,
                     "body": body, "tf": tf, "len": sum(tf.values()),
                     "stem": p.stem.lower(),  # "$cafe" / "@crediblecrypto" 等
-                    "links": links,
+                    "links": links, "kind": kind,
+                    "updated": (mu.group(1).strip() if mu else ""),
+                    "tags": [t for t in tags if t],
                 })
                 for t in tf:
                     self.df[t] += 1
@@ -151,6 +157,74 @@ class Retriever:
                 scored.append((s, d))
         scored.sort(key=lambda x: -x[0])
         return scored[:k]
+
+    # ---- UI用 知識アクセス機能(全部 read-only・$0) ----
+    def _card(self, d, excerpt=200):
+        return {"title": d["title"], "path": d["path"], "kind": d["kind"],
+                "updated": d["updated"], "excerpt": d["body"].strip()[:excerpt]}
+
+    def concepts(self):
+        """概念ページ一覧(合成の目次)。"""
+        return [self._card(d) for d in self.docs if d["kind"] == "concepts"]
+
+    def recent(self, n=30, kind=None):
+        """最近更新されたページ(updated frontmatter 降順)＝合成の鮮度。"""
+        ds = [d for d in self.docs
+              if re.match(r"\d{4}-\d{2}-\d{2}", d["updated"]) and (not kind or d["kind"] == kind)]
+        ds.sort(key=lambda d: d["updated"], reverse=True)
+        return [self._card(d) for d in ds[:n]]
+
+    def tags_index(self):
+        """タグ→ページ(件数降順)＝合成のタグ別ブラウズ。"""
+        idx = {}
+        for d in self.docs:
+            for t in d["tags"]:
+                idx.setdefault(t, []).append({"title": d["title"], "path": d["path"]})
+        return {t: v for t, v in sorted(idx.items(), key=lambda kv: -len(kv[1]))}
+
+    def graph(self, kinds=("concepts", "queries", "players")):
+        """知識グラフ(nodes/edges)＝可視化用。デフォは概念/query/player(token spam除外で見やすく)。"""
+        keep = {d["stem"] for d in self.docs if d["kind"] in kinds}
+        nodes = [{"id": d["stem"], "title": d["title"], "kind": d["kind"], "path": d["path"]}
+                 for d in self.docs if d["stem"] in keep]
+        edges = []
+        for d in self.docs:
+            if d["stem"] not in keep:
+                continue
+            for tgt in d["links"]:
+                t = self.by_stem.get(tgt) or self.by_stem.get(tgt.lstrip("$@"))
+                if t and t["stem"] in keep and t["stem"] != d["stem"]:
+                    edges.append({"src": d["stem"], "dst": t["stem"]})
+        return {"nodes": nodes, "edges": edges}
+
+    def similar(self, path, k=10):
+        """類似ページ(横の発見)＝そのページ本文の上位語をクエリにBM25。"""
+        d = self.page(path)
+        if not d:
+            return []
+        top = [w for w, _ in d["tf"].most_common(40)]
+        hits = self.search(" ".join(top), k + 1)
+        return [self._card(t) for _s, t in hits if t["path"] != d["path"]][:k]
+
+    def autocomplete(self, prefix, n=12):
+        """ticker/entity 補完(stem 前方一致)。"""
+        p = prefix.lower().lstrip("$@")
+        out = []
+        for d in self.docs:
+            if d["stem"].lstrip("$@").startswith(p):
+                out.append({"title": d["title"], "path": d["path"], "kind": d["kind"]})
+            if len(out) >= n:
+                break
+        return out
+
+    def entity(self, name):
+        """token/player の構造化ビュー＝ページ本文＋知識グラフ(関連)を1つに。"""
+        d = self.page(name)
+        if not d:
+            return None
+        return {"title": d["title"], "path": d["path"], "kind": d["kind"],
+                "updated": d["updated"], "tags": d["tags"],
+                "markdown": d["body"].strip(), "related": self.related(d["path"])}
 
     def context(self, query, k=6, max_chars=1200):
         """合成LLMに渡す文脈＝Top-K の title + 本文抜粋。"""
