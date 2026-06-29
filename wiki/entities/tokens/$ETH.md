@@ -152,4 +152,18 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
 - **3131♥ [[zhusu__1394525493425106945]]**（2021-05-18）: 「If you don't know what season it is wake up and go outside / $ETH $SUSHI $AAVE #DeFi」= **2021年5月の古ツイ再キャプチャ**（DeFi summer-era・ETH ATH 接近期の強気 sentiment）。zhusu の "DeFi szn が来ている" 系コールの典型例。現在の ETH 14ヶ月来安値（~$1,560）とは程遠い局面のツイ。新 beat なし。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・Bybit gas utility）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-30 更新③（新 beat: BlackRock「BTC 売り→ETH 買い」2025-06 / 機関 rotation の実例）
+
+出典: [[lookonchain__1929898607341162794]]（3,010♥・2025-06-03T13:50Z）
+
+**観測（事実）**: 「BlackRock sold $BTC and bought $ETH.」= 2025-06-03、世界最大 ETF 運用会社が BTC を売却して ETH を購入。数量は記載なし。タイミングは 2025-07-11 BTC ATH（Hayes「ATH on good volume」・$BTC 合成 2026-06-29 更新⑥）の約1ヶ月前。
+
+**判断（light-touch）**:
+- 機関（BlackRock）が ETH を**実際に購入した** concrete 事例。既合成「ETH = BTC beta 脱却未達」（DefiIgnas）/ 「コンセンサストレード（リターン薄）」の中で、機関は 2025-06 に BTC から ETH へ rotation した実態。
+- ⚠️ ただし outcome: 2025-06-03 BlackRock ETH 買い → 2026-06 ETH 14ヶ月来安値（~$1,560）。BlackRock の rotation が ETH 上昇を保証しなかった実例＝「機関が買う = 上がる」ではない。
+- ⚠️ 数量不明: lookonchain はシンプルな告知のみ。比率・規模が不明 = signal 強度は中。独立確認推奨（[[onchain-verification]]）。
+- 既合成「Trump World Liberty が就任当日 ETH $4.7M 購入（2025-01-20）」と合わせると、**2025 年前半は機関・政治系エンティティが ETH を採用する動きが複数あった**。それでも ETH が 2026-06 に 14ヶ月来安値に至った事実は「institutional adoption ≠ price support」の観察。
+- 接続: [[majors-rotation-supercycle]]（BTC→ETH rotation の機関実例・2025-06）/ [[$BTC]]（BlackRock が BTC を売った同事実）/ [[onchain-verification]]（数量独立確認推奨）。
+- confidence=低〜中（数量不明・旧ツイ・outcome は ETH に不利）。
 <!-- synthesis:end -->

@@ -46,6 +46,14 @@ tags: [trench, entity, token, auto-track, graduated, bull-cluster, real-sol-high
 - blackbullfund.com の独立ドメイン整備 = deployer が一定の準備をかけた可能性 vs twitter=null × reply0 = community が存在しない段階。"fund" ブランドが KOL/institutional アカウントの言及を引くかが唯一の分岐点。
 
 **接続概念**: [[launchpad-economics]]（graduated × high real_sol × traction0）。[[rug-anatomy]]（⑬コホート候補）。
+
+### 2026-06-30 mcap -46%（$174,158→$93,893）
+**観測（事実）**
+- 2026-06-29T22:59Z: mcap $174,158 → $93,893（-46.1%）。flags: mcap-46%。
+- reply_count=0・real_sol 57,756,111,115 lamports（~57.76SOL・変化なし）。
+
+**判断**
+- peak $177,807 から -47.1% 下落——⑬コホート典型崩壊フェーズ（$FLYRO/$GIRLS/$SUNBULL 同型）。real_sol は deployer 投入分で変動しない。traction0 継続 = 有機的買い戻しの根拠なし。
 <!-- synthesis:end -->
 
 ## 関連

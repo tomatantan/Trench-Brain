@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 backfill (高signal未合成 5件 第5バッチ): $LIT→[[perp-dex-wars]]（hyperp→正規perp昇格型） / $GOOGL→[[external-event-to-token-pattern]]（DJIA採用→tokenized stock言及） / $DRAM→[[external-event-to-token-pattern]]（DRAM半導体・KOSPI連動型） / $XMR→[[perp-dex-wars]][[l1-substrate-wars]][[regulation-catalyst]]（プライバシーコイン・Solana流動性優位の具体例） / $STX→[[l1-substrate-wars]][[majors-rotation-supercycle]]（⚠️DefiIgnas両論: ゾンビL1 vs Bitcoin DeFiプレイブック）。合成5件完了。
+
+- 2026-06-30 X-synthesis (worklist §1a HOT 3件・最終バッチ): 新 beat = ①**$BTC** [[CryptoHayes__1831866865846776035]]（2024-09-06「$50K short degen」= Hayes 短期逆張り short の track record 追記）/ [[lookonchain__1929898607341162794]]（2025-06-03「BlackRock sold BTC bought ETH」= BTC ATH 1ヶ月前に機関が BTC 売り → [[majors-rotation-supercycle]] [[onchain-verification]]）。②**$ETH** [[lookonchain__1929898607341162794]]（同上・BlackRock が ETH を購入 → 2026-06 14ヶ月来安値という outcome = 「機関買い ≠ 価格支持」の実例・[[onchain-verification]]）。③**$MU** 代表ツイ複数サイクル確認済み・新 beat なし（既存 2026-06-30 確認エントリで完結）。§1a 3件完了。主な⚠️: BlackRock BTC→ETH rotation の数量不明・独立確認推奨。
+
+- 2026-06-30 auto-synthesis (synth_queue 22:58Z): births=3（[[$TESTIBULL-C6kWVd]] $111k graduated multi-mint traction0 / [[$TESTIBULL-3qw712]] $2.8k graduated 即死 multi-mint下位 / [[$DEGEN]] $35k graduated generic-name traction0）・changes=2（[[$DEADSEM]] -80% $119k→$23k BREAKOUT-then-dead 進行中 / [[$BBF]] -46% $174k→$93k ⑬コホート崩壊フェーズ）・deaths=1（[[$TESTIBULL-3qw712]] $2,744 multi-mint下位 即死 → [[rug-anatomy]]死亡台帳+1）。
+
 - 2026-06-30 backfill (高signal未合成 5件 第4バッチ): @CoinbaseMarkets→[[external-event-to-token-pattern]][[perp-dex-wars]][[l1-substrate-wars]] / @0xngmi→[[reflexivity]][[onchain-verification]] / $RE→[[vc-founder-thesis-layer]][[external-event-to-token-pattern]] / $NVDA→[[external-event-to-token-pattern]][[spacex-ipo-narrative]] / $META→[[external-event-to-token-pattern]]（⚠️株ティッカーとcrypto tokenの混同注意）。合成5件完了。
 
 - 2026-06-30 auto-synthesis (synth_queue 19:44Z): births=1（[[$BBF]] $178k graduated real_sol~58SOL website:blackbullfund.com twitter:null traction0・⑬コホート水準 bull-cluster）・changes=1（[[$DEADSEM]] BREAKOUT+301% $29.8k→$119.4k traction0×real_sol=0→[[launchpad-economics]]跳躍台帳追記）・deaths=4台帳（[[$HOPE]] $37k→$5k -85.9% EA/longtermism naming 型通り・[[$DOGPLANE]] $300k→$1.5k -99.5% ★今バッチ最高peak dedicated social×real_sol52SOL×traction0 ⑬コホート型通り・[[$CRASHED]] $39k→$579 -98.5% prebond tokenized_agent YouTube viral・[[$7]] $33k→$5k -84.2% 型通り）。[[rug-anatomy]]死亡台帳+4。

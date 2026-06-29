@@ -46,6 +46,15 @@ tags: [trench, entity, token, auto-track, graduated, bear-ironic, traction0, stu
 - traction0 × real_sol=0 × graduated での +301% BREAKOUT = traction 無し出来高先行型（[[launchpad-economics]] 跳躍台帳 参照）。
 - [[rug-anatomy]] BREAKOUT-then-dead 候補。社会的需要の証拠なし × $119k 水準 = whale/bot pump 疑い最有力。
 - ironic 命名（"dead bull"）が bull クラスター内で memetic フックとなった可能性はあるが reply0 全期間では不明。
+
+### 2026-06-30 mcap -80%（$119,423→$23,356）
+**観測（事実）**
+- 2026-06-29T22:59Z: mcap $119,423 → $23,356（-80.4%）。flags: mcap-80%。
+- reply_count=0 継続・real_sol=0 変わらず。
+
+**判断**
+- BREAKOUT +301% 後の -80% 崩壊 = [[rug-anatomy]] BREAKOUT-then-dead 型通り進行中。$AEGIS/$MOONLAKE/$PHONEBLACK 同型。
+- 次観測で $10k 台割れなら死亡確定水準。
 <!-- synthesis:end -->
 
 ## 関連

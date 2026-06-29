@@ -208,4 +208,16 @@ accounts: 19
 - **3175♥ [[CryptoHayes__1666232026054418432]]**（2023-06-06）: 「The wall of worry is being climbed, come with me on the $BTC bull market bus. We are still on struggle street, but the moon ain't far away.」= **2023年6月の古ツイ再キャプチャ**（BTC ~$26-28K 台の底値圏から這い上がるフェーズ）。Hayes の "wall of worry" フレーム＝弱材料が出続けながら価格が上昇するフェーズの観察。現在（2026-06-30）の文脈との比較では 2023-06 も同様に "struggle street" にいたという track record。新 beat なし。
 - **3164♥ [[zhusu__1486931839377764354]]**（2022-01-28）: 「My kind of guy / $BTC」= **2022年1月末の古ツイ再キャプチャ**（BTC ~$38K 台、2021 ATH から -45%程の下落局面）。内容は短文のみで signal なし。新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-30 更新③（新 beat: Hayes「sub $50k short」2024-09 track record / BlackRock「BTC 売り→ETH 買い」2025-06）
+
+**観測（事実）**:
+- [[CryptoHayes__1831866865846776035]]（3,072♥・2024-09-06T01:27Z）: 「$BTC is heavy, I'm gunning for sub $50k this weekend. I took a cheeky short. Pray for my soul, for I am a degen.」= 2024-09-06、BTC ~$54K 台の局面で Hayes が**短期 short** を開示。"pray for my soul" という自覚的な degen フレーミング。この後 BTC は 2024-12 に $100K 突破、2025-07 に ATH を更新（既合成）＝short 方向は中長期で外れた。
+- [[lookonchain__1929898607341162794]]（3,010♥・2025-06-03T13:50Z）: 「BlackRock sold $BTC and bought $ETH.」= 2025-06-03、BlackRock が BTC を売却して ETH に回転。タイミングは 2025-07-11 BTC ATH（Hayes「ATH on good volume」・既合成 2026-06-29 更新⑥）の**約1ヶ月前**。数量は記載なし。
+
+**判断（light-touch）**:
+- Hayes 2024-09 short: 長期「safe haven / money printing → BTC positive」macro 強気スタンス（既合成）の裏で、**短期の directional short も取る** degen である実態の記録。April 2025 BTFD シリーズ（$76.5K credibility floor）の約7ヶ月前の逆張り short。結果は BTC が short を踏み越えて $100K に達した＝「Hayes の短期 short は外れた」追加 track record 点。Hayes のポジションは彼の public ナラティブを忠実に反映しない場合がある（観察）。
+- BlackRock BTC→ETH (2025-06): 機関が BTC を減らして ETH を選択した実例。ただし ATH の**直前に BTC を売った** = タイミングが悪い可能性がある。既合成「BlackRock 連続入金 2026-06-25/26（BTC 吸収）」と合わせると、BlackRock は 2025-06 に BTC 売→ETH 買、2026-06 に BTC 大量入金という cycle を観察できる。「2026-06 の BTC 入金が出口向けか custody か二択」（既合成 2026-06-27 更新②）の文脈では、**2025-06 に既に一度 BTC を売却経験がある** という先例が参照可能。
+- 接続: [[majors-rotation-supercycle]]（BlackRock BTC↔ETH rotation の実事例）/ [[onchain-verification]]（BlackRock 数量は独立確認推奨）/ [[$ETH]]（BlackRock ETH 買い 2025-06 → 2026-06 14ヶ月来安値という timeline）。
+- confidence=中（補足のみ・既存合成の方向に変化なし）。
 <!-- synthesis:end -->

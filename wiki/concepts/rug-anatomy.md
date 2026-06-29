@@ -107,6 +107,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | $MOUSER(4S2HkH) | traction:graduated | ~$7.4k(peak) | reply0 / KOL0（twitter=shubgaur tweet） | 誕生即死 | mcap枯れ($5,082) | AI agent命名×association marketing×ultra-low peak → 即死（entity作成スキップ） |
 | [[$EC43]] | traction:kol(badattrading_・構造チェック) | ~$128,967 | reply0 / KOL:badattrading_(構造警告・sniper7.4%/KuCoin8%) | 複数サイクル(~1日) | mcap枯れ($12,320・peak比-90.4%) | sniper7.4%×KuCoin8%集中×traction0→whale pump崩壊（badattrading_警告が正しかった・graduated-but-empty高peak版） |
 | [[$WIFFY]] | traction:kol(badattrading_・**bundled scam警告**) | ~$2,492 | reply0 / KOL:badattrading_「bundled scam」CA直接警告 | 誕生即死 | mcap枯れ($2,492) | bundled scam × KOL警告即死（$GTASOLANA/$HARU/$COMMOTITTY/$WENMAXX と同型・Wendy's wave 同時発生） |
+| [[$TESTIBULL-3qw712]] | graduated | ~$2,840 | reply0 / KOL0（twitter=DipWheeler tweet・同名2nd mint） | 誕生即死 | mcap枯れ($2,744) | multi-mint 下位版誕生即死——上位 mint（[[$TESTIBULL-C6kWVd]] $111k）が需要吸収・下位は残滓即死（$HI squatter 型・ultra-low peak） |
 | $WENDOG(88eXUs) | traction:graduated | ~$1,414 | reply0 / KOL0 | 誕生即死(birth=death) | mcap枯れ($1,372) | traction無しの即死（Wendy's Co波の亜種・同時多発・entity作成スキップ） |
 | $WENDYGUY(F9Byw) | traction:graduated | ~$1,251 | reply0 / KOL0 | 誕生即死(birth=death) | mcap枯れ($1,251) | traction無しの即死（Wendy's Co波・同時多発・entity作成スキップ） |
 | $DEATHNOTE(AaBKe) | traction:user_checked | ~$4,418 | reply0 / KOL0（death note anime meme） | 誕生即死(birth=death) | mcap枯れ($4,418) | anime IP借用×traction0→即死（デスノート命名・entity作成スキップ） |
