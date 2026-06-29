@@ -214,17 +214,10 @@ function answer(question) {
   const hot = [...state.signals].sort((a, b) => (b.accounts || 0) - (a.accounts || 0)).slice(0, 5);
 
   if (q.includes("hot") || q.includes("meme") || q.includes("trend") || q.includes("word")) {
-    // 「meme」なら MEMEカテゴリだけ(majors=MACRO/WORLD除外)。それ以外は全signal。
-    const wantMeme = q.includes("meme");
-    const pool = wantMeme ? state.signals.filter((s) => String(s.type || "").toUpperCase() === "MEME") : state.signals;
-    const top = [...pool].sort((a, b) => (b.accounts || 0) - (a.accounts || 0)).slice(0, 5);
-    const head = wantMeme
-      ? "MEMEカテゴリの候補（majors除外・独立言及アカ数順）"
-      : "strongest signals by independent account mentions";
     return `
-      <p>${head}</p>
-      <ul>${top.map((signal) => `<li><b>${escapeHtml(signal.word)}</b> — ${Number(signal.accounts || 0).toLocaleString()} accounts <span class="cite">[[${escapeHtml(signal.word)}]]</span></li>`).join("") || "<li class='unknown'>該当カテゴリのsignalなし</li>"}</ul>
-      <p class="unknown">簡易ダッシュボード応答（独立言及アカ数優先）。深い答えは実脳=/api/ask。</p>
+      <p>Trench Brain currently sees these as the strongest meme-word candidates by independent account mentions.</p>
+      <ul>${hot.map((signal) => `<li><b>${escapeHtml(signal.word)}</b> — ${Number(signal.accounts || 0).toLocaleString()} accounts <span class="cite">[[${escapeHtml(signal.word)}]]</span></li>`).join("")}</ul>
+      <p class="unknown">Note: this favors independent mentions, not impressions or likes.</p>
     `;
   }
 
@@ -257,41 +250,6 @@ function addMessage(role, html) {
   article.innerHTML = `<b>${role === "user" ? "You" : "Trench Brain"}</b>${html}`;
   $("#chat-log").appendChild(article);
   $("#chat-log").scrollTop = $("#chat-log").scrollHeight;
-  return article;
-}
-
-// ---- 実脳(brain/ask.sh 経由) への配線 ----
-const ASK_URL = "/api/ask";
-async function askBrain(question) {
-  const res = await fetch(ASK_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question }),
-  });
-  const data = await res.json().catch(() => ({ ok: false, error: "bad response" }));
-  if (!data.ok) throw new Error(data.error || `HTTP ${res.status}`);
-  return data.answer || "";
-}
-
-// 実脳の markdown を最小HTML化(太字 / 箇条書き / [[wikilink]] / 段落)
-function mdToHtml(md) {
-  const lines = escapeHtml(md).split("\n");
-  let html = "", inList = false;
-  for (let line of lines) {
-    line = line
-      .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
-      .replace(/\[\[([^\]]+)\]\]/g, '<span class="cite">[[$1]]</span>');
-    const m = line.match(/^\s*[-•]\s+(.*)/);
-    if (m) {
-      if (!inList) { html += "<ul>"; inList = true; }
-      html += `<li>${m[1]}</li>`;
-    } else {
-      if (inList) { html += "</ul>"; inList = false; }
-      if (line.trim()) html += `<p>${line}</p>`;
-    }
-  }
-  if (inList) html += "</ul>";
-  return html;
 }
 
 async function connectData() {
@@ -364,19 +322,7 @@ $("#chat-form").onsubmit = (event) => {
     localStorage.setItem("trenchBrainLearningQueue", JSON.stringify(state.queue));
   }
   input.value = "";
-  // 実脳(/api/ask=ask.sh)に問う。返るまで thinking 表示→差し替え。
-  // backend(brain/ui_server.py)が無ければ決め打ちダッシュボードに fallback。
-  const thinking = addMessage("brain", `<p class="unknown">脳が wiki を横断中… <span class="dots">(実脳=headless・最大2-3分)</span></p>`);
-  askBrain(text)
-    .then((ans) => {
-      thinking.innerHTML = `<b>Trench Brain</b>${mdToHtml(ans)}`;
-      $("#chat-log").scrollTop = $("#chat-log").scrollHeight;
-    })
-    .catch(() => {
-      thinking.innerHTML = `<b>Trench Brain</b>${answer(text)}`
-        + `<p class="unknown">(offline: ui_server未起動 → ダッシュボード簡易応答。実脳には <code>python3 brain/ui_server.py</code> が要る)</p>`;
-      $("#chat-log").scrollTop = $("#chat-log").scrollHeight;
-    });
+  setTimeout(() => addMessage("brain", answer(text)), 300);
 };
 
 $("#clear-chat").onclick = () => {
