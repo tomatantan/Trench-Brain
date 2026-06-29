@@ -177,20 +177,36 @@ def _score_token(token):
                            "complete": pf.get("complete"), "twitter": pf.get("twitter")}
     rc = _http_json(f"https://api.rugcheck.xyz/v1/tokens/{ca}/report")
     if rc:
+        # ★LP/market アドレスを除外(spyzercrypto guide: top holderはほぼLP=traderでない→偽の集中flagを除く)
+        lp_addrs = set()
+        for m in (rc.get("markets") or []):
+            for kf in ("pubkey", "liquidityA", "liquidityB", "lp", "mintLP"):
+                v = m.get(kf)
+                if isinstance(v, str):
+                    lp_addrs.add(v)
         th = rc.get("topHolders") or []
-        top_pct = round(max((h.get("pct") or 0) for h in th), 1) if th else None
+        non_lp = [h for h in th if h.get("owner") not in lp_addrs and h.get("address") not in lp_addrs]
+        top_pct = round(max((h.get("pct") or 0) for h in non_lp), 2) if non_lp else None
+        insiders_n = sum(1 for h in th if h.get("insider"))
         danger = [r.get("name") for r in (rc.get("risks") or []) if r.get("level") == "danger"]
         onchain["rugcheck"] = {"rugged": rc.get("rugged"), "mint_auth": rc.get("mintAuthority"),
-                               "top_holder_pct": top_pct, "insiders": bool(rc.get("insiderNetworks")),
-                               "danger": danger}
+                               "top_holder_pct_nonLP": top_pct,
+                               "insiders": bool(rc.get("insiderNetworks")) or insiders_n > 0,
+                               "insider_holders": insiders_n, "danger": danger}
         if rc.get("rugged"):
             flags.append("rugged済(資金抜け確認)")
         if rc.get("mintAuthority"):
             flags.append("mint権限残存(増刷可)")
-        if top_pct and top_pct > 20:
-            flags.append(f"保有集中(top {top_pct}%)")
-        if rc.get("insiderNetworks"):
-            flags.append("インサイダーnetwork検出")
+        # ★保有集中の階層閾値(guide: 非LP top holder >3.5% が trenching の赤旗)
+        if top_pct is not None:
+            if top_pct > 20:
+                flags.append(f"保有集中・極大(非LP top {top_pct}%)")
+            elif top_pct > 10:
+                flags.append(f"保有集中・高(非LP top {top_pct}%)")
+            elif top_pct > 3.5:
+                flags.append(f"保有集中(非LP top {top_pct}% ＞3.5%基準)")
+        if rc.get("insiderNetworks") or insiders_n:
+            flags.append(f"インサイダー検出({insiders_n}wallet)" if insiders_n else "インサイダーnetwork検出")
         flags += [f"危険: {dn}" for dn in danger]
     br = _state_json("base_rate.json", {})
     gp = br.get("gate_passed") or 1
