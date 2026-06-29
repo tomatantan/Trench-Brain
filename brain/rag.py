@@ -234,10 +234,10 @@ class Retriever:
         """⚠️矛盾フラグの立ったページ一覧(原典が重視する『矛盾の表面化』)。"""
         out = []
         for d in self.docs:
-            if "⚠️" in d["body"]:  # 旗マーカーのみ(バレ語「矛盾」は拾わない=精度)
-                i = d["body"].find("⚠️")
+            if "⚠️矛盾" in d["body"]:  # 原典の実フラグ『⚠️矛盾』のみ(広い⚠️警告は拾わない=精度)
+                i = d["body"].find("⚠️矛盾")
                 out.append({"title": d["title"], "path": d["path"], "kind": d["kind"],
-                            "excerpt": d["body"][max(0, i - 40):i + 160].strip()})
+                            "excerpt": d["body"][max(0, i - 40):i + 180].strip()})
         return out[:k]
 
     def orphans(self, kind=None, k=120):
@@ -263,7 +263,8 @@ class Retriever:
         return {"total": self.N, "by_kind": by_kind, "total_links": edges,
                 "avg_outbound": round(edges / max(1, self.N), 1),
                 "orphans": sum(1 for d in self.docs if self._inbound_n(d) == 0),
-                "contradictions": sum(1 for d in self.docs if "⚠️" in d["body"]),
+                "contradictions": sum(1 for d in self.docs if "⚠️矛盾" in d["body"]),
+                "warnings": sum(1 for d in self.docs if "⚠️" in d["body"]),
                 "total_tags": len({t for d in self.docs for t in d["tags"]})}
 
     def context(self, query, k=6, max_chars=1200):
