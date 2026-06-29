@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: tracked
+status: dead
 ticker: $SHX
 mint: 86UWvt4HWFAFeqJHe3r8LUJoU9XhrRqq6KWsJXsBpump
 created: 2026-06-29
@@ -45,6 +45,23 @@ pump.fun 発。bonding curve **未卒業（complete=false）**。名称は Shiba
 - [[launchpad-economics]] 標準候補：traction 待ち。signal なければ典型崩壊パス。
 
 **接続概念**: [[launchpad-economics]] 直下（prebond traction0 標準候補）。
+
+---
+
+### 2026-06-29 死亡確定（mcap枯れ）
+
+**観測（事実）**
+- peak_mcap: $145,979（2026-06-29T10:22Z観測）
+- last mcap: $589（2026-06-29T13:30Z）——peak 比 -99.6%。
+- complete=false（prebond のまま死亡）・real_sol=70957031 lamports（~0.07SOL 残存）。
+- tokenized_agent=true——prebond tokenized_agent 宣言銘柄として記録。
+
+**死因・型**
+- 「prebond 枯れ死」：bonding curve 未卒業のまま mcap が $589 まで枯れた。
+- tokenized_agent=true × twitter/website 皆無 × traction0 = AI agent 宣言だけで community 需要が伴わなかった事例。[[ai-memes]] 接続の観点では「tokenized_agent フラグ ≠ traction 保証」の N 追加。
+- peak $146k は本バッチ死亡銘柄中最高 peak。高 peak でも prebond × social 皆無 × traction0 なら崩壊パスは変わらない。
+
+**outcome**: died（mcap枯れ・peak比-99.6%）
 <!-- synthesis:end -->
 
 ## 関連

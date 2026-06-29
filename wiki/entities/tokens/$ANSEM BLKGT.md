@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: tracked
+status: dead
 ticker: $ANSEM BLKGT
 mint: 5Agqi5maMFAqibawR8TiuGXGyr1dzbCgdpEMsW39pump
 created: 2026-06-29
@@ -51,6 +51,21 @@ pump.fun 発。bonding curve **卒業済（complete=true）**。名称 "ANSEM BL
 **賭け仮説**: Ansem 本人が言及すれば急騰トリガーになりうるが、それを事前に読む根拠はない。現状は名前だけ借りた traction0 graduated——[[rug-anatomy]] 崩壊パスが標準。
 
 **接続概念**: [[launchpad-economics]] 直下（graduated-but-empty）。[[rug-anatomy]]（KOL 名借用型）。
+
+---
+
+### 2026-06-29 死亡確定（mcap枯れ）
+
+**観測（事実）**
+- peak_mcap: $47,869（2026-06-29T10:22Z観測）
+- last mcap: $1,345（2026-06-29T13:30Z）——peak 比 -97.2%。
+- complete=true（graduated 後の枯れ死）・real_sol=0 継続。
+
+**死因・型**
+- 「KOL 名借用 × graduated-but-empty 型通り死」：Ansem 本人の言及なしに名前だけ借用。traction0 のまま graduated し、1サイクルで枯れた。[[rug-anatomy]] "celebrity-name borrow" パターン N 追加。
+- 今バッチに $HAYES（CryptoHayes link）が births で登場——同型・同日の比較観測として記録。
+
+**outcome**: died（mcap枯れ・peak比-97.2%）
 <!-- synthesis:end -->
 
 ## 関連

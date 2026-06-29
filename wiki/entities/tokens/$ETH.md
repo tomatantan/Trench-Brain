@@ -136,4 +136,10 @@ ETF 流出（2026-06-25）:
 - ⚠️ **既存合成「ETH = BTC beta 脱却未達」との関係**: この trader の利益は ETH の BTC beta 上昇（BTC ATH + 市場回復）に乗ったもの。BTC 独立でなく BTC 上昇に従属した形での 236x = ETH が BTC beta である事実とは矛盾しない。
 - 接続: [[perp-dex-wars]]（Hyperliquid ETH long = 高リターン事例・survivor bias 注意）/ [[majors-rotation-supercycle]]（2025-04〜08 の ETH 上昇 phase の実価格確認）/ [[onchain-verification]]（trader の実際の on-chain 行動の独立確認推奨）。
 - confidence=低（anecdote 1件・survivor bias・現在の ETH 状況とは別 phase）。
+
+### 2026-06-29 確認⑥（worklist 代表ツイ確認・Bybit ハック ETH ガス代 light-touch）
+出典: [[lookonchain__1893001719669518662]]（3443♥・2025-02-21T18:15Z）/ [[zhusu__1389092285992771587]]（3864♥・2022-04-07・旧）
+
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
+- **3443♥ [[lookonchain__1893001719669518662]]**（2025-02-21）: 「The hacker who attacked #Bybit and stole $1.4B in assets appears to have received $ETH from @binance as gas fees.」= **2025-02-21 の旧ツイ**（Bybit ハック翌日）。**light-touch 追記**: 史上最大級のハック（Bybit $1.4B ETH 流出）で攻撃者が Binance から ETH を gas 代として受領。ETH が gas インフラとして機能したため取引所がハッカーに意図せず流動性を提供した構造的観察。ETH utility（gas currency）の不可避性の一面。旧ツイで現在の新 beat ではない。接続: [[onchain-verification]]（ハッカー資金フロー追跡事例）。既存合成（ETH = コンセンサストレード・BTC beta 脱却未達）に変化なし。
 <!-- synthesis:end -->

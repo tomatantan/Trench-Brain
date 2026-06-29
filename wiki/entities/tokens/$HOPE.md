@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: tracked
+status: dying
 ticker: $HOPE
 mint: BqK3MnWdD1qX93P2Vzizsy6nY9awFoVo6pt4E98Ypump
 created: 2026-06-29
@@ -53,6 +53,17 @@ pump.fun 発。bonding curve **卒業済（complete=true）**。「Existential H
 **賭け仮説**: EA/longtermism × meme prize という組み合わせは crypto trench では前例が薄い——ニッチ発火なら面白いが、traction0 × real_sol=0 の現状では [[rug-anatomy]] 崩壊パスが有力。@SgtWingflapper の拡散実績次第。
 
 **接続概念**: [[launchpad-economics]] 直下（graduated-but-empty・website 整備ありも traction0）。[[survivor-memes]]（EA/longtermism ミームの crypto trench への接続可能性）。[[rug-anatomy]]（real-org-name 借用型・traction0）。
+
+---
+
+### 2026-06-29 mcap-80% 更新（崩壊加速）
+
+**観測（事実）**
+- 2026-06-29T13:30Z: mcap $37,241 → $7,534（-80%）。
+- complete=true（graduated 維持）・real_sol=0 変わらず・reply_count=0 継続。
+
+**判断**
+- -80% 急落。graduated × real_sol=0 × traction0 の graduated-but-empty 型の崩壊が進行中。[[rug-anatomy]] 死亡台帳候補ライン（peak 比 -80%〜-90% 帯）。EA/longtermism コミュニティの発火は観測されないまま崩壊パスを辿っている。
 <!-- synthesis:end -->
 
 ## 関連

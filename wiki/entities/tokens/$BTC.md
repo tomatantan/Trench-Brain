@@ -179,4 +179,23 @@ accounts: 19
 
 **⚠️ 判断**: 「53% 含み損」は既存合成「"safe haven" KOL ナラティブ vs 実価格乖離」「全体収縮フェーズ」の onchain 裏付けが追加された形。LTHS 80% bullish（コホート: strong hands）× 53% 含み損（コホート: 全流通ベース）は数字として矛盾しないが、過半数が含み損という事実は市場参加者全体の pain を示す。confidence=中（既存合成強化のみ）。
 - 接続: [[onchain-verification]]（53% unrealized loss = onchain 観測事実・独立確認推奨）/ [[majors-rotation-supercycle]]（過半数含み損 = ローテ号砲の前提となる "maximum pain" 段階との照合）。
+
+### 2026-06-29 確認⑦（worklist 代表ツイ確認・Hayes April 2025 前段 2 ツイ追記）
+出典: [[CryptoHayes__1907547718681244009]]（3205♥・2025-04-02T21:36Z）/ [[CryptoHayes__1907961898777391323]]（3332♥・2025-04-04T01:02Z）
+
+**観測（旧ツイ・April 2025 前段）**:
+- **Apr 02「Liberation Day」$76.5K hold ライン**: 「Mrkt no likey "Liberation Day", if $BTC can hold $76.5k btw now and US tax day Apr 15, then we are out of the woods. Don't get chopped up!」= Trump が "Liberation Day" で関税を発動した 2025-04-02 当日、Hayes が $76.5K を "out of the woods" 閾値として初公言。既合成の「Apr 07 BTFD/$76.5K credibility floor」（[[CryptoHayes__1909113124592161226]]）の 5 日前に既に $76.5K が hold ラインとして提示されていた事実。
+- **Apr 04「LOVE TARIFFS」money printing → BTC positive**: 「Some of y'all are running scurred, but I LOVE TARIFFS … Global imbalances will be corrected, and the pain papered over with printed money, which is good for $BTC.」= 既合成の "fiat liquidity smoke alarm"（[[CryptoHayes__1908282149373124851]]）と同日 Apr 04 の別ツイ（2時間前）。"smoke alarm" の前段として tariffs → money printing → BTC positive という Hayes の論理構造を明示。
+
+**light-touch 追記（Hayes April 2025 シリーズ完成形）**:
+- Apr 02: $76.5K hold ライン初公言 ← 今回追加
+- Apr 04 早: "LOVE TARIFFS" money printing ← 今回追加
+- Apr 04 遅: "fiat liquidity smoke alarm"（既合成）
+- Apr 07: "BTFD @ $76,500 / credibility floor"（既合成）
+- Apr 07: "nibbling BTC / BTC dom 70%"（既合成）
+- Apr 11: "donkey kong / UP ONLY"（既合成）
+- Apr 21: "< $100K last chance"（既合成）
+- Apr 22: "JAYPOW fired/not fired = BTC rips both ways"（既合成）
+- Jul 11: "ATH on good volume / truck backed up"（既合成）
+- 既存合成（BTC = fiat liquidity smoke alarm / macro policy driven）に変化なし。confidence=中（補足のみ）。
 <!-- synthesis:end -->
