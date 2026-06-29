@@ -90,6 +90,8 @@ API_INDEX = [
     {"path": "/api/sitemap", "method": "GET", "desc": "全ページ一覧(path/title/kind=ナビ/クロール)"},
     {"path": "/api/compare", "method": "GET", "params": {"a": "...", "b": "..."},
      "desc": "2エンティティを並べて比較(token/player)"},
+    {"path": "/api/feed", "method": "GET",
+     "desc": "ホーム用アグリゲート=hot+直近launch+最近更新+themes を1呼びで"},
 ]
 
 
@@ -403,6 +405,22 @@ class Handler(SimpleHTTPRequestHandler):
                 hist = _creator_history(w)
                 self._json(200, {"ok": True, "wallet": w, "token_count": len(hist),
                                  "serial_flag": len(hist) >= 3, "tokens": hist})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★homepage aggregate: hot+launches+recent+themes を1呼びで(UIホーム用)
+        if path0 == "/api/feed":
+            try:
+                r = _retriever()
+                live = _state_json("live_pulse.json", {})
+                hot = [t for t in live.get("traction_candidates", []) if not t.get("stale")]
+                hot.sort(key=lambda t: -(t.get("変化pct") or 0))
+                self._json(200, {"ok": True, "hot": hot[:5],
+                                 "themes": live.get("theme_distribution", {}),
+                                 "recent_launches": [{k: x.get(k) for k in ("symbol", "usd_mcap", "rc_score")}
+                                                     for x in _tail_jsonl("launch_queue.jsonl", 5)][::-1],
+                                 "recent_wiki": r.recent(6),
+                                 "generated_at": live.get("generated_at")})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
