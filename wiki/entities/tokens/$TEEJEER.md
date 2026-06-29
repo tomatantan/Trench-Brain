@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $TEEJEER（Bottom Floor Chud）
 mint: 9zb7YU6W5n7sg2V9BGaVeC7bknJRkw633mE4QaNMpump
 pool: 5izStvtwAeEhWnMGhCYqSKNYvCH4rmJ9U1yXkfptqBWp
 created: 2026-06-29
-updated: 2026-06-29
-tags: [trench, entity, token, auto-track, graduated, traction0, ironic-naming, low-mcap]
+updated: 2026-06-30
+tags: [trench, entity, token, auto-track, graduated, traction0, ironic-naming, low-mcap, dead]
 ---
 
 # $TEEJEER（Bottom Floor Chud）
@@ -20,7 +21,9 @@ tags: [trench, entity, token, auto-track, graduated, traction0, ironic-naming, l
 | pool | 5izStvtwAeEhWnMGhCYqSKNYvCH4rmJ9U1yXkfptqBWp |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $15,868（2026-06-29T13:29Z） |
-| peak_mcap | $15,868（暫定） |
+| peak_mcap | $16,310 |
+| mcap(death) | $2,490（2026-06-29T16:37Z・peak比-84.7%） |
+| cause | mcap枯れ（peak比-84.7%） |
 | real_sol | 0（実質ゼロ） |
 | reply_count | 0 |
 | twitter | https://x.com/_TJRTrades/status/2071582052823015682 |
@@ -45,6 +48,8 @@ tags: [trench, entity, token, auto-track, graduated, traction0, ironic-naming, l
 - real_sol=0 × graduated × $16k = [[launchpad-economics]] "graduated-but-empty" の低水準版。mcap が最低水準かつ real_sol=0 は崩壊パス最有力。
 - "Bottom Floor Chud" = 自嘲的・degen 向け ironic naming。$BOTTOM "Generational Bottom" 系の反語需要を狙う命名かもしれないが、mcap $16k は [[survivor-memes]] の評価対象にならない水準。
 - stub 扱い（情報量少・low signal）。
+
+**2026-06-29 死亡確定**: peak $16,310 → $2,490（-84.7%）。低水準 graduated-but-empty 型通り死。→ [[rug-anatomy]] 死亡台帳。
 <!-- synthesis:end -->
 
 ## 関連

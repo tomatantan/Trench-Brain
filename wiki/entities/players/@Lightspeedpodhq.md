@@ -30,5 +30,20 @@ posts: 146
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+Solana 特化ポッドキャスト「Lightspeed」の公式アカウント。信号投稿 146件。代表的ゲスト：[[@toly]]（Anatoly Yakovenko / Solana 共同創業）、[[@mert_muhtu]]、[[@blknoiz06]]、[[@AndreCronjeTech]]。高エンゲージ投稿のほぼ全てが Solana の将来像・競争力・アップグレードを巡るゲスト対談の宣伝。
+- 「Solana's Ultimate Vision」(290/295 likes)、「How Solana wins — Execution」(299 likes)、「Solana is faster, cheaper & more accessible than traditional rails」(232 likes)
+- @blknoiz06「last bear market」bull mode 発言 (237 likes) を早期に増幅
+- @toly × @blockworksDAS 対談 (235 likes) = Bankless/Blockworks と同じ media tier
+
+### 判断（推論）
+[[l1-substrate-wars]] の **Solana 陣営メディア増幅器**。[[@toly]] や [[@blknoiz06]] の言語（「Solana wins by execution」「last bear market」）をポッドキャスト形式で確立・拡散する役割。
+- **動線上の位置**: founder → pod(Lightspeed) → CT という増幅パイプ。Bankless が Ethereum 陣営のメディア装置であるのと対称の構造。
+- **[[vc-founder-thesis-layer]] との接点**: founder の thesis を "episode" という形で消費可能にする。[[@AndreCronjeTech]] 出演はより広い DeFi 圏との橋渡しを示す。
+- ⚠️ **バイアスに注意**: 番組の性質上 Solana 批判は出ない。「How Solana wins」が前提になった議論＝懐疑の視点は外から補う必要がある。
+
+### 関連
+[[l1-substrate-wars]]（Solana 陣営の媒体）/ [[vc-founder-thesis-layer]]（founder × media のパイプ）
+[[@toly]] / [[@blknoiz06]] / [[@mert_muhtu]] / [[@AndreCronjeTech]]
 <!-- synthesis:end -->

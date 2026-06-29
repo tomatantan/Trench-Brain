@@ -100,6 +100,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$PEAK]] | +150% | $54.2k→$135.6k | reply0 / KOL0 | 不明（generic 到達感 ticker "PEAK"・twitter/website 両方皆無・prebond 継続・birth 直後~1分以内 BREAKOUT） | birth直後即BREAKOUT×traction0×social皆無×prebond継続＝whale単独 pump 疑い最有力（$AEGIS/$SCOOREX/$RRN 同型。bonding curve 未卒業での $135k は organic 需要ゼロ確定候補） |
 | [[$0TT]] | +114% | $40.3k→$86.2k | reply0 / KOL0 | 不明（otter animal meme・@natureunedited 自然映像リンク・prebond継続・real_sol 32M→7.8M と売り圧あり） | traction0 × 出来高先行 × prebond BREAKOUT＝association marketing + real_sol 減少中の whale pump 疑い。$AEGIS/$JALAPEÑO/$SCOOREX 同型・BREAKOUT-then-dead 候補 |
 | [[$PEPEBULL]]（The PEPE Bull） | +102%（BREAKOUT） | $39.5k→$79.9k | reply0 / KOL0（twitter/website 両方 null・全期間）・real_sol=5（実質ゼロ） | PEPE×bull 複合命名・prebond 継続・BREAKOUT 時も real_sol≒0 = organic 需要ゼロ確定候補 | prebond traction0 即BREAKOUT×real_sol≒0（whale/bot 単独 pump 最有力。bonding curve 未卒業 × PEPE brand 派生 × real_sol 5 lamports での $80k 到達は $PEAK/$AEGIS 同型——BREAKOUT-then-dead 最有力候補） |
+| [[$GUTCHU-GzfBEf]]（GUTCHU 2nd mint） | +106% | $49.3k→$101.3k | reply0 / KOL0（全期間）・real_sol 3.26SOL | birth→BREAKOUT が同一観測バッチ内（超短時間）。prebond 継続。先行同名 mint（DJjg...）が+81% BREAKOUT-then-dead 前例あり | **同名2nd attempt 即BREAKOUT**（先行 mint 死亡後に同名で再 launch → 同バッチで BREAKOUT。traction0 × social 皆無 × real_sol 低値 = whale 単独 pump 最有力。BREAKOUT-then-dead 最有力——先行 mint が同型で死亡済で 2nd attempt でも traction が生まれない場合、3rd 以降も同パスと推定） |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

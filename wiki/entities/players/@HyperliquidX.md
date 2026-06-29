@@ -30,5 +30,25 @@ posts: 22
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+Hyperliquid 公式アカウント。信号投稿22件と少ないが全て高エンゲージ（1,930〜5,855 likes）。投稿内容は全て announcement ドリブン：
+- **RWA OI 連続 ATH**: $790M (HIP-3)→$2.6B→$3B と段階的な記録更新を報告。「過去2週間で繰り返し記録更新」。
+- **HIP-4（outcome trading）**: 「完全担保型の outcome contract」= 予測市場の perpetual 版。新しい金融商品カテゴリとして発表。
+- **Coinbase AQAv2 × USDC**: treasury deployer として Coinbase が Hyperliquid を採用（機関採用の一例）。
+- **Phantom builder code 収益 $20M**: 生態系内のサードパーティが Hyperliquid 上で $20M 獲得＝platform economics の証跡。
+- **Hyper Foundation: 1M HYPE 拠出**: 生態系ファンドの具体的な量を公開。
+- 言及 ticker: $FOGO, $AXS, $XMR, $AZTEC, $SKR, $LIT, $DASH, $CHIP（各1回）= perp 上場 announcement 由来。
+
+### 判断（推論）
+[[perp-dex-wars]] の **一次ソース（公式発表層）**。トレーダーやアナリストが語る前の数字の出所。RWA OI の連続 ATH は [[perp-dex-wars]] concept の「RWA perp が crypto perp に迫る（40%）」観察の数値的裏付け。
+
+- **「platform 化」の証跡**: Phantom $20M / Coinbase AQAv2 採用 / HIP-4 新商品 = Hyperliquid が "DEX" から "金融インフラ" に移行している具体的なマイルストーン。[[perp-dex-wars]] §2026-06-19 追記（Anchorage 統合・backend platform 化）と接続。
+- **HIP-3 → HIP-4 の拡張軌跡**: RWA perp (HIP-3) の成功→予測市場型 outcome (HIP-4) へ。product line の拡張が速い。
+- ⚠️ **公式アカウントのポジティブバイアス**: 記録更新・新機能・生態系成長のみを発信＝清算量の増加・下落局面・内部 short（[[perp-dex-wars]] §2026-06-23: TOP10 whale が $HYPE をショート）は報告されない。公式投稿と外部観察（[[@MurphyBTC]] 等）を必ずクロスチェックする。
+- **ticker 言及の意味**: 上場 announcement の一環であり、個別トークンへの推奨ではない。
+
+### 関連
+[[perp-dex-wars]]（一次発表源 / RWA perp ATH の出所）/ [[external-event-to-token-pattern]]（RWA perp = 外部資産のトークン化経路）
+[[$HYPE]] / [[@DefiIgnas]]（外部評価）/ [[@MurphyBTC]]（内部ショート観察＝対照ソース）/ [[@Bankless]]（platform 化の解説）
 <!-- synthesis:end -->

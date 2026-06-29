@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 backfill (高signal未合成 player 5件 第3バッチ): @Lightspeedpodhq→[[l1-substrate-wars]][[vc-founder-thesis-layer]] / @JasonYanowitz→[[majors-rotation-supercycle]][[regulation-catalyst]][[reflexivity]] / @HyperliquidX→[[perp-dex-wars]][[external-event-to-token-pattern]] / @HsakaTrades→[[perp-dex-wars]][[manipulation-playbook]][[reflexivity]] / @DEG_2020→[[ai-memes]][[majors-rotation-supercycle]][[jp-meme-cluster]]。合成5件完了。
+
+- 2026-06-30 auto-synthesis X worklist §1a 3件: $BTC（代表ツイ2件=2023-11・2021-02古ツイ、新 beat なし・Hayes $BTC=$1mm track record 記録）/ $ETH（Hayes 2022-06-14 "liquidations mostly happened" bottom call=外れた track record light-touch 追記、[[rug-anatomy]]補強）/ $MU（48h言及2/2アカ・代表ツイ確認済み・新 beat なし）。主な⚠️: なし（全件確認のみ）。
+
+- 2026-06-30 auto-synthesis (synth_queue 16:37Z): births=4（[[$CRASHED]] $39k prebond tokenized_agent YouTube動画ネタ元 traction0・[[$7]] $29k graduated real_sol=0 stub・[[$GUTCHU-GzfBEf]] $49k→BREAKOUT+106%→$101k prebond同名2nd attempt traction0 whale pump疑い→[[launchpad-economics]]跳躍台帳追記・[[$DEADSEM]] $29k graduated real_sol=0 bull cluster反語命名 stub）・changes=3（[[$MUTUMBO]] mcap+55% $40k→$62k reply253継続・[[$CHIBUL]] mcap+76% $85k→$149k prebond継続 real_sol 9.84SOL増加・[[$DOGPLANE]] mcap+45% $206k→$300k graduated ★今バッチ最高）・deaths=3台帳（[[$SUNBULL]] $119k→$2.2k -98.1% high_real_sol×celebrity-link流用型・[[$HAYES]] $61k→$2k -96.7% KOL名借用型3件目・[[$TEEJEER]] $16k→$2.5k -84.7% graduated-but-empty低水準）。[[rug-anatomy]]死亡台帳+3。
+
 - 2026-06-29 auto-synthesis (synth_queue 13:29Z): births=5（[[$DOGPLANE]] $206k ★最高 graduated 専用twitter @DogPlaneMeme・[[$SUNBULL]] $119k graduated blknoiz06 link 71SOL・[[$CHIBUL]] $85k prebond traction0 stub・[[$HAYES]] $62k graduated CryptoHayes link 53SOL・[[$TEEJEER]] $16k graduated real_sol=0 stub）・changes=2（[[$PEPEBULL]] BREAKOUT +102% $39.5k→$79.9k real_sol=5 traction0 prebond whale pump疑い→[[launchpad-economics]]跳躍台帳追記・[[$HOPE]] mcap-80% $37k→$7.5k 崩壊加速）・deaths=2台帳（[[$SHX]] $146k→$589 peak比-99.6% prebond tokenized_agent 型通り死・[[$ANSEM BLKGT]] $48k→$1.3k peak比-97.2% KOL名借用 graduated-but-empty 型通り死）。[[rug-anatomy]]死亡台帳+2。本バッチ観測：bull命名クラスター同日並立（SUNBULL/CHIBUL/HAYES/PEPEBULL）＝bullish vibes 伝播中も全員traction0。
 
 - 2026-06-29 backfill (高signal未合成 player 5件 第2バッチ): @Nishi8maru→[[majors-rotation-supercycle]][[regulation-catalyst]][[reflexivity]] / @NZensin→[[majors-rotation-supercycle]][[reflexivity]] / @Ministerr→[[rug-anatomy]][[survivor-memes]] / @MemememHen→[[jp-meme-cluster]][[reflexivity]][[launchpad-economics]] / @MarioNawfal→[[external-event-to-token-pattern]][[regulation-catalyst]]。合成5件完了。

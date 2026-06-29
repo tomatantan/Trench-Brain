@@ -198,4 +198,9 @@ accounts: 19
 - Apr 22: "JAYPOW fired/not fired = BTC rips both ways"（既合成）
 - Jul 11: "ATH on good volume / truck backed up"（既合成）
 - 既存合成（BTC = fiat liquidity smoke alarm / macro policy driven）に変化なし。confidence=中（補足のみ）。
+
+### 2026-06-30 確認（worklist 代表ツイ確認・新 beat なし）
+- **3204♥ [[CryptoHayes__1722815182731423798]]**（2023-11-10）: 「This summer I visited the ancestors in Rapa Nui ... $BTC=$1mm $ETH=$100k Yachtzee bitches!!!」= **2023年11月の古ツイ再キャプチャ**（2023年秋〜冬 bull market 入口期の強気コール）。新 beat なし。Hayes の「$BTC=$1mm」系コールの track record 一例。
+- **3185♥ [[zhusu__1363439543903469568]]**（2021-02-21）: 「Stop looking for top signals. Have some self-respect. Up only. $BTC」= **2021年2月の古ツイ再キャプチャ**。新 beat なし。
+- 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $HAYES（The Golden Bull）
 mint: EGT3bT8vS3Nkz6JMmwXGuVV3HhnhqkoDbtd1rWQcpump
 pool: 6ZNGNSkk7eE3ogvNtsQJAxLe1YJcL2n2TXJ48QVoy51Z
 created: 2026-06-29
-updated: 2026-06-29
-tags: [trench, entity, token, auto-track, graduated, kol-name-borrow, cryptohayes-linked, bull-narrative]
+updated: 2026-06-30
+tags: [trench, entity, token, auto-track, graduated, kol-name-borrow, cryptohayes-linked, bull-narrative, dead]
 ---
 
 # $HAYES（The Golden Bull）
@@ -20,7 +21,9 @@ tags: [trench, entity, token, auto-track, graduated, kol-name-borrow, cryptohaye
 | pool | 6ZNGNSkk7eE3ogvNtsQJAxLe1YJcL2n2TXJ48QVoy51Z |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $61,567（2026-06-29T13:29Z） |
-| peak_mcap | $61,567（暫定） |
+| peak_mcap | $61,567 |
+| mcap(death) | $2,008（2026-06-29T16:37Z・peak比-96.7%） |
+| cause | mcap枯れ（peak比-96.7%） |
 | real_sol | ~53 SOL（53432098759 lamports） |
 | reply_count | 0 |
 | twitter | https://x.com/CryptoHayes/ |
@@ -52,6 +55,8 @@ tags: [trench, entity, token, auto-track, graduated, kol-name-borrow, cryptohaye
 
 **賭け仮説**（confidence=低）
 - Hayes 本人が言及すれば非線形急騰。しかし kol_ca=[] の現状では根拠なし。今バッチ同型の $ANSEM BLKGT が既に死亡——型的には同パスが最有力。
+
+**2026-06-29 死亡確定**: peak $61,567 → $2,008（-96.7%）。Hayes 本人言及なし × traction0。KOL 名借用型通り死（[[$ANSEM BLKGT]] と完全同型）。→ [[rug-anatomy]] 死亡台帳。
 <!-- synthesis:end -->
 
 ## 関連

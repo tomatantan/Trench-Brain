@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $$SUNBULL（good morning bulls）
 mint: BXJ59Uhu4CqSYbF6vn448aQwFyFzTEibbxzk4S6Hpump
 pool: 4f3f2sz6jz1KGScysFWirWNnagikKp9FFQRwJTxuVLPQ
 created: 2026-06-29
-updated: 2026-06-29
-tags: [trench, entity, token, auto-track, graduated, bull-narrative, blknoiz06-linked, real_sol-high]
+updated: 2026-06-30
+tags: [trench, entity, token, auto-track, graduated, bull-narrative, blknoiz06-linked, real_sol-high, dead]
 ---
 
 # $$SUNBULL（good morning bulls）
@@ -20,7 +21,9 @@ tags: [trench, entity, token, auto-track, graduated, bull-narrative, blknoiz06-l
 | pool | 4f3f2sz6jz1KGScysFWirWNnagikKp9FFQRwJTxuVLPQ |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $119,037（2026-06-29T13:29Z） |
-| peak_mcap | $119,037（暫定） |
+| peak_mcap | $119,644 |
+| mcap(death) | $2,230（2026-06-29T16:37Z・peak比-98.1%） |
+| cause | mcap枯れ（peak比-98.1%） |
 | real_sol | ~71 SOL（71130864194 lamports） |
 | reply_count | 0 |
 | twitter | https://x.com/blknoiz06/status/2071573070033072377 |
@@ -52,6 +55,8 @@ tags: [trench, entity, token, auto-track, graduated, bull-narrative, blknoiz06-l
 
 **賭け仮説**（confidence=低〜中）
 - blknoiz06 本人がこの CA に言及すれば急騰トリガー。ただし kol_ca=[] の現状では wishful thinking。real_sol 71SOL の deployer が pump 持続を試みる可能性あり。
+
+**2026-06-29 死亡確定**: peak $119,644 → $2,230（-98.1%）。blknoiz06 本人言及なし × traction0 × "good morning" 消費型命名の帰結。real_sol 71SOL（⑬コホート水準）でも traction なければ枯死——「high real_sol ≠ 生存保証」型を N 追加。→ [[rug-anatomy]] 死亡台帳。
 <!-- synthesis:end -->
 
 ## 関連

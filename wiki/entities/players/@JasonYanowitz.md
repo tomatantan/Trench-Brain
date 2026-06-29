@@ -30,5 +30,23 @@ posts: 140
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+Blockworks 共同創業者。watchlist 内で最大リーチクラス（トップ投稿 22,278 likes）。信号投稿 140件。高エンゲージ投稿の軸：
+- **市場フェーズ解説スレッド**: 「3 stages of a bear market」(22.3k)、「4 phases of a bull market」(7.7k) — 広く拡散され「今どのフェーズか」の共通枠組みを提供。
+- **規制/マクロイベント実況**: El Salvador 非課税確認 (14.4k)、Cathie Wood BTC $500k 予言 (8.4k)、FTX 事後「Big4 監査でも防げなかった」(7.5k)、Genesis/FTX 連鎖リスク (9.6k)。
+- **文化的観察**: 建設作業員が Dogecoin で $120k (9.8k)、Coinbase NFT = "Web3 Instagram" (7.8k)、Joe Rogan × Pomp (6.4k)。
+- $LINK が唯一の ticker 言及 (1回)。
+
+### 判断（推論）
+[[majors-rotation-supercycle]] の「市場サイクル語り部」。bear の 3 stages / bull の 4 phases という**フレーム自体**が CT に広く採用されており、相場観の共有言語を形成する役割。個別銘柄の推奨より**フェーズ認識の提供**が主機能。
+
+- **[[regulation-catalyst]] との接点**: FTX 監査問題（Big4 でも無力だった）・El Salvador 非課税（規制が price に作用した事例）を高エンゲージで実況。規制イベントを crypto CT に翻訳する通訳役。
+- **[[reflexivity]] との接点**: Cathie Wood $500k 予言の拡散 = 強気ナラティブの増幅器として機能。「相場予測を語ること自体が相場を動かす」ループの媒介。
+- ⚠️ **スタイルの特徴**: 強い個人見解より「観察・実況」を好む印象。但し高 likes は往々にして市場が強気サイクルにある時の「bullish フレーミング」に偏る＝生存者バイアスに注意（低 likes 投稿の中に弱気実況が埋もれている可能性）。
+- **メディア装置としての位置**: Bankless ([[@RyanSAdams]]) と同格の Blockworks ブランドを持つ。[[l1-substrate-wars]] では Ethereum 偏重の Bankless に対し、Blockworks は比較的マルチチェーン中立だが、Lightspeed pod（[[@Lightspeedpodhq]]）は Solana 側に寄る。
+
+### 関連
+[[majors-rotation-supercycle]]（サイクルフェーズの共有言語）/ [[regulation-catalyst]]（FTX/El Salvador 実況）/ [[reflexivity]]（強気ナラティブ増幅）
+[[@Lightspeedpodhq]]（Blockworks 傘下 Solana pod）/ [[@RyanSAdams]]（Bankless = 対称的装置）
 <!-- synthesis:end -->

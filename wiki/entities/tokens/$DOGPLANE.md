@@ -7,7 +7,7 @@ title: $DOGPLANE（Dog Plane）
 mint: 54cDtZtEnvTHAzfo5bFkJf3GAZV9v5KJHEznu2dSpump
 pool: E9eugks2TTTnQXwrwdVXq2zdQQHLYgryMaNxiQdz8L88
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-06-30
 tags: [trench, entity, token, auto-track, graduated, dog-meme, dedicated-account]
 ---
 
@@ -20,7 +20,8 @@ tags: [trench, entity, token, auto-track, graduated, dog-meme, dedicated-account
 | pool | E9eugks2TTTnQXwrwdVXq2zdQQHLYgryMaNxiQdz8L88 |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $205,908（2026-06-29T13:29Z） ★本バッチ最高 |
-| peak_mcap | $205,908（暫定） |
+| mcap(変化 +45%) | $300,037（2026-06-29T16:37Z） |
+| peak_mcap | $300,037（暫定） |
 | real_sol | ~52 SOL（52355555549 lamports） |
 | reply_count | 0 |
 | twitter | https://x.com/DogPlaneMeme |
@@ -51,6 +52,8 @@ tags: [trench, entity, token, auto-track, graduated, dog-meme, dedicated-account
 
 **賭け仮説**（confidence=低〜中）
 - $206k × @DogPlaneMeme 専用 social = 他のゴミ stub より準備されているが、reply0 が覆るかどうかが分岐点。dog meme 汎用性は高いが「Dog Plane」固有の memetic フックが需要に転化するかは不明。
+
+**2026-06-29 変化 mcap+45%**: $206k→$300k（graduated 継続）。real_sol ~52SOL 維持——pool 資金は維持されているが reply0 継続。$300k 到達は今バッチ最高 mcap 更新。dedicated @DogPlaneMeme account に反応が出るかが次の分岐点。
 <!-- synthesis:end -->
 
 ## 関連
