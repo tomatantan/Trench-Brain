@@ -226,6 +226,46 @@ class Retriever:
                 "updated": d["updated"], "tags": d["tags"],
                 "markdown": d["body"].strip(), "related": self.related(d["path"])}
 
+    # ---- Lint/品質機能(LLM Wikiの核=矛盾surface/孤立/ギャップ・read-only) ----
+    def _inbound_n(self, d):
+        return len([s for s in self.inbound.get(d["stem"], []) if s["path"] != d["path"]])
+
+    def contradictions(self, k=60):
+        """⚠️矛盾フラグの立ったページ一覧(原典が重視する『矛盾の表面化』)。"""
+        out = []
+        for d in self.docs:
+            if "⚠️" in d["body"]:  # 旗マーカーのみ(バレ語「矛盾」は拾わない=精度)
+                i = d["body"].find("⚠️")
+                out.append({"title": d["title"], "path": d["path"], "kind": d["kind"],
+                            "excerpt": d["body"][max(0, i - 40):i + 160].strip()})
+        return out[:k]
+
+    def orphans(self, kind=None, k=120):
+        """孤立ページ(被リンク0)＝知識グラフに繋がってない死蔵候補。"""
+        out = [{"title": d["title"], "path": d["path"], "kind": d["kind"]}
+               for d in self.docs
+               if self._inbound_n(d) == 0 and (not kind or d["kind"] == kind)]
+        return out[:k]
+
+    def gaps(self, k=30):
+        """繋がりの弱い/薄い concept＝知識ギャップ(優先で埋める候補)。"""
+        cs = sorted((d for d in self.docs if d["kind"] == "concepts"),
+                    key=lambda d: (self._inbound_n(d), len(d["links"]), d["len"]))
+        return [{"title": d["title"], "path": d["path"], "inbound": self._inbound_n(d),
+                 "outbound": len(d["links"]), "body_len": d["len"]} for d in cs[:k]]
+
+    def stats(self):
+        """wiki全体の統計(健康ダッシュボード素材)。"""
+        by_kind = {}
+        for d in self.docs:
+            by_kind[d["kind"]] = by_kind.get(d["kind"], 0) + 1
+        edges = sum(len(d["links"]) for d in self.docs)
+        return {"total": self.N, "by_kind": by_kind, "total_links": edges,
+                "avg_outbound": round(edges / max(1, self.N), 1),
+                "orphans": sum(1 for d in self.docs if self._inbound_n(d) == 0),
+                "contradictions": sum(1 for d in self.docs if "⚠️" in d["body"]),
+                "total_tags": len({t for d in self.docs for t in d["tags"]})}
+
     def context(self, query, k=6, max_chars=1200):
         """合成LLMに渡す文脈＝Top-K の title + 本文抜粋。"""
         out = []

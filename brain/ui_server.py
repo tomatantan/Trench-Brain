@@ -76,6 +76,11 @@ API_INDEX = [
     {"path": "/api/score", "method": "GET", "params": {"token": "$ticker or CA"},
      "desc": "★ape-or-avoid=scam門(rugcheck)+保有集中+base-rateで張る/避ける判定"},
     {"path": "/api/digest", "method": "GET", "desc": "日次snapshot差分=何が変わった(mints/死/台帳…)"},
+    {"path": "/api/contradictions", "method": "GET", "desc": "⚠️矛盾フラグの立ったページ(矛盾の表面化)"},
+    {"path": "/api/orphans", "method": "GET", "params": {"kind": "任意"},
+     "desc": "孤立ページ(被リンク0=死蔵候補)"},
+    {"path": "/api/gaps", "method": "GET", "desc": "繋がり弱い/薄いconcept=知識ギャップ"},
+    {"path": "/api/stats", "method": "GET", "desc": "wiki全体統計(kind別/links/orphans/矛盾/tags)"},
 ]
 
 
@@ -306,6 +311,33 @@ class Handler(SimpleHTTPRequestHandler):
                     self._json(404, {"ok": False, "error": f"entity無し: {ref}"})
                     return
                 self._json(200, {"ok": True, **ent})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★Batch3 Lint/品質機能(LLM Wikiの核=矛盾surface/孤立/ギャップ・$0)
+        if path0 == "/api/contradictions":
+            try:
+                self._json(200, {"ok": True, "contradictions": _retriever().contradictions()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/orphans":
+            qs = parse_qs(urlparse(self.path).query)
+            kind = (qs.get("kind", [""])[0]).strip() or None
+            try:
+                self._json(200, {"ok": True, "orphans": _retriever().orphans(kind)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/gaps":
+            try:
+                self._json(200, {"ok": True, "gaps": _retriever().gaps()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/stats":
+            try:
+                self._json(200, {"ok": True, **_retriever().stats()})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
