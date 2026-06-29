@@ -15,14 +15,28 @@ import argparse
 import json
 import os
 import subprocess
+import sys
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 ASK = ROOT / "brain" / "ask.sh"
 ASK_TIMEOUT = 240  # headless claude は 1-3 分かかる
+
+# ★案A「検索できるLLM Wiki」: rag.py の retriever を遅延ロード(初回検索で索引構築)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+_RETRIEVER = None
+
+
+def _retriever():
+    global _RETRIEVER
+    if _RETRIEVER is None:
+        import rag
+        _RETRIEVER = rag.Retriever()
+    return _RETRIEVER
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -40,8 +54,27 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self):
+        path0 = self.path.split("?")[0]
+        # ★案A「検索できるLLM Wiki」: 質問→合成済みwikiページをBM25で返す(クエリ時LLM不要・$0)
+        if path0 == "/api/search":
+            qs = parse_qs(urlparse(self.path).query)
+            q = (qs.get("q", [""])[0]).strip()
+            k = min(int(qs.get("k", ["8"])[0] or 8), 20)
+            if not q:
+                self._json(400, {"ok": False, "error": "q が空"})
+                return
+            try:
+                hits = _retriever().search(q, k)
+                results = [{
+                    "score": round(s, 2), "title": d["title"], "path": d["path"],
+                    "excerpt": d["body"].strip()[:280],
+                } for s, d in hits]
+                self._json(200, {"ok": True, "query": q, "results": results})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
-        if self.path.split("?")[0] == "/api/live":
+        if path0 == "/api/live":
             p = ROOT / "brain" / "state" / "live_pulse.json"
             if not p.exists():
                 self._json(404, {"ok": False, "error": "live_pulse 未生成(brain/live_pulse_writer.py を起動)"})
