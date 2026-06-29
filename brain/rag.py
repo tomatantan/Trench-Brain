@@ -26,6 +26,7 @@ SUBDIRS = ["concepts", "entities/tokens", "entities/players", "queries", "dashbo
 ASCII_TOK = re.compile(r"\$[A-Za-z0-9]{1,15}|@[A-Za-z0-9_]{1,30}|[a-z0-9_]{2,}")
 CJK_RUN = re.compile(r"[぀-ヿ㐀-鿿豈-﫿]+")
 FM = re.compile(r"\A---\n.*?\n---\n", re.S)
+LINK = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")  # [[target]] / [[target|display]]
 
 
 def tokenize(text):
@@ -57,6 +58,52 @@ class Retriever:
         self._load()
         self.N = len(self.docs)
         self.avgdl = sum(d["len"] for d in self.docs) / max(1, self.N)
+        # 知識グラフ index: path/stem 引き + 内向きリンク(誰がこのページを[[link]]してるか)
+        self.by_path = {d["path"]: d for d in self.docs}
+        self.by_stem = {d["stem"]: d for d in self.docs}
+        self.inbound = {}
+        for d in self.docs:
+            for tgt in d["links"]:
+                self.inbound.setdefault(tgt, []).append(d)
+
+    def page(self, path):
+        """1ページの合成内容を返す(UIの表示用)。path は 'wiki/...md' でも stem でも可。"""
+        if path in self.by_path:
+            return self.by_path[path]
+        s = str(path).lower()
+        return (self.by_stem.get(s) or self.by_stem.get(s.lstrip("$@"))
+                or self.by_stem.get("$" + s) or self.by_stem.get("@" + s))
+
+    @staticmethod
+    def _prio(p):
+        """知識グラフの意味的優先: concept > query/dashboard > player > token。"""
+        if "/concepts/" in p:
+            return 0
+        if "/queries/" in p or "/dashboards/" in p:
+            return 1
+        if "/players/" in p:
+            return 2
+        if "/tokens/" in p:
+            return 3
+        return 4
+
+    def related(self, path, k=40):
+        """そのページの外向き[[link]]先 と 内向き(被リンク)を返す＝知識グラフ navigation。
+        例token spam に埋もれないよう concept/player を優先順に。"""
+        d = self.page(path)
+        if not d:
+            return {"outbound": [], "inbound": [], "outbound_total": 0, "inbound_total": 0}
+        out = []
+        for tgt in d["links"]:
+            t = self.by_stem.get(tgt) or self.by_stem.get(tgt.lstrip("$@"))
+            if t and t["path"] != d["path"]:
+                out.append({"title": t["title"], "path": t["path"]})
+        out.sort(key=lambda x: (self._prio(x["path"]), x["title"]))
+        inb = [{"title": s["title"], "path": s["path"]}
+               for s in self.inbound.get(d["stem"], []) if s["path"] != d["path"]]
+        inb.sort(key=lambda x: (self._prio(x["path"]), x["title"]))
+        return {"outbound": out[:k], "inbound": inb[:k],
+                "outbound_total": len(out), "inbound_total": len(inb)}
 
     def _load(self):
         for sub in SUBDIRS:
@@ -68,10 +115,12 @@ class Retriever:
                 title = title_of(raw, p)
                 body = FM.sub("", raw)
                 tf = Counter(tokenize(title + " " + body))
+                links = {t.strip().lower() for t in LINK.findall(body)}  # 外向き[[link]]先(正規化)
                 self.docs.append({
                     "path": str(p.relative_to(ROOT)), "title": title,
                     "body": body, "tf": tf, "len": sum(tf.values()),
                     "stem": p.stem.lower(),  # "$cafe" / "@crediblecrypto" 等
+                    "links": links,
                 })
                 for t in tf:
                     self.df[t] += 1
