@@ -43,6 +43,41 @@ def _retriever():
 
 STATE = ROOT / "brain" / "state"
 
+# UIチームが全機能を発見できる自己ドキュメント(/api/index で返す)
+API_INDEX = [
+    {"path": "/api/ask", "method": "POST", "body": {"question": "str"},
+     "desc": "Q&A脳=claudeが全wiki横断・6レンズ・引用で合成回答(数十秒〜)"},
+    {"path": "/api/search", "method": "GET", "params": {"q": "問い", "k": "件数=8"},
+     "desc": "合成wikiをBM25検索→Top-Kページ(LLM不要・$0)"},
+    {"path": "/api/page", "method": "GET", "params": {"path": "wiki/..md or $ticker/stem"},
+     "desc": "合成ページ本文(markdown)を返す"},
+    {"path": "/api/related", "method": "GET", "params": {"path": "..."},
+     "desc": "知識グラフ=外向き[[link]]+内向き被リンク(concept優先・総数付)"},
+    {"path": "/api/concepts", "method": "GET", "desc": "概念ページ一覧(合成の目次)"},
+    {"path": "/api/recent", "method": "GET", "params": {"n": "30", "kind": "任意"},
+     "desc": "最近更新ページ(日付降順=合成の鮮度)"},
+    {"path": "/api/tags", "method": "GET", "desc": "タグ→ページ(件数降順)"},
+    {"path": "/api/graph", "method": "GET", "params": {"kinds": "concepts,queries,players"},
+     "desc": "知識グラフ nodes/edges(可視化用)"},
+    {"path": "/api/similar", "method": "GET", "params": {"path": "..."},
+     "desc": "類似ページ(横の発見)"},
+    {"path": "/api/autocomplete", "method": "GET", "params": {"q": "前方一致"},
+     "desc": "ticker/entity 補完"},
+    {"path": "/api/entity", "method": "GET", "params": {"name": "$ticker/handle"},
+     "desc": "token/player 構造化(本文+関連グラフ+tags)"},
+    {"path": "/api/live", "method": "GET", "desc": "リアルタイムpump観測(live_pulse生)"},
+    {"path": "/api/hot", "method": "GET", "desc": "今動いてる銘柄(traction・変化pct順)+theme分布"},
+    {"path": "/api/launches", "method": "GET", "params": {"n": "30"},
+     "desc": "直近の新規mint(rc_score/insider/kol付)"},
+    {"path": "/api/base-rate", "method": "GET", "desc": "mint→passed→graduate/die funnel+rate"},
+    {"path": "/api/kol", "method": "GET", "params": {"min": "評価数=10"},
+     "desc": "KOL信頼ランク(death_rate昇順)"},
+    {"path": "/api/death-ledger", "method": "GET", "desc": "died/graduated/death_rate+分母"},
+    {"path": "/api/score", "method": "GET", "params": {"token": "$ticker or CA"},
+     "desc": "★ape-or-avoid=scam門(rugcheck)+保有集中+base-rateで張る/避ける判定"},
+    {"path": "/api/digest", "method": "GET", "desc": "日次snapshot差分=何が変わった(mints/死/台帳…)"},
+]
+
 
 def _state_json(name, default):
     try:
@@ -158,6 +193,10 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path0 = self.path.split("?")[0]
+        # 自己ドキュメント: 全API機能の一覧(UIチームの発見入口)
+        if path0 in ("/api/index", "/api"):
+            self._json(200, {"ok": True, "count": len(API_INDEX), "endpoints": API_INDEX})
+            return
         # ★案A「検索できるLLM Wiki」: 質問→合成済みwikiページをBM25で返す(クエリ時LLM不要・$0)
         if path0 == "/api/search":
             qs = parse_qs(urlparse(self.path).query)
