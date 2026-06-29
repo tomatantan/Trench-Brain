@@ -73,6 +73,36 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # ★合成ページ本文を返す(UI表示用)。path= は 'wiki/...md' でも $ticker/stem でも可
+        if path0 == "/api/page":
+            qs = parse_qs(urlparse(self.path).query)
+            ref = (qs.get("path", qs.get("id", [""]))[0]).strip()
+            if not ref:
+                self._json(400, {"ok": False, "error": "path が空"})
+                return
+            try:
+                d = _retriever().page(ref)
+                if not d:
+                    self._json(404, {"ok": False, "error": f"ページ無し: {ref}"})
+                    return
+                self._json(200, {"ok": True, "title": d["title"], "path": d["path"],
+                                 "markdown": d["body"].strip()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★知識グラフ navigation: そのページの外向き[[link]]先 と 内向き(被リンク)
+        if path0 == "/api/related":
+            qs = parse_qs(urlparse(self.path).query)
+            ref = (qs.get("path", qs.get("id", [""]))[0]).strip()
+            if not ref:
+                self._json(400, {"ok": False, "error": "path が空"})
+                return
+            try:
+                rel = _retriever().related(ref)
+                self._json(200, {"ok": True, "path": ref, **rel})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
         if path0 == "/api/live":
             p = ROOT / "brain" / "state" / "live_pulse.json"
