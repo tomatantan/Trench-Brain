@@ -2,12 +2,12 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $BULL
 mint: 5HRtrzsnPHHaWazHTuwfAWZtaKJuJxSgGNAi8babpump
 created: 2026-06-29
 updated: 2026-06-29
-tags: [token, pumpfun, graduated, traction0, philosophy-meme, stub]
+tags: [token, pumpfun, graduated, traction0, philosophy-meme, dead]
 ---
 
 # $BULL (Nietzschean Bull) — 5HRtrz
@@ -40,13 +40,16 @@ pump.fun 発。bonding curve **卒業済（complete=true）**。"Nietzschean Bul
 - graduated（complete=true）・$25,290 で検知。real_sol=0・reply=0・KOL なし。
 - twitter/website は同一の @bigdihBwinu X ポスト URL——deployer 自設定の association marketing。ポストの内容は未確認（sources/x/ に対応ファイルなし）。
 - 先行 [[$BULL]]（bullposting・2Krx2Y）は既に dead（peak $29k → $2.3k -92%）。
+- **死亡確定（2026-06-29T07:10Z）**: 最終 mcap $1,647（peak $25,290 比 -93.5%）。cause: mcap枯れ。
 
 **判断**:
-- "Nietzschean Bull"——ニーチェ（超人/永劫回帰/力への意志）× bull の合成。哲学ミームは crypto trench では稀にウケる（esoteric credentialing）が、traction0 の状態ではフックとして機能しているか不明。
-- ⚠️ twitter/website が同一 URL（deployer のポスト）= organic community 不在・deployer marketing 単独 = [[rug-anatomy]] association marketing 型疑い。
-- graduated × real_sol=0 × traction0 = "graduated-but-empty"標準候補。先行 $BULL（bullposting）と同型の死が最尤。
+- "Nietzschean Bull"——ニーチェ × bull の合成。哲学ミームは esoteric credentialing として稀にウケるが、traction0 × real_sol=0 では機能せず。
+- twitter/website 同一 URL（deployer ポスト）= organic community 不在・deployer-only social = [[rug-anatomy]] association marketing 型確定。
+- graduated-but-empty 型通りの死。先行 [[$BULL]]（bullposting・dead）と完全同型。**哲学命名ミームが traction を生まなかった**事例。
 
-**概念接続**: [[launchpad-economics]]（graduated-but-empty） / [[rug-anatomy]]（association marketing疑い・deployer-only social）
+**outcome**: died / cause: mcap枯れ($1,647・peak比-93.5%)
+
+**概念接続**: [[launchpad-economics]]（graduated-but-empty） / [[rug-anatomy]]（association marketing・deployer-only social → 枯死）
 <!-- synthesis:end -->
 
 ## 関連

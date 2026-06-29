@@ -117,4 +117,9 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ（2022年）再キャプチャ**。6/23・6/24・6/27・6/28・6/29確認①で複数回確認済み。新情報なし。
 - **3799♥ [[lookonchain__1881338954743722319]]**（2025-01-20T13:52Z）: 「Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M), 177,928 $LINK($4.7M), 19.3M $TRX($4.7M), 13,261 $AAVE($4.7M) and 507K $ENA($470K) in the past 40 mins.」= **旧ツイ（Trump 就任当日 2025-01-20）・本 ETH 合成に未記録**。**light-touch 追記**: Trump 政権に近い World Liberty Finance が就任当日 40 分以内に ETH・LINK・TRX・AAVE・ENA を各 $4.7M ずつ購入。ETH は選択肢に含まれた（BTC 単体でない）。ただし ENA 以外はほぼ等分（$4.7M ずつ）= 「特定トークンへの強い conviction」ではなく**ポートフォリオ的分散入金**の性格が強い。ETH がこの政治的購入アクションの一環に含まれた事実は、「Trump チームが ETH を完全に排除していない」という観測として記録。DefiIgnas の「ETH = BTC beta 脱却未達」（既記）とは別軸の政治リスク/プレミアム。confidence=低（旧ツイ・ETH 単独への signal 弱い）。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。
+
+### 2026-06-29 確認⑤（worklist 代表ツイ確認・新 beat なし）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
+- **3621♥ [[lookonchain__1592146617200959488]]**（2022-11-14T13:25Z）: 「Vitalik Buterin(@VitalikButerin) sold 3,000 $ETH ($3.75M) on #Uniswap 2 days ago. His selling price is $1,250.3.」= **2022年11月の古ツイ再キャプチャ**（FTX 崩壊後 2 週間の時点）。**light-touch 追記**: Vitalik 本人が $1,250 帯で 3,000 ETH を売却した 2022 年の観測。現在の ETH 価格帯（~$1,560・14ヶ月来安値・既合成）と歴史的に近い水準。ただし 2022 は FTX 崩壊直後の extreme fear 局面であり現在との文脈は異なる。Vitalik の sell = ETH の "foundation confidence" を問う指標として記録はするが、2022 の single data point = macro beat なし。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。
 <!-- synthesis:end -->

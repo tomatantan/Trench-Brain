@@ -2,12 +2,12 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $SHUPPET
 mint: 4j8LnnpiFw7bSSx1NH19GY9UxvBN4zD9ecESMDRapump
 created: 2026-06-29
 updated: 2026-06-29
-tags: [token, pumpfun, graduated, traction0, pokemon-ip, meme]
+tags: [token, pumpfun, graduated, traction0, pokemon-ip, meme, dead]
 ---
 
 # $SHUPPET — Shuppet（4j8Lnn）
@@ -49,6 +49,11 @@ pump.fun 発。bonding curve **卒業済（complete=true）**。名称は Pokemo
 - $140k graduated は signal（規模感）、reply=0 は antisignal（tractionなし）——どちらが先に解消するか次観測依存。
 
 **賭け仮説**: Pokemon IP × shuppet.lol website 整備あり = 初動の動線は他 traction0 より僅かに太い。ただし traction0 × real_sol=0 の壁は厚く、reply/KOL が無ければ [[rug-anatomy]] 枯れ候補。
+
+**死亡確定（2026-06-29T07:10Z）**: 最終 mcap $1,507（peak $140,878 比 -98.9%）。cause: mcap枯れ。website（shuppet.lol）単体では community 形成に至らず。
+
+**outcome**: died / cause: mcap枯れ($1,507・peak比-98.9%)  
+**学習**: 今バッチ最高 mcap（$140k）でも traction0 × real_sol=0 → 枯死。「IP 借用 + website 整備」は traction の代替にならない。Pokemon マイナーキャラ（Shuppet）の認知はリーチとして機能しなかった。
 <!-- synthesis:end -->
 
 ## 関連
