@@ -14,8 +14,10 @@ UI:   http://localhost:8000/ui/index.html
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
+import urllib.request
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -66,6 +68,78 @@ def _tail_jsonl(name, n, maxbytes=300000):
         return out
     except Exception:
         return []
+
+
+_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+
+def _http_json(url, timeout=12):
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": _UA}), timeout=timeout)
+        return json.loads(r.read())
+    except Exception:
+        return None
+
+
+def _score_token(token):
+    """ape-or-avoid 総合読み(決定的・LLM不使用・$0)＝scam門(rugcheck)+base-rate文脈。
+    CA→on-chain判定 / ticker→wikiからCA解決 試行。正直にape断定しない(base-rate厳しい)。"""
+    token = token.strip()
+    m = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", token)
+    ca = m.group(0) if m else None
+    wiki_excerpt = None
+    if not ca:  # ticker → 合成wikiページからCAを探す
+        d = _retriever().page(token)
+        if d:
+            wiki_excerpt = d["body"][:600]
+            mm = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", d["body"])
+            ca = mm.group(0) if mm else None
+        if not ca:
+            return {"token": token, "verdict": "需CA",
+                    "verdict_reason": "on-chain判定には CA(mint address) が要る。tickerのみだと合成wikiの読みだけ。",
+                    "wiki": wiki_excerpt}
+    onchain, flags = {}, []
+    pf = _http_json(f"https://frontend-api-v3.pump.fun/coins/{ca}")
+    if pf:
+        onchain["pump"] = {"sym": pf.get("symbol"), "name": pf.get("name"),
+                           "mcap": pf.get("usd_market_cap"), "reply": pf.get("reply_count"),
+                           "complete": pf.get("complete"), "twitter": pf.get("twitter")}
+    rc = _http_json(f"https://api.rugcheck.xyz/v1/tokens/{ca}/report")
+    if rc:
+        th = rc.get("topHolders") or []
+        top_pct = round(max((h.get("pct") or 0) for h in th), 1) if th else None
+        danger = [r.get("name") for r in (rc.get("risks") or []) if r.get("level") == "danger"]
+        onchain["rugcheck"] = {"rugged": rc.get("rugged"), "mint_auth": rc.get("mintAuthority"),
+                               "top_holder_pct": top_pct, "insiders": bool(rc.get("insiderNetworks")),
+                               "danger": danger}
+        if rc.get("rugged"):
+            flags.append("rugged済(資金抜け確認)")
+        if rc.get("mintAuthority"):
+            flags.append("mint権限残存(増刷可)")
+        if top_pct and top_pct > 20:
+            flags.append(f"保有集中(top {top_pct}%)")
+        if rc.get("insiderNetworks"):
+            flags.append("インサイダーnetwork検出")
+        flags += [f"危険: {dn}" for dn in danger]
+    br = _state_json("base_rate.json", {})
+    gp = br.get("gate_passed") or 1
+    die_pct = round(100 * (br.get("died") or 0) / gp, 1)
+    rugged = bool(onchain.get("rugcheck", {}).get("rugged"))
+    if rugged or any(f.startswith("危険") for f in flags):
+        verdict = "AVOID"
+    elif len(flags) >= 2:
+        verdict = "高リスク(避け寄り)"
+    elif flags:
+        verdict = "要注意"
+    elif not rc:
+        verdict = "判定不可(on-chain取得失敗)"
+    else:
+        verdict = "赤旗なし(但base-rate注意)"
+    return {"token": token, "ca": ca, "verdict": verdict,
+            "flags": flags or (["on-chain赤旗なし"] if rc else ["on-chainデータ無し"]),
+            "onchain": onchain,
+            "base_rate_note": f"門通過でも約{die_pct}%が死ぬ(pump.fun base rate)＝赤旗無し≠安全。",
+            "wiki": wiki_excerpt}
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -242,6 +316,18 @@ class Handler(SimpleHTTPRequestHandler):
                              "gate_passed": gp,
                              "death_rate_pct": round(100 * (br.get("died") or 0) / (gp or 1), 1),
                              "death_denominator": live.get("death_denominator", {})})
+            return
+        # ★本丸: ape-or-avoid 総合スコア(scam門+base-rate・on-chain読む・$0)
+        if path0 == "/api/score":
+            qs = parse_qs(urlparse(self.path).query)
+            tok = (qs.get("token", qs.get("ca", qs.get("name", [""])))[0]).strip()
+            if not tok:
+                self._json(400, {"ok": False, "error": "token が空(\$ticker か CA)"})
+                return
+            try:
+                self._json(200, {"ok": True, **_score_token(tok)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
             return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
         if path0 == "/api/live":
