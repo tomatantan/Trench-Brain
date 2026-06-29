@@ -39,6 +39,35 @@ def _retriever():
     return _RETRIEVER
 
 
+STATE = ROOT / "brain" / "state"
+
+
+def _state_json(name, default):
+    try:
+        return json.loads((STATE / name).read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def _tail_jsonl(name, n, maxbytes=300000):
+    """大きい jsonl の末尾 n 行を効率的に(末尾チャンクのみ読む)。"""
+    p = STATE / name
+    try:
+        size = p.stat().st_size
+        with open(p, "rb") as f:
+            f.seek(max(0, size - maxbytes))
+            chunk = f.read().decode("utf-8", "replace")
+        out = []
+        for ln in [x for x in chunk.splitlines() if x.strip()][-n:]:
+            try:
+                out.append(json.loads(ln))
+            except Exception:
+                pass
+        return out
+    except Exception:
+        return []
+
+
 class Handler(SimpleHTTPRequestHandler):
     # --- 全レスポンスに CORS(+GETはno-cache) を付ける ---
     def end_headers(self):
@@ -166,6 +195,53 @@ class Handler(SimpleHTTPRequestHandler):
                 self._json(200, {"ok": True, **ent})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★Batch2 real-time/判断機能(state読むだけ・read-only・$0)
+        if path0 == "/api/hot":
+            live = _state_json("live_pulse.json", {})
+            tc = [t for t in live.get("traction_candidates", []) if not t.get("stale")]
+            tc.sort(key=lambda t: -(t.get("変化pct") or 0))
+            self._json(200, {"ok": True, "hot": tc, "themes": live.get("theme_distribution", {}),
+                             "flow": live.get("flow_count_nonscam"), "generated_at": live.get("generated_at")})
+            return
+        if path0 == "/api/launches":
+            qs = parse_qs(urlparse(self.path).query)
+            n = min(int(qs.get("n", ["30"])[0] or 30), 200)
+            rows = _tail_jsonl("launch_queue.jsonl", n)
+            keys = ("mint", "symbol", "name", "creator", "created", "twitter",
+                    "usd_mcap", "reply", "rc_score", "top_pct", "insiders", "kol", "reason", "detected_at")
+            launches = [{k: r.get(k) for k in keys} for r in rows][::-1]
+            self._json(200, {"ok": True, "launches": launches, "count": len(launches)})
+            return
+        if path0 == "/api/base-rate":
+            br = _state_json("base_rate.json", {})
+            st = _state_json("launch_stats.json", {})
+            gp = br.get("gate_passed") or 0
+            self._json(200, {"ok": True,
+                             "funnel": {"mints_seen": br.get("mints_seen"), "gate_passed": gp,
+                                        "graduated": br.get("graduated"), "died": br.get("died")},
+                             "rates": {"gate_pass_pct": round(100 * gp / (br.get("mints_seen") or 1), 3),
+                                       "graduate_pct": round(100 * (br.get("graduated") or 0) / (gp or 1), 1),
+                                       "die_pct": round(100 * (br.get("died") or 0) / (gp or 1), 1)},
+                             "observe_stats": st})
+            return
+        if path0 == "/api/kol":
+            qs = parse_qs(urlparse(self.path).query)
+            minev = int(qs.get("min", ["10"])[0] or 10)
+            kol = _state_json("kol_track_records.json", {})
+            rows = [v for v in kol.values() if (v.get("evaluated") or 0) >= minev]
+            rows.sort(key=lambda v: (v.get("death_rate") if v.get("death_rate") is not None else 100))
+            self._json(200, {"ok": True, "kol": rows, "min_evaluated": minev})
+            return
+        if path0 == "/api/death-ledger":
+            br = _state_json("base_rate.json", {})
+            live = _state_json("live_pulse.json", {})
+            gp = br.get("gate_passed") or 0
+            self._json(200, {"ok": True,
+                             "died": br.get("died"), "graduated": br.get("graduated"),
+                             "gate_passed": gp,
+                             "death_rate_pct": round(100 * (br.get("died") or 0) / (gp or 1), 1),
+                             "death_denominator": live.get("death_denominator", {})})
             return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
         if path0 == "/api/live":
