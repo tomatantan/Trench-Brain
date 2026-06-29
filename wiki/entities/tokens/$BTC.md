@@ -146,6 +146,10 @@ accounts: 19
 - **4097♥ [[CryptoHayes__1584967277635522560]]**（2022-10-25）: 「1/ Guess who is pumping $BTC and $ETH」= **旧ツイ再キャプチャ**（2022-06-23 更新で既確認）。新情報なし。
 - **3968♥ [[zhusu__1379630801566887940]]**（2021-04-07）: 「$BTC over 70k usd equiv in Korea now / Koreans truly a futuristic society」= **旧ツイ再キャプチャ**（2021-04 の韓国 kimchi premium 観測、当時 BTC ~$57K グローバル・韓国内で 70K USD 相当）。現時点の新 beat なし。既存合成（21ヶ月来安値・LTHS 80%・safe haven ナラティブ vs 実価格乖離）に変化なし。
 
+### 2026-06-29 確認⑤（新 beat なし・worklist 代表ツイ確認）
+- **3732♥ [[milesdeutscher__1696535940599353644]]**（2023-08-29）: 「Grayscale just officially won their lawsuit against the SEC, allowing them to convert their futures #Bitcoin ETF into a spot ETF.」= **旧ツイ（2023年8月）再キャプチャ**。2023 年の BTC spot ETF 承認前の歴史的事件。現時点の新 beat なし。
+- **3549♥ [[CryptoHayes__1909174145335922863]]**（2025-04-07T09:19Z）: 「Been nibbling on $BTC all day, and shall continue. Shitcoins are getting in our strike zone but I think #bitcoin dominance keeps zooming towards 70%. So we are not gorging at the shitcoin supermarket. Remember, money printing is the only answer they have.」= **旧ツイだが未合成 nuance**。既合成の Hayes Apr-07 "BTFD @ $76,500"（[[CryptoHayes__1909113124592161226]]）と同日別ツイ。**未合成内容**: ①Hayes が実際に BTC を購入した（"nibbling"）②BTC dominance 70% 方向 → alt には資金を投入しない（"not gorging at shitcoin supermarket"）。これは [[majors-rotation-supercycle]] 上の「BTC dom が 70% 到達するまで alt ローテは来ない」という Hayes の具体的立場表明。"money printing is the only answer" は既合成の macro フレームと同一。**light-touch 追記**: Hayes Apr 2025 シリーズのまとめとして、同日の BTFD コール（$76,500 floor）に加えて**実際の購入行動＋BTC dom 70% = alt 未到達論**が同日に発せられていたことを記録。confidence=中（補足のみ）。
+
 ### 2026-06-29 更新⑤（新 beat: WatcherGuru「53% unrealized loss」・Hayes April 2025 Easter bunny 追記）
 出典: [[watcherguru__2070215923277971724]]（3,870♥・2026-06-25T18:41Z）/ [[CryptoHayes__1914229735506452547]]（3,752♥・2025-04-21T08:08Z・旧ツイ）
 

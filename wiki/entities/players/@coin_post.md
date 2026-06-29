@@ -30,5 +30,27 @@ posts: 106
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 役割・動線上の位置
+
+**観測**: 106投稿（watchlist内最多クラス）。日本語crypto速報垢。高エンゲ上位の内訳:
+- **JPYSC（SBI円ステーブルコイン）** 258♥・89♥ → SBI新生信託銀行が信託型で国内初発行、6月中の予定
+- **全国ビジネス企業年金基金** 162♥ → 2026年度内に運用資産の約1%をcrypto組み入れ予定
+- **Clarity Act** 80♥ → 7/4休会前採決に3つの壁（進展困難）
+- **CBDC禁止条項付き住宅法案可決** 80♥ → 2030年末まで米中銀によるCBDC発行禁止
+- **Franklin Templeton BTC再投資ETF** 70♥ → SEC申請、配当をBTCに再投資する商品
+- **BTC4年サイクル健在・年末10万ドル目標** 61♥ → 21シェアーズ
+
+**判断**: [[jp-meme-cluster]] における制度・マクロ情報のハブ。発信内容は[[regulation-catalyst]]に直接刺さるもの（JPYSC・Clarity Act・CBDC禁止・年金crypto投資）が中心。日本市場において「制度イベント→市場反応」の情報流通を担う役割。
+
+[[external-event-to-token-pattern]] との接続: JPYSC（信託型円ステーブルコイン）は「規制整備→新金融商品」の典型例。年金基金のcrypto組み入れは機関需要面からの[[majors-rotation-supercycle]]の日本版。
+
+### ⚠️ 矛盾・懐疑
+
+- Clarity Act「3つの壁」報道と「採決前進」報道が混在し得る（速報垢の性質上、続報で前言と矛盾するケースがある）。エンゲ高い速報ほど後続訂正が出やすい。
+- 年金基金のcrypto投資・JPYSCはいずれも「予定/見通し」段階であり、実際の実施は未確定。
+
+### 関連リンク
+
+[[jp-meme-cluster]] / [[regulation-catalyst]] / [[external-event-to-token-pattern]] / [[majors-rotation-supercycle]] / [[@angorou7]]
 <!-- synthesis:end -->

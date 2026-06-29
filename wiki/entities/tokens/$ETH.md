@@ -112,4 +112,9 @@ ETF 流出（2026-06-25）:
 
 ### 2026-06-29 確認③（新 beat なし・zhusu 2022 withdrawal ツイ確認）
 - **3828♥ [[zhusu__1509002816668729348]]**（2022-03-30）: 「feeling cute, might withdraw a few hundred k $eth from exchanges」= **2022年の古ツイ再キャプチャ**（2022-03 は ETH が $3K〜$3.5K 台、zhusu の "abandoned Ethereum" 時期の直前）。zhusu が大量の ETH を交換所から引き出す意図を示した時点のツイート。現時点の新情報なし。「mental math with $eth will be a lot easier when it 10k」（[[zhusu__1389092285992771587]]・2022-04-07）と同系列の 2022 zhusu 強気時代のツイート群。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
+### 2026-06-29 確認④（新 beat なし・worklist 代表ツイ確認）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ（2022年）再キャプチャ**。6/23・6/24・6/27・6/28・6/29確認①で複数回確認済み。新情報なし。
+- **3799♥ [[lookonchain__1881338954743722319]]**（2025-01-20T13:52Z）: 「Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M), 177,928 $LINK($4.7M), 19.3M $TRX($4.7M), 13,261 $AAVE($4.7M) and 507K $ENA($470K) in the past 40 mins.」= **旧ツイ（Trump 就任当日 2025-01-20）・本 ETH 合成に未記録**。**light-touch 追記**: Trump 政権に近い World Liberty Finance が就任当日 40 分以内に ETH・LINK・TRX・AAVE・ENA を各 $4.7M ずつ購入。ETH は選択肢に含まれた（BTC 単体でない）。ただし ENA 以外はほぼ等分（$4.7M ずつ）= 「特定トークンへの強い conviction」ではなく**ポートフォリオ的分散入金**の性格が強い。ETH がこの政治的購入アクションの一環に含まれた事実は、「Trump チームが ETH を完全に排除していない」という観測として記録。DefiIgnas の「ETH = BTC beta 脱却未達」（既記）とは別軸の政治リスク/プレミアム。confidence=低（旧ツイ・ETH 単独への signal 弱い）。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。
 <!-- synthesis:end -->
