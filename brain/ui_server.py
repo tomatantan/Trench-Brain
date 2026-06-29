@@ -86,6 +86,10 @@ API_INDEX = [
     {"path": "/api/themes", "method": "GET", "desc": "現narrative分布(live_pulse theme)"},
     {"path": "/api/creator", "method": "GET", "params": {"wallet": "creator address"},
      "desc": "creator発行履歴=連続rugger検出(serial_flag)"},
+    {"path": "/api/health", "method": "GET", "desc": "脳の健康(signal_backlog/鮮度/wiki規模)"},
+    {"path": "/api/sitemap", "method": "GET", "desc": "全ページ一覧(path/title/kind=ナビ/クロール)"},
+    {"path": "/api/compare", "method": "GET", "params": {"a": "...", "b": "..."},
+     "desc": "2エンティティを並べて比較(token/player)"},
 ]
 
 
@@ -399,6 +403,34 @@ class Handler(SimpleHTTPRequestHandler):
                 hist = _creator_history(w)
                 self._json(200, {"ok": True, "wallet": w, "token_count": len(hist),
                                  "serial_flag": len(hist) >= 3, "tokens": hist})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ★Batch5 health/sitemap/compare
+        if path0 == "/api/health":
+            h = (_tail_jsonl("health.jsonl", 1) or [{}])[-1]
+            br = _state_json("base_rate.json", {})
+            self._json(200, {"ok": True, "signal_backlog": h.get("signal_backlog"),
+                             "raw_new": h.get("raw_new"), "single_source": h.get("single_source"),
+                             "stale": h.get("stale"), "ts": h.get("ts"),
+                             "wiki_pages": _retriever().N, "tracked_passed": br.get("gate_passed")})
+            return
+        if path0 == "/api/sitemap":
+            try:
+                self._json(200, {"ok": True, "pages": _retriever().sitemap()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/compare":
+            qs = parse_qs(urlparse(self.path).query)
+            a = (qs.get("a", [""])[0]).strip()
+            b = (qs.get("b", [""])[0]).strip()
+            if not a or not b:
+                self._json(400, {"ok": False, "error": "a と b の両方が要る"})
+                return
+            try:
+                r = _retriever()
+                self._json(200, {"ok": True, "a": r.entity(a), "b": r.entity(b)})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return

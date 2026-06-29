@@ -254,6 +254,10 @@ class Retriever:
         return [{"title": d["title"], "path": d["path"], "inbound": self._inbound_n(d),
                  "outbound": len(d["links"]), "body_len": d["len"]} for d in cs[:k]]
 
+    def sitemap(self):
+        """全ページ一覧(path/title/kind)＝公開wikiのナビ/クロール用。"""
+        return [{"path": d["path"], "title": d["title"], "kind": d["kind"]} for d in self.docs]
+
     def survivors(self, k=80):
         """graduated かつ dead でない token＝生存者(survivor memes)。traction有を先頭に。"""
         out = [d for d in self.docs
