@@ -29,5 +29,18 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- @MEXC（107♥、2026-06-23）: Earn deposit の報酬として "$NVDA, $GOOGL, $SPCX & more" を景品にするプロモーション（「stock rewards」）。
+- @MurphyBTC（6♥）: 日本語バズまとめ掲示板での言及（地政学リスク文脈）。crypto の文脈というより macro サマリーの一部。
+- 共起トークン: [[$ALAB]] [[$META]] [[$MSFT]] [[$NBIS]] [[$RKLB]] [[$GOOGL]] [[$SPCX]] ＝すべて米国株ティッカー名。
+
+### 判断（推論）
+- MEXC の「stock rewards」コンテキストは tokenized equity か CEX 内部的な株連動プロモか不明（原文は "share $1M in stock rewards"＝物理株 or tokenized）。$NVDAが crypto token なのか NVIDIA 株連動商品なのか判別不明。
+- 共起クラスター（$MSFT / $GOOGL / $META / $RKLB / $SPCX / $ALAB / $NBIS）は**米国ハイテク株ティッカー名meme または tokenized株クラスター**として括れる。[[external-event-to-token-pattern]] の企業名借用型（[[spacex-ipo-narrative]] と $SPCX の共起が示すとおり）。
+- KOL言及なし・エンゲージ低（2アカ）。現状は観測のみで採用根拠は薄い。
+
+### ⚠️矛盾
+MEXCの原文が「実株報酬プロモ」か「同名tokenのプロモ」か確定できない。判断留保。
+
 <!-- synthesis:end -->

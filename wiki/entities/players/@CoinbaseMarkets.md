@@ -30,5 +30,23 @@ posts: 61
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 役割・動線上の位置
+Coinbase 公式マーケット告知アカウント（61投稿）。trench での機能は**上場シグナル発信機**＝listing/roadmap追加/取引開始の各フェーズを逐一ツイートし、それが「買い機会アナウンス」として観測される。
+
+### 観測（事実）
+- **取引所統合**（148♥、2026-06-16）: 全exchange→単一グローバル流動性プール。「bringing trading volume back to America」＝米国内取引量回帰ナラティブ。
+- **O (o1.exchange) 上場フロー**（213-308♥、2026-06-17）: limit-only→auction→full-trading の標準Coinbase上場シーケンス。
+- **Injective EVM対応**（515♥、最高エンゲージ、2026-06-17）: INJ を Ethereum ERC-20 → native INJ (Injective EVM) へマイグレーション支援（7/20-22）。
+- **Anthropic/OpenAI pre-IPO先物**（147♥、2026-06-22）: ANTHROPIC-PERP / OPENAI-PERP の上場。
+- **Cap (CAP) roadmap追加**（158♥）、**Arcium (ARX) spot開始**（140♥）。
+
+### 判断（推論）
+- Anthropic/OpenAI-PERP は [[spacex-ipo-narrative]] の構造と同じ**pre-IPO先物型**（公開前に先物で投機的露出）。[[external-event-to-token-pattern]] の RWA側動線に直接刺さる。
+- 取引所統合 → 単一流動性プールは [[perp-dex-wars]] のCEX側での規模強化として読める（分散型との競争における集約戦略）。
+- Injective EVM対応は [[l1-substrate-wars]] の文脈（EVMコンパチビリティ＝Coinbase採用が legitチェック機能を果たす）。
+
+### ⚠️矛盾
+上場アナウンス時が高エンゲージでも、実際の価格インパクトは個別トークン次第（追跡なし）。listing ≠ pump の保証なし。
+
 <!-- synthesis:end -->

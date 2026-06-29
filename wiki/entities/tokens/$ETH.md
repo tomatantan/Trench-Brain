@@ -147,4 +147,9 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。6/23・6/24・6/27・6/28・6/29 で複数回確認済み。新情報なし。
 - **3312♥ [[CryptoHayes__1536530712752697344]]**（2022-06-14）: 「Here we go ... 1/ Looking at onchain data for $wBTC and $ETH, the liquidations have mostly happened.」= **2022年6月14日の旧ツイ**（Luna 崩壊 2022-05・3AC 清算最中・ETH $1,200 台）。**light-touch 追記**: Hayes が「清算はおおむね出尽くした」と bottom を呼んだツイだが、ETH はその後 $800 台まで追加 -35% 下落（その後の low = 2022-06-19 頃 $880 台）。April 2025 の BTFD コール（$76,500 credibility floor・既合成）と**同構造**= 「Hayes の bottom call が外れた track record」の 2022年6月版。既存合成「"safe haven" KOL ナラティブ vs 実価格乖離」/ [[rug-anatomy]]（bottom call 失敗の蓄積）の先例として参照。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・Bybit gas utility）に変化なし。confidence=中（変化なし・補強のみ）。
+
+### 2026-06-30 確認②（worklist 代表ツイ確認・新 beat なし）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
+- **3131♥ [[zhusu__1394525493425106945]]**（2021-05-18）: 「If you don't know what season it is wake up and go outside / $ETH $SUSHI $AAVE #DeFi」= **2021年5月の古ツイ再キャプチャ**（DeFi summer-era・ETH ATH 接近期の強気 sentiment）。zhusu の "DeFi szn が来ている" 系コールの典型例。現在の ETH 14ヶ月来安値（~$1,560）とは程遠い局面のツイ。新 beat なし。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・Bybit gas utility）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

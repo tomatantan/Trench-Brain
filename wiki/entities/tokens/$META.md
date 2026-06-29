@@ -29,5 +29,18 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- @WatcherGuru（4,443♥、324RT、2026-06-23）: 「JUST IN: Mark Zuckerberg orders $META to create prediction markets app.」＝Meta Platforms 企業ニュース。$META ティッカーは株式ティッカーとして付与されている。
+- @MurphyBTC（6♥）: 日本語バズまとめ（地政学リスク文脈）。
+- 共起: [[$ALAB]] [[$MSFT]] [[$NBIS]] [[$NVDA]] [[$RKLB]] ＝米国株ティッカー名クラスター（[[$NVDA]] と同じグループ）。
+
+### 判断（推論）
+- ⚠️ 重要: WatcherGuruの4,443♥ツイートは **Meta社（Nasdaq: $META）の企業ニュース**であり、crypto token としての $META への直接言及ではない可能性が高い。ただし WatcherGuru は tickers=[$META] を付与している＝ クロスオーバーを意識した配信。
+- Zuckerberg × 予測市場アプリは [[external-event-to-token-pattern]] の典型的な発端イベント（大企業の新製品発表→同名/関連 meme token が発生する型）。この発表がcrypto trench で $META という meme を点火しうる発端として機能した可能性。
+- 共起クラスター（$NVDA等）と合わせると [[external-event-to-token-pattern]] の「企業名借用/株ティッカー名token」型の実例として扱える。
+
+### ⚠️矛盾
+「Zuckerberg が予測市場アプリを命じた」というニュース自体の正確性・進捗は未追跡。Meta社株$METAのニュースと crypto $META tokenの混同に注意（意図的か否か）。
+
 <!-- synthesis:end -->

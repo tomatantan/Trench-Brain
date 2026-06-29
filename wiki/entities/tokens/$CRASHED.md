@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $CRASHED（I Crashed My Customers Ferrari）
 mint: FPGk9hxtGW6wv3nc6pYGpYx8UiVCpYoqwd84JJxpump
 created: 2026-06-30
@@ -39,6 +40,10 @@ tags: [trench, entity, token, auto-track, prebond, tokenized-agent, narrative-me
 - 命名の narrative（Ferrari クラッシュ＝バイラルネタ）は memetic フックとしての識別性はあるが、twitter 未設定 × traction0 では拡散経路なし。
 - tokenized_agent フラグは [[ai-memes]] 接続候補だが、social 皆無では agent 機能の実態不明——「tokenized_agent フラグ ≠ traction 保証」（[[$SHX]] 先例）。
 - [[launchpad-economics]] 直下：prebond × traction0 × real_sol 11SOL = 類型的 stub。
+
+### 2026-06-29 死亡確定（mcap枯れ $579・peak比-98.5%）
+- cause: mcap枯れ（peak $39,416 → $579）。peak比-98.5%。complete=false のまま枯死（prebond 未卒業）。
+- YouTube viral video link × tokenized_agent=true × social 皆無 → 型通り崩壊。「tokenized_agent ≠ traction 保証」[[$SHX]] N=2 追加。entity closed。
 <!-- synthesis:end -->
 
 ## 関連

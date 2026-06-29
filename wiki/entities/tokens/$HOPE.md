@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: dying
+status: dead
+outcome: died
 ticker: $HOPE
 mint: BqK3MnWdD1qX93P2Vzizsy6nY9awFoVo6pt4E98Ypump
 created: 2026-06-29
@@ -64,6 +65,10 @@ pump.fun 発。bonding curve **卒業済（complete=true）**。「Existential H
 
 **判断**
 - -80% 急落。graduated × real_sol=0 × traction0 の graduated-but-empty 型の崩壊が進行中。[[rug-anatomy]] 死亡台帳候補ライン（peak 比 -80%〜-90% 帯）。EA/longtermism コミュニティの発火は観測されないまま崩壊パスを辿っている。
+
+### 2026-06-29 死亡確定（mcap枯れ $5,251・peak比-85.9%）
+- cause: mcap枯れ（$37,241 → $5,251）。
+- EA/longtermism naming × website 整備済 × real_sol=0 × traction0 → 型通り崩壊完結。entity closed。
 <!-- synthesis:end -->
 
 ## 関連

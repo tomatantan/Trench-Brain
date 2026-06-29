@@ -2,7 +2,13 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 backfill (高signal未合成 5件 第4バッチ): @CoinbaseMarkets→[[external-event-to-token-pattern]][[perp-dex-wars]][[l1-substrate-wars]] / @0xngmi→[[reflexivity]][[onchain-verification]] / $RE→[[vc-founder-thesis-layer]][[external-event-to-token-pattern]] / $NVDA→[[external-event-to-token-pattern]][[spacex-ipo-narrative]] / $META→[[external-event-to-token-pattern]]（⚠️株ティッカーとcrypto tokenの混同注意）。合成5件完了。
+
+- 2026-06-30 auto-synthesis (synth_queue 19:44Z): births=1（[[$BBF]] $178k graduated real_sol~58SOL website:blackbullfund.com twitter:null traction0・⑬コホート水準 bull-cluster）・changes=1（[[$DEADSEM]] BREAKOUT+301% $29.8k→$119.4k traction0×real_sol=0→[[launchpad-economics]]跳躍台帳追記）・deaths=4台帳（[[$HOPE]] $37k→$5k -85.9% EA/longtermism naming 型通り・[[$DOGPLANE]] $300k→$1.5k -99.5% ★今バッチ最高peak dedicated social×real_sol52SOL×traction0 ⑬コホート型通り・[[$CRASHED]] $39k→$579 -98.5% prebond tokenized_agent YouTube viral・[[$7]] $33k→$5k -84.2% 型通り）。[[rug-anatomy]]死亡台帳+4。
+
 - 2026-06-30 backfill (高signal未合成 player 5件 第3バッチ): @Lightspeedpodhq→[[l1-substrate-wars]][[vc-founder-thesis-layer]] / @JasonYanowitz→[[majors-rotation-supercycle]][[regulation-catalyst]][[reflexivity]] / @HyperliquidX→[[perp-dex-wars]][[external-event-to-token-pattern]] / @HsakaTrades→[[perp-dex-wars]][[manipulation-playbook]][[reflexivity]] / @DEG_2020→[[ai-memes]][[majors-rotation-supercycle]][[jp-meme-cluster]]。合成5件完了。
+
+- 2026-06-30 auto-synthesis X worklist §1a 3件（第2バッチ）: $BTC（CryptoHayes 2023-06 "wall of worry"・zhusu 2022-01 "My kind of guy" = 古ツイ確認、新 beat なし）/ $ETH（zhusu 2021-05 "If you don't know what season it is" = DeFi summer-era 古ツイ確認、新 beat なし）/ $MU（48h言及2/2アカ・代表ツイ確認済み・新 beat なし）。主な⚠️: なし（全件確認のみ）。
 
 - 2026-06-30 auto-synthesis X worklist §1a 3件: $BTC（代表ツイ2件=2023-11・2021-02古ツイ、新 beat なし・Hayes $BTC=$1mm track record 記録）/ $ETH（Hayes 2022-06-14 "liquidations mostly happened" bottom call=外れた track record light-touch 追記、[[rug-anatomy]]補強）/ $MU（48h言及2/2アカ・代表ツイ確認済み・新 beat なし）。主な⚠️: なし（全件確認のみ）。
 

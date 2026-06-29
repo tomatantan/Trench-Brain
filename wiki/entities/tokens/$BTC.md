@@ -203,4 +203,9 @@ accounts: 19
 - **3204♥ [[CryptoHayes__1722815182731423798]]**（2023-11-10）: 「This summer I visited the ancestors in Rapa Nui ... $BTC=$1mm $ETH=$100k Yachtzee bitches!!!」= **2023年11月の古ツイ再キャプチャ**（2023年秋〜冬 bull market 入口期の強気コール）。新 beat なし。Hayes の「$BTC=$1mm」系コールの track record 一例。
 - **3185♥ [[zhusu__1363439543903469568]]**（2021-02-21）: 「Stop looking for top signals. Have some self-respect. Up only. $BTC」= **2021年2月の古ツイ再キャプチャ**。新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-30 確認②（worklist 代表ツイ確認・新 beat なし）
+- **3175♥ [[CryptoHayes__1666232026054418432]]**（2023-06-06）: 「The wall of worry is being climbed, come with me on the $BTC bull market bus. We are still on struggle street, but the moon ain't far away.」= **2023年6月の古ツイ再キャプチャ**（BTC ~$26-28K 台の底値圏から這い上がるフェーズ）。Hayes の "wall of worry" フレーム＝弱材料が出続けながら価格が上昇するフェーズの観察。現在（2026-06-30）の文脈との比較では 2023-06 も同様に "struggle street" にいたという track record。新 beat なし。
+- **3164♥ [[zhusu__1486931839377764354]]**（2022-01-28）: 「My kind of guy / $BTC」= **2022年1月末の古ツイ再キャプチャ**（BTC ~$38K 台、2021 ATH から -45%程の下落局面）。内容は短文のみで signal なし。新 beat なし。
+- 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

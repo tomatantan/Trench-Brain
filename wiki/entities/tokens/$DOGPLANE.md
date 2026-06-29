@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $DOGPLANE（Dog Plane）
 mint: 54cDtZtEnvTHAzfo5bFkJf3GAZV9v5KJHEznu2dSpump
 pool: E9eugks2TTTnQXwrwdVXq2zdQQHLYgryMaNxiQdz8L88
@@ -54,6 +55,11 @@ tags: [trench, entity, token, auto-track, graduated, dog-meme, dedicated-account
 - $206k × @DogPlaneMeme 専用 social = 他のゴミ stub より準備されているが、reply0 が覆るかどうかが分岐点。dog meme 汎用性は高いが「Dog Plane」固有の memetic フックが需要に転化するかは不明。
 
 **2026-06-29 変化 mcap+45%**: $206k→$300k（graduated 継続）。real_sol ~52SOL 維持——pool 資金は維持されているが reply0 継続。$300k 到達は今バッチ最高 mcap 更新。dedicated @DogPlaneMeme account に反応が出るかが次の分岐点。
+
+### 2026-06-29 死亡確定（mcap枯れ $1,486・peak比-99.5%）
+- cause: mcap枯れ（peak $300,037 → $1,486）。peak比-99.5%。
+- dedicated @DogPlaneMeme × real_sol ~52SOL でも reply0 全期間 → 枯死確定。
+- 「dedicated social + high real_sol ≠ traction 保証」N 追加。⑬コホート型通り崩壊完結。entity closed。
 <!-- synthesis:end -->
 
 ## 関連
