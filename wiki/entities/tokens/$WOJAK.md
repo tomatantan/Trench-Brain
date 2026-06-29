@@ -4,20 +4,20 @@ kind: token
 title: $WOJAK
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 25
+mentions: 26
 accounts: 5
 ---
 
 # $WOJAK
 
-> 自動生成(brain/build_entities.py)。言及 25件 / 5アカ。
+> 自動生成(brain/build_entities.py)。言及 26件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@Crypto_Alch]] [[@MurphyBTC]] [[@lookonchain]] [[@wojakcto]]
 
 ## 共起トークン
-[[$USD1]] [[$USDC]] [[$USDT]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]] [[$BUTTCOIN]] [[$HYPE]]
+[[$USD1]] [[$USDC]] [[$USDT]] [[$PEPE]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]] [[$BUTTCOIN]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -4,20 +4,20 @@ kind: token
 title: $DOGE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 14
+mentions: 15
 accounts: 6
 ---
 
 # $DOGE
 
-> 自動生成(brain/build_entities.py)。言及 14件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 15件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@RookieXBT]] [[@coingecko]] [[@dogecoin]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$USELESS]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]] [[$SPX]]
+[[$USELESS]] [[$BTC]] [[$PEPE]] [[$WIF]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$SOL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

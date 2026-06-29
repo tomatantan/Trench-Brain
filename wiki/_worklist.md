@@ -6,9 +6,9 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7373件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7372件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
-§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**297ティッカーは降格**して非表示。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**310ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
 ## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 11 | 8 | 95 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3968♥ @zhusu: $BTC over 70k usd equiv in Korea now  Koreans trul |
-| [[$ETH]] | 4 | 3 | 104 | 4097♥ @CryptoHayes: 1/ Guess who is pumping $BTC and $ETH  / 3864♥ @zhusu: mental math with $eth will be a lot easier when it |
+| [[$BTC]] | 11 | 8 | 94 | 3870♥ @WatcherGuru: JUST IN: 53% of all Bitcoin $BTC in circulation is / 3752♥ @CryptoHayes: Like the Easter bunny, bounce bounce bounce bounce |
+| [[$ETH]] | 4 | 3 | 104 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 3828♥ @zhusu: feeling cute, might withdraw a few hundred k $eth  |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
@@ -30,7 +30,7 @@ updated: 2026-06-26
 | [[$HPP]] | 3 | 1 | 4 | 111♥ @cryptocom: 🚨  is supporting the Aergo ($AERGO) token swap and / 47♥ @cryptocom: 🎉 The Aergo (AERGO) token swap and rebrand to Hous |
 | [[$MSTR]] | 3 | 1 | 4 | 87♥ @CryptoKaleo: Once mNAV is definitively below 1 for $MSTR , what / 80♥ @CryptoKaleo: You can still sell your $MSTR for more than $50.  |
 | [[$GRAM]] | 3 | 1 | 3 | 50♥ @cryptocom: 🎉 The Toncoin (TON) to Gram (GRAM) rebrand has bee / 41♥ @cryptocom: Gram ($GRAM) is now available for trading in the   |
-| [[$WOJAK]] | 2 | 1 | 4 | 134♥ @wojakcto: t-minus 7 days to get in on the action with @Binan / 134♥ @wojakcto: our heroes @TrustWallet featuring $wojak for the c |
+| [[$WOJAK]] | 2 | 1 | 5 | 134♥ @wojakcto: t-minus 7 days to get in on the action with @Binan / 134♥ @wojakcto: our heroes @TrustWallet featuring $wojak for the c |
 | [[$SOLANGELES]] | 2 | 1 | 4 | 151♥ @PumpfunEco: $SOLANGELES is rallying, up 28% in the past hour 👀 / 133♥ @PumpfunEco: $SOLANGELES is rallying, up 28% in the past hour 👀 |
 | [[$KINS]] | 2 | 1 | 3 | 29♥ @Crypto_Alch: Comfy in Kintara $KINS   Fascinating gaming tek th / 17♥ @PumpfunEco: $KINS is rallying, currently up 22% in 24 hours 👀  |
 | [[$PAXG]] | 2 | 1 | 2 | 287♥ @solana: BREAKING: $PAXG from @Paxos is now live on Solana  / 103♥ @solana: $PAXG on Solana, live with @ramzyyalii & @whessert |

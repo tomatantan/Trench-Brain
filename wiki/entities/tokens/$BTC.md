@@ -4,20 +4,20 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 154
+mentions: 155
 accounts: 19
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 154件 / 19アカ。
+> 自動生成(brain/build_entities.py)。言及 155件 / 19アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@Bankless]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$STRC]] [[$XRP]] [[$DOGE]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$STRC]] [[$DOGE]] [[$XRP]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -145,4 +145,14 @@ accounts: 19
 ### 2026-06-29 確認③（新 beat なし・worklist 代表ツイ確認）
 - **4097♥ [[CryptoHayes__1584967277635522560]]**（2022-10-25）: 「1/ Guess who is pumping $BTC and $ETH」= **旧ツイ再キャプチャ**（2022-06-23 更新で既確認）。新情報なし。
 - **3968♥ [[zhusu__1379630801566887940]]**（2021-04-07）: 「$BTC over 70k usd equiv in Korea now / Koreans truly a futuristic society」= **旧ツイ再キャプチャ**（2021-04 の韓国 kimchi premium 観測、当時 BTC ~$57K グローバル・韓国内で 70K USD 相当）。現時点の新 beat なし。既存合成（21ヶ月来安値・LTHS 80%・safe haven ナラティブ vs 実価格乖離）に変化なし。
+
+### 2026-06-29 更新⑤（新 beat: WatcherGuru「53% unrealized loss」・Hayes April 2025 Easter bunny 追記）
+出典: [[watcherguru__2070215923277971724]]（3,870♥・2026-06-25T18:41Z）/ [[CryptoHayes__1914229735506452547]]（3,752♥・2025-04-21T08:08Z・旧ツイ）
+
+**観測（新 beat・2026-06-25）**: [[@WatcherGuru]] (2026-06-25T18:41Z): 「JUST IN: 53% of all Bitcoin $BTC in circulation is now held at an unrealized loss.」= 流通 BTC の過半数が含み損。既合成「BTC $59K・21ヶ月来安値」（2026-06-25）と整合する onchain 事実。LTHS 80%（CredibleCrypto・既記: strong hands が supply の 80% 保有）と「53% 含み損」は同時に成立しうる—LTHS コホートの平均コストが $59K 以下であれば LTHS は含み益のまま、残り 20% の short/mid term holder が含み損多数を占めるというコホート分離が理論的に整合する。過半数ホルダーが含み損という事実は市場センチメントとして強い弱気信号。
+
+**確認（旧ツイ）**: [[@CryptoHayes]] (2025-04-21T08:08Z): 「Like the Easter bunny, bounce bounce bounce bounce bounce! Seriously fam, this might be the last chance you have to buy $BTC < $100k」([[CryptoHayes__1914229735506452547]] 3,752♥) = **April 2025 BTFD シリーズの一環**（Apr 4 smoke alarm → Apr 7 BTFD/$76,500 → Apr 11 donkey kong → **Apr 21 "< $100K last chance"** → Apr 22 JAYPOW asymmetric・既合成）。BTC はその後 $59K まで下落（-41% from $100K）= 「$100K 以下で買う最後のチャンス」コールを実価格がさらに否定した track record データ点。Hayes Apr 7 "credibility floor" $76,500（既記）よりも更に甘いコールが前日にあったことの記録。
+
+**⚠️ 判断**: 「53% 含み損」は既存合成「"safe haven" KOL ナラティブ vs 実価格乖離」「全体収縮フェーズ」の onchain 裏付けが追加された形。LTHS 80% bullish（コホート: strong hands）× 53% 含み損（コホート: 全流通ベース）は数字として矛盾しないが、過半数が含み損という事実は市場参加者全体の pain を示す。confidence=中（既存合成強化のみ）。
+- 接続: [[onchain-verification]]（53% unrealized loss = onchain 観測事実・独立確認推奨）/ [[majors-rotation-supercycle]]（過半数含み損 = ローテ号砲の前提となる "maximum pain" 段階との照合）。
 <!-- synthesis:end -->

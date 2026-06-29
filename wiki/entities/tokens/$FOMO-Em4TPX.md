@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $FOMO-Em4TPX（Fearless Of Missing Out）
 mint: Em4TPXE3P5zCWz31mDre8siqUp4DbJxzYEoWvdbtZhE5
 pool: 9dQWGcwVAExD1Ju4JMf6g6PVTVy57Aspci7d4X6v9ngJ
@@ -51,6 +51,13 @@ mint 先頭6文字 Em4TPX で識別（同名 ticker $FOMO が同バッチ3mint�
 
 **賭け仮説**（confidence=低）
 - multi-mint で上位 mint が生き残るパターンは過去に確認（$FOMO 系での需要集中）。ただし T3ゼロ × real_sol=0 継続なら [[rug-anatomy]] "graduated-but-empty" 型崩壊デフォルト。@TrollFootball2 の独立 KOL 言及があれば格上げ候補。
+
+### 2026-06-29 死亡確定
+
+**観測（事実）**
+- 最終 mcap $3,703（2026-06-29T00:52Z）。peak $17,574 → last $3,703（-78.9%）。
+- outcome: **died**。cause: mcap枯れ（$3,703）。3 mint 中の最高位 mint も最終的に枯死。
+- multi-mint 需要集中も traction0 × real_sol=0 の前では無効——「同名最上位 mint 生き残り」は一時的優位にすぎず生存保証にならない N=1 追加。
 <!-- synthesis:end -->
 
 ## 関連

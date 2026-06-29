@@ -4,20 +4,20 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 46
+mentions: 47
 accounts: 10
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 46件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 47件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$BTC]] [[$USELESS]] [[$USDC]] [[$WIF]] [[$PENGU]] [[$HYPE]] [[$LIBRA]]
+[[$ETH]] [[$BTC]] [[$USELESS]] [[$WIF]] [[$DOGE]] [[$PEPE]] [[$USDC]] [[$PENGU]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

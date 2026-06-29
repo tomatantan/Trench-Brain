@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 148
+mentions: 149
 accounts: 18
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 148件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 149件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$USDC]] [[$HYPE]] [[$PEPE]] [[$SHIB]] [[$XRP]] [[$WBTC]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$SHIB]] [[$XRP]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -109,4 +109,7 @@ ETF 流出（2026-06-25）:
 
 ### 2026-06-29 確認②（新 beat なし・worklist 代表ツイ確認）
 - **4097♥ [[CryptoHayes__1584967277635522560]]**（2022-10-25）: 「1/ Guess who is pumping $BTC and $ETH」= **旧ツイ再キャプチャ**。前確認エントリで別 ID を引用（誤）、本ツイの実 ID を確認・記録。新情報なし。既存合成（OG 投げ売り・ETF 流出・BTC beta 脱却未達・20x short）に変化なし。
+
+### 2026-06-29 確認③（新 beat なし・zhusu 2022 withdrawal ツイ確認）
+- **3828♥ [[zhusu__1509002816668729348]]**（2022-03-30）: 「feeling cute, might withdraw a few hundred k $eth from exchanges」= **2022年の古ツイ再キャプチャ**（2022-03 は ETH が $3K〜$3.5K 台、zhusu の "abandoned Ethereum" 時期の直前）。zhusu が大量の ETH を交換所から引き出す意図を示した時点のツイート。現時点の新情報なし。「mental math with $eth will be a lot easier when it 10k」（[[zhusu__1389092285992771587]]・2022-04-07）と同系列の 2022 zhusu 強気時代のツイート群。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
 <!-- synthesis:end -->

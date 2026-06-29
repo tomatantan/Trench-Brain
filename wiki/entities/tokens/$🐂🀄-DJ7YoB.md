@@ -67,4 +67,10 @@ tags: [trench, entity, token, auto-track, dead]
 - 3サイクル連続下落（$53k→$50k→$26k→$8.7k）。traction0 × real_sol=0 のまま dead-spiral 完了。
 - [[rug-anatomy]] 型通り死亡。outcome: died / cause: mcap枯れ（-84% from birth）。
 - 同バッチ Ansem meme（[[MOONSEM]]・$ANSEMWHEEL 各 mint）はすでに全枯死確定。Ansem brand multi-mint wave 全滅で終了。
+
+### 2026-06-29 死亡確定（台帳登録）
+
+**観測（事実）**
+- 最終 mcap $5,858（2026-06-29T00:52Z）。birth $53,078 → peak $53,078 → last $5,858（-89.0%）。
+- outcome: **died**。cause: mcap枯れ。Ansem brand multi-mint wave（$ANSEMWHEEL/$🐂🀄/$MOONSEM）全滅完結。
 <!-- synthesis:end -->

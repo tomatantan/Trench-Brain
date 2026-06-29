@@ -4,20 +4,20 @@ kind: token
 title: $ZEC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
+mentions: 11
 accounts: 5
 ---
 
 # $ZEC
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 5アカ。
+> 自動生成(brain/build_entities.py)。言及 11件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@CryptoHayes]] [[@RookieXBT]] [[@blknoiz06]] [[@lookonchain]]
 
 ## 共起トークン
-[[$HYPE]] [[$BTC]] [[$WLD]] [[$UNI]]
+[[$BTC]] [[$HYPE]] [[$WLD]] [[$AAIF]] [[$BOLEX]] [[$CARDS]] [[$CATWIF]] [[$CHAMELEON]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -30,5 +30,19 @@ posts: 43
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- Crypto.com の公式 X アカウント。投稿 43件。
+- 高エンゲージ投稿はほぼライフスタイル系エンゲージベイト（649 likes「Diamond hands reveal what's worth holding」等）。実質的なリサーチ信号は低い。
+- トークン言及：$HPP(4), $GRAM(3), $RE(3), $BTC(2), $AERGO(2), $CRO(1), $ETH(1), $TON(1), $SPCX(1), $ATOM(1)。$HPP・$GRAM・$RE が上位 = 自社プラットフォーム上のプロモーション or 掲載トークンの可能性が高い。
+- 実質的な情報：CronosApp に native USDC/EURC/CCTP が導入予定（@Circle との提携、[[cryptocom__2069052661534527755]]）。
+
+### 判断（推論）
+- **役割**：大手 CEX（Crypto.com）の公式マーケティングアカウント。trench 文脈では直接の信号源ではなく、インフラ動向の観測ポイント。
+- **[[regulation-catalyst]] との接続**：USDC/EURC (Circle) の Cronos 統合は、regulated stablecoin が CEX 独自チェーンに展開する流れ。規制対応した stablecoin レール拡大の一例。
+- **[[l1-substrate-wars]] との接続**：Cronos（Crypto.com の EVM 互換 L1）が Circle と組んで CCTP 対応を追加 = 独自 L1 エコシステムの institutional 強化として読める。
+- トークン言及（$HPP/$GRAM/$RE）：言及数が多いが、公式 CEX アカウントからの言及は「listing 予告 or 既存 listing 強調」の可能性が高い。KOL の自由な call とは性質が異なる。
+
+### ⚠️ 矛盾
+- watchlist に含まれているが、このアカウントは exchange のマーケティング部門として機能しており、trench の KOL 的信号（honest opinion, contrarian call 等）はほぼ期待できない。言及トークンの採用基準が listing campaign かどうかを区別して読む必要がある。
 <!-- synthesis:end -->

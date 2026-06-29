@@ -1,54 +1,30 @@
 ---
 type: entity
 kind: token
-source: auto-track
-status: watch
-ticker: $CHAMELEON
-mint: GuSborgzpo6Hc7msoRouQyPJ3psxgAHm4amC9iDhpump
-created: 2026-06-26
-updated: 2026-06-26 (birth・badattrading_ KOL CA確認・$488k)
-tags: [token, pumpfun, kol-ca, kol-ticker, badattrading_, pumpfun-eco, high-mcap, clean-structure]
+title: $CHAMELEON
+updated: 2026-06-22
+tags: [trench, entity, token]
+mentions: 3
+accounts: 2
 ---
 
-# $CHAMELEON — Meccha Chameleon（GuSborgz）
+# $CHAMELEON
 
-pump.fun 発。"Meccha Chameleon" 命名——アニメ/キャラクター系 meme。9日前 mint（created: 2026-06-17頃）の**長期生存トークン**。badattrading_（CA確認）+ PumpfunEco（ticker言及）の2KOL。twitter: @AP_Degen2 のツイートリンク（専用 twitter 未整備）。website: TikTok search。
+> 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
-## ライフサイクル(auto-track)
+## 言及アカウント
+[[@PumpfunEco]] [[@badattrading_]]
 
-| 項目 | 値 |
-|---|---|
-| mint | GuSborgzpo6Hc7msoRouQyPJ3psxgAHm4amC9iDhpump |
-| Pool | 145oMsfrPcfPv3BR6HYfvbCB8jwn3z6Fo4LSprRho71W |
-| name | Meccha Chameleon |
-| Gate | safety:ok / traction:kol |
-| 初検知 mcap | ~$488,345（2026-06-26T11:46Z） |
-| reply_count | 0 |
-| KOL（CA確認） | badattrading_ |
-| KOL（ticker言及） | PumpfunEco, badattrading_ |
-| Twitter | @AP_Degen2 tweet（association的） |
-| Website | TikTok search |
-| complete | true（graduated） |
-| real_sol | 0 |
-| mint日 | ~2026-06-17（9日前） |
+## 共起トークン
+[[$AAIF]] [[$BOLEX]] [[$BTC]] [[$CARDS]] [[$CATWIF]] [[$DNT]] [[$DOGE]] [[$ETH]]
 
-## badattrading_ 分析（CA確認ソース）
-
-出典: [sources/x/badattrading___2070436066755011026.md](../../sources/x/badattrading___2070436066755011026.md)
-
-| 指標 | 値 | 評価 |
-|---|---|---|
-| snipers | 0% | ✅ クリーン |
-| insiders（devsnightmare） | 1.9% | ✅ 非常に低い |
-| バブルマップ | 主要クラスターなし | ✅ |
-| CEX cluster | 68.3% | 中程度 |
-| Binance funded | 37% | ⚠️ やや高め |
-| Coinbase | 16.5% | 普通 |
-| OKX | 6.6% | 普通 |
-| Top 70 holders | 59% | ✅ 低集中（良好） |
-| Top 10 holders | 15.5% | ✅ 非常に分散 |
-| holder数 | 1,140 | ✅ 大 |
-| 平均保有額 | $435 | ✅ 適切 |
+## 高エンゲージ言及
+| likes | account | 抜粋 | source |
+|---|---|---|---|
+| 37 | [[@PumpfunEco]] | This trader refused to sell early & now their $626 buy on $Chameleon is worth $9,270 | [[pumpfuneco__2070233434165821924]] |
+| 14 | [[@badattrading_]] | $Chameleon (CA GuSborgzpo6Hc7msoRouQyPJ3psxgAHm4amC9iDhpump) is 9 days old, no snipe | [[badattrading___2070436066755011026]] |
+| 0 | [[@?]] | ## 観測（写っているもの）  **ダッシュボード名**: BRAIN CALLL — meme launch call monitor   **ツール**: TREN | [[brain-calll-dashboard-20260629]] |
 
 <!-- synthesis:start -->
 ## 合成
@@ -73,9 +49,3 @@ pump.fun 発。"Meccha Chameleon" 命名——アニメ/キャラクター系 me
 - **判断**: 初回合成で記録した「9日長期生存」「snipers/insiders ほぼゼロのクリーン構造」に対し、"refused to sell" = **diamond-hands ナラティブ**が加わった。ただし PumpfunEco はプラットフォーム feed＝独立 KOL ではない（[[rug-anatomy]]）。「14.8x trader story」は pump 期の成功者 highlight に過ぎず全員が同利益ではない。badattrading_（CA確認 KOL）は 2026-06-26 時点でも CA 共有ベース（ticker 言及ではない）。独立 KOL の実質的言及は依然薄い。
 - confidence=低（変化なし）。構造クリーンは事実だが organic community の実証はまだ不足。
 <!-- synthesis:end -->
-
-## 関連
-- [[launchpad-economics]]
-- [[rug-anatomy]]
-- [[onchain-verification]]
-- [[survivor-memes]]

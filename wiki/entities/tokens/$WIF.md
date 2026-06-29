@@ -4,20 +4,20 @@ kind: token
 title: $WIF
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
+mentions: 11
 accounts: 5
 ---
 
 # $WIF
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 5アカ。
+> 自動生成(brain/build_entities.py)。言及 11件 / 5アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
 
 ## 言及アカウント
 [[@DefiIgnas]] [[@badattrading_]] [[@blknoiz06]] [[@lookonchain]] [[@theunipcs]]
 
 ## 共起トークン
-[[$PENGU]] [[$PEPE]] [[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$SHIB]] [[$USELESS]] [[$SOL]]
+[[$PEPE]] [[$BTC]] [[$DOGE]] [[$SOL]] [[$PENGU]] [[$FARTCOIN]] [[$SHIB]] [[$USELESS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

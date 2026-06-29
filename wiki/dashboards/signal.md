@@ -7,16 +7,16 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 10649 件 → ノイズ(RT/短文/中身なし)除外後 **7945 件**が信号。
+生ツイ 10650 件 → ノイズ(RT/短文/中身なし)除外後 **7946 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
-| $BTC | 154 | 20 | ?, Bankless, CoinMarketCap, CredibleCrypto, CryptoHayes, CryptoKaleo |
-| $ETH | 148 | 19 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
-| $SOL | 46 | 11 | ?, CryptoHayes, DefiIgnas, RookieXBT, blknoiz06, coingecko |
+| $BTC | 155 | 20 | ?, Bankless, CoinMarketCap, CredibleCrypto, CryptoHayes, CryptoKaleo |
+| $ETH | 149 | 19 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
+| $SOL | 47 | 11 | ?, CryptoHayes, DefiIgnas, RookieXBT, blknoiz06, coingecko |
 | $HYPE | 39 | 14 | ?, CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT |
 | $SPCX | 38 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
 | $MASK | 37 | 1 | spyzer |
@@ -26,24 +26,24 @@ tags: [trench, dashboard]
 | $USDC | 27 | 4 | BinanceUS, DefiIgnas, lookonchain, rajgokal |
 | $JOTCHUA | 26 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
 | $MU | 26 | 7 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
-| $WOJAK | 25 | 5 | BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
-| $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
+| $WOJAK | 26 | 6 | ?, BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
 | $KINS | 23 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
+| $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
+| $PEPE | 22 | 6 | ?, lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $MSTR | 21 | 3 | CryptoKaleo, saylor, theunipcs |
-| $PEPE | 21 | 5 | lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $MERLIN | 20 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |
 | $USELESS | 18 | 2 | Crypto_Alch, theunipcs |
 | $KINTON | 18 | 2 | JPY_TO_Crypto, xvwmuca |
 | $BONK | 17 | 3 | lookonchain, rajgokal, theunipcs |
 | $YAJUCOIN | 16 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
+| $DOGE | 15 | 7 | ?, RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher |
 | $USDT | 15 | 3 | BinanceUS, MEXC, lookonchain |
 | $THREE | 14 | 2 | Crypto_Alch, PumpfunEco |
-| $DOGE | 14 | 6 | RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher, theunipcs |
+| $TRUMP | 13 | 7 | ?, DefiIgnas, blknoiz06, frankdegods, lookonchain, milesdeutscher |
 | $FARTCOIN | 13 | 3 | PumpfunEco, lookonchain, theunipcs |
 | $XRP | 12 | 3 | CredibleCrypto, DefiIgnas, lookonchain |
-| $TRUMP | 12 | 6 | DefiIgnas, blknoiz06, frankdegods, lookonchain, milesdeutscher, theunipcs |
 | $SOLANGELES | 12 | 3 | Crypto_Alch, PumpfunEco, moonshot |
-| $PUMP | 11 | 4 | PumpfunEco, a1lon9, badattrading_, theunipcs |
+| $ZEC | 11 | 6 | ?, BinanceUS, CryptoHayes, RookieXBT, blknoiz06, lookonchain |
 
 ## 活発なアカウント（信号込み投稿数 / 累計いいね）
 

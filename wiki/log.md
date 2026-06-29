@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-29 backfill (高signal未合成 player 5件): @gainzy222・@ethereum・@dxrnell・@cryptocom・@cookerbruski。主な接続先: [[majors-rotation-supercycle]]（gainzy222: ETH underperform/no-bull-thesis、ZEC保有）[[l1-substrate-wars]]・[[ai-memes]]・[[onchain-verification]]・[[regulation-catalyst]]（ethereum: 公式narrative、JPMorgan/Mastercard/CashApp統合、ERC-8004 AI agent identity）[[survivor-memes]]・[[reflexivity]]・[[spacex-ipo-narrative]]（dxrnell: animal meta伝道・crash out=bottom逆張り・$SPCX言及）[[regulation-catalyst]]・[[l1-substrate-wars]]（cryptocom: CEX公式マーケ・Cronos×Circle USDC/CCTP統合・低trench信号）[[launchpad-economics]]・[[survivor-memes]]・[[reflexivity]]（cookerbruski: 5k shitters戦略伝道・PnLナラティブ・$COOK自己関連⚠️）。
+
+- 2026-06-29 X-synthesis (worklist §1a HOT 3件): 新 beat = ①**$BTC** WatcherGuru「53% of BTC in unrealized loss」(2026-06-25・3870♥) 合成済み — LTHS 80% bullish × 過半数含み損の onchain 二極構造。Hayes Easter bunny (2025-04-21 旧ツイ) = April BTFD シリーズ追記（track record 補強）。②**$ETH** zhusu「feeling cute, might withdraw a few hundred k $eth」= 2022-03-30 旧ツイ確認・新 beat なし。③**$MU** 代表ツイ複数サイクル確認済み・新 beat なし・追記不要。§1a 3件・実質新 beat 1件・⚠️なし。→ $BTC $ETH
+
+- 2026-06-29 auto-synthesis (synth_queue 00:51Z): births=2（[[$TRULL]] $57k troll-bull graduated traction0・[[$BEACH-9Z5iBt]] $65k Venice Beach prebond traction0）・changes=0・deaths=2台帳（[[$🐂🀄-DJ7YoB]] Ansem's Army $53k→$5.8k -89% Ansem multi-mint wave全滅完結・[[$FOMO-Em4TPX]] $17.5k→$3.7k -78.9% multi-mint最上位も枯死「multi-mint最上位≠traction確認」N=1）。[[rug-anatomy]]死亡台帳+2。
+
 - 2026-06-29 backfill (高signal未合成 player 5件): @inversebrah・@ilyunow・@hsakatrades・@grok・@garrytan。主な接続先: [[survivor-memes]]・[[launchpad-economics]]（inversebrah: smolchained連呼・アートmeme amplifier）[[reflexivity]]・[[jp-meme-cluster]]（ilyunow: memetics哲学・soulless extraction批判・cycle転換遅行指標）[[perp-dex-wars]]・[[manipulation-playbook]]・[[majors-rotation-supercycle]]・[[reflexivity]]（hsakatrades: Tier-1 trader・wintermute批判・Binance perp乱立批判・slurped買いサイン）[[ai-memes]]・[[external-event-to-token-pattern]]（grok: xAI公式アカ・Imagine1.5リリース・AI narrative bellwether）[[vc-founder-thesis-layer]]・[[external-event-to-token-pattern]]・[[regulation-catalyst]]（garrytan: YC社長・personal brain/AGI文脈・CA税制批判）。
 
 - 2026-06-29 X-synthesis (worklist §1a HOT 3件・確認サイクル): 新 beat なし。①**$BTC** zhusu 3968♥「$BTC over 70k usd equiv in Korea now」= 2021-04-07 kimchi premium 旧ツイ確認・Hayes 4097♥「Guess who is pumping」= 2022-10-25 旧ツイ確認（複数サイクル済）→ 確認③追記 ②**$ETH** Hayes 1584967277635522560（4097♥・2022-10-25）= 前確認エントリで引用 ID 誤→実 ID 正記録・確認②追記 ③**$MU** 代表ツイ両件とも ingested.txt 済・エントリ追加不要。⚠️なし。→ $BTC $ETH
