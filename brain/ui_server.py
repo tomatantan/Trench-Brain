@@ -103,6 +103,70 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # ★Batch1 知識アクセス機能(全部 rag.py を読むだけ・read-only・$0)
+        if path0 == "/api/concepts":
+            try:
+                self._json(200, {"ok": True, "concepts": _retriever().concepts()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/recent":
+            qs = parse_qs(urlparse(self.path).query)
+            try:
+                n = min(int(qs.get("n", ["30"])[0] or 30), 200)
+                kind = (qs.get("kind", [""])[0]).strip() or None
+                self._json(200, {"ok": True, "recent": _retriever().recent(n, kind)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/tags":
+            try:
+                self._json(200, {"ok": True, "tags": _retriever().tags_index()})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/graph":
+            qs = parse_qs(urlparse(self.path).query)
+            try:
+                kinds = tuple(filter(None, (qs.get("kinds", [""])[0]).split(","))) or ("concepts", "queries", "players")
+                self._json(200, {"ok": True, **_retriever().graph(kinds)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/similar":
+            qs = parse_qs(urlparse(self.path).query)
+            ref = (qs.get("path", qs.get("id", [""]))[0]).strip()
+            if not ref:
+                self._json(400, {"ok": False, "error": "path が空"})
+                return
+            try:
+                self._json(200, {"ok": True, "path": ref, "similar": _retriever().similar(ref)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/autocomplete":
+            qs = parse_qs(urlparse(self.path).query)
+            q = (qs.get("q", [""])[0]).strip()
+            try:
+                self._json(200, {"ok": True, "suggestions": _retriever().autocomplete(q) if q else []})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/entity":
+            qs = parse_qs(urlparse(self.path).query)
+            ref = (qs.get("name", qs.get("path", [""]))[0]).strip()
+            if not ref:
+                self._json(400, {"ok": False, "error": "name が空"})
+                return
+            try:
+                ent = _retriever().entity(ref)
+                if not ent:
+                    self._json(404, {"ok": False, "error": f"entity無し: {ref}"})
+                    return
+                self._json(200, {"ok": True, **ent})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
         if path0 == "/api/live":
             p = ROOT / "brain" / "state" / "live_pulse.json"
