@@ -122,4 +122,18 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
 - **3621♥ [[lookonchain__1592146617200959488]]**（2022-11-14T13:25Z）: 「Vitalik Buterin(@VitalikButerin) sold 3,000 $ETH ($3.75M) on #Uniswap 2 days ago. His selling price is $1,250.3.」= **2022年11月の古ツイ再キャプチャ**（FTX 崩壊後 2 週間の時点）。**light-touch 追記**: Vitalik 本人が $1,250 帯で 3,000 ETH を売却した 2022 年の観測。現在の ETH 価格帯（~$1,560・14ヶ月来安値・既合成）と歴史的に近い水準。ただし 2022 は FTX 崩壊直後の extreme fear 局面であり現在との文脈は異なる。Vitalik の sell = ETH の "foundation confidence" を問う指標として記録はするが、2022 の single data point = macro beat なし。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。
+
+### 2026-06-29 更新②（新 beat: lookonchain「$125K → $29.6M（236x）Hyperliquid ETH long」）
+出典: [[lookonchain__1957068994722312657]]（3,584♥・2025-08-17T13:16Z）
+
+**観測（事実）**: 「A trader turned $125K into $29.6M in only 4 months by going long on $ETH, a 236x return. 4 months ago, he deposited only $125K into Hyperliquid and began going long on $ETH via 2 accounts. He then masterfully compounded his profits, rolling every dollar…」（2025-08-17）
+
+**判断（light-touch・タイムライン補完）**:
+- 2025-08-17 の「4 months ago」= 約 2025-04 入金。Trump 関税 shock（2025-04-04）前後に $125K を Hyperliquid へ入金し ETH long → 4ヶ月で 236x。
+- **タイムライン整合**: 2025-04 の底値（$BTC 既合成・Hayes BTFD コール・実際に回復・BTC ATH 突破 2025-07・ETH も追随）と整合する。Hayes「$ETH は outperform」（同年7月・[[CryptoHayes__1943558522098032667]]・$BTC 合成⑥で新規追記）の時期に ETH が上昇した period のパフォーマンス事例。
+- **Hyperliquid lever**: 236x = 高レバレッジ Perp（Hyperliquid ETH）の複利コンパウンド。「$125K 入金」「2 account」「profit rolling」の構造 = [[perp-dex-wars]]（Hyperliquid が極端な ROI を生成した実例）。
+- ⚠️ **現在との乖離**: この trader は 2025-04〜08 の上昇サイクルで 236x を達成したが、現在（2026-06-29）ETH は 14ヶ月来安値（~$1,560）。2025 夏の高揚局面は終わり、別のサイクルに入っている。lookonchain がこれを 2025-08-17 に紹介した = ETH 上昇局面のピークに近い時期のキャプチャの可能性。**survivor bias**: 成功 236x を紹介するが、同期間に吹き飛んだ ETH long ポジションは報告されない。
+- ⚠️ **既存合成「ETH = BTC beta 脱却未達」との関係**: この trader の利益は ETH の BTC beta 上昇（BTC ATH + 市場回復）に乗ったもの。BTC 独立でなく BTC 上昇に従属した形での 236x = ETH が BTC beta である事実とは矛盾しない。
+- 接続: [[perp-dex-wars]]（Hyperliquid ETH long = 高リターン事例・survivor bias 注意）/ [[majors-rotation-supercycle]]（2025-04〜08 の ETH 上昇 phase の実価格確認）/ [[onchain-verification]]（trader の実際の on-chain 行動の独立確認推奨）。
+- confidence=低（anecdote 1件・survivor bias・現在の ETH 状況とは別 phase）。
 <!-- synthesis:end -->

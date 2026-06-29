@@ -30,5 +30,19 @@ posts: 44
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 役割（観測）
+公式 SpaceX アカウント。posts 44件、高エンゲージ（15k+ likes）はすべて実ミッション速報: Starfall 展開確認・BlueBird 衛星3基展開・NROL-179 打上・Dragon CRS-34 帰還・Falcon 9 着陸。ticker 言及なし＝価格操作意図ゼロ。
+
+### 動線上の位置（判断）
+watchlistに入っている理由は **「公式ミッション速報が trench の外部イベントトリガーになる」**から。[[@SpaceX]] の実況ツイート → $SPCX・$ASTEROID のナラティブ燃料 → [[spacex-ipo-narrative]] の「外部→meme化」動線の最上流に位置する。
+
+特に「Starfall deployment 確認」「NROL（軍事）打上」などの特殊ミッションは trench で物語化されやすい（Elon とのリンク想起・宇宙ミリタリーナラティブ）。
+
+### 接続先
+- [[spacex-ipo-narrative]]：SpaceX の実活動が $SPCX/$ASTEROID に動線を引く根拠の一次ソース。
+- [[external-event-to-token-pattern]]：公式ミッション速報 = 外部イベント点火の典型例。同じ型が BlueBird（通信衛星）→「宇宙通信narrative」等に再現する可能性。
+
+### ⚠️ 矛盾
+公式アカウントの投稿は trench に**直接言及しない**。trench での $SPCX/$ASTEROID pump は SpaceX 本体と無関係に動く（Elon 関与不明・[[spacex-ipo-narrative]] ⚠️参照）。「公式が動いた＝token が動く」は**必然でない**——関連性を誇張した物語が先行するリスク。
 <!-- synthesis:end -->

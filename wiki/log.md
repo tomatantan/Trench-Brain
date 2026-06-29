@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-29 backfill (高signal未合成 player 5件): @SpaceX→[[spacex-ipo-narrative]][[external-event-to-token-pattern]] / @Rewkang→[[vc-founder-thesis-layer]][[spacex-ipo-narrative]][[reflexivity]] / @RaoulGMI→[[majors-rotation-supercycle]][[vc-founder-thesis-layer]][[regulation-catalyst]] / @Punch_on_sol→[[survivor-memes]][[reflexivity]][[launchpad-economics]] / @Pumpfun→[[launchpad-economics]][[reflexivity]][[survivor-memes]]。合成5件完了。
+
+- 2026-06-29 X-synthesis (worklist §1a HOT 3件・第4バッチ): 新 beat = ①**$BTC** Hayes[[CryptoHayes__1943558522098032667]]「TGA 解消 → BTC ATH 突破・ETH outperform・alt szn・TACO on tariffs・MaelstromFund backing up truck」(2025-07-11 未合成) = April 2025 BTFD シリーズの3ヶ月後・BTC が実際に ATH を突破した timeline 確定・2025夏高揚 vs 現在$59K の乖離を接続 [[majors-rotation-supercycle]] [[rug-anatomy]]。zhusu Tesla $1.5B = 2021-02-08 旧ツイ。②**$ETH** lookonchain[[lookonchain__1957068994722312657]]「$125K → $29.6M（236x）Hyperliquid ETH long 4ヶ月」(2025-08-17 未合成) = 2025-04〜08 上昇 phase の実績事例・survivor bias ⚠️・BTC beta 上昇に従属した形の return = BTC 独立性なし [[perp-dex-wars]] [[majors-rotation-supercycle]]。zhusu mental math = 2022 旧ツイ（複数回確認済み）。③**$MU** 代表ツイ複数サイクル確認済み・新 beat なし・合成完結。§1a 3件・⚠️なし。→ $BTC $ETH $MU
+
+- 2026-06-29 auto-synthesis (synth_queue 10:22Z): births=4（[[$MBAPEPE]] $150k prebond スポーツスター×PEPE 合成命名・[[$SHX]] $122k prebond Shiba 派生 stub・[[$ANSEM BLKGT]] $46k graduated KOL 名借用型 traction0・[[$HOPE]] $36k graduated EA/longtermist 実在団体名×meme prize traction0）・changes=0・deaths=0。
+
 - 2026-06-29 lint: 検出 12 件（新規3・継続9）・主な型リスク＝①base_rate.json died+graduated>gate_passed 構造矛盾+launchpad乖離継続(CRITICAL) ②BREAKOUT-then-dead過剰ラベル継続(CRITICAL) ③@YAJUDAIGONGEN watchlist根拠なし指針2違反(CRITICAL)。→ [[lint-report]]
 
 - 2026-06-29 backfill (高signal未合成 player 5件): @ametomuchi123・@a16zcrypto・@YAJUDAIGONGEN・@VitalikButerin・@TheMisterTurtle。主な接続先: [[jp-meme-cluster]]・[[launchpad-economics]]・[[rug-anatomy]]（ametomuchi123: JP retail、BNB系低cap、運営vsコミュニティ構造）[[vc-founder-thesis-layer]]・[[regulation-catalyst]]・[[spacex-ipo-narrative]]・[[perp-dex-wars]]（a16zcrypto: 予測市場$10.8B ATH・stablecoin PMF+GENIUS Act）[[jp-meme-cluster]]⚠️watchlist根拠不明（YAJUDAIGONGEN: JP バイラルミームアカウント・crypto言及ゼロ・文化的語彙のみ共有）[[l1-substrate-wars]]・[[vc-founder-thesis-layer]]・[[onchain-verification]]・[[majors-rotation-supercycle]]（VitalikButerin: EF-40%予算削減・CROPSポジショニング・lean-and-done長期ビジョン）[[survivor-memes]]・[[launchpad-economics]]・[[reflexivity]]・[[majors-rotation-supercycle]]（TheMisterTurtle: meme bigger this cycle thesis・$1.5k→$100k PnFlex・anti-meta posture が meta-setting になる[[reflexivity]]構造）。

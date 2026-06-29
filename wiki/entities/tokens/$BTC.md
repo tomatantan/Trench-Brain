@@ -115,6 +115,22 @@ accounts: 19
 - worklist 代表ツイ「Buy the rumor buy the news buy the dip light the fuse」([[@zhusu]] 4,552♥ = [[zhusu__1450003590517452801]]・2021-10-18の古ツイ）= 旧ツイ再キャプチャ。
 - 「Do you hear that? … it's the sound of the money printers」([[@CryptoHayes]] 4,452♥ = [[CryptoHayes__1936854369980346588]]・2025-06-22）= 上記更新③で合成済み。
 
+### 2026-06-29 更新⑥（新 beat: Hayes「TGA 解消 → BTC ATH 突破、ETH アウトパフォーム、TACO on tariffs」）
+出典: [[CryptoHayes__1943558522098032667]]（3,354♥・2025-07-11T06:30Z）
+
+**観測（事実）**: 「I was slightly bearish in my last essay due to TGA refill. What changed? $BTC busted through ATH on good volume. $ETH is following and will outperform, get ready for a monster alt szn. Mrkt thinks Trump will TACO on tariffs, so fuck it: @MaelstromFund is backing up the truck!」（2025-07-11）
+
+**判断（新 beat・タイムライン確定）**:
+- 本ツイは April 2025 BTFD シリーズ（smoke alarm 04/04 → BTFD/$76,500 04/07 → donkey kong 04/11 → Easter bunny 04/21 → JAYPOW asymmetric 04/22・既合成）の**約3ヶ月後**にあたる。
+- **BTC が ATH を突破した事実の確認（2025-07-11）**: 4月に BTFD コールをした Hayes が7月に「ATH on good volume」と言っている = **2025年4月の底（$76.5K 割れ）から BTC は回復・ATH を更新した**経緯が確認される。Hayes の April BTFD コールは「$76,500 floor 公言→実際はさらに下落」（既合成・track record）があったが、**最終的に BTC は ATH を突破した**。
+- **TGA refill 懸念の解消**: Hayes が previous essay で slightly bearish だったのは TGA（財務省一般会計）の replenishment による流動性吸収懸念。7月時点でそれが「解消した」と判断して転換。既合成の「BTC = fiat liquidity smoke alarm」（Fed/財政政策連動）フレームの動的事例。
+- **TACO（Trump Always Chickens Out）on tariffs**: 市場が Trump の関税を「どうせ引っ込める」と読んだ局面。Hayes がその市場心理を正（"fuck it"）と判断して MaelstromFund のリスクオンを表明。
+- **ETH アウトパフォーム予告・alt szn**: 「$ETH is following and will outperform, get ready for a monster alt szn」= 7月時点の Hayes ETH/alt 強気の根拠。既合成の「$ETH = $10,000」（Arise Chikun・約同時期）と同じ方向。
+- **現在（2026-06-29）との乖離**: 2025-07 ATH 突破 → 2026-06-25 BTC $59K（21ヶ月来安値）= ATH からの再下落が発生している。2025 年夏の高揚局面と現在の収縮局面の間に何があったかが次の問い。
+- ⚠️ 「monster alt szn」の予告（2025-07-11）が現在（2026-06-29）の「ETH 14ヶ月来安値・OG 投げ売り」とは程遠い現実と矛盾している = Hayes の macro 読みと実価格の乖離のさらなる事例。
+- 接続: [[majors-rotation-supercycle]]（BTC ATH 突破 = 2025-07 確認・その後の再下落の構造）/ [[$ETH]]（Hayes の ETH アウトパフォーム予告が現実化しなかった timeline）/ [[rug-anatomy]]（KOL ナラティブ vs 実価格乖離の track record）。
+- **旧ツイ確認（同時）**: zhusu 3,348♥ [[zhusu__1358759326261809152]]（**2021-02-08**）「TESLA HAS BOUGHT $1.5BN IN BITCOIN - SEC FILING」= Tesla の BTC 初期購入（2021年2月のニュース）の古ツイ再キャプチャ。現時点の新 beat なし。
+
 ### 2026-06-28 確認④（新 beat なし・worklist 代表ツイ確認）
 - worklist 代表ツイ「We're seeing some of the earliest and most ambitious ideas in crypto starting to unfold... $BTC $LUNA」([[@zhusu]] 4,404♥ = [[zhusu__1508603726143328256]]・**2022-03-29**) = **LUNA 崩壊 6 週前**の古ツイ再キャプチャ。zhusu が Terra/LUNA の cross-chain stablecoin を "holy grail" と称賛した時点のもの＝LUNA 崩壊後の zhusu 評価と真逆の過去地点。BTC についての新情報はない。
 - 「The #DoomLoop has begun. 1 USD = 1 EUR. Prepare yourselves for YCC and $BTC = $1 million.」([[@CryptoHayes]] 4,372♥ = [[CryptoHayes__1546505432386211840]]・**2022-07-11**) = 2022 年夏の古ツイ再キャプチャ。「1 USD = 1 EUR」は 2022-09 に実際に達成された（EUR/USD parity）。「$BTC = $1 million」は未達。Hayes の macro フレームの先行事例として記録のみ＝既存合成「BTC = fiat liquidity smoke alarm / macro policy driven」の方向と同一。**BTC についての新 beat なし**。既存合成（21ヶ月来安値・大規模清算・BlackRock 入金・LTHS 80%）に変化なし。
