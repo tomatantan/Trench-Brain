@@ -329,6 +329,26 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # ★定期ダイジェスト: 日次snapshot差分＝先週/昨日から何が変わったか
+        if path0 == "/api/digest":
+            hist = _tail_jsonl("pulse_history.jsonl", 8)
+            if not hist:
+                self._json(200, {"ok": True, "digest": None, "note": "snapshot不足"})
+                return
+            latest = hist[-1]
+            prior = hist[-2] if len(hist) >= 2 else None
+            NUM = ["mints_seen", "gate_passed", "graduated", "died", "signal_backlog",
+                   "single_source", "stale", "watchlist", "death_ledger"]
+            deltas = {}
+            if prior:
+                for kk in NUM:
+                    a, b = latest.get(kk), prior.get(kk)
+                    if isinstance(a, (int, float)) and isinstance(b, (int, float)):
+                        deltas[kk] = {"now": a, "prev": b, "delta": round(a - b, 2)}
+            self._json(200, {"ok": True, "latest_date": latest.get("date"),
+                             "prior_date": (prior or {}).get("date"), "deltas": deltas,
+                             "themes_now": latest.get("themes"), "snapshots": len(hist)})
+            return
         # リアルタイム pump 層: brain/state/live_pulse.json を配信(wiki外なので特別route)
         if path0 == "/api/live":
             p = ROOT / "brain" / "state" / "live_pulse.json"
