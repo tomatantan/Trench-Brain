@@ -167,6 +167,19 @@ ETF 流出（2026-06-25）:
 - 接続: [[majors-rotation-supercycle]]（BTC→ETH rotation の機関実例・2025-06）/ [[$BTC]]（BlackRock が BTC を売った同事実）/ [[onchain-verification]]（数量独立確認推奨）。
 - confidence=低〜中（数量不明・旧ツイ・outcome は ETH に不利）。
 
+### 2026-06-30 更新④（新 beat: Hayes「ETH szn / DeFi NFT turbo」Jul-16）
+出典: [[CryptoHayes__1945370663297929553]]（2946♥・2025-07-16T06:31Z）
+
+**観測（事実）**: 「It's $ETH szn, so time for a new PFP. Let's run it back turbo: DeFi, NFT ... Yachtzee 😍」（2025-07-16）= BTC ATH 突破（2025-07-11、既合成）の**5日後**に Hayes が "ETH season" を宣言。DeFi・NFT の "turbo" リバイバルを予告。
+
+**判断（light-touch）**:
+- タイムライン: BTC ATH（07/11）→ 「$ETH is following and will outperform, get ready for a monster alt szn」（同日、既合成）→ **ETH szn 宣言・DeFi/NFT turbo（07/16）**。Hayes の "ETH/alt season" 強気コールが BTC ATH 後の5日間で一気に高揚した過程。
+- ⚠️ 現在（2026-06-30）ETH は **14ヶ月来安値 ~$1,560**（既合成・2026-06-27 更新）。「ETH szn」宣言から約11ヶ月後に ETH が大幅下落している実態——Hayes の "ETH turbo" コールは中長期で未達。DeFi・NFT の "turbo" リバイバルは 2026-06 時点で確認されていない。
+- ⚠️ 既存合成「ETH = コンセンサストレード（リターン薄）」/ 「BTC beta 脱却未達」（DefiIgnas・既記）と重なる: ETH が BTC に追随する beta は Jul 2025 に一時機能したが、その後は再び BTC 下落に連動して安値更新。「ETH szn」の宣言と実価格の乖離が追加された。
+- Hayes の ETH 強気コール track record: 「$ETH to $5k before $SOL to $300」/ 「$ETH=$10,000 Arise Chikun」（[[CryptoHayes__1943218754764075218]] 5,640♥・2025-07-10）/ 「ETH szn / DeFi NFT turbo」（本ツイ 07/16）= BTC ATH 前後に3連投の ETH 強気。いずれも ETH の現在値（~$1,560）とは大きく乖離。
+- 接続: [[majors-rotation-supercycle]]（BTC ATH後5日でHayesがETH szn宣言→1年で14ヶ月安値の timeline）/ [[rug-anatomy]]（KOL强気宣言 vs 実価格乖離のtrack record）/ [[$BTC]]（Jul-11 ATH → Jul-16 ETH宣言の連鎖）。
+- confidence=低〜中（Hayes のコール track record は ETH 未達・現実は 14ヶ月安値）。
+
 ### 2026-06-30 確認③（worklist 代表ツイ確認・World Liberty Jan 19 集中購入 light-touch 追記）
 出典: [[lookonchain__1880992881164623958]]（3000♥・2025-01-19T14:57Z）
 

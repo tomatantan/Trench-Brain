@@ -42,6 +42,14 @@ tags: [trench, entity, token, auto-track, graduated, traction0, celebrity-name, 
 
 **⚠️ 矛盾**
 - Portnoy は過去に crypto community への直接発信実績あり（2020-2021 pump-and-tweet 騒動） = 本人が拾う可能性ゼロではない vs 本人公式との接点なし × real_sol=0 × reply=0 = 現状は通常の名前借用。
+
+### 2026-06-30 mcap -48%（$104,598→$54,737）
+**観測（事実）**
+- 2026-06-30T05:26Z: mcap $104,598 → $54,737（-47.7%）。flags: mcap-48%。
+- reply_count=0・real_sol=0 変化なし。
+
+**判断**
+- birth $107k から -48% 下落——KOL名借用型の典型崩壊パス（[[$HAYES]] -96.7% / [[$SUNBULL]] -98.1% 先例）。traction0 継続 = 有機需要ゼロ確認。回復の根拠なし。
 <!-- synthesis:end -->
 
 ## 関連

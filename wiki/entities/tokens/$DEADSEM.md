@@ -2,13 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 peak_mcap: $119,423
 title: $DEADSEM（The Dead Bull）
 mint: DeGXmkzhwrfhW5fSMDs2tfBPN5Jwwq247zjeJ8bHpump
 created: 2026-06-30
 updated: 2026-06-30
-tags: [trench, entity, token, auto-track, graduated, bear-ironic, traction0, stub]
+tags: [trench, entity, token, auto-track, graduated, bear-ironic, traction0, dead, BREAKOUT-then-dead]
 ---
 
 # $DEADSEM（The Dead Bull）
@@ -53,8 +53,18 @@ tags: [trench, entity, token, auto-track, graduated, bear-ironic, traction0, stu
 - reply_count=0 継続・real_sol=0 変わらず。
 
 **判断**
-- BREAKOUT +301% 後の -80% 崩壊 = [[rug-anatomy]] BREAKOUT-then-dead 型通り進行中。$AEGIS/$MOONLAKE/$PHONEBLACK 同型。
-- 次観測で $10k 台割れなら死亡確定水準。
+- BREAKOUT +301% 後の -80% 崩壊 = [[rug-anatomy]] BREAKOUT-then-dead 型通り進行中。
+
+### 2026-06-30 死亡確定（$10,801・peak比-90.9%）
+**観測（事実）**
+- 2026-06-30T05:26Z: mcap $10,801（最終観測）。cause: mcap -90% from peak($119,423)。
+- reply_count=0・real_sol=0 全期間通じてゼロ。outcome: died。
+
+**判断（最終）**
+- BREAKOUT +301%（$29k→$119k）→ -90.9% 崩壊で死亡確定。型通りの BREAKOUT-then-dead。
+- ironic 命名（"dead bull"）は bull クラスター内での話題性を意図したと推測されるが reply0 全期間 = memetic フック不成立。
+- [[launchpad-economics]] 跳躍台帳登録済み（BREAKOUT観測時）。[[rug-anatomy]] 死亡台帳+1（本死亡確定で記録）。
+- **生存者バイアス分母**: 出目 = BREAKOUT-then-dead 型通り。ironic 命名 × real_sol=0 × social皆無 = 型を補強する観測。
 <!-- synthesis:end -->
 
 ## 関連

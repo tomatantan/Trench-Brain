@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 lint: 検出 11 件（新規 5・継続 6）・主な型リスク＝①base_rate died+graduated>gate_passed 構造矛盾深刻化(CRITICAL) ②launchpad N=3種類乖離継続(CRITICAL) ③@YAJUDAIGONGEN指針2違反継続(CRITICAL) ④reflexivity N=3主張・実態N=30+(HIGH) ⑤predictive-study リンク先ページ不存在(MEDIUM)。→ [[lint-report]]
+
+- 2026-06-30 X-synthesis (worklist §1a 3件): **$BTC**（Hayes [[CryptoHayes__1909427649157775851]] 2025-04-08「If not the Fed then the PBOC / CNY deval → BTC capital flight」新 beat = Apr 2025 シリーズ Apr08 の空白を補完・二重流動性源フレーム → [[majors-rotation-supercycle]]。旧ツイ 2024-02-02「bank failures → Powell/Yellen QE → BTC $1mm」確認）/ **$ETH**（Hayes [[CryptoHayes__1945370663297929553]] 2025-07-16「ETH szn / DeFi NFT turbo」新 beat = BTC ATH+5日の宣言 → 2026-06 14ヶ月来安値と乖離 → [[rug-anatomy]][[majors-rotation-supercycle]]）/ **$MU**（旧ツイ確認のみ・新 beat なし）。§1a 全3件完了。主な⚠️: Hayes ETH szn 宣言→現実 14ヶ月安値の track record。
+
+- 2026-06-30 auto-synthesis (synth_queue 05:25Z): births=1（[[$DOG]] "just a dog" $22k graduated real_sol=0 traction0 generic-dog-meme stub）・changes=2（[[$BBF]] -56% $132k→$58k dead-cat bounce後再崩壊 peak比-67% traction0継続 / [[$PORTNOY]] -48% $104k→$54k KOL名借用型崩壊継続 traction0）・deaths=1（[[$DEADSEM]] BREAKOUT-then-dead確定 $119k peak→$10k -90.9% ironic命名×real_sol=0×traction0 → [[rug-anatomy]]死亡台帳+1）。
+
 - 2026-06-30 backfill (高signal未合成 5件 第6バッチ): $POPCAT→[[survivor-memes]][[reflexivity]]（cat meme blue-chip・KOL保有継続がループ燃料） / $MSFT→[[majors-rotation-supercycle]][[external-event-to-token-pattern]]（AI chip コスト川下証拠・trad-fi macro シグナル） / $JTO→[[l1-substrate-wars]][[launchpad-economics]]（Solana MEV staking infra・airdrop season第一世代） / $GME→[[reflexivity]][[external-event-to-token-pattern]]（meme株のboom/bust弧=crypto meme reflexivity参照ケース） / $BNB→[[majors-rotation-supercycle]][[l1-substrate-wars]]（CEX-backed L1・eco beta動線$FLOKI/$CAT）。合成5件完了。
 
 - 2026-06-30 X-synthesis worklist §1a 3件（最終バッチ②）: **$BTC**（Hayes 2022-11-08「$15K strike puts」FTX崩壊日=short-term的中・Hayes 2023-11-06「US v China ETF競争→BTC有利」= 長期フレーム補足・未合成旧ツイ2件 light-touch追記 → [[rug-anatomy]]）/ **$ETH**（[[lookonchain__1880992881164623958]] 2025-01-19 World Liberty 就任前日「$20M全額ETH集中購入 at $3,311」= 既合成Jan 20分散購入と別事例・現在~$1,560→-53%含み損=「機関adoption≠価格支持」補強 → [[onchain-verification]]）/ **$MU**（48h言及2/2アカ・代表ツイ全確認済み・新 beat なし）。§1a 全3件完了。主な⚠️: Hayes puts は自己申告のみ独立確認推奨。

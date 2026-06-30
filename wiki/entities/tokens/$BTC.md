@@ -221,6 +221,33 @@ accounts: 19
 - 接続: [[majors-rotation-supercycle]]（BlackRock BTC↔ETH rotation の実事例）/ [[onchain-verification]]（BlackRock 数量は独立確認推奨）/ [[$ETH]]（BlackRock ETH 買い 2025-06 → 2026-06 14ヶ月来安値という timeline）。
 - confidence=中（補足のみ・既存合成の方向に変化なし）。
 
+### 2026-06-30 更新⑤（新 beat: Hayes「PBOC/CNY deval」Apr-08 / 旧ツイ確認「bank failures」Feb-24）
+出典: [[CryptoHayes__1909427649157775851]]（2759♥・2025-04-08T02:06Z）/ [[CryptoHayes__1753299198114779627]]（2689♥・2024-02-02T06:07Z・旧ツイ）
+
+**観測（事実）**:
+- [[@CryptoHayes]]（2025-04-08）: 「If not the Fed then the PBOC will give us the yachtzee ingredients. CNY deval = narrative that Chinese capital flight will flow into $BTC. It worked in 2013, 2015, and can work in 2025. Ignore China at your own peril.」([[CryptoHayes__1909427649157775851]] 2759♥)
+- [[@CryptoHayes]]（2024-02-02）: 「TGIF Bitches! Now it's time for some bank failures and fresh monetary pow from Powell and Yellen. $BTC = $1mm」([[CryptoHayes__1753299198114779627]] 2689♥) = **旧ツイ**（2024-02-02）。
+
+**判断（Hayes April 2025 シリーズへの追記）**:
+- Apr-08 PBOC ツイは既合成シリーズの**Apr 07（BTFD/$76,500 credibility floor）→ Apr 11（donkey kong）**の間に位置する（Apr 08）。
+- 核心は「Fed が動かなくても PBOC が代替の流動性トリガーになる」という**二重ソース論**。Apr 22 の「Trump/JAYPOW = BTC が両シナリオで上がる」（既合成）と同構造——Hayes は BTC を複数の fiat 流動性源（Fed / PBOC / ECB）のどれかが動けば上がる资産として定位する。
+- 「CNY deval = capital flight → BTC」は 2013・2015 の先例あり（ Hayesが自ら引用）。2025-04-08 は Trump 関税 shock 翌週で米中貿易摩擦が最高潮——CNY deval 懸念は macro 的に実在したコンテキスト。
+- **Hayes April 2025 シリーズ完成形（Apr 08 追加）**:
+  - Apr 02: $76.5K hold ライン初公言（既合成）
+  - Apr 04 早: "LOVE TARIFFS" money printing（既合成）
+  - Apr 04 遅: "fiat liquidity smoke alarm"（既合成）
+  - Apr 07: "BTFD @ $76,500 / credibility floor"（既合成）
+  - Apr 07: "nibbling BTC / BTC dom 70%"（既合成）
+  - **Apr 08: "If not the Fed then the PBOC" / CNY deval代替流動性** ← 今回追加
+  - Apr 11: "donkey kong / UP ONLY"（既合成）
+  - Apr 21: "< $100K last chance"（既合成）
+  - Apr 22: "JAYPOW fired/not fired = BTC rips both ways"（既合成）
+  - Jul 11: "ATH on good volume / truck backed up"（既合成）
+- 旧ツイ（2024-02-02）: 「bank failures → Powell/Yellen QE → BTC $1mm」= 既合成「BTC = fiat liquidity smoke alarm」の 2024 年版原型。New beat なし、macro フレームの歴史的記録のみ。
+- ⚠️ 足元（2026-06-30）PBOC の実際の流動性拡張は未確認。「CNY deval → BTC capital flight」は有効な narrative でも**実際の資金フローは独立確認推奨**（[[onchain-verification]]）。
+- 接続: [[majors-rotation-supercycle]]（Fed/PBOC 両方が BTC 上昇の可能な起点）/ [[$ETH]]（PBOC 流動性拡張 = 上流 BTC 点火 → ローテ下流へ）。
+- confidence=中（Hayes フレーム補足・既存合成の方向に変化なし）。
+
 ### 2026-06-30 更新④（新 beat: Hayes「$15K strike puts」FTX崩壊日 / 「US v China ETF競争」2023-11）
 出典: [[CryptoHayes__1589996842409873409]]（2994♥・2022-11-08T15:02Z）/ [[CryptoHayes__1721319347543847182]]（2829♥・2023-11-06T00:11Z）
 
