@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7346件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7343件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**308ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 76 | 2759♥ @CryptoHayes: If not the Fed then the PBOC will give us the yach / 2689♥ @CryptoHayes: TGIF Bitches!  Now it’s time for some bank failure |
-| [[$ETH]] | 4 | 3 | 93 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2946♥ @CryptoHayes: It's $ETH szn, so time for a new PFP. Let's run it |
+| [[$BTC]] | 10 | 7 | 74 | 2653♥ @CryptoHayes: For those of you who refuse to respect the $BTC pu / 2642♥ @CryptoHayes: With Fed board member Miran now confirmed, the MSM |
+| [[$ETH]] | 4 | 3 | 92 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2936♥ @CryptoHayes: Degens how are we going to celebrate $ETH = $4,000 |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $ETH
-updated: 2026-06-22
+updated: 2026-06-30
 tags: [trench, entity, token]
 mentions: 149
 accounts: 18
@@ -179,6 +179,23 @@ ETF 流出（2026-06-25）:
 - Hayes の ETH 強気コール track record: 「$ETH to $5k before $SOL to $300」/ 「$ETH=$10,000 Arise Chikun」（[[CryptoHayes__1943218754764075218]] 5,640♥・2025-07-10）/ 「ETH szn / DeFi NFT turbo」（本ツイ 07/16）= BTC ATH 前後に3連投の ETH 強気。いずれも ETH の現在値（~$1,560）とは大きく乖離。
 - 接続: [[majors-rotation-supercycle]]（BTC ATH後5日でHayesがETH szn宣言→1年で14ヶ月安値の timeline）/ [[rug-anatomy]]（KOL强気宣言 vs 実価格乖離のtrack record）/ [[$BTC]]（Jul-11 ATH → Jul-16 ETH宣言の連鎖）。
 - confidence=低〜中（Hayes のコール track record は ETH 未達・現実は 14ヶ月安値）。
+
+### 2026-06-30 更新⑤（新 beat: Hayes「celebrate $ETH = $4,000」Jul-20）
+出典: [[CryptoHayes__1946867687927193740]]（2,936♥・2025-07-20T09:40Z）
+
+**観測（事実）**: 「Degens how are we going to celebrate $ETH = $4,000?」（2025-07-20）= BTC ATH（Jul-11 既合成）の9日後、ETH szn 宣言（Jul-16 既合成・「DeFi/NFT turbo」）の4日後に**$4,000 具体価格**での祝い方を問う投稿。
+
+**判断（light-touch）**:
+- Hayes の **2025-07 ETH 強気コール timeline が完成**:
+  - Jul-10: 「$ETH=$10,000 Arise Chikun」([[CryptoHayes__1943218754764075218]] 5,640♥・既合成)
+  - Jul-11: 「$ETH is following and will outperform, get ready for a monster alt szn」(BTC ATH と同日・既合成)
+  - Jul-16: 「It's $ETH szn, DeFi/NFT turbo」(既合成)
+  - **Jul-20: 「celebrate $ETH = $4,000」** ← 今回追加
+  → BTC ATH（Jul-11）からわずか9日で ETH に対して 5 連発の強気コール。価格として $4,000 という中間目標が初めて明示された点が新規性。
+- ⚠️ **現在（2026-06-30）ETH ~$1,560（14ヶ月来安値）**: $4,000 目標から **-61%**。既合成「ETH = コンセンサストレード（リターン薄）」「BTC beta 脱却未達」の確証をさらに加算する track record 点。Hayes が「celebrate $4,000」を問うた約11ヶ月後に ETH は半値以下という現実。
+- ⚠️ **既合成「ETH szn」（Jul-16）との連続性**: Jul-16 の「DeFi/NFT turbo」→ Jul-20 の「celebrate $4K」は Hayes が ETH を $10K 最終目標への道中で $4K を通過点として見ていたことを示す。$4K も $10K も現在未達。
+- 接続: [[majors-rotation-supercycle]]（BTC ATH 後9日で $4K ETH 祝い提案→11ヶ月後 14ヶ月安値という timeline）/ [[rug-anatomy]]（KOL 具体価格コール vs 実価格乖離の track record）/ [[$BTC]]（BTC ATH→ETH 強気連鎖の起点）。
+- confidence=低〜中（Hayes の ETH call series track record は現実と大きく乖離中）。
 
 ### 2026-06-30 確認③（worklist 代表ツイ確認・World Liberty Jan 19 集中購入 light-touch 追記）
 出典: [[lookonchain__1880992881164623958]]（3000♥・2025-01-19T14:57Z）

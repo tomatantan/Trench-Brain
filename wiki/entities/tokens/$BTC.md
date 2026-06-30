@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $BTC
-updated: 2026-06-22
+updated: 2026-06-30
 tags: [trench, entity, token]
 mentions: 155
 accounts: 19
@@ -220,6 +220,22 @@ accounts: 19
 - BlackRock BTC→ETH (2025-06): 機関が BTC を減らして ETH を選択した実例。ただし ATH の**直前に BTC を売った** = タイミングが悪い可能性がある。既合成「BlackRock 連続入金 2026-06-25/26（BTC 吸収）」と合わせると、BlackRock は 2025-06 に BTC 売→ETH 買、2026-06 に BTC 大量入金という cycle を観察できる。「2026-06 の BTC 入金が出口向けか custody か二択」（既合成 2026-06-27 更新②）の文脈では、**2025-06 に既に一度 BTC を売却経験がある** という先例が参照可能。
 - 接続: [[majors-rotation-supercycle]]（BlackRock BTC↔ETH rotation の実事例）/ [[onchain-verification]]（BlackRock 数量は独立確認推奨）/ [[$ETH]]（BlackRock ETH 買い 2025-06 → 2026-06 14ヶ月来安値という timeline）。
 - confidence=中（補足のみ・既存合成の方向に変化なし）。
+
+### 2026-06-30 更新⑥（新 beat: Hayes「YCC / Miran 確認 / BTC=$1M」Sep-16 / Apr-22「pump respect」追記）
+出典: [[CryptoHayes__1968060229805019140]]（2,642♥・2025-09-16T21:11Z）/ [[CryptoHayes__1914595365896249724]]（2,653♥・2025-04-22T08:21Z）
+
+**観測（事実）**:
+- [[@CryptoHayes]]（2025-09-16）: 「With Fed board member Miran now confirmed, the MSM is preparing the world for the Fed's "third mandate" which is essentially yield curve control. LFG! YCC -> $BTC = $1m」([[CryptoHayes__1968060229805019140]] 2,642♥)
+- [[@CryptoHayes]]（2025-04-22）: 「For those of you who refuse to respect the $BTC pump, I only have one question for you ...」([[CryptoHayes__1914595365896249724]] 2,653♥) = **旧ツイ（Apr 22 = JAYPOW asymmetric と同日**）。
+
+**判断（新 beat: Miran/YCC）**:
+- 2025-09-16 は **BTC ATH 突破（2025-07-11 既合成）の2ヶ月後**。Hayes の macro フレームが「QE」「money printing」「TACO on tariffs」から**YCC（Yield Curve Control）= Fed の "第三の使命"**へ escalate した地点。
+- YCC = 中央銀行が国債利回り上限を明示的に設定→無制限 QE に実質等しい = Hayes の「fiat liquidity smoke alarm」（既合成・Apr-04）の次フェーズ。「smoke alarm が鳴った後に実際に噴火する」段階という読み方。
+- **Miran 確認**: Stephen Miran = Council of Economic Advisers 議長として Fed へ影響を及ぼす立場（Feb 2025 任命）。「Fed board member」という表現は正確ではないが（FRB 理事ではなく CEA 議長）、Hayes の趣旨は「政権が Fed の独立性をさらに侵食する布石が置かれた」こと。既合成「JAYPOW fired/not fired = BTC rips both ways」（Apr-22・既記）と同一の Fed 独立性圧力軸の 5ヶ月後バージョン。
+- ⚠️ **現在（2026-06-30）との乖離**: YCC が実際に発動されたかは未確認。Hayes の「YCC = BTC $1M」は 2022「DoomLoop / $BTC=$1M」（既合成）と同形式の macro bet コール。**track record**: $1M コールの系列は過去に複数回発せられ未達（2022-07, 2023-11, 2024-02 等・既合成）。
+- **Hayes April 2025 シリーズ補足（Apr-22）**: 「refuse to respect the pump」= Apr-22 に BTC が価格回復する中で doubters を批判するセンチメント投稿。同日の「JAYPOW fired/not fired = BTC rips both ways」（既合成）と合わせて、Apr-22 は Hayes が「BTC 上昇を全力肯定した日」として完成する。
+- 接続: [[majors-rotation-supercycle]]（YCC = 資金ローテの最上流点火の escalation）/ [[onchain-verification]]（YCC 発動・実際の fiat 流動性拡張は独立確認推奨）/ [[$ETH]]（YCC → BTC $1M → ETH/alt ローテの論理チェーン）。
+- confidence=中（Hayes macro フレームの escalation として記録・YCC 実現度は未検証）。
 
 ### 2026-06-30 更新⑤（新 beat: Hayes「PBOC/CNY deval」Apr-08 / 旧ツイ確認「bank failures」Feb-24）
 出典: [[CryptoHayes__1909427649157775851]]（2759♥・2025-04-08T02:06Z）/ [[CryptoHayes__1753299198114779627]]（2689♥・2024-02-02T06:07Z・旧ツイ）

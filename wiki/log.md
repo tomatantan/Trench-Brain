@@ -2,6 +2,10 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 X-synthesis worklist §1a 3件: **$BTC**（Hayes [[CryptoHayes__1968060229805019140]] 2025-09-16「Miran確認/YCC/BTC=$1M」新beat = fiat liquidity thesis が QE→YCC へ escalate・Apr-22「refuse to respect the pump」light-touch追記 → [[majors-rotation-supercycle]]）/ **$ETH**（Hayes [[CryptoHayes__1946867687927193740]] 2025-07-20「celebrate $ETH=$4,000」新beat = Jul-10/11/16に続く第4の ETH 強気コール・現在~$1,560で-61% → [[rug-anatomy]]）/ **$MU**（MEXC/DEG_2020 旧ツイ・複数サイクル確認済み・新beat なし）。§1a 全3件完了。主な⚠️: Hayes YCC コールの実現度未検証・ETH $4K コール現実大幅乖離。
+
+- 2026-06-30 auto-synthesis (synth_queue 08:36Z): births=1（[[$GAMBINO]] "The Last Coin" $6k graduated real_sol=0 traction0 stub）・changes=1（[[$BBF]] +89% $58.7k→$110.9k 2回目 dead-cat bounce・traction0継続・peak比-37%）・deaths=1（[[$DOG]] mcap枯れ $2k peak比-90.9% generic-dog-meme×real_sol=0×traction0 型通り → [[rug-anatomy]]死亡台帳+1）。
+
 - 2026-06-30 lint: 検出 11 件（新規 5・継続 6）・主な型リスク＝①base_rate died+graduated>gate_passed 構造矛盾深刻化(CRITICAL) ②launchpad N=3種類乖離継続(CRITICAL) ③@YAJUDAIGONGEN指針2違反継続(CRITICAL) ④reflexivity N=3主張・実態N=30+(HIGH) ⑤predictive-study リンク先ページ不存在(MEDIUM)。→ [[lint-report]]
 
 - 2026-06-30 X-synthesis (worklist §1a 3件): **$BTC**（Hayes [[CryptoHayes__1909427649157775851]] 2025-04-08「If not the Fed then the PBOC / CNY deval → BTC capital flight」新 beat = Apr 2025 シリーズ Apr08 の空白を補完・二重流動性源フレーム → [[majors-rotation-supercycle]]。旧ツイ 2024-02-02「bank failures → Powell/Yellen QE → BTC $1mm」確認）/ **$ETH**（Hayes [[CryptoHayes__1945370663297929553]] 2025-07-16「ETH szn / DeFi NFT turbo」新 beat = BTC ATH+5日の宣言 → 2026-06 14ヶ月来安値と乖離 → [[rug-anatomy]][[majors-rotation-supercycle]]）/ **$MU**（旧ツイ確認のみ・新 beat なし）。§1a 全3件完了。主な⚠️: Hayes ETH szn 宣言→現実 14ヶ月安値の track record。

@@ -2,12 +2,12 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 title: $DOG（just a dog）
 mint: EyBM4KssSU6MmEVrn3bfZAEanvD6asE7eBHekZ4Dpump
 created: 2026-06-30
 updated: 2026-06-30
-tags: [trench, entity, token, auto-track, graduated, traction0, generic-dog-meme, stub]
+tags: [trench, entity, token, auto-track, graduated, traction0, generic-dog-meme, stub, dead]
 ---
 
 # $DOG（just a dog）
@@ -40,6 +40,14 @@ tags: [trench, entity, token, auto-track, graduated, traction0, generic-dog-meme
 - 汎用 dog 命名は [[survivor-memes]] の可能性を残すが、既存 dog blue-chip（$WIF/$DOGWIFHAT 等）との差別化ゼロ。stub 扱い。
 
 **接続概念**: [[launchpad-economics]]（graduated-but-empty低水準）。
+
+### 2026-06-30 死亡確定（mcap枯れ $2,080）
+**観測（事実）**
+- 2026-06-30T08:36Z: mcap $2,080（peak $22,849 比 -90.9%）。cause: mcap枯れ。
+- reply_count=0・real_sol=0・traction0 継続（変化なし）。
+
+**判断（最終合成）**
+- outcome: died。generic-dog-meme × real_sol=0 × traction0 → 型通り枯死。peak $22k で既に最低水準、社会基盤ゼロで回復経路なし。[[rug-anatomy]] 型通り1行で十分。
 <!-- synthesis:end -->
 
 ## 関連

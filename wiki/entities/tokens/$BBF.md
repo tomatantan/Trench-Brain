@@ -71,6 +71,14 @@ tags: [trench, entity, token, auto-track, graduated, bull-cluster, real-sol-high
 
 **判断**
 - dead cat bounce 後の再崩壊。peak $177,807 から -67% まで落下。traction0 継続 = 有機的買い支えゼロを再確認。⑬コホート最終崩壊フェーズに移行しつつある。$10k 台割れで死亡確定水準。
+
+### 2026-06-30 mcap +89%（$58,728→$110,877）
+**観測（事実）**
+- 2026-06-30T08:36Z: mcap $58,728 → $110,877（+89.0%）。flags: mcap+89%。
+- reply_count=0・real_sol 変化なし（57,756,111,115 lamports）。
+
+**判断**
+- 2回目の dead cat bounce。-67%（peak比）から+89%反発で peak $177k 比まだ -37%。traction0 継続 = 有機的需要の証拠ゼロ。⑬コホート型では2回目 bounce 後の再崩壊が典型（$SUNBULL/$DOGPLANE同型）。real_sol 変化なし = deployer 行動なし。bounce 持続性は低い。
 <!-- synthesis:end -->
 
 ## 関連
