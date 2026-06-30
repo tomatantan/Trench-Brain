@@ -102,6 +102,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$PEPEBULL]]（The PEPE Bull） | +102%（BREAKOUT） | $39.5k→$79.9k | reply0 / KOL0（twitter/website 両方 null・全期間）・real_sol=5（実質ゼロ） | PEPE×bull 複合命名・prebond 継続・BREAKOUT 時も real_sol≒0 = organic 需要ゼロ確定候補 | prebond traction0 即BREAKOUT×real_sol≒0（whale/bot 単独 pump 最有力。bonding curve 未卒業 × PEPE brand 派生 × real_sol 5 lamports での $80k 到達は $PEAK/$AEGIS 同型——BREAKOUT-then-dead 最有力候補） |
 | [[$GUTCHU-GzfBEf]]（GUTCHU 2nd mint） | +106% | $49.3k→$101.3k | reply0 / KOL0（全期間）・real_sol 3.26SOL | birth→BREAKOUT が同一観測バッチ内（超短時間）。prebond 継続。先行同名 mint（DJjg...）が+81% BREAKOUT-then-dead 前例あり | **同名2nd attempt 即BREAKOUT**（先行 mint 死亡後に同名で再 launch → 同バッチで BREAKOUT。traction0 × social 皆無 × real_sol 低値 = whale 単独 pump 最有力。BREAKOUT-then-dead 最有力——先行 mint が同型で死亡済で 2nd attempt でも traction が生まれない場合、3rd 以降も同パスと推定） |
 | [[$DEADSEM]] | +301% | $29.8k→$119.4k | reply0 / KOL0（全期間） | 不明（ironic "dead bull" 命名 × X community リンク × real_sol=0 × graduated） | traction0×出来高先行 BREAKOUT×real_sol=0＝$AEGIS/$JOKER/$JALAPEÑO 同型・BREAKOUT-then-dead 候補 |
+| [[$TESTIBULL-C6kWVd]] | +2014% | $118.8k→$2.51M | reply0 / KOL0（全期間） | 不明（"testibull" bull cluster 命名 × twitter:DipWheeler × real_sol=0 × graduated × multi-mint 主 mint） | traction0×出来高先行 BREAKOUT×real_sol=0＝$DEADSEM/$JALAPEÑO/$AEGIS 同型・multi-mint 主 mint 需要集中 × whale/bot pump 最有力・BREAKOUT-then-dead 最有力 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

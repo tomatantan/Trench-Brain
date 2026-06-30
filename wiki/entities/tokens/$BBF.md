@@ -3,6 +3,7 @@ type: entity
 kind: token
 source: auto-track
 status: watch
+peak_mcap: $177,807
 title: $BBF（The Black Bull Fund）
 mint: A37jiDn7ANorAGj6NVVdwUFmxDK2D6zLxMKFcRGSpump
 created: 2026-06-30
@@ -54,6 +55,14 @@ tags: [trench, entity, token, auto-track, graduated, bull-cluster, real-sol-high
 
 **判断**
 - peak $177,807 から -47.1% 下落——⑬コホート典型崩壊フェーズ（$FLYRO/$GIRLS/$SUNBULL 同型）。real_sol は deployer 投入分で変動しない。traction0 継続 = 有機的買い戻しの根拠なし。
+
+### 2026-06-30 mcap +41%（$93,893→$132,430）
+**観測（事実）**
+- 2026-06-30T02:13Z: mcap $93,893 → $132,430（+41.1%）。flags: mcap+41%。
+- reply_count=0・real_sol 変化なし（57,756,111,115 lamports）。
+
+**判断**
+- peak $177,807 からはまだ -25.5% 下。-46% 崩壊後の反発 = dead cat bounce 候補。traction0 継続 = 有機的需要の証拠なし。⑬コホート型（$SUNBULL/$DOGPLANE 同様に bounce 後に最終崩壊した先例）を踏まえると反発持続性は低い。
 <!-- synthesis:end -->
 
 ## 関連

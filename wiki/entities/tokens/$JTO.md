@@ -28,5 +28,25 @@ accounts: 2
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
-_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_
+
+### 観測（事実）
+- Jito = Solana 上の **MEV保護付き liquid staking プロトコル**（ステーキング + バリデータレベルのMEV収益分配）。
+- milesdeutscher（2023-12-09）: 「$JTO/$JUP/$PYTH の airdrop で今週 $15,000+ 稼いだ人がいる。Solana airdrop season はまだ始まったばかり」→ airdrop ハンターへの mega-thread（[[milesdeutscher__1733470608154046601]] 5,867♥）。
+- milesdeutscher（2024-01-14）: $TIA/$JTO/$MANTA を過去数ヶ月に提供してきたことを証明し次のテストネット airdrop を告知（[[milesdeutscher__1746577630240059485]] 3,963♥）。
+- blknoiz06（2026-06-26）: $JTO Q1 Quarterly protocol update をリンク付きで投稿（[[blknoiz06__2070509276326515171]] 119♥）= **継続してプロトコルをフォロー**している KOL。
+
+### 役割・動線
+$JTO は Solana DeFi インフラ層の airdrop 銘柄として機能した第一世代。共起 $JUP/$PYTH/$TIA/$MANTA はいずれも同時期の Solana/modular chain エコシステム airdrop 群 = **Solana airdrop season の集団動線**。
+
+blknoiz06 が Q1 プロトコル更新を 2026-06-26 にも追っていることは、meme でなく**プロトコルとして継続観測されている**ことを示す。[[l1-substrate-wars]] の Solana infra 層（DEX/staking/perp）に属する。
+
+### ⚠️矛盾・懐疑
+- milesdeutscher の高engageツイはすべて airdrop 煽り文脈（2023-2024）= 「free money season」のナラティブ乗り。airdropが取り切られた後の実需が残るかは別問題。
+- $JTO はプロトコル継続中だが、他Solana staking系（$JUP/Raydium等）との競合は不明。blknoiz06 の quarterly updateリンクはデータ未読（要精読）。
+
+### 接続 concept
+[[l1-substrate-wars]]（Solana DeFi infra 層のプロトコル）/ [[launchpad-economics]]（airdrop = token 配布の一形態）/ [[majors-rotation-supercycle]]（Solana β = SOL 強い局面で ecosystem token reprice）
+
+### 関連 entity
+[[$JUP]] / [[$PYTH]] / [[$TIA]] / [[$MANTA]] / [[@milesdeutscher]] / [[@blknoiz06]]
 <!-- synthesis:end -->

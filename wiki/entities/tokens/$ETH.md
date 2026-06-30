@@ -166,4 +166,15 @@ ETF 流出（2026-06-25）:
 - 既合成「Trump World Liberty が就任当日 ETH $4.7M 購入（2025-01-20）」と合わせると、**2025 年前半は機関・政治系エンティティが ETH を採用する動きが複数あった**。それでも ETH が 2026-06 に 14ヶ月来安値に至った事実は「institutional adoption ≠ price support」の観察。
 - 接続: [[majors-rotation-supercycle]]（BTC→ETH rotation の機関実例・2025-06）/ [[$BTC]]（BlackRock が BTC を売った同事実）/ [[onchain-verification]]（数量独立確認推奨）。
 - confidence=低〜中（数量不明・旧ツイ・outcome は ETH に不利）。
+
+### 2026-06-30 確認③（worklist 代表ツイ確認・World Liberty Jan 19 集中購入 light-touch 追記）
+出典: [[lookonchain__1880992881164623958]]（3000♥・2025-01-19T14:57Z）
+
+- **旧ツイ確認（zhusu）**: 3864♥ [[zhusu__1389092285992771587]]（2022-04-07）= 複数サイクル確認済み。新情報なし。
+- **新規（本 ETH 合成に未記録）**: [[@lookonchain]]（2025-01-19）: 「Trump's World Liberty(@worldlibertyfi) just spent 20M $USDC to buy 6,041 $ETH at $3,311.」([[lookonchain__1880992881164623958]] 3,000♥) = 就任**前日**（Jan 19）の集中型 ETH 大口購入。
+  - 既合成の Jan 20 購入（[[lookonchain__1881338954743722319]]・6/29 確認④）: ETH $4.7M + LINK $4.7M + TRX $4.7M + AAVE $4.7M + ENA $470K = **等分分散型**。
+  - 今回 Jan 19: **$20M 全額を ETH 一択**に集中。分散でなく「ETH への単独 conviction」の表れ。
+  - **タイムライン**: 2025-01-19 6,041 ETH at $3,311（$20M）→ 2025-01-20 ETH 分散購入 $4.7M → 2026-06 ETH 14ヶ月来安値 ~$1,560。購入コスト $3,311 から **-53%** 含み損。
+  - ⚠️ World Liberty = Trump 陣営の政治的エンティティ。investment の独立性・backing の透明性は不明。
+- **判断（light-touch）**: 就任前日 $20M 集中購入は、既合成「Trump チームが ETH を完全に排除していない」（政治リスク/プレミアム・6/29 確認④）の実額確認事例。購入コスト（$3,311）から現在（~$1,560）の -53% は「政治的 ETH 購入が価格を支持しない」= 既合成「institutional adoption ≠ price support」の追加裏付け。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（追記のみ）。
 <!-- synthesis:end -->

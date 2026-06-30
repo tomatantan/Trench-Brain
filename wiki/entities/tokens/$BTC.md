@@ -220,4 +220,18 @@ accounts: 19
 - BlackRock BTC→ETH (2025-06): 機関が BTC を減らして ETH を選択した実例。ただし ATH の**直前に BTC を売った** = タイミングが悪い可能性がある。既合成「BlackRock 連続入金 2026-06-25/26（BTC 吸収）」と合わせると、BlackRock は 2025-06 に BTC 売→ETH 買、2026-06 に BTC 大量入金という cycle を観察できる。「2026-06 の BTC 入金が出口向けか custody か二択」（既合成 2026-06-27 更新②）の文脈では、**2025-06 に既に一度 BTC を売却経験がある** という先例が参照可能。
 - 接続: [[majors-rotation-supercycle]]（BlackRock BTC↔ETH rotation の実事例）/ [[onchain-verification]]（BlackRock 数量は独立確認推奨）/ [[$ETH]]（BlackRock ETH 買い 2025-06 → 2026-06 14ヶ月来安値という timeline）。
 - confidence=中（補足のみ・既存合成の方向に変化なし）。
+
+### 2026-06-30 更新④（新 beat: Hayes「$15K strike puts」FTX崩壊日 / 「US v China ETF競争」2023-11）
+出典: [[CryptoHayes__1589996842409873409]]（2994♥・2022-11-08T15:02Z）/ [[CryptoHayes__1721319347543847182]]（2829♥・2023-11-06T00:11Z）
+
+**観測（事実）**:
+- [[@CryptoHayes]]（2022-11-08）: 「I just bought some $15k strike $BTC puts.」= **FTX崩壊当日** に BTC ~$20K 台で $15K strike の put 購入を公言。その後 BTC は 2022-11 末に ~$15.5K まで下落 = この put は in-the-money に達した。
+- [[@CryptoHayes]]（2023-11-06）: 「Competition is amazing. If the US has its proxy asset mngr, BlackRock, launching an ETF, China needs its proxy asset mngr to launch one too. The US v China economic war is great for $BTC.」= BlackRock ETF 承認（2024-01-10）前夜の 2023-11-06。米中プロキシ競争がBTCに有利という地政学フレーム。
+
+**判断（light-touch）**:
+- 2022-11-08 puts: 既合成「2024-09 cheeky short」（[[CryptoHayes__1831866865846776035]]・2026-06-30 更新③）と同構造—Hayes は長期 macro 強気スタンスを維持しながら**短期方向ポジション（put/short）を公言する**。FTX崩壊日の $15K puts は短期的に的中。「safe haven 推進者が同時に downside をhedging する」実態の追加 track record 点。
+- 2023-11-06「US v China ETF競争」: 既合成「fiat liquidity smoke alarm」（Hayes フレーム群）の延長。米中の金融代理戦争フレームが BTC を both sides が求める = 需要の天井が国家レベルまで上がるという論理。承認後の 2024-03 ATH（~$73K）は方向として的中（旧ツイ = 現在の新 beat ではない）。
+- ⚠️ Hayes のポジション公言は自己申告のみ（[[onchain-verification]]）。
+- 接続: [[majors-rotation-supercycle]]（BTC 長期強気 + 短期方向取引の共存）/ [[rug-anatomy]]（short 公言・bottom call の track record）。
+- confidence=中（補足のみ・既存合成の方向に変化なし）。
 <!-- synthesis:end -->
