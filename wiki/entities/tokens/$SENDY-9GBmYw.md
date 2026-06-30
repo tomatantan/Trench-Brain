@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dying
 title: $SENDY-9GBmYw（Sendy / 2nd mint）
 mint: 9GBmYwDh8rxr8HCoim7ajPBmhpsWtgJJrYuuRtpqpump
 created: 2026-06-30
@@ -45,6 +45,14 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - tagsendy.tech ドメイン整備 = 一定の準備あり vs association marketing（専用アカウントなし）× 先行 mint 死亡 = community 基盤ゼロ継続の可能性が高い。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0）/ [[rug-anatomy]]（同ティッカー再登場 × association marketing）
+
+### 2026-07-01 mcap -80%（$43,381→$8,360）
+**観測（事実）**
+- 2026-06-30T17:50Z: mcap $41,349 → $8,360（flags: mcap-80%）。
+- reply_count=0・real_sol=0 継続。
+
+**判断**
+- birth から数窓で -80% は急崩壊フェーズ。traction ゼロ全期間。同ティッカー再登場 × association marketing が traction に転化しなかった実証進行中。$8k は死亡圏接近。次窓で $5k 以下なら死亡確定候補。
 <!-- synthesis:end -->
 
 ## 関連

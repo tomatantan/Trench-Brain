@@ -217,4 +217,22 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
 - **2701♥ [[lookonchain__1786424681253540337]]**（2024-05-03）: 「Someone lost 1,155 $WBTC($71M) due to a phishing attack. … address poisoning scam」= **2024年5月の旧ツイ**（本 ETH 合成未記録）。ETH タグ付きは「被害者が 0.05 ETH を新アドレスに転送した」という手順の一環。ETH 固有の投資 signal なし。手法はアドレスポイズニング（新アドレスをスキャマーが類似 prefix で模倣）= [[onchain-verification]] の典型的 scam パターンの記録として参照。ETH の価格・ナラティブとは無関係。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。confidence=中（変化なし）。
+
+### 2026-07-01 更新（新 beat: AguilaTrades $83.56M 清算・2025-08-14）
+出典: [[lookonchain__1955978341649146202]]（2,479♥・2025-08-14T13:02Z）
+
+**観測（事実）**: 「Caught in the market crash, AguilaTrades(@AguilaTrades) was liquidated for 18,323 $ETH ($83.56M) again. His total losses exceeded $37M, leaving him with only $330K in his account.」（2025-08-14）
+
+**判断（light-touch）**:
+- 2025-08-14 = Hayes の「$ETH szn / DeFi NFT turbo」（07-16 既合成）/ 「celebrate $ETH=$4,000」（07-20 既合成）宣言から約3〜4週間後。ETH が「szn 宣言後」に市場クラッシュで大型清算が発生した事例。
+- AguilaTrades の総損失 $37M+ / 残高 $330K = **「again」という表現からリピート清算**。以前にも同条件で清算されていた人物。「$ETH long で繰り返し清算される大口」の記録。
+- ⚠️ **survivor bias の反例**: lookonchain が成功事例（2025-08-17「$125K→$29.6M 236x」既合成）を紹介した3日前（08-14）に、同様の ETH long ポジションで $83.56M 清算が発生していた。「成功ケースの陰に清算ケース」の直接的対比として記録。
+- タイムライン上: Hayes 「ETH szn・$4K」コール（07-20）→ 市場クラッシュで ETH 大型清算（08-14）→ 「$125K→$29.6M 236x」紹介（08-17）= 高揚期〜クラッシュ〜survivor 紹介 の 3段階が圧縮して発生。
+- 接続: [[perp-dex-wars]]（高レバレッジ ETH long の清算事例）/ [[onchain-verification]]（AguilaTrades の on-chain 行動は独立確認推奨）/ [[rug-anatomy]]（KOL 強気コール後のクラッシュ清算パターン）。
+- confidence=中（1 事例・survivor bias に対する直接的反例として記録）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
+### 2026-07-01 確認（$BTC 代表ツイ確認・新 beat なし）
+- worklist 代表ツイ「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022-04-07）= 複数サイクル確認済み。新情報なし。
+- worklist 代表ツイ「Caught in the market crash, AguilaTrades(@AguilaTrades) was liquidated for 18,323 $ETH($83.56M) again.」([[@lookonchain]] 2,479♥ = [[lookonchain__1955978341649146202]]・2025-08-14）= 上記 2026-07-01 更新で合成済み。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・AguilaTrades 清算）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

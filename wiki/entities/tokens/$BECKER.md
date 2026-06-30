@@ -2,13 +2,15 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $327,184
+final_mcap: $1,463
 title: $BECKER（The Original Bull）
 mint: 6ChW9PAmX3HMGHm6PskrkYVB9NqWnW8vEpYYe3GYpump
 created: 2026-06-30
 updated: 2026-06-30
-tags: [trench, entity, token, auto-track, graduated, bull-theme, stub]
+tags: [trench, entity, token, auto-track, graduated, bull-theme, dead]
 ---
 
 # $BECKER（The Original Bull）
@@ -49,6 +51,15 @@ tags: [trench, entity, token, auto-track, graduated, bull-theme, stub]
 
 **判断**
 - peak $327k から $53k = peak比-83.7%。一窓で -84% は急崩壊フェーズ。traction0 全期間 = 買い支えゼロ。bull-theme × real_sol=0 × traction0 の型通り崩壊——$DEADSEM（peak $119k→$10k -90.9%）/$RICHES 同型。$10k 台に近づけば死亡確定圏。
+
+### 2026-07-01 死亡確定（mcap枯れ $1,463）
+**観測（事実）**
+- 2026-06-30T17:50Z: mcap $1,463（cause: mcap枯れ）。peak $327,184 比 -99.6%。
+
+**判断（死因・型）**
+- bull-theme × real_sol=0 × traction0 の型通り枯死。bull cluster コホート（$DEADSEM / $TESTIBULL-C6kWVd / $BBF）の一つ。
+- $327k peak は今バッチ中最高水準だったが traction ゼロ全期間——「高 peak ≠ 生存」の補強事例（[[launchpad-economics]] 予測力データ）。
+- 型通り。特段の新情報なし。[[rug-anatomy]] 死亡台帳に記録。
 <!-- synthesis:end -->
 
 ## 関連

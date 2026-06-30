@@ -283,6 +283,11 @@ accounts: 19
 - **2600♥ [[CryptoHayes__1730399123852107890]]**（2023-12-01）: 「It's December and I don't know about you but I'm ready for an old white man to give me some gifts. JAYPOW cut the fucking rates and send $BTC 2 Da Moon!」= **2023年12月の旧ツイ再キャプチャ**（Fed 利下げ期待 → BTC 上昇論）。既合成「BTC = fiat liquidity smoke alarm / Fed policy driven」の2023年版原型。新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
 
+### 2026-07-01 確認（worklist 代表ツイ確認・新 beat なし）
+- worklist 代表ツイ「It's All Over!!! This what happens when no one wants to hold USD in banks that can't borrow from the Fed using #banktermfundingprogram. Cut Cut Cut $BTC = $1mm」([[@CryptoHayes]] 2,456♥ = [[CryptoHayes__1637586222511009794]]・**2023-03-19**）= **旧ツイ再キャプチャ**（SVB崩壊翌週・BTFP発動直後。既合成 2026-06-30 更新⑦の「Kaiseki」[[CryptoHayes__1636503341701255170]]（2023-03-16）と同じ BTFP=YCC フレームの3日後ツイ）。BTFP = 「Fed が銀行に資金を手渡す = USD hold の incentive を壊す → BTC $1mm」という論理。既合成「fiat liquidity smoke alarm」/ 「YCC escalation」（2025-09-16 既記）の原型。新 beat なし。
+- worklist 代表ツイ「A whale withdrew 15K $BTC ($396M) from #Binance just now.」([[@lookonchain]] 2,388♥ = [[lookonchain__1670733543801229312]]・**2023-06-19**）= **旧ツイ再キャプチャ**（2023-06-19、BTC ~$26-27K 台の時期に鯨が 15K BTC を Binance から引き出した観測）。onchain 事実として記録のみ。既合成「BlackRock BTC 入金」「LTHS 80%」などの文脈とは別フェーズ（2023年の底値付近）。現時点の新 beat なし。
+- 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ・Hayes April 2025 シリーズ・YCC escalation・Bull market checklist）に変化なし。confidence=中（変化なし）。
+
 ### 2026-06-30 更新⑦（新 beat: Hayes「Bull market checklist: SLR exemption + Genius Act」2025-06-26 / Kaiseki 旧ツイ 2023-03）
 出典: [[CryptoHayes__1938157277447655585]]（2,581♥・2025-06-26T08:47Z）/ [[CryptoHayes__1636503341701255170]]（2,562♥・2023-03-16T23:02Z・旧ツイ）
 
