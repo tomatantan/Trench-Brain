@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $ZERO
-updated: 2026-06-30
+updated: 2026-06-22
 tags: [trench, entity, token]
 mentions: 6
 accounts: 2

@@ -212,4 +212,9 @@ ETF 流出（2026-06-25）:
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
 - **2801♥ [[lookonchain__1871138914226057482]]**（2024-12-23）: 「North Korean hackers went long $ETH on #Hyperliquid, turning $476,489 into $18,187 — a loss of $458K in just 2 days! As reported by @tayvano_, a North Korean-linked address deposited 476,489 $USDC into #Hyperliquid, went long on $ETH at $3,791.8, and was liquidated.」= **2024年12月の旧ツイ**（本 ETH 合成未記録）。**light-touch 追記**: DPRK 関連アドレスが Hyperliquid で ETH ロングを建て清算された事例。ETH 購入価格 $3,791.8（2024-12月）は現在（~$1,560）から **-59%** = 仮に持ち続けていれば大幅損失の価格帯。技術的帰属（@tayvano_ 観測）は独立確認推奨（[[onchain-verification]]）。**Hyperliquid の完全な open access** = 制裁対象ウォレットを含む誰でも参加できる perp 取引所の構造的事実（[[perp-dex-wars]]）。ETH 固有の signal というより Hyperliquid の開放性と国家行為者の crypto 参入事例として記録。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-30 確認⑤（worklist 代表ツイ確認・WBTC phishing 旧ツイ記録）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
+- **2701♥ [[lookonchain__1786424681253540337]]**（2024-05-03）: 「Someone lost 1,155 $WBTC($71M) due to a phishing attack. … address poisoning scam」= **2024年5月の旧ツイ**（本 ETH 合成未記録）。ETH タグ付きは「被害者が 0.05 ETH を新アドレスに転送した」という手順の一環。ETH 固有の投資 signal なし。手法はアドレスポイズニング（新アドレスをスキャマーが類似 prefix で模倣）= [[onchain-verification]] の典型的 scam パターンの記録として参照。ETH の価格・ナラティブとは無関係。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

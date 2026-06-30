@@ -3,6 +3,7 @@ type: entity
 kind: token
 source: auto-track
 status: watch
+peak_mcap: $327,184
 title: $BECKER（The Original Bull）
 mint: 6ChW9PAmX3HMGHm6PskrkYVB9NqWnW8vEpYYe3GYpump
 created: 2026-06-30
@@ -40,6 +41,14 @@ tags: [trench, entity, token, auto-track, graduated, bull-theme, stub]
 - ⚠️ $299k × traction0 × real_sol=0 は [[launchpad-economics]] 跳躍台帳の bot pump 型に類似。持続性は未検証。
 
 **接続概念**: [[launchpad-economics]]（$299k graduated × real_sol=0 × traction0）/ [[rug-anatomy]]（bull-theme × traction0）
+
+### 2026-06-30 mcap -84%（$327,184→$53,409）
+**観測（事実）**
+- 2026-06-30T14:43Z: mcap $327,184 → $53,409（-83.7%）。flags: mcap-84%。
+- reply_count=0・real_sol=0 継続。peak_mcap を $327,184 に更新（birth 観測 $299k を超えていた）。
+
+**判断**
+- peak $327k から $53k = peak比-83.7%。一窓で -84% は急崩壊フェーズ。traction0 全期間 = 買い支えゼロ。bull-theme × real_sol=0 × traction0 の型通り崩壊——$DEADSEM（peak $119k→$10k -90.9%）/$RICHES 同型。$10k 台に近づけば死亡確定圏。
 <!-- synthesis:end -->
 
 ## 関連

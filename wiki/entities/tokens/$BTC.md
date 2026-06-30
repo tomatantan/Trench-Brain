@@ -282,4 +282,26 @@ accounts: 19
 - **2607♥ [[CryptoHayes__1724939480485052660]]**（2023-11-15）: 「Keep ur eye on the prize. Almost $200bn liquidity injected since the start of Nov as RRP balance falls and TGA balance hasn't changed. Risk assets like $BTC and #crypto will continue to fly.」= **2023年11月の旧ツイ再キャプチャ**（RRP balance 縮小・TGA 変化なし → BTC/crypto 上昇論）。Hayes の macro フレーム「RRP/TGA 二軸の fiat liquidity 観測 → BTC ラリー」の2023年版。既合成「fiat liquidity smoke alarm / PBOC 代替論」（Hayes April 2025 シリーズ）の原型。新 beat なし。
 - **2600♥ [[CryptoHayes__1730399123852107890]]**（2023-12-01）: 「It's December and I don't know about you but I'm ready for an old white man to give me some gifts. JAYPOW cut the fucking rates and send $BTC 2 Da Moon!」= **2023年12月の旧ツイ再キャプチャ**（Fed 利下げ期待 → BTC 上昇論）。既合成「BTC = fiat liquidity smoke alarm / Fed policy driven」の2023年版原型。新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
+
+### 2026-06-30 更新⑦（新 beat: Hayes「Bull market checklist: SLR exemption + Genius Act」2025-06-26 / Kaiseki 旧ツイ 2023-03）
+出典: [[CryptoHayes__1938157277447655585]]（2,581♥・2025-06-26T08:47Z）/ [[CryptoHayes__1636503341701255170]]（2,562♥・2023-03-16T23:02Z・旧ツイ）
+
+**観測（事実）**:
+- [[@CryptoHayes]]（2025-06-26）: 「Bull market checklist: - UST SLR exemption progressing / Genius Act hands US stablecoin mrkt to banks, next essay will explain y +ve / ignore Iran conflict / $BTC ATHs are coming 😘」([[CryptoHayes__1938157277447655585]] 2,581♥)
+- [[@CryptoHayes]]（2023-03-16）: 「"Kaiseki" is an essay about how the #banktermfundingprogram is Yield Curve Control by another name. Get ready for infinite money printing and $BTC $1 million.」([[CryptoHayes__1636503341701255170]] 2,562♥) = **旧ツイ**（SVB 崩壊 / BTFP 発動直後）。
+
+**判断（新 beat: 2025-06-26 "checklist"）**:
+- 本ツイは BTC ATH 突破（2025-07-11・既合成）の**約2週間前**。Hayes が ATH 到達の条件として挙げた規制・政治チェックリスト:
+  1. **UST SLR exemption**: 銀行の補完的レバレッジ比率（SLR）から米国国債を免除する措置の進捗。銀行が国債を自由に保有できれば BTC/crypto の市場も含め全般的リスクアペタイトが拡大するという流動性経路。
+  2. **Genius Act**: 米国ステーブルコイン法案が「銀行に stablecoin 市場を渡す」という形で成立 → Hayes 解釈では BTC に対して +ve（銀行が stablecoin 発行する → 銀行が crypto エコシステムの内部に入る → BTC ポジションも正当化されやすくなる）。
+  3. **Iran conflict**: 「Trump/Bibi/Khamenei 全員が紛争終了のふりをしているので投資家も無視してよい」= 地政学的 tail risk を意図的に棚上げする macro 読み。
+- **既合成との接続**: Hayes の既合成 macro フレーム（「Fed 政策 / PBOC / YCC → BTC」「JAYPOW fired/not fired = BTC rips both ways」「TACO on tariffs」）に、**規制的カタリスト（SLR + stablecoin 法）** という新軸が加わる。2025-06-26 = ATH 直前の "checklist complete" 宣言として記録。ATH 突破（07/11 既合成）が約2週間後に実現したことで、Hayes の checklist は方向として的中した形になる（ただしどの要素が決定的だったかは不明）。
+- ⚠️ **現在（2026-06-30）との乖離**: BTC ATH 突破（07/11）→ $59K（2026-06-25・既合成 = 21ヶ月来安値）。SLR exemption / Genius Act の進捗が BTC を ATH に押し上げたとしても、その後の再下落は既合成の構造（BlackRock ETF 流出・大規模清算・20x short 継続・STRC 潜在リスク）で説明される。規制 bullish × 価格弱含みの現在の二重構造。
+- 接続: [[majors-rotation-supercycle]]（規制的 bullish checklist = ローテ上流の条件整備）/ [[onchain-verification]]（SLR exemption・Genius Act の実際の進捗は独立確認推奨）。
+- confidence=中（Hayes の checklist は方向として的中したが、現在の $59K と乖離が続く）。
+
+**旧ツイ（2023-03-16 Kaiseki）light-touch**:
+- 「#banktermfundingprogram = YCC by another name」= SVB 崩壊（2023-03-10）直後の Fed の BTFP（Bank Term Funding Program）発動を受けて Hayes が「これは事実上 YCC」と論じた 2023-03 のエッセイ紹介ツイ。
+- **既合成「YCC = BTC $1M」**（2025-09-16 "Miran 確認 → YCC → BTC $1M"・$BTC 合成 更新⑥）の**2年前の発生源**。2023-03 BTFP → 2025-09 YCC escalation という Hayes の macro フレームの歴史的起点。
+- 接続: [[majors-rotation-supercycle]]（BTFP / YCC フレームの起点 = 2023-03）。旧ツイ・現在の新 beat なし。
 <!-- synthesis:end -->

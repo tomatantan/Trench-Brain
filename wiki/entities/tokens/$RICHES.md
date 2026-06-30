@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $RICHES（The TJR Bull）
 mint: EBrsfGrqd2wPhWhNpgcTsnJAyft6RTVpYzffJ4Q7pump
 created: 2026-06-30
@@ -40,6 +41,13 @@ tags: [trench, entity, token, auto-track, graduated, bull-theme, kol-name-borrow
 - ⚠️ KOL 本人 @tjrbull が CA を言及しているか一次確認推奨（sources/x に言及あれば裏取り可能）。未確認のまま「公認」前提は危険。
 
 **接続概念**: [[launchpad-economics]]（$115k graduated × real_sol=0 × traction0）/ [[rug-anatomy]]（KOL名借用型候補）
+
+### 2026-06-30 死亡確定（最終）
+**観測（事実）**
+- 2026-06-30T14:43Z: mcap $1,687。cause: mcap枯れ。peak $115,447 → $1,687 = peak比-98.5%。
+
+**判断（最終）**
+- KOL 名借用型（@tjrbull 参照）× real_sol=0 × traction0 → 型通り枯死。CA 一次確認なしで KOL 名を冠しても community は形成されない。[[rug-anatomy]] 死亡台帳に算入。生存: ~数時間（同バッチ birth→death）。
 <!-- synthesis:end -->
 
 ## 関連

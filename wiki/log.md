@@ -2,6 +2,12 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-01 autonomous-research: 仮説「先代 dead → 後継 tracked 同名 re-mint では後継 peak が先代を上回る（ブランド残留仮説）」を tracked データで検証。N=3（[[$MUTUMBO]] ×46 / [[$TESTIBULL]] ×885 / [[$GUTCHU]] ×1.25）全件確認・対照群（[[$FOMO]]・[[$ORANGIE]]・[[$ANSEMWHEEL]]：全 dead）は改善が保証されないことも確認。判定: 不確定（方向あり・N=3）→ [[rug-anatomy]]「示唆/賭けの仮説」に追記。
+
+- 2026-06-30 X-synthesis worklist §1a 3件（最終バッチ④）: **$BTC**（[[CryptoHayes__1938157277447655585]] 2025-06-26「Bull market checklist: SLR exemption / Genius Act / ignore Iran」新beat = 規制的 bullish カタリスト軸を追記（BTC ATH 直前 checklist・方向的中確認）+ [[CryptoHayes__1636503341701255170]] 2023-03-16「Kaiseki = BTFP=YCC by another name」旧ツイ = Hayes YCC thesis の2023年発生源として記録 → [[majors-rotation-supercycle]]）/ **$ETH**（zhusu 旧ツイ確認済み / [[lookonchain__1786424681253540337]] 2024-05-03「$WBTC $71M phishing」= ETH タグ付き旧ツイ・ETH への直接 signal なし・アドレスポイズニング事例として [[onchain-verification]] に記録）/ **$MU**（MEXC/DEG_2020 旧ツイ・複数サイクル確認済み・新beat なし・合成完結）。§1a 全3件完了。主な⚠️: SLR/Genius Act 実際の進捗は独立確認推奨。
+
+- 2026-06-30 auto-synthesis (synth_queue 14:42Z): births=3（[[$SENDY-9GBmYw]] "Sendy" 2nd mint $43k graduated association-marketing / [[$SON]] "son" $90k prebond social皆無 generic / [[$BULLDOG]] "just a bulldog" $1.3k graduated 誕生即死）・changes=2（[[$BBF]] -40% $123k→$73k dead-cat bounce後再崩壊継続 / [[$BECKER]] -84% $327k→$53k 急崩壊フェーズ）・deaths=3（[[$RICHES]] mcap枯れ $1.7k peak比-98.5% KOL名借用型 / [[$SCRALL]] mcap枯れ $1.5k peak比-98.4% social準備×traction0 / [[$BULLDOG]] $1.3k 誕生即死）→ [[rug-anatomy]]死亡台帳+3。
+
 - 2026-06-30 X-synthesis worklist §1a 3件（最終バッチ③）: **$BTC**（Hayes 2023-11-15「RRP縮小/TGA変化なし→BTC/crypto fly」/ 2023-12-01「JAYPOW利下げ→BTC Da Moon」= 旧ツイ2本再キャプチャ・新beat なし。既合成「fiat liquidity smoke alarm」の2023年版原型として確認のみ）/ **$ETH**（zhusu 旧ツイ確認済み / [[lookonchain__1871138914226057482]] 2024-12-23「北朝鮮ハッカーが Hyperliquid で ETH ロング→$476K 清算」= 本合成未記録の旧ツイ・Hyperliquid open access + 国家行為者 crypto 参入事例として light-touch 追記 → [[perp-dex-wars]][[onchain-verification]]）/ **$MU**（旧ツイ確認済み・新 beat なし・合成完結）。§1a 全3件完了。主な⚠️: DPRK 帰属は @tayvano_ 観測・独立確認推奨。
 
 - 2026-06-30 auto-synthesis (synth_queue 11:39Z): births=5（[[$BECKER]] "The Original Bull" $299k graduated bull-theme real_sol=0 traction0 / [[$AT-6S7wmw]] "at" $138k prebond real_sol有り social皆無 / [[$RICHES]] "The TJR Bull" $115k graduated KOL名借用型候補 / [[$SCRALL]] $89k graduated social準備あり traction0 / [[$LFG]] $1.5k graduated 即死）・changes=1（[[$ZERO]] +42% $2.17M→$3.07M KOL/traction依然ゼロ）・deaths=2（[[$GAMBINO]] mcap枯れ $2.8k peak比-57% ironic命名×traction0 型通り / [[$LFG]] $1.5k 誕生即死）→ [[rug-anatomy]]死亡台帳+2。

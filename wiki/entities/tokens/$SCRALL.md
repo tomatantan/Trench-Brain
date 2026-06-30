@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $SCRALL（Scrall）
 mint: AowHTPPmh6U38DAQxzjfF7gGTRnwzqvAp4AgWCwSpump
 created: 2026-06-30
@@ -41,6 +42,13 @@ tags: [trench, entity, token, auto-track, graduated, stub]
 - ⚠️ website・twitter は準備されているが実需の証拠はまだない。
 
 **接続概念**: [[launchpad-economics]]（$88k graduated × social準備 × traction0）/ [[survivor-memes]]（観察対象）
+
+### 2026-06-30 死亡確定（最終）
+**観測（事実）**
+- 2026-06-30T14:43Z: mcap $1,508。cause: mcap枯れ。peak $92,348 → $1,508 = peak比-98.4%。
+
+**判断（最終）**
+- social準備あり（@ScrallSol + scrall.live）× real_sol=0 × traction0 → 型通り枯死。website/twitter を整備しても有機的 traction がゼロなら mcap は維持されない。[[rug-anatomy]] 死亡台帳に算入。
 <!-- synthesis:end -->
 
 ## 関連
