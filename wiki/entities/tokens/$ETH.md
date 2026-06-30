@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $ETH
-updated: 2026-06-30
+updated: 2026-06-22
 tags: [trench, entity, token]
 mentions: 149
 accounts: 18
@@ -207,4 +207,9 @@ ETF 流出（2026-06-25）:
   - **タイムライン**: 2025-01-19 6,041 ETH at $3,311（$20M）→ 2025-01-20 ETH 分散購入 $4.7M → 2026-06 ETH 14ヶ月来安値 ~$1,560。購入コスト $3,311 から **-53%** 含み損。
   - ⚠️ World Liberty = Trump 陣営の政治的エンティティ。investment の独立性・backing の透明性は不明。
 - **判断（light-touch）**: 就任前日 $20M 集中購入は、既合成「Trump チームが ETH を完全に排除していない」（政治リスク/プレミアム・6/29 確認④）の実額確認事例。購入コスト（$3,311）から現在（~$1,560）の -53% は「政治的 ETH 購入が価格を支持しない」= 既合成「institutional adoption ≠ price support」の追加裏付け。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（追記のみ）。
+
+### 2026-06-30 確認④（worklist 代表ツイ確認・North Korean Hyperliquid ETH long 追記）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。複数サイクル確認済み。新情報なし。
+- **2801♥ [[lookonchain__1871138914226057482]]**（2024-12-23）: 「North Korean hackers went long $ETH on #Hyperliquid, turning $476,489 into $18,187 — a loss of $458K in just 2 days! As reported by @tayvano_, a North Korean-linked address deposited 476,489 $USDC into #Hyperliquid, went long on $ETH at $3,791.8, and was liquidated.」= **2024年12月の旧ツイ**（本 ETH 合成未記録）。**light-touch 追記**: DPRK 関連アドレスが Hyperliquid で ETH ロングを建て清算された事例。ETH 購入価格 $3,791.8（2024-12月）は現在（~$1,560）から **-59%** = 仮に持ち続けていれば大幅損失の価格帯。技術的帰属（@tayvano_ 観測）は独立確認推奨（[[onchain-verification]]）。**Hyperliquid の完全な open access** = 制裁対象ウォレットを含む誰でも参加できる perp 取引所の構造的事実（[[perp-dex-wars]]）。ETH 固有の signal というより Hyperliquid の開放性と国家行為者の crypto 参入事例として記録。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

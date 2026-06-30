@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $ZERO
-updated: 2026-06-22
+updated: 2026-06-30
 tags: [trench, entity, token]
 mentions: 6
 accounts: 2
@@ -44,4 +44,9 @@ accounts: 2
 - ⚠️ [[onchain-verification]] 規律: volume 先行×KOL なし = whale 仕込み可能性を排除できない。資金源の一次確認推奨。
 
 接続: [[launchpad-economics]] / [[ai-memes]] / [[survivor-memes]]（生存試験中）/ [[onchain-verification]]
+
+**2026-06-30 auto-track update（+42% / $2.17M→$3.07M）**
+- mcap $2,167,508 → $3,073,249（+42%）。reply=0・kol 依然皆無。complete=true（graduated 確定）。
+- $3M 台は launchpad 産として異例の水準。ただし KOL/community traction がゼロのまま volume 先行継続。
+- ⚠️ $ZERO の mcap 上昇は有機的需要か whale 操作かの判断が変わらず保留。[[onchain-verification]] 規律: 一次確認（資金源・wallet 集中度）を推奨。[[survivor-memes]] 候補として引き続き観察。
 <!-- synthesis:end -->

@@ -2,6 +2,10 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-06-30 X-synthesis worklist §1a 3件（最終バッチ③）: **$BTC**（Hayes 2023-11-15「RRP縮小/TGA変化なし→BTC/crypto fly」/ 2023-12-01「JAYPOW利下げ→BTC Da Moon」= 旧ツイ2本再キャプチャ・新beat なし。既合成「fiat liquidity smoke alarm」の2023年版原型として確認のみ）/ **$ETH**（zhusu 旧ツイ確認済み / [[lookonchain__1871138914226057482]] 2024-12-23「北朝鮮ハッカーが Hyperliquid で ETH ロング→$476K 清算」= 本合成未記録の旧ツイ・Hyperliquid open access + 国家行為者 crypto 参入事例として light-touch 追記 → [[perp-dex-wars]][[onchain-verification]]）/ **$MU**（旧ツイ確認済み・新 beat なし・合成完結）。§1a 全3件完了。主な⚠️: DPRK 帰属は @tayvano_ 観測・独立確認推奨。
+
+- 2026-06-30 auto-synthesis (synth_queue 11:39Z): births=5（[[$BECKER]] "The Original Bull" $299k graduated bull-theme real_sol=0 traction0 / [[$AT-6S7wmw]] "at" $138k prebond real_sol有り social皆無 / [[$RICHES]] "The TJR Bull" $115k graduated KOL名借用型候補 / [[$SCRALL]] $89k graduated social準備あり traction0 / [[$LFG]] $1.5k graduated 即死）・changes=1（[[$ZERO]] +42% $2.17M→$3.07M KOL/traction依然ゼロ）・deaths=2（[[$GAMBINO]] mcap枯れ $2.8k peak比-57% ironic命名×traction0 型通り / [[$LFG]] $1.5k 誕生即死）→ [[rug-anatomy]]死亡台帳+2。
+
 - 2026-06-30 X-synthesis worklist §1a 3件: **$BTC**（Hayes [[CryptoHayes__1968060229805019140]] 2025-09-16「Miran確認/YCC/BTC=$1M」新beat = fiat liquidity thesis が QE→YCC へ escalate・Apr-22「refuse to respect the pump」light-touch追記 → [[majors-rotation-supercycle]]）/ **$ETH**（Hayes [[CryptoHayes__1946867687927193740]] 2025-07-20「celebrate $ETH=$4,000」新beat = Jul-10/11/16に続く第4の ETH 強気コール・現在~$1,560で-61% → [[rug-anatomy]]）/ **$MU**（MEXC/DEG_2020 旧ツイ・複数サイクル確認済み・新beat なし）。§1a 全3件完了。主な⚠️: Hayes YCC コールの実現度未検証・ETH $4K コール現実大幅乖離。
 
 - 2026-06-30 auto-synthesis (synth_queue 08:36Z): births=1（[[$GAMBINO]] "The Last Coin" $6k graduated real_sol=0 traction0 stub）・changes=1（[[$BBF]] +89% $58.7k→$110.9k 2回目 dead-cat bounce・traction0継続・peak比-37%）・deaths=1（[[$DOG]] mcap枯れ $2k peak比-90.9% generic-dog-meme×real_sol=0×traction0 型通り → [[rug-anatomy]]死亡台帳+1）。

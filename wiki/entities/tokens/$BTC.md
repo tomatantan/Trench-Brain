@@ -2,7 +2,7 @@
 type: entity
 kind: token
 title: $BTC
-updated: 2026-06-30
+updated: 2026-06-22
 tags: [trench, entity, token]
 mentions: 155
 accounts: 19
@@ -277,4 +277,9 @@ accounts: 19
 - ⚠️ Hayes のポジション公言は自己申告のみ（[[onchain-verification]]）。
 - 接続: [[majors-rotation-supercycle]]（BTC 長期強気 + 短期方向取引の共存）/ [[rug-anatomy]]（short 公言・bottom call の track record）。
 - confidence=中（補足のみ・既存合成の方向に変化なし）。
+
+### 2026-06-30 確認④（worklist 代表ツイ確認・新 beat なし）
+- **2607♥ [[CryptoHayes__1724939480485052660]]**（2023-11-15）: 「Keep ur eye on the prize. Almost $200bn liquidity injected since the start of Nov as RRP balance falls and TGA balance hasn't changed. Risk assets like $BTC and #crypto will continue to fly.」= **2023年11月の旧ツイ再キャプチャ**（RRP balance 縮小・TGA 変化なし → BTC/crypto 上昇論）。Hayes の macro フレーム「RRP/TGA 二軸の fiat liquidity 観測 → BTC ラリー」の2023年版。既合成「fiat liquidity smoke alarm / PBOC 代替論」（Hayes April 2025 シリーズ）の原型。新 beat なし。
+- **2600♥ [[CryptoHayes__1730399123852107890]]**（2023-12-01）: 「It's December and I don't know about you but I'm ready for an old white man to give me some gifts. JAYPOW cut the fucking rates and send $BTC 2 Da Moon!」= **2023年12月の旧ツイ再キャプチャ**（Fed 利下げ期待 → BTC 上昇論）。既合成「BTC = fiat liquidity smoke alarm / Fed policy driven」の2023年版原型。新 beat なし。
+- 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->
