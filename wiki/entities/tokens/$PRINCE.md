@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $18,485
 title: $PRINCE（Prince of Paris）
 mint: 6K1vbvtgw8vaxDtvW4rzirERGCFxJojNWhWqwt7Npump
@@ -41,6 +42,10 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - "Prince of Paris" 命名——文化参照（ラッパー / フランス王族 / pop culture）だが特定のミームフックは不明瞭。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0）/ [[rug-anatomy]]（association marketing × low mcap）
+
+### 最終合成（dead 確定 2026-06-30T20:56Z）
+- **cause**: mcap枯れ（$1,374・peak比-92.6%）
+- association marketing × $18k 低 peak → 型通り即死。[[rug-anatomy]] 死亡台帳算入。
 <!-- synthesis:end -->
 
 ## 関連

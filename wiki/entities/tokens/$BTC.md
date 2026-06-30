@@ -288,6 +288,21 @@ accounts: 19
 - worklist 代表ツイ「A whale withdrew 15K $BTC ($396M) from #Binance just now.」([[@lookonchain]] 2,388♥ = [[lookonchain__1670733543801229312]]・**2023-06-19**）= **旧ツイ再キャプチャ**（2023-06-19、BTC ~$26-27K 台の時期に鯨が 15K BTC を Binance から引き出した観測）。onchain 事実として記録のみ。既合成「BlackRock BTC 入金」「LTHS 80%」などの文脈とは別フェーズ（2023年の底値付近）。現時点の新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・safe haven KOL ナラティブ vs $59K 実価格乖離・全体収縮フェーズ・Hayes April 2025 シリーズ・YCC escalation・Bull market checklist）に変化なし。confidence=中（変化なし）。
 
+### 2026-07-01 更新（新 beat: 10K BTC 14yr 休眠 wallet 移動 2025-07-04 / James Wynn 40x long → short フリップ 2025-06）
+出典: [[lookonchain__1940986017202557270]]（2,255♥・2025-07-04T04:08Z）/ [[lookonchain__1929463835775348802]]（1,977♥・2025-06-02T09:03Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-07-04）: 「14年以上休眠していた wallet が 10,000 $BTC（$1.09B）を全額転送。2011-04-03 に $0.78 で 10,000 BTC（$7,805）を受け取った。」([[lookonchain__1940986017202557270]] 2,255♥)
+  = 購入コスト $7,805 → 転送時評価 $1.09B（@$109K/BTC） = 約 **139,000x** リターン。転送日 2025-07-04 = Hayes が「BTC ATH on good volume」と公言した 2025-07-11 の**7日前**。
+- [[@lookonchain]]（2025-06-02）: 「James Wynn(@JamesWynnReal) is back — opening a $BTC long position of 945 $BTC($99.5M) with 40x leverage. The liquidation price is $104,580.」([[lookonchain__1929463835775348802]] 1,977♥)
+  = 2025-06-02、BTC ~$105K 水準で 40x long。清算価格 $104,580 = エントリーから ~1-2% のタイトな buffer。
+
+**⚠️ 判断**:
+- **10K BTC 14yr 休眠 wallet（2025-07-04）**: 初期合成で記録した「BTC OG 80,009 $BTC woke after 14yr dormancy」に続く**2例目**の 14yr 休眠 OG 移動。ATH（2025-07-11）の7日前に 10K BTC を移動 = OG が **ATH 到達圏で手放した** onchain 観測。既合成「BlackRock BTC 入金（2026-06-25/26）が出口向けか custody か二択」「LTHS 80% / 53% 含み損」の文脈では、2025-07 ATH 局面での OG 利確行動が 2026-06 弱地の先行形成に寄与した可能性がある。
+- **James Wynn 40x long → short フリップ**: 既合成「2025-06-08: Wynn が $481 referral reward で即 40x short → 当日損失 $113」（[[lookonchain__1931672924643369419]]・既記 2026-06-29 確認⑥）の**6日前**に、同人物が $99.5M の 40x long を開いていた。清算価格 $104,580（エントリー ~$105-107K 相当）のタイトさから、Jun-02〜08 の間に**long が清算 → 即座に逆方向の short に転換**という行動パターンが推定される。「$99.5M long → 清算 → $481 short」という規模の非対称性がさらなる特徴。Wynn = 超高レバレッジ・高頻度フリップ・方向に対する fixation のない degen として記録（[[rug-anatomy]]）。
+- 接続: [[onchain-verification]]（OG 14yr 休眠 wallet 転送 = onchain 観測事実・独立確認済み型 / Wynn の liq 詳細は推定、実確認推奨）/ [[majors-rotation-supercycle]]（OG が ATH 直前に distribution = 2025-07 の "distribution フェーズ" の追加証拠）/ [[rug-anatomy]]（Wynn の超高レバ・逆張り即転換パターン）。
+- confidence=中（onchain 事実は確認。Wynn の liq → short 転換のタイムラインは推定）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
+
 ### 2026-06-30 更新⑦（新 beat: Hayes「Bull market checklist: SLR exemption + Genius Act」2025-06-26 / Kaiseki 旧ツイ 2023-03）
 出典: [[CryptoHayes__1938157277447655585]]（2,581♥・2025-06-26T08:47Z）/ [[CryptoHayes__1636503341701255170]]（2,562♥・2023-03-16T23:02Z・旧ツイ）
 

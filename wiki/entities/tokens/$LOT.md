@@ -3,7 +3,7 @@ type: entity
 kind: token
 source: auto-track
 status: watch
-peak_mcap: $25,564
+peak_mcap: $51,735
 title: $LOT（LEAGUE OF TRENCHES）
 mint: ByMzTYShp2mnswUBW2du1tgCUTDVw8DTheJH7jc5pump
 created: 2026-07-01
@@ -20,7 +20,7 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 | pool | 8eEza3N2AQpunfpxoCiPfFbwEjU9zFD8FPP6jGwxJB75 |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $25,564（2026-06-30T17:49Z） |
-| peak_mcap | $25,564（暫定） |
+| peak_mcap | $51,735（2026-06-30T20:56Z） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/lotonsolana（専用 X アカウント） |
@@ -41,7 +41,16 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 - playlot.xyz の整備は $25k mcap に対してコスト過剰に見える——dev の意図 or 投機的準備の両義。
 - ⚠️ "LEAGUE OF TRENCHES" は crypto trench の自己言及命名——内向きコミュニティ向けだが traction 証拠なし。
 
-**接続概念**: [[launchpad-economics]]（graduated × $25k × traction0）/ [[rug-anatomy]]（social準備あり × traction転化なし型）
+### 2026-06-30T20:56Z mcap +99%（$25,994→$51,735）
+**観測（事実）**
+- mcap $25,994→$51,735（flags: mcap+99%・GRADUATED 確定済）。reply=0・real_sol=0 継続。
+- twitter https://x.com/lotonsolana / website https://playlot.xyz/ 継続確認。
+
+**判断**
+- +99% は BREAKOUT 閾値（+100%）直下——出来高主導の上昇。traction ゼロ全期間継続。
+- $51k まで来ても reply=0 全期間 = [[launchpad-economics]] 「graduated-but-empty」型。social 整備があっても traction に転化していない典型進行中。
+
+**接続概念**: [[launchpad-economics]]（graduated × $51k × traction0）/ [[rug-anatomy]]（social準備あり × traction転化なし型）
 <!-- synthesis:end -->
 
 ## 関連

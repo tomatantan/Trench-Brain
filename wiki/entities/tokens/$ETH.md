@@ -235,4 +235,16 @@ ETF 流出（2026-06-25）:
 - worklist 代表ツイ「mental math with $eth will be a lot easier when it 10k」([[@zhusu]] 3,864♥ = [[zhusu__1389092285992771587]]・2022-04-07）= 複数サイクル確認済み。新情報なし。
 - worklist 代表ツイ「Caught in the market crash, AguilaTrades(@AguilaTrades) was liquidated for 18,323 $ETH($83.56M) again.」([[@lookonchain]] 2,479♥ = [[lookonchain__1955978341649146202]]・2025-08-14）= 上記 2026-07-01 更新で合成済み。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・AguilaTrades 清算）に変化なし。confidence=中（変化なし）。
+
+### 2026-07-01 更新②（新 beat: whale 50x short $3,220 で $58M 含み益・2025-02-25）
+出典: [[lookonchain__1894421102451200470]]（2,475♥・2025-02-25T16:16Z）
+
+**観測（事実）**: 「$3,220 で $ETH を 50x ショートした whale が現在 $58M 以上（funding fees 含む）の含み益を持っている。」（2025-02-25）
+
+**判断（light-touch）**:
+- 2025-02-25 = ETH が 2025 年序盤に $3,220 のローカルトップ付近から下落しつつある局面。この whale は ETH のトップ圏を 50x short で捉え、snapshot 時点で $58M+ 含み益を保有。既合成「ETH 14ヶ月来安値 ~$1,560（2026-06-25）」との方向は完全に一致: ETH は $3,220 から長期的に大幅下落。
+- ⚠️ $58M 益の規模から逆算すると、ポジション規模は相当大きい（50x 前提で $3,220 → 下落幅 × ポジションサイズ = $58M）。ただし 2025-02-25 の snapshot であり、その後 whale が決済したかどうかは不明（[[onchain-verification]]）。現在（2026-06-30 ETH ~$1,560）まで継続保有なら利益はさらに大幅拡大している計算。
+- **既合成「Hyperliquid TOP10 の ETH 273億円 short → クローズ（2026-06-22）」**（2026-06-23 更新②③）とは別の whale/取引所・別の時点の事例。2025年初頭から ETH の下落 trend が大口 short によって構造的に押さえられてきた可能性を示す先例として記録。
+- 接続: [[majors-rotation-supercycle]]（ETH $3,220 → $1,560 下落 = ローテ中継点が点火しなかった実証）/ [[onchain-verification]]（whale 50x short の継続/決済は独立確認推奨）。
+- confidence=低〜中（2025-02-25 の snapshot。現 ETH 価格との方向は一致）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
 <!-- synthesis:end -->

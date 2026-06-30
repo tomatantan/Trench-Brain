@@ -2,7 +2,7 @@
 type: concept
 title: 型 — launchpad 経済圏（Pump.fun / $PUMP＝memeの供給工場）
 created: 2026-06-22
-updated: 2026-06-24
+updated: 2026-07-01
 tags: [trench, concept, pattern, launchpad, pumpfun, supply, solana]
 memetic_potential: 中
 confidence: 中〜高
@@ -54,6 +54,14 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - ⚠️ 留保: 母集団は同一launchpad・近時間帯で独立性低・現mcap近似。だが gate差(75% vs 13%)は大きく型として頑健。
 - 含意（賭け）: **"graduated・traction無し" は最強の死signal**（/check が avoid に振る根拠）。逆に **mcap勢い門通過 × KOL/reply traction** が相対的 survivor 候補＝[[manipulation-playbook]] で手口を除外した上で見る。
 
+### gate の late-entry バイアス（upside 天井の研究・2026-07-01・N=20 vs 86）
+- **仮説**: `traction:mcap>=30000` gate（客観 MCAP 閾値で捕捉）で入った銘柄は peak mcap $200k 未満に収まる。早期 gate（KOL/graduated/user_checked）には $200k+ が複数存在する。
+- **検証**: mcap>=30000 群 N=20（dead 3 / tracked 17）、早期 gate 群 N≈86（dead 67 / tracked 19）
+  - mcap>=30000 群: **$200k+ = 0/20 件**。最大 $MBAPEPE/$CHIBUL 各 $154k。
+  - 早期 gate 群: $200k+ 複数確認——dead では $TOGI(407k)/$BECKER(327k)/$DOGPLANE(300k)/$$SUNBULL(119k) など、tracked では $JOTCHUA(11.1M)/$TESTIBULL(2.5M)/$BELMAR(2.2M)/$ZERO(3.1M)/$滑る猫(972k)/$BITBOY(488k)/$WEN(235k)。
+- **判定**: **確証**（0/20 vs 多数、完全分離）
+- **含意（gate 設計への示唆）**: mcap>=30000 gate は「$30k 到達後に初めて捕捉」＝その時点が既に peak 近傍になりやすく、以後の upside 余地が小さい構造的 late-entry バイアスを持つ。**「大きく跳ねる（$200k+）」銘柄は KOL/graduated/user_checked いずれかで早期に捕捉されている**。mcap>=30000 gate の役割は「見落とし防止（安全ネット）」であり、主力 upside 発掘には使えない。
+
 ### peak mcap 規模の予測力（[[predictive-study]] N=99）
 - **peak mcap <10k ＝ 死亡率 100%（24/24）**＝最も clean な死signal。小peakは mcap勢いが立たず事実上全滅＝/check は「peak/現mcap が極小」を強い avoid に。
 - 10-50k 42% → 50k超は概ね 23-25%＝**規模が立つほど(=社会的需要の代理)生存率上昇**。但し >1M でも 25%死＝大型でも安全でない。
@@ -103,6 +111,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$GUTCHU-GzfBEf]]（GUTCHU 2nd mint） | +106% | $49.3k→$101.3k | reply0 / KOL0（全期間）・real_sol 3.26SOL | birth→BREAKOUT が同一観測バッチ内（超短時間）。prebond 継続。先行同名 mint（DJjg...）が+81% BREAKOUT-then-dead 前例あり | **同名2nd attempt 即BREAKOUT**（先行 mint 死亡後に同名で再 launch → 同バッチで BREAKOUT。traction0 × social 皆無 × real_sol 低値 = whale 単独 pump 最有力。BREAKOUT-then-dead 最有力——先行 mint が同型で死亡済で 2nd attempt でも traction が生まれない場合、3rd 以降も同パスと推定） |
 | [[$DEADSEM]] | +301% | $29.8k→$119.4k | reply0 / KOL0（全期間） | 不明（ironic "dead bull" 命名 × X community リンク × real_sol=0 × graduated） | traction0×出来高先行 BREAKOUT×real_sol=0＝$AEGIS/$JOKER/$JALAPEÑO 同型・BREAKOUT-then-dead 候補 |
 | [[$TESTIBULL-C6kWVd]] | +2014% | $118.8k→$2.51M | reply0 / KOL0（全期間） | 不明（"testibull" bull cluster 命名 × twitter:DipWheeler × real_sol=0 × graduated × multi-mint 主 mint） | traction0×出来高先行 BREAKOUT×real_sol=0＝$DEADSEM/$JALAPEÑO/$AEGIS 同型・multi-mint 主 mint 需要集中 × whale/bot pump 最有力・BREAKOUT-then-dead 最有力 |
+| [[$BELMAR]]（I STUDIED） | +829%（BREAKOUT） | $238k→$2.2M | reply0 / KOL0（全期間）・twitter/website null・real_sol=0 | 不明（social 窓口ゼロ全期間・graduated・$212k birth後さらに上昇） | traction0×出来高先行 BREAKOUT×real_sol=0 = $TESTIBULL/$MOONLAKE 同型・$2M+ 到達も whale/bot pump 最有力・BREAKOUT-then-dead 最有力候補 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

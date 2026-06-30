@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7334件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7331件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**308ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 68 | 2456♥ @CryptoHayes: It's All Over!!!   This what happens when no one w / 2388♥ @lookonchain: A whale withdrew 15K $BTC ($396M) from #Binance ju |
-| [[$ETH]] | 4 | 3 | 89 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2479♥ @lookonchain: Caught in the market crash, AguilaTrades(@AguilaTr |
+| [[$BTC]] | 10 | 7 | 66 | 2255♥ @lookonchain: A wallet that has been dormant for over 14 years t / 1977♥ @lookonchain: James Wynn(@JamesWynnReal) is back — opening a $BT |
+| [[$ETH]] | 4 | 3 | 88 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2475♥ @lookonchain: The whale who shorted $ETH at $3,220 with 50x leve |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

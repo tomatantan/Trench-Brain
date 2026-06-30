@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $97,842
 title: $TREVV
 mint: 67mUDZxgXBGhuwPpb4aYLHpKZfQQdx1a87ykH5Ngpump
@@ -44,6 +45,10 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - ⚠️ $97k は moderate signal だが全 traction ゼロ継続中——[[launchpad-economics]] 「graduated-but-empty 死亡率 75%」に該当。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0 × real_sol=0）/ [[rug-anatomy]]（association marketing 型）
+
+### 最終合成（dead 確定 2026-06-30T20:56Z）
+- **cause**: mcap枯れ（$1,792・peak比-98.2%）
+- association marketing（@TheLoreGuyy + @9trevv）× $98k peak × traction0 → 型通り枯死。高 peak も traction ゼロなら死ぬ実測 N 追加（[[rug-anatomy]] 死亡台帳算入）。
 <!-- synthesis:end -->
 
 ## 関連

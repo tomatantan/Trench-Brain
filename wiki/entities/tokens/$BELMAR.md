@@ -3,7 +3,7 @@ type: entity
 kind: token
 source: auto-track
 status: watch
-peak_mcap: $212,293
+peak_mcap: $2,211,798
 title: $BELMAR（I STUDIED）
 mint: 4jxEPvtcHMukMJ24RKpyX3Y6Et3mPv5sr6U9J9Xhpump
 created: 2026-07-01
@@ -20,7 +20,7 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 | pool | 2kobuN8PU5xG9A5oU257TsTd82r4h5Ax8TgiBykqCxn3 |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $212,293（2026-06-30T17:49Z） |
-| peak_mcap | $212,293（暫定） |
+| peak_mcap | $2,211,798（2026-06-30T20:56Z） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | null |
@@ -42,6 +42,19 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 - ⚠️ $212k は高水準だが traction0 全期間継続中——[[launchpad-economics]] Feedback 実測「graduated-but-empty 死亡率 75%」に該当。次窓で reply/KOL が立たなければ BREAKOUT-then-dead 候補。
 
 **接続概念**: [[launchpad-economics]]（$212k graduated × traction0 × social皆無）/ [[rug-anatomy]]（whale pump × social無し）
+
+### 2026-06-30T20:56Z BREAKOUT +829%（$238,207→$2,211,798）
+**観測（事実）**
+- mcap $238,207→$2,211,798（flags: BREAKOUT / mcap+829%）。reply=0・real_sol=0・KOL 皆無 継続。
+- twitter/website 依然 null。traction 全期間ゼロ。
+
+**判断（BREAKOUT）**
+- +829% は今サイクル観測最大級の跳躍。しかし traction0 × real_sol=0 × social 皆無は一切変化なし——**whale/bot 単独 pump の可能性が最も高い**。
+- $2.2M 到達は [[launchpad-economics]] 跳躍台帳 [[$TESTIBULL]]（+2014% $2.51M→dead）・[[$MOONLAKE]]（+147% $1.03M→dead）と同型水準。これらは全て BREAKOUT-then-dead で終わっている。
+- ⚠️ $2.2M × traction0 全期間継続 = organic 需要の証拠皆無。BREAKOUT-then-dead 最有力候補。次窓の reply/KOL 有無が唯一の分岐点。
+- [[launchpad-economics]] 跳躍台帳に記録（学習）。
+
+**接続概念**: [[launchpad-economics]]（BREAKOUT +829% × traction0 × $2.2M）/ [[rug-anatomy]]（whale/bot pump × social皆無）
 <!-- synthesis:end -->
 
 ## 関連

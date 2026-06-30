@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $80,430
 title: $ARAB（Your Fellow Arab）
 mint: HFnK2wsb1gpJqWwJkddHeQ2NbvaMvWWhDPrbYYdtpump
@@ -43,6 +44,10 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 - ⚠️ dedicated twitter あり vs reply=0 全期間 × real_sol=0 × KOL 皆無の構造矛盾——アカウント整備が traction に転化しなければ [[rug-anatomy]] 崩壊候補。
 
 **接続概念**: [[launchpad-economics]]（graduated × birth後 +41% × traction0）/ [[rug-anatomy]]（traction0 × real_sol=0）
+
+### 最終合成（dead 確定 2026-06-30T20:56Z）
+- **cause**: mcap枯れ（$1,380・peak比-98.3%）
+- 専用 twitter @YourFellowArab 整備 × birth直後 +41% 上昇 → reply=0 全期間で traction 転化せず。$80k peak まで上がっても有機的需要の証拠なし。[[rug-anatomy]] 死亡台帳算入。
 <!-- synthesis:end -->
 
 ## 変化ログ

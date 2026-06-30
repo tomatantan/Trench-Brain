@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dying
 peak_mcap: $34,845
 title: $THREADGUY
 mint: FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump
@@ -20,7 +20,8 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 | pool | 97naHPuyDDmCnzc4fcuwFTP4PeBhrdJX5d8VCHauwjrT |
 | gate | safety:ok / traction:graduated |
 | mcap(birth観測) | $34,845（2026-06-30T17:49Z） |
-| peak_mcap | $34,845（暫定） |
+| peak_mcap | $34,845 |
+| mcap(2026-06-30T20:56Z) | $17,294（-51%） |
 | real_sol | 0 |
 | reply_count | 0 |
 | twitter | https://x.com/n1721203925204/status/2072012610820603996（⚠️ 無名アカ個人ツイート・association marketing） |
@@ -41,6 +42,14 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - "THREADGUY" 命名は crypto X の "thread" culture 便乗ニュアンスだが social 基盤なし——meme フック未発火。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0）/ [[rug-anatomy]]（association marketing × traction0）
+
+### 2026-06-30T20:56Z mcap -51%（$35,441→$17,294）
+**観測（事実）**
+- mcap $35,441→$17,294（flags: mcap-51%）。reply=0・real_sol=0 継続。
+- dying 圏接近（<$20k）。twitter の無名アカウントリンク継続——traction 転化なし。
+
+**判断**
+- birth から -51% 急落は [[launchpad-economics]] graduated-but-empty 型の崩壊フェーズ進行。次窓で $10k 以下なら死亡圏確定候補。
 <!-- synthesis:end -->
 
 ## 関連

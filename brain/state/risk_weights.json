@@ -1,56 +1,56 @@
 {
- "base_death_rate": 0.637,
- "n": 102,
+ "base_death_rate": 0.66,
+ "n": 106,
  "factors": {
   "mcap勢い門": {
-   "death_rate": 0.16,
-   "lift_vs_base": 0.25,
-   "n": 19
+   "death_rate": 0.15,
+   "lift_vs_base": 0.23,
+   "n": 20
   },
   "KOL言及": {
    "death_rate": 0.4,
-   "lift_vs_base": 0.63,
+   "lift_vs_base": 0.61,
    "n": 10
   },
   "user_checked": {
    "death_rate": 0.44,
-   "lift_vs_base": 0.7,
+   "lift_vs_base": 0.67,
    "n": 9
   },
   "graduated": {
-   "death_rate": 0.84,
-   "lift_vs_base": 1.32,
-   "n": 64
+   "death_rate": 0.88,
+   "lift_vs_base": 1.33,
+   "n": 67
   },
   "traction無": {
-   "death_rate": 0.66,
+   "death_rate": 0.69,
    "lift_vs_base": 1.04,
-   "n": 92
+   "n": 96
   },
   "traction有": {
    "death_rate": 0.4,
-   "lift_vs_base": 0.63,
+   "lift_vs_base": 0.61,
    "n": 10
   },
   "mcap勢い門 × tr無": {
-   "death_rate": 0.16,
-   "lift_vs_base": 0.25,
-   "n": 19
+   "death_rate": 0.15,
+   "lift_vs_base": 0.23,
+   "n": 20
   },
   "KOL言及 × tr有": {
    "death_rate": 0.4,
-   "lift_vs_base": 0.63,
+   "lift_vs_base": 0.61,
    "n": 10
   },
   "user_checked × tr無": {
    "death_rate": 0.44,
-   "lift_vs_base": 0.7,
+   "lift_vs_base": 0.67,
    "n": 9
   },
   "graduated × tr無": {
-   "death_rate": 0.84,
-   "lift_vs_base": 1.32,
-   "n": 64
+   "death_rate": 0.88,
+   "lift_vs_base": 1.33,
+   "n": 67
   }
  }
 }

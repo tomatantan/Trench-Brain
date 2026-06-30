@@ -2,7 +2,8 @@
 type: entity
 kind: token
 source: auto-track
-status: dying
+status: dead
+outcome: died
 title: $SENDY-9GBmYw（Sendy / 2nd mint）
 mint: 9GBmYwDh8rxr8HCoim7ajPBmhpsWtgJJrYuuRtpqpump
 created: 2026-06-30
@@ -53,6 +54,10 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 
 **判断**
 - birth から数窓で -80% は急崩壊フェーズ。traction ゼロ全期間。同ティッカー再登場 × association marketing が traction に転化しなかった実証進行中。$8k は死亡圏接近。次窓で $5k 以下なら死亡確定候補。
+
+### 最終合成（dead 確定 2026-06-30T20:56Z）
+- **cause**: mcap枯れ（$3,133・peak比-92.8%）
+- 2nd mint 再登場 × association marketing × website 準備 → traction 転化せず型通り枯死。[[rug-anatomy]] 死亡台帳算入。先行 mint（-92.3%）に続き 2nd mint も同パスで確定。
 <!-- synthesis:end -->
 
 ## 関連
