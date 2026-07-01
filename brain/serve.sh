@@ -52,6 +52,14 @@ sleep 2
 if ! kill -0 "$SRV" 2>/dev/null; then echo "ui_server 起動失敗"; exit 1; fi
 echo "✅ ui_server: http://127.0.0.1:$PORT  (脳API=/api/index)"
 
-# 2) cloudflared quick tunnel（匿名・無料）。公開URLは *.trycloudflare.com 行に出る
+# 2) cloudflared quick tunnel（匿名・無料）。公開URLを brain/state/public_url.txt に自動記録
+#    ＝再起動でURLが変わっても「今のURL」は常にこのファイルで分かる（常時ON運用の要）。
 echo "🌐 公開トンネル起動中… 下の https://*.trycloudflare.com が公開URL:"
-exec cloudflared tunnel --url "http://127.0.0.1:$PORT" --no-autoupdate
+cloudflared tunnel --url "http://127.0.0.1:$PORT" --no-autoupdate 2>&1 | while IFS= read -r line; do
+  echo "$line"
+  url=$(printf '%s' "$line" | grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' | head -1)
+  if [ -n "$url" ]; then
+    printf '%s\n' "$url" > brain/state/public_url.txt
+    echo "📌 公開URL を brain/state/public_url.txt に記録: $url"
+  fi
+done

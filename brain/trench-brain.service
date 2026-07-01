@@ -1,0 +1,38 @@
+# Trench-Brain 常時ON用 systemd user unit（WSL systemd 有効時）。
+#
+# 導入(WSLで1回):
+#   mkdir -p ~/.config/systemd/user
+#   cp ~/trench-brain/brain/trench-brain.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now trench-brain
+#   # WSL再起動でも生きるように: (Windows側) wsl --shutdown 後もuser常駐なら loginctl enable-linger $USER
+#   loginctl enable-linger "$USER"
+#
+# 現URL確認:  cat ~/trench-brain/brain/state/public_url.txt
+# ログ:       journalctl --user -u trench-brain -f
+# 停止:       systemctl --user stop trench-brain
+#
+# ※ systemd 無い WSL の場合の代替（nohup 常駐）:
+#   nohup bash ~/trench-brain/brain/serve.sh > ~/trench-brain/brain/state/serve.out 2>&1 &
+#   → 現URL: cat ~/trench-brain/brain/state/public_url.txt
+#
+# ※ 固定URL（本番）が要るなら quick tunnel でなく named tunnel（要 Cloudflareアカ＋ドメイン）:
+#   cloudflared tunnel login → create <name> → route dns <name> brain.example.com
+#   → config.yml に ingress: http://127.0.0.1:8000 → ExecStart を `cloudflared tunnel run <name>` 併用。
+#   （URLが固定される＝ブックマーク/共有可能。この unit の serve.sh を named 版に差し替え。）
+
+[Unit]
+Description=Trench-Brain public serve (realtime writers + ui_server + cloudflared tunnel)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/trench-brain
+ExecStart=/bin/bash %h/trench-brain/brain/serve.sh
+Restart=always
+RestartSec=10
+# realtime writer は落ちても serve.sh 内で一緒に再起動される
+
+[Install]
+WantedBy=default.target
