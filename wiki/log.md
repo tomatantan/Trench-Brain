@@ -2,6 +2,10 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-02 auto-synthesis (§1a worklist): 3件処理。$BTC: 新beat = whale 37BnFf が 800 BTC ($50.24M) を売却・avg $106,866 エントリーから $35.3M 損失（-41%）で降伏（2026-06-19）。ATH後期買い手の降伏を記録・収縮フェーズの進行確認。$ETH: theunipcs「imminent hated rally + mother of all alt seasons」（2025-06-07、1,961♥・旧ツイ）= entity table 掲載済み・synthesis 未記録を light-touch 追記。短期は整合・中期（14ヶ月安値）は未達。$MU: 旧ツイ確認・新 beat なし（完結済み）。⚠️ whale 37BnFf の on-chain 独立確認推奨（[[onchain-verification]]）。既存合成（BTC/ETH = 収縮フェーズ・ETH = コンセンサストレード）に変化なし・証拠追加。
+
+- 2026-07-02 auto-synthesis (synth_queue 15:50Z): births=3（$100MIL "100 MIL MARKET CAP SPEEDRUN" $40k・prebond・TG汎用グループ・traction0 stub / $$BEN "JUSTICE FOR BENNY" $79k・prebond・real_sol ~23SOL・identity ゼロ stub / $CLIMBITRC "CLIMBINGTRENCH" $85k・prebond・real_sol ~16SOL・$LOT 同期 trench自己言及命名 stub）・changes=3（$LOT +71% $35k→$60k・graduated-but-empty 継続 / $DAVINCI -81% $416k→$80k・KOL name借用 BREAKOUT-then-dead 確定方向 status:declining / $BULLARMY +68% $103k→$173k・real_sol 51SOL 不変・⑬コホート監視継続）・deaths=1（$HAHALAND peak$124k→$4k -96.8%・sports brand × twitter=X検索URL × 2窓 whale pump-then-exit 型通り枯死）。[[rug-anatomy]] 死亡台帳1件追記（$HAHALAND）。
+
 - 2026-07-01 auto-synthesis (§1a worklist 3rd run): 3件処理。$BTC: 新beat = BTC OG（100,784 BTC 7年保有）が 22,769 BTC（$2.59B）を売却→472,920 ETH spot（$2.22B）+ 135,265 ETH long（$577M）on Hyperliquid（2025-08-25）。ATH後6週の OG 分配フェーズ事例として記録。$ETH: 新beat2件 = 同 OG 購入（~$4,692/ETH → 現在 -67%）/ SharpLink 77,210 ETH（$295M、~$3,822/ETH・2025-07-28）。機関・OG の大規模 ETH 積み上げ vs 実価格乖離の構造確証を追加。$MU: 旧ツイ確認・新 beat なし（確認③）。⚠️ BTC OG の Hyperliquid 入金・ETH 購入規模は独立確認推奨（[[onchain-verification]]）。既存「institutional adoption ≠ price support」合成に変化なし・確証が追加された。
 
 - 2026-07-01 auto-synthesis (synth_queue 12:47Z): births=2（$DAVINCI "The Bitcoin Bull" $415k graduated・@davincij15 KOL名借用疑い association marketing / $BULLARMY "Bull Army" $104k graduated・twitter+web整備済 real_sol~51SOL⑬コホート監視）・$PASCAL-H4KcG8 $294 birth即死 dead stub作成。changes=2（$TESTIBULL +41% $3.78M→$5.34M コホート最高峰継続 traction0全期間 / $HAHALAND +47% $85k→$124k 2窓連続上昇 whale pump疑い強まる）。deaths=3（$BARNEY peak$28k→$5.2k 枯死 / $BDSM peak$11k→$2k 低peak即死 / $PASCAL $294 birth即死）。[[rug-anatomy]] 死亡台帳3件追記。

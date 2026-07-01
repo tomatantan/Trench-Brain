@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 ticker: $HAHALAND
 mint: GFGA9S2dMkTatS613bqeUDk7nuMkFxs1kWi51hQpump
 created: 2026-07-01
-updated: 2026-07-01
-tags: [token, pumpfun, graduated, traction0, sports-meme, mcap-up, multi-window-pump]
+updated: 2026-07-02
+tags: [token, pumpfun, graduated, traction0, sports-meme, dead]
 ---
 
 # $HAHALAND — Haaland The Meme King（GFGA9S）
@@ -47,6 +48,16 @@ pump.fun 発。"Haaland The Meme King" 命名——サッカー選手 Erling Haa
 
 **概念接続**: [[launchpad-economics]]（graduated-but-empty / sports meme 類型）/ [[rug-anatomy]]（traction0 型）
 
+### 2026-07-01T15:51Z 死亡確定（mcap $4,032・peak比-96.8%）
+**観測（事実）**
+- mcap $4,032（cause: mcap枯れ）。peak $124,635 から -96.8%。complete=true（graduated）・real_sol=0・reply=0 全期間ゼロ。
+
+**最終判断**
+- sports brand（Haaland）命名 × twitter=X一般検索 URL（専用 identity ゼロ）× traction0 × real_sol=0 → 型通り枯死。
+- 2窓連続上昇（$56k→$79k→$124k）後に急崩壊——whale 計画的 pump → exit のパターン確定。
+- [[rug-anatomy]] 型: sports brand 名乗り × identity コスト最小化 × traction0 × whale pump-then-exit。
+
+**entity 閉鎖。生存者バイアスの分母として記録完了。**
 <!-- synthesis:end -->
 
 ## 関連

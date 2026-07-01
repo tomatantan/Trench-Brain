@@ -340,4 +340,10 @@ ETF 流出（2026-06-25）:
 - **SharpLink 2025-07-28 timeline 補完**: 既合成の 2026-06-26「5,000 ETH（$7.85M）追加・"8ヶ月ぶり"」は 2025-10〜11 頃から追加停止→ 2026-06 に再開という読み。2025-07-28 の 77,210 ETH ($295M) は最後の大規模積み増しで、その後停止→ 2026-06 に小口再開というパターン。avg ~$3,609 が 2025-07 の大規模購入（~$3,822）と 2026-06 の小口購入（~$1,570 前後）の加重平均。
 - 接続: [[majors-rotation-supercycle]]（BTC OG の大規模 BTC→ETH ローテが ETH price support に不充分だった実証・2025-08）/ [[onchain-verification]]（BTC OG の Hyperliquid 入金・SharpLink on-chain 買付は独立確認推奨）/ [[rug-anatomy]]（OG の大口購入 vs 実価格乖離の継続事例）/ [[$BTC]]（OG が BTC ATH 後6週で $2.59B 売却 = 分配フェーズの重要事例）。
 - confidence=中（lookonchain 観測・規模大・既存合成の方向に整合）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・institutional adoption ≠ price support）に変化なし、確証が追加された。
+
+### 2026-07-02 確認（worklist 代表ツイ確認・theunipcs 2025-06 旧ツイ light-touch）
+出典: [[theunipcs__1931444933145358528]]（1,961♥・2025-06-07T20:15Z）/ [[zhusu__1389092285992771587]]（3,864♥・2022-04-07・旧）
+
+- **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
+- **1,961♥ [[theunipcs__1931444933145358528]]**（2025-06-07）: 「like it or hate it but the fundamentals keep pointing to an imminent, hated rally for $ETH and this might be just what we need to kick off the mother of all alt seasons i can feel it in my bones」= **2025-06-07 の旧ツイ再キャプチャ**（entity table 掲載済み・synthesis 未記録）。**light-touch 追記**: 2025-06-07 時点で「imminent hated rally + mother of all alt seasons」を予言。同年 2025-07-11 BTC ATH → 2025-07-16 Hayes「ETH szn」宣言（既合成）の約5週前の投稿であり、直後の短期上昇フェーズは整合。しかし 2026-06-30 時点で ETH は 14ヶ月来安値（~$1,560・既合成）= 「hated rally」は部分的に実現したが「mother of all alt seasons」は未達。1,961♥ / 127 RT = 高エンゲージだが中期では外れた予言。既合成「ETH = コンセンサストレード（リターン薄）」/ 「BTC beta 脱却未達」（DefiIgnas）と同構造——自信満々の ETH 強気コールが中期では失速するパターンの追加事例として記録。confidence=低（旧ツイ・現在とは別 phase）。既存合成に変化なし。
 <!-- synthesis:end -->

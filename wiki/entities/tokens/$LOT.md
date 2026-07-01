@@ -7,7 +7,7 @@ peak_mcap: $51,735
 title: $LOT（LEAGUE OF TRENCHES）
 mint: ByMzTYShp2mnswUBW2du1tgCUTDVw8DTheJH7jc5pump
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-02
 tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 ---
 
@@ -51,6 +51,15 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 - $51k まで来ても reply=0 全期間 = [[launchpad-economics]] 「graduated-but-empty」型。social 整備があっても traction に転化していない典型進行中。
 
 **接続概念**: [[launchpad-economics]]（graduated × $51k × traction0）/ [[rug-anatomy]]（social準備あり × traction転化なし型）
+
+### 2026-07-01T15:51Z mcap +71%（$35,622→$60,942）
+**観測（事実）**
+- mcap $35,622→$60,942（flags: mcap+71%）。reply=0・real_sol=0 継続。complete=true（graduated 済み）。
+- twitter https://x.com/lotonsolana / website https://playlot.xyz/ 変化なし。
+
+**判断**
+- $51k→$60k 水準まで継続上昇。traction0 全期間変わらず——graduated × social 整備済 × traction 転化ゼロ のまま推移。
+- [[launchpad-economics]] 「graduated-but-empty」型の典型進行継続。$60k 水準での traction ゼロは枯死接近を示唆。
 <!-- synthesis:end -->
 
 ## 関連

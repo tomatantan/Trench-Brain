@@ -6,7 +6,7 @@ status: watch
 ticker: $BULLARMY
 mint: FtWD7st7o5fp6sJ5NTp1jLY1qaRjibzYDTe3xSYpump
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-02
 tags: [token, pumpfun, graduated, traction0, bull-cluster, community-meme]
 ---
 
@@ -48,6 +48,16 @@ pump.fun 発。"Bull Army" 命名——bull 集団・軍団 community テーマ�
 **⚠️ real_sol 監視**: 次窓での real_sol 減少 = deployer SOL 引き出し候補 → rug 直前シグナル。$BOO は real_sol 一定でも崩壊。
 
 **概念接続**: [[launchpad-economics]]（graduated × bull cluster 競合環境）/ [[rug-anatomy]]（real_sol ~51SOL × traction0 → ⑬コホート候補）
+
+### 2026-07-01T15:51Z mcap +68%（$103,011→$173,341）
+**観測（事実）**
+- mcap $103,011→$173,341（flags: mcap+68%）。reply=0・real_sol=51,358,024,684 lamports 変化なし。complete=true。
+
+**判断**
+- $103k→$173k まで上昇継続。traction0 全期間のまま $173k 到達。
+- real_sol 51 SOL が変化していない = deployer がまだ SOL を引き出していない状態継続。
+- [[rug-anatomy]] ⑬コホート（high real_sol × traction0）として監視継続——real_sol 減少が始まった時が警戒水準。
+- bull cluster 内での $173k は $TESTIBULL/$BELMAR に比べると低水準だが、traction ゼロのまま上昇継続は BREAKOUT-then-dead パスの前段。
 <!-- synthesis:end -->
 
 ## 関連

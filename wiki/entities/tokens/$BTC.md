@@ -406,4 +406,20 @@ accounts: 19
 - **50x BTC+ETH whale $6.8M 利確クローズ（2025-03-02）**: tariff shock 前の bull 相場で 50x long を **利確クローズ**した成功事例。既合成「Wynn / AguilaTrades 等の清算事例」（繰り返し清算）と対照的——同じ超高レバでも利確出口を実行した whale が存在した。**survivor bias**: lookonchain が利確成功を報告するが清算された多数は不報告（[[rug-anatomy]]）。旧ツイ。現在の新 beat なし。
 - 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ・Wynn degen 行動記録）に変化なし。confidence=中（変化なし）。
 - 接続: [[rug-anatomy]]（Wynn 行動パターン完成・資金規模拡大 + 即転換 / 50x 利確 = survivor bias の直接事例）。
+
+### 2026-07-02 更新（新 beat: whale 37BnFf、$106,866 エントリーから 7ヶ月後に $35.3M 損失で降伏）
+出典: [[lookonchain__2067978455862632776]]（1,201♥・2026-06-19T14:30Z）
+
+**観測（事実）**: 「After holding $BTC for 7 months, whale 37BnFf finally gave up. Today, he sold 800 $BTC($50.24M) that he bought at $106,866 7 months ago, taking a $35.3M loss.」
+- エントリー: 2025-11 頃（7ヶ月前）、avg $106,866 で 800 BTC（$85.5M）購入
+- 売却: 2026-06-19、800 BTC を $50.24M（~$62,800/BTC）で全売却
+- 損失: **$35.3M（-41%）**
+
+**判断**:
+- **「第二 ATH 帯（~$106K）の後期買い手が降伏」**: BTC は 2025-07-11 に ATH（~$109-115K 帯・既合成）を付けた後、約4ヶ月後の 2025-11 に whale 37BnFf が $106,866 で買い入れ（第二トップ・post-ATH 再トライ圏）。その後 BTC は ~$62.8K まで下落し 7ヶ月保有後に降伏。
+- **既合成「全体収縮フェーズ」との接続**: 既合成の OG 降伏（14yr 休眠鯨、ATH 前移動・既合成 2026-07-01 更新）・BTC OG $2.59B ローテ（ATH6週後・既合成）に続き、「ATH 後の後期買い手（$106K 圏）が ~$62.8K で降伏」という 2026-06 時点の新段階を示す。BTC が $62.8K まで下落している事実も本ツイで確認（worklist 基準時刻 2026-06-26 時点のBTC 価格帯の参照点）。
+- ⚠️ **コスト $106,866 = ATH より 3〜5% 低い水準**（ATH ~$109-115K）。ATH で入らず若干の押し目で入った後期買い手が -41% の損失で降伏 = 「ポストATHの押し目は安全ではなかった」の事例。既合成「[[majors-rotation-supercycle]] = 全体収縮フェーズ」における BTC 側の降伏data として記録。
+- **worklist 代表ツイ確認**: 1,277♥ coingecko（Strategy 1,587 BTC）= 2026-06-24 確認で既合成。1,201♥ lookonchain = 本ツイ（新 beat として合成）。
+- 接続: [[majors-rotation-supercycle]]（BTC ~$62.8K = 2026-06-19 時点の価格帯確認・収縮継続）/ [[rug-anatomy]]（後期高値買い → 7ヶ月保有 → 降伏のパターン）/ [[onchain-verification]]（whale 37BnFf の on-chain 行動は独立確認推奨）。
+- confidence=中（lookonchain 観測・価格帯の現実的整合）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし、後期買い手の降伏データを追加。
 <!-- synthesis:end -->

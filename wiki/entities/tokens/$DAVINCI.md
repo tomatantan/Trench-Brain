@@ -2,11 +2,11 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: declining
 ticker: $DAVINCI
 mint: DqFRdmWd8P3FC8c6XDk64eY1hFHjJ56N9dhZS3jUpump
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-02
 tags: [token, pumpfun, graduated, traction0, btc-bull, kol-name-borrowing, association-marketing]
 ---
 
@@ -52,6 +52,15 @@ pump.fun 発。"The Bitcoin Bull" 命名。mint: DqFRdmWd8P3FC8c6XDk64eY1hFHjJ56
 **賭け仮説**: @davincij15 が実際に CA 言及した場合のみ本物需要シグナル。現状は [[rug-anatomy]] KOL-name-borrowing 型のコホート候補。traction0 × KOL CA 未確認 = BREAKOUT-then-dead 最有力。
 
 **概念接続**: [[launchpad-economics]]（graduated × real_sol=0 × KOL name 借用）/ [[rug-anatomy]]（association marketing 型）/ [[survivor-memes]]（$415k 水準・KOL 確認後昇格判断）
+
+### 2026-07-01T15:51Z mcap -81%（$416,747→$80,693）
+**観測（事実）**
+- mcap $416,747→$80,693（flags: mcap-81%）。reply=0・real_sol=0 継続。complete=true。
+
+**判断**
+- $415k peak から $80k まで -81% 急落——BREAKOUT-then-dead パターン進行確定候補。traction ゼロ全期間のまま peak 比 -81%。
+- KOL（@davincij15）CA 言及は依然確認されず。association marketing × traction0 → BREAKOUT-then-dead 型の実測 N 追加。
+- $80k 水準で traction が生まれなければ [[rug-anatomy]] 死亡台帳入り確定方向。
 <!-- synthesis:end -->
 
 ## 関連

@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7316件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7314件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**307ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 56 | 1635♥ @lookonchain: The Bitcoin OG who received 100,784 $BTC($642M the / 1277♥ @coingecko: JUST IN: Strategy purchases another 1,587 Bitcoin  |
-| [[$ETH]] | 4 | 3 | 79 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2146♥ @lookonchain: SharpLink(@sharplink) bought another 77,210 $ETH($ |
+| [[$BTC]] | 10 | 7 | 55 | 1277♥ @coingecko: JUST IN: Strategy purchases another 1,587 Bitcoin  / 1201♥ @lookonchain: After holding $BTC for 7 months, whale 37BnFf fina |
+| [[$ETH]] | 4 | 3 | 77 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 1961♥ @theunipcs: like it or hate it  but the fundamentals keep poin |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）
