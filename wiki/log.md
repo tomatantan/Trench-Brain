@@ -2,6 +2,24 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-02 auto-synthesis (worklist §1a 3件): $BTC（CredibleCrypto「$70K relief→rejection」TA 2026-06-13・light-touch・$59K 現実との乖離確認）/ $ETH（Machi Big Brother 7回清算+NFT担保 2026-06-23/26・low signal・既合成「繰り返し清算パターン」追加）/ $MU（新 beat なし・確認のみ）。§1a 計3件全件処理。主な⚠️: Machi BB NFT 担保投入=最終資産投入段階の観察。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T22:03Z): births=3（$BELIVE "belive" $40k prebond→BREAKOUT+123% $89k・social皆無×traction0 stub / $FABLE "Fablehooks" $67k graduated・dedicated social整備済×traction0 stub / $RODEO "Rodeo" $57k graduated・dedicated social整備済×traction0 stub）・changes=5（$BELIVE BREAKOUT+123% $40k→$90k・[[launchpad-economics]] 跳躍台帳追記 / $ELON-DOGE +42% $122k→$174k・71SOL継続×traction0 / $LIVEWORK -63% $98k→$37k・multi-mint 2nd死亡 / $THREADGUY +76% $12k→$22k・一時回復も traction0不変 / $APE -41% $37k→$22k・通算-77.6%）・deaths=6（$LIVEWORK-5faKbh peak$15k→dead / $RTM peak$1.6k birth=death / $TIMEHH×4 "The Black Lion" 全mint<$2.5k birth=death）→[[rug-anatomy]] 死亡台帳3件追記。skipped=5（RTM・TIMEHH×4 entity作成スキップ：ultra-low birth=death）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T21:44Z): births=4（$APE-4aW3Ts "JUST APE" $174k prebond・multi-mint 2nd wave stub / $ELON-DOGE "Elon Musk's DOGE" $115k graduated・⚠️71SOL ⑬コホート×association marketing / $LIVEWORK $105k graduated・個人アカ association×traction0 stub / $LIVEWORK 2nd mint $14k lower→entity作成スキップ）・changes=1（$APE EGUYJ5Zm -61.8% $97k→$37k 急落・multi-mint [[$APE-4aW3Ts]] 出現）・deaths=0。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T21:13Z): births=2（$PROP-CKVmem "PEPE PROPELLER" $55k prebond・multi-mint 競合 stub / $APE "just ape" $97k graduated・social整備済×traction0 stub）・changes=0・deaths=3（$JASON-3CE8cU THEBLOOP型 peak$7k→$1.9k 確定死亡・entity finalized / $JASON-7V8beV peak$2.4k birth=death・entity作成スキップ / $JASON-wpMiZm peak$1.5k birth=death・entity作成スキップ）。[[rug-anatomy]] 死亡台帳3件追記（"The Ecommerce God" 同名3mint全滅N=3）。
+
+- 2026-07-02 launch-pulse synthesis (6h window・flow 8,324観測): flow 非scam 1,910件（5窓連続増加・前窓比+15.0%）。scam率51.4%（-0.6pp）。特徴: 全dead cat bounce窓——SEXY 4窓目(w/w+15.4%)・BINDY 5窓目(2nd bounce・w/w+51.5%)・BULLATLAS 3窓目(w/w+35.2%)。全T3ゼロ・reply:0継続。ALBEMARLE 7窓目 stale転換（w/w+16.7%・検知時比+0.3%）。JASON 新規 THEBLOOP型 -95.2%。GTA(EvdpG) list exit確定（GTA wave 4本目全例DEAD帰結）。adopted=0（T3ゼロ全候補）。entity更新: $SEXY(w4)・$BINDY(w5)・$ALBEMARLE(w7)・$BULLATLAS(w3)・$hansem(w5)・$GTA-EvdpG(exit)。entity新規: $JASON(near-DEAD)。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T20:43Z): births=2（$JASON "The Ecommerce God" $6.8k graduated・@shalompnl ツイート流用×multi-mint stub / $KLIPY $151k prebond・Discord authority借用×late-entry gate stub）・changes=1（$LR 2nd BREAKOUT+107% $563k→$1,166k・traction0全期間継続2段・[[launchpad-economics]] 跳躍台帳1件追記）・deaths=4（$.GIF peak$17.8k→$2.3k -87% 双重association×型通り枯死・[[rug-anatomy]] 台帳追記 / $JASON-7ATXj peak$2.8k multi-mint下位即死・entity作成スキップ / $REIGNITE peak$1.9k birth=death・entity作成スキップ・台帳1行）。skipped=1（$JASON-7ATXj entity作成スキップ）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T20:12Z): births=1（$.GIF ".gif" $17k graduated・twitter/website 両方第三者ツイート流用 association marketing疑い×traction0 stub）・changes=1（$LR BREAKOUT+304% $139k→$563k・traction0全期間継続・[[launchpad-economics]] 跳躍台帳1件追記）・deaths=2（$GOU peak$37k→$5k -86% graduated×association marketing疑い×型通り枯死・[[rug-anatomy]] 死亡台帳追記 / $BITCH peak$1,419 birth=death 即死・entity作成スキップ・台帳1行）。skipped=0。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T19:41Z): births=2（$LR "Ledger Realms" $124k graduated・DeFi generic命名・social整備済×traction0 stub / $PSYBULL $1.5k birth=death→entity作成スキップ・死亡台帳1行）・changes=1（$MC BREAKOUT+101% 2段 $82k→$165k・traction0全期間継続・[[launchpad-economics]] 跳躍台帳1件追記）・deaths=1（$PSYBULL birth即死 $1.5k・台帳記録のみ）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T19:02Z): births=3（$NSHARK "Neon Shark" $148k prebond・social皆無・animal meme stub / $WHITEBULL $176k prebond・bull cluster飽和テーマ・social皆無 stub / $OMERTA $53k prebond・mafia文化命名・social皆無 stub）・changes=0・deaths=1（$RELAY peak$18k→$5.5k -70% graduated-but-empty 低 peak 縮退死・relay命名×social整備済×traction0・[[rug-anatomy]] 死亡台帳1件追記）。
+
 - 2026-07-02 auto-synthesis (§1a worklist 2nd run): 3件処理。$BTC: DefiIgnas 760♥「BTC: new Gold」（2024-11-20 旧ツイ）確認・同筆者が2026-06-26「4年サイクルが崩れると信じたことを後悔」と述懐（収縮フェーズの補強）。$ETH: lookonchain 1955♥「mysterious address / Milady / LADYS」（2023-05-10 旧ツイ）確認・ETH 固有 signal なし。$MU: 新 beat なし（完結済み）。全件旧ツイ確認のみ・既存合成に変化なし。
 
 - 2026-07-02 auto-synthesis (synth_queue 2026-07-01T18:51Z): births=4（$WIFBULL ANSEM WIF BULL peak$1.6k→dead即死 / $BLOCKCHAIN a16zcrypto ツイート流用 association marketing $158k prebond / $BOOGLE $150k prebond social皆無 / $GOU Justice for Mama Gou $25k graduated→+49%）・changes=3（$RELAY -66% $18k→$6k declining新規entity / $MC BREAKOUT+118% $37k→$82k prebond traction0 / $GOU +49% 追跡ログ更新）・deaths=1（$WIFBULL peak$1.6k birth即死・[[rug-anatomy]] 死亡台帳1件追記・[[launchpad-economics]] BREAKOUT台帳1件追記[$MC]）。

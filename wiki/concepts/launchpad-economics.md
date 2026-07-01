@@ -62,6 +62,16 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 - **判定**: **確証**（0/20 vs 多数、完全分離）
 - **含意（gate 設計への示唆）**: mcap>=30000 gate は「$30k 到達後に初めて捕捉」＝その時点が既に peak 近傍になりやすく、以後の upside 余地が小さい構造的 late-entry バイアスを持つ。**「大きく跳ねる（$200k+）」銘柄は KOL/graduated/user_checked いずれかで早期に捕捉されている**。mcap>=30000 gate の役割は「見落とし防止（安全ネット）」であり、主力 upside 発掘には使えない。
 
+### dead floor 構造（2026-07-02・N=16）
+- **仮説**: dead 銘柄（pump-dump 型：peak >= $50k）の floor（cur 値）は peak mcap の大きさと無相関。peak $60k の死も peak $400k の死も dead 後の cur 中央値は同じ $1.5k 前後に収束する。
+- **検証**: dead かつ peak >= $50k の銘柄 N=16 を2グループ（$50k-$150k: N=13, $150k+: N=3）に分け cur 中央値を比較。
+  - Group A（$50k-$150k）中央値: **$1,686**（$FLARO $1,503 / $MOONSEM $1,498 / $RICHES $1,686 / $SUNBULL $2,230 等）
+  - Group B（$150k+）中央値: **$1,485**（$DOGPLANE $1,485 / $BECKER $1,462、外れ値 $TOGI $32,421 を除くと $1,473）
+  - 全 N=16 中央値: **$1,596**。peak 6x 差（$60k vs $400k）があっても floor 中央値は誤差レベルで一致。
+  - $1.3k-$3k 帯への収束: 16 件中 10 件（62.5%）が floor 帯に落ち着く。外れ値（$TOGI/$DEADSEM/$ORANGIE2/$🐂🀄）は半死状態か別流動性源の可能性。
+- **判定**: **不確定（方向あり・N 小）** — 中央値の一致は仮説を支持するが N=16・外れ値複数で確証不十分。
+- **含意（early-dead 判断への活用）**: platform floor が $1.5k 付近に構造的に存在するなら、「cur $3k 以下かつ前回比下落継続」＝floor フェーズ入り＝実質 dead の早期判断シグナルになりうる。pump 幅（peak）でなく platform の最低 LP 残留・bonding curve 清算後の構造が floor を決めている仮説と整合。N 増で再検証。
+
 ### peak mcap 規模の予測力（[[predictive-study]] N=99）
 - **peak mcap <10k ＝ 死亡率 100%（24/24）**＝最も clean な死signal。小peakは mcap勢いが立たず事実上全滅＝/check は「peak/現mcap が極小」を強い avoid に。
 - 10-50k 42% → 50k超は概ね 23-25%＝**規模が立つほど(=社会的需要の代理)生存率上昇**。但し >1M でも 25%死＝大型でも安全でない。
@@ -116,6 +126,10 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$BITBOY]]（The White Bull） | +265%（BREAKOUT） | $489k→$1.78M | reply0 / KOL0（全期間）・real_sol=0・@BitBoy_TWB / bitboy.meme 整備済 | BitBoy Crypto 名借用（実 @Bitboy_Crypto とは別 CA・⚠️ 非公式）・social 整備あり | **KOL名借用 × social整備 × traction0 BREAKOUT**（website+twitter あっても reply0 全期間のまま $1.78M 到達。$BELMAR（→dead -98.6%）/$TESTIBULL（継続中）と同型水準——BREAKOUT-then-dead 最有力候補） |
 | [[$TBB]]（THE BLACKIST BULL） | +323%（BREAKOUT） | $33.6k→$141.9k | reply0 / KOL0（全期間）・real_sol ~9.5SOL・CMC website authority借用 | CMC 他プロジェクトページを website に流用する authority 借用型 × bull-theme × prebond | prebond traction0 BREAKOUT×authority借用×bull-cluster（$TESTIBULL/$BELMAR/$DEADSEM 同型——BREAKOUT-then-dead 最有力） |
 | [[$MC]]（Merica Coin） | +118%（BREAKOUT） | $37.6k→$82.1k | reply0 / KOL0（全期間）・real_sol~0・twitter/website 皆無 | 不明（"Merica"=America ironic愛国命名・prebond継続・social 皆無・real_sol=0） | traction0×social皆無×prebond BREAKOUT＝$AEGIS/$JALAPEÑO/$PEAK 同型・BREAKOUT-then-dead 候補 |
+| [[$MC]] 2nd BREAKOUT（Merica Coin） | +101%（2nd BREAKOUT） | $82.1k→$165.0k | reply0 / KOL0（全期間・2段全期間ゼロ）・real_sol~0・prebond継続 | 不明（1st BREAKOUT後も traction ゼロのまま whale pump 継続・$arm 2nd BREAKOUT/$BOO 2段 型） | traction0×2段 BREAKOUT×prebond継続——$165k 到達も traction ゼロ不変・BREAKOUT-then-dead 最有力（愛国命名 × social 皆無 × prebond：[[$AMERICA250]] 同クラスタ全滅参照） |
+| [[$LR]]（Ledger Realms） | +304% | $139k→$563k | reply0 / KOL0（全期間） | 不明（DeFi/gaming "Ledger Realms"・@ledgerealms/ledgerealms.com 整備済・traction0全期間） | traction0×出来高先行 BREAKOUT×social整備済——$AEGIS/$PHONEBLACK/$MOONLAKE 同型・BREAKOUT-then-dead 候補 |
+| [[$LR]]（Ledger Realms）2nd BREAKOUT | +107% | $563k→$1,166k | reply0 / KOL0（全期間） | 不明（1st BREAKOUT後も traction ゼロ継続・social整備済×出来高先行2段） | traction0×2段連続 BREAKOUT×$1.16M——$BOO 2段型/$TESTIBULL 2段型と同シグネチャ・DeFi generic 命名での $1M 突破・BREAKOUT-then-dead 最有力 |
+| [[$BELIVE]]（belive） | +123%（BREAKOUT） | $40.2k→$89.8k | reply0 / KOL0（twitter/website null 全期間）・real_sol~1.7SOL | 不明（"belive" generic命名・social 窓口ゼロ・prebond 継続） | traction0×social皆無×prebond BREAKOUT＝$MC/$AEGIS/$JALAPEÑO 同型・BREAKOUT-then-dead 候補 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

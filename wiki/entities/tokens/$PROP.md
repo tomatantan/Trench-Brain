@@ -32,12 +32,14 @@ tags: [token, auto-track, prebond, traction0, pepe-derivative, stub]
 - pump.fun 産・bonding curve 未卒業・$43k で mcap>=30k 勢い門通過。
 - twitter/website ゼロ・real_sol≒0・reply=0・KOL 皆無。
 - name "PEPE PROPELLER"——PEPE 派生命名・独自 narrative なし。
+- **⚠️ multi-mint**: 同名同ティッカー 2nd mint（CKVmems...）が同バッチで出現 → [[$PROP-CKVmem]] 参照。2本並走競合。
 
 **判断**
 - social 基盤ゼロ × prebond × PEPE 汎用派生 = signal ゼロの薄い stub。過去の同型（$DROOLING/$LEGACY/$HAM-GnE89o）は prebond のまま消滅 or 卒業後即死。
+- multi-mint 競合（2nd mint CKVmem も traction0）→ 需要分散し共倒れリスク追加。
 - KOL/twitter 点火がなければ [[rug-anatomy]] prebond 消滅帰結の公算大。
 
-**接続概念**: [[launchpad-economics]]（mcap>=30k 勢い門・prebond）/ [[rug-anatomy]]（social皆無×prebond消滅型）
+**接続概念**: [[launchpad-economics]]（mcap>=30k 勢い門・prebond）/ [[rug-anatomy]]（social皆無×prebond消滅型・multi-mint競合）
 <!-- synthesis:end -->
 
 ## 関連

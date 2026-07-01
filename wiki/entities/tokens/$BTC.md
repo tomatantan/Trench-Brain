@@ -427,4 +427,16 @@ accounts: 19
 - **1,277♥ [[coingecko__2066491800911552975]]**（2026-06-15）: Strategy 1,587 BTC $100M = 2026-06-24 確認・2026-07-02 更新で既確認。新情報なし。
 - **760♥ [[DefiIgnas__1859261099327324495]]**（2024-11-20）: 「Ok, I'll shill it: $BTC: new Gold / $SOL: this cycle's $ETH / $INST: new $PENDLE / $ENA: new $LUNA / $ETH: new $ATOM」= **2024-11-20 の旧ツイ再キャプチャ**（2024 サイクル・周期アナロジー list の典型）。現在（2026-07-02）との対照: 同一筆者 DefiIgnas が 2026-06-26「4年サイクルが崩れると信じていたことを後悔している」([[defiignas__2070480215479079318]] 209♥) と述懐——2024-11 の "BTC=new Gold / BTC catch up" 期待が現実化せず、既合成「全体収縮フェーズ / 21ヶ月来安値」に至った。**旧ツイ自体に新 beat はない**が DefiIgnas 内での観点変化（2024 強気 → 2026-06 自己否定）は [[majors-rotation-supercycle]] 上の「コンセンサス崩壊のサイクル型」として参照可能。
 - 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
+
+### 2026-07-02 確認③（worklist 代表ツイ確認・CredibleCrypto「$70K relief → rejection」light-touch）
+出典: [[CredibleCrypto__2065743233393610974]]（738♥・2026-06-13T10:29Z）
+
+**観測（事実）**: 「Not much has changed here, still think most logical outcome on $BTC for now is relief to just over 70k into our newly formed supply zone. A subsequent rejection and fall back down to our range lows would explain the type of PA I'm expecting on alts like $XRP, that look due for some relief right now but still should move lower after. For $BTC this would essentially just be more ranging/consolidation before a full on reversal. I think if we get something like below, many alts will make new lows, but some will not (like $ETH and $CRV) which have already grabbed liquidity from below and hit downside targets/areas of interest.」（2026-06-13）= TA ベースの BTC 短期シナリオ。
+
+**判断（light-touch）**:
+- 発言時点（2026-06-13）から2週間以内に whale 37BnFf が $62.8K で売却（2026-06-19・既合成）・BTC が $59K に達した（2026-06-25・既合成 2026-06-28 確認②）= **「$70K relief」シナリオは未達のまま BTC が下方展開**した形。CredibleCrypto の「範囲内で戻してから full reversal」ではなく直接下落。
+- **「$ETH と $CRV はすでに downside target を取った = 新安値を作らない」**: ETH については既合成「14ヶ月来安値 ~$1,560（2026-06-25）」が観測済みで、CredibleCrypto の「既に下値を取った」評価が 2026-06-13 時点の TA 根拠となる。現実（$1,560）がその「下値ゾーン」に相当するかは TA 定義次第だが、**ETH が新安値を作らない / 既に底値圏に入っている**という TA 評価は既合成「OG 投げ売りと機関逆張りの共存（$1,560 帯）」と整合する方向性。
+- ⚠️ TA ベースのシナリオであり macro beat ではない。BTC が「$70K relief」を経ずに $59K に達したことで、シナリオの前提が崩れた可能性がある（支持帯が下にズレた）。現在（2026-07-02）の BTC 価格帯は未確認 = LTHS 80%（既合成）・53% 含み損（既合成）と照らし合わせると底値形成プロセスの途中段階にある可能性。
+- 接続: [[majors-rotation-supercycle]]（BTC TA 短期観測 = $70K relief 未達・full reversal の前段階観察）/ [[$ETH]]（CredibleCrypto「ETH は既に downside を取った」= 2026-06-13 TA 観測・既合成 ETH 底値圏と接続）。
+- confidence=低〜中（TA のみ・シナリオ展開は現実と一部乖離の可能性）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
 <!-- synthesis:end -->

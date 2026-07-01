@@ -351,4 +351,17 @@ ETF 流出（2026-06-25）:
 - **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
 - **1,955♥ [[lookonchain__1656354641389703168]]**（2023-05-10）: 「We found a mysterious address. Created 1 hour before Elon Musk tweeted about Milady. Withdrew 25 ETH ($45,362) from Binance and bought 8T $LADYS.」= **2023-05-10 の旧ツイ再キャプチャ**（Elon Musk の Milady 言及直前に ETH を LADYS に突っ込んだ insider 疑惑アドレスの観測）。ETH 固有の投資 signal なし（$LADYS ミームコイン事例・ETH は gas/funding としての利用）。[[onchain-verification]] の「インサイダー疑惑アドレス追跡」事例として参照可能だが現在の ETH ナラティブとは無関係。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（変化なし）。
+
+### 2026-07-02 確認③（worklist 代表ツイ確認・Machi Big Brother ETH long 連続清算 light-touch）
+出典: [[lookonchain__1832985691640209764]]（1,896♥・2024-09-09・旧ツイ）/ [[lookonchain__2069443310356508923]]（130♥・2026-06-23T15:31Z）/ [[arkham__2070516573014532322]]（114♥・2026-06-26T14:36Z）
+
+- **1,896♥ [[lookonchain__1832985691640209764]]**（2024-09-09）: 「Machi Big Brother(@machibigbrother) spent ~5.2K $ETH($16.7M) to buy 11.1M $FRIEND, now worth only $0.7M! He lost ~$16M on $FRIEND!」= **2024年9月の旧ツイ再キャプチャ**（friend.tech への 5.2K ETH 投入 → -$16M 損失）。ETH 直接 signal ではなく ETH が大口損失に使われた先例として記録。
+- **130♥ [[lookonchain__2069443310356508923]]**（2026-06-23）: 「Machi Big Brother(@machibigbrother) has been liquidated 7 times in the past 10 hours — but he keeps going long $ETH. Current position: 1,100 $ETH($1.82M). New liquidation price: $1,635.71.」= 2026-06-23、ETH ~$1,640 圏での7回連続清算後もロング継続。清算価格 $1,635.71 = ETH が ~$1,636 を割れると即清算のタイトなポジション。
+- **114♥ [[arkham__2070516573014532322]]**（2026-06-26）: 「Machi Big Brother just sold one of his 150 Bored Apes. He used it to add margin to his Hyperliquid account. He is now long $1.6M of ETH with $67K of margin.」= 2026-06-26、NFT を売却して Hyperliquid の ETH long margin を補充。$1.6M long / $67K margin ≒ ~24x。
+
+**判断（light-touch）**:
+- **Machi Big Brother の ETH long 固執パターン（2026-06）**: 7回清算後も継続 → NFT を担保に投入。ETH ~$1,560 底値圏（2026-06-25・既合成）前後での行動。既合成「AguilaTrades $83.56M 清算（2025-08-14）」「0xa523 $36.4M 清算（2025-09-25）」（既合成）と同一の「ETH long 繰り返し清算パターン」の 2026-06 版。規模は小さいが NFT を崩す = 最後の流動資産まで投入するという固執の強さが際立つ。
+- ⚠️ 2024-09「$FRIEND -$16M」→ 2026-06「連続清算 + NFT 売り」= Machi BB の**一貫した高リスク行動・繰り返し損失パターン**（[[rug-anatomy]]）。ETH 全体の方向への signal は低い（130♥ / 114♥ = 低エンゲージ）。
+- 接続: [[rug-anatomy]]（ETH long 繰り返し清算・NFT 担保投入 = 損失パターン）/ [[perp-dex-wars]]（Hyperliquid が清算の舞台）/ [[onchain-verification]]（Machi BB の実残高・ポジション独立確認推奨）。
+- confidence=低（低エンゲージ・ETH macro 方向への signal 薄）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
 <!-- synthesis:end -->

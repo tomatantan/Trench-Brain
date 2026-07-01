@@ -6,9 +6,9 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7312件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7308件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
-§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**307ティッカーは降格**して非表示。
+§1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**298ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
 
 ## 1a) 合成対象＝今ホット（直近48h言及×複数KOL横断・優先順）
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 54 | 1277♥ @coingecko: JUST IN: Strategy purchases another 1,587 Bitcoin  / 760♥ @DefiIgnas: Ok, I'll shill it:  - $BTC: new Gold - $SOL: this  |
-| [[$ETH]] | 4 | 3 | 76 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 1955♥ @lookonchain: We found a mysterious address.  - Created 1 hour b |
+| [[$BTC]] | 10 | 7 | 52 | 738♥ @CredibleCrypto: Not much has changed here, still think most logica / 735♥ @CredibleCrypto: Not much has changed here, still think most logica |
+| [[$ETH]] | 4 | 3 | 74 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 1896♥ @lookonchain: Machi Big Brother(@machibigbrother) spent ~5.2K $E |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

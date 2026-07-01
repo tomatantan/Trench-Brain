@@ -2,12 +2,12 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dying
 peak_mcap: $1,953,524
 title: $ALBEMARLE（Albemarle City）
 mint: FMTG5DSNYSS6Wv6d6bWG8MnK9ncdgVnkUFRj3ksdpump
 created: 2026-07-02
-updated: 2026-07-02-w3
+updated: 2026-07-02-w9
 tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, graduated, traction0, association-marketing]
 ---
 
@@ -38,19 +38,25 @@ tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, gradua
 | 1窓目（初登場） | $1,953,524 | **+129.4%** | ピーク |
 | 2窓目（2026-07-02） | $1,064,015 | **+25.0%** | 前窓比▼-45.5%・縮退進行中 |
 | 3窓目（2026-07-02） | $905,300 | **+6.3%** | 前窓比▼-14.9%・縮退加速確定 |
+| 4窓目（2026-07-02） | $908,757 | **+6.7%** | 前窓比+0.4%・実質横ばい・stale化前段 |
+| 5窓目（2026-07-02） | $828,588 | **-2.7%** | 初の検知時比マイナス・w/w-8.8%・下落転換確定 |
+| 6窓目（2026-07-02） | $731,894 | **-14.0%** | **-11.7%** | 下落加速・エバポレーション後期 |
+| 7窓目（2026-07-02） | $853,820 | **+0.3%** | **+16.7%** | **stale:true・下落一時停止・検知時水準への戻り** |
+| 8窓目（2026-07-02） | $799,574 | **-6.1%** | **-6.4%** | stale解除・再下落フェーズ復帰 |
+| 9窓目（2026-07-02） | $750,001 | **-11.9%** | **-6.2%** | **下落継続・エバポレーション後期** |
 
 - pump.fun 産・graduated・traction_candidates 検知時 $851k。
 - 合成時 mcap $1,775,925（2026-07-01T16:55:58Z）、peak_mcap $1,953,524。
-- real_sol=0・reply=0・KOL 皆無（kol_ca/kol_ticker ゼロ）全3窓継続。
+- real_sol=0・reply=0・KOL 皆無（kol_ca/kol_ticker ゼロ）全8窓継続。
 - twitter @Albemarle_City（専用アカウント）を整備。website なし。
-- name "Albemarle City"、ticker "ALBEMARLE"——Albemarle Corporation（NYSE: ALB、リチウム採掘・特殊化学）への示唆あり。ナラティブ借用型命名の典型。
+- name "Albemarle City"、ticker "ALBEMARLE"——Albemarle Corporation（NYSE: ALB）への示唆あり。ナラティブ借用型命名の典型。
 
 **判断**
-- 初窓急騰（+129.4%）→ 2窓目（+25.0%）→ 3窓目（+6.3%）と検知時比プラスが急速縮退中。
-- 前窓「次窓で+25%を割り込めば縮退確定帰結が濃厚」→ 3窓目で達成（+6.3%まで縮退）。
-- $1.78M 到達・traction0 全3窓継続——[[launchpad-economics]] 「graduated-but-empty 死亡率 75%」典型域に帰結しつつある。
-- IP/brand 借用系の過去例（STARLINK・PRSM・POKÉWARS）はいずれも T3ゼロのまま DEAD 帰結。ALBEMARLE が同型。
-- ⚠️ **現在の見通し**: 次窓で検知時 $851k を割り込む公算高い。T3（KOL 言及）点火ゼロ継続なら DEAD 域への直行が標準帰結。
+- 初窓急騰（+129.4%）→ 2窓目（+25.0%）→ 3窓目（+6.3%）→ 4窓目（+6.7%）→ 5窓目（-2.7%・下落転換）→ 6窓目（-14.0%・下落加速）→ 7窓目（+0.3%・stale）→ **8窓目（-6.1%・w/w-6.4%・stale解除→再下落）**。
+- 7窓目の stale（+0.3%）が終了。8窓目 $799k（w/w-6.4%）、9窓目 $750k（w/w-6.2%）と2窓連続下落。
+- stale は平衡点ではなく一時的な停止だった。CHILLCAT・SENDIT の stale 後エバポレーション型と完全一致。
+- T3ゼロ全9窓——[[reflexivity]] 循環は起動しなかった。エバポレーション完結方向。
+- ⚠️ **現在の見通し**: 2窓連続 w/w-6% 台の下落継続。このペースなら次窓で $700k 割れ。エバポレーション完結→縮退記録移行接近。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0 × website 無し）/ [[rug-anatomy]]（IP/brand 即死パターン・insider pump 疑い）/ [[reflexivity]]（T3点火がなければ循環は起動しない）
 <!-- synthesis:end -->

@@ -2,7 +2,7 @@
 type: entity
 kind: token
 source: auto-track
-status: dying
+status: watch
 peak_mcap: $34,845
 title: $THREADGUY
 mint: FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump
@@ -50,6 +50,15 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 
 **判断**
 - birth から -51% 急落は [[launchpad-economics]] graduated-but-empty 型の崩壊フェーズ進行。次窓で $10k 以下なら死亡圏確定候補。
+
+### 2026-07-01T22:03Z mcap +76%（$12,450→$21,960）
+**観測（事実）**
+- mcap $12,450→$21,960（flags: mcap+76%）。reply=0・real_sol=0 継続・twitter 無名アカ継続。
+- $20k 台に復帰——dying 圏一時脱出。KOL/community 変化なし。
+
+**判断**
+- +76% 回復は注目だが traction ゼロ全期間のまま。price は動いても demand signal なし。
+- whale/bot の一時的買い戻しか price manipulation の疑い。次窓で再下落なら[[rug-anatomy]] 型通り帰結継続。
 <!-- synthesis:end -->
 
 ## 関連
