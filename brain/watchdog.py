@@ -111,7 +111,10 @@ def run_checks(port, fresh_min, backlog_max):
 
 
 def telegram(msg):
-    tok, chat = _env("TG_BOT_TOKEN"), _env("TG_CHAT_ID")
+    # bot は .env の TG_WIKI_BOT_TOKEN（既存の wiki_bot を流用）。送り先は TG_CHAT_ID(=自分のチャットID)。
+    # 通知を有効化するには .env に TG_CHAT_ID=<自分のchat_id> を追加するだけ（token は既にある）。
+    tok = _env("TG_WIKI_BOT_TOKEN") or _env("TG_BOT_TOKEN")
+    chat = _env("TG_CHAT_ID") or _env("TG_WIKI_CHAT_ID")
     if not tok or not chat:
         return
     try:

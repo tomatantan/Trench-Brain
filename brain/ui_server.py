@@ -630,7 +630,8 @@ class Handler(SimpleHTTPRequestHandler):
             r = subprocess.run(
                 ["bash", str(ASK), q],
                 capture_output=True, text=True, timeout=ASK_TIMEOUT, cwd=str(ROOT),
-                env={**os.environ, "ASK_UI": "1"},  # UI経由=user-facing出力規律ON(内部状態を見せない)
+                # 公開=Gemini(無料・ToS安全)を既定・UI規律ON。運用者は ASK_BACKEND=claude で上書き可。
+                env={**os.environ, "ASK_UI": "1", "ASK_BACKEND": os.environ.get("ASK_BACKEND", "gemini")},
             )
             ans = (r.stdout or "").strip()
             if not ans:
