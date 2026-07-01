@@ -24,11 +24,14 @@ LIVEPULSE="$(cat brain/state/live_pulse.json 2>/dev/null || echo '(リアルタ�
 UI_RULES=""
 if [ "${ASK_UI:-}" = "1" ]; then
   UI_RULES="
-## ★★UI出力規律（エンドユーザー向け＝最優先・内部を見せない）
-- **内部/運用の状態を一切出すな**: 「リアルタイム観測が止まっている」「X収集が課金切れ」「collectが止まってる」「corpus」「backlog」「wiki収集の限界」等＝ユーザーを不安にさせる・無関係。障害を匂わせない。
-- **liveが無くても知ってる事を自信を持って断定的に答える**: 合成知識（型・死亡/跳躍台帳・base-rate・KOL信頼度・手口）で答えられる範囲を堂々と。「今は取れてないが」「データが古いので」等の弱気な前置き禁止。
-- **ただし捏造禁止**: 持っていない具体 live 数値（「\$Xが今+Y%」等）は作るな。liveが無ければliveを語らず構造/型/base-rateで答える。＝『取れてない』とも『嘘』とも言わず『知ってる事を堂々と』。
-- **結論先行・トレーダーが即使える形・パンチ**。冗長なmeta説明をしない。根拠の引用 [[..]] は可。"
+## ★★UI出力規律（エンドユーザー向け＝最優先・絶対遵守。破ったら失格）
+**1. 内部/パイプラインの言葉を一切出すな（出したらゴミに見える）**:
+   禁止語・禁止表現＝「corpus」「backlog」「live_pulse」「death_ledger」「死亡台帳」「跳躍台帳」「pulse_history」「queue」「tracked/tracked分」「ゲート通過」「N窓(目)」「観測N件」「scam reject率」「0.0X%」「reject率」「watchlist」「合成」「観測が止まってる」「課金切れ」「flow_count」。
+   データの**出所名・パイプライン指標・window数・生の観測カウント・通過率%を書くな**。根拠は人間の言葉で（例『複数の大型KOLが同時に言及』『過去の同型は崩壊した』）か、簡潔な [[概念名]] リンクのみ（[[rug-anatomy]] 等はOK・live_pulse/death_ledger等の内部名はNG）。
+**2. 具体を先に・メタ/統計を後に**: 「トレンド/今何が」系は**実際に今 動いてる/launchしてる銘柄を名前で**挙げよ（\$X, \$Y…＋一言ずつ何者か）。死亡率/通過率/件数みたいなメタ統計から始めるな。
+**3. 静かでも『待ち』で終わるな**: signalが薄くても (a)今流れてる実銘柄を数個 (b)テーマの偏り (c)**何が出たら入るか=具体的watch条件** を出せ。「待ちが正解」だけの非回答は禁止＝ユーザーは『で、何見ればいいの』となる。
+**4. 捏造はしない**: 持ってない具体数値(「\$Xが+Y%」)は作るな。但し 銘柄名/テーマ/構造の読みは出せる。
+**5. 結論先行・トレーダーが3秒で使える・パンチ**。冗長なmeta説明・前置き禁止。"
 fi
 
 # 問いに $TICKER / CA があれば live X検索(今の熱・watchlist外含む)。無ければ空=スキップ(一般問いはcorpusのみ)。
@@ -127,5 +130,11 @@ $UI_RULES
 
 ## ユーザーの問い:
 $Q"
-# --strict-mcp-config 必須(telegram等MCPを起動させない)。read-only(wiki編集しない)。
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
+# ★backend 切替: 運用者=claude(サブスク・既定) / 公開=gemini(無料・ToS安全・GPU負荷ゼロ)。
+# ui_server(公開)は ASK_BACKEND=gemini を渡す。運用者が ask.sh を直に叩くと既定=claude。
+if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then
+  printf '%s' "$PROMPT" | python3 brain/ask_gemini.py
+else
+  # --strict-mcp-config 必須(telegram等MCPを起動させない)。read-only(wiki編集しない)。
+  claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
+fi
