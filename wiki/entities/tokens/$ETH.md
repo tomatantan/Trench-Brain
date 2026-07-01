@@ -280,4 +280,25 @@ ETF 流出（2026-06-25）:
 - **既存合成「ETH = BTC beta 脱却未達」**（DefiIgnas・既記）との接続: 2025 年夏〜秋に ETH long を建てた大口が複数回清算される = ETH が「ローテ中継点」として点火できずに下方圧力が続いた 2025-08〜09 の実態。「14ヶ月来安値 ~$1,560（2026-06-25）」に至る下落 trajectory の中間データ点として記録。
 - 接続: [[majors-rotation-supercycle]]（$4K 割れ = 2025-07 Hayes ETH szn 宣言からの失速確認）/ [[rug-anatomy]]（ETH long 大型清算の繰り返しパターン）/ [[onchain-verification]]（0xa523 の on-chain 詳細は独立確認推奨）。
 - confidence=中（lookonchain 観測・2025-09-25 の事実として記録）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
+### 2026-07-01 確認②（worklist 代表ツイ確認・旧ツイ）
+- **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。多数サイクル確認済み。新情報なし。
+
+### 2026-07-01 更新⑤（新 beat: Tom Lee「ETH funding crisis = zero chance / Funding secured」→ 4日後に資金提供）
+出典: [[fundstrat__2068030092064834011]]（2,232♥・2026-06-19T17:56Z）/ [[fundstrat__2069223225792327719]]（430♥・2026-06-23T00:57Z・RT）
+
+**観測（事実）**:
+- [[@fundstrat]]（Tom Lee・2026-06-19）: 「In my opinion, zero chance of this 'crisis' happening for $ETH / zero / "Funding secured"」= ETH に「資金調達危機（funding crisis）」の言説が出回る局面で、Tom Lee が「ゼロ確率」と強く否定。「Funding secured」はマスクの Tesla 非公開化ツイートと同一フレーズで引用。([[fundstrat__2068030092064834011]] 2,232♥)
+- [[@fundstrat]] RT @BSCNews（2026-06-23）: 「Tom Lee said Ethereum's funding crisis had "zero chance." Four days later, he helped fund the fix. Ethereum just got a new co…」= 4日後（2026-06-23）、Tom Lee 自身が ETH の解決策への資金提供者として登場。RT は末尾が截断されており「new co-...」（co-investor / co-funder 等）の詳細は不明。([[fundstrat__2069223225792327719]] 430♥)
+
+**判断（新 beat）**:
+- **「ETH funding crisis」narrative（2026-06-19）**: ETH が 14ヶ月来安値（~$1,560・既合成 2026-06-27 更新）にある局面で「ETH の資金調達危機」という言説が浮上。Ethereum Foundation の ETH 売却（過去批判あり）・プロトコル資金調達問題・特定 DeFi インフラの資金不足など可能性があるが具体的内容は未確認（[[onchain-verification]]）。
+- **「Funding secured」の構造**: マスクの有名ツイート（後に問題化）と同じ表現で危機を否定したその人物が4日後に自ら介入——先行察知の可能性と、否定後の翻意の両方が読める。⚠️ insider 動向の観察として記録するが、確認困難な推測部分は推測として扱う。
+- **既存合成との接続**:
+  - 「institutional adoption ≠ price support」（既合成）: Tom Lee が ETH に資金提供しても価格は 14ヶ月安値圏 = institutional 関与の繰り返しが価格を支持しないというパターンの追加事例候補。
+  - 「ETH = コンセンサストレード（リターン薄）」（既合成）: 機関トップが公言 + 関与するコンセンサス資産でも価格低迷継続の証左。
+  - 「BTC beta 脱却未達」（DefiIgnas・既合成）: funding crisis narrative は ETH の独立性不足（BTC beta 依存）と同期している構造。
+- ⚠️ ETH 「funding crisis」の実体・Tom Lee の資金提供先・「new co-...」詳細が未確認。情報が断片的であり、現時点では「推測を含む観測」として保留。
+- 接続: [[onchain-verification]]（ETH funding crisis の具体的内容・Tom Lee 資金提供先の独立確認推奨）/ [[majors-rotation-supercycle]]（機関の価格低迷期介入が ETH ローテ点火につながるかの今後の観察材料）/ [[rug-anatomy]]（強い公言「zero chance」→4日後に翻意・介入 = track record パターン）。
+- confidence=低〜中（情報断片・詳細未確認。新軸として記録はするが既存合成の方向に変化なし）。
 <!-- synthesis:end -->

@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 ticker: $NERVEN
 mint: 4pwDCYEWoGM49PmRXDF1iz5jjiqZkMqHWz99menPpump
 created: 2026-07-01
-updated: 2026-07-01 (change: mcap-77% $53k→$12k)
-tags: [token, pumpfun, prebond, traction0, mcap-drop]
+updated: 2026-07-01
+tags: [token, pumpfun, prebond, traction0, dead]
 ---
 
 # $NERVEN — nervenkitzel（4pwDCY）
@@ -42,9 +43,11 @@ pump.fun 発。"nervenkitzel"（ドイツ語: 「スリル/興奮」）命名。
 
 **change（2026-07-01）**: mcap-77%（$53,668→$12,153）。traction0 継続・急落中。
 
-**⚠️ dying 圏**: $12k まで落ちた prebond × traction0 = graduation 確率低。枯死パス最有力。
+**death（2026-07-01）**: peak $53,668→最終 $393（-99.3%）。cause: mcap枯れ。ドイツ語命名 × prebond × twitter/website null × traction0 → 型通り枯死。[[rug-anatomy]] 枯死コホート確定（prebond mcap勢い門通過 → 社会的基盤ゼロ → 崩壊）。
 
-**概念接続**: [[launchpad-economics]]（prebond 急崩壊型）/ [[rug-anatomy]]（traction0 × 急落）
+**outcome: died**。
+
+**概念接続**: [[launchpad-economics]]（prebond 急崩壊型）/ [[rug-anatomy]]（traction0 × 急落 / prebond枯死型）
 
 <!-- synthesis:end -->
 

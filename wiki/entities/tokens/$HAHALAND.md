@@ -7,7 +7,7 @@ ticker: $HAHALAND
 mint: GFGA9S2dMkTatS613bqeUDk7nuMkFxs1kWi51hQpump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [token, pumpfun, graduated, traction0, sports-meme]
+tags: [token, pumpfun, graduated, traction0, sports-meme, mcap-up]
 ---
 
 # $HAHALAND — Haaland The Meme King（GFGA9S）
@@ -40,6 +40,8 @@ pump.fun 発。"Haaland The Meme King" 命名——サッカー選手 Erling Haa
 - sports meme は crypto community との直接 overlap が薄く、traction 転化が難しい類型。
 
 **⚠️ watch 中**: graduated × traction0 × sports brand × real_sol=0 → [[launchpad-economics]] 枯死パス最有力。
+
+**change（2026-07-01）**: mcap +40%（$56,530→$79,416）。traction0 継続・reply=0・KOL 未確認。mcap が上昇しても社会的シグナルはゼロ——traction0 × mcap 上昇 = whale 単独 pump or 自然な出来高ラリー。BREAKOUT-then-dead パスへの移行監視中。
 
 **概念接続**: [[launchpad-economics]]（graduated-but-empty / sports meme 類型）/ [[rug-anatomy]]（traction0 型）
 

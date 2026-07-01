@@ -114,6 +114,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$BELMAR]]（I STUDIED） | +829%（BREAKOUT） | $238k→$2.2M | reply0 / KOL0（全期間）・twitter/website null・real_sol=0 | 不明（social 窓口ゼロ全期間・graduated・$212k birth後さらに上昇） | traction0×出来高先行 BREAKOUT×real_sol=0 = $TESTIBULL/$MOONLAKE 同型・$2M+ 到達も whale/bot pump 最有力・**→dead確定(-98.6%)** |
 | [[$TESTIBULL-C6kWVd]] 2nd BREAKOUT | +123%（2nd BREAKOUT） | $1.99M→$4.42M | reply0 / KOL0（全期間）・real_sol=0・DipWheeler twitter | 不明（1st +2014% 後も traction ゼロ継続・multi-mint sibling 即死済・2段連続 pump） | **traction0×2段連続 BREAKOUT×$4.4M**（コホート最高 peak 更新。1st $2.51M→2nd $4.42M。whale/bot ポジション継続の最終 pump 疑い最有力。BREAKOUT-then-dead 最有力——$BOO 2段型の規模拡大版） |
 | [[$BITBOY]]（The White Bull） | +265%（BREAKOUT） | $489k→$1.78M | reply0 / KOL0（全期間）・real_sol=0・@BitBoy_TWB / bitboy.meme 整備済 | BitBoy Crypto 名借用（実 @Bitboy_Crypto とは別 CA・⚠️ 非公式）・social 整備あり | **KOL名借用 × social整備 × traction0 BREAKOUT**（website+twitter あっても reply0 全期間のまま $1.78M 到達。$BELMAR（→dead -98.6%）/$TESTIBULL（継続中）と同型水準——BREAKOUT-then-dead 最有力候補） |
+| [[$TBB]]（THE BLACKIST BULL） | +323%（BREAKOUT） | $33.6k→$141.9k | reply0 / KOL0（全期間）・real_sol ~9.5SOL・CMC website authority借用 | CMC 他プロジェクトページを website に流用する authority 借用型 × bull-theme × prebond | prebond traction0 BREAKOUT×authority借用×bull-cluster（$TESTIBULL/$BELMAR/$DEADSEM 同型——BREAKOUT-then-dead 最有力） |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

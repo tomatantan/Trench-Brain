@@ -27,8 +27,8 @@ tags: [trench, dashboard]
 | $JOTCHUA | 26 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
 | $MU | 26 | 7 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
 | $WOJAK | 26 | 6 | ?, BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
-| $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
 | $KINS | 23 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
+| $ASTEROID | 23 | 2 | Crypto_Alch, solbrdl |
 | $PEPE | 22 | 6 | ?, lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $MSTR | 21 | 3 | CryptoKaleo, saylor, theunipcs |
 | $MERLIN | 20 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |

@@ -352,4 +352,19 @@ accounts: 19
 - ⚠️ Wynn の清算タイミングは lookonchain 観測のみ（[[onchain-verification]] 推奨）。
 - 接続: [[rug-anatomy]]（高レバ degen の繰り返し清算・Wynn = 逆指標化した public ポジション）/ [[onchain-verification]]（Wynn の on-chain 追跡可能・二次確認推奨）。
 - confidence=中（清算タイミングは推定。行動パターン整合性は高い）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
+
+### 2026-07-01 確認④（worklist 代表ツイ確認・Wynn Jul-15 long + 50x whale 利確クローズ）
+出典: [[lookonchain__1945057490447589791]]（1,703♥・2025-07-15T09:46Z）/ [[lookonchain__1896229586553463130]]（1,698♥・2025-03-02T16:02Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-07-15）: 「James Wynn deposited 468K $USDC into #Hyperliquid and opened a 40x leveraged long on $BTC again. Liquidation price: $115,570.」([[lookonchain__1945057490447589791]] 1,703♥)
+  - ATH（2025-07-11・既合成）の4日後。Wynn の Jul-10 40x short（liq $112,360、ATH で清算推定・既合成 2026-07-01 更新②）の直後にあたる。
+- [[@lookonchain]]（2025-03-02）: 「This whale, who was long $BTC and $ETH with 50x leverage, has closed most of his long positions, making over $6.8M in just one day!」([[lookonchain__1896229586553463130]] 1,698♥)
+  - 2025-03-02 = Trump tariff shock（2025-04-04）の約1ヶ月前。BTC ~$85-90K 台での profitable exit。
+
+**判断（light-touch）**:
+- **Wynn Jul-15 long（468K USDC / 40x / liq $115,570）**: 既合成「Wynn Jul-10 short（$27.5K + $3,960 referral、liq $112,360）→ ATH で清算」の直後に、**468K USDC（前回比 ~16x 増額）で 40x long を再開設**。liq $115,570 はエントリーが $118K 超を示唆——ATH（~$109-115K 帯）を上抜けた局面での long 参入。「again」= 繰り返しパターン。short 清算直後に長ポジを開く即転換行動、かつ投下資金が毎回拡大する傾向（$481→$27.5K→$468K）が完成する。已合成「超高レバ・高頻度フリップ・degen 行動パターン」（[[rug-anatomy]]）の集大成データ点。
+- **50x BTC+ETH whale $6.8M 利確クローズ（2025-03-02）**: tariff shock 前の bull 相場で 50x long を **利確クローズ**した成功事例。既合成「Wynn / AguilaTrades 等の清算事例」（繰り返し清算）と対照的——同じ超高レバでも利確出口を実行した whale が存在した。**survivor bias**: lookonchain が利確成功を報告するが清算された多数は不報告（[[rug-anatomy]]）。旧ツイ。現在の新 beat なし。
+- 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ・Wynn degen 行動記録）に変化なし。confidence=中（変化なし）。
+- 接続: [[rug-anatomy]]（Wynn 行動パターン完成・資金規模拡大 + 即転換 / 50x 利確 = survivor bias の直接事例）。
 <!-- synthesis:end -->

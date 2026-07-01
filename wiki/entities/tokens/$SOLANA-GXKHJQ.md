@@ -38,7 +38,7 @@ pump.fun 発。"solana looks good" 命名——Solana 名義便乗型（先行 [
 
 **シグナル分析**: KOL ツイート URL 設定 × CA 未確認 × peak $5.9k = traction 転化ゼロ確定。先行 [[$SOLANA-3BEB]]（-95.1%）と同型。
 
-**outcome: died**（peak $5.9k = 実質即死水準・枯死確定）。
+**outcome: died**（peak $7,006 → 最終 $1,574・-77.6%・mcap枯れ確定。cause: mcap枯れ）。
 
 **概念接続**: [[launchpad-economics]]（Solana 名便乗型 / association marketing）/ [[rug-anatomy]]（KOL CA 未確認型）
 

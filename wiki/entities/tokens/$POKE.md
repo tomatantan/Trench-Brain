@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 ticker: $POKE
 mint: 3cqKLiB6bFoUyUdmM7zmBu7goRu77y9a7VqicQDNpump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [token, pumpfun, graduated, traction0, ip-brand, gaming]
+tags: [token, pumpfun, graduated, traction0, ip-brand, gaming, dead]
 ---
 
 # $POKE — Pokeball（3cqKLi）
@@ -39,9 +40,11 @@ pump.fun 発。"Pokeball" 命名——Pokemon IP 隣接型。mint: 3cqKLiB6bFoUy
 - twitter/website 整備済 × reply=0 全期間 × real_sol=0 → [[rug-anatomy]] 整備コスト転化失敗型（[[$SCRALL]] -98.4% / [[$DOGPLANE]] 同型）と同パス。
 - Pokemon IP は既存 consumer community を持つが、CA を介した動員が起きていない（KOL CA 未確認）。
 
-**⚠️ watch 中**: social 整備 × graduated × traction0 = [[launchpad-economics]] "graduated-but-empty" 典型。IP 認知がオンチェーン需要に転化するか否かが分岐。転化なければ [[rug-anatomy]] 枯死コホートへ。
+**death（2026-07-01）**: peak $63,875→最終 $3,191（-95.0%）。cause: mcap枯れ。Pokemon IP「Pokeball」× social 整備（@pokeball + pokeball.run）× traction0 全期間 → 型通り枯死。social 整備コスト ≠ organic 需要——[[$PBB]]（PokeBattleBet・-89.7%即死）と同型の IP 参照命名枯死。
 
-**概念接続**: [[launchpad-economics]]（graduated-but-empty）/ [[rug-anatomy]]（整備コスト転化失敗型）
+**outcome: died**。
+
+**概念接続**: [[launchpad-economics]]（graduated-but-empty / IP 参照命名型）/ [[rug-anatomy]]（整備コスト転化失敗型・$PBB 同型）
 
 <!-- synthesis:end -->
 

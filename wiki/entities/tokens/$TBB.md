@@ -2,12 +2,12 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: breakout
 ticker: $TBB
 mint: BMf4QQkvzri3zf1ffSwWEsKH1pFG9GgZ5Po6MRBipump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [token, pumpfun, prebond, traction0, bull-theme]
+tags: [token, pumpfun, prebond, traction0, bull-theme, breakout]
 ---
 
 # $TBB — THE BLACKIST BULL（BMf4QQ）
@@ -39,9 +39,11 @@ pump.fun 発。"THE BLACKIST BULL" 命名——bull-theme クラスター。mint
 - website = CMC 他プロジェクトページ利用 → authority 借用型（[[rug-anatomy]] KOL名借用型と同系統の「外部権威借用」）。
 - bull-theme cluster は [[launchpad-economics]] で $TESTIBULL/$BELMAR/$BECKER 等が全滅パスを辿っている。
 
-**⚠️ watch 中**: prebond × traction0 × CMC authority 借用 × bull-theme → 型通り枯死パス最有力。
+**BREAKOUT（2026-07-01）**: +323%（$33,564→$141,871）。prebond × real_sol ~9.5SOL × traction0 × KOL 未確認のまま mcap 4 倍超え。authority 借用（CMC ページ利用）× bull-theme × traction ゼロの BREAKOUT = [[launchpad-economics]] 跳躍台帳の「traction0 出来高先行 BREAKOUT」型と同一シグネチャ。$TESTIBULL/$BELMAR/$DEADSEM と同型——BREAKOUT-then-dead 最有力。
 
-**概念接続**: [[launchpad-economics]]（bull-theme cluster / prebond）/ [[rug-anatomy]]（authority 借用型）
+**⚠️ 警戒**: +323% BREAKOUT 後も reply=0・KOL 未確認が続く場合、peak 形成後の急崩壊シナリオが支配的。CMC website = authority 借用型の追加証拠。
+
+**概念接続**: [[launchpad-economics]]（bull-theme cluster / prebond BREAKOUT / 跳躍台帳記録）/ [[rug-anatomy]]（authority 借用型 / traction0 BREAKOUT-then-dead）
 
 <!-- synthesis:end -->
 
