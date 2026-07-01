@@ -175,6 +175,11 @@ def _score_token(token):
         onchain["pump"] = {"sym": pf.get("symbol"), "name": pf.get("name"),
                            "mcap": pf.get("usd_market_cap"), "reply": pf.get("reply_count"),
                            "complete": pf.get("complete"), "twitter": pf.get("twitter")}
+        # ATH比は info のみ(flagにしない)＝pump は launch時sniper spikeでathが跳ね、ほぼ全銘柄-99%になり
+        # discriminate しない=ノイズ。参考値として残すのみ。
+        mc, ath = pf.get("market_cap"), pf.get("ath_market_cap")
+        if mc and ath and ath > 0:
+            onchain["pump"]["ath_drawdown_pct"] = round(100 * (mc - ath) / ath, 1)
     rc = _http_json(f"https://api.rugcheck.xyz/v1/tokens/{ca}/report")
     if rc:
         # ★LP/market アドレスを除外(spyzercrypto guide: top holderはほぼLP=traderでない→偽の集中flagを除く)
@@ -187,12 +192,17 @@ def _score_token(token):
         th = rc.get("topHolders") or []
         non_lp = [h for h in th if h.get("owner") not in lp_addrs and h.get("address") not in lp_addrs]
         top_pct = round(max((h.get("pct") or 0) for h in non_lp), 2) if non_lp else None
+        top5_pct = round(sum((h.get("pct") or 0) for h in non_lp[:5]), 2) if non_lp else None
         insiders_n = sum(1 for h in th if h.get("insider"))
+        graph_insiders = rc.get("graphInsidersDetected") or 0
+        total_holders = rc.get("totalHolders")
         danger = [r.get("name") for r in (rc.get("risks") or []) if r.get("level") == "danger"]
         onchain["rugcheck"] = {"rugged": rc.get("rugged"), "mint_auth": rc.get("mintAuthority"),
-                               "top_holder_pct_nonLP": top_pct,
-                               "insiders": bool(rc.get("insiderNetworks")) or insiders_n > 0,
-                               "insider_holders": insiders_n, "danger": danger}
+                               "top_holder_pct_nonLP": top_pct, "top5_nonLP_pct": top5_pct,
+                               "insiders": bool(rc.get("insiderNetworks")) or insiders_n > 0 or graph_insiders > 0,
+                               "insider_holders": insiders_n, "graph_insiders": graph_insiders,
+                               "total_holders": total_holders, "rug_score": rc.get("score_normalised"),
+                               "lp_usd": round(rc.get("totalMarketLiquidity") or 0), "danger": danger}
         if rc.get("rugged"):
             flags.append("rugged済(資金抜け確認)")
         if rc.get("mintAuthority"):
@@ -205,8 +215,16 @@ def _score_token(token):
                 flags.append(f"保有集中・高(非LP top {top_pct}%)")
             elif top_pct > 3.5:
                 flags.append(f"保有集中(非LP top {top_pct}% ＞3.5%基準)")
-        if rc.get("insiderNetworks") or insiders_n:
+        # ★bundle検出(guide: 1人が50-80%を複数walletで支配)＝上位集中 or rugcheck graphInsiders
+        if top5_pct is not None and top5_pct > 25:
+            flags.append(f"bundle疑い(上位5非LP計 {top5_pct}%)")
+        if graph_insiders:
+            flags.append(f"bundle/insiderグラフ検出({graph_insiders}wallet)")
+        elif rc.get("insiderNetworks") or insiders_n:
             flags.append(f"インサイダー検出({insiders_n}wallet)" if insiders_n else "インサイダーnetwork検出")
+        # ★holder極少(guide: 少holder×up-only=赤旗)
+        if isinstance(total_holders, int) and 0 < total_holders < 15:
+            flags.append(f"holder極少({total_holders})")
         flags += [f"危険: {dn}" for dn in danger]
     br = _state_json("base_rate.json", {})
     gp = br.get("gate_passed") or 1
