@@ -10,7 +10,7 @@ tags: [trench, summary, kol, framework, rug, screening, onchain, psychology, spy
 # spyzercrypto「A Complete Meme Coin Guide」要約
 
 **強KOL** [[@spyzercrypto]] の132ページ無料ガイド（PDF・英/中）。著者は2019年に€2kスタート・anti-guru（「guru course seller が嫌い」）。
-★**世界最強級KOL [[@ansem]](blknoiz06)が"最強手法"として紹介**＝「強KOLの意見」→**トップKOL Ansem 公認の標準framework**に格上げ（本人確認2026-07-01）。
+★**世界最強級KOL [[@blknoiz06|Ansem]]が"最強手法"として紹介**＝「強KOLの意見」→**トップKOL Ansem 公認の標準framework**に格上げ（本人確認2026-07-01）。
 ただし framework は採用しても**検証層は置き換えない**＝Ansem公認は prior を上げるが heuristicsが効くのは on-chain で検算できるから（[[ape-or-avoid]] の芯＝「語られてる≠良い」。奇しくもガイド自身が同じことを言う＝§KOL「don't borrow conviction」）。権威×検証の両方。
 
 構成: PART I Foundation / II Trading / III Psychology / IV Safety / V Getting Started。

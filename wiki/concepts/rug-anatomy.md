@@ -403,8 +403,8 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 [[@lookonchain]] $LIBRA/$MELANIA/$YZY/$JELLY/MrBeast/$WBTC, [[@badattrading_]] sniper/insider/bundled解析,
 [[@a1lon9]] $LIBRA rug認定。（全て sources/x/ の原ツイに保存済）
 
-## 外部KOL frameworkによる裏付け＋sharpen（[[@spyzercrypto]] guide・**[[@ansem]] 公認**・2026-06-30）
-[[@spyzercrypto]] の132pガイド（[[spyzercrypto-memecoin-guide-2026-06-30]]）が本conceptのrug機構を独立に裏付け、判定を鋭くした。**世界最強級KOL [[@ansem]](blknoiz06)が"最強手法"として紹介**＝トップKOL公認の標準framework:
+## 外部KOL frameworkによる裏付け＋sharpen（[[@spyzercrypto]] guide・**[[@blknoiz06|Ansem]] 公認**・2026-06-30）
+[[@spyzercrypto]] の132pガイド（[[spyzercrypto-memecoin-guide-2026-06-30]]）が本conceptのrug機構を独立に裏付け、判定を鋭くした。**世界最強級KOL [[@blknoiz06|Ansem]]が"最強手法"として紹介**＝トップKOL公認の標準framework:
 - **✅裏付け**: LP未lock / mint権限残存 / bundle / honeypot ＝本conceptの抽出機構と一致。
 - **➕追加(sharpen)**: ★**非LP top holder 3.5%超で赤旗**（top一覧の最上位はほぼLP＝除外して測れ）／**bundle検出**＝Bubblemaps cluster「99%がbundleで負ける」／**fresh-wallet**(緑葉=新規wallet複数)／**botted-chart**(同サイズ/巨大candleのみ)／**VOL/MC比**。
 - **→実装反映**: `/api/score` を **LP除外＋3.5%階層閾値＋insider数** に改修済（VaelaQueen 旧"58%集中"=LP誤読 → 非LP top 4.79%）。

@@ -14,7 +14,7 @@ tags: [trench, player, kol, framework, educator, spyzercrypto]
 
 ## 何者か
 crypto/memecoin トレーダー兼 educator。2019年に約€2kで開始。132pの無料ガイド [[spyzercrypto-memecoin-guide-2026-06-30|A Complete Meme Coin Guide]] を配布（anti-guru＝「guru course seller が嫌い」）。
-★**世界最強級KOL [[@ansem]](blknoiz06)が"最強手法"として紹介**＝この framework はトップKOL公認（本人確認2026-07-01）。彼のガイドの信頼度を大きく押し上げる。
+★**世界最強級KOL [[@blknoiz06|Ansem]]が"最強手法"として紹介**＝この framework はトップKOL公認（本人確認2026-07-01）。彼のガイドの信頼度を大きく押し上げる。
 
 ## framework（要旨・全文は要約ページ）
 - **scam/rug**: LP-lock/mint-auth無効/**非LP top holder<3.5%**/bundle(Bubblemaps)/fresh-wallet/botted-chart/VOL-MC。「99%のon-chainトレーダーはbundleで負ける」。
