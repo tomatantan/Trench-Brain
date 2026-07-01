@@ -1,0 +1,54 @@
+---
+type: entity
+kind: token
+source: auto-track
+status: watch
+ticker: $BULLARMY
+mint: FtWD7st7o5fp6sJ5NTp1jLY1qaRjibzYDTe3xSYpump
+created: 2026-07-01
+updated: 2026-07-01
+tags: [token, pumpfun, graduated, traction0, bull-cluster, community-meme]
+---
+
+# $BULLARMY — Bull Army（FtWD7s）
+
+pump.fun 発。"Bull Army" 命名——bull 集団・軍団 community テーマ。mint: FtWD7st7o5fp6sJ5NTp1jLY1qaRjibzYDTe3xSYpump。twitter @bullarmysolx、website https://bullarmy.fun。graduated（complete:true）。reply=0・KOL なし。real_sol=51,358,024,684（lamports・ ~51 SOL 相当の非ゼロ値）。
+
+## ライフサイクル(auto-track)
+
+| 項目 | 値 |
+|---|---|
+| mint | FtWD7st7o5fp6sJ5NTp1jLY1qaRjibzYDTe3xSYpump |
+| pool | Fj27fEPSgAaeUQxE26v6habcamfCMk15neKZTFYma57u |
+| gate | safety:ok / traction:graduated |
+| 初検知 mcap | $104,799（2026-07-01T12:47Z） |
+| peak_mcap | $104,799（暫定） |
+| real_sol | 51,358,024,684 lamports（~51 SOL） |
+| reply_count | 0 |
+| twitter | https://x.com/bullarmysolx |
+| website | https://bullarmy.fun |
+| tokenized_agent | false |
+| complete | true（graduated） |
+| status | watch |
+| auto-track birth | 2026-07-01T12:47Z |
+
+<!-- synthesis:start -->
+## 合成
+
+**観測（事実）**
+- pump.fun 産・graduated・$104k で検知。real_sol ~51 SOL（非ゼロ）・reply=0・KOL なし。
+- twitter @bullarmysolx（専用アカウント）・website bullarmy.fun（専用ドメイン）——identity は整備済み。
+
+**シグナル分析**
+- real_sol ~51 SOL は [[rug-anatomy]] ⑬コホート（$FLYRO ~84SOL→-98.5% / $GIRLS ~83SOL→-98.6% / $BOO ~83SOL→-98.6%相当）の中間域。deployer が pool に初期流動性として SOL を入れているケースと近似——⚠️ deployer pool pump 疑いの参照ポイント。
+- twitter/website 整備済みでも reply=0 全期間 = identity コストはかかっているが social 伝播ゼロ。
+- bull cluster 命名（$TESTIBULL / $BELMAR / $DEADSEM / $TBB 等の同期コホート）の一角——bull テーマ飽和環境下での個別優位性なし。
+- $104k は [[launchpad-economics]] 50k-200k 帯 = 死亡率 23-25% 域。
+
+**⚠️ real_sol 監視**: 次窓での real_sol 減少 = deployer SOL 引き出し候補 → rug 直前シグナル。$BOO は real_sol 一定でも崩壊。
+
+**概念接続**: [[launchpad-economics]]（graduated × bull cluster 競合環境）/ [[rug-anatomy]]（real_sol ~51SOL × traction0 → ⑬コホート候補）
+<!-- synthesis:end -->
+
+## 関連
+[[launchpad-economics]] / [[rug-anatomy]]

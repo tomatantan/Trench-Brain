@@ -318,4 +318,26 @@ ETF 流出（2026-06-25）:
 - ⚠️ ETH 「funding crisis」の実体・Tom Lee の資金提供先・「new co-...」詳細が未確認。情報が断片的であり、現時点では「推測を含む観測」として保留。
 - 接続: [[onchain-verification]]（ETH funding crisis の具体的内容・Tom Lee 資金提供先の独立確認推奨）/ [[majors-rotation-supercycle]]（機関の価格低迷期介入が ETH ローテ点火につながるかの今後の観察材料）/ [[rug-anatomy]]（強い公言「zero chance」→4日後に翻意・介入 = track record パターン）。
 - confidence=低〜中（情報断片・詳細未確認。新軸として記録はするが既存合成の方向に変化なし）。
+
+### 2026-07-01 更新⑥（新 beat: BTC OG $2.8B ETH ローテ 2025-08-25 / SharpLink 77,210 ETH 先行積み増し 2025-07-28）
+出典: [[lookonchain__1959846685934551356]]（1,635♥・2025-08-25T05:13Z）/ [[lookonchain__1949642059046146559]]（2,146♥・2025-07-28T01:24Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-08-25）: 「100,784 BTC を7年前に受け取った Bitcoin OG が BTC を ETH に大量ローテ。5日間で ~22,769 BTC（$2.59B）を Hyperliquid に入金・売却。その後 472,920 ETH（$2.22B）を spot 購入 + 135,265 ETH（$577M）long を開設。」([[lookonchain__1959846685934551356]] 1,635♥)
+  - ETH 買付価格: $2.22B ÷ 472,920 = **~$4,692/ETH**。タイミングは BTC ATH（2025-07-11）の約6週後。
+- [[@lookonchain]]（2025-07-28）: 「SharpLink(@sharplink) bought another 77,210 $ETH（$295M）and currently holds 438,017 $ETH（$1.69B）.」([[lookonchain__1949642059046146559]] 2,146♥)
+  - 買付価格: $295M ÷ 77,210 = **~$3,822/ETH**。タイミングは BTC ATH（07/11）の17日後。
+  - 2025-07-28 時点での総保有: 438,017 ETH（$1.69B）。既合成「2026-06-26 に 5,000 ETH（$7.85M）追加・avg コスト ~$3,609→含み損 -$1.71B」はこの先の追加購入。
+
+**⚠️ 判断**:
+- **worklist 代表ツイ確認（2026-07-01 $ETH §1a）**: 2,146♥ lookonchain = SharpLink 本ツイ（新 beat 合成済み）。3,864♥ zhusu = 旧ツイ（多数サイクル確認済み・新情報なし）。
+- **機関・OG の大規模 ETH 積み上げ vs 実価格の乖離（統合判断）**:
+  - BTC OG: ~$4,692/ETH で $2.8B → 現在（~$1,560）: **-67%**
+  - SharpLink: ~$3,822/ETH で $295M（2025-07-28）・avg ~$3,609 → 現在: **-57%**
+  - World Liberty: $3,311〜$3,801/ETH → 現在: **-53〜-59%**（既合成）
+  → 2025年夏に巨額で ETH に入った複数エンティティが全員 -53〜-67% の含み損。「institutional/OG adoption ≠ price support」の構造が複数独立事例で裏付けられた。
+- **BTC OG ローテの重要性**: 既合成「ETH = BTC beta 脱却未達」（DefiIgnas）/ 「コンセンサストレード（リターン薄）」の中で、**$2.8B という規模の OG 資金が入っても ETH が BTC を outperform できなかった**実証。Hayes「ETH is following and will outperform」（2025-07-11 既合成）と方向は同じタイミングだが結果は ETH -67%。
+- **SharpLink 2025-07-28 timeline 補完**: 既合成の 2026-06-26「5,000 ETH（$7.85M）追加・"8ヶ月ぶり"」は 2025-10〜11 頃から追加停止→ 2026-06 に再開という読み。2025-07-28 の 77,210 ETH ($295M) は最後の大規模積み増しで、その後停止→ 2026-06 に小口再開というパターン。avg ~$3,609 が 2025-07 の大規模購入（~$3,822）と 2026-06 の小口購入（~$1,570 前後）の加重平均。
+- 接続: [[majors-rotation-supercycle]]（BTC OG の大規模 BTC→ETH ローテが ETH price support に不充分だった実証・2025-08）/ [[onchain-verification]]（BTC OG の Hyperliquid 入金・SharpLink on-chain 買付は独立確認推奨）/ [[rug-anatomy]]（OG の大口購入 vs 実価格乖離の継続事例）/ [[$BTC]]（OG が BTC ATH 後6週で $2.59B 売却 = 分配フェーズの重要事例）。
+- confidence=中（lookonchain 観測・規模大・既存合成の方向に整合）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・institutional adoption ≠ price support）に変化なし、確証が追加された。
 <!-- synthesis:end -->

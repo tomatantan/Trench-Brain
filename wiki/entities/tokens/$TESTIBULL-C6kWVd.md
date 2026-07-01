@@ -3,11 +3,11 @@ type: entity
 kind: token
 source: auto-track
 status: watch
-peak_mcap: $4,422,540
+peak_mcap: $5,342,002
 title: $TESTIBULL（testibull）C6kWVd
 mint: C6kWVdLGAE3Eb8Xc6VRZbs9ZvouHhBMYbhd4BVagD4Da
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-01
 tags: [trench, entity, token, auto-track, graduated, traction0, stub, multi-mint, bull-cluster]
 ---
 
@@ -58,6 +58,16 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub, multi-mint
 - $4.4M は観測中の traction0 whale pump コホートで最高水準——$TESTIBULL が traction ゼロのまま到達できる天井を更新中。
 - 2段跳ね × traction0 全期間は [[launchpad-economics]] [[$BOO]] 2段 BREAKOUT（$324k→$709k）と型は同じだが 1桁規模が上。
 - ⚠️ traction0 × multi-mint sibling 即死済 × 2段連続 pump = whale/bot がポジション継続中の疑い。出口直前の最終 pump 候補。[[rug-anatomy]] BREAKOUT-then-dead 最高 peak 更新候補。
+
+### 2026-07-01T12:47Z mcap+41%（$3,782,048→$5,342,002）
+**観測（事実）**
+- mcap $3,782,048 → $5,342,002（+41%）。flags: mcap+41%。
+- reply_count=0・real_sol=0・KOL 皆無 変化なし継続。
+
+**判断**
+- 2nd BREAKOUT（$4.4M）後も traction0 のまま mcap 継続上昇。$5.34M はコホート内最高峰を更新。
+- KOL/reply ゼロ全期間 × +41% 更新 = whale/bot のポジション追加 or 外部出来高流入の両義——有機的需要の証拠なし継続。
+- この水準まで traction0 で到達したケースは観測コホート内で $TESTIBULL が唯一。「traction0 でどこまで膨張するか」の上限観測として継続追跡。
 <!-- synthesis:end -->
 
 ## 関連

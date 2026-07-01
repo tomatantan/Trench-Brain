@@ -373,6 +373,25 @@ accounts: 19
 - 接続: [[rug-anatomy]]（Wynn mega-long 起点 → 逆-Wynn → 清算連鎖の完全系）/ [[onchain-verification]]（Wynn のポジションは lookonchain 観測・独立確認推奨）。
 - confidence=中（起点確定・タイムライン整合性高）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
 
+### 2026-07-01 更新⑦（新 beat: BTC OG 100,784 BTC 保有者が $2.59B BTC→ETH 大規模ローテ 2025-08-25）
+出典: [[lookonchain__1959846685934551356]]（1,635♥・2025-08-25T05:13Z）
+
+**観測（事実・2025-08-25）**: 「The Bitcoin OG who received 100,784 $BTC($642M then, now $11.4B) 7 years ago is frantically dumping $BTC for $ETH. In the past 5 days, they've deposited ~22,769 $BTC($2.59B) to #Hyperliquid for sale, then bought 472,920 $ETH($2.22B) spot and opened a 135,265 $ETH($577M) long.」
+
+- 取得時コスト: $642M ÷ 100,784 BTC = **$6.37/BTC**（7年前 = 2018年頃）
+- 売却価格: $2.59B ÷ 22,769 BTC ≈ **~$113,800/BTC**（売却時点のATH圏）
+- ETH 購入価格: $2.22B ÷ 472,920 ETH ≈ **~$4,692/ETH**（spot）+ $577M の ETH long（Hyperliquid）
+- タイムライン: BTC ATH（2025-07-11, 既合成）の**約6週後**に OG がローテ実行
+
+**⚠️ 判断**:
+- **BTC 分配フェーズの追加証拠**: 既合成「10K BTC 14yr 休眠 wallet 転送（2025-07-04）」（2026-07-01 更新）はATH7日前、本ツイ（22,769 BTC）はATH6週後 = **OG が ATH 前後に段階的に出口を作った二波**。前者は移動のみ・後者は ETH への積極的ローテ。
+- **規模**: 22,769 BTC ($2.59B) の売却は既合成「大規模清算 $1.45B（2026-06-25）」「BlackRock 2日連続入金 $481M（2026-06-25/26）」を超える単体ローテとして記録に値する。
+- **ETH long 追加（Hyperliquid）**: spot ($2.22B) + perp long ($577M) で ETH に ~$2.8B の exposure を構築。Hayes「$ETH is following / outperform」(2025-07-11 既合成) と同方向の大口 OG bet。
+- **⚠️ 現在（2026-07-01）との乖離**: ETH は買付価格 ~$4,692 から 14ヶ月来安値 ~$1,560 へ **-67%**。OG の ETH rotation は「ATH圏で BTC を手放してETHに移した」が、結果として ETH の下落で大幅含み損。「OG が巨額 BTC を ETH に rotation しても ETH が上がらない」= BTC beta 脱却未達・コンセンサストレードの実証。
+- **worklist 代表ツイ（2026-07-01 $BTC§1a）の確認**: 1,635♥ lookonchain = 本ツイ（新 beat 合成済み）。1,277♥ coingecko（Strategy 1,587 BTC）= 2026-06-24 確認で既合成。
+- 接続: [[majors-rotation-supercycle]]（OG 規模の BTC→ETH 実ローテ事例・ATH後の分配フェーズ）/ [[$ETH]]（$2.8B ETH 購入→現在 -67% の機関/OG adoption ≠ price support）/ [[onchain-verification]]（22,769 BTC の Hyperliquid 入金 = 観測可能な on-chain イベント・独立確認推奨）/ [[rug-anatomy]]（ATH 後ローテした OG が ETH 安値圏で大幅損失のパターン）。
+- confidence=中（lookonchain 観測。規模は大きく OG 分配フェーズの構造整合は高い）。
+
 ### 2026-07-01 確認④（worklist 代表ツイ確認・Wynn Jul-15 long + 50x whale 利確クローズ）
 出典: [[lookonchain__1945057490447589791]]（1,703♥・2025-07-15T09:46Z）/ [[lookonchain__1896229586553463130]]（1,698♥・2025-03-02T16:02Z）
 

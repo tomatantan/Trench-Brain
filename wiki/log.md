@@ -2,6 +2,10 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-01 auto-synthesis (§1a worklist 3rd run): 3件処理。$BTC: 新beat = BTC OG（100,784 BTC 7年保有）が 22,769 BTC（$2.59B）を売却→472,920 ETH spot（$2.22B）+ 135,265 ETH long（$577M）on Hyperliquid（2025-08-25）。ATH後6週の OG 分配フェーズ事例として記録。$ETH: 新beat2件 = 同 OG 購入（~$4,692/ETH → 現在 -67%）/ SharpLink 77,210 ETH（$295M、~$3,822/ETH・2025-07-28）。機関・OG の大規模 ETH 積み上げ vs 実価格乖離の構造確証を追加。$MU: 旧ツイ確認・新 beat なし（確認③）。⚠️ BTC OG の Hyperliquid 入金・ETH 購入規模は独立確認推奨（[[onchain-verification]]）。既存「institutional adoption ≠ price support」合成に変化なし・確証が追加された。
+
+- 2026-07-01 auto-synthesis (synth_queue 12:47Z): births=2（$DAVINCI "The Bitcoin Bull" $415k graduated・@davincij15 KOL名借用疑い association marketing / $BULLARMY "Bull Army" $104k graduated・twitter+web整備済 real_sol~51SOL⑬コホート監視）・$PASCAL-H4KcG8 $294 birth即死 dead stub作成。changes=2（$TESTIBULL +41% $3.78M→$5.34M コホート最高峰継続 traction0全期間 / $HAHALAND +47% $85k→$124k 2窓連続上昇 whale pump疑い強まる）。deaths=3（$BARNEY peak$28k→$5.2k 枯死 / $BDSM peak$11k→$2k 低peak即死 / $PASCAL $294 birth即死）。[[rug-anatomy]] 死亡台帳3件追記。
+
 - 2026-07-01 auto-synthesis (§1a worklist 2nd run): 3件処理。$BTC: Wynn PEPE→BTC オールイン起点確定（2025-05-24、$1.25B / 11,588 BTC / liq $105,180）→逆Wynn→清算→short 転換の完全タイムライン確立（[[rug-anatomy]]）。旧ツイ（2023-02-16 機関$1.6B）確認。$ETH: 900日鯨2025-04-08降伏新beat（avg$1,295購入、$4K超え保有継続も tariff shock週で$1,571全売却）= 2026-06 OG投げ売りの先行事例確認。$MU: 旧ツイ確認・新beat なし。⚠️ なし。
 
 - 2026-07-01 auto-synthesis (synth_queue 09:45Z): births=1（$BDSM "Build Deploy Ship More" $11k・graduated・wordplay ticker・traction0・dev-event便乗 stub）・changes=2（$滑る猫 +41% $507k→$716k・JP viral継続・traction0のまま $715k 到達 BREAKOUT-then-dead 候補接近 / $BARNEY -55% $28k→$12.7k・縮退加速・death 境界域接近）・deaths=1（$HORS peak$107k→$342 -99.7%・prebond×social皆無×traction0 型通り枯死）。[[rug-anatomy]] 死亡台帳1件追記（$HORS）。

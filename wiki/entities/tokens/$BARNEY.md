@@ -6,8 +6,11 @@ title: $BARNEY (The Roaring Kitty)
 mint: 3i3w96ZFcXmbB9bLJ4WMj1U7F6RKAvXaPJfgKZy6pump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [token, launchpad, pumpfun, graduated, traction0, cat-meme, ip-reference]
-status: watch
+tags: [token, launchpad, pumpfun, graduated, traction0, cat-meme, ip-reference, dead]
+status: dead
+outcome: died
+peak_mcap: $28,483
+cause: mcap枯れ
 ---
 
 # $BARNEY — The Roaring Kitty（3i3w96）
@@ -43,9 +46,9 @@ pump.fun 発。"The Roaring Kitty" 命名——Keith Gill（WallStreetBets の R
 - $24k graduated は 10-50k 死亡率 42% 域（[[launchpad-economics]] 実績値）。
 - "Roaring Kitty" は WSB 文化参照——crypto trench での伝播力は不明。
 
-**change（2026-07-01 09:46Z）**: mcap -55%（$28,483→$12,760）。reply=0・KOL 未確認継続。birth 以降一本調子の下落——$12k は death 境界域（[[launchpad-economics]] $10k 以下 = 実質死亡域に接近）。次窓で $5k 以下なら death 処理。
+**change（2026-07-01 09:46Z）**: mcap -55%（$28,483→$12,760）。reply=0・KOL 未確認継続。birth 以降一本調子の下落。
 
-**⚠️ watch**: graduated-but-empty 典型候補。縮退加速中——[[rug-anatomy]] 枯死パス直行。
+**★DEAD（2026-07-01T12:47Z）**: mcap $5,228。cause=mcap枯れ。peak $28,483 → $5,228（-81.6%）。traction0 全期間。型通りの枯死——"Roaring Kitty" IP 借用だが社会的伝播なし。[[rug-anatomy]] 死亡台帳追記済。分母確定。
 
 **概念接続**: [[launchpad-economics]]（graduated-but-empty / $24k 低 peak 域）/ [[rug-anatomy]]（traction0 型・$KITTEN 同型）/ [[survivor-memes]]（KOL 確認後昇格判断）
 <!-- synthesis:end -->
