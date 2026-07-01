@@ -60,3 +60,10 @@ trench の言説（KOLの強気・物語・「スマートマネー」ラベル�
 [[@lookonchain]] Hayes ETH裏取り/World Liberty乖離/$TRUMP team $455M/MrBeastインサイダー/$LIBRA洗浄/W杯リング/BTC OG覚醒,
 [[@arkham]] Andrew Tate清算連発, [[@theunipcs]] $USELESS perp OI, [[@thedefiedge]] OIのvenue差。
 （全て sources/x/ の原ツイに保存済）
+
+## on-chain チェックリスト（[[@spyzercrypto]] guide・2026-06-30）
+強KOL [[@spyzercrypto]] の[[spyzercrypto-memecoin-guide-2026-06-30|132pガイド]]が、pump系新規の on-chain 検算を具体化:
+- **LP Locked**（作成者がLP鍵を burn 済か）・**Mint Authority Disabled**（増刷不可か）を rugcheck.xyz で確認。
+- ★**保有集中は"非LP" top holder で測る**（rugcheck topHolders の最上位はほぼ bonding curve/LP＝trader でない→除外）。**非LP top >3.5% で赤旗**。
+- **insider network**（rugcheck の insider フラグ）／**bundle**（Bubblemaps の wallet cluster）を併読。
+- →`/api/score`（`brain/ui_server.py`）に **LP除外＋3.5%階層＋insider数** として実装済。観測(on-chain事実)と判定(verdict)は分離表示（指針6）。
