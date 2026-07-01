@@ -17,11 +17,30 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.request
+from collections import deque
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+
+# --- 簡易 per-IP rate limit(公開保護・特に score の on-chain呼び)。stdlib のみ・in-memory ---
+_RL = {}
+
+
+def _rate_ok(key, limit, window=60):
+    now = time.time()
+    dq = _RL.setdefault(key, deque())
+    while dq and dq[0] < now - window:
+        dq.popleft()
+    if len(dq) >= limit:
+        return False
+    dq.append(now)
+    if len(_RL) > 5000:  # メモリ暴走ガード
+        for k in [k for k, v in list(_RL.items()) if not v or v[-1] < now - window]:
+            _RL.pop(k, None)
+    return True
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
@@ -263,6 +282,13 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path0 = self.path.split("?")[0]
+        # rate limit(公開保護): score は外部on-chain叩くので厳しめ・他はゆるめ
+        if path0.startswith("/api/"):
+            ip = self.client_address[0]
+            is_score = path0 == "/api/score"
+            if not _rate_ok(f"{ip}:{'s' if is_score else 'g'}", 15 if is_score else 90):
+                self._json(429, {"ok": False, "error": "rate limit — 少し待ってから再試行"})
+                return
         # 自己ドキュメント: 全API機能の一覧(UIチームの発見入口)
         if path0 in ("/api/index", "/api"):
             self._json(200, {"ok": True, "count": len(API_INDEX), "endpoints": API_INDEX})
@@ -586,6 +612,9 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path.split("?")[0] != "/api/ask":
             self.send_error(404)
+            return
+        if not _rate_ok(f"{self.client_address[0]}:ask", 5):  # ask は claude 叩くので厳しめ
+            self._json(429, {"ok": False, "error": "rate limit(ask) — 少し待って"})
             return
         try:
             n = int(self.headers.get("Content-Length") or 0)
