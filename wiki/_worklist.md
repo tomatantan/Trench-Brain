@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7328件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7325件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**308ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 64 | 1924♥ @lookonchain: What a smart trader!  When @JamesWynnReal goes lon / 1923♥ @lookonchain: James Wynn(@JamesWynnReal) is back again!  He depo |
-| [[$ETH]] | 4 | 3 | 87 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2464♥ @lookonchain: ETH just dropped below $4,000!  The biggest loser, |
+| [[$BTC]] | 10 | 7 | 62 | 1900♥ @lookonchain: James Wynn(@JamesWynnReal) just opened a long posi / 1896♥ @lookonchain: Interesting trend:  The first time $BTC hit $100K, |
+| [[$ETH]] | 4 | 3 | 85 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2396♥ @lookonchain: Trump's World Liberty(@worldlibertyfi) is buying $ |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

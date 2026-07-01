@@ -236,6 +236,27 @@ ETF 流出（2026-06-25）:
 - worklist 代表ツイ「Caught in the market crash, AguilaTrades(@AguilaTrades) was liquidated for 18,323 $ETH($83.56M) again.」([[@lookonchain]] 2,479♥ = [[lookonchain__1955978341649146202]]・2025-08-14）= 上記 2026-07-01 更新で合成済み。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・20x short・AguilaTrades 清算）に変化なし。confidence=中（変化なし）。
 
+### 2026-07-01 更新④（新 beat: World Liberty 2024-12-12 ETH 購入 $3,801 / BTC $100K 毎 ETH 乖離パターン）
+出典: [[lookonchain__1867036708983935325]]（2,396♥・2024-12-12T02:40Z）/ [[lookonchain__1886619794641969309]]（1,896♥・2025-02-04T03:36Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2024-12-12）: 「Trump's World Liberty(@worldlibertyfi) is buying $ETH, $LINK and $AAVE! In the past 9 hours, the World Liberty Multisig wallet spent 10M $USDC to buy 2,631 $ETH at $3,801, 1M $USDC to buy 41,335 $LINK at $24.2, 1M $USDC to buy 3,357 $AAVE at $297.8.」([[lookonchain__1867036708983935325]] 2,396♥)
+  = 2024-12-12 = Trump 就任(2025-01-20)の**約6週前**の購入。ETH 購入価格 $3,801。
+- [[@lookonchain]]（2025-02-04）: 「BTC が $100K を初めて触った時 ETH は $3,900 / 2回目 $3,800 / 3回目 $3,700 / 4回目 $3,400 / 5回目 $3,200 / 6回目 $2,800」([[lookonchain__1886619794641969309]] 1,896♥)
+  = BTC が $100K を繰り返すたびに ETH が段階的に下落するパターンの定量的観測（2025-02-04 時点まで）。
+
+**判断（light-touch）**:
+- **World Liberty ETH 購入タイムライン（確定）**:
+  - 2024-12-12: 10M USDC → 2,631 ETH at $3,801（本ツイ・最も古い購入）
+  - 2025-01-19: 20M USDC → 6,041 ETH at $3,311（既合成 2026-06-30 確認③）
+  - 2025-01-20: 4.7M USDC → ETH 分散購入（既合成 2026-06-29 確認④）
+  → 就任6週前から3回にわたって World Liberty が ETH を購入。購入価格帯 $3,311〜$3,801。現在（~$1,560）からは **-53〜-59% 含み損**。
+  ⚠️ 「政治的 ETH 購入が value を持つ」という narrative の裏で、3回の購入すべてが大幅含み損という現実が確定した。「institutional/political adoption ≠ price support」（既合成）のさらなる裏付け。
+- **「BTC $100K 毎 ETH 乖離パターン」（2025-02-04 観測）**: 既合成「ETH = BTC beta 脱却未達」（DefiIgnas）/ 「コンセンサストレード（リターン薄）」を**数値系列で証明**する最も直接的なデータ。BTC が $100K という水準を維持・繰り返す中で ETH は $3,900→$2,800（-28%）と段階的に切り下がる = **ETH は BTC と同等の "real interest" を引き付けられていない**。2025-02-04（BTC 6回目の $100K 接触）以降も ETH は 14ヶ月来安値 ~$1,560 まで下落したため、このパターンは現在も継続している。
+  ⚠️ 2025-02-04 はデータ系列の途中観測点（6回時点）であり、現在はさらに多くの $100K 接触と ETH 下落があった可能性がある。
+- 接続: [[majors-rotation-supercycle]]（ETH が BTC の $100K 繰り返しに追随できない = ローテ中継点の点火条件を量的に示す）/ [[onchain-verification]]（World Liberty 購入の on-chain 確認は lookonchain 経由・独立確認推奨）/ [[rug-anatomy]]（KOL/政治的エンティティの強気購入 vs 実価格の乖離）。
+- confidence=中（World Liberty 購入タイムライン確立。ETH 乖離パターンは 2025-02-04 時点のデータ系列・現在は拡大）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
 ### 2026-07-01 更新②（新 beat: whale 50x short $3,220 で $58M 含み益・2025-02-25）
 出典: [[lookonchain__1894421102451200470]]（2,475♥・2025-02-25T16:16Z）
 

@@ -325,6 +325,20 @@ accounts: 19
 - **既合成「YCC = BTC $1M」**（2025-09-16 "Miran 確認 → YCC → BTC $1M"・$BTC 合成 更新⑥）の**2年前の発生源**。2023-03 BTFP → 2025-09 YCC escalation という Hayes の macro フレームの歴史的起点。
 - 接続: [[majors-rotation-supercycle]]（BTFP / YCC フレームの起点 = 2023-03）。旧ツイ・現在の新 beat なし。
 
+### 2026-07-01 確認③（新 beat: Wynn「BTC long again」2025-05-30 / 「BTC $100K 毎の ETH 乖離パターン」2025-02-04）
+出典: [[lookonchain__1928445614792011815]]（1,900♥・2025-05-30T13:37Z）/ [[lookonchain__1886619794641969309]]（1,896♥・2025-02-04T03:36Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-05-30）: 「James Wynn(@JamesWynnReal) just opened a long position on $BTC again！」= 2025-05-30。"again" という表現から、これ以前にも複数回 long を開いていたことが示唆される。
+  - 既合成タイムラインとの照合: 05/27（逆-Wynn 0x2258 が $5.6M・既合成 2026-07-01 更新②）→ **05/30「again」BTC long（本ツイ）** → 06/02（$99.5M 40x long・既合成 2026-07-01 更新）→ 06/08（$481 referral → 40x short・既合成）という連続。「again」= 06/02 の $99.5M long の前の直前 long 開設。Wynn がこの期間、BTC long を繰り返し開いていた連続性の補完。
+- [[@lookonchain]]（2025-02-04）: 「Interesting trend: The first time $BTC hit $100K, $ETH was at $3,900 / 2nd $3,800 / 3rd $3,700 / 4th $3,400 / 5th $3,200 / 6th $2,800」= **BTC が $100K を触るたびに ETH が段階的に下落**していくパターンの観測（2025-02-04 = BTC の $100K 前後での揉み合い期）。
+
+**判断（light-touch）**:
+- **Wynn 05/30 「again」**: 既合成「Wynn timeline」（2026-07-01 更新・更新②）の補完。05/27（逆-Wynn による $5.6M 利益）→ 05/30（Wynn が再び BTC long）→ 06/02（$99.5M 40x long、清算価格 $104,580）→ 06/08（$481 referral → short）という行動の連続性が確認される。「again」が示す「繰り返し long を開いている」=既合成「超高レバ・高頻度フリップ・degen 行動パターン」の一貫性。light-touch 補完のみ。
+- **「BTC $100K 毎の ETH 乖離パターン」**: これは $BTC 側では「BTC が $100K を維持できる / 繰り返す」という事実の記録であり、macro 的には BTC の強さの傍証。一方、同時に $ETH の構造的劣化を直接観測したデータ系列 = [[majors-rotation-supercycle]] 上の「ローテ中継点（ETH）がなぜ点火しないか」を定量的に示す最も明確な one-liner。詳細は [[$ETH]] 合成に記録。
+- 接続: [[rug-anatomy]]（Wynn の繰り返し long 開設パターン）/ [[$ETH]]（BTC $100K毎 ETH 乖離データ系列）/ [[majors-rotation-supercycle]]（ETH が BTC $100K 複数回でも追随できない構造）。
+- confidence=中（変化なし・既存合成の補完）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
+
 ### 2026-07-01 更新②（新 beat: 逆-Wynn トレーダー 0x2258 が $5.6M・2025-05-27 / Wynn の 2025-07-10 BTC 40x short が ATH 直前清算）
 出典: [[lookonchain__1927212551009398999]]（1,924♥・2025-05-27T03:57Z）/ [[lookonchain__1943288389362454804]]（1,923♥・2025-07-10T12:37Z）
 
