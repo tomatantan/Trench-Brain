@@ -2,6 +2,10 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-01 auto-synthesis (§1a worklist 2nd run): 3件処理。$BTC: Wynn PEPE→BTC オールイン起点確定（2025-05-24、$1.25B / 11,588 BTC / liq $105,180）→逆Wynn→清算→short 転換の完全タイムライン確立（[[rug-anatomy]]）。旧ツイ（2023-02-16 機関$1.6B）確認。$ETH: 900日鯨2025-04-08降伏新beat（avg$1,295購入、$4K超え保有継続も tariff shock週で$1,571全売却）= 2026-06 OG投げ売りの先行事例確認。$MU: 旧ツイ確認・新beat なし。⚠️ なし。
+
+- 2026-07-01 auto-synthesis (synth_queue 09:45Z): births=1（$BDSM "Build Deploy Ship More" $11k・graduated・wordplay ticker・traction0・dev-event便乗 stub）・changes=2（$滑る猫 +41% $507k→$716k・JP viral継続・traction0のまま $715k 到達 BREAKOUT-then-dead 候補接近 / $BARNEY -55% $28k→$12.7k・縮退加速・death 境界域接近）・deaths=1（$HORS peak$107k→$342 -99.7%・prebond×social皆無×traction0 型通り枯死）。[[rug-anatomy]] 死亡台帳1件追記（$HORS）。
+
 - 2026-07-01 auto-synthesis (§1a worklist): 3件処理（上限15件内）。$BTC: Wynn Jul-15 468K USDC→40x long（liq $115,570、Jul-10 short 清算直後の即転換・資金規模 ~16x 拡大）+ 50x whale $6.8M 利確クローズ（2025-03・tariff shock 前・survivor bias 事例）。$ETH: Tom Lee/Fundstrat「ETH funding crisis = zero chance / Funding secured」(2026-06-19 2,232♥) → 4日後に自ら資金提供（2026-06-23 RT）= 新 beat（詳細未確認・⚠️pending [[onchain-verification]]）。$MU: 新 beat なし（旧ツイ複数サイクル確認済み・合成完結継続）。⚠️ BTC/ETH とも既存「KOL ナラティブ vs 実価格乖離」「全体収縮フェーズ」合成に変化なし。
 
 - 2026-07-01 auto-synthesis (synth_queue 06:39Z): births=2（$BARNEY "The Roaring Kitty" $24k・graduated・KOL CA未確認 association marketing型・$KITTEN 同型 stub / $HORS "Ferrarii Horse" $107k・prebond ~8.9SOL・social皆無 stub）・changes=3（$滑る猫 +43% $354k→$507k・JP viral継続・traction0のまま高 mcap / $HAHALAND +40% $56k→$79k・sports-meme × traction0継続 / $TBB BREAKOUT+323% $33k→$142k・prebond×CMC authority借用×traction0→BREAKOUT-then-dead最有力）・deaths=3（$NERVEN peak$53k→$393 -99.3%・prebond×social皆無 / $POKE peak$64k→$3,191 -95.0%・Pokemon IP×social整備コスト転化失敗 / $SOLANA-GXKHJQ peak$7k→$1,574 -77.6%・Solana名便乗型）。[[launchpad-economics]] 跳躍台帳1件追記（$TBB）。[[rug-anatomy]] 死亡台帳3件追記（$NERVEN/$POKE/$SOLANA-GXKHJQ）。

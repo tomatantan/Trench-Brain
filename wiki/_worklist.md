@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # ingest worklist（エージェントが処理するTODO）
 
-前回ingest以降の新シグナルツイ **7322件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
+前回ingest以降の新シグナルツイ **7319件**（基準時刻 2026-06-26T15:30Z）。手順は brain/INGEST.md。
 ★**鮮度ゲート適用済**: 合成対象は下記 §1a（直近48h×複数アカで生きてる物）だけ。
 §1b は単一アカ連投＝要警戒。stale（48h言及ゼロ＝冷えた）**307ティッカーは降格**して非表示。
 処理したら合成したページを `python3 brain/mark_ingested.py --from-files <pages>` で消し込む。
@@ -16,8 +16,8 @@ updated: 2026-06-26
 
 | entity | 48h言及 | 48hアカ | 総新規 | 新規の代表ツイ |
 |---|---|---|---|---|
-| [[$BTC]] | 10 | 7 | 60 | 1703♥ @lookonchain: James Wynn deposited 468K $USDC into #Hyperliquid  / 1698♥ @lookonchain: This whale, who was long $BTC and $ETH with 50x le |
-| [[$ETH]] | 4 | 3 | 83 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2232♥ @fundstrat: In my opinion, zero chance of this ‘crisis’ happen |
+| [[$BTC]] | 10 | 7 | 58 | 1671♥ @lookonchain: 1/ Why did the price of $BTC/$ETH suddenly rise to / 1667♥ @lookonchain: Top trader @JamesWynnReal closed all his long posi |
+| [[$ETH]] | 4 | 3 | 81 | 3864♥ @zhusu: mental math with $eth will be a lot easier when it / 2220♥ @lookonchain: After holding $ETH for over 900 days, a whale fina |
 | [[$MU]] | 2 | 2 | 3 | 16♥ @MEXC: Micron doesn’t just need to beat. #WallStreetMonth / 10♥ @DEG_2020: $MU マイクロンアフターマーケットでATHしそう  |
 
 ## 1b) 単一ソース注意（48hは生きてるが1アカ連投＝シラー依存・低優先/慎重に）

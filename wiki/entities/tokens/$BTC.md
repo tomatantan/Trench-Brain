@@ -353,6 +353,26 @@ accounts: 19
 - 接続: [[rug-anatomy]]（高レバ degen の繰り返し清算・Wynn = 逆指標化した public ポジション）/ [[onchain-verification]]（Wynn の on-chain 追跡可能・二次確認推奨）。
 - confidence=中（清算タイミングは推定。行動パターン整合性は高い）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
 
+### 2026-07-01 更新⑤（新 beat: Wynn PEPE→BTC オールイン起点 2025-05-24 / 旧ツイ確認）
+出典: [[lookonchain__1926215601246142798]]（1,667♥・2025-05-24T09:56Z）/ [[lookonchain__1626085716416696322]]（1,671♥・2023-02-16・旧ツイ）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-05-24）: 「Top trader @JamesWynnReal closed all his long positions on $PEPE for a total profit of $25.19M. He's now gone all-in on $BTC longs, with a position of 11,588 $BTC（$1.25B）and a liquidation price of $105,180.」([[lookonchain__1926215601246142798]] 1,667♥)
+  = 2025-05-24 = 既合成「逆-Wynn 0x2258 $5.6M（05-27）」の**3日前**。Wynn が $PEPE long で $25.19M を獲得した直後に $1.25B の BTC 40x long に全転換した起点。清算価格 $105,180。
+
+**判断（Wynn timeline 起点追加）**:
+- **Wynn 2025-05 BTC mega-long 全体像（本ツイで確定）**:
+  - **May-24: PEPE $25.19M 利確 → BTC $1.25B（11,588 BTC・liq $105,180）オールイン** ← 今回追加（起点）
+  - May-27: 逆-Wynn 0x2258 が Wynn の逆を張り $5.6M 獲得（既合成 2026-07-01 更新②）
+  - May-30: Wynn が「again」BTC long 開設（既合成 2026-07-01 確認③）
+  - Jun-02: Wynn が $99.5M / 40x long（liq $104,580）= 清算推定（既合成 2026-07-01 更新）
+  - Jun-08: Wynn が $481 referral → 即 40x short（既合成）
+  → 起点（$1.25B mega-long）→ 逆張り勢登場 → 清算 → 即転換 short という一連の完全タイムラインが確定。$1.25B long から $481 short と**規模が 1/2,600 に収縮**した過程が observable。
+- **liq $105,180（May-24）**: BTC は当時 ~$107K 前後 → Wynn は $105K を超える position を $105,180 のタイトな liq で建てた。実際は May-24 のエントリー後に BTC が $104K 台に下落するフェーズがあり、6/02 の $99.5M long（liq $104,580）で清算されたと推定（既合成）。**$1.25B → 清算 → $99.5M → 清算 → $481 短 short → Jul-10 $1.27M short（liq $112,360・ATH で清算推定）→ Jul-15 $468K long**という資金規模の乱高下 = [[rug-anatomy]] のデータ系列として記録。
+- **旧ツイ（2023-02-16）**: 「funds/institutions poured nearly $1.6B into the crypto market since Feb 10 → BTC/ETH 価格急騰」= 2023-02 の機関入金観測の古ツイ再キャプチャ。現時点の新 beat なし。
+- 接続: [[rug-anatomy]]（Wynn mega-long 起点 → 逆-Wynn → 清算連鎖の完全系）/ [[onchain-verification]]（Wynn のポジションは lookonchain 観測・独立確認推奨）。
+- confidence=中（起点確定・タイムライン整合性高）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
+
 ### 2026-07-01 確認④（worklist 代表ツイ確認・Wynn Jul-15 long + 50x whale 利確クローズ）
 出典: [[lookonchain__1945057490447589791]]（1,703♥・2025-07-15T09:46Z）/ [[lookonchain__1896229586553463130]]（1,698♥・2025-03-02T16:02Z）
 

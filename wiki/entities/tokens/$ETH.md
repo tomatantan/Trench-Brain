@@ -281,6 +281,23 @@ ETF 流出（2026-06-25）:
 - 接続: [[majors-rotation-supercycle]]（$4K 割れ = 2025-07 Hayes ETH szn 宣言からの失速確認）/ [[rug-anatomy]]（ETH long 大型清算の繰り返しパターン）/ [[onchain-verification]]（0xa523 の on-chain 詳細は独立確認推奨）。
 - confidence=中（lookonchain 観測・2025-09-25 の事実として記録）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
 
+### 2026-07-01 更新⑥（新 beat: 900日鯨が$4K超えも売らず April 2025 tariff shock で降伏・$1,571）
+出典: [[lookonchain__1909604196787405078]]（2,220♥・2025-04-08T13:48Z）
+
+**観測（事実）**: 「After holding $ETH for over 900 days, a whale finally capitulated — selling all 10,000 $ETH（$15.71M）today. The whale originally bought 10,000 $ETH（$12.95M）at an average of $1,295 on Oct 4 and Nov 14, 2022. He didn't sell when $ETH broke through $4,000. But today, he exited.」（2025-04-08）
+
+**判断（新 beat・高重要度）**:
+- **2025-04-08 = Trump 関税 shock 週** （既合成: Hayes「LOVE TARIFFS」Apr-04 → BTFD Apr-07 → 関税 shock 最中）。その局面で 900 日超保有の ETH whale が降伏。
+- **タイムライン**: 2022-10 / 2022-11 に avg $1,295 で 10K ETH を購入（$12.95M）→ ETH が **$4,000 を超えても保有継続**（2024 年〜2025 年序盤の bull 相場を手放さず）→ 2025-04-08 に **~$1,571**（$15.71M ÷ 10K）で全売却。$4K 超え時の含み益 ~+200% を全て手放し、結局 +21%（~$2.76M 利益）で出口。
+- **含意（判断）**:
+  - 既合成「OG 投げ売り（2026-06-25/26・$1,560〜$1,625 帯）」（2026-06-27 更新②）と同類の降伏パターンが、**2025-04-08 の Trump tariff shock でも発生していた**先例。つまり長期 OG の降伏は 2026-06-25 が初回でなく、**2025-04-08 に既に一波があった**。ETH の構造的弱さ（BTC beta 脱却未達・コンセンサストレードでありながら長期 holder が $4K で手放せずに安値圏で出口する）の追加証拠。
+  - 「$4K 超えても売らなかった = $4K の本物の売り圧がなかった」= ETH が $4K を超えた時に conviction holder はまだ保有を続けていた。その後の下落で降伏を強いられたのが April 2025 と June 2026 という二段階。
+  - ⚠️ **既合成「Hayes Jul-16「ETH szn」宣言（$4K 通過点）」との関係**: Hayes が「$4K を祝う」「ETH = $10K」と言っていた 2025-07 の約3ヶ月前、同程度の価格帯（$1,571）で900日ホルダーが降伏していた事実。ETH が $4K に届く前（$1,571 で既に降伏が発生した）= 実際には $4K は多くの holder が「待ちたい水準」だったが現実は $1,571 が出口だった。Hayes の $4K 宣言（07-20・既合成）から見れば、この 04-08 降伏は 3ヶ月前の先行事例として時系列上逆行する（= 04-08 に売った whale は Jul 2025 の$4K 以上の反発を逃した）。
+  - **「$1,295 買い・$1,571 売り = +(21%)」**: Vitalik 2022-06 売却（$1,250 帯・既合成 2026-06-29 確認⑤）や OG 投げ売り（$1,560〜$1,625・既合成）と同水準での出口が 2025-04 にも確認される。$1,200〜$1,600 帯は ETH 長期 holder の **"損益分岐に近い水準での繰り返し出口帯"** として記録される。
+- ⚠️ 「He didn't sell when $ETH broke through $4,000」という表現の曖昧さ: ETH が $4K を超えたのは 2024 年春と 2025 年 7 月（Hayes 宣言時）。どちらのフェーズを指すか不明（独立確認推奨）。ただし「保有継続していたが $1,571 で降伏」という事実は変わらない。
+- 接続: [[majors-rotation-supercycle]]（ETH OG 降伏 = 2025-04 先例・2026-06 と同構造）/ [[rug-anatomy]]（長期 holder が含み益 200% を逃す「一度も売らない = 全利益消失」パターン）/ [[onchain-verification]]（whale の on-chain アドレス・売却詳細の独立確認推奨）/ [[$BTC]]（Trump tariff shock 週（Apr 2025）= BTC と ETH の同時売り圧局面）。
+- confidence=中（lookonchain 観測・事実として記録）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）をさらに補強。
+
 ### 2026-07-01 確認②（worklist 代表ツイ確認・旧ツイ）
 - **3864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。多数サイクル確認済み。新情報なし。
 

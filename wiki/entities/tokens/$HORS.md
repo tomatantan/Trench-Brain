@@ -6,8 +6,9 @@ title: $HORS (Ferrarii Horse)
 mint: 67JBB6GMXbZ3ggjPvfSrNnMSD1uPswAxLuw1x2NTpump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [token, launchpad, pumpfun, prebond, traction0, animal-meme]
-status: watch
+tags: [token, launchpad, pumpfun, prebond, traction0, animal-meme, dead]
+status: dead
+outcome: died
 ---
 
 # $HORS — Ferrarii Horse（67JBB6）
@@ -41,9 +42,9 @@ pump.fun 発。"Ferrarii Horse" 命名——Ferrari × Horse の造語（Ferrari
 - $107k prebond mcap は mcap>=30000 門通過水準を大きく超えるが、real_sol=8.9SOL は KOL 資金流入の証拠にならない。
 - "luxury brand参照命名" はブランドと直接接続できない（Ferrari は crypto コミュニティとの接点薄）。
 
-**⚠️ watch**: prebond × social 皆無 × traction0 = [[rug-anatomy]] 枯死コホート直行最有力。graduation するか死ぬかの分岐観測中。
+**死亡確定（2026-07-01 09:46Z）**: mcap $342（peak $107,388 比 -99.7%）。cause: mcap枯れ。prebond × social皆無（twitter/website null）× traction0 → 型通り枯死。$LAST/$NERVEN 同型（prebond mcap勢い門通過 → traction ゼロのまま崩壊）。**生存者バイアスの分母として確定**。
 
-**概念接続**: [[launchpad-economics]]（prebond 高 mcap / social 皆無型）/ [[rug-anatomy]]（traction0 × social null 型）
+**概念接続**: [[launchpad-economics]]（prebond 高 mcap / social 皆無型枯死）/ [[rug-anatomy]]（traction0 × social null × prebond 死亡 N 追加）
 <!-- synthesis:end -->
 
 ## 関連

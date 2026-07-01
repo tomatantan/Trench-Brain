@@ -20,7 +20,7 @@ pump.fun 発。"The Roaring Kitty" 命名——Keith Gill（WallStreetBets の R
 |---|---|
 | mint | 3i3w96ZFcXmbB9bLJ4WMj1U7F6RKAvXaPJfgKZy6pump |
 | gate | safety:ok / traction:graduated |
-| 初検知 mcap | ~$24,140 |
+| 初検知 mcap | ~$24,140 → ~$12,760（2026-07-01T09:46Z -55%） |
 | real_sol | 0 |
 | KOL（CA確認） | なし |
 | reply_count | 0 |
@@ -43,7 +43,9 @@ pump.fun 発。"The Roaring Kitty" 命名——Keith Gill（WallStreetBets の R
 - $24k graduated は 10-50k 死亡率 42% 域（[[launchpad-economics]] 実績値）。
 - "Roaring Kitty" は WSB 文化参照——crypto trench での伝播力は不明。
 
-**⚠️ watch**: graduated-but-empty 典型候補。[[rug-anatomy]] 枯死パス最有力。
+**change（2026-07-01 09:46Z）**: mcap -55%（$28,483→$12,760）。reply=0・KOL 未確認継続。birth 以降一本調子の下落——$12k は death 境界域（[[launchpad-economics]] $10k 以下 = 実質死亡域に接近）。次窓で $5k 以下なら death 処理。
+
+**⚠️ watch**: graduated-but-empty 典型候補。縮退加速中——[[rug-anatomy]] 枯死パス直行。
 
 **概念接続**: [[launchpad-economics]]（graduated-but-empty / $24k 低 peak 域）/ [[rug-anatomy]]（traction0 型・$KITTEN 同型）/ [[survivor-memes]]（KOL 確認後昇格判断）
 <!-- synthesis:end -->
