@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
 ticker: $BULLARMY
 mint: FtWD7st7o5fp6sJ5NTp1jLY1qaRjibzYDTe3xSYpump
 created: 2026-07-01
 updated: 2026-07-02
-tags: [token, pumpfun, graduated, traction0, bull-cluster, community-meme]
+outcome: died
+tags: [token, pumpfun, graduated, traction0, bull-cluster, community-meme, dead-denominator]
 ---
 
 # $BULLARMY — Bull Army（FtWD7s）
@@ -58,6 +59,14 @@ pump.fun 発。"Bull Army" 命名——bull 集団・軍団 community テーマ�
 - real_sol 51 SOL が変化していない = deployer がまだ SOL を引き出していない状態継続。
 - [[rug-anatomy]] ⑬コホート（high real_sol × traction0）として監視継続——real_sol 減少が始まった時が警戒水準。
 - bull cluster 内での $173k は $TESTIBULL/$BELMAR に比べると低水準だが、traction ゼロのまま上昇継続は BREAKOUT-then-dead パスの前段。
+### 2026-07-01T17:25Z DEAD — mcap枯れ（peak$173,341→$1,633・-99.1%）
+**観測（事実）**
+- 最終 mcap $1,633。peak $173,341 → -99.1%。cause: mcap枯れ。
+- reply=0・real_sol=51,358,024,684 lamports（~51 SOL）全期間変化なし。complete=true。twitter @bullarmysolx / website bullarmy.fun 不変。
+
+**死因**
+- traction0 全期間のまま peak $173k → -99.1%崩壊。⑬コホート（high real_sol ~51SOL × traction0）の型通り確定死。real_sol ~51 SOL が deployer pool にあっても organic buyer ゼロでは持続不能。
+- [[rug-anatomy]] 死亡台帳記録（⑬N追加）。[[launchpad-economics]] graduated × bull cluster × social整備済でも KOL 皆無 = 分母として記録。
 <!-- synthesis:end -->
 
 ## 関連

@@ -346,4 +346,9 @@ ETF 流出（2026-06-25）:
 
 - **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
 - **1,961♥ [[theunipcs__1931444933145358528]]**（2025-06-07）: 「like it or hate it but the fundamentals keep pointing to an imminent, hated rally for $ETH and this might be just what we need to kick off the mother of all alt seasons i can feel it in my bones」= **2025-06-07 の旧ツイ再キャプチャ**（entity table 掲載済み・synthesis 未記録）。**light-touch 追記**: 2025-06-07 時点で「imminent hated rally + mother of all alt seasons」を予言。同年 2025-07-11 BTC ATH → 2025-07-16 Hayes「ETH szn」宣言（既合成）の約5週前の投稿であり、直後の短期上昇フェーズは整合。しかし 2026-06-30 時点で ETH は 14ヶ月来安値（~$1,560・既合成）= 「hated rally」は部分的に実現したが「mother of all alt seasons」は未達。1,961♥ / 127 RT = 高エンゲージだが中期では外れた予言。既合成「ETH = コンセンサストレード（リターン薄）」/ 「BTC beta 脱却未達」（DefiIgnas）と同構造——自信満々の ETH 強気コールが中期では失速するパターンの追加事例として記録。confidence=低（旧ツイ・現在とは別 phase）。既存合成に変化なし。
+
+### 2026-07-02 確認②（worklist 代表ツイ確認・lookonchain Milady/LADYS 旧ツイ）
+- **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
+- **1,955♥ [[lookonchain__1656354641389703168]]**（2023-05-10）: 「We found a mysterious address. Created 1 hour before Elon Musk tweeted about Milady. Withdrew 25 ETH ($45,362) from Binance and bought 8T $LADYS.」= **2023-05-10 の旧ツイ再キャプチャ**（Elon Musk の Milady 言及直前に ETH を LADYS に突っ込んだ insider 疑惑アドレスの観測）。ETH 固有の投資 signal なし（$LADYS ミームコイン事例・ETH は gas/funding としての利用）。[[onchain-verification]] の「インサイダー疑惑アドレス追跡」事例として参照可能だが現在の ETH ナラティブとは無関係。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

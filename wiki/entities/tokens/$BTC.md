@@ -422,4 +422,9 @@ accounts: 19
 - **worklist 代表ツイ確認**: 1,277♥ coingecko（Strategy 1,587 BTC）= 2026-06-24 確認で既合成。1,201♥ lookonchain = 本ツイ（新 beat として合成）。
 - 接続: [[majors-rotation-supercycle]]（BTC ~$62.8K = 2026-06-19 時点の価格帯確認・収縮継続）/ [[rug-anatomy]]（後期高値買い → 7ヶ月保有 → 降伏のパターン）/ [[onchain-verification]]（whale 37BnFf の on-chain 行動は独立確認推奨）。
 - confidence=中（lookonchain 観測・価格帯の現実的整合）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし、後期買い手の降伏データを追加。
+
+### 2026-07-02 確認②（worklist 代表ツイ確認・DefiIgnas 2024-11 旧ツイ）
+- **1,277♥ [[coingecko__2066491800911552975]]**（2026-06-15）: Strategy 1,587 BTC $100M = 2026-06-24 確認・2026-07-02 更新で既確認。新情報なし。
+- **760♥ [[DefiIgnas__1859261099327324495]]**（2024-11-20）: 「Ok, I'll shill it: $BTC: new Gold / $SOL: this cycle's $ETH / $INST: new $PENDLE / $ENA: new $LUNA / $ETH: new $ATOM」= **2024-11-20 の旧ツイ再キャプチャ**（2024 サイクル・周期アナロジー list の典型）。現在（2026-07-02）との対照: 同一筆者 DefiIgnas が 2026-06-26「4年サイクルが崩れると信じていたことを後悔している」([[defiignas__2070480215479079318]] 209♥) と述懐——2024-11 の "BTC=new Gold / BTC catch up" 期待が現実化せず、既合成「全体収縮フェーズ / 21ヶ月来安値」に至った。**旧ツイ自体に新 beat はない**が DefiIgnas 内での観点変化（2024 強気 → 2026-06 自己否定）は [[majors-rotation-supercycle]] 上の「コンセンサス崩壊のサイクル型」として参照可能。
+- 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

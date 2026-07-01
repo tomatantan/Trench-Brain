@@ -2,6 +2,14 @@
 
 ingest / query / lint の記録（新しい順）。
 
+- 2026-07-02 auto-synthesis (§1a worklist 2nd run): 3件処理。$BTC: DefiIgnas 760♥「BTC: new Gold」（2024-11-20 旧ツイ）確認・同筆者が2026-06-26「4年サイクルが崩れると信じたことを後悔」と述懐（収縮フェーズの補強）。$ETH: lookonchain 1955♥「mysterious address / Milady / LADYS」（2023-05-10 旧ツイ）確認・ETH 固有 signal なし。$MU: 新 beat なし（完結済み）。全件旧ツイ確認のみ・既存合成に変化なし。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-01T18:51Z): births=4（$WIFBULL ANSEM WIF BULL peak$1.6k→dead即死 / $BLOCKCHAIN a16zcrypto ツイート流用 association marketing $158k prebond / $BOOGLE $150k prebond social皆無 / $GOU Justice for Mama Gou $25k graduated→+49%）・changes=3（$RELAY -66% $18k→$6k declining新規entity / $MC BREAKOUT+118% $37k→$82k prebond traction0 / $GOU +49% 追跡ログ更新）・deaths=1（$WIFBULL peak$1.6k birth即死・[[rug-anatomy]] 死亡台帳1件追記・[[launchpad-economics]] BREAKOUT台帳1件追記[$MC]）。
+
+- 2026-07-02 auto-synthesis (synth_queue 17:25Z): births=1（$PROP "PEPE PROPELLER" $43k prebond・social皆無・PEPE派生 stub）・changes=0・deaths=1（$BULLARMY peak$173k→$1,633 -99.1%・⑬real_sol~51SOL×traction0→型通り枯死）。[[rug-anatomy]] 死亡台帳1件追記。skipped=1（$EPA: website=t.me/coinpumpstoday 判定=telegram pump channel・low-signal スキップ）。
+
+- 2026-07-02 auto-synthesis (synth_queue 16:55Z): births=1（$ALBEMARLE "Albemarle City" $1.78M graduated・IP/brand借用[ALB上場企業]・traction0・website無し・insider pump疑い stub）・changes=1（$BITBOY -49% $760k→$385k・peak$1.78M比-78%・traction0全期間継続・BREAKOUT-then-dead縮退進行中）・deaths=0。
+
 - 2026-07-02 auto-synthesis (§1a worklist): 3件処理。$BTC: 新beat = whale 37BnFf が 800 BTC ($50.24M) を売却・avg $106,866 エントリーから $35.3M 損失（-41%）で降伏（2026-06-19）。ATH後期買い手の降伏を記録・収縮フェーズの進行確認。$ETH: theunipcs「imminent hated rally + mother of all alt seasons」（2025-06-07、1,961♥・旧ツイ）= entity table 掲載済み・synthesis 未記録を light-touch 追記。短期は整合・中期（14ヶ月安値）は未達。$MU: 旧ツイ確認・新 beat なし（完結済み）。⚠️ whale 37BnFf の on-chain 独立確認推奨（[[onchain-verification]]）。既存合成（BTC/ETH = 収縮フェーズ・ETH = コンセンサストレード）に変化なし・証拠追加。
 
 - 2026-07-02 auto-synthesis (synth_queue 15:50Z): births=3（$100MIL "100 MIL MARKET CAP SPEEDRUN" $40k・prebond・TG汎用グループ・traction0 stub / $$BEN "JUSTICE FOR BENNY" $79k・prebond・real_sol ~23SOL・identity ゼロ stub / $CLIMBITRC "CLIMBINGTRENCH" $85k・prebond・real_sol ~16SOL・$LOT 同期 trench自己言及命名 stub）・changes=3（$LOT +71% $35k→$60k・graduated-but-empty 継続 / $DAVINCI -81% $416k→$80k・KOL name借用 BREAKOUT-then-dead 確定方向 status:declining / $BULLARMY +68% $103k→$173k・real_sol 51SOL 不変・⑬コホート監視継続）・deaths=1（$HAHALAND peak$124k→$4k -96.8%・sports brand × twitter=X検索URL × 2窓 whale pump-then-exit 型通り枯死）。[[rug-anatomy]] 死亡台帳1件追記（$HAHALAND）。
