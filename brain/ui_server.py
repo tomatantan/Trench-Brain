@@ -289,6 +289,12 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path0 = self.path.split("?")[0]
+        # ルート/ を UI に統合＝公開URLを開いたら即UIが出る（ユーザー導線・dir一覧を出さない）
+        if path0 in ("/", "", "/index.html"):
+            self.send_response(302)
+            self.send_header("Location", "/ui/index.html")
+            self.end_headers()
+            return
         # rate limit(公開保護): score は外部on-chain叩くので厳しめ・他はゆるめ
         if path0.startswith("/api/"):
             ip = self.client_address[0]

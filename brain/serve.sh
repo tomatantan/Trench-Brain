@@ -61,7 +61,7 @@ echo "✅ ui_server: http://127.0.0.1:$PORT  (脳API=/api/index)"
 echo "🌐 公開トンネル起動中… 下の https://*.trycloudflare.com が公開URL:"
 cloudflared tunnel --url "http://127.0.0.1:$PORT" --no-autoupdate 2>&1 | while IFS= read -r line; do
   echo "$line"
-  url=$(printf '%s' "$line" | grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' | head -1)
+  url=$(printf '%s' "$line" | grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' | head -1 || true)
   if [ -n "$url" ]; then
     printf '%s\n' "$url" > brain/state/public_url.txt
     echo "📌 公開URL を brain/state/public_url.txt に記録: $url"
