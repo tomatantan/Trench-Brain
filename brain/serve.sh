@@ -46,6 +46,10 @@ if [ "${NO_REALTIME:-}" != "1" ]; then
   sleep 1
 fi
 
+# 0.5) 死活監視 watchdog（writer/tunnel/ui_server/合成backlog を監視・失敗時に .env の TG_BOT_TOKEN で通知）
+python3 brain/watchdog.py --interval 120 --port "$PORT" >> brain/state/watchdog.log 2>&1 & PIDS+=($!)
+echo "✅ watchdog 起動（死活監視→ state/watchdog_status.json ・失敗時 telegram通知）"
+
 # 1) ui_server を background 起動
 python3 brain/ui_server.py --port "$PORT" --host 127.0.0.1 & SRV=$!; PIDS+=($SRV)
 sleep 2
