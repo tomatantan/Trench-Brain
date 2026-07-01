@@ -163,12 +163,16 @@ def _creator_history(wallet, limit=60):
 _UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
 
-def _http_json(url, timeout=12):
-    try:
-        r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": _UA}), timeout=timeout)
-        return json.loads(r.read())
-    except Exception:
-        return None
+def _http_json(url, timeout=12, retries=2):
+    # on-chain(rugcheck/pump)は一時的にコケる→retry で吸収(核の安定)
+    for i in range(retries + 1):
+        try:
+            r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": _UA}), timeout=timeout)
+            return json.loads(r.read())
+        except Exception:
+            if i < retries:
+                time.sleep(0.6 * (i + 1))
+    return None
 
 
 def _score_token(token):
@@ -255,8 +259,11 @@ def _score_token(token):
         verdict = "高リスク(避け寄り)"
     elif flags:
         verdict = "要注意"
+    elif not rc and not pf:
+        verdict = "判定不可(on-chain取得失敗・再試行を)"
     elif not rc:
-        verdict = "判定不可(on-chain取得失敗)"
+        # rugcheck だけ落ちた=scam門(集中/insider/rugged)未検査→"赤旗なし"は偽の安心なので出さない
+        verdict = "部分判定(rugcheck未取得=scam門未検査・pump情報のみ)"
     else:
         verdict = "赤旗なし(但base-rate注意)"
     return {"token": token, "ca": ca, "verdict": verdict,
