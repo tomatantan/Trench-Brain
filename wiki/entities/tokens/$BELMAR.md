@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $2,211,798
 title: $BELMAR（I STUDIED）
 mint: 4jxEPvtcHMukMJ24RKpyX3Y6Et3mPv5sr6U9J9Xhpump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [trench, entity, token, auto-track, graduated, traction0, stub]
+tags: [trench, entity, token, auto-track, graduated, traction0, stub, dead, breakout-then-dead]
 ---
 
 # $BELMAR（I STUDIED）
@@ -55,6 +56,16 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub]
 - [[launchpad-economics]] 跳躍台帳に記録（学習）。
 
 **接続概念**: [[launchpad-economics]]（BREAKOUT +829% × traction0 × $2.2M）/ [[rug-anatomy]]（whale/bot pump × social皆無）
+
+### 2026-07-01T00:13Z 死亡確定（mcap -98.6% from peak）
+**観測（事実）**
+- last mcap: $31,926。peak $2,211,798 比 -98.6%。cause: "mcap -90% from peak($2211798)"（-90%閾値到達で死亡確定）。
+- traction0 全期間継続のまま死亡。twitter/website null 最終確認。
+
+**判断（最終合成）**
+- [[launchpad-economics]] BREAKOUT-then-dead の $2M 水準確定事例。+829% BREAKOUT → traction 転化ゼロ → peak比-98.6% 枯死。
+- 予測通りの経路（birth 判断・BREAKOUT 判断ともに「BREAKOUT-then-dead 最有力」と記録済）。観測シグネチャ確認: **traction0 × real_sol=0 × social 皆無 × $2M BREAKOUT = 死**。
+- [[rug-anatomy]] 死亡台帳に追記（BREAKOUT-then-dead $2M 水準 N 追加）。
 <!-- synthesis:end -->
 
 ## 関連

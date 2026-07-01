@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $24,840
 title: $ETH-6QZsWe（Etherium）
 mint: 6QZsWedNnFgnARABweLWVNyzSh8f4aHq75zEtHzapump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [trench, entity, token, auto-track, graduated, traction0, ticker-collision, eth-narrative, stub]
+tags: [trench, entity, token, auto-track, graduated, traction0, ticker-collision, eth-narrative, stub, dead]
 ---
 
 # $ETH-6QZsWe（Etherium）
@@ -47,6 +48,10 @@ tags: [trench, entity, token, auto-track, graduated, traction0, ticker-collision
 - $24k graduated × real_sol=0 は [[launchpad-economics]] 死亡確率高域（peak <50k は死亡率 42%）。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0）/ [[rug-anatomy]]（association marketing × multi-mint wave）
+
+### 2026-07-01T00:13Z 死亡確定（mcap枯れ $1,999）
+- last mcap: $1,999。peak $24,840 比 -91.9%。cause: "mcap枯れ($1999)"。
+- ETH ticker 便乗 × association marketing × traction0 → 型通り枯死。[[rug-anatomy]] 死亡台帳 +1。
 <!-- synthesis:end -->
 
 ## 関連

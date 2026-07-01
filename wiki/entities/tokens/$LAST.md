@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $30,463
 title: $LAST（Last Coin）
 mint: 4RyUMr1pkws4JeRtyNpikEbaC13icifeG4oAk6s6pump
 created: 2026-07-01
 updated: 2026-07-01
-tags: [trench, entity, token, auto-track, prebond, traction0, stub]
+tags: [trench, entity, token, auto-track, prebond, traction0, stub, dead]
 ---
 
 # $LAST（Last Coin）
@@ -40,6 +41,10 @@ tags: [trench, entity, token, auto-track, prebond, traction0, stub]
 - "Last Coin" 命名——終わりの meme フックだが社会的発火なし。型通り stub。
 
 **接続概念**: [[launchpad-economics]]（prebond × traction0 × $30k）
+
+### 2026-07-01T00:13Z 死亡確定（mcap枯れ $386）
+- last mcap: $386。peak $30,463 比 -98.7%。cause: "mcap枯れ($386)"。
+- prebond × traction0 × social 皆無 → 型通り枯死。[[rug-anatomy]] 死亡台帳 +1。
 <!-- synthesis:end -->
 
 ## 関連

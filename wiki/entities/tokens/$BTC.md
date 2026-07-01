@@ -324,4 +324,18 @@ accounts: 19
 - 「#banktermfundingprogram = YCC by another name」= SVB 崩壊（2023-03-10）直後の Fed の BTFP（Bank Term Funding Program）発動を受けて Hayes が「これは事実上 YCC」と論じた 2023-03 のエッセイ紹介ツイ。
 - **既合成「YCC = BTC $1M」**（2025-09-16 "Miran 確認 → YCC → BTC $1M"・$BTC 合成 更新⑥）の**2年前の発生源**。2023-03 BTFP → 2025-09 YCC escalation という Hayes の macro フレームの歴史的起点。
 - 接続: [[majors-rotation-supercycle]]（BTFP / YCC フレームの起点 = 2023-03）。旧ツイ・現在の新 beat なし。
+
+### 2026-07-01 更新②（新 beat: 逆-Wynn トレーダー 0x2258 が $5.6M・2025-05-27 / Wynn の 2025-07-10 BTC 40x short が ATH 直前清算）
+出典: [[lookonchain__1927212551009398999]]（1,924♥・2025-05-27T03:57Z）/ [[lookonchain__1943288389362454804]]（1,923♥・2025-07-10T12:37Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-05-27）: 「trader 0x2258 が [[@JamesWynnReal]] の逆を張り、3日で $5.6M を獲得。May 24: Wynn が BTC ロング → 0x2258 が BTC/ETH ショート。翌日 Wynn がショート転換 → 0x2258 がロング転換。」([[lookonchain__1927212551009398999]] 1,924♥)
+- [[@lookonchain]]（2025-07-10）: 「Wynn が 27,522 USDC 入金 + $3,960 referral 報酬受領 → 即 BTC 40x short（11.45 BTC/$1.27M）開設。清算価格 $112,360。」([[lookonchain__1943288389362454804]] 1,923♥)
+
+**⚠️ 判断**:
+- **逆-Wynn 0x2258（2025-05-27）**: 既合成「Wynn の 40x long → short フリップ（2025-06-02/08）」（2026-07-01 更新・既記）の6日前。Wynn のポジションの逆を系統的に張るトレーダーが $5.6M を獲得した事例。lookonchain のフォロワーがリアルタイムで Wynn のポジションを観察 → 集団的な逆張りが価格を動かす自己実現フィードバックループの可能性（[[rug-anatomy]]）。
+- **Wynn 2025-07-10 BTC 40x short**: entry 価格 ~$110,873（$1.27M ÷ 11.45 BTC）、清算価格 $112,360 = エントリーから +1.3% で即清算圏。翌日 2025-07-11 BTC が ATH 到達（Hayes「ATH on good volume」既合成）= Wynn の short が ATH で清算されたと推定。「referral 報酬受領 → 即 40x short 開設」は 2025-06-08「$481 referral → 即 40x short で損失」（既合成）と同一行動パターン。金額 $3,960 → $1.27M に拡大しているが行動構造は同一。
+- ⚠️ Wynn の清算タイミングは lookonchain 観測のみ（[[onchain-verification]] 推奨）。
+- 接続: [[rug-anatomy]]（高レバ degen の繰り返し清算・Wynn = 逆指標化した public ポジション）/ [[onchain-verification]]（Wynn の on-chain 追跡可能・二次確認推奨）。
+- confidence=中（清算タイミングは推定。行動パターン整合性は高い）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
 <!-- synthesis:end -->

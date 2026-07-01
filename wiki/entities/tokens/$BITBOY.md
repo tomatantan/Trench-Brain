@@ -3,7 +3,7 @@ type: entity
 kind: token
 source: auto-track
 status: watch
-peak_mcap: $456,091
+peak_mcap: $1,784,452
 title: $BITBOY（The White Bull）
 mint: V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump
 created: 2026-07-01
@@ -29,6 +29,7 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 | complete | true（graduated） |
 | status | watch |
 | auto-track birth | 2026-06-30T20:56Z |
+| peak_mcap 更新 | $1,784,452（2026-07-01T00:13Z） |
 
 <!-- synthesis:start -->
 **観測（事実）**
@@ -43,6 +44,16 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - ⚠️ $456k × traction0 のパターンは [[launchpad-economics]] 跳躍台帳 [[$TESTIBULL]]（+2014% → dead）・[[$BELMAR]]（+829% 継続中）と類似の「高 mcap graduated-but-empty」——次窓で reply/KOL が立たなければ BREAKOUT-then-dead 候補。
 
 **接続概念**: [[launchpad-economics]]（$456k graduated × traction0 × social整備あり）/ [[rug-anatomy]]（association marketing × real_sol=0）
+
+### 2026-07-01T00:13Z BREAKOUT +265%（$488,979→$1,784,452）
+**観測（事実）**
+- mcap $488,979 → $1,784,452（+265%）。flags: BREAKOUT / mcap+265%。
+- reply_count=0・real_sol=0・KOL 皆無 変化なし。twitter @BitBoy_TWB / website bitboy.meme 不変。
+
+**判断**
+- $1.78M 到達。traction0 × real_sol=0 全期間継続のまま jump。
+- BitBoy Crypto 名借用の有名度が whale pump を引きつけた可能性（名前認識 ≠ CA認識）——real BitBoy は @Bitboy_Crypto で CA 明示なし。
+- ⚠️ $1.78M は [[launchpad-economics]] 跳躍台帳の [[$BELMAR]]（$2.2M→dead）・[[$TESTIBULL]]（$4.4M継続中）と同型水準。social 整備あり（website+twitter）でも traction 転化ゼロ全期間 = BREAKOUT-then-dead 候補最有力。
 <!-- synthesis:end -->
 
 ## 関連

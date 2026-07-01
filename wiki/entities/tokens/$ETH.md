@@ -247,4 +247,16 @@ ETF 流出（2026-06-25）:
 - **既合成「Hyperliquid TOP10 の ETH 273億円 short → クローズ（2026-06-22）」**（2026-06-23 更新②③）とは別の whale/取引所・別の時点の事例。2025年初頭から ETH の下落 trend が大口 short によって構造的に押さえられてきた可能性を示す先例として記録。
 - 接続: [[majors-rotation-supercycle]]（ETH $3,220 → $1,560 下落 = ローテ中継点が点火しなかった実証）/ [[onchain-verification]]（whale 50x short の継続/決済は独立確認推奨）。
 - confidence=低〜中（2025-02-25 の snapshot。現 ETH 価格との方向は一致）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
+### 2026-07-01 更新③（新 beat: ETH が $4,000 割れ・0xa523 が $36.4M 清算・2025-09-25）
+出典: [[lookonchain__1971077502119649505]]（2,464♥・2025-09-25T05:01Z）
+
+**観測（事実）**: 「ETH just dropped below $4,000! 0xa523: 9,152 ETH（$36.4M）の全ロングが清算。総損失 $45.3M 超・残高 $500K 未満。」（2025-09-25）
+
+**判断（light-touch）**:
+- **タイムライン補完**: Hayes「celebrate $ETH=$4,000」（2025-07-20・既合成）→ AguilaTrades $83.56M 清算（2025-08-14・既合成）→ **ETH が $4K 割れ・0xa523 $36.4M 清算（2025-09-25）**。Hayes が「$4K を祝う方法は？」と問うた2ヶ月後に ETH は $4K を割り込んだ。Hayes の「$4K」は通過点でなく落下地点だった。
+- 0xa523 の総損失 $45.3M は AguilaTrades（$37M+・Aug-14 既合成）と同水準の大型ロング清算が 2025-08〜09 に連続発生していたことを示す。いずれも **ETH long / 高レバレッジ / repeat liquidation** という構造（[[rug-anatomy]]）。
+- **既存合成「ETH = BTC beta 脱却未達」**（DefiIgnas・既記）との接続: 2025 年夏〜秋に ETH long を建てた大口が複数回清算される = ETH が「ローテ中継点」として点火できずに下方圧力が続いた 2025-08〜09 の実態。「14ヶ月来安値 ~$1,560（2026-06-25）」に至る下落 trajectory の中間データ点として記録。
+- 接続: [[majors-rotation-supercycle]]（$4K 割れ = 2025-07 Hayes ETH szn 宣言からの失速確認）/ [[rug-anatomy]]（ETH long 大型清算の繰り返しパターン）/ [[onchain-verification]]（0xa523 の on-chain 詳細は独立確認推奨）。
+- confidence=中（lookonchain 観測・2025-09-25 の事実として記録）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
 <!-- synthesis:end -->
