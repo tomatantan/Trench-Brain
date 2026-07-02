@@ -250,3 +250,6 @@ brain/state/gaps_last_sig.txt
 
 # 複利計のローカル軌跡キャッシュ(git履歴から再計算可能・多host衝突回避)
 brain/state/compounding_history.jsonl
+
+# 学習の両輪 収集半(ask.shが積む・資産化後は wiki/queries が正・runtime state)
+brain/state/query_log.jsonl
