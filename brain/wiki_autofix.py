@@ -287,8 +287,9 @@ def main() -> None:
         total_gap_count = update_gaps(gaps) if gaps else (
             len(json.loads(GAPS.read_text(encoding="utf-8"))) if GAPS.exists() else 0
         )
-        # log 追記
-        append_log(n_links_fixed, n_gap)
+        # log 追記(実際に修復が起きた時のみ。0修復はノイズ追記しない)
+        if n_links_fixed > 0:
+            append_log(n_links_fixed, n_gap)
         print(
             f"autofix: repairable={n_repair} gap-concept={n_gap} leave={n_leave}"
             f" (applied {n_links_fixed})"
