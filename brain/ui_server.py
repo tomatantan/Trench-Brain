@@ -29,6 +29,22 @@ from urllib.parse import parse_qs, urlparse
 _RL = {}
 
 
+def _to_int(v, default):
+    """クエリparam等を安全にint化。壊れた値(?k=abc)で公開エンドポイントを落とさない(2026-07-02 fix H2)。"""
+    try:
+        return int(v)
+    except (ValueError, TypeError):
+        return default
+
+
+def _real_ip(handler):
+    """cloudflared quick tunnel 越しだと client_address は常に 127.0.0.1＝全公開ユーザーが
+    1バケット共有し1人でDoSできる。信頼トンネル(唯一の入口)の Cf-Connecting-IP / XFF先頭を使う(2026-07-02 fix H5)。"""
+    h = handler.headers
+    ip = h.get("Cf-Connecting-IP") or (h.get("X-Forwarded-For") or "").split(",")[0].strip()
+    return ip or handler.client_address[0]
+
+
 def _rate_ok(key, limit, window=60):
     now = time.time()
     dq = _RL.setdefault(key, deque())
@@ -297,7 +313,7 @@ class Handler(SimpleHTTPRequestHandler):
             return
         # rate limit(公開保護): score は外部on-chain叩くので厳しめ・他はゆるめ
         if path0.startswith("/api/"):
-            ip = self.client_address[0]
+            ip = _real_ip(self)
             is_score = path0 == "/api/score"
             if not _rate_ok(f"{ip}:{'s' if is_score else 'g'}", 15 if is_score else 90):
                 self._json(429, {"ok": False, "error": "rate limit — 少し待ってから再試行"})
@@ -310,7 +326,7 @@ class Handler(SimpleHTTPRequestHandler):
         if path0 == "/api/search":
             qs = parse_qs(urlparse(self.path).query)
             q = (qs.get("q", [""])[0]).strip()
-            k = min(int(qs.get("k", ["8"])[0] or 8), 20)
+            k = min(_to_int(qs.get("k", ["8"])[0] or 8, 8), 20)
             if not q:
                 self._json(400, {"ok": False, "error": "q が空"})
                 return
@@ -364,7 +380,7 @@ class Handler(SimpleHTTPRequestHandler):
         if path0 == "/api/recent":
             qs = parse_qs(urlparse(self.path).query)
             try:
-                n = min(int(qs.get("n", ["30"])[0] or 30), 200)
+                n = min(_to_int(qs.get("n", ["30"])[0] or 30, 30), 200)
                 kind = (qs.get("kind", [""])[0]).strip() or None
                 self._json(200, {"ok": True, "recent": _retriever().recent(n, kind)})
             except Exception as e:
@@ -535,7 +551,7 @@ class Handler(SimpleHTTPRequestHandler):
             return
         if path0 == "/api/launches":
             qs = parse_qs(urlparse(self.path).query)
-            n = min(int(qs.get("n", ["30"])[0] or 30), 200)
+            n = min(_to_int(qs.get("n", ["30"])[0] or 30, 30), 200)
             rows = _tail_jsonl("launch_queue.jsonl", n)
             keys = ("mint", "symbol", "name", "creator", "created", "twitter",
                     "usd_mcap", "reply", "rc_score", "top_pct", "insiders", "kol", "reason", "detected_at")
@@ -556,7 +572,7 @@ class Handler(SimpleHTTPRequestHandler):
             return
         if path0 == "/api/kol":
             qs = parse_qs(urlparse(self.path).query)
-            minev = int(qs.get("min", ["10"])[0] or 10)
+            minev = _to_int(qs.get("min", ["10"])[0] or 10, 10)
             kol = _state_json("kol_track_records.json", {})
             rows = [v for v in kol.values() if (v.get("evaluated") or 0) >= minev]
             rows.sort(key=lambda v: (v.get("death_rate") if v.get("death_rate") is not None else 100))
@@ -626,7 +642,7 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path.split("?")[0] != "/api/ask":
             self.send_error(404)
             return
-        if not _rate_ok(f"{self.client_address[0]}:ask", 5):  # ask は claude 叩くので厳しめ
+        if not _rate_ok(f"{_real_ip(self)}:ask", 5):  # ask は claude 叩くので厳しめ
             self._json(429, {"ok": False, "error": "rate limit(ask) — 少し待って"})
             return
         try:
@@ -648,13 +664,15 @@ class Handler(SimpleHTTPRequestHandler):
             )
             ans = (r.stdout or "").strip()
             if not ans:
-                self._json(500, {"ok": False, "error": (r.stderr or "ask.sh が空応答")[:500]})
+                print(f"[ask] empty answer; stderr={r.stderr[:500]!r}", file=sys.stderr)  # 詳細はサーバログのみ
+                self._json(500, {"ok": False, "error": "脳が応答を返せませんでした"})
                 return
             self._json(200, {"ok": True, "answer": ans})
         except subprocess.TimeoutExpired:
             self._json(504, {"ok": False, "error": "脳の応答タイムアウト(>240s)"})
         except Exception as e:
-            self._json(500, {"ok": False, "error": str(e)[:500]})
+            print(f"[ask] error: {e}", file=sys.stderr)  # 内部詳細(パス等)はクライアントに返さない(info disclosure)
+            self._json(500, {"ok": False, "error": "内部エラー"})
 
     def _json(self, code, obj):
         b = json.dumps(obj, ensure_ascii=False).encode("utf-8")
