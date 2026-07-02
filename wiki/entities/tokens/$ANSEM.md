@@ -13,21 +13,6 @@ accounts: 13
 > 自動生成(brain/build_entities.py)。言及 17件 / 13アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
-## ライフサイクル(auto-track)
-
-| 項目 | 値 |
-|---|---|
-| mint | `9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump` |
-| name | The Black Bull |
-| mcap（2026-07-02T11:40Z） | ~$177,407,153 |
-| gate | safety:ok / traction:kol |
-| kol_ca | dxrnell |
-| kol_ticker | PumpfunEco, blknoiz06, ren_Nevermind, solbrdl, spyzer, theunipcs |
-| complete | true (graduated) |
-| reply_count | 0 |
-| pool | FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC |
-| twitter | https://x.com/Donnieonchain/status/2066990360115683402 |
-
 ## 言及アカウント
 [[@CredibleCrypto]] [[@DefiIgnas]] [[@Ministerr]] [[@PumpfunEco]] [[@arkham]] [[@bull_bnb]] [[@dxrnell]] [[@itspyrored]] [[@lookonchain]] [[@moonshot]] [[@solbrdl]] [[@spyzer]] [[@theunipcs]]
 

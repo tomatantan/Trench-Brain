@@ -20,6 +20,7 @@ tags: [trench, entity, token, auto-track, ip-borrowing]
 | mint | `91aesm9QbLem54TK7tHytyBbaV2zPuQgWQc4NwXmpump` |
 | name | Dorae |
 | mcap（初観測） | ~$108,818 |
+| mcap（2窓・2026-07-02T12:14Z） | ~$157,830（+49%） |
 | gate | safety:ok / traction:graduated（complete:true） |
 | status | tracked |
 | reply_count | 0 |
@@ -35,4 +36,5 @@ tags: [trench, entity, token, auto-track, ip-borrowing]
 - **signal**: reply0 / KOL0 / real_sol=0。$109k mcap は出来高先行の可能性。
 - **⚠️ 要警戒**: twitter が @muststopansem という Ansem-adjacent アカの投稿を使う点は association marketing の典型。Ansem 本人や関連公式 KOL の言及なし。
 - **型**: IP借用（Doraemon）× Ansem-adjacent association marketing × traction0。[[rug-anatomy]] 赤旗。[[launchpad-economics]] 直下。進展なければ graduated-but-empty 候補。
+- **2窓目（2026-07-02T12:14Z）**: mcap +49%（$105k→$157k）。reply0/KOL0 不変。traction なしの mcap 上昇は出来高先行。rug 前つり上げパターンと同型——次窓で反転しなければ観察継続。
 <!-- synthesis:end -->

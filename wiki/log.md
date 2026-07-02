@@ -1,5 +1,8 @@
 # Log — 操作履歴
 
+- 2026-07-02 auto-synthesis (§1a worklist 2026-07-02T10:16Z 追加・2件): $BTC（20x short/long 拮抗・ETF -$2.02B 7D 加速・0x50b3 ETH short+BTC long -$5.5M）/ $ETH（FG Nexus -$86.6M・0xF3cd $1,572降伏・Chun Wang 売り転換候補⚠️・ETF -$154.57M 7D・staking 0x2684+新規wallet 25K+ ETH・Machi liq $1,596.69継続）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T12:23Z): births=1 / changes=2 / deaths=2 計5件処理。births: $BAG（catwifbag・catwif亜種命名・$564k graduated・traction0 stub）。changes: $DORAE（+49% $105k→$157k・traction0不変・つり上げ疑い継続）/ $BULLATLAS（7窓目-50% $212k→$105k・T3遅延言及が traction転化ならず・dying-confirmed）。deaths: $RASKO（peak$69k→$2,231/-96.8%・social体裁あり×traction0→graduated-but-empty死・[[rug-anatomy]]台帳追記）/ $TAKEOFF（peak$71k→$638/-99.1%・prebond×deployer重複×traction0→-99.1%崩壊・[[rug-anatomy]]台帳追記）。
 - 2026-07-02 autofix: 0件link修復 / gap 5件記録
 - 2026-07-02 auto-synthesis (§1a worklist 2026-07-02T10:16Z・6件): $BTC（Metaplanet 43,000BTC/$2.58B マイルストーン・blknoiz06 $58K new-quarter long）/ $ETH（Bybit OTC 2025-02 旧ツイ追記・確認⑨）/ $SPCX（Nasdaq-100 Jul 7 組み入れ・⚠️強制リバランス≠ファンダ改善・DefiIgnas「disbelief rally すら起きない」・[[spacex-ipo-narrative]] concept 波及）/ $GRAM（初回合成: TON→GRAM リブランド・HyperliquidX perps・Crypto.com airdrop・confidence=低）/ $ANSEM（DefiIgnas「tokenized attention」4軸目・Ministerr「grifting KOL copycat 警告」新ツイ）/ $TRIPLET（継続確認・likes 低下傾向・confidence=低維持）。⚠️ SPCX: Nasdaq組み入れ後に lockup（2026-08〜）二重圧。ANSEM: grifter copycat wave 予告。
 

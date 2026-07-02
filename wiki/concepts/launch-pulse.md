@@ -18,30 +18,30 @@ tags: [launch, pump, flow, pulse, death-denominator]
 
 | 指標 | 値 | 前窓比 |
 |------|-----|--------|
-| 観測 total（累計） | 16,794 | 16,422 → +372 |
-| scam reject率 | **57.9%** | 57.2% → **+0.7pp（7窓連続微増）** |
-| 非scam flow（今窓） | **567** | 513 → **+54件（+10.5%）6窓連続増** |
-| gate_passed（death_denom） | 203 | 184 → **+19（急増）** |
-| graduated（death_denom） | 154 | 139 → **+15** |
-| died（death_denom） | 127 | 124 → **+3** |
-| traction candidates | **4件（MBAPPE stale・黑牛模式・MOON BMIND型re-detection・SHAH DEAD継続）** | 4件継続 |
+| 観測 total（累計） | 17,446 | 17,095 → +351 |
+| scam reject率 | **58.9%** | 58.3% → **+0.6pp（9窓連続微増）** |
+| 非scam flow（今窓） | **660** | 614 → **+46件（+7.5%）8窓連続増** |
+| gate_passed（death_denom） | 208 | 207 → **+1** |
+| graduated（death_denom） | 156 | 155 → **+1** |
+| died（death_denom） | 129 | 127 → **+2** |
+| traction candidates | **5件（BAG 初窓+19.4%・MBAPPE 4窓目+38.6%検知時比・黑牛模式/MOON BMIND型re-detection継続・SHAH DEAD継続）** | 前窓4件 → 今窓5件 |
 | KOL standouts | 0件 | 長期連続ゼロ継続 |
 
-> **今窓の要点**: 非scam flow 6窓連続増（567件・+10.5%）。scam率 57.9%（7窓連続微増）。gate_passed +19急増（graduated +15連動）——前窓+2から急変、窓間のバースト。黑牛模式（$1,676）・MOON（$1,549）は前窓 list exit「確定」としたが今窓で再登場——BMIND型re-detectionへ移行・実質静止継続。MBAPPE は前窓 -11.0% から今窓 stale（-1.4%・$17,924）——縮退型静止。SHAH は $2,298 DEAD水準継続（BMIND型）。political/news 3→7件（+133%・今窓最大変化）。KOL ゼロ継続。
+> **今窓の要点**: 非scam flow 8窓連続増（660件・+7.5%）。scam率 58.9%（9窓連続微増・60%に肉薄）。BAG 初窓で+19.4%（$414k→$495k）——cat meme 系の新候補。MBAPPE 4窓目で+29.7% w/w（$19,420→$25,194・検知時比+38.6%）——T3ゼロのまま続伸。gate_passed +1 と今窓は極めて少なく、died +2 で small death 再開（前窓 ±0 からの復帰）。animal/pet 4窓連続増（92→100件・100件大台）。黑牛模式・MOON は BMIND型re-detection継続。SHAH は DEAD水準継続。KOL ゼロ継続。
 
-### テーマ分布（非scam 567件）
+### テーマ分布（非scam 660件）
 
 | テーマ | 件数 | 比率 | 前窓比 |
 |--------|------|------|--------|
-| other（未分類） | 415 | **73.2%** | 73.9% → -0.7pp |
-| animal/pet | 82 | **14.5%** | 14.4% → +0.1pp |
-| finance/defi | 34 | **6.0%** | 6.0% → ±0 |
-| tech/meme | 13 | **2.3%** | 2.1% → +0.2pp |
-| AI/agent | 11 | **1.9%** | 2.1% → -0.2pp |
-| political/news | 7 | **1.2%** | 0.6% → **+0.6pp（+133%・急増）** |
-| IP/brand | 5 | **0.9%** | 0.8% → +0.1pp |
+| other（未分類） | 483 | **73.2%** | 73.3% → -0.1pp |
+| animal/pet | 100 | **15.2%** | 15.0% → **+0.2pp（4窓連続増・100件大台）** |
+| finance/defi | 37 | **5.6%** | 5.7% → -0.1pp |
+| tech/meme | 15 | **2.3%** | 2.1% → +0.2pp |
+| AI/agent | 12 | **1.8%** | 1.8% → ±0 |
+| political/news | 8 | **1.2%** | 1.3% → -0.1pp |
+| IP/brand | 5 | **0.8%** | 0.8% → ±0 |
 
-> political/news が 3→7件（+133%）と今窓最大の変化。recent_samples にも「Solana Governance Proposals」「world_xyz」など。1窓のスパイクのため判断保留——ガバナンス/マクロ連動の一時的需要か継続かは次窓で判断。animal/pet は2窓連続増（74→82件）。finance/defi は4窓連続増（19→28→31→34件）。AI/agent は 11件で前窓と横ばい——ナラティブとしての勢いは落ち着いた水準。[[ai-memes]] [[survivor-memes]]
+> animal/pet が 92→100件（+8.7%・4窓連続増・100件大台）。recent_samples に「CATDOG」「BAG（catwifbag）」と動物系が確認。cat meme 系の BAG が traction候補として浮上した窓と一致——テーマ上昇と個別候補浮上の同期。political/news は8件で横ばい。AI/agent・tech/meme は微増だが水準内。[[survivor-memes]]
 
 ---
 
@@ -49,61 +49,62 @@ tags: [launch, pump, flow, pulse, death-denominator]
 
 | 指標 | 値 | 前窓比 | 備考 |
 |------|-----|--------|------|
-| mints_seen（累計追跡） | 15,877 | 15,494 → **+383** | 観測継続 |
-| gate_passed（累計） | 203 | 184 → **+19（急増）** | 通過率: 203/15,877 = **1.28%** |
-| graduated（累計） | 154 | 139 → **+15** | graduated/gate_passed = **75.9%** |
-| died（累計） | 127 | 124 → **+3** | died/gate_passed = **62.6%** |
+| mints_seen（累計追跡） | 16,640 | 16,177 → **+463** | 観測継続 |
+| gate_passed（累計） | 208 | 207 → **+1** | 通過率: 208/16,640 = **1.25%** |
+| graduated（累計） | 156 | 155 → **+1** | graduated/gate_passed = **75.0%** |
+| died（累計） | 129 | 127 → **+2** | died/gate_passed = **62.0%** |
 
-> gate_passed +19・graduated +15 と今窓は大幅増——前窓 (+2/+2) から急激なバースト。通過率 1.19%→1.28% と上昇（mints_seen +383 に対し gate_passed +19 と分子の伸びが分母を上回った）。died/gate_passed は 67.4%→62.6% と低下しているが、分母（gate_passed）の急増による統計的希釈であり構造的改善ではない。next 窓で gate_passed が元ペースに戻るか注目。[[launchpad-economics]]
+> gate_passed +1 は今観測史上最小の1窓増分。mints_seen +463 に対しgate通過はわずか1件——今窓は漏斗が特に厳しかった。died +2 と small death が再開（前窓 ±0 は time-lag 解消）。通過率 1.28%→1.25% と低下継続。died/gate_passed 61.4%→62.0% と微増。[[launchpad-economics]]
 
 ---
 
 ## 流れの読み（判断）
 
-**流量: 513→567件（6窓連続増・+10.5%）——増加幅も拡大、KOL 不在は変わらない**
+**流量: 614→660件（8窓連続増・+7.5%）——ペース安定、上昇トレンド維持**
 
-非scam flow は6窓連続で増加、今窓は+54件と前窓（+36件）から増加幅も拡大。しかし KOL standout はゼロのまま。流量の増加はノイズ総量の増加と読む——trench の活況を示すシグナルではない。[[launchpad-economics]]
+非scam flow は8窓連続で増加、今窓は+46件（前窓+47件からほぼ同率）。KOL standout は依然ゼロ——流量増はノイズ総量の増大。[[launchpad-economics]]
 
-**scam率 57.9%——7窓連続微増・58%接近**
+**scam率 58.9%——9窓連続微増・60%に肉薄**
 
-55%台→57%台へ7窓連続一方向で上昇継続。今窓は +0.7pp で上昇ペース維持。短期での反転兆候なし。[[rug-anatomy]]
+55%台から9窓一方向で上昇継続。今窓の上昇幅（+0.6pp）は前窓（+0.4pp）より拡大し、60%ラインが射程内に入った。反転兆候なし。[[rug-anatomy]]
 
-**gate_passed バースト: +19（前窓 +2 から急増）**
+**died +2——small death 再開（前窓 ±0 の time-lag 解消）**
 
-前窓まで +2 水準で安定していた gate_passed が今窓 +19 と急増、graduated も +15 連動。1窓での急変は集計タイミングの影響が大きい可能性が高い。構造的な通過率改善と判断するには次窓の確認が必要。died/gate_passed の低下（67.4%→62.6%）も同様に希釈効果とみる。[[launchpad-economics]]
+前窓は died ±0 の特異点だったが今窓は +2 で再開。gate_passed +1 は今観測史上最小の1窓増分——mints_seen +463 に対し漏斗が特に厳しかった窓。構造的変化ではなく前窓の time-lag 解消と見る。[[launchpad-economics]]
 
-**political/news 3→7件（+133%）——今窓最大の単一窓変化**
+**animal/pet 4窓連続増（82→92→100件・100件大台）**
 
-1窓で倍増超。recent_samples に「Solana Governance Proposals（SGP）」があり、ガバナンス/政治系命名の一時的需要が示唆される。先例（OvertonWindo・JUSTICE 等）では political 命名は即死帰結の多い型。1窓のスパイクのため傾向確定は次窓以降。[[external-event-to-token-pattern]]
+4窓連続で増加し今窓で100件の大台に到達。recent_samples の「CATDOG」「BAG（catwifbag）」と対応。traction候補に BAG（cat meme系）が登場した窓と一致——テーマ上昇と個別候補浮上の同期が観測できる。[[survivor-memes]]
 
-**animal/pet 2窓連続増（74→82件）**
+**BAG（catwifbag）: 初窓 $414,765→$495,344（+19.4%）——cat meme traction候補**
 
-前窓の回帰兆候が今窓も継続（+10.8%）。finance/defi も 4窓連続緩増（19→28→31→34件）。2テーマ同時増だが、other（415件・73.2%）が依然圧倒的多数——ナラティブとしての収束はまだない。[[survivor-memes]]
+今窓新規で traction_candidates 入り。live mcap $495k と graduated 水準。T3（KOL）ゼロ・reply 0 の状態での価格上昇。catwifhat=$CATWIF の派生亜種命名で [[survivor-memes]] 圏内。real_sol ゼロのまま $495k は出来高先行疑いが残る。次窓で T3 点火があるかが分岐点。[[reflexivity]]
 
-**MBAPPE: 前窓 -11.0% → 今窓 stale（-1.4%・$17,924）**
+**MBAPPE: 4窓目 $25,194（+29.7% w/w / 検知時比+38.6%）——振動型継続、T3 ゼロ**
 
-下落後の静止。縮退型の過程でよく見られるパターン——次窓で DEAD圏に落ちるか、緩慢下落継続か。IP/brand 型・T3 KOL ゼロ継続。[[reflexivity]]
++8.6% → -11.0% → +6.8% → +29.7% w/w（4窓目）。4窓累計で検知時比+38.6%。ただし live mcap は $25k 帯と観測史上最小クラス——小額ゾーンでの振動。reply 0・KOL ゼロは全4窓で不変。IP/brand 型の先例はほぼ全例 DEAD 帰結——T3 点火なしの持続はない。[[reflexivity]]
 
-**黑牛模式・MOON: 前窓 list exit「確定」後も再登場→BMIND型へ移行**
+**黑牛模式・MOON: BMIND型re-detection継続**
 
-前窓で「list exit確定（実質静止2窓）」と判定したが、今窓で再検知。黑牛模式 $1,679→$1,676（-$3）・MOON $1,553→$1,549（-$4）と実質静止継続——BMIND/CLAY型の長期 DEAD 残存パターンに移行。縮退パターン記録を更新。
+黑牛模式 $1,664（前窓 $1,676・-0.7%）・MOON $1,539（前窓 $1,549・-0.6%）。実質 DEAD 水準で静止継続。BMIND/CLAY 型の長期残存。採用対象外。
 
-**SHAH: DEAD水準実質静止（$2,297→$2,298・BMIND型継続）**
+**SHAH: DEAD水準継続（$2,281・BMIND型）**
 
-今窓も $2,298 と実質変化なし。BMIND/CLAY/PURRSUN 型の DEAD 水準継続。
+前窓 $2,297→今窓 $2,281（-0.7%）。実質静止。変化なし。
 
 **KOL standouts: 連続ゼロ継続**
 
-全候補 reply 0・KOL ゼロ。reflexivity 第③層が不在の状態が継続している。[[reflexivity]]
+全候補 reply 0・KOL ゼロ。reflexivity 第③層（KOL narration）不在が長期継続。[[reflexivity]]
 
 ## 今窓の採用判断
 
 | 候補 | 検知時 mcap | live mcap | 変化 | T3 KOL | 判定 |
 |------|------------|-----------|------|--------|------|
-| MBAPPE | $18,180 | $17,924 | **-1.4%（stale）** | ゼロ | **縮退後静止（前窓-11.0%→今窓stale・DEAD圏接近観察継続）** |
-| 黑牛模式 | $140,687 | $1,676 | -98.8% | ゼロ | **BMIND型re-detection継続（前窓list exit判定後再登場・実質静止）** |
-| MOON | $55,717 | $1,549 | -97.2% | ゼロ | **BMIND型re-detection継続（前窓list exit判定後再登場・実質静止）** |
-| SHAH | $15,768 | $2,298 | -85.4% | ゼロ | **DEAD水準継続（BMIND型・実質静止）** |
+| BAG | $414,765 | $495,344 | **+19.4%（実movement）** | ゼロ | **初窓 cat meme traction・T3 未達・real_sol=0・次窓で判断** |
+| MBAPPE | $18,180 | $25,194 | **+38.6%（検知時比）/ +29.7% w/w** | ゼロ | **4窓目続伸・T3 未達・IP/brand 先例参照・T3 点火待ち** |
+| 黑牛模式 | $140,687 | $1,664 | -98.8% | ゼロ | **BMIND型re-detection継続・実質静止** |
+| MOON | $55,717 | $1,539 | -97.2% | ゼロ | **BMIND型re-detection継続・実質静止** |
+| SHAH | $15,768 | $2,281 | -85.5% | ゼロ | **DEAD水準継続（BMIND型）** |
 | kol_standouts | — | — | — | — | 0件 |
 | recent_samples（12件） | 観測のみ | — | — | — | 採用なし |
 
@@ -266,11 +267,11 @@ tags: [launch, pump, flow, pulse, death-denominator]
 | **BINDY** | **8窓（検知時$970,455→1窓-71%急落→2nd bounce→停滞）** | **前窓 candidates消滅・list exit確定（前窓$411,413・2nd bounce停滞後exit・T3ゼロ全8窓）** | **~$411,413（最終観測 前窓・検知時 $970,455・-57.6%・T3ゼロ全8窓）** | **ゼロ** |
 | **BULLATLAS** | **6窓（検知時$167,483→急落後2窓連続上昇→横ばい）** | **前窓 candidates消滅・list exit確定（前窓$289,056・T3ゼロ全6窓・一斉exit同窓）** | **~$289,056（最終観測 前窓・検知時 $167,483・+72.6%・T3ゼロ全6窓）** | **ゼロ** |
 | **BULLTANIC** | **5窓（検知時$140,102→stale→下落→急反発→exit）** | **前窓 candidates消滅・list exit確定（前窓$161,979・急反発後exit・T3ゼロ全5窓・一斉exit同窓）** | **~$161,979（最終観測 前窓・検知時 $140,102・+15.6%・T3ゼロ全5窓）** | **ゼロ** |
-| **SHAH** | **1窓（前窓 DEAD判定→前窓 list exit確定）→DEAD水準再検知継続（BMIND型）** | **前窓 DEAD判定（-85.5%）/ 前窓 candidates消滅→今窓 $2,297 再検知→今窓 $2,300（BMIND/CLAY型継続中）** | **~$2,300（今窓live・前窓 $2,297 から実質静止・検知時 $15,768・T3ゼロ）** | **ゼロ** |
-| **黑牛模式** | **3窓traction（1窓目-8.5%→2窓目+30.2%実movement→3窓目-98.8%崩壊）→DEAD残存継続** | **3窓目 DEAD確定（$183,116→$1,849・窓間-99.0%）/ 4窓目 $1,680 / 5窓目 $1,679（list exit判定）→**今窓 $1,676 BMIND型re-detection（実質静止継続）**** | **~$1,676（今窓live・検知時 $140,687・天井 $183,116 / 2窓目・中国語命名×T3ゼロ・BMIND型再検知移行）** | **ゼロ** |
-| **MOON** | **2窓traction（1窓目+11.3%→2窓目-97.2%崩壊）→DEAD残存継続** | **2窓目 DEAD確定（$62,031→$1,542・SHAK型）/ 3窓目 $1,552 / 4窓目 $1,553（list exit判定）→**今窓 $1,549 BMIND型re-detection（実質静止継続）**** | **~$1,549（今窓live・検知時 $55,717・SHAK型→BMIND型再検知移行・T3ゼロ全期間）** | **ゼロ** |
+| **SHAH** | **1窓（前々窓 DEAD判定→list exit確定）→DEAD水準再検知継続（BMIND型）** | **前々窓 DEAD判定（-85.5%）/ 前々窓 candidates消滅→前窓 $2,297 再検知→今窓 $2,281（BMIND/CLAY型継続中）** | **~$2,281（今窓live・前窓 $2,297→今窓 $2,281・実質静止継続・検知時 $15,768・T3ゼロ）** | **ゼロ** |
+| **黑牛模式** | **3窓traction（1窓目-8.5%→2窓目+30.2%実movement→3窓目-98.8%崩壊）→DEAD残存継続** | **3窓目 DEAD確定（$183,116→$1,849・窓間-99.0%）/ 4窓目 $1,680 / 5窓目 $1,679（list exit判定）→今窓 $1,664 BMIND型re-detection（実質静止継続）** | **~$1,664（今窓live・検知時 $140,687・天井 $183,116 / 2窓目・中国語命名×T3ゼロ・BMIND型再検知移行）** | **ゼロ** |
+| **MOON** | **2窓traction（1窓目+11.3%→2窓目-97.2%崩壊）→DEAD残存継続** | **2窓目 DEAD確定（$62,031→$1,542・SHAK型）/ 3窓目 $1,552 / 4窓目 $1,553（list exit判定）→今窓 $1,539 BMIND型re-detection（実質静止継続）** | **~$1,539（今窓live・検知時 $55,717・SHAK型→BMIND型再検知移行・T3ゼロ全期間）** | **ゼロ** |
 
-> **観測中（exit 未確定）**: MBAPPE（stale -1.4%・縮退後静止・T3待ち）/ SHAH（DEAD水準・BMIND型継続）/ 黑牛模式・MOON（BMIND型re-detection継続・実質静止）。
+> **観測中（exit 未確定）**: BAG（初窓 +19.4%・$495k・cat meme・T3ゼロ・次窓判断）/ MBAPPE（4窓目 $25,194・検知時比+38.6%・IP/brand・T3ゼロ継続）/ SHAH（DEAD水準・BMIND型継続）/ 黑牛模式・MOON（BMIND型re-detection継続・実質静止）。
 
 ---
 

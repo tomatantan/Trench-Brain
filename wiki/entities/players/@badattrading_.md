@@ -12,7 +12,7 @@ posts: 245
 > 自動生成。信号投稿 245件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
-CA言及 132件 / 現outcome評価 118件中 **死83（70%）** ＝⚠️callの死多(信頼性低)。
+CA言及 160件 / 現outcome評価 132件中 **死85（64%）** ＝平均的。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン

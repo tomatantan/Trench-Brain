@@ -480,4 +480,24 @@ accounts: 21
 - **blknoiz06（Ansem）$58K long**: KOL コンセンサスの代表的人物が「新四半期の底値（$58K）でロング」を公言。既合成「全体収縮フェーズ」（BTC ~$62.8K 降伏・2026-06-19）から更に $58K まで下落した局面でのロングエントリー。$58K = invalidation という具体的な判断軸の提示。⚠️ blknoiz06 は $ANSEM 最大保有者（entity 参照）であり、BTC strong 物語との相関（「BTC ポジ＝altcoin 環境への楽観」）として読む余地もある。
 - 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ・後期買い手降伏）に対し、「企業積み増し」と「KOL の新四半期逆張り long」が続いている。底値探索中の底固め信号として記録するが、BlackRock 出口向けフローが同時進行しており、短期の方向は未決。confidence=中（変化なし）。
 - 接続: [[majors-rotation-supercycle]]（Metaplanet 企業積み増し vs BlackRock 出口フローの対立）/ [[onchain-verification]]（Metaplanet の平均取得コスト・累計購入履歴の独立確認推奨）。
+
+### 2026-07-02 確認⑤（worklist 代表ツイ確認・新 beat: 20x short/long 拮抗・ETF -$2.02B 7D・0x50b3）
+出典: [[CredibleCrypto__2067665232533549481]]（503♥・2026-06-18）/ [[lookonchain__2072149633464479987]]（285♥・2026-07-01T02:45Z）/ [[lookonchain__2072257084587155582]]（313♥・2026-07-01T09:52Z）/ [[lookonchain__2072322805279134208]]（129♥・2026-07-01T14:13Z）/ [[lookonchain__2072498999832318297]]（201♥・2026-07-02T01:54Z）
+
+**worklist 代表ツイ確認**:
+- **503♥ [[CredibleCrypto__2067665232533549481]]**（2026-06-18）: 「$XRP のポジションをほぼ全値戻しでストップ。BTC が footing を見つけるかどうかにかかっている。」= $XRP の TA ポスト。BTC を XRP の前提条件として参照するのみ。BTC 固有の新 beat なし。
+- 506♥ の 2つ目の代表ツイも同一ツイ（二重キャプチャ）。
+
+**観測（新 beat・2026-07-01/02）**:
+- **Whale 0xaeaa 20x short**: 1,100 BTC（$64.95M）を 20x short。清算価格 $67,914.56。（[[lookonchain__2072149633464479987]] 285♥）
+- **謎の 4 wallet 20x long**: 過去5日間に新規作成された4 wallet が合計 800 BTC（$47M）の 20x long を構築（同一人物と見られる）。（[[lookonchain__2072257084587155582]] 313♥）
+- **BTC ETF 7/1 フロー**: 1D -$160.47M（-2,708 BTC）/ 7D -$2.02B（-34,081 BTC）= 週次流出が前週比（-$749M）から **2.7倍に拡大**。（[[lookonchain__2072322805279134208]] 129♥）
+- **trader 0x50b3**: 1ヶ月・100 取引・90% 勝率・$4.96M 利益のトレーダーが、ETH short + BTC long の同時ポジションで -$5.5M = 全利益消去。（[[lookonchain__2072498999832318297]] 201♥）
+
+**⚠️ 判断（light-touch）**:
+- **20x short（$64.95M）vs 20x long（$47M）の拮抗**: 既合成「20x short 再参入（2026-06-26・$54.55M）」（2026-06-27 更新②）に続く新しい short entrant と、同規模の long entrant が同時に存在。short の liq 価格（$67,914）は現在値より上方 = BTC が反発すれば short が飛ぶ。レバポジの拮抗 = 方向性が決まっていないレンジ相場の指標。
+- **ETF -$2.02B 7D**: 前週 -$749M から大幅拡大。機関の出口フローが加速。既合成「BlackRock 3波 $776M+ 入金（出口向けか否か二択）」と合わせると、ETF 経路での流出が構造的に継続している。
+- **0x50b3「ETH short + BTC long」失敗**: ETH と BTC が同方向に動いた（相対強さが期待と逆行した）ために機能しなかった bet。DefiIgnas「ETH = BTC beta 脱却未達」（既合成）の枠内では、ETH が BTC に追随するため分離 bet はリスクが高い実例。
+- 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ・後期買い手降伏）に変化なし。ETF 流出加速と大口ポジション拮抗を追記。confidence=中（変化なし）。
+- 接続: [[onchain-verification]]（0xaeaa short・4 wallet long の実体確認推奨）/ [[majors-rotation-supercycle]]（ETF -$2.02B 7D = 機関出口フロー加速の観測）。
 <!-- synthesis:end -->

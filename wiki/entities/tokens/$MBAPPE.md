@@ -10,7 +10,7 @@ outcome: pending
 
 # $MBAPPE
 
-**ステータス: T3待ち観察（IP/brand 型 traction 入り）**
+**ステータス: T3待ち観察（4窓目・続伸継続）**
 
 ## 観測事実（T1）
 
@@ -22,24 +22,30 @@ outcome: pending
 | 検知時 mcap | $18,180 |
 | live mcap（1窓目） | $19,736（+8.6%） |
 | live mcap（2窓目） | $16,174（**-11.0%** 下落転換） |
-| stale | false（2窓とも） |
-| reply | 0（2窓連続） |
-| KOL standouts | ゼロ（2窓連続） |
+| live mcap（3窓目） | $19,420（**+6.8%** 反発） |
+| live mcap（4窓目） | $25,194（**+29.7% w/w** / 検知時比+38.6%） |
+| stale | false（4窓とも） |
+| reply | 0（4窓連続） |
+| KOL standouts | ゼロ（4窓連続） |
 | 追跡開始 | 2026-07-02 |
 
 ## 採用シグナル格付け
 
 | Tier | 内容 | 状態 |
 |------|------|------|
-| T1（on-chain） | traction gate 通過・1窓目 +8.6% → 2窓目 -11.0% 下落転換 | 確認済 |
-| T3（KOL言及） | KOL standouts 入り | **ゼロ（2窓連続）** |
-| T5（hype/reply） | reply / engagement | **ゼロ（2窓連続）** |
+| T1（on-chain） | traction gate 通過・+8.6%→-11.0%→+6.8%→+29.7% w/w（4窓）・検知時比+38.6% | 確認済 |
+| T3（KOL言及） | KOL standouts 入り | **ゼロ（4窓連続）** |
+| T5（hype/reply） | reply / engagement | **ゼロ（4窓連続）** |
 
-**現状 T3 未達。T3 点火なしでは採用しない。縮退開始シグナルあり。**
+**現状 T3 未達。T3 点火なしでは採用しない。**
 
 ## 採用理由（traction）
 
-traction_candidates に登場（mcap 通過 + 実 movement +8.6%）。small mcap（$18-19k 帯）での価格実movement。ただし reply 0 かつ KOL ゼロ——reflexivity の点火要素が揃っていない。2窓目で -11.0%（$16,174）に下落転換、縮退開始。
+traction_candidates に登場（mcap 通過 + 実 movement +8.6%）。small mcap（$16-25k 帯）での価格振動。4窓目で +29.7% w/w と今観測で最大の窓間変化——ただし reply 0・KOL ゼロは変わらない。reflexivity の点火要素が揃っていない状態での price action は投機的動き。
+
+## 価格推移パターン
+
++8.6% → -11.0% → +6.8% → +29.7% w/w（4窓）。4窓累計で検知時比+38.6%。oscillation 型（GTT・MASTERCOIN等）の初期と類似するが、mcap 帯が $16-25k と観測史上最小クラス。4窓目の大幅続伸は注目だが、T3 不在のまま価格上昇が続くケースは観測史上ほぼない——IP/brand 型は特に T3 なしでの自然消滅が多い。
 
 ## IP/brand 型先例との比較
 
