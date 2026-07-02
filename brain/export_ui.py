@@ -29,7 +29,10 @@ def fm_and_body(p):
     t = p.read_text(encoding="utf-8")
     if not t.startswith("---"):
         return {}, t
-    _, fm, body = t.split("---", 2)
+    parts = t.split("---", 2)
+    if len(parts) < 3:
+        return {}, t   # 同上(2026-07-02 M1)
+    _, fm, body = parts
     m = {}
     for line in fm.strip().splitlines():
         if ":" in line:

@@ -87,15 +87,23 @@ def fetch_html(url):
 
 
 def git_commit_push(paths, msg):
-    """新ソースを commit→pull --rebase --autostash→push（cloud GHA と分岐しても壊れない）。"""
+    """新ソースを commit→pull --rebase --autostash→push。push成否を返す(2026-07-02 M3):
+    False を握り潰して「✅取り込んだ」と偽ると、source が cloud に届かず永久未合成なのに成功表示になる。"""
     try:
         subprocess.run(["git", "-C", str(ROOT), "add", *paths], check=False)
         subprocess.run(["git", "-C", str(ROOT), "commit", "-q", "-m", msg], check=False)
         subprocess.run(["git", "-C", str(ROOT), "pull", "-q", "--rebase", "--autostash",
                         "origin", "main"], check=False)
-        subprocess.run(["git", "-C", str(ROOT), "push", "-q", "origin", "main"], check=False)
+        r = subprocess.run(["git", "-C", str(ROOT), "push", "-q", "origin", "main"], check=False)
+        return r.returncode == 0
     except Exception as e:
         print(f"git error: {e}", file=sys.stderr)
+        return False
+
+
+def _pushed_note(ok):
+    """push成否を取り込み応答に正直に反映(False→cloud未達を明示)。"""
+    return "次サイクルで合成される。" if ok else "⚠️ ローカル保存済だが push 失敗＝cloud未達(次サイクルで自動再試行)。"
 
 
 def add_tweet(handle, tid):
@@ -115,8 +123,8 @@ def add_tweet(handle, tid):
           f"captured: {captured}", "tags: [trench, source, x, manual-add]", "---", "",
           text, ""]
     p.write_text("\n".join(fm), encoding="utf-8")
-    git_commit_push([f"sources/x/{handle}__{tid}.md"], f"/add tweet @{handle}/{tid}")
-    return f"✅ 取り込んだ: @{author} のツイート → sources/x。次サイクルで合成される。"
+    ok = git_commit_push([f"sources/x/{handle}__{tid}.md"], f"/add tweet @{handle}/{tid}")
+    return f"✅ 取り込んだ: @{author} のツイート → sources/x。{_pushed_note(ok)}"
 
 
 def add_url(url):
@@ -139,8 +147,8 @@ def add_url(url):
           f"captured: {captured}", "tags: [trench, source, news, manual-add]", "---", "",
           f"# {title}", "", f"> {url}", "", body, ""]
     p.write_text("\n".join(fm), encoding="utf-8")
-    git_commit_push([f"sources/news/{slug}.md"], f"/add url {host}")
-    return f"✅ 取り込んだ: {title[:50]}… → sources/news。次サイクルで合成される。"
+    ok = git_commit_push([f"sources/news/{slug}.md"], f"/add url {host}")
+    return f"✅ 取り込んだ: {title[:50]}… → sources/news。{_pushed_note(ok)}"
 
 
 def add_text(text):
@@ -152,8 +160,8 @@ def add_text(text):
           f"captured: {captured}", "tags: [trench, source, clip, manual-add]", "---", "",
           text, ""]
     p.write_text("\n".join(fm), encoding="utf-8")
-    git_commit_push([f"sources/figures/clip-{stamp}.md"], "/add text clip")
-    return "✅ 取り込んだ: テキスト → sources/figures。次サイクルで合成される。"
+    ok = git_commit_push([f"sources/figures/clip-{stamp}.md"], "/add text clip")
+    return f"✅ 取り込んだ: テキスト → sources/figures。{_pushed_note(ok)}"
 
 
 def handle_add(chat_id, arg):
