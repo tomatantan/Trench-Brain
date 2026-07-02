@@ -20,6 +20,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# 検査対象は「合成LLMが書く層」だけ。reports/dashboards/index/log/_worklist/
+# watchlist/canon/feeds/ui-data 等は合成出力でない(check_conformance 等が生成・
+# frontmatter無しが正常)ので検査すると誤FAIL→cronが合成を壊れたと誤認する。
+SYNTH_OUTPUT_PREFIXES = (
+    "wiki/entities/",
+    "wiki/concepts/",
+    "wiki/summaries/",
+    "wiki/queries/",
+)
+
 
 def _git(args: list[str]) -> list[str]:
     """git コマンドを ROOT で実行し、出力行リストを返す。失敗時は RuntimeError。"""
@@ -45,27 +55,24 @@ def get_changed_wiki_pages(base: str) -> set[Path]:
     """
     paths: set[Path] = set()
 
+    def _is_synth_output(rel: str) -> bool:
+        return rel.endswith(".md") and rel.startswith(SYNTH_OUTPUT_PREFIXES)
+
     # 1. diff vs base
-    try:
-        diff_lines = _git(["diff", "--name-only", base, "--", "wiki"])
-        for rel in diff_lines:
-            if rel.endswith(".md"):
-                paths.add(ROOT / rel)
-    except RuntimeError as e:
-        raise  # 呼び出し元で握る
+    diff_lines = _git(["diff", "--name-only", base, "--", "wiki"])
+    for rel in diff_lines:
+        if _is_synth_output(rel):
+            paths.add(ROOT / rel)
 
     # 2. unstaged / untracked (git status --porcelain)
-    try:
-        status_lines = _git(["status", "--porcelain"])
-        for line in status_lines:
-            # 形式: "XY path" または "XY orig -> path"
-            # 最後のトークンがファイルパス
-            parts = line.strip().split()
-            rel = parts[-1].strip('"')
-            if rel.startswith("wiki/") and rel.endswith(".md"):
-                paths.add(ROOT / rel)
-    except RuntimeError as e:
-        raise
+    status_lines = _git(["status", "--porcelain"])
+    for line in status_lines:
+        # 形式: "XY path" または "XY orig -> path"
+        # 最後のトークンがファイルパス
+        parts = line.strip().split()
+        rel = parts[-1].strip('"')
+        if _is_synth_output(rel):
+            paths.add(ROOT / rel)
 
     return paths
 
