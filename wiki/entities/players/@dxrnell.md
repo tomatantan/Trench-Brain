@@ -4,19 +4,19 @@ kind: player
 title: @dxrnell
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 66
+posts: 68
 ---
 
 # @dxrnell
 
-> 自動生成。信号投稿 66件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 68件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
-CA言及 3件 / 現outcome評価 3件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
+CA言及 4件 / 現outcome評価 4件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$TRIPLET]](3) [[$ANSEM]](1) [[$LUKE]](1) [[$TJR]](1) [[$SPCX]](1) [[$NEET]](1) [[$TESTIBULL]](1) [[$TESTICLE]](1) [[$UWU]](1)
+[[$TRIPLET]](3) [[$UWU]](2) [[$ANSEM]](1) [[$LUKE]](1) [[$TJR]](1) [[$SPCX]](1) [[$NEET]](1) [[$TESTIBULL]](1) [[$TESTICLE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -29,8 +29,8 @@ CA言及 3件 / 現outcome評価 3件中 **死0（0%）** ＝callが残りやす
 | 230 |  | You can literally get rich from just buying the most talked about ANIMAL coins on CT | [[dxrnell__2067580481454133592]] |
 | 179 | [[$TRIPLET]] | The “I’ve never seen $TripleT it’s a terrible coin” gang are gonna regret ever sayin | [[dxrnell__2072310226121101783]] |
 | 177 | [[$TRIPLET]] | The $TripleT chart is simply lovely | [[dxrnell__2072246063596269896]] |
+| 176 |  | solana:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump looking like it wants to blast s | [[dxrnell__2072588197394256082]] |
 | 170 |  | Onlyfans daughter or onchain memecoin analyst son | [[dxrnell__2067499237072581016]] |
-| 165 |  | There are only two types of people in this industry  People who WIN  People who COMP | [[dxrnell__2072249049991008296]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

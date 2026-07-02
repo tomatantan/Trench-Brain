@@ -4,13 +4,13 @@ kind: token
 title: $DROOLING
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
+mentions: 14
 accounts: 4
 ---
 
 # $DROOLING
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 14件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント

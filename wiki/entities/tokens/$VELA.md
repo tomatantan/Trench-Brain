@@ -2,12 +2,13 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 title: $VELA（Vela Mono）
 mint: 9D6wiNC5RVyNGzu7m58SDAjupyfup4G5qV7HALmpump
 created: 2026-07-02
-updated: 2026-07-02 (birth stub・$61k・graduated・KOL0)
-tags: [token, auto-track, graduated, traction0, no-kol, stub]
+updated: 2026-07-02 (DEAD・mcap枯れ$1536・⑬コホート型確定)
+tags: [token, auto-track, graduated, traction0, no-kol, dead, cohort-13]
 ---
 
 # $VELA（Vela Mono）
@@ -27,21 +28,24 @@ pump.fun 産。bonding curve 卒業済（complete=true、pool 935fxp...）。"Ve
 | website | https://velamono.top/ |
 | tokenized_agent | false |
 | complete | true（graduated） |
-| status | watch |
+| mcap(death) | $1,536（2026-07-02T09:51Z） |
+| peak_mcap | $63,306 |
+| cause | mcap枯れ（peak比-97.6%） |
+| status | **DEAD** |
 
 <!-- synthesis:start -->
 **観測（事実）**
 - pump.fun 産・graduated・$61k で検知。KOL 皆無（kol_ca/kol_ticker ゼロ）。
 - real_sol: **84.47 SOL**——[[rug-anatomy]] ⑬コホート水準（N=11 確定: 39-84 SOL range で全例崩壊）。$FLYRO(84.4SOL→-98.5%) と同水準。
-- twitter @VelaMono + website velamono.top 整備済——専用 social はあるが現時点でのコミュニティ引力不明。
+- twitter @VelaMono + website velamono.top 整備済——専用 social はあるが引力ゼロのまま。
+- reply_count = 0 を維持したまま peak $63k → $1.5k（-97.6%）で枯れ死亡。生存は検知から約24分。
 
-**判断**
-- real_sol 84.47 SOL は⑬コホート観測史上最大水準（$FLYRO 84.4 SOL と並ぶ）。traction0 のまま推移すれば⑬型崩壊候補。
-- $61k の graduated-but-empty 水準で reply ゼロ——[[launchpad-economics]] Feedback「graduated門 死亡率75%」の典型域。
-- 「Vela Mono」——vela (帆/星/ろうそく)×mono 組み合わせ。独自命名でナラティブは薄い。
-- ⚠️ real_sol 大量 × traction0 = deployer pump 燃料がある一方で traction 転化なし——⑬コホート型に最有力。reply/KOL が出なければ dead候補。
+**判断（確定）**
+- ⑬コホート型確定。real_sol 84.47 SOL × traction0 = 予測通り枯れ崩壊。birth→dead を1サイクル未満で完結。
+- $FLYRO（84.4SOL→-98.5%）と real_sol がほぼ同値で結果も同型——「⑬コホート N=12 で high real_sol 帯（>80SOL）全例崩壊」補強。
+- 命名「Vela Mono」は独自だが narrative 引力ゼロ。社会的体裁（twitter/web）だけでは traction に転化しない典型。
 
-**接続概念**: [[rug-anatomy]]（⑬高 real_sol コホート）/ [[launchpad-economics]]（graduated-but-empty・traction0）
+**接続概念**: [[rug-anatomy]]（⑬コホート型・dead確定）/ [[launchpad-economics]]（graduated-but-empty・死亡率統計補強）
 <!-- synthesis:end -->
 
 ## 関連

@@ -131,6 +131,8 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$LR]]（Ledger Realms）2nd BREAKOUT | +107% | $563k→$1,166k | reply0 / KOL0（全期間） | 不明（1st BREAKOUT後も traction ゼロ継続・social整備済×出来高先行2段） | traction0×2段連続 BREAKOUT×$1.16M——$BOO 2段型/$TESTIBULL 2段型と同シグネチャ・DeFi generic 命名での $1M 突破・BREAKOUT-then-dead 最有力 |
 | [[$BELIVE]]（belive） | +123%（BREAKOUT） | $40.2k→$89.8k | reply0 / KOL0（twitter/website null 全期間）・real_sol~1.7SOL | 不明（"belive" generic命名・social 窓口ゼロ・prebond 継続） | traction0×social皆無×prebond BREAKOUT＝$MC/$AEGIS/$JALAPEÑO 同型・BREAKOUT-then-dead 候補 |
 | [[$GATO]]（el gato） | +205%（BREAKOUT） | $88.6k→$270.5k | reply0 / KOL0（badattrading_ CA確認済だが以降新規言及なし）・CEX cluster 64.3%⚠️ | 不明（badattrading_ 構造分析後の traction ゼロ急騰・CEX cluster集中） | traction0×CEX cluster集中×BREAKOUT——構造は snipers/insiders0%とクリーンだが CEX ウォレット集中は別種の脆さ・BREAKOUT-then-dead 候補 |
+| [[$100K-22eoEu]]（100K） | +120%（BREAKOUT） | $51.1k→$112.2k | reply0 / KOL0（全期間）・real_sol=3.72SOL・twitter=@slimer48484ツイート（association marketing） | generic numeric ticker × 同名先行mint（22N9dj）あり × prebond継続 | traction0×prebond×出来高先行BREAKOUT＝$PEPEBULL/$BELIVE同型・先行mint同型あり・BREAKOUT-then-dead最有力 |
+| [[$JUNK]]（JUNKBOT） | +152%（BREAKOUT） | $132.2k→$333.1k | reply0 / KOL0（全期間）・real_sol ~81.6SOL（⑬コホート） | 不明（JUNKBOT bot meme・@junkbotsol/junkbot.my整備済・birth後+98%→2段BREAKOUT・traction0不変） | **⑬コホート 2段 BREAKOUT**（real_sol ~81.6SOL = $FLYRO(→dead-98.5%)/$VELA(→dead-97.6%) と同水準。$BOO(82.7SOL→2段$709k)の同コホートで2段pump前例あり。traction0全期間のまま $333k 到達・real_sol 不変=deployer SOL継続供給疑い。$BOO 型 2段路線 or $FLYRO/$VELA 崩壊前最終つり上げ——BREAKOUT-then-dead 最有力候補） |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

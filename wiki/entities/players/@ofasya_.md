@@ -4,12 +4,12 @@ kind: player
 title: @ofasya_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 39
+posts: 40
 ---
 
 # @ofasya_
 
-> 自動生成。信号投稿 39件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

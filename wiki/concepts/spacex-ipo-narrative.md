@@ -105,3 +105,14 @@ SpaceX IPO（外部/TradFiイベント）
 [[@CryptoHayes]] Bankless 対談 2026-06-22（SpaceX = low float high FDV shitcoin・9月 unlock リスク）。
 [[@Bankless]] 週次ロールアップ 2026-06-19（HIP-3 SpaceX IPO 完璧プライシング / Cerebrus precedent / OpenAI・Anthropic 次ステージ）。
 (全て sources/x/ / sources/youtube/ の原文に保存済)
+
+### 2026-07-02 更新: Nasdaq-100 組み入れ（Jul 7）= 強制リバランス需要フェーズ
+出典: [[mexc__2072243817516769510]]（101♥・2026-07-01）
+
+**観測**: $SPCX が **2026-07-07（月）に Nasdaq-100 に正式組み入れ**予定。指数連動 ETF・インデックスファンドが自動的に $SPCX を組み入れる強制リバランス。MEXC が「Not all buying is driven by investors. Some follows an index.」と演出。
+
+**時系列への追加** (既存の 6/23「全騰幅消去」以降):
+- 2026-07-01: MEXC が Nasdaq-100 組み入れ（Jul 7）を告知
+- 2026-07-02: DefiIgnas が「$SPCX can't even manage a disbelief rally」= 組み入れ前の底値圏で反発すら起きていないことを確認
+
+**型への示唆**: 「外部イベント（IPO）→ フィーバー → 全騰幅消去（-17.8%）→ lockup 解除待ち」の途中に、**指数組み入れという第二の外部イベント**が挿入される。この「指数組み入れ前の駆け込み需要 → 後の売り（sell-the-news）」は TradFi では繰り返し観測されるパターン。crypto-stock クロスオーバーの [[$SPCX]] でも同パターンが出るか = **Jul 7 組み入れ後の price action が本 concept の「外部イベント→一時的買い→剥落」仮説の検証ポイント**。lockup 解除（2026-08〜）との二重の売り圧イベントが重なる 8 月が次の節目。

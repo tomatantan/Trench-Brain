@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 167
+mentions: 170
 accounts: 19
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 167件 / 19アカ。
+> 自動生成(brain/build_entities.py)。言及 170件 / 19アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@wojakcto]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$USELESS]] [[$WIF]] [[$PENGU]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$USELESS]] [[$WIF]] [[$WBTC]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -389,4 +389,12 @@ ETF 流出（2026-06-25）:
 - **1,865♥ [[lookonchain__1906903915070886341]]**（2025-04-01）: 「Karma hit fast. Hacker steals 2,930 $ETH($5.4M) from zkLend... then gets phished while using Tornado Cash. All 2,930 $ETH gone — to another thief.」= **旧ツイ（2025-04-01・本合成未記録）。light-touch 追記**: zkLend ハッカーが ETH を盗んだ後、Tornado Cash 使用中に別の詐欺師にフィッシングされ全額喪失。ETH が犯罪エコシステムにおいて価値移転ツールとして機能しつつ onchain tracking 可能な事例。[[onchain-verification]]（犯罪資金フローは Tornado Cash 経由でも monitoring の対象）。ETH の投資 signal なし。
 - **690♥ [[lookonchain__2071912914680987813]]**（2026-06-30）: 「BlackRock deposited 4,984.56 $BTC($295M) and 30,725 $ETH($48.58M) to Coinbase Prime」= ETH 側 $48.58M（30,725 ETH）の入金量が具体化。既合成「BlackRock 7日連続 ETH 売り（2026-06-30 arkham・更新⑦）」との整合: Coinbase Prime への ETH 入金 = spot 売りの前段として一貫した方向。詳細は [[$BTC]] 確認④参照。
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・BlackRock 7日連続売り）に変化なし。confidence=中（変化なし）。
+
+### 2026-07-02 確認⑨（Bybit OTC 旧ツイ追記・新 beat なし）
+出典: [[lookonchain__1893594968150688176]]（1,820♥・2025-02-23T09:33Z）
+
+- **1,820♥ [[lookonchain__1893594968150688176]]**（2025-02-23）: 「#Bybit bought another 34,743 $ETH($97.7M) via #OTC ~40 mins ago. #Bybit appears to have bought a total of 106,498 $ETH($295M) via #OTC in the past 24 hours.」= Bybit が **1日で 106,498 ETH（$295M）を OTC 購入**。2025-02-21 の Bybit ハック（$1.4B 損失）直後の**流動性補填買い**。OTC ルートで大量の ETH を迅速に調達した=市場価格インパクトを抑えた緊急補填。本 entity 未記録のため追記。
+- **⚠️ 旧ツイ（2025-02-23）・現在との文脈の違い**: 当時は ETH ~$2,700〜$2,800 帯（2025-02 bull 相場中）でのハック後補填。現在（2026-07・ETH ~$1,560）とは市場局面が大きく異なる。ETH の「機関フロー ≠ price support」（既合成）の先行事例として追記。補填目的の大口 OTC 買いは「強気の需要」でなく「損失穴埋め」であり、通常の需要サイドとは別で読む必要がある。
+- **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 複数サイクル確認済み。新情報なし。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

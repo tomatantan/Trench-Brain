@@ -4,15 +4,15 @@ kind: player
 title: @badattrading_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 226
+posts: 245
 ---
 
 # @badattrading_
 
-> 自動生成。信号投稿 226件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 245件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
-CA言及 127件 / 現outcome評価 116件中 **死74（64%）** ＝平均的。
+CA言及 132件 / 現outcome評価 118件中 **死83（70%）** ＝⚠️callの死多(信頼性低)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
@@ -21,6 +21,7 @@ CA言及 127件 / 現outcome評価 116件中 **死74（64%）** ＝平均的。
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 296 |  | How to make it with memecoins ?  95% of you won't make it like in perps, why ? Becau | [[badattrading___2072593740753977614]] |
 | 154 |  | If you see a lot of negativity about a coin, it's probably the right one | [[badattrading___2068746508879479261]] |
 | 150 |  | Best coins are always the ones you never hear about it seems | [[badattrading___2069390334702789059]] |
 | 140 |  | At first you want everyone to make it cause bundlers and the same cabals are making  | [[badattrading___2070029965207232665]] |
@@ -30,7 +31,6 @@ CA言及 127件 / 現outcome評価 116件中 **死74（64%）** ＝平均的。
 | 92 |  | be part of the story ! in 10 years they'll watch it to understand how it happened lo | [[badattrading___2069026127037833674]] |
 | 75 |  | We’re all going to cook 🔥 | [[badattrading___2069790232292085917]] |
 | 75 |  | They're all losing money on that airdrop coin made by @Supermanonchain 😂😭 | [[badattrading___2072358981343871381]] |
-| 69 |  | I get like 2k views instantly on any new posts and this isn’t my doing I don’t need  | [[badattrading___2069009029209137203]] |
 
 <!-- synthesis:start -->
 実投稿セクションが空。素材ゼロの状態で「思考の型」を書くと、全行がLLM推論（=捏造）になり、視点エンジンに有害な燃料を入れることになる。

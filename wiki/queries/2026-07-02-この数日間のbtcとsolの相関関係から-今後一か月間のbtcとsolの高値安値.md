@@ -18,4 +18,4 @@ tags: [trench, query]
 - **SOL**: majors 中 β 最大（SOL 30mo安 vs BTC 21mo / ETH 14mo）。Hayes「ETH $5k 前には SOL $300 なし」= Hayes 論では高値更新はさらに先。BTC がさらに下げた場合、SOL はより深く下げる非対称。上値は ETH が価格発見で詰まり始めるまで構造的に重い。
 - **⚠️ 矛盾**: STRC 崩壊 → Saylor 強制売り（Dorman -25% シナリオ）と、LTHS 80% 供給制約が同時存在。前者が勝てば下値はより深い（$30K台）。
 
-⚠️ 薄い: 現在の BTC/SOL 実価格が wiki 未収録（2026-07-02時点）= レンジ起点が不明。現在値を入れれば試算精度が上がる。根拠: [[majors-rotation-supercycle]] [[$BTC]] [[$SOL]] [[2026-06-29-dead-cross-query]]
+⚠️ 薄い: 現在の BTC/SOL 実価格が wiki 未収録（2026-07-02時点）= レンジ起点が不明。現在値を入れれば試算精度が上がる。根拠: [[majors-rotation-supercycle]] [[$BTC]] [[$SOL]] [[2026-06-29-本日の日足確定でビットコインの週足がデットクロスが完成したが-過去の統計からデッ|dead-cross query(2026-06-29)]]

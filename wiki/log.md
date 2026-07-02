@@ -1,5 +1,19 @@
 # Log — 操作履歴
 
+- 2026-07-02 autofix: 0件link修復 / gap 5件記録
+- 2026-07-02 auto-synthesis (§1a worklist 2026-07-02T10:16Z・6件): $BTC（Metaplanet 43,000BTC/$2.58B マイルストーン・blknoiz06 $58K new-quarter long）/ $ETH（Bybit OTC 2025-02 旧ツイ追記・確認⑨）/ $SPCX（Nasdaq-100 Jul 7 組み入れ・⚠️強制リバランス≠ファンダ改善・DefiIgnas「disbelief rally すら起きない」・[[spacex-ipo-narrative]] concept 波及）/ $GRAM（初回合成: TON→GRAM リブランド・HyperliquidX perps・Crypto.com airdrop・confidence=低）/ $ANSEM（DefiIgnas「tokenized attention」4軸目・Ministerr「grifting KOL copycat 警告」新ツイ）/ $TRIPLET（継続確認・likes 低下傾向・confidence=低維持）。⚠️ SPCX: Nasdaq組み入れ後に lockup（2026-08〜）二重圧。ANSEM: grifter copycat wave 予告。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T11:39Z+11:55Z): births=7 / changes=2 / deaths=0 計9件処理。新規: $FRIEREN（anime-IP×KOL seeded・reply29・$19.5k）/ $NOMCAT（cat meme×CEX cluster 66.8%⚠️・$54.7k）/ $PEPEBULL-52hneK（bundled scam明示警告・ticker衝突・suspicious）/ $MEDUSA1（stub・$33k）/ $COLDBULL（bull cluster・real_sol~46SOL・$99k）/ $TAKEOFF（slimer48484 deployer重複⚠️=$100K同一twitter）/ $GTASIX（GTA6 IP借用・$137k・traction0）。更新: $100K-22eoEu（+44% $112k→$162k）/ $JUNK（+152% BREAKOUT $132k→$333k・⑬コホート2段pump・[[launchpad-economics]]跳躍台帳追記）。
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T11:39Z): births=5 / changes=2 / deaths=2 計8件処理。新規作成: $TOM（SolportTom・badattrading_ kol_ca・prebond$157K）/ $TRENCH（tren.ch・コミュニティ tokenization・$110K）/ $RUSH（Rush Trading・trading platform meme・$109K）/ $KITTY-B7YhLN（peak$2502誕生即死・kol_ca gate≠生存保証⑤型）/ $SHORT（peak$1857 graduated即死・観測最低水準候補）。更新: $ANSEM（auto-track lifecycle追加・mint確認・$177M・dxrnell+6KOL）/ $BULLATLAS（6窓目-31.1%+badattrading_ kol_ca T3初到達）/ $BULLTANIC（5窓目-7.6%+badattrading_ kol_ca T3初到達・BULLATLAS同時言及）。
+
+- 2026-07-02 launch-pulse 合成（今窓: 6h / flow_count_nonscam=513 / scam率57.2% / traction4件→黑牛模式・MOON list exit確定 / MBAPPE -11.0%縮退開始 / SHAH DEAD継続 / KOLゼロ6窓連続）。entity更新: $黑牛模式・$MOON list exit記録追記 / $MBAPPE 2窓目-11.0%更新。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T11:16Z→11:35Z): births=8 / changes=1 / deaths=3 計12件処理（最大15内）。$PUMP-66iaBk（著名ticker借用×blknoiz06 association marketing→誕生即死・[[rug-anatomy]]死亡台帳）/ $BIRAN（Master Shifu IP借用→誕生即死・[[rug-anatomy]]死亡台帳）/ $100K-22eoEu（+120% BREAKOUT prebond traction0・[[launchpad-economics]]跳躍台帳）/ $DORAE（Doraemon IP×@muststopansem association marketing stub）/ $JUNK（JUNKBOT・real_sol=81.6SOL⑬コホート候補）/ $RASKO・$BOLD・$AT-4iTi8w（各低signal stub）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T10:35:53Z→10:56Z): births=3 / changes=0 / deaths=3 計6件全処理。births: $BULL-E6EKDD（"bull"・$67k/未graduated/reply0/KOL0・名称無個性×social皆無・3番目の同名mint stub・[[launchpad-economics]][[rug-anatomy]]）/ $BULLSHIT×2（vulgar name・@blknoiz06未承認association marketing・誕生即死・entity skip → [[rug-anatomy]]死亡台帳1行のみ）。deaths: $黑牛模式（peak$179k→$1,848/-98.97% DEAD確定・2窓+30.2%実movementありでもT3ゼロ→graduated-but-empty実movement型・[[rug-anatomy]]死亡台帳追記）/ $BULLSHIT×2（上記と同・台帳1行）。
+
+- 2026-07-02 auto-synthesis (synth_queue 2026-07-02T10:11:26Z): births=1 / changes=0 / deaths=1 計2件全処理。births: $黑牛模式（Black Bull Mode）$123k/graduated/real_sol=0・中国語bull命名×traction0 stub作成・[[rug-anatomy]]赤旗接続。deaths: $VELA（Vela Mono）peak$63k→$1.5k/-97.6% DEAD確定・⑬コホート型（84.47SOL real_sol×traction0・$FLYRO同水準）→[[rug-anatomy]] 死亡台帳1行追記・N=12確定。
+
 - 2026-07-02 lint: 検出10件・主な型リスク＝traction死亡率数値断絶(12%→40%/N=163同期要)・external-event内部矛盾(「6件超」vs「2-3件」)・reflexivity N=3陳腐化(実際N=30+)・l1-substrate-wars陳腐化(ETH安値未反映)
 - 2026-07-02 autofix: 0件link修復 / gap 6件記録
 - 2026-07-02 auto-synthesis backfill (高signal未合成3件): $MITCH（Ansem X垢復帰要求→679%ポンプ・ShapeFN_8連投プロモ構造→[[external-event-to-token-pattern]][[rug-anatomy]]接続）/ $USDUC（a1lon9「real community」認定2025-08→BinanceUS sponsored giveaway 2026-06・survivor＋CEX採用例→[[survivor-memes]][[launchpad-economics]]接続）/ $LAB（bull_bnb「MM driven・little to no fundamentals」Solanaクラスタ＋MurphyBTC MAGU警告→-25.53%実測→[[rug-anatomy]]接続）。新規concept作成なし。

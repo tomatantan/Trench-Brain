@@ -4,12 +4,12 @@ kind: player
 title: @noritaka_okabe
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 33
+posts: 38
 ---
 
 # @noritaka_okabe
 
-> 自動生成。信号投稿 33件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 38件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

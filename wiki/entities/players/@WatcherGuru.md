@@ -4,15 +4,15 @@ kind: player
 title: @WatcherGuru
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 86
+posts: 88
 ---
 
 # @WatcherGuru
 
-> 自動生成。信号投稿 86件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 88件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SPCX]](2) [[$META]](2) [[$AAPL]](2) [[$GOOGL]](2) [[$VZ]](2) [[$MU]](1) [[$RLUSD]](1) [[$BTC]](1) [[$MSFT]](1) [[$ETH]](1)
+[[$BTC]](2) [[$SPCX]](2) [[$META]](2) [[$AAPL]](2) [[$GOOGL]](2) [[$VZ]](2) [[$MU]](1) [[$RLUSD]](1) [[$MSFT]](1) [[$ETH]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

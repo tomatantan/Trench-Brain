@@ -4,20 +4,20 @@ kind: token
 title: $MU
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 27
-accounts: 8
+mentions: 28
+accounts: 9
 ---
 
 # $MU
 
-> 自動生成(brain/build_entities.py)。言及 27件 / 8アカ。
+> 自動生成(brain/build_entities.py)。言及 28件 / 9アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@AdimsSHOGUN]] [[@DEG_2020]] [[@MEXC]] [[@WatcherGuru]] [[@blknoiz06]] [[@cryptocom]] [[@lookonchain]] [[@solana]]
+[[@AdimsSHOGUN]] [[@DEG_2020]] [[@DefiIgnas]] [[@MEXC]] [[@WatcherGuru]] [[@blknoiz06]] [[@cryptocom]] [[@lookonchain]] [[@solana]]
 
 ## 共起トークン
-[[$SNDK]] [[$SPCX]] [[$DRAM]] [[$USDT]] [[$BB]] [[$CCL]] [[$DRI]] [[$FDX]]
+[[$SNDK]] [[$SPCX]] [[$NVDA]] [[$DRAM]] [[$USDT]] [[$BB]] [[$CCL]] [[$DRI]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

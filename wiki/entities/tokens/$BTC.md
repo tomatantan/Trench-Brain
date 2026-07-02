@@ -4,20 +4,20 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 176
+mentions: 179
 accounts: 21
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 176件 / 21アカ。
+> 自動生成(brain/build_entities.py)。言及 179件 / 21アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Bankless]] [[@BinanceUS]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@fundstrat]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$STRC]] [[$PEPE]] [[$PENGU]] [[$DOGE]] [[$WIF]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$STRC]] [[$PEPE]] [[$PENGU]] [[$MSTR]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -467,4 +467,17 @@ accounts: 21
 - **BTC と ETH 同時入金**: 既合成「BlackRock 7日連続 ETH 売り（arkham 2026-06-30・$ETH 合成 2026-07-02 更新⑦）」の文脈では、この 2026-06-30 の同時入金は **ETH 継続売り + BTC 継続入金** が同一日に発生した確認。「custody/rebalance vs 出口向け spot 売り準備の二択」（既合成）の構造は変わらないが、BTC + ETH の同時入金 = **出口向けリバランスの一貫した方向性**を示す可能性。
 - ⚠️ coingecko Strategy 617♥ tweet（[[coingecko__2069030123341304208]]・2026-06-22）: 既合成「2026-06-23 更新（Strategy 520 BTC・847,363 BTC total）」で合成済み。新情報なし。
 - confidence=中（既存合成の方向に変化なし・入金パターン継続の第三波確認）。接続: [[onchain-verification]]（Coinbase Prime 入金 = 独立確認推奨）/ [[majors-rotation-supercycle]]（BlackRock BTC+ETH 同時入金継続 = 出口シグナル候補の観察継続）。
+
+### 2026-07-02 更新⑧（新 beat: Metaplanet 43,000 BTC マイルストーン / blknoiz06 新四半期 long）
+出典: [[watcherguru__2072592211854717210]]（1,913♥・2026-07-02T08:04Z）/ [[blknoiz06__2070309201964916787]]（574♥・2026-06-26T00:52Z）
+
+**観測（事実）**:
+- [[@WatcherGuru]]（2026-07-02）: 「JUST IN: 🇯🇵 Metaplanet buys 2,823 Bitcoin worth $170,000,000. They now hold 43,000 $BTC worth $2.58 billion.」= 日本の上場企業 Metaplanet が 2,823 BTC（$170M）を追加購入し、**累計保有 43,000 BTC（$2.58B）に到達**。
+- [[@blknoiz06]]（2026-06-26T00:52Z）: 「OK you got me. i'm long $BTC right now. new quarter, and i'm treating today's low ($58k) as my invalidation. wont be risking it down to $55k. clean spot to be.」= 新四半期開始を根拠に $58K ロング宣言・$58K を割れたら撤退（$55K まではリスクを取らない）。
+
+**判断**:
+- **Metaplanet 43,000 BTC**: 既合成「Strategy 1,587 BTC $100M（2026-06-15）」「BlackRock 3 波合計 ~12,972 BTC（$776M+）」に続く日本企業サイドの大型積み増し。BlackRock が Coinbase Prime に BTC を入金（出口向けと読める）のに対し、Metaplanet は**長期 保有目的の公開宣言型**購入。同一期間に「機関出口 vs 企業積み増し」の対立構造が続いている点は[[majors-rotation-supercycle]]上の注目事項。$2.58B は 2025 末〜2026 初の accumulation phase の積み上がりを示すが、entry コストと現在価格（BTC ~$60K帯）の含み損/益は非公開（[[onchain-verification]] 要）。
+- **blknoiz06（Ansem）$58K long**: KOL コンセンサスの代表的人物が「新四半期の底値（$58K）でロング」を公言。既合成「全体収縮フェーズ」（BTC ~$62.8K 降伏・2026-06-19）から更に $58K まで下落した局面でのロングエントリー。$58K = invalidation という具体的な判断軸の提示。⚠️ blknoiz06 は $ANSEM 最大保有者（entity 参照）であり、BTC strong 物語との相関（「BTC ポジ＝altcoin 環境への楽観」）として読む余地もある。
+- 既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ・後期買い手降伏）に対し、「企業積み増し」と「KOL の新四半期逆張り long」が続いている。底値探索中の底固め信号として記録するが、BlackRock 出口向けフローが同時進行しており、短期の方向は未決。confidence=中（変化なし）。
+- 接続: [[majors-rotation-supercycle]]（Metaplanet 企業積み増し vs BlackRock 出口フローの対立）/ [[onchain-verification]]（Metaplanet の平均取得コスト・累計購入履歴の独立確認推奨）。
 <!-- synthesis:end -->
