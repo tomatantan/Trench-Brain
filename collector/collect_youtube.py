@@ -183,6 +183,10 @@ def main():
 
     print(f"\n{'[dry-run] ' if args.dry_run else ''}done [youtube]: "
           f"{total_new} new, {total_skip} skipped, {total_err} errors / {len(refs)} channels")
+    # 全channel失敗=収集の入口が死んでる→緑を偽装しない(2026-07-02 M3・collect.py と同教訓)
+    if refs and total_err == len(refs):
+        print("★ 全channel fetch失敗＝収集ゼロ。exit 2", file=sys.stderr)
+        return 2
     return 0
 
 

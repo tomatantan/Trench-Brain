@@ -31,15 +31,18 @@ def run(args):
 
 
 def main():
+    rcs = []
     if "--collect" in sys.argv:
         src = "twitterapi" if "--twitterapi" in sys.argv else "syndication"
-        run(["collector/collect.py", "--source", src])
-    run(["brain/digest.py"])
-    run(["brain/build_entities.py"])
-    run(["brain/ingest_worklist.py"])
+        rcs.append(run(["collector/collect.py", "--source", src]))
+    rcs.append(run(["brain/digest.py"]))
+    rcs.append(run(["brain/build_entities.py"]))
+    rcs.append(run(["brain/ingest_worklist.py"]))
     print("\n決定的パート完了。次: エージェントが brain/INGEST.md で wiki/_worklist.md を処理→"
           "brain/mark_ingested.py→commit。")
+    # どれか1つでも失敗したら非0で抜ける=cron/CIが $? で失敗を検知できる(2026-07-02 M3 false-green fix)
+    return 1 if any(rc != 0 for rc in rcs) else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

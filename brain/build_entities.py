@@ -34,7 +34,10 @@ def parse(path):
     txt = path.read_text(encoding="utf-8")
     if not txt.startswith("---"):
         return None, ""
-    _, fm, body = txt.split("---", 2)
+    parts = txt.split("---", 2)
+    if len(parts) < 3:
+        return None, ""   # 閉じ---無し(書込み中のtruncated file)でunpack死→run全滅を防ぐ(2026-07-02 M1)
+    _, fm, body = parts
     meta = {}
     for line in fm.strip().splitlines():
         if ":" in line:
