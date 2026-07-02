@@ -4,17 +4,25 @@ name: collect-cloud
 # 役割分担:
 #   cloud(ここ)  = 収集の腕。watchlist の新ツイを sources/x へ。Mac が落ちてても止まらない。
 #   local(launchd brain/cron_collect.sh) = 観測(track.py)+合成(headless/セッション)+UI export。
-# ★ track.py / synthesize.sh はここで回さない。理由:
-#   - track.py の状態(brain/state/tracked|base_rate|synth_queue.json)は gitignore＝local 専用。
-#     ephemeral な GHA では毎回リセットされ base_rate / 死検知が壊れる。
-#   - synthesize.sh は headless claude（課金 + telegram MCP 干渉）。cloud で回さない。
-# ＝合成は local 側が両輪のもう片方を回す（指針3）。cloud はあくまで「収集が夜間も止まらない」保険。
-# 依存: 標準ライブラリのみ（pip install 不要）。dedup は sources/x のファイル存在判定（commit 済なので cloud でも正しく効く）。
+# ★ track.py / synthesize.sh はここで回さない（状態は gitignore=local専用 / headless=課金）。
+#
+# ★2026-07-02 $0化: 収集backendを「梯子(auto)」に変更。無料経路を優先:
+#   1) syndication（無認証・ただしGHAのDCIPは429されやすい）
+#   2) graphql（無料・要 X_AUTH_TOKEN/X_CT0 secret=捨てアカcookie。DCIPでも通る）
+#   無料が全滅すると collect.py が exit 2 → このjobは【赤】になり Telegram 通知が飛ぶ。
+#   ＝2026-06-26〜の twitterapi 402 が5日半 green のまま沈黙した false-green を構造的に潰す。
+#   有償(twitterapi)へは自動で落ちない（課金は人間の判断）。使うなら workflow_dispatch の
+#   use_paid=true で明示。依存は標準ライブラリのみ。
 
 on:
   schedule:
     - cron: "15 1,4,7,10,13,16,19,22 * * *"  # 3hごと(UTC)・local cron とは別位相
-  workflow_dispatch: {}                        # 手動実行も可
+  workflow_dispatch:
+    inputs:
+      use_paid:
+        description: "有償 twitterapi.io を使う（$使う・通常はfalse）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,18 +40,31 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Collect new tweets (watchlist-gated)
+      - name: Collect new tweets (watchlist-gated / free ladder)
         env:
-          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
-        run: python3 collector/collect.py --source twitterapi --throttle 0.3
-        # twitterapi.io は 429 なし＝アカ間 throttle 不要。0.3s に短縮し GHA 分数を節約
-        # (PRIVATE repo 無料 2000分/月。4s だと 124アカ×4s≈8分/回×8回/日で超過しかねない)
+          # graphql 無料経路の cookie（捨てアカ推奨）。未設定なら syndication のみ試行。
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+          # queryId が陳腐化した時の差し替え口（未設定ならコード内default）
+          X_QID_USER: ${{ secrets.X_QID_USER }}
+          X_QID_TWEETS: ${{ secrets.X_QID_TWEETS }}
+          # 有償は明示dispatch時のみ渡す
+          TWITTERAPI_KEY: ${{ inputs.use_paid && secrets.TWITTERAPI_KEY || '' }}
+        run: |
+          if [ "${{ inputs.use_paid }}" = "true" ]; then
+            echo "::warning::有償 twitterapi.io を使用（手動指定）"
+            python3 collector/collect.py --source twitterapi --throttle 0.3
+          else
+            python3 collector/collect.py --source auto --throttle 0.3
+          fi
+        # exit 2（無料全滅/収集ゼロ）はここで job を失敗させ、下の notify を発火させる。
 
       - name: Commit & push new sources
+        if: success()
         run: |
           git config user.name "trench-brain-cloud"
           git config user.email "actions@users.noreply.github.com"
-          git add sources/x
+          git add sources/x brain/state/collect_health.json
           if git diff --cached --quiet; then
             echo "no new tweets"
           else
@@ -51,3 +72,17 @@ jobs:
             git pull --rebase --autostash origin main || true
             git push
           fi
+
+      - name: Notify on collection failure
+        if: failure()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          if [ -n "$TG_BOT_TOKEN" ] && [ -n "$TG_CHAT_ID" ]; then
+            MSG="[trench collect-cloud] ⚠️ X収集が失敗（無料経路全滅 or 収集ゼロ）。$(date -u +%Y-%m-%dT%H:%MZ) GHA。graphql cookie(X_AUTH_TOKEN/X_CT0)投入 or 経路確認が必要。"
+            curl -s -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TG_CHAT_ID}" \
+              --data-urlencode "text=${MSG}" >/dev/null || true
+          fi
+          echo "::error::X collection failed — see logs. Free ladder exhausted."

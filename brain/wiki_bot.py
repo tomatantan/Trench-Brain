@@ -182,7 +182,8 @@ def assetize_query(q, ans):
     p = ROOT / "wiki" / "queries" / f"{date}-{slug}.md"
     p.parent.mkdir(parents=True, exist_ok=True)
     body = ["---", "type: query", f"title: {q[:80]}", f"created: {date}",
-            f"asked: {captured}", "via: /wiki", "tags: [trench, query]", "---", "",
+            f"updated: {date}", f"asked: {captured}", "via: /wiki",
+            "tags: [trench, query]", "---", "",
             "## 問い", q, "", "## 回答（/wiki 6レンズ横断合成）", ans, ""]
     p.write_text("\n".join(body), encoding="utf-8")
     # 「薄い/未カバー/要ingest」gap → ingest-queue(質問が取り込みを駆動)
