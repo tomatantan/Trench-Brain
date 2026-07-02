@@ -6,7 +6,7 @@ status: watch
 ticker: $GATO
 mint: 36CvCWVMgSgpZNFu2JVuaaJVEcKtqySpS9hD2kxUpump
 created: 2026-06-27
-updated: 2026-06-27 (birth stub・$193k・graduated・badattrading_ KOL CA確認)
+updated: 2026-07-02 (BREAKOUT+205%・$88.6k→$270.5k)
 tags: [token, pumpfun, graduated, kol-ca, badattrading_, cat-meme, el-gato]
 ---
 
@@ -55,6 +55,10 @@ snipers 0% / insiders 0%（per devsnightmare）。CEX cluster 64.3%（Binance 24
 
 **概念接続**: [[launchpad-economics]]（graduated・$193k・KOL CA confirmed） / [[survivor-memes]]（cat meme・El Gato internet文化） / [[rug-anatomy]]（CEX cluster⚠️・reply0・KOL attention ≠ 生存保証）
 
+### 2026-07-02 BREAKOUT +205%
+**観測（事実）**: mcap $88,555.33 → $270,528.17（+205%）。flags: BREAKOUT / mcap+205%。reply_count=0・badattrading_ CA確認以降 新規KOLなし。
+
+**判断**: badattrading_ の構造分析（snipers/insiders 0%だが CEX cluster 64.3%⚠️）済みトークンでの traction ゼロ BREAKOUT——[[launchpad-economics]] 跳躍台帳に追記（traction無し×出来高先行型）。CEX cluster集中×reply0のままの急騰は、CEXウォレットの一斉買い/whale集中の兆候であり組織だった需要の証拠ではない。次窓で reply/KOL 不変のまま反落なら BREAKOUT-then-dead 確定。
 <!-- synthesis:end -->
 
 ## 関連

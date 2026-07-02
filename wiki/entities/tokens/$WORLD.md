@@ -4,14 +4,14 @@ kind: token
 title: $WORLD
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 7
+mentions: 9
 accounts: 2
 ---
 
 # $WORLD
 
-> 自動生成(brain/build_entities.py)。言及 7件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 9件 / 2アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@badattrading_]]
@@ -22,7 +22,9 @@ accounts: 2
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
+| 518 | [[@PumpfunEco]] | JUST IN: $world hits a new all-time high of $10.7M market cap! 🔥 | [[pumpfuneco__2072320106793709706]] |
 | 205 | [[@PumpfunEco]] | This trader is up $93,000 after buying $136 worth of $world   They gained a 684x ret | [[pumpfuneco__2070103784248742256]] |
+| 175 | [[@PumpfunEco]] | $world has pumped 53% today! 🔥 | [[pumpfuneco__2072308705304121698]] |
 | 96 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.83M $world  | [[pumpfuneco__2069760704882868678]] |
 | 62 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $14.8M $WEN $6 | [[pumpfuneco__2070119982063870255]] |
 | 41 | [[@PumpfunEco]] | This trader refused to sell early & now their $​1,730 buy on $world is worth $48,640 | [[pumpfuneco__2069906558171894025]] |

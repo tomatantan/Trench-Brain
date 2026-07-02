@@ -4,20 +4,20 @@ kind: token
 title: $PENGU
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 10
+mentions: 12
 accounts: 3
 ---
 
 # $PENGU
 
-> 自動生成(brain/build_entities.py)。言及 10件 / 3アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 12件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@DefiIgnas]] [[@coingecko]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PEPE]] [[$SHIB]] [[$USELESS]] [[$WIF]] [[$SOL]]
+[[$BTC]] [[$FARTCOIN]] [[$PEPE]] [[$USELESS]] [[$WIF]] [[$DOGE]] [[$SHIB]] [[$SOL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -28,10 +28,10 @@ accounts: 3
 | 401 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
+| 306 | [[@theunipcs]] | i actually care about other coins  i've been most vocal about $USELESS because it's  | [[theunipcs__2071876088024752637]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
-| 249 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week, $BTC (@Bitcoin) leads the pack, fol | [[coingecko__2070469656750535096]] |
-| 131 | [[@theunipcs]] | over the past month:  • $BTC new 21-month lows • $ETH new 14-month lows • $SOL new 3 | [[theunipcs__2070425996038140331]] |
+| 299 | [[@theunipcs]] | $USELESS has now consolidated in its current range for 51 days  and it did this whil | [[theunipcs__2072305809296437545]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

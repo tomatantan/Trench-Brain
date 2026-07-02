@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 149
-accounts: 18
+mentions: 160
+accounts: 19
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 149件 / 18アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 160件 / 19アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@wojakcto]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$SHIB]] [[$XRP]] [[$DOGE]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$USELESS]] [[$PENGU]] [[$SHIB]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -364,4 +364,22 @@ ETF 流出（2026-06-25）:
 - ⚠️ 2024-09「$FRIEND -$16M」→ 2026-06「連続清算 + NFT 売り」= Machi BB の**一貫した高リスク行動・繰り返し損失パターン**（[[rug-anatomy]]）。ETH 全体の方向への signal は低い（130♥ / 114♥ = 低エンゲージ）。
 - 接続: [[rug-anatomy]]（ETH long 繰り返し清算・NFT 担保投入 = 損失パターン）/ [[perp-dex-wars]]（Hyperliquid が清算の舞台）/ [[onchain-verification]]（Machi BB の実残高・ポジション独立確認推奨）。
 - confidence=低（低エンゲージ・ETH macro 方向への signal 薄）。既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。
+
+### 2026-07-02 更新⑦（新 beat: 「絶好調smart trader」→7週間後に全損清算 / BlackRock 7日連続売り / CredibleCrypto「$1,500 底」）
+出典: [[lookonchain__1936307008954941750]]（1,696♥・2025-06-21T06:15Z）/ [[lookonchain__1954050608086102233]]（1,870♥・2025-08-09T05:22Z）/ [[arkham__2071747322782843213]]（555♥・2026-06-30T00:07Z）/ [[crediblecrypto__2072465495803220359]]（723♥・2026-07-01T23:40Z）/ [[murphybtc__2072222324871573912]]（10♥・2026-07-01T07:34Z）
+
+**観測（事実）**:
+- [[@lookonchain]]（2025-06-21）: 「If you're trading $ETH, you need to watch Smart Trader - 0xcB92. Over the past month, his $ETH plays have been nearly flawless—going long near the bottom, closing positions before major drops, and shorting at the top. He's made over $20M in under a month.」= lookonchain が "ほぼ完璧" と絶賛した ETH トレーダー。
+- [[@lookonchain]]（2025-08-09、約7週間後）: 「After $ETH broke above $4,200, trader 0xcB92 was fully liquidated, with total losses exceeding $15.85M.」= 同一トレーダーが ETH $4,200 突破時に**全ロスカット、$15.85M 超の損失**。
+- [[@arkham]]（2026-06-30）: 「BLACKROCK HAS SOLD ETH FOR 7 DAYS STRAIGHT. They last bought $ETH on the 16th June, 2 weeks ago. Will they finally buy $ETH this week, or will they keep on dumping?」= BlackRock が **7営業日連続で ETH を売却中**（直近買いは6/16）。
+- [[@CredibleCrypto]]（2026-07-01）: 「I have a feeling our macro $ETH bottom at $1,500 is going to look very similar to our macro $BTC bottom at $15,000...」= ETH の macro 底を $1,500 と予想、BTC の $15,000 底と類似構造だと主張。
+- [[@MurphyBTC]]（2026-07-01）: 「Hyperliquid TOP10鯨トレーダーは $ETH を約215億円ショートしています」（10♥）= 既合成の TOP10 ETH short open（6/22 ~273億円）→ close（6/22 ~133億円分）→ **再び ~215億円のショートに増加**。同一 short/close 循環の継続。
+
+**判断**:
+- **0xcB92 の "絶賛→全損" アーク**は本 entity の既存パターン（AguilaTrades・0xa523・「$125K→$29.6M 236x」の survivor bias 警告・既合成）に**もう一つの直接事例**を追加。しかも今回は lookonchain 自身が「ほぼ完璧」と**能動的に推奨した**トレーダーが 7 週間後に全損——KOL の "watch this trader" 系推奨の track record にも⚠️を追加する材料（[[rug-anatomy]]）。$4,200 突破時の清算 = 高値掴みでのショート or レバロング精算の可能性（詳細不明・独立確認推奨）。
+- **BlackRock 7日連続売り（2026-06-30時点）**: 既合成「BlackRock が2025-06-03に BTC 売り→ETH 買い」ロテーションの**方向が反転**。当時 ETH を買った BlackRock が、現在（14ヶ月来安値圏）は**売り側**に回っている。「institutional adoption ≠ price support」の既存合成をさらに裏付け、かつ「機関は下げ相場で買い増すのでなく売る」という新しい具体的方向性を追加。[[majors-rotation-supercycle]] の機関フロー記述（BlackRock BTC $481M入金・既記）と接続。
+- **CredibleCrypto「$1,500底 = BTC $15,000底と類似」**: 具体的な底値予想（$1,500、現在値 ~$1,560 に近い）。「過去の macro 底パターンの再現」という主張で、既合成の 14ヶ月来安値・OG 投げ売り（$1,560〜$1,625 帯・既記）とほぼ同水準を「底」と名指し。当たるかは今後の観察。
+- **MurphyBTC short 再増**: 既合成の TOP10 short open/close サイクル（2026-06-22 open→close）の続き。10♥と低エンゲージだが、既存の「大口の弱気ポジションは解消されていない・繰り返し再エントリーする」というパターンを継続確認。
+- 既存合成「ETH = コンセンサストレード（リターン薄）・OG 投げ売り・BTC beta 脱却未達」に矛盾なし。BlackRock 反転売りと 0xcB92 アークが新規の具体的補強材料。confidence=中（arkham/lookonchain 観測・複数事例）。
+- 接続: [[majors-rotation-supercycle]]（BlackRock ETH 売り方向への転換を追記）/ [[rug-anatomy]]（KOL "watch this trader" 推奨→全損の track record）/ [[perp-dex-wars]]（TOP10 short 再増）/ [[onchain-verification]]（0xcB92・BlackRock フローの独立確認推奨）。
 <!-- synthesis:end -->

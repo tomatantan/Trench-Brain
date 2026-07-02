@@ -4,17 +4,17 @@ kind: token
 title: $META
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
-accounts: 2
+mentions: 3
+accounts: 3
 ---
 
 # $META
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@MurphyBTC]] [[@WatcherGuru]]
+[[@MEXC]] [[@MurphyBTC]] [[@WatcherGuru]]
 
 ## 共起トークン
 [[$ALAB]] [[$MSFT]] [[$NBIS]] [[$NVDA]] [[$RKLB]]
@@ -23,9 +23,8 @@ accounts: 2
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 4,443 | [[@WatcherGuru]] | JUST IN: Mark Zuckerberg orders $META to create prediction markets app. | [[watcherguru__2069467581216407855]] |
-| 1,545 | [[@WatcherGuru]] | JUST IN: Mark Zuckerberg orders $META to create prediction markets app. | [[WatcherGuru__2069467581216407855]] |
+| 10 | [[@MEXC]] | $META may turn its spare AI compute into a new revenue stream. 📈  Could this reshape | [[mexc__2072560686270668965]] |
 | 6 | [[@MurphyBTC]] | 📡 Xバズ投稿まとめ掲示板 📅 2026年6月20日（土） ＿＿＿＿＿＿ ⚔️ 地政学リスク  米情報機関はイスラエルによるイラン和平dealの弱体化リスクをトランプ政 | [[murphybtc__2068197971032990186]] |
-| 6 | [[@MurphyBTC]] | 📡 Xバズ投稿まとめ掲示板 📅 2026年6月20日（土） ＿＿＿＿＿＿ ⚔️ 地政学リスク  米情報機関はイスラエルによるイラン和平dealの弱体化リスクをトランプ政 | [[MurphyBTC__2068197971032990186]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

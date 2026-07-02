@@ -11,13 +11,13 @@ accounts: 6
 # $DOGE
 
 > 自動生成(brain/build_entities.py)。言及 15件 / 6アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@RookieXBT]] [[@coingecko]] [[@dogecoin]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$USELESS]] [[$BTC]] [[$PEPE]] [[$WIF]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$SOL]]
+[[$USELESS]] [[$PEPE]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$WIF]] [[$TRUMP]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -30,7 +30,7 @@ accounts: 6
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
 | 335 | [[@RookieXBT]] | $doge looks good | [[rookiexbt__2052921674690134221]] |
-| 334 | [[@RookieXBT]] | $doge looks good | [[RookieXBT__2052921674690134221]] |
+| 306 | [[@theunipcs]] | i actually care about other coins  i've been most vocal about $USELESS because it's  | [[theunipcs__2071876088024752637]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
 
 <!-- synthesis:start -->

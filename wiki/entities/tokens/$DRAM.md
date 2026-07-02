@@ -4,14 +4,14 @@ kind: token
 title: $DRAM
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
+mentions: 3
 accounts: 3
 ---
 
 # $DRAM
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 3アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@AdimsSHOGUN]] [[@DEG_2020]] [[@TrustlessState]]
@@ -25,7 +25,6 @@ accounts: 3
 | 36 | [[@DEG_2020]] | $DRAM $MU $SNDK メモリ系時間外で5%近くのリバ 韓国指数Kospi連動っぽいねぇ | [[deg_2020__2069581256049017112]] |
 | 12 | [[@TrustlessState]] | $DRAM saving the portfolio in after hours | [[trustlessstate__2069880242362077458]] |
 | 2 | [[@AdimsSHOGUN]] | $DRAM 69で買い増し 岐阜暴威逆神通力とKOSPIレバETFネガファンザでストップ安してるらしいから、もう一段下を警戒(期待) | [[adimsshogun__2069429964127285458]] |
-| 1 | [[@AdimsSHOGUN]] | $DRAM 69で買い増し 岐阜暴威逆神通力とKOSPIレバETFネガファンザでストップ安してるらしいから、もう一段下を警戒(期待) | [[AdimsSHOGUN__2069429964127285458]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

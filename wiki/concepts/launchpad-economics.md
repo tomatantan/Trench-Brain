@@ -130,6 +130,7 @@ trench の **供給源/工場**を扱う concept。ナラティブ（需要側�
 | [[$LR]]（Ledger Realms） | +304% | $139k→$563k | reply0 / KOL0（全期間） | 不明（DeFi/gaming "Ledger Realms"・@ledgerealms/ledgerealms.com 整備済・traction0全期間） | traction0×出来高先行 BREAKOUT×social整備済——$AEGIS/$PHONEBLACK/$MOONLAKE 同型・BREAKOUT-then-dead 候補 |
 | [[$LR]]（Ledger Realms）2nd BREAKOUT | +107% | $563k→$1,166k | reply0 / KOL0（全期間） | 不明（1st BREAKOUT後も traction ゼロ継続・social整備済×出来高先行2段） | traction0×2段連続 BREAKOUT×$1.16M——$BOO 2段型/$TESTIBULL 2段型と同シグネチャ・DeFi generic 命名での $1M 突破・BREAKOUT-then-dead 最有力 |
 | [[$BELIVE]]（belive） | +123%（BREAKOUT） | $40.2k→$89.8k | reply0 / KOL0（twitter/website null 全期間）・real_sol~1.7SOL | 不明（"belive" generic命名・social 窓口ゼロ・prebond 継続） | traction0×social皆無×prebond BREAKOUT＝$MC/$AEGIS/$JALAPEÑO 同型・BREAKOUT-then-dead 候補 |
+| [[$GATO]]（el gato） | +205%（BREAKOUT） | $88.6k→$270.5k | reply0 / KOL0（badattrading_ CA確認済だが以降新規言及なし）・CEX cluster 64.3%⚠️ | 不明（badattrading_ 構造分析後の traction ゼロ急騰・CEX cluster集中） | traction0×CEX cluster集中×BREAKOUT——構造は snipers/insiders0%とクリーンだが CEX ウォレット集中は別種の脆さ・BREAKOUT-then-dead 候補 |
 <!-- breakout-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（判断）**: 観測中の跳躍はほぼ **traction(reply/KOL)ゼロ × mcap先行**＝「whale仕込み or pump初動」の両義。

@@ -4,20 +4,20 @@ kind: token
 title: $BONK
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 17
+mentions: 19
 accounts: 3
 ---
 
 # $BONK
 
-> 自動生成(brain/build_entities.py)。言及 17件 / 3アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 19件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@lookonchain]] [[@rajgokal]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$PENGU]] [[$USELESS]] [[$WIF]] [[$DOGE]] [[$FARTCOIN]] [[$PEPE]] [[$SHIB]]
+[[$WIF]] [[$USELESS]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SOL]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -4,34 +4,34 @@ kind: token
 title: $WOJAK
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 26
+mentions: 23
 accounts: 5
 ---
 
 # $WOJAK
 
-> 自動生成(brain/build_entities.py)。言及 26件 / 5アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 23件 / 5アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@Crypto_Alch]] [[@MurphyBTC]] [[@lookonchain]] [[@wojakcto]]
 
 ## 共起トークン
-[[$USD1]] [[$USDC]] [[$USDT]] [[$PEPE]] [[$ALTSZN]] [[$AMERICA]] [[$ASTEROID]] [[$BUTTCOIN]]
+[[$USD1]] [[$USDC]] [[$USDT]] [[$PEPE]] [[$AAIF]] [[$BOLEX]] [[$BTC]] [[$CARDS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 1,423 | [[@lookonchain]] | We noticed an early buyer of $SHIB also bought $PEPE and $WOJAK.  The SmartMoney sta | [[lookonchain__1654100186988445696]] |
 | 686 | [[@BinanceUS]] | Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will | [[binanceus__2067066448409702774]] |
-| 683 | [[@BinanceUS]] | Deposits for $WOJAK are now open on @BinanceUS!  Trading on the WOJAK/USDT pair will | [[BinanceUS__2067066448409702774]] |
 | 477 | [[@BinanceUS]] | It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over  | [[binanceus__2068502676531478709]] |
-| 441 | [[@BinanceUS]] | It's been 48 hours since the @BinanceUS × @wojakcto Boost event went live, and over  | [[BinanceUS__2068502676531478709]] |
 | 339 | [[@BinanceUS]] | The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA | [[binanceus__2067638719750811781]] |
-| 335 | [[@BinanceUS]] | The @BinanceUS x @wojakcto BOOST event is live!  🇺🇸  Earn your share of ~$100K $WOJA | [[BinanceUS__2067638719750811781]] |
+| 330 | [[@wojakcto]] | feeling like @HTX_Global knows real meme culture  $WOJAK is going live on HTX very s | [[wojakcto__2071807413162770444]] |
 | 326 | [[@BinanceUS]] | Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available | [[binanceus__2067427074491781168]] |
-| 322 | [[@BinanceUS]] | Trading for $1MWOJAK is now live on @BinanceUS!   What’s new: 🔸 Trading is available | [[BinanceUS__2067427074491781168]] |
 | 292 | [[@wojakcto]] | omw to @BinanceUS to deposit some $WOJAK | [[wojakcto__2067067819707994586]] |
+| 281 | [[@wojakcto]] | we used to pray for times like this  @wojakcto 🤝 @BinanceUS   $WOJAK is live on Bina | [[wojakcto__2067432030913098158]] |
+| 230 | [[@BinanceUS]] | The Boost × @wojakcto event lands on @BinanceUS tomorrow, June 18 @ 12 p.m. EDT!  🎁  | [[binanceus__2067281907528925448]] |
+| 217 | [[@Crypto_Alch]] | Imagine being bearish on memes when $wojak printing bullish like this   Idk bros $10 | [[Crypto_Alch__2069009974873800901]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -72,4 +72,15 @@ accounts: 5
 - Alch の「If the markets allow it」という留保は珍しい慎重さ。majors 一斉多月安（[[$BTC]] 21mo・[[$ETH]] 14mo・[[$SOL]] 30mo、前回更新参照）の環境では「市場が許す」条件が厳しい。
 - Boost 終了後に出来高と価格が維持されれば [[survivor-memes]] の文化的持続性が証明される。維持できなければ CEX Boost 依存型の典型として確定（[[external-event-to-token-pattern]]）。
 - confidence=低〜中（変化なし）。Boost 終了後の 1〜2 週間が判断の節目。
+
+### 2026-07-02 更新（2件目のCEX上場＝HTX確定、Boost最終24hと重複）
+**観測（事実）**:
+- [[@wojakcto]]「feeling like @HTX_Global knows real meme culture / $WOJAK is going live on HTX very soon」（330♥ [[wojakcto__2071807413162770444]] 2026-06-30T04:05Z、同文が79RTで [[wojakcto__2071956258299449519]] としても流通）＝**HTXへの新規上場を予告**。BinanceUSに続く**2件目のCEX**。
+- [[@wojakcto]]「step into the arena and lock in $wojak believooors / feels like we are so early again @HTX_Global」（157♥ [[wojakcto__2072507346178195707]] 2026-07-02T02:27Z）＝HTX上場を「another 早期局面」と再演出（BinanceUS上場時と同じ"believer"レトリックの反復）。
+- [[@BinanceUS]]「It's the last 24 hours to get your share of ~$100K $WOJAK in the @WojakCTO Boost event!」（212♥ [[binanceus__2072421624062824954]] 2026-07-01T20:46Z）＝前回記録した「Boost最終週」がさらに進み**最終24時間**に到達。HTX上場告知と**時期的に重複**。
+
+**判断（推論）**:
+- BinanceUS Boost の打ち切り直前というタイミングで次のCEX（HTX）上場を予告＝**インセンティブの継ぎ目のない乗り換え**とも読める（1つのCEX施策が切れる前に次の話題を投下し出来高の谷を埋める型）。[[external-event-to-token-pattern]] の CEX 発火型が**連続発生**するケースとして観察継続。
+- ⚠️ 既存の懸念（「Boost終了後の自立が試金石」）は**先送りされた**：HTX上場という新カタリストが加わったことで、真の"インセンティブなし"の実力テストは今回も見えない。文化的ブランド（[[survivor-memes]]）の持続性判定はさらに次の節目待ち。
+- confidence=低〜中（変化なし）。次の判断点＝HTX上場後にも同型のBoost/プロモが続くか、それとも出来高が自然体で維持されるか。
 <!-- synthesis:end -->

@@ -4,14 +4,14 @@ kind: token
 title: $ASTEROID
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 23
+mentions: 25
 accounts: 2
 ---
 
 # $ASTEROID
 
-> 自動生成(brain/build_entities.py)。言及 23件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 25件 / 2アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@solbrdl]]
@@ -30,8 +30,8 @@ accounts: 2
 | 161 | [[@Crypto_Alch]] | $ASTEROID pulling a ‘fvck you’ reversal   How are nvggas betting against a bundled s | [[Crypto_Alch__2067990029964644410]] |
 | 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 140 | [[@solbrdl]] | Scenario 2 is literally in the play  No mentioning of $ASTEROID at SpaceX IPO, peopl | [[solbrdl__2066368103873749063]] |
+| 140 | [[@solbrdl]] | Happy international $ASTEROID day  Also noticed someone making this post, and this p | [[solbrdl__2071963343942750544]] |
 | 133 | [[@solbrdl]] | Elon literally dropped an easter egg on $ASTEROID   All you have to do is hold and b | [[solbrdl__2066617204087382129]] |
-| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

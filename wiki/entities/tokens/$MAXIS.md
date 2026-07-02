@@ -11,7 +11,7 @@ accounts: 2
 # $MAXIS
 
 > 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@daisuk_e4]] [[@jzbookp9ca]]

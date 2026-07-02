@@ -2,36 +2,37 @@
 type: entity
 kind: token
 title: $USELESS
-updated: 2026-06-22
-tags: [trench, entity, token]
-mentions: 18
+updated: 2026-07-02
+tags: [trench, entity, token, auto-track]
+mentions: 24
 accounts: 2
+mint: Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk
 ---
 
 # $USELESS
 
-> 自動生成(brain/build_entities.py)。言及 18件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 24件 / 2アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$WIF]]
+[[$BTC]] [[$SOL]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$WIF]] [[$SHIB]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 1,083 | [[@theunipcs]] | i'm seeing a lot of similarities between $USELESS and $BONK before i took my legenda | [[theunipcs__2044876322170703877]] |
+| 413 | [[@theunipcs]] | one memecoin remains strong and unfazed. it's up double-digit percentages and actual | [[theunipcs__2071822639312867772]] |
 | 390 | [[@theunipcs]] | i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels  | [[theunipcs__2066818467639017607]] |
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
+| 306 | [[@theunipcs]] | i actually care about other coins  i've been most vocal about $USELESS because it's  | [[theunipcs__2071876088024752637]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
+| 305 | [[@theunipcs]] | $USELESS is up 15% today while $BTC makes fresh 22-month lows  this is also happenin | [[theunipcs__2071980807955075195]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
-| 252 | [[@theunipcs]] | $SOL continues to outperform $BTC, $ETH, and the other majors  now look at the $USEL | [[theunipcs__2068969521990234574]] |
-| 246 | [[@theunipcs]] | in my quoted tweet, i highlighted objective OI and volume data showing why $USELESS  | [[theunipcs__2067007170537787693]] |
-| 243 | [[@theunipcs]] | most people are overcomplicating this cycle  $USELESS x $HYPE barbell and chilling u | [[theunipcs__2066287677717074231]] |
-| 213 | [[@theunipcs]] | $SOL strength and outperformance is becoming increasingly obvious by the day  could  | [[theunipcs__2068789564198560214]] |
+| 299 | [[@theunipcs]] | $USELESS has now consolidated in its current range for 51 days  and it did this whil | [[theunipcs__2072305809296437545]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -83,4 +84,13 @@ accounts: 2
 **賭け仮説（confidence=中・据え置き、ただし観測点が増えた）**
 - 強気: majors メルトダウン下での相対強度が事実なら、ローテ復帰時の先頭 beta として大きい upside。「$DOGE/$SHIB プレイ」テーゼに価格が追随し始めている主張。
 - 弱気/反証ポイント: ①テーゼの内部矛盾 ②single-shiller ③真の macro tail（STRC 崩壊）での相関1。**監視トリガー**: WL 外の独立 KOL が「USELESS が majors 安値下で耐えた」を**独自に**検証・言及し始めるか。theunipcs の RT でなく自発言及がコンセンサス化のサイン。
+
+### 2026-07-02 auto-track mint確認（brain/track.py 経由）
+**観測（事実）**
+- track.py が実mint（Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk）を traction:kol gate（KOL [[@theunipcs]] CA確認）で捕捉。検知 mcap $83,486,796.17・reply_count 174・complete:false（bonding curve体系外の確立資産扱い）。twitter は @theunipcs 個人アカウントが metadata 上の twitter フィールドに設定されている点に留意（プロジェクト公式アカウントではない可能性）。website なし。
+- 裏付け: [clobr_io RT via theunipcs__2071866435056422930](../../sources/x/theunipcs__2071866435056422930.md)——「yuge $1.2M buy order on @coinbase for solana:Dz9mQ9...」——既存合成の「$USELESS は Coinbase で2番目に活発な meme」テーゼと整合する一次証拠。
+
+**判断**
+- mint確認により、既存の mention集約合成（BONK比較・levered SOL beta論・OIデータ）と本 auto-track ライフサイクル観測が**同一実トークン**であることが確定。今後の mcap/reply 変化は auto-track 側 [[launchpad-economics]] 跳躍・死亡台帳の対象にもなり得る。
+- complete:false（$83M規模でも「未卒業」表記）は pump.fun 標準の bonding curve ではなく別体系（perp DEX 上場済・Lighter OI 等）で運用されていることの反映と解釈——[[perp-dex-wars]] 既存接続と整合。
 <!-- synthesis:end -->

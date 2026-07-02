@@ -5,16 +5,16 @@ title: $MANIFEST
 updated: 2026-06-22
 tags: [trench, entity, token]
 mentions: 3
-accounts: 2
+accounts: 3
 ---
 
 # $MANIFEST
 
-> 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 3件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@PumpfunEco]] [[@moonshot]]
+[[@Crypto_Alch]] [[@PumpfunEco]] [[@moonshot]]
 
 ## 共起トークン
 —
@@ -23,8 +23,8 @@ accounts: 2
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 165 | [[@moonshot]] | Manifesting ($MANIFEST) is now verified on Moonshot. | [[moonshot__2069117116842696738]] |
+| 126 | [[@Crypto_Alch]] | Bidding on $MANIFEST at this dip  Very close to Moonshot/FOMO listing and I find the | [[crypto_alch__2072315375736270992]] |
 | 98 | [[@PumpfunEco]] | One of the top holders of $MANIFEST is sitting on a $238,000 position! 🔥 | [[pumpfuneco__2069500078847312350]] |
-| 66 | [[@PumpfunEco]] | One of the top holders of $MANIFEST is sitting on a $238,000 position! 🔥 | [[PumpfunEco__2069500078847312350]] |
 
 <!-- synthesis:start -->
 ## 合成

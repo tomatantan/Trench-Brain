@@ -4,17 +4,17 @@ kind: token
 title: $STRC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 31
-accounts: 9
+mentions: 37
+accounts: 10
 ---
 
 # $STRC
 
-> 自動生成(brain/build_entities.py)。言及 31件 / 9アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 37件 / 10アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@Bankless]] [[@CryptoKaleo]] [[@TrustlessState]] [[@coingecko]] [[@coinkeiba]] [[@saylor]] [[@thedefiedge]] [[@theempirepod]] [[@theunipcs]]
+[[@Bankless]] [[@CredibleCrypto]] [[@CryptoKaleo]] [[@TrustlessState]] [[@coingecko]] [[@coinkeiba]] [[@saylor]] [[@thedefiedge]] [[@theempirepod]] [[@theunipcs]]
 
 ## 共起トークン
 [[$MSTR]] [[$BTC]] [[$SOL]] [[$USELESS]] [[$SATA]] [[$IBIT]]
@@ -24,14 +24,14 @@ accounts: 9
 |---|---|---|---|
 | 18,413 | [[@saylor]] | Strategy has acquired 1,587 BTC for $100 million to increase our $BTC Reserve to ₿84 | [[saylor__2066491610863419722]] |
 | 12,088 | [[@saylor]] | Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to  | [[saylor__2069028571880845340]] |
+| 11,667 | [[@saylor]] | Strategy announces a Digital Credit Capital Framework designed to strengthen Digital | [[saylor__2071565162377568377]] |
+| 10,724 | [[@saylor]] | Income. Twice a month. $STRC | [[saylor__2071950453160431891]] |
+| 7,443 | [[@saylor]] | As Strategy disclosed Monday: our corporate objective is for $STRC to trade over tim | [[saylor__2072368915460899184]] |
 | 4,824 | [[@saylor]] | The hardest thing in business is not seeing the future. It is surviving long enough  | [[saylor__2067234930946408752]] |
 | 4,368 | [[@saylor]] | Bitcoin Capitalism — my keynote from @BTCPrague 2026.  Digital Capital is the founda | [[saylor__2066558321394426082]] |
 | 2,750 | [[@saylor]] | $STRC now pays dividends twice per month.  What is the clearest way to describe this | [[saylor__2067191797466452260]] |
 | 2,598 | [[@saylor]] | Digital Credit is income for investors who believe in Bitcoin. $STRC | [[saylor__2069682624956612731]] |
-| 245 | [[@CryptoKaleo]] | There’s a much higher chance $STRC never returns to $100 than anyone gives it credit | [[CryptoKaleo__2068336189443027032]] |
-| 201 | [[@CryptoKaleo]] | $STRC   If you like STRC at $89, you’ll love it at $75. | [[CryptoKaleo__2069117421827362909]] |
-| 160 | [[@CryptoKaleo]] | $STRC looks ready to stretch into the $60s  Should be some really great effective yi | [[cryptokaleo__2070129048504635519]] |
-| 151 | [[@CryptoKaleo]] | “Absolute power corrupts absolutely”  In 2022, Strategy was completely different str | [[CryptoKaleo__2068320480713494946]] |
+| 389 | [[@CredibleCrypto]] | With today's move the can has been kicked down the road.  Cash reserves have been pa | [[crediblecrypto__2071620033709805606]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -258,4 +258,22 @@ accounts: 9
 - **[[$BTC]] への波及（thedefiedge 分析）**: Strategy = Bitcoin の最大限界買い手の1つが CryptoQuant 提言（BTC 購入停止）に動けば、BTC への機関需要に欠落が生じる。**売り圧でなく買い需要の消失**という形の BTC downside factor。既存の「50-100K BTC 売却シナリオ」とは別経路（売らないが買わない）として併記。
 - confidence=低（変化なし。定量データが悪化を数値で裏付けた）。
 - 接続: [[rug-anatomy]]（cash coverage 14ヶ月 = 「無リスク dividend」装いの実体崩壊が数値化）/ [[majors-rotation-supercycle]]（最大限界買い手の purchasing pause = BTC demand 消失 → downside factor 追加）/ [[onchain-verification]]（"14ヶ月"・"cash -38%" は独立確認推奨）/ [[$BTC]]（Saylor の buying capacity 喪失リスク）。
+
+### 2026-07-02 更新（新beat: "Digital Credit Capital Framework"＝現金積み増し+BTC売却承認でrunway延長／Dorman独立検証は"cap structureの内戦"継続を再確認）
+出典: [[saylor__2071565162377568377]]（11,667♥・2026-06-29T12:03Z）/ [[crediblecrypto__2071620033709805606]]（389♥・2026-06-29T15:41Z）/ [[saylor__2072368915460899184]]（7,443♥・2026-07-01T17:17Z）/ [[saylor__2072208794235371994]]（2,386♥ RT @phongle・2026-07-01T06:40Z）/ [[theunipcs__2071662059646029867]]（251♥・2026-06-29T18:28Z）/ [[bankless__2072289118604988550]]（14♥・2026-07-01T12:00Z）/ [[bankless__2072340826001113560]]（10♥・2026-07-01T15:25Z）/ [[bankless__2072379711209038285]]（11♥・2026-07-01T18:00Z）
+
+**観測（事実）**:
+- [[@saylor]]（06-29）: 「Strategy announces a Digital Credit Capital Framework designed to strengthen Digital Credit, enhance liquidity, preserve long-term Bitcoin exposure, and support long-term value creation. $MSTR $STRC」= フレームワーク発表そのもの。
+- [[@CredibleCrypto]]（06-29）: 「With today's move the can has been kicked down the road. Cash reserves have been padded and **1.25B dollars worth $BTC has been approved for sale if needed** to maintain cash reserves specifically for the payment of $STRC dividends and debt interest. ...runway has now been extended out to **15+ months and up to 25+ months** if you include the potential sale of 1.25B worth of $BTC. However, this also means that Saylor has confirmed that $MSTR will now not only be a net buyer of $BTC but, **if necessary, will sell billions of dollars of $BTC** if/when needed.」= 既存合成（thedefiedge「配当カバレッジ14ヶ月」06-29既記）とほぼ整合する時間軸をSaylor自身が追認する形の実弾対応。
+- [[@saylor]]（07-01）: 「As Strategy disclosed Monday: our corporate objective is for $STRC to trade over time at $99–$100.」= **par 死守を公式目標として明言**。RT @phongle（07-01）: 「As $STRC approaches its first birthday, its market continues to deepen and mature.」
+- [[@theunipcs]]（06-29）: 「both $MSTR and $STRC up double digits today, looks like the Saylor FUD is going to be in the rearview mirror pretty soon」= フレームワーク発表当日の価格反発を確認。
+- **[[@Bankless]] インタビュー（Jeff Dorman @jdorman81 × Matt Walsh @MattWalshInBos、host TrustlessState、07-01）**: タイトル「Strategy is Trapped & in Crisis — "It's Basically a Hedge Fund Now"」。Dorman: 「There's no trigger for it to go bankrupt here.」「The problem is simply that each part of the cap structure is in a war with the other parts. Everything that is good for one part is gonna be negative for other parts. There's no way short of bitcoin native just mooning to 200,000 to satisfy all of them.」STRC の買い時について: 「Not unless this thing gets to **30 or 40¢ on the dollar** and you think that there's some sort of imminent bankruptcy. You literally have an instrument that at any moment, they could just turn the dividend off and it just goes down 60 points. At best, I'm breaking even. That's just bad risk reward for a fund.」
+
+**⚠️ 判断**:
+- "Digital Credit Capital Framework"（06-29）は、Hoffman が 06-19 で言語化した「金利引き上げ↔cash消耗」のジレンマへの**第4の手**: 既記の USD Reserve 補充（06-22, +$300M→$1.4B）をさらに進め、**$1.25B 分の BTC 売却を"承認"（実行ではなく backstop）**することで dividend runway を 5-6ヶ月→15ヶ月（up to 25ヶ月）へ延長。
+- ⚠️ CredibleCrypto が明記する通りこれは「解決」でなく**「can kicked down the road」= 時間稼ぎの公式確認**。かつ「MSTR は今後 BTC の純買い手だけでなく、必要なら売り手にもなる」と Saylor が初めて公式に認めた点が構造変化＝「Saylor は死んでも BTC を売らない」という市場の信頼前提がここで崩れた。
+- 価格は好感（06-29 double digits 上昇）＝短期的には効いた。しかし **Dorman の独立評価（fund運用者目線）は「破産トリガーはないが、cap structure の各部が互いに戦争状態」「$30-40セント（=par 比 -60〜70%）でなければ買わない」**と、既存の弱気シナリオ（Kaleo「$60s」・ARS アナロジー・"Ponzi" 命名、既記）を**機関投資家の言葉で再確認**した。フレームワーク発表による反発は「センチメント改善」であり、Dorman が求める根本解決（"bitcoin native $200K"）には届いていない。
+- **⚠️矛盾**: Saylor「$STRC の corporate objective は $99–100 で取引されること」（par 死守の公式目標）⇄ TrustlessState「$95 以上には二度と買い手がいない」（既記 06-28⑥、reflexivity 逆転）。目標を明言すること自体が「今は達成できていない」ことの裏返し。
+- confidence=低〜中（framework 発表とランウェイ延長は具体的な下支えで小幅改善方向。ただし Dorman の独立検証が既存の構造的懸念を専門家目線で再確認＝根本トレンドは変わらず。良いニュースフローと悪い独立評価が同時に出た＝両論併記）。
+- 接続: [[$MSTR]]（BTC 売却承認は MSTR 側にも直結・詳細は $MSTR 側合成参照）/ [[rug-anatomy]]（"Digital Credit" フレーミング継続 vs Dorman の "hedge fund" "war between tranches" という実体評価）/ [[majors-rotation-supercycle]]（Saylor が初めて公式に BTC 売り手化を認めた＝BTC 供給サイドのシナリオが具体化）/ [[onchain-verification]]（$1.25B BTC 売却は"承認"段階＝実行有無は要追跡）。
 <!-- synthesis:end -->

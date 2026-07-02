@@ -11,7 +11,7 @@ accounts: 2
 # $CHAMELEON
 
 > 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@badattrading_]]
@@ -24,7 +24,7 @@ accounts: 2
 |---|---|---|---|
 | 37 | [[@PumpfunEco]] | This trader refused to sell early & now their $626 buy on $Chameleon is worth $9,270 | [[pumpfuneco__2070233434165821924]] |
 | 14 | [[@badattrading_]] | $Chameleon (CA GuSborgzpo6Hc7msoRouQyPJ3psxgAHm4amC9iDhpump) is 9 days old, no snipe | [[badattrading___2070436066755011026]] |
-| 0 | [[@?]] | ## 観測（写っているもの）  **ダッシュボード名**: BRAIN CALLL — meme launch call monitor   **ツール**: TREN | [[brain-calll-dashboard-20260629]] |
+| 0 | [[@?]] | ## 観測（写っているもの）  **ダッシュボード名**: BRAIN CALLL — meme launch call monitor   **ツール**: TREN | brain-calll-dashboard-20260629 |
 
 <!-- synthesis:start -->
 ## 合成

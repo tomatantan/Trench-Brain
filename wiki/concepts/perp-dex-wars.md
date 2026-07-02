@@ -51,8 +51,13 @@ confidence: 中〜高
 - **ETH short クローズ（[[@MurphyBTC]] 2026-06-22T13:17）**: 「TOP10 鯨が ETH 約 133 億円分 short をクローズ。HYPE 約 160 億円 short は継続」([[MurphyBTC__2069047162751840655]])。TOP10 の方向性: **ETH 弱気を解除 → HYPE 弱気のみ残存**。perp platform の大口がプラットフォームトークン ($HYPE) を特異的に空売りし続けているという構造は変わらず。
 - **統合示唆**: 「Hayes 系 (機敏な spot swing) と TOP10 (構造的 $HYPE short) は別の プレイヤーが別の賭けをしている」。buyback flywheel は動いているが、**最も情報優位なプレイヤーたちでさえ賭けの方向が分裂している** = "productive の影" の最も生々しい表現。confidence=中（弱気バイアスを緩和）。
 
+### 2026-07-02 更新: $SYN/Hypercall — オプションDEXの新規挑戦者 + chart操作疑義
+- **観測**: [[@CryptoHayes]]（06-29T00:26Z）「I still want to be long the Hyperliquid ecosystem but I need some asymmetry. It's time for an options dex to properly take on Deribit. Hypercall, owned by $SYN, is that challenger」([[cryptohayes__2071389910393815466]] 493♥)＝群雄リストに **Hypercall（$SYN・オプションDEX、Deribit対抗）** を新規追加候補として観測。既存の Axiom/$ASTER/Lighter/Variational/Phoenix はいずれも perp/現物系＝**Hypercall はオプション特化という別軸のニッチ**。
+- **⚠️ タイミング上の疑義**: [[@coingecko]]（06-22T09:23Z＝Hayes連投の1週間前）「$SYN's market cap jumped over 5x from $9M to ~$60M in just a week, right after hitting a new all-time low... is someone cooking the charts?」([[coingecko__2068988152258203692]] 254♥)。中立ソースが chart 操作を疑った直後に著名アカウントの断続的な価格煽り（「One Dollar $SYN is within reach」等）が続く時系列＝詳細は [[$SYN]] entity 参照。[[rug-anatomy]] の「influencer pump-dump」型と接続。
+- **判断**: この concept の「一強 vs 群雄」構図に**オプションDEXという新カテゴリ**が加わる可能性はあるが、$SYN token 自体の値動きに関する疑義は Hypercall プロダクトの実体評価とは分離して扱う必要がある（プロダクト＝真かもしれないが、token 煽りの手口＝別途疑うべき）。confidence=低〜中。
+
 ## 関連
-- [[majors-rotation-supercycle]]（productive rotation）/ [[onchain-verification]]（清算追跡）/ [[launchpad-economics]]（Axiom）/ [[vc-founder-thesis-layer]]（app層thesis）
+- [[majors-rotation-supercycle]]（productive rotation）/ [[onchain-verification]]（清算追跡）/ [[launchpad-economics]]（Axiom）/ [[vc-founder-thesis-layer]]（app層thesis）/ [[rug-anatomy]]（$SYN chart操作疑義）
 - [[$HYPE]] / [[$ASTER]] / [[@DefiIgnas]] / 集計の入口: [[signal|Signal digest]]
 
 ### 2026-06-23 追記: Hayes 長文「perp の起源と spot-only の論理」

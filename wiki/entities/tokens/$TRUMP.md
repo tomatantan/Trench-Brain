@@ -4,20 +4,20 @@ kind: token
 title: $TRUMP
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
-accounts: 6
+mentions: 15
+accounts: 7
 ---
 
 # $TRUMP
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 6アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 15件 / 7アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@DefiIgnas]] [[@blknoiz06]] [[@frankdegods]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
+[[@DefiIgnas]] [[@arkham]] [[@blknoiz06]] [[@frankdegods]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$DOGE]] [[$PEPE]] [[$SOL]] [[$WIF]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]]
+[[$DOGE]] [[$PEPE]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$USELESS]] [[$WIF]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -7,7 +7,7 @@ peak_mcap: $1,953,524
 title: $ALBEMARLE（Albemarle City）
 mint: FMTG5DSNYSS6Wv6d6bWG8MnK9ncdgVnkUFRj3ksdpump
 created: 2026-07-02
-updated: 2026-07-02-w9
+updated: 2026-07-02-w10 (mcap-55%・$1,932,110→$874,058)
 tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, graduated, traction0, association-marketing]
 ---
 
@@ -44,6 +44,7 @@ tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, gradua
 | 7窓目（2026-07-02） | $853,820 | **+0.3%** | **+16.7%** | **stale:true・下落一時停止・検知時水準への戻り** |
 | 8窓目（2026-07-02） | $799,574 | **-6.1%** | **-6.4%** | stale解除・再下落フェーズ復帰 |
 | 9窓目（2026-07-02） | $750,001 | **-11.9%** | **-6.2%** | **下落継続・エバポレーション後期** |
+| 10窓目（2026-07-02） | $874,058 | — | queue基準$1,932,110→$874,058（-55%） | 未記録の中間反発（〜$1.93M、peak_mcap未更新）後に再下落。エバポレーション途中の乱高下 |
 
 - pump.fun 産・graduated・traction_candidates 検知時 $851k。
 - 合成時 mcap $1,775,925（2026-07-01T16:55:58Z）、peak_mcap $1,953,524。
@@ -59,6 +60,8 @@ tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, gradua
 - ⚠️ **現在の見通し**: 2窓連続 w/w-6% 台の下落継続。このペースなら次窓で $700k 割れ。エバポレーション完結→縮退記録移行接近。
 
 **接続概念**: [[launchpad-economics]]（graduated × traction0 × website 無し）/ [[rug-anatomy]]（IP/brand 即死パターン・insider pump 疑い）/ [[reflexivity]]（T3点火がなければ循環は起動しない）
+
+**更新（10窓目・2026-07-02）**: queue基準で $1,932,110 → $874,058（-55%）。8-9窓目観測($799k→$750k)後、未記録の中間反発で一時$1.93M台まで戻したが（synthesis未記録の窓・peak_mcap $1,953,524は依然更新せず僅差で未達）、その後 $874,058 まで再下落。T3ゼロ全10窓——乱高下はしているが有機的需要の点火は依然なし。エバポレーション完結の途中で振動が入っている状態と解釈。
 <!-- synthesis:end -->
 
 ## 関連

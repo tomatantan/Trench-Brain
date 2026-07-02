@@ -4,14 +4,14 @@ kind: token
 title: $FARM
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 8
+mentions: 6
 accounts: 3
 ---
 
 # $FARM
 
-> 自動生成(brain/build_entities.py)。言及 8件 / 3アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 6件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@PumpfunEco]] [[@moonshot]]
@@ -28,8 +28,6 @@ accounts: 3
 | 123 | [[@PumpfunEco]] | $FARM is rallying, currently up 36% in 24 hours! 👀 | [[PumpfunEco__2068693463256703052]] |
 | 107 | [[@PumpfunEco]] | This trader is up $11,810 after buying $751 worth of  $FARM at a $​158K market cap   | [[pumpfuneco__2069178273712452042]] |
 | 63 | [[@PumpfunEco]] | $FARM has pumped 50% today! 🔥 | [[PumpfunEco__2069076901906280851]] |
-| 24 | [[@PumpfunEco]] | This trader is up $11,810 after buying $751 worth of  $FARM at a $​158K market cap   | [[PumpfunEco__2069178273712452042]] |
-| 4 | [[@PumpfunEco]] | $FARM has pumped 55% today! 🔥 | [[PumpfunEco__2069371268508311857]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

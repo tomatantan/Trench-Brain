@@ -4,20 +4,20 @@ kind: token
 title: $HYPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 39
+mentions: 35
 accounts: 13
 ---
 
 # $HYPE
 
-> 自動生成(brain/build_entities.py)。言及 39件 / 13アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 35件 / 13アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@CryptoHayes]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@RookieXBT]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@golocojp]] [[@lookonchain]] [[@therollupco]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$BTC]] [[$SOL]] [[$ZEC]] [[$XMR]] [[$POLY]] [[$VAR]] [[$EITHER]]
+[[$ETH]] [[$SOL]] [[$BTC]] [[$ZEC]] [[$USELESS]] [[$VAR]] [[$PENGU]] [[$AXIOM]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -30,8 +30,8 @@ accounts: 13
 | 743 | [[@DefiIgnas]] | Pump fun's has only one real competitor: Axiom.  Weirdly, CT is quiet about it.  I m | [[DefiIgnas__1940679296387109279]] |
 | 543 | [[@arkham]] | THIS WHALE JUST BOUGHT $20M OF $ETH AND $HYPE  A fresh whale wallet just withdrew $1 | [[arkham__2068410022975922260]] |
 | 401 | [[@coingecko]] | Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto | [[coingecko__2067925372084297735]] |
+| 347 | [[@lookonchain]] | The #a16z-linked whale that previously accumulated a large amount of $HYPE is now se | [[lookonchain__2071792195389276174]] |
 | 334 | [[@blknoiz06]] | $VVV & $HYPE strongest bounces on low timeframes so far, likely lead off the bottom | [[blknoiz06__2070173782069715134]] |
-| 313 | [[@blknoiz06]] | MERT'S 5 MAIN HOLDINGS: - $ZEC - solana:So11111111111111111111111111111111111111112  | [[blknoiz06__2070274427799867510]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,20 +4,20 @@ kind: token
 title: $PEPE
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 22
+mentions: 25
 accounts: 5
 ---
 
 # $PEPE
 
-> 自動生成(brain/build_entities.py)。言及 22件 / 5アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 25件 / 5アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@lookonchain]] [[@mag_onsol]] [[@milesdeutscher]] [[@pepecoineth]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$ETH]] [[$SHIB]] [[$DOGE]] [[$WIF]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]]
+[[$ETH]] [[$WIF]] [[$BTC]] [[$SHIB]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -2,7 +2,7 @@
 type: concept
 title: 型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）
 created: 2026-06-23
-updated: 2026-06-24
+updated: 2026-07-02
 tags: [trench, concept, pattern, rug, scam, screening, risk]
 memetic_potential: —
 confidence: 中〜高
@@ -33,6 +33,7 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | **whale操作** | 大口が清算を誘発して利益 | $JELLY（124.6M で HLP に $12M 損失を強制＝[[perp-dex-wars]] のHyperliquid攻撃） |
 | **phishing/なりすまし** | 似アドレス生成で誤送金を誘発 | $WBTC $71M 盗難 |
 | **team送金=売り圧偽装** | 「流動性供給」と称し取引所へ大量入金 | [[$TRUMP]] team $455M を Binance |
+| **公開型supply集中（disclosed auto-accumulation）** | 秘匿でなく本人名義で供給の過半を即時保有＝隠蔽なしでも低floatの効果は同じ | [[$ANSEM]]（[[@blknoiz06]] が"ansemconzimp"経由で65%airdrop受給→58.7%保有継続。[[@CredibleCrypto]]「有機的蓄積でなくauto-accumulationによる人為的低float」と指摘） |
 
 ## ★赤旗チェックリスト（screeningに渡す）
 [[@badattrading_]]（devsnightmare等の解析）が分離して見る指標＝そのまま赤旗:
@@ -392,6 +393,9 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 | $LIVEWORK-5faKbh（LIVEWORK 2nd mint） | traction:graduated | ~$15,353 | reply0 / KOL0（@ayushquantt association・main mint J6jpD3 と同名並走） | 数サイクル（birth→death） | mcap枯れ($3,794・peak比-75%) | graduated-but-empty 低peak縮退死（main mint J6jpD3 と同名 2nd mint が同バッチ birth・lower peak→先に死亡・entity作成スキップ） |
 | $RTM（Return To Memes） | traction:graduated | ~$1,649 | reply0 / KOL0（@Supermanonchain twitter association） | birth=death（同バッチ内） | mcap枯れ($1,648・peak≒birth) | ultra-low graduated即死（"Return To Memes" generic命名 × twitter association × peak<$2k 100%死亡域・entity作成スキップ） |
 | $TIMEHH×4（The Black Lion） | traction:graduated | peak~$2,316（最大） | reply0 / KOL0×4（@hbj_trades ツイート流用・coincommunities.org association） | birth=death（全4mint） | mcap枯れ（全mint<$2.5k） | **multi-mint×4 同名全死亡**（"The Black Lion" ticker TIMEHH で4本並走 mint・同一twitter/website借用×traction0→全mint<$2.5k即死・entity作成スキップ） |
+| [[$AIRDROP]]（Where is the airdrop?） | safety:ok/traction:graduated | $10,345,568 | reply0 / KOL0・**twitter/website とも皆無** | 複数サイクル（peak→-90%崩壊） | mcap -90% from peak($10,345,568→$1,017,696) | **social体裁ゼロで$10M超到達**——観測史上最大規模の"支え皆無"高値。KOL/community需要でなくwhale自己資金pumpの疑い濃厚 |
+| $BITBOY（The White Bear・DANmUJ mint） | safety:ok/traction:graduated | $27,241 | reply0 / KOL0 | 数サイクル | mcap枯れ($4,287) | 既存 [[$BITBOY]]（The White Bull・V1qBxZ mint）とticker衝突・別mint別名——低peakにつき entity作成スキップ |
+| $HOOD（robin hood・2pr3yK mint） | safety:ok/traction:graduated | $46,655 | reply0 / KOL0 | 数サイクル | mcap枯れ($3,955) | 既存 [[$HOOD]]（Robin Hood・9isPr2 mint、既に⑬型でDEAD確定済）とticker衝突・別mint——低peakにつき entity作成スキップ |
 <!-- death-ledger: 以降 synthesize.sh が追記。古い順に貯める。 -->
 
 **現時点で浮いている型（N=169 確定死亡・2026-06-26 更新）**: ㉑**reply高くても mcap ゼロ（reply≠buying interest）**（[[$CURAK]] reply:94 × peak $1,989 即死）——reply 数は traction の proxy として不完全。コメント活性があっても資金流入がない「談話だけのコミュニティ」は mcap に繋がらない（[[reflexivity]] 点火未達）。 ⑳**誕生即死（~22分）・real_sol=0**（[[$CORA]]）——graduated × social整備済 × real_sol=0 × traction0 → 22分即死。独自命名の community 引力ゼロ確認。⑬**high real_sol ≠ 生存保証**（[[$FINLEY-7rANTZ]] 82.6SOL→-92.2% / [[$GIRLS]] 82.9SOL→-98.6% / [[$GOON]] 39.9SOL→-99.7% / [[$GTA-y1Jx8x]] 72.8SOL→-90.6% / [[$AYAI]] 46.4SOL→-99.2% / [[$DUMPSTR]] 54.3SOL→-92.8% / [[$8 YEARS]] 57.4SOL→-98.4% / [[$STARS]] 46.4SOL→-99.1% ATH比 / [[$BUTTHOLE]] 55.5SOL→-98.9% / [[$FLYRO]] **84.4SOL→-98.5%**）——pool に大量 SOL が入っていても KOL/traction ゼロなら崩壊・**N=10 確定**（$FLYRO 84.4SOL は観測中最大 real_sol 事例）。⑮**KOL wallet-analysis attention ≠ 生存保証**（[[$SOB]] / [[$WEN-66pQgf]]）——$SOB: top70=83.2%/Debridge⚠️ 集中構造 exit 連鎖→-90%崩壊（集中リスク起因）。$WEN-66pQgf: 構造クリーン(top10=15.7%分散)でも traction(有機的)ゼロのまま $1M超→-90%崩壊。構造クリーン・集中どちらでも「KOL wallet-analysis attention ≠ 生存保証」N=2確定。⑭**誕生~23分死亡**（[[$MYAUR]]）——birth=death 相当の超短命事例（social整備済の independent naming でも traction0 は防げない）。⑪**post-exit deployer pump → 高peak → 崩壊**（[[$STARBASE]] peak $635k -99.5%）——list exit後に deployer 自己資金で pump し ATH を更新しても KOL/community ゼロなら最終崩壊（$ABUSE 同型の高peak版・コホート最高 peak 級）。⑫**DeFi generic ticker縮退死**（[[$TOKEN]] sTokens -88.1%）——generic DeFi ticker + traction0 の多窓縮退死パターン。①**traction(reply/KOL)ゼロ × 出来高先行**で上げた銘柄は死にやすい——**確定死亡 N=53**（N=52 前回 + AYAYA の1件）。⑱**dead-cat bounce崩壊型**（[[$AYAYA]]）——3窓連続プラス加速後に翌窓-98.4%即崩壊・AY系クラスター6/6全DEAD完結（anime reaction meme × T3ゼロ全期間 → dead-cat bounce を「回復」と誤認させて崩壊）。⑦**BREAKOUT-then-dead の association marketing 確定例**（$TOROS）——Toros Finance DeFi ブランド借用 × traction0 で BREAKOUT → 3窓12h で peak比-98.4%崩壊。⑩**BREAKOUT-then-dead 最新例**（[[$WENS]]）——peak $115k まで traction ゼロのまま上昇→peak比-98.7%崩壊（N追加）。⑧**generic name squatter 量産コホート**（$HI×3+$HI-UZWrgk）——generic ticker の多重 mint は高 peak（$46k）でも peak 比 -99.7% で死ぬ実証（peak mcap 高低によらない）。⑨**同ブランド再登場即死**（[[$VORTEX]] 2例）——同一 VortexDeployer.com ブランドが mint を変えて再登場しても community 需要がゼロのまま同水準で死亡；ブランド名の再利用が traction を呼ばない N=2 実証。⑤**KOL 言及あり誕生即死**（$RONALDINU/$BBQ）——KOL gate 通過 ≠ community 追随の実証。⑥**T1-only の上限実証**（$BABYFACE:4窓/$COVER:15窓）——KOL ゼロで到達可能な momentum の天井（$267k〜$289k）を N=2 で可視化。**$MAYHAM コホート全滅**（D5Gqvj $421 / 5pP5vo $163 / 3vpeyAb $107 / AWchjc pending）——4 mint 同名で3本確定死亡・最低 peak $107 は観測史上最低水準候補。他は全件 reply0/KOL0 のまま死亡＝「traction の不在」が死の先行指標として型化（⚠️ 同一コホート・同一時間帯の観測で独立性は限定的）。②graduated でも KOL ピックアップ無し＝「graduated but empty」型（[[launchpad-economics]]）が主流死因。③**traction-less BREAKOUT → 即死**（$MOONLAKE/$PHONEBLACK/$TOROS/$WENS・N=4）——BREAKOUT が社会的需要を生まない実証が N=4 に強化。④誕生即死量産型（$EYEZ/$JAKE/$SLICK/$MAYHAM）は型通りにつき1行記録のみ。
@@ -425,3 +429,9 @@ worklist で [[$LIBRA]]・[[@lookonchain]]・[[@badattrading_]] が浮上した�
 - **➕追加(sharpen)**: ★**非LP top holder 3.5%超で赤旗**（top一覧の最上位はほぼLP＝除外して測れ）／**bundle検出**＝Bubblemaps cluster「99%がbundleで負ける」／**fresh-wallet**(緑葉=新規wallet複数)／**botted-chart**(同サイズ/巨大candleのみ)／**VOL/MC比**。
 - **→実装反映**: `/api/score` を **LP除外＋3.5%階層閾値＋insider数** に改修済（VaelaQueen 旧"58%集中"=LP誤読 → 非LP top 4.79%）。
 - ⚠️権威と検証: Ansem公認は prior を上げるが heuristicsが効くのは on-chain で検算できるから（実装+実銘柄テスト済）＝権威×検証の両方。ガイド自身も「don't borrow conviction」。fomo referral バイアスは割引。
+
+## 2026-07-02 更新: [[$TJR]] — celebrity persona 借用の3件目、初の"本人否認"トリガー確定
+- **既存の auto-track 死亡台帳**に同じ "TJR"(@_TJRTrades) persona を借用した2件が既に記録済み: [[$TEEJEER]]（Bottom Floor Chud, real_sol=0, @_TJRTrades link, peak $16,310→-84.7%）／[[$RICHES]]（The TJR Bull, @tjrbull link, real_sol=0, peak $115,447→-98.5%）——いずれも「traction0のまま自然死」型。
+- **新規観測（[[@lookonchain]] 2026-07-01・[[$TJR]] entity参照）**: [[$TJR]]（Top Floor Boss, Moonshot verified・実出来高あり＝trader CCv4xAが50K $USDC単発買い）が**同一persona借用の3件目**。ただし崩壊機序が異なる＝「@_TJRTrades が livestream で"自分のコインではない"と公言→即座に崩壊、trader は10時間で$45K損失」([[lookonchain__2072168328152613158]])。**トラクション枯渇による自然死でなく、本人の公開否認という明示的トリガーで即座に崩壊**——[[manipulation-playbook]]型3「借用ナラティブ」に一次情報付きの実例が加わった（従来は「借用してる痕跡」の間接証拠のみだったが、今回は本人が公式に否定した一次ソースがある）。
+- **判断**: KOL/celebrity名を冠したtoken は「本人が作った証拠」（CA公式発表・本人confirm）が無い限り、$TEEJEER/$RICHES/$TJR いずれかのパスを辿る＝**celebrity名だけでの入場は avoid 側に倒すべき赤旗**として type確定（N=3、うち崩壊トリガー2種＝自然死/本人否認）。
+<!-- 「繰り返すメカニクス」表の influencer pump-dump 行に $TJR を追加参照可能だが、機序が異なる（本人がpump-dumpしたのでなく第三者が名前を借用→本人否認）ため型としては[[manipulation-playbook]]型3が正確 -->

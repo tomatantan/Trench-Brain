@@ -11,13 +11,13 @@ accounts: 2
 # $STX
 
 > 自動生成(brain/build_entities.py)。言及 3件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@DEG_2020]] [[@DefiIgnas]]
 
 ## 共起トークン
-[[$ADA]] [[$EOS]] [[$FTM]] [[$ICP]] [[$WDC]]
+[[$WDC]] [[$ADA]] [[$EOS]] [[$FTM]] [[$ICP]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

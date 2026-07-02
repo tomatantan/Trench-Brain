@@ -154,3 +154,5 @@ AI credit event (2027-2028: GPU 償却5-6年 vs 実寿命2年が顕在化)
 - ⚠️ 逆: BlackRock が2日連続 ~$481M BTC を Coinbase Prime 入金（ETF custody or 売却 precursor、[[onchain-verification]]）。Chun Wang が ETH を月 $152M ペースで取得。
 
 **判断**: 4枯渇のどれも反転の兆候なし。#3 は確実に悪化。「OG の降伏 = 逆指標の底」論は存在するが、ETF 流出・20x short 再参入と同時進行では一本釣りは難しい。bull 再点火の監視点（上記）に変化なし。
+
+**2026-07-02 追記（BlackRock フロー方向の反転）**: [[@arkham]]（2026-06-30・[[arkham__2071747322782843213]] 555♥）: BlackRock が **ETH を7営業日連続で売却**（直近買いは6/16）。2025-06-03 の「BTC売り→ETH買い」ロテーション（[[$ETH]] 既合成）とは逆方向 = 当時 ETH を買った BlackRock が現在（ETH 14ヶ月来安値圏）は売り側。上記 #154 の「BlackRock BTC入金（売却precursor疑い）」と合わせ、**BTC・ETH 双方で BlackRock が売り寄りの行動**を続けている観測が積み上がる。4枯渇の反転兆候なしという判断に変化なし（さらなる裏付け）。

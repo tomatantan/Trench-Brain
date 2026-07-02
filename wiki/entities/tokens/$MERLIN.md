@@ -4,14 +4,14 @@ kind: token
 title: $MERLIN
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 20
+mentions: 16
 accounts: 4
 ---
 
 # $MERLIN
 
-> 自動生成(brain/build_entities.py)。言及 20件 / 4アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 16件 / 4アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@ShapeFN_]] [[@badattrading_]] [[@moonshot]]
@@ -23,15 +23,15 @@ accounts: 4
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 1,973 | [[@ShapeFN_]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[shapefn___2068315352124006863]] |
-| 1,969 | [[@ShapeFN_]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[ShapeFN___2068315352124006863]] |
-| 406 | [[@ShapeFN_]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[ShapeFN___2067208855918960741]] |
 | 406 | [[@ShapeFN_]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[shapefn___2067208855918960741]] |
 | 242 | [[@moonshot]] | The Patriotic Duck ($Merlin) is now verified on Moonshot. | [[moonshot__2067804676804735036]] |
 | 141 | [[@ShapeFN_]] | From selling water on the streets to the top of the World Cup. 🦆🏆 $Merlin | [[shapefn___2067195484842651871]] |
 | 109 | [[@ShapeFN_]] | Official @FOXSports added $Merlin to their x profile | [[shapefn___2067616747088142496]] |
-| 108 | [[@ShapeFN_]] | Official @FOXSports added $Merlin to their x profile | [[ShapeFN___2067616747088142496]] |
 | 80 | [[@ShapeFN_]] | POV: You accidentally become FIFA's newest ambassador. $Merlin | [[shapefn___2067201353361785315]] |
 | 78 | [[@ShapeFN_]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[shapefn___2067754051551265088]] |
+| 52 | [[@badattrading_]] | Don’t be a failure like @wolfoftrenches   > takes over $Merlin at the millies > laun | [[badattrading___2070501778257314088]] |
+| 49 | [[@badattrading_]] | Apparently if you buy a coin and hold a good amount of supply and keep holding while | [[badattrading___2070160534645637240]] |
+| 49 | [[@PumpfunEco]] | $Merlin has pumped 41% today! | [[pumpfuneco__2069848138391719974]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

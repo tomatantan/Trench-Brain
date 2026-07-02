@@ -4,20 +4,20 @@ kind: token
 title: $FARTCOIN
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 13
+mentions: 16
 accounts: 3
 ---
 
 # $FARTCOIN
 
-> 自動生成(brain/build_entities.py)。言及 13件 / 3アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 16件 / 3アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@lookonchain]] [[@theunipcs]]
 
 ## 共起トークン
-[[$KINS]] [[$BTC]] [[$DOGE]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$USELESS]] [[$JOTCHUA]]
+[[$USELESS]] [[$PENGU]] [[$PEPE]] [[$WIF]] [[$KINS]] [[$BTC]] [[$DOGE]] [[$SHIB]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -26,12 +26,12 @@ accounts: 3
 | 2,247 | [[@lookonchain]] | What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $ | [[lookonchain__1875814019724144710]] |
 | 381 | [[@theunipcs]] | over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma | [[theunipcs__2067625941585494256]] |
 | 366 | [[@theunipcs]] | $USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi | [[theunipcs__2066522036818542958]] |
+| 306 | [[@theunipcs]] | i actually care about other coins  i've been most vocal about $USELESS because it's  | [[theunipcs__2071876088024752637]] |
 | 305 | [[@theunipcs]] | one metric that almost nobody is talking about:  $USELESS has more perps Open Intere | [[theunipcs__2066298266120077776]] |
+| 305 | [[@theunipcs]] | $USELESS is up 15% today while $BTC makes fresh 22-month lows  this is also happenin | [[theunipcs__2071980807955075195]] |
 | 299 | [[@theunipcs]] | 一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外， | [[theunipcs__2067854742701646135]] |
-| 131 | [[@theunipcs]] | over the past month:  • $BTC new 21-month lows • $ETH new 14-month lows • $SOL new 3 | [[theunipcs__2070425996038140331]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
-| 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
-| 96 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.83M $world  | [[pumpfuneco__2069760704882868678]] |
+| 299 | [[@theunipcs]] | $USELESS has now consolidated in its current range for 51 days  and it did this whil | [[theunipcs__2072305809296437545]] |
+| 214 | [[@PumpfunEco]] | 24h volume leaders on pump fun 👀  $ANSEM $44.4M $Fartcoin $6.76M $dog $5.83M $Jotchu | [[pumpfuneco__2072300491833475413]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -50,4 +50,13 @@ accounts: 3
 - [[launchpad-economics]]: pump.fun 産で最大の二次流動性を持つ＝ローンチプラットフォーム上の"終着点"型サバイバーの代表例。
 - **⚠️ 相対的劣後の観測**: theunipcs の枠組みでは FARTCOIN は USELESS に**負けている側**（USELESS が FARTCOIN に年初来高値）。出来高は FARTCOIN が上だが、相対強度ナラティブの主役は USELESS に移っている＝「流動性 top ≠ 物語 top」。FARTCOIN は地盤、USELESS は narrative momentum という棲み分け。
 - **賭け仮説（更新・confidence=中）**: 高流動の survivor blue-chip meme として板は厚い（大口の出入りに耐える）。ただし新規の上方カタリストは観測されず、theunipcs フレームでは比較対象＝劣後側。FARTCOIN を持つ理由は「meme β＋流動性」であって個別の物語ドライバーは現状薄い。
+
+### 2026-07-02 更新（volume首位陥落＋USELESSの相対劣後幅が拡大・low-to-mid signal）
+**観測（事実）**:
+- [[@PumpfunEco]] pump.fun 24h 出来高リーダー（[[pumpfuneco__2072300491833475413]] 214♥・2026-07-01T12:45Z）: **$ANSEM $44.4M（首位）／$Fartcoin $6.76M（2位）**／$dog $5.83M／$Jotchua $4.30M／$KINS $3.16M。6/25 の FARTCOIN $14.8M 単独首位（前回更新）から**約半減し、$ANSEM に首位を明け渡した**。$ANSEM は KOL「Ansem」本人の冠名コイン（[[$ANSEM]] 既存合成参照）＝organic survivor の FARTCOIN が KOL-branded コインに出来高で抜かれた構図。
+- [[@theunipcs]] が Q4 相対パフォーマンス比較で $USELESS「vs $FARTCOIN +254%」を明記（[[theunipcs__2072305809296437545]] 299♥・7/1）。同氏は他の投稿（[[theunipcs__2071980807955075195]] 305♥・6/30、[[theunipcs__2071876088024752637]] 306♥・6/30）でも FARTCOIN を「調べれば同じ結果になる major memecoin」の一つとして継続的にベンチマーク扱い。
+
+**判断（推論、既存判断を上書きせず追記）**:
+- 前回（6/27）の「流動性top＝地盤、物語momentumはUSELESS」という棲み分け判断を**さらに裏付け**。今回は地盤側の指標（出来高首位）も揺らいだ＝$ANSEM という「KOL冠名コイン」に一時的に流動性が吸われている。organic survivor と KOL-branded coin が同じ pump.fun 出来高市場で競合している点は新規観測。
+- ⚠️ 単月の出来高変動だけでは trend 反転と断定できない（$ANSEM は Ansem 本人の話題性に伴う一時的ブーム的側面あり、[[rug-anatomy]] では Ansem-brand の便乗ミーム多数が枯死済み＝ブランド自体の持続性は未確定）。confidence=低〜中、watch継続。
 <!-- synthesis:end -->

@@ -4,20 +4,20 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 155
-accounts: 19
+mentions: 171
+accounts: 21
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 155件 / 19アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 171件 / 21アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@Bankless]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
+[[@Bankless]] [[@BinanceUS]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@fundstrat]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$PEPE]] [[$PENGU]] [[$STRC]] [[$DOGE]] [[$XRP]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$STRC]] [[$PEPE]] [[$PENGU]] [[$MSTR]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -439,4 +439,21 @@ accounts: 19
 - ⚠️ TA ベースのシナリオであり macro beat ではない。BTC が「$70K relief」を経ずに $59K に達したことで、シナリオの前提が崩れた可能性がある（支持帯が下にズレた）。現在（2026-07-02）の BTC 価格帯は未確認 = LTHS 80%（既合成）・53% 含み損（既合成）と照らし合わせると底値形成プロセスの途中段階にある可能性。
 - 接続: [[majors-rotation-supercycle]]（BTC TA 短期観測 = $70K relief 未達・full reversal の前段階観察）/ [[$ETH]]（CredibleCrypto「ETH は既に downside を取った」= 2026-06-13 TA 観測・既合成 ETH 底値圏と接続）。
 - confidence=低〜中（TA のみ・シナリオ展開は現実と一部乖離の可能性）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）に変化なし。
+
+### 2026-07-02 更新⑦（新 beat: Fundstrat 初合成「headwinds/tailwinds」フレーム / CredibleCrypto「BTC $15K ボトム ⇄ ETH $1.5K ボトム」アナロジー）
+出典: [[fundstrat__2071689742870270210]]（990♥・2026-06-29T20:18:19Z）/ [[crediblecrypto__2072465495803220359]]（723♥・2026-07-01T23:40:53Z）/ [[crediblecrypto__2072301590585966700]]（419♥・2026-07-01T12:49:35Z）
+
+**観測（事実・新規アカウント初合成: Fundstrat）**:
+- [[@fundstrat]]（2026-06-29T20:18Z）: 「Crypto is a hyper volatile asset and some macro headwinds are weighing on Bitcoin and ETH $BTC $ETH — headwinds: markets see Fed hike, Clarity Act purgatory, AI 🤖 FOMO, and private credit hurting flows — tailwinds in place: tokenization a megatrend, crypto downstream of AI 🤖, money is becoming digital / software and sentiment so bad (peak pain?) — Great speaking with @Scaramucci on this」（[[fundstrat__2071689742870270210]] 990♥・225RT）
+  = Fundstrat（Tom Lee系 TradFi-crypto リサーチ、Anthony Scaramucci との対談経由）が[[@fundstrat]]アカウントとして本ページ初の実質合成。既存合成（Hayes の Fed/PBOC/YCC macro フレーム）と重なる部分（Fed hike = 引き締め懸念）に加え、**未合成の headwinds 3点**: ①「Clarity Act purgatory」= 米国crypto市場構造法案が停滞状態にあること、②「AI FOMO」= 資金が crypto から AI トレードへ流出、③「private credit hurting flows」= プライベートクレジット市場のストレスが crypto フローを圧迫。tailwinds 側は tokenization megatrend・crypto downstream of AI・money becoming digital。締めの「sentiment so bad (peak pain?)」は既合成「LTHS 80%」「53% 含み損」の底値圏示唆と方向一致。
+- [[@CredibleCrypto]]（2026-07-01T23:40Z）: 「I have a feeling our macro $ETH bottom at $1,500 is going to look very similar to our macro $BTC bottom at $15,000...」（[[crediblecrypto__2072465495803220359]] 723♥）
+  = **新規アナロジー**: ETH の想定マクロボトム $1,500 を、BTC の過去マクロボトム **$15,000**（2022年11月 FTX崩壊後の底値、既合成の "safe haven vs 実価格" track record の起点に相当）になぞらえる予測。
+- 同日昼の関連ツイ（[[crediblecrypto__2072301590585966700]] 419♥・2026-07-01T12:49Z）: 「Sweep of the $1500 lows might be coming sooner rather than later and this might end up forming a clean little PO3.」= ETH の $1,500 ラインへの sweep（一時的な安値更新後の反転を示唆する Power-of-Three 型 TA パターン）を予告。**時系列**: 昼(419♥ PO3予告) → 夜(723♥ BTC$15K対比) の同日連投。
+
+**判断**:
+- Fundstrat の headwinds/tailwinds リストは既存合成の macro フレーム（Hayes の Fed/PBOC/YCC・BlackRock ETF 流出・大規模清算）を**TradFi 側の独立ソースから補強**する形。特に「AI FOMO が crypto から資金を吸っている」は本ページ未合成の新規因子＝2026年の資金ローテーション先が crypto 内(alt)ではなく**crypto外(AI株)**に向かっている可能性を示唆——既合成「[[majors-rotation-supercycle]] のローテが点火しない」構造説明に、Fed/onchain distribution 要因に加え「AI セクターへの資金流出」という外部要因を追加する視点。「Clarity Act purgatory」は [[regulation-catalyst]] 文脈で言及されていなかった具体的な停滞法案名＝規制不確実性の継続を示す新規データ点。
+- CredibleCrypto の「$15,000 BTC ボトム」参照は、既合成の Hayes track record（BTC が 2022年 "$1M" コール後に実際は暴落した経緯・FTX崩壊）とは異なる文脈で、**同じ2022年安値圏を「マクロボトムの完成形」として肯定的に参照**している点が対照的。CredibleCrypto 自身の 2026-06-13「$70K relief」コール（既合成・確認③）は未達だったが、本ツイは「まだボトム未達＝ $1,500(ETH)/類推で BTC も追加下落の可能性」を示唆しており、**強気の逆張り（LTHS 80%底値論）と弱気の further-downside 見立てが CredibleCrypto 自身の中でも併存**している。
+- ⚠️ 「BTC $15,000」は具体的日付なし・本ツイのみでは実際に BTC が再度 $15K まで下がる予測なのか、単なる「底の形状（V字/長期保合い）」のアナロジーなのか曖昧。次数値確認が必要（[[onchain-verification]]）。
+- 接続: [[majors-rotation-supercycle]]（AI FOMO による crypto外流出という新規ローテ非点火要因）/ [[regulation-catalyst]]（Clarity Act purgatory＝規制停滞の具体名）/ [[$ETH]]（$1,500 ボトム TA予告・PO3パターン、詳細は ETH 側合成参照）/ [[rug-anatomy]]（CredibleCrypto の強気/弱気シナリオ併存＝track record の一貫性検証対象）。
+- confidence=中（Fundstrat は TradFi ソースとして新規性あり／CredibleCrypto はTA予測で検証待ち）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）の方向に変化なし、headwinds/bottom-analogy の具体データ点を追加。
 <!-- synthesis:end -->

@@ -4,20 +4,20 @@ kind: token
 title: $SOL
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 47
-accounts: 10
+mentions: 53
+accounts: 11
 ---
 
 # $SOL
 
-> 自動生成(brain/build_entities.py)。言及 47件 / 10アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+> 自動生成(brain/build_entities.py)。言及 53件 / 11アカ。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
-[[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
+[[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@TrustlessState]] [[@blknoiz06]] [[@coingecko]] [[@coinkeiba]] [[@lookonchain]] [[@mellometrics]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$BTC]] [[$USELESS]] [[$WIF]] [[$DOGE]] [[$PEPE]] [[$USDC]] [[$PENGU]]
+[[$ETH]] [[$BTC]] [[$USELESS]] [[$WIF]] [[$HYPE]] [[$PENGU]] [[$PEPE]] [[$DOGE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -91,4 +91,20 @@ accounts: 10
 
 **判断（light-touch）**: 40♥ = 低エンゲージ。SOL 30ヶ月来安値（既記）という底値局面で「deflationary SOL」「ETH ultra sound money を奪う」という **bull market 後の SOL ナラティブ転換の種** として記録価値あり。tokenized stock = SOL onchain demand の鍵という論は [[spacex-ipo-narrative]] ライン（Backpack tokenized equities）との接続で整合する。zhusu「Solana summer」（既記）と方向一致。confidence=低（40♥・まだ narrative レベル・実装未完）。
 - 接続: [[majors-rotation-supercycle]]（SOL の deflationary 化 = alt 母艦として次フェーズの前提）/ [[spacex-ipo-narrative]]（tokenized stock = SOL onchain demand 創出の鍵として DefiIgnas が明示）/ [[l1-substrate-wars]]（ETH vs SOL ultra sound money ナラティブ競争の新軸）。
+
+### 2026-07-02 更新（新beat: SOL 週間+15%・USELESS が levered SOL beta として牽引・DefiIgnas 強気を具体化）
+出典: [[trustlessstate__2072461987645202607]]（122♥・2026-07-01T23:26Z）/ [[theunipcs__2072382321559228536]]（250♥・2026-07-01T18:10Z）/ [[theunipcs__2071822639312867772]]（413♥・2026-06-30T05:06Z）/ [[theunipcs__2072026082207834141]]（101♥ RT @bootzz・2026-06-30T18:34Z）/ [[defiignas__2072319497927811190]]（258♥・2026-07-01T14:00Z）
+
+**観測（事実）**:
+- [[@TrustlessState]]: 「Pretty crazy action going on over on Solana downstream of all the action on Ansem's memecoin. $SOL up 15% this week」= **SOL 週間+15%** という具体的な反発数値。トリガーは macro-BTC 底ではなく **Ansem 発の memecoin（$USELESS 周辺）が Solana 上の流動性を吸引した波及効果**と明示。
+- [[@theunipcs]]（07-01）: 「$SOL continues to outperform $BTC, $ETH, $BNB and pretty much every other major at the slightest sign of life... $USELESS in particular has consistently acted as **levered SOL beta**, up over 200% vs SOL over the last quarter」= SOL がわずかな地合い好転でも majors 中で最も反応する、という相対強弱の観測。
+- [[@theunipcs]]（06-30）: $ANSEM が「liquidity-blackholes everything else」の中で $USELESS だけが $BTC/$SOL 動向に関係なく独歩高。RT @bootzz（06-30）: 「$USELESS/$BTC & $USELESS/$SOL finally look ready to push ATHs」= 1ヶ月の保ち合い後にブレイク期待。
+- [[@DefiIgnas]]（07-01）: 「$SOL does look good: Tokenized equity growth / Payments / (New) prediction markets via Phantom / Reducing $SOL inflation + SIMD-547 resource-based base fee → could make $SOL deflationary. Solana just needs to get rid of extractive memecoin KOLs/narrative and push it as true trading chain.」= 06-28 更新③で「narrative レベル・低confidence」だった deflationary SOL 論を、具体的機能列挙付きで再確認。
+
+**⚠️ 判断**:
+- 前回合成（06-27「30ヶ月来安値」）からの反発が、**数字（週間+15%）とメカニズム（Ansem memecoin→流動性吸引）を伴って初めて具体化**した。06-28 の zhusu「Solana summer」（言葉のみ）から一歩進んだ実証段階。
+- USELESS が「levered SOL beta」として機能＝ SOL 本体の回復より meme 側の値動きが先行・増幅する構図。既存合成の「SOL = alt/meme 母艦」仮説（冒頭メモ）が回復局面で実証され始めた。
+- **⚠️矛盾（緩やか）**: DefiIgnas は「extractive memecoin KOL を排除し true trading chain 化すべき」と提言する一方、直近の SOL 回復の実際のドライバーは Ansem/USELESS という memecoin 発の流動性＝**DefiIgnas が理想とする姿と、現実の回復エンジンが逆方向**。SOL の bull thesis は「meme 母艦としての強さ」と「meme 依存からの脱却」という二律背反を抱えたまま前進している。
+- confidence=中（変化なし〜微上昇）。30ヶ月来安値からの反発が価格・メカニズムの両面で裏付けられた点はポジティブだが、ドライバーが単一 memecoin（Ansem）依存＝持続性は未検証。
+- 接続: [[jp-meme-cluster]]（SOL 上 meme 母艦仮説の実証局面）/ [[majors-rotation-supercycle]]（反発の号砲候補・USELESS が牽引役）/ [[l1-substrate-wars]]（DefiIgnas deflationary 論の具体化）。
 <!-- synthesis:end -->

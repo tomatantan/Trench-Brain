@@ -11,13 +11,13 @@ accounts: 2
 # $LIBRA
 
 > 自動生成(brain/build_entities.py)。言及 5件 / 2アカ。
-事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。
+事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@a1lon9]] [[@lookonchain]]
 
 ## 共起トークン
-[[$SOL]] [[$USDC]] [[$YZY]] [[$MELANIA]]
+[[$USDC]] [[$SOL]] [[$YZY]] [[$MELANIA]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
