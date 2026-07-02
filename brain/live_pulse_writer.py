@@ -19,6 +19,7 @@ UI は ui_server の GET /api/live でこれを読む。
 import argparse
 import json
 import subprocess
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,7 +33,14 @@ def snapshot():
     r = subprocess.run(
         ["python3", str(PULSE)], capture_output=True, text=True, timeout=150, cwd=str(ROOT)
     )
-    data = json.loads(r.stdout)
+    if r.returncode != 0:
+        print(f"live_pulse: launch_pulse.py rc={r.returncode}: {(r.stderr or '')[:200]}", file=sys.stderr)
+        return None
+    try:
+        data = json.loads(r.stdout)
+    except ValueError:
+        print("live_pulse: launch_pulse.py stdout がJSONでない(skip)", file=sys.stderr)
+        return None
     data["generated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
@@ -47,12 +55,14 @@ def main():
     while True:
         try:
             d = snapshot()
+        except Exception as e:
+            print(f"live_pulse error: {type(e).__name__}: {e}")
+            d = None
+        if d is not None:
             print(
                 f"live_pulse updated: flow={d.get('flow_count_nonscam')} "
                 f"traction={len(d.get('traction_candidates', []))} @ {d['generated_at']}"
             )
-        except Exception as e:
-            print(f"live_pulse error: {type(e).__name__}: {e}")
         if args.once:
             break
         time.sleep(args.interval)

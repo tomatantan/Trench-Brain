@@ -145,9 +145,12 @@ def main():
                         + " ".join(f"{k}={'o' if v[0] else 'X'}" for k, v in res.items()) + "\n")
         except Exception:
             pass
-        # flip（死↔復活）検知で通知＝spam しない
+        # flip（死↔復活）検知で通知＝spam しない / 初回 DOWN は即通知
         for k, (ok, detail) in res.items():
-            if k in prev and prev[k] != ok:
+            if k not in prev:
+                if not ok:
+                    telegram(f"[trench watchdog] {k} 初期DOWN ⚠️（{detail}）")
+            elif prev[k] != ok:
                 telegram(f"[trench watchdog] {k} {'復活 ✅' if ok else '死亡 ⚠️'}（{detail}）")
             prev[k] = ok
         if a.once:
