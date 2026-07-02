@@ -46,7 +46,12 @@ def ids_from_files(paths):
             print(f"  skip (not found): {p}", file=sys.stderr)
             continue
         for stem in LINK_RE.findall(fp.read_text(encoding="utf-8")):
-            out.add(stem.split("__")[-1])
+            # ID_RE で末尾の数値tweet_idを抽出（split("__")[-1] は
+            # account が末尾に `_` を含む/`___` 区切りだと `_<id>` を返し、
+            # ingest_worklist の裸の数値idと永久に一致せず backlog を汚染する。2026-07-02 fix）
+            m = ID_RE.search(stem)
+            if m:
+                out.add(m.group(1))
     return out
 
 

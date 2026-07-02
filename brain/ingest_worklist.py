@@ -210,7 +210,11 @@ def main():
     # 「合成が収集に追いついている」＝LLM Wiki(scraperでない)を**データで断定**できる。
     # 増え続けたら収集過多のサイン＝人が収集を絞る判断材料(raw総数では測らない)。
     import json as _json
-    rec = {"ts": ref_now.strftime("%Y-%m-%dT%H:%MZ"), "raw_new": new_tweets,
+    # ts は wall-clock（記録した実時刻）。ref_now(=コーパス最新ツイ時刻)を ts に使うと
+    # 収集が死んだ時に計器ごと ts が凍結し、健康指標が「嘘green」になる（2026-06-26〜の5日半沈黙）。
+    # corpus_ts を分離＝ ts は進むのに corpus_ts が凍る＝収集停止が時系列に可視化される（2026-07-02 fix）。
+    rec = {"ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+           "corpus_ts": ref_now.strftime("%Y-%m-%dT%H:%MZ"), "raw_new": new_tweets,
            "signal_backlog": len(hot), "single_source": len(single), "stale": stale}
     with open(HEALTH, "a", encoding="utf-8") as _h:
         _h.write(_json.dumps(rec, ensure_ascii=False) + "\n")
