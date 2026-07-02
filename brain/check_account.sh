@@ -3,7 +3,7 @@
 # 「このアカウント主は嘘つき/pumperか、信頼できるか」を、実ツイ+track-record+思考の型から読む(本人2026-06-25)。
 # read-only・--strict-mcp-config。bot /who。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${CHECK_MODEL:-sonnet}"
 ARG="${*:-}"

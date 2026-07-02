@@ -6,7 +6,7 @@
 # 対象が無くなれば claude を呼ばない(コスト0)＝自己限定(worthy分を埋めたら idle)。
 # X(synthesize_x)/pump(synthesize)/長文(synthesize_longform)に続く第4の合成輪。cron が前後で git。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 MODEL="${SYNTH_MODEL:-sonnet}"

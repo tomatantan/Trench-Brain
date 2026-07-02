@@ -3,7 +3,7 @@
 # track.py が出した synth_queue を headless claude が wiki に合成する。
 # キューが空なら claude を呼ばない（コスト0）。cron が前後で git する。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 Q="brain/state/synth_queue.json"

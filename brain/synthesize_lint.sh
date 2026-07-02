@@ -4,7 +4,7 @@
 # headless claude が敵対的に探し wiki/lint-report.md に**報告のみ**(自動修正しない=CLAUDE.md Lint規約)。
 # 維持工程なので頻度は低め＝~日次(前回から HRS時間 経過時だけ実行)。cron が前後で git。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 STAMP="brain/state/last_lint"

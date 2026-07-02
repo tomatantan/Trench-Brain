@@ -6,7 +6,7 @@
 # =LLM Wikiの実現(単なる収集でない条件)。§1aは鮮度ゲートでbounded(~10-16)なので全件でも量産でない。
 # cron が前後で git する。pump.fun側の synthesize.sh と対をなす(両輪のX側)。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 WL="wiki/_worklist.md"

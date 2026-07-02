@@ -6,7 +6,7 @@
 #   - X側:        pipeline.py が worklist(§1a=鮮度ゲート) → synthesize_x.sh(headless合成 上位3件/複利)
 #   どちらも headless claude は --strict-mcp-config(telegram干渉なし) / SYNTH_*_ENABLED で停止可。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 
 export PATH="/usr/bin:/bin:/usr/local/bin:$PATH"
 LOG="brain/state/cron.log"
@@ -16,9 +16,9 @@ echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 # ★永続化(本人「永遠に動かせ」)＝自己修復: このcronはRunAtLoad(boot時)+3h毎に発火する唯一の確実なanchor。
 #   毎回ここで (1)caffeinate=Mac起こし続ける→3h cronが確実に発火 (2)Q&A bot を常駐 を再確認し、死んでたら起こす。
 #   ＝Macが電源ONな限り、collect/合成/bot/起き続け が自己修復で永続する。
-pgrep -f "caffeinate -i -m -s" >/dev/null 2>&1 || { nohup caffeinate -i -m -s >/dev/null 2>&1 & echo "self-heal: caffeinate起動" >> "$LOG"; }
-pgrep -f "brain/wiki_bot.py" >/dev/null 2>&1 || { nohup /usr/bin/python3 /Users/toma/trench-brain/brain/wiki_bot.py >> brain/state/bot.out 2>&1 & echo "self-heal: bot起動" >> "$LOG"; }
-pgrep -f "brain/launch_stream.py" >/dev/null 2>&1 || { nohup /usr/bin/python3 /Users/toma/trench-brain/brain/launch_stream.py >> brain/state/launch_stream.log 2>&1 & echo "self-heal: launch_stream起動" >> "$LOG"; }
+[ "$(uname)" = "Darwin" ] && { pgrep -f "caffeinate -i -m -s" >/dev/null 2>&1 || { nohup caffeinate -i -m -s >/dev/null 2>&1 & echo "self-heal: caffeinate起動(mac)" >> "$LOG"; }; }
+pgrep -f "brain/wiki_bot.py" >/dev/null 2>&1 || { nohup python3 brain/wiki_bot.py >> brain/state/bot.out 2>&1 & echo "self-heal: bot起動" >> "$LOG"; }
+pgrep -f "brain/launch_stream.py" >/dev/null 2>&1 || { nohup python3 brain/launch_stream.py >> brain/state/launch_stream.log 2>&1 & echo "self-heal: launch_stream起動" >> "$LOG"; }
 
 # 単一枝 main に一本化(2026-06-22 unify)。collect=門付き(watchlist)＝憲法 指針2準拠。
 # --autostash: .obsidian 等の未staged変更があっても rebase を通す(無いと pull skip→cloud GHA

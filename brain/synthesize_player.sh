@@ -3,7 +3,7 @@
 # 視点エンジン(/check・/wiki)が「この player ならこう読む」を channel する燃料を厚くする(本人reframe 2026-06-24)。
 # 使い方: bash brain/synthesize_player.sh <handle(no @)>
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${SYNTH_PLAYER_MODEL:-sonnet}"
 H="${1:?handle(no @)を渡して}"

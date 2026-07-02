@@ -3,7 +3,7 @@
 # genuine に notable な時だけ「今これ見とけ」を自分から push(本人2026-06-26「自律して動く脳に」)。
 # ハードに gate(大半は沈黙)・dedup・spam回避。SYNTH_*同様 --strict-mcp-config。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${AUTO_READ_MODEL:-sonnet}"
 CHAT="${AUTO_READ_CHAT:-7563521418}"

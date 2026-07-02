@@ -3,7 +3,7 @@
 # wiki_autofix.py が積んだ concept-gap を消費する。
 # queueが空なら claude を呼ばない（コスト0）。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 GAP="brain/state/wiki_gaps.json"
