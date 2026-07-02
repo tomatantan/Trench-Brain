@@ -10,6 +10,7 @@ launch_pulse.py — 流れてくる非scamローンチの"流れそのもの"を
 launch_synth.sh がこれを claude に渡し『launch-pulse concept』を更新＋standout採用。
 """
 import json
+import re
 import sys
 import time
 import urllib.request
@@ -49,7 +50,10 @@ STATE = ROOT / "brain" / "state"
 QUEUE = STATE / "launch_queue.jsonl"
 STATS = STATE / "launch_stats.json"
 BASE = STATE / "base_rate.json"
-WINDOW_H = float(sys.argv[1]) if len(sys.argv) > 1 else 6.0
+try:
+    WINDOW_H = float(sys.argv[1]) if len(sys.argv) > 1 else 6.0
+except (ValueError, IndexError):
+    WINDOW_H = 6.0
 
 # テーマ辞書(name/symbol のキーワードでセクター分布を出す)
 THEMES = {
@@ -64,7 +68,8 @@ THEMES = {
 
 def theme_of(name, sym):
     t = f"{name} {sym}".lower()
-    hits = [th for th, kws in THEMES.items() if any(k in t for k in kws)]
+    hits = [th for th, kws in THEMES.items()
+            if any(re.search(r"\b" + re.escape(k), t) for k in kws)]
     return hits[0] if hits else "other"
 
 

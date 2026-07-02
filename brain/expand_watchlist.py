@@ -36,6 +36,9 @@ def current_watchlist(text):
 
 
 def main():
+    if not WL.exists():
+        print("watchlist.md が見つかりません。スキップ。")
+        return
     text = WL.read_text(encoding="utf-8")
     # 候補節を除いた本文で現watchlistを判定（候補節の@は数えない）
     base = text
@@ -50,7 +53,8 @@ def main():
         t = open(f, encoding="utf-8", errors="replace").read()
         am = re.search(r"^account: (\S+)", t, re.M)
         author = (am.group(1) if am else "?").lower()
-        body = t.split("---", 2)[-1]
+        parts = t.split("---", 2)
+        body = parts[2] if len(parts) >= 3 else t
         for mm in MENTION_RE.finditer(body):
             h = mm.group(1)
             hl = h.lower()

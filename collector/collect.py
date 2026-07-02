@@ -375,7 +375,7 @@ def write_health(backend, new, skipped, errors, accounts):
             "ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "backend": backend, "new": new, "skipped": skipped,
             "errors": errors, "accounts": accounts,
-            "ok": accounts > 0 and errors < accounts,
+            "ok": accounts > 0 and errors < accounts and (new > 0 or skipped > 0),
         }, ensure_ascii=False), encoding="utf-8")
     except Exception:
         pass
