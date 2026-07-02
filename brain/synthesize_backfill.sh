@@ -9,6 +9,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
+# ハング防止: timeout があれば claude を上限付きで実行(WSL=有り / macは gtimeout or 無し)。無ければそのまま。
+TIMEOUT_BIN="$(command -v timeout || command -v gtimeout || true)"
+SYNTH_TIMEOUT="${SYNTH_TIMEOUT:-900}"   # 秒。合成は通常1-4分・900s(15分)で"ハング"と判断
 MODEL="${SYNTH_MODEL:-sonnet}"
 ENABLED="${SYNTH_BACKFILL_ENABLED:-1}"
 MIN_MENTIONS="${BACKFILL_MIN_MENTIONS:-3}"
@@ -51,7 +54,7 @@ command -v claude >/dev/null 2>&1 || { echo "synth-backfill: claude CLI なし�
 PROMPT="$(cat brain/synth_backfill_prompt.md)
 $TARGETS"
 # --strict-mcp-config 必須(telegram等MCPを起動させない。2026-06-23 切断原因)。
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
+${TIMEOUT_BIN:+$TIMEOUT_BIN $SYNTH_TIMEOUT} claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$PROMPT" >> "$LOG" 2>&1 \
   && echo "synth-backfill: done" >> "$LOG" \
   || echo "synth-backfill: claude error(次サイクル再試行)" >> "$LOG"

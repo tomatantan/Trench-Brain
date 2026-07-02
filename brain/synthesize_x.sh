@@ -9,6 +9,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
+# ハング防止: timeout があれば claude を上限付きで実行(WSL=有り / macは gtimeout or 無し)。無ければそのまま。
+TIMEOUT_BIN="$(command -v timeout || command -v gtimeout || true)"
+SYNTH_TIMEOUT="${SYNTH_TIMEOUT:-900}"   # 秒。合成は通常1-4分・900s(15分)で"ハング"と判断
 WL="wiki/_worklist.md"
 MODEL="${SYNTH_MODEL:-sonnet}"        # コスト管理: 既定 sonnet
 ENABLED="${SYNTH_X_ENABLED:-1}"       # 0 で無効化(X合成だけ止めたい時)
@@ -31,7 +34,7 @@ if ! command -v claude >/dev/null 2>&1; then
 fi
 # --strict-mcp-config 必須: headless claude に telegram 等の MCP を一切起動させない
 # (起動すると getUpdates 1トークン1ポーラー仕様で本人チャンネルを乗っ取り切断する。2026-06-23)。
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
+${TIMEOUT_BIN:+$TIMEOUT_BIN $SYNTH_TIMEOUT} claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$(cat brain/synth_x_prompt.md)" >> "$LOG" 2>&1 \
   && echo "synth-x: done" >> "$LOG" \
   || echo "synth-x: claude error(次サイクル再試行)" >> "$LOG"
