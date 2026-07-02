@@ -380,6 +380,20 @@ def cmd_run(args):
 
     save_json(TRACKED, tracked)
     save_json(BASERATE, base)
+    # 既存の未消費queueとmerge(2026-07-02 H4): 丸ごと上書きすると、consumer(synthesize.sh の
+    # claude agent)が1回15件ずつ処理して書き戻す間の**未消費 births/deaths を取りこぼす**
+    # (track が synth より先に再実行された時)。mint で dedup(新側が上書き=最新を保持)して重複合成も防ぐ。
+    prev = load_json(QUEUE, {})
+
+    def _merge(key):
+        by_mint = {}
+        for e in (prev.get(key) or []) + queue[key]:   # prev→new 順＝同mintは新側が最終的に残る
+            by_mint[e.get("mint")] = e
+        return list(by_mint.values())
+
+    queue["births"] = _merge("births")
+    queue["changes"] = _merge("changes")
+    queue["deaths"] = _merge("deaths")
     save_json(QUEUE, queue)
     n = len(queue["births"]) + len(queue["changes"]) + len(queue["deaths"])
     pr = base["gate_passed"] / base["mints_seen"] if base["mints_seen"] else 0
