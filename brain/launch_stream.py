@@ -267,8 +267,46 @@ def spawn_synth():
         log(f"synth spawn err: {type(e).__name__}")
 
 
+LOCK = None  # set in main() after STATE is ensured
+
+
+def _acquire_lock(lock_path):
+    """単一instance保証(2026-07-02 H3): pgrep guard は check-then-act の TOCTOU で、
+    cron自己修復が生存プロセスに重ねて発火すると二重daemon化→同一mintの重複enqueue/stats二重計上。
+    PID lockfile(O_EXCL)で不可分に単一化。死んだPIDのstale lockは奪取する。"""
+    for _ in range(2):
+        try:
+            fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.write(fd, str(os.getpid()).encode())
+            os.close(fd)
+            return True
+        except FileExistsError:
+            try:
+                old = int((lock_path.read_text(encoding="utf-8").strip() or "0"))
+                os.kill(old, 0)      # 生きてる→既に稼働中
+                return False
+            except (ProcessLookupError, ValueError):
+                try:
+                    lock_path.unlink()   # stale(死んだPID/壊れ) → 奪取して retry
+                except OSError:
+                    return True
+            except PermissionError:
+                return False         # 別ユーザだが生存中
+        except OSError:
+            return True              # lock機構自体が壊れても起動は止めない
+    return True
+
+
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
+    global LOCK
+    LOCK = STATE / "launch_stream.lock"
+    if not _acquire_lock(LOCK):
+        log("既に launch_stream が稼働中(lock)＝二重起動を回避して終了")
+        return
+    import atexit
+    atexit.register(lambda: LOCK.unlink() if LOCK and LOCK.exists() and
+                    LOCK.read_text(encoding="utf-8").strip() == str(os.getpid()) else None)
     seen = load_seen()
     log(f"launch_stream 起動 (poll={POLL}s drain毎{DRAIN_EVERY}周 seen既知{len(seen)})")
     cyc = 0
