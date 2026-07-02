@@ -15,6 +15,7 @@ import json
 import os
 import re
 import time
+import urllib.error
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -29,15 +30,31 @@ CA_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b")
 DEAD_MCAP = 12_000     # 現mcapがこれ未満＝死/フェード(近似)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 MAX_CA = 200           # 1回の lookup 上限(bounded)
+OUTCOME_TTL = 6 * 3600  # alive/unknown を6h毎に再確認(rug追従・transient回復)
+
+
+def _fresh(entry):
+    # dead は終端(track-record目的では固定)。alive/unknown は TTL 内なら再取得しない。
+    if entry.get("outcome") == "dead":
+        return True
+    return (time.time() - entry.get("ts", 0)) < OUTCOME_TTL
 
 
 def pf_mcap(ca):
+    """3-tuple (mcap, complete, transient) を返す。
+    transient=True → timeout/429/5xx 等の一時失敗 → cache しない・次runで再試行。
+    transient=False → 成功 or genuine not-found(404) → cache してよい。
+    """
     try:
         u = f"https://frontend-api-v3.pump.fun/coins/{ca}"
         d = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=10).read())
-        return d.get("usd_market_cap"), bool(d.get("complete"))
+        return d.get("usd_market_cap"), bool(d.get("complete")), False
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, None, False  # genuine not-found(鞍替え/非pump) → cacheしてよい
+        return None, None, True       # 402/429/5xx 等 transient → cacheするな
     except Exception:
-        return None, None
+        return None, None, True       # URLError/timeout/その他 → transient扱い
 
 
 def main():
@@ -66,15 +83,19 @@ def main():
             cache = {}
     looked = 0
     for ca in all_cas:
-        if ca in cache:
+        if ca in cache and _fresh(cache[ca]):
             continue
         if looked >= MAX_CA:
             break
-        mc, comp = pf_mcap(ca)
+        mc, comp, transient = pf_mcap(ca)
+        if transient:
+            looked += 1  # bounded 維持のためカウントは進める。cache には書かない → 次runで再試行
+            time.sleep(0.15)
+            continue
         if mc is None:
-            cache[ca] = {"outcome": "unknown", "mcap": None}  # 鞍替え/old/非pump
+            cache[ca] = {"outcome": "unknown", "mcap": None, "ts": time.time()}  # 鞍替え/old/非pump
         else:
-            cache[ca] = {"outcome": ("dead" if mc < DEAD_MCAP else "alive"), "mcap": round(mc), "graduated": comp}
+            cache[ca] = {"outcome": ("dead" if mc < DEAD_MCAP else "alive"), "mcap": round(mc), "graduated": comp, "ts": time.time()}
         looked += 1
         time.sleep(0.15)
     _tmp = CACHE.with_suffix(".json.tmp")  # atomic(2026-07-02 M2): kill時のtruncated cacheで全キャッシュ喪失を防ぐ
