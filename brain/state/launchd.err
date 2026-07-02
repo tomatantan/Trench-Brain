@@ -1,2 +1,0 @@
-/Users/toma/trench-brain/brain/cron_collect.sh: line 43: 21396 Terminated: 15          nohup /usr/bin/python3 /Users/toma/trench-brain/brain/launch_stream.py >> brain/state/launch_stream.log 2>&1
-/Users/toma/trench-brain/brain/cron_collect.sh: line 47: 22180 Terminated: 15          bash brain/synthesize_backfill.sh
