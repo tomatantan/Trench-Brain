@@ -33,8 +33,11 @@ SYNTH_OUTPUT_PREFIXES = (
 
 def _git(args: list[str]) -> list[str]:
     """git コマンドを ROOT で実行し、出力行リストを返す。失敗時は RuntimeError。"""
+    # -c core.quotepath=false: 非ASCII(日本語)ファイル名を octal-escape(\343\201..)せず生UTF-8で返す。
+    # これが無いと escape表現が実名の~4倍長になり、open時に [Errno 63] File name too long で読めない
+    # (2026-07-02: 日本語長文クエリページで発生。Windowsは"255バイト制限"と誤診したが真因はここ)。
     result = subprocess.run(
-        ["git", "-C", str(ROOT)] + args,
+        ["git", "-C", str(ROOT), "-c", "core.quotepath=false"] + args,
         capture_output=True,
         text=True,
     )
