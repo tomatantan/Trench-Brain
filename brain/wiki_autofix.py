@@ -97,6 +97,14 @@ def classify(
     for file_path, target in occurrences:
         tl = target.lower()
 
+        # $ticker / @handle は auto-repair の対象外。
+        # これらの case/表記ゆれを機械小文字化すると「正しい表示大文字」を破壊し、
+        # macOS の大小文字衝突churn とも絡む。リンク書換えでなくリゾルバ側の別問題として扱う。
+        # → (a)/(b) を素通りして (c)放置(leave) に落とす。
+        if target.startswith(("$", "@")):
+            leave_targets.add(target)
+            continue
+
         # (a) auto-repair: lower が一意に1つの既存 stem に解決でき、かつ target != stem
         if tl in lower_map and len(lower_map[tl]) == 1:
             correct_stem = next(iter(lower_map[tl]))
