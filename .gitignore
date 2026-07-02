@@ -247,3 +247,6 @@ brain/state/watchdog_status.json
 brain/state/x_uid_cache.json
 brain/state/launch_stream.lock
 brain/state/gaps_last_sig.txt
+
+# 複利計のローカル軌跡キャッシュ(git履歴から再計算可能・多host衝突回避)
+brain/state/compounding_history.jsonl
