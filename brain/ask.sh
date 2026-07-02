@@ -99,7 +99,15 @@ if out: print(json.dumps(out, ensure_ascii=False, indent=1))
 PY
 )"
 
+# ★G1/G2: 決定的retrieval(合成済みwikiをBM25で取得)＋実績注入(KOL track record/base-rate)。
+# grep運任せをやめ、脳に「読むべき合成知識」と「誰が本当に当ててるか」をコードで渡す。失敗しても空。
+ASKCTX="$(python3 brain/ask_context.py "$Q" 2>/dev/null)"
+
 PROMPT="$(cat brain/ask_prompt.md)
+${ASKCTX:+
+## ★★決定的に取得した合成知識＋実績（grepより先に これを主根拠にせよ）
+$ASKCTX
+}
 
 ## ★この人(本人)の文脈＝これを前提に「この人のために」考える(A6)
 $(cat brain/user_context.md 2>/dev/null)
