@@ -7,6 +7,7 @@ cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 GAP="brain/state/wiki_gaps.json"
+SIG_FILE="brain/state/gaps_last_sig.txt"
 MODEL="${SYNTH_MODEL:-sonnet}"   # synthesize.sh と同じ変数名・既定値
 
 # wiki_gaps.json が無い場合は skip
@@ -16,6 +17,22 @@ MODEL="${SYNTH_MODEL:-sonnet}"   # synthesize.sh と同じ変数名・既定値
 n=$(python3 -c "import json;d=json.load(open('$GAP'));print(len(d) if isinstance(d,list) else 0)" 2>/dev/null || echo 0)
 if [ "$n" -eq 0 ]; then
   echo "gaps: empty, skip" >> "$LOG"
+  exit 0
+fi
+
+# 署名比較: gap 集合が前回と同じなら skip（既レビュー済・recurring LLMコスト防止）
+current_sig=$(python3 -c "
+import json,hashlib
+d=json.load(open('$GAP'))
+concepts=sorted(x['concept'] for x in d if isinstance(x,dict) and 'concept' in x)
+print(hashlib.md5(','.join(concepts).encode()).hexdigest())
+" 2>/dev/null || echo "")
+
+prev_sig=""
+[ -f "$SIG_FILE" ] && prev_sig=$(cat "$SIG_FILE" 2>/dev/null || echo "")
+
+if [ -n "$current_sig" ] && [ "$current_sig" = "$prev_sig" ]; then
+  echo "gaps: unchanged since last run, skip" >> "$LOG"
   exit 0
 fi
 
@@ -32,5 +49,5 @@ fi
 # (2026-06-23 フラッピング原因特定)。gap解決はファイル読み書きのみで telegram不要。
 claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$(cat brain/gap_prompt.md)" >> "$LOG" 2>&1 \
-  && echo "gaps: done" >> "$LOG" \
+  && { echo "gaps: done" >> "$LOG"; [ -n "$current_sig" ] && echo "$current_sig" > "$SIG_FILE"; } \
   || echo "gaps: claude error(queue保持)" >> "$LOG"
