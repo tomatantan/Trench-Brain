@@ -40,24 +40,27 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Collect new tweets (watchlist-gated / free ladder)
+      - name: Collect new tweets (watchlist-gated / hybrid ladder)
         env:
-          # graphql 無料経路の cookie（捨てアカ推奨）。未設定なら syndication のみ試行。
+          # graphql 無料経路の cookie（捨てアカ推奨）。主= graphql/syndication。
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
           # queryId が陳腐化した時の差し替え口（未設定ならコード内default）
           X_QID_USER: ${{ secrets.X_QID_USER }}
           X_QID_TWEETS: ${{ secrets.X_QID_TWEETS }}
-          # 有償は明示dispatch時のみ渡す
-          TWITTERAPI_KEY: ${{ inputs.use_paid && secrets.TWITTERAPI_KEY || '' }}
+          # ★ハイブリッド(C): 有料keyを常時渡す＝auto梯子が無料全滅時のみ自動fallback。
+          #   定常は無料で$0、無料が死んだ時だけ課金＝実支出最小。残高切れ(402)時も止まらない様
+          #   通知は下の failure step で。
+          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
         run: |
           if [ "${{ inputs.use_paid }}" = "true" ]; then
-            echo "::warning::有償 twitterapi.io を使用（手動指定）"
+            echo "::warning::有償 twitterapi.io を明示使用（手動指定）"
             python3 collector/collect.py --source twitterapi --throttle 0.3
           else
+            # auto = ハイブリッド梯子（syndication→graphql→(無料全滅時)twitterapi）
             python3 collector/collect.py --source auto --throttle 0.3
           fi
-        # exit 2（無料全滅/収集ゼロ）はここで job を失敗させ、下の notify を発火させる。
+        # exit 2（無料も有料も全滅＝真の収集ゼロ）でのみ job 失敗→下の notify 発火。
 
       - name: Commit & push new sources
         if: success()

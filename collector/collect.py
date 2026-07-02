@@ -451,13 +451,20 @@ def main():
         res = probe_backends(handles[0])
         source = next((b for b in FREE_LADDER if res.get(b, (False,))[0]), None)
         if not source:
-            print("★ 無料経路が全滅（syndication/graphql とも死）。収集は行われない。\n"
-                  "  → graphql は .env X_AUTH_TOKEN/X_CT0(捨てアカcookie) 投入で復活しうる。\n"
-                  "  → 有償に落とすなら手動: --source twitterapi（自動では課金しない）",
-                  file=sys.stderr)
-            write_health("none", 0, 0, len(handles), len(handles))
-            return 2
-        print(f"ladder: {source} を使用")
+            # ハイブリッド(C・2026-07-02): 無料が全滅したら、TWITTERAPI_KEY があれば有料に自動fallback
+            # ＝定常は$0(free)、無料が死んだ時だけ課金＝実支出最小で収集は止めない(false-green も出さない)。
+            if os.environ.get("TWITTERAPI_KEY"):
+                source = "twitterapi"
+                print("ladder: 無料経路全滅→有料 twitterapi に自動fallback（ハイブリッド保険）", file=sys.stderr)
+            else:
+                print("★ 無料経路が全滅（syndication/graphql とも死）かつ TWITTERAPI_KEY 無し＝収集不可。\n"
+                      "  → graphql は .env X_AUTH_TOKEN/X_CT0(捨てアカcookie) 投入で復活。\n"
+                      "  → 有料保険を効かせるなら TWITTERAPI_KEY を設定（残高があれば自動fallback）。",
+                      file=sys.stderr)
+                write_health("none", 0, 0, len(handles), len(handles))
+                return 2
+        else:
+            print(f"ladder: {source} を使用")
 
     key = os.environ.get("TWITTERAPI_KEY", "")
     if source == "twitterapi" and not key:
