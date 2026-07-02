@@ -2,6 +2,7 @@
 type: query
 title: なんでlow capをチェックすると危険しか言わないの？low capは卒業もしてないし、流動性も低いんだからそこで評価したらリスクとしか判定できないと思う。
 created: 2026-06-24
+updated: 2026-06-24
 asked: 2026-06-24T14:41:00Z
 via: /wiki
 tags: [trench, query]

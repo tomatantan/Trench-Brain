@@ -2,6 +2,7 @@
 type: query
 title: この数日のBTCとSOLのチャートの動きを見て、SOLはベアマーケットを脱却したと思う？
 created: 2026-06-28
+updated: 2026-06-28
 asked: 2026-06-28T01:51:08Z
 via: /wiki
 tags: [trench, query]

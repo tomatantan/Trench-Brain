@@ -61,7 +61,7 @@ SYN_START = "<!-- synthesis:start -->"
 SYN_END = "<!-- synthesis:end -->"
 SYN_DEFAULT = (
     f"{SYN_START}\n## 合成メモ（synthesis / エージェント記述）\n"
-    "_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連 [[concepts]] へリンクする）_\n"
+    "_（未記入。エージェントがingest時に物語/動線/⚠️矛盾/賭け仮説を追記し、関連する concept ページへリンクする）_\n"
     f"{SYN_END}"
 )
 
@@ -138,7 +138,7 @@ def main():
             f"mentions: {len(notes_)}", f"accounts: {len(accts)}", "---", "",
             f"# {tk}", "",
             f"> 自動生成(brain/build_entities.py)。言及 {len(notes_)}件 / {len(accts)}アカ。",
-            "事実=この自動集約 / 判断=下の合成メモ＋関連 [[concepts]]。", "",
+            "事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。", "",
             "## 言及アカウント", " ".join(f"[[@{a}]]" for a in accts), "",
             "## 共起トークン", " ".join(cooc) or "—", "",
             "## 高エンゲージ言及",

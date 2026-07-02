@@ -92,6 +92,55 @@ def _r3():
         return "WARN", "health.jsonl 末尾parse不可"
 
 
+@check("R3d", "指針2/3 収集入口の鮮度", "X収集の入口が生きてる＝sources/x が凍結してない(2026-06-26 twitterapi 402 が5日半 false-green だった盲点を塞ぐ)")
+def _r3d():
+    # signal_backlog(R3)はコーパス内の未合成しか見ない→入口(収集)が死んでも健康に見えた。
+    # ここは「入口の鮮度」を独立に測る。①collect_health.json(収集run記録)が第一級ソース。
+    # ②無ければ sources/x の最新 created を snowflake tweet_id 上位からサンプルして推定。
+    import time as _t
+    FRESH_H = 12  # 3h cron が4回連続で新規ゼロ=異常
+    hf = ROOT / "brain" / "state" / "collect_health.json"
+    if hf.exists():
+        try:
+            h = json.loads(hf.read_text(encoding="utf-8"))
+            from datetime import datetime, timezone
+            ts = datetime.strptime(h["ts"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            age_h = (_t.time() - ts.timestamp()) / 3600
+            ok = bool(h.get("ok")) and age_h <= FRESH_H
+            return ("PASS" if ok else "FAIL"), (
+                f"collect_health {age_h:.1f}h前 backend={h.get('backend')} "
+                f"new={h.get('new')} err={h.get('errors')}/{h.get('accounts')}"
+                f"{'' if ok else ' ＝収集停止/古い'}")
+        except Exception as e:
+            return "WARN", f"collect_health.json parse不可({e})"
+    # フォールバック: 最新 tweet_id(snowflake=時刻単調)上位の created を見る
+    sdir = ROOT / "sources" / "x"
+    if not sdir.exists():
+        return "WARN", "sources/x 無し"
+    def _tid(p):
+        try:
+            return int(p.stem.split("__")[-1])
+        except Exception:
+            return 0
+    files = sorted(sdir.glob("*.md"), key=_tid, reverse=True)[:5]
+    newest = ""
+    for p in files:
+        for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+            if ln.startswith("created:"):
+                newest = max(newest, ln.split(":", 1)[1].strip()); break
+    if not newest:
+        return "WARN", "created 読めず"
+    try:
+        from datetime import datetime, timezone
+        age_h = (_t.time() - datetime.strptime(newest, "%Y-%m-%dT%H:%M:%SZ")
+                 .replace(tzinfo=timezone.utc).timestamp()) / 3600
+        return ("PASS" if age_h <= FRESH_H else "FAIL"), (
+            f"最新tweet {age_h:.1f}h前({newest}){'＝収集停止疑い' if age_h > FRESH_H else ''}"
+            " [collect_health.json未生成→tweet鮮度で代替]")
+    except Exception:
+        return "WARN", f"created parse不可({newest})"
+
+
 @check("R7", "指針7", "全ページを wikilink で接続＝孤立ページが無い")
 def _r7():
     cdir = ROOT / "wiki" / "concepts"
