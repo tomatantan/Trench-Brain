@@ -117,8 +117,14 @@ def rugcheck(mint):
     }
 
 
-# CA(mint)が sources/x に出てるか= KOL言及(③)。直近ファイルだけ走査(安価)。
-_kol_cache = {"t": 0, "text": ""}
+# KOL言及検出(③)。直近ファイルだけ走査(安価・5分キャッシュ)。
+# ★修正(2026-07-02): 以前は「CA文字列が本文にあるか」だけ＝KOLはCAでなく$tickerで呟くので
+#   ほぼhitせず kol_standouts が常に空だった(ノイズmoverに落ちる根因)。$ticker一致も拾う。
+_kol_cache = {"t": 0, "text": "", "tickers": set()}
+# major/汎用ticker＝言及されても「KOLが魔界のgemを見つけた」信号でないので除外(誤検出源)。
+COMMON_TICKERS = {"BTC", "ETH", "SOL", "USDC", "USDT", "BNB", "XRP", "DOGE", "ADA",
+                  "WSOL", "WETH", "WBTC", "USD", "SPX", "GOLD"}
+
 def kol_blob():
     now = time.time()
     if now - _kol_cache["t"] > 300:  # 5分キャッシュ
@@ -129,9 +135,25 @@ def kol_blob():
                 buf.append(p.read_text(encoding="utf-8", errors="replace"))
             except Exception:
                 pass
-        _kol_cache["text"] = "\n".join(buf)
+        text = "\n".join(buf)
+        _kol_cache["text"] = text
+        # $ticker を抽出して set 化＝トークン毎の照合を O(1) に(regex全走査を回避)
+        _kol_cache["tickers"] = {m.upper() for m in re.findall(r"\$([A-Za-z][A-Za-z0-9_]{1,14})", text)}
         _kol_cache["t"] = now
     return _kol_cache["text"]
+
+
+def kol_mentioned(c):
+    """KOLが今この銘柄に触れてるか。(a)CA文字列一致 (b)$ticker一致。
+    ★ticker一致はpump.fun上でsymbol重複があり得る近似だが、空(=ノイズ落ち)より遥かに有用。"""
+    kol_blob()  # cache更新
+    mint = c.get("mint")
+    if mint and mint in _kol_cache["text"]:
+        return True
+    sym = (c.get("symbol") or "").strip().upper()
+    if sym and len(sym) >= 3 and sym not in COMMON_TICKERS and sym in _kol_cache["tickers"]:
+        return True
+    return False
 
 
 # ★"わかりやすいscam"だけ弾く(本人2026-06-23): freeze/mint authority・honeypot/売れない・creator-rug履歴。
@@ -142,8 +164,7 @@ CLEAR_SCAM_KEYS = ("honeypot", "freeze", "cannot sell", "can't sell", "transfer 
 def sieve(c, rc, dup_count=0):
     """scam門=明白なやつだけ。freeze/mint authority・honeypot・creator-rug・copycat を弾く。
     返り=(passed:bool, reason:str, kol:bool)。"""
-    mint = c.get("mint")
-    kol = mint in kol_blob() if mint else False
+    kol = kol_mentioned(c)
     if rc is None:
         return (False, "rugcheck-none", kol)
     if rc["rugged"]:
