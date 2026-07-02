@@ -181,7 +181,10 @@ def main():
     # concept候補: 閾値超え & 鮮度(48h)生存 & まだどのconceptにも未登場
     cand = []
     for tk, _n, h48, hacc in hot:
-        if tk_notes[tk] >= MIN_NOTES and hacc >= MIN_ACCOUNTS and tk not in ctext:
+        # 語境界照合(2026-07-02 M8): `tk not in ctext` は部分一致で、concept に [[$AIXBT]] があると
+        # $AI が永久にconcept候補から抑制される(silent false-negative)。末尾\bで語として一致する時だけ既出扱い。
+        already = re.search(re.escape(tk) + r"\b", ctext)
+        if tk_notes[tk] >= MIN_NOTES and hacc >= MIN_ACCOUNTS and not already:
             cand.append(f"- [[{tk}]]（48h {h48}件/{hacc}アカ・総{tk_notes[tk]}）まだconcept無し → 動線/型を検討")
 
     pl_rows = [f"| [[@{h}]] | {n} |" for h, n in pl_new.most_common(15)]

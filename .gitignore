@@ -239,3 +239,9 @@ brain/state/launch_synth.log
 brain/state/launch_stream.log
 brain/state/conformance.log
 ca_outcome_cache.json
+brain/state/launchd.err
+brain/state/launchd.out
+brain/state/live_pulse.json
+brain/state/watchdog_status.json
+brain/state/collect_health.json
+brain/state/x_uid_cache.json
