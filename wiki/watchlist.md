@@ -205,36 +205,105 @@ weight = 合成優先度の目安(高ほど深いconcept合成に回しやすい
 | [[@armaniferrante]] | Armani | Backpack 共同創業・RWA/tokenized株($SPCX系) | 中 |
 > ↑ signal_backlog を見ながら段階追加（一括でなく＝合成が追いつくレート維持・芯）。次枠は backlog が bounded を確認してから。
 
+## 自動拡張から承認（2026-07-02・引用グラフ＝"調べる人を増やす"・本人directive）
+引用グラフで watchlist の複数アカが繰り返し言及してた実在の人/トレーダー/思考発信者を承認（org/取引所/protocol/政府/メディアは除外＝mind-modelにならない）。強者だけでなく多様な声・別クラスタ・日本trench系も含め、**矛盾の表面積を広げる**（echo-chamber対策）。次サイクルから収集開始。⚠️=未実在確認(収集時fxtwitterで確認)。
+
+| handle | メモ | weight |
+|---|---|---|
+| [[@naval]] | Naval・思想/first-principles ⚠️ | 中 |
+| [[@nic_carter]] | Nic Carter・BTC/データ論客 ⚠️ | 中 |
+| [[@ErikVoorhees]] | Erik Voorhees・libertarian/思想 ⚠️ | 中 |
+| [[@tayvano_]] | Tay・セキュリティ/on-chain forensics ⚠️ | 中 |
+| [[@imperooterxbt]] | imperooter・trader ⚠️ | 中 |
+| [[@buffalu__]] | buffalu・trench trader ⚠️ | 中 |
+| [[@HardhatChad]] | HardhatChad・on-chain/dev視点 ⚠️ | 中 |
+| [[@LarpVonTrier]] | LarpVonTrier・trench ⚠️ | 中 |
+| [[@tulipking]] | tulipking・trader ⚠️ | 中 |
+| [[@_Shadow36]] | Shadow・trader ⚠️ | 中 |
+| [[@vibhu]] | vibhu ⚠️ | 中 |
+| [[@minnus]] | minnus・trader ⚠️ | 中 |
+| [[@remusofmars]] | remus・trader ⚠️ | 中 |
+| [[@Adam_Tehc]] | Adam ⚠️ | 中 |
+| [[@SenshiNeo7]] | Senshi・trench ⚠️ | 中 |
+| [[@tushar_jain]] | Tushar Jain・Multicoin ⚠️ | 中 |
+| [[@ilblackdragon]] | Illia・NEAR創業/AI ⚠️ | 中 |
+| [[@adietrichs]] | Ansgar・ETH researcher ⚠️ | 中 |
+| [[@vnovakovski]] | trader ⚠️ | 中 |
+| [[@seyong]] | seyong ⚠️ | 中 |
+| [[@fibonacki]] | fibonacki・trader ⚠️ | 中 |
+| [[@poe_real69]] | poe・trench ⚠️ | 中 |
+| [[@solangelestv]] | trench ⚠️ | 中 |
+| [[@ichikawa_zoo]] | 日本trench ⚠️ | 中 |
+| [[@MCGlive]] | trench ⚠️ | 中 |
+| [[@PlayKintara]] | 日本trench ⚠️ | 中 |
+| [[@the_defi_report]] | DeFi research ⚠️ | 中 |
+| [[@aerugoettinea]] | 日本trench ⚠️ | 中 |
+
 <!-- auto-candidates:start -->
 ## 自動拡張候補（引用グラフ・要承認 / `expand_watchlist.py` 自動生成）
-watchlist の **3アカ以上**が言及した未収集アカ＝門に足す候補（指針2: 繰り返し引用＝KOL言及門）。
+watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候補（指針2: 繰り返し引用＝KOL言及門）。
 **承認のしかた**: 良いものを上の watchlist 本体に `[[@handle]]` で足すだけ→次サイクルから収集開始。
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @VitalikButerin | 8 | 9 |
-| @HyperliquidX | 7 | 8 |
-| @phantom | 7 | 7 |
-| @pumpdotfun | 5 | 17 |
-| @base | 5 | 12 |
-| @ethlabs_org | 5 | 9 |
-| @zksync | 5 | 5 |
-| @mert | 4 | 17 |
-| @armaniferrante | 4 | 10 |
-| @Backpack | 4 | 10 |
-| @fundstrat | 4 | 8 |
-| @ilblackdragon | 4 | 7 |
-| @tayvano_ | 4 | 6 |
+| @fomo | 11 | 18 |
+| @based16z | 5 | 7 |
+| @OndoFinance | 4 | 6 |
+| @BitMNR | 4 | 6 |
+| @solanamobile | 4 | 5 |
 | @NEARProtocol | 4 | 4 |
-| @POTUS | 3 | 10 |
+| @Starlink | 3 | 27 |
+| @POTUS | 3 | 18 |
 | @CFTC | 3 | 10 |
-| @vibhu | 3 | 7 |
-| @re | 3 | 6 |
-| @naval | 3 | 6 |
-| @realDonaldTrump | 3 | 5 |
-| @Polymarket | 3 | 5 |
-| @solangelestv | 3 | 4 |
-| @Strategy | 3 | 4 |
-| @PlayKintara | 3 | 4 |
-| @Optimism | 3 | 4 |
+| @worldlibertyfi | 3 | 7 |
+| @realDonaldTrump | 3 | 7 |
+| @Lighter_xyz | 3 | 7 |
+| @Aster_DEX | 3 | 7 |
+| @CoinDesk | 3 | 6 |
+| @chainlink | 3 | 5 |
+| @MarketBubble | 3 | 5 |
+| @vladtenev | 3 | 4 |
+| @onrefinance | 3 | 4 |
+| @coinbureau | 3 | 4 |
+| @circle | 3 | 4 |
+| @a16z | 3 | 4 |
+| @TradingTerminal | 3 | 4 |
+| @OpenAI | 3 | 4 |
+| @Jebus | 3 | 4 |
+| @DavidSacks | 3 | 4 |
+| @CoinbaseDev | 3 | 4 |
+| @AskVenice | 3 | 4 |
+| @Argentina | 3 | 4 |
+| @Arcium | 3 | 4 |
+| @AnthropicAI | 3 | 4 |
+| @zachxbt | 3 | 3 |
+| @usv | 3 | 3 |
+| @theallinpod | 3 | 3 |
+| @taikoxyz | 3 | 3 |
+| @scottmelker | 3 | 3 |
+| @rektmando | 3 | 3 |
+| @notch | 3 | 3 |
+| @mattytay | 3 | 3 |
+| @krakenfx | 3 | 3 |
+| @json1444 | 3 | 3 |
+| @hwwonx | 3 | 3 |
+| @grvt_io | 3 | 3 |
+| @cremieuxrecueil | 3 | 3 |
+| @cavemanloverboy | 3 | 3 |
+| @benjitaylor | 3 | 3 |
+| @benchmark | 3 | 3 |
+| @_TJRTrades | 3 | 3 |
+| @Zai_org | 3 | 3 |
+| @ThinkingUSD | 3 | 3 |
+| @SuperteamJapan | 3 | 3 |
+| @SOU_BTC | 3 | 3 |
+| @OnlyLJC | 3 | 3 |
+| @MaelstromFund | 3 | 3 |
+| @Kunallegendd | 3 | 3 |
+| @JDVance | 3 | 3 |
+| @IndexVentures | 3 | 3 |
+| @DegenerateNews | 3 | 3 |
+| @Cointelegraph | 3 | 3 |
+| @Bybit_Official | 3 | 3 |
+| @AzFlin | 3 | 3 |
 <!-- auto-candidates:end -->

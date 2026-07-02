@@ -21,12 +21,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "sources" / "x"
 WL = ROOT / "wiki" / "watchlist.md"
-MIN_CITERS = 3          # watchlistの何アカ以上が言及してたら候補にするか(KOL言及門)
-TOPN = 25
+MIN_CITERS = 2          # watchlistの何アカ以上が言及してたら候補にするか(KOL言及門)。
+                        # ★2に緩和(本人2026-07-02「調べる人をめちゃくちゃ増やせ」)＝矛盾の表面積を広げる。
+TOPN = 60
 START = "<!-- auto-candidates:start -->"
 END = "<!-- auto-candidates:end -->"
-# 明らかに"追う対象でない"ノイズ(取引所固有/イベント/本人不在等)は候補から外す簡易フィルタ
-NOISE = {"sbf_ftx", "fifaworldcup", "ftx_official"}
+# ★"人の思考をモデル化する"目的にはorg/app/chain/exchangeは不要(ノイズ)＝候補から外す。
+#   目的は KOL/トレーダーの脳。プロダクト告知フィードは要らない(mind-modelにならない)。
+NOISE = {"sbf_ftx", "fifaworldcup", "ftx_official",
+         # exchange/wallet/app/chain/protocol(＝人でなくorg)
+         "phantom", "backpack", "robinhoodapp", "polymarket", "kalshi", "base",
+         "zksync", "avax", "optimism", "strategy", "world_xyz", "ethlabs_org",
+         "ethereumfndn", "sunrisedefi", "coinbase", "binance", "solana", "ethereum",
+         "uniswap", "jupiterexchange", "raydiumprotocol", "pumpdotfun", "bullx_io",
+         "photonsol", "axiomexchange", "gmgnai", "dexscreener", "birdeye_so", "re"}
 HANDLE_RE = re.compile(r"\[\[@([A-Za-z0-9_]{2,15})\]\]")
 MENTION_RE = re.compile(r"(?<![A-Za-z0-9_/])@([A-Za-z0-9_]{2,15})\b")
 
