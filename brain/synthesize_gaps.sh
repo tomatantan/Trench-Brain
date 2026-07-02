@@ -6,6 +6,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
+# ハング防止: timeout があれば claude を上限付きで実行(WSL=有り / macは gtimeout or 無し)。無ければそのまま。
+TIMEOUT_BIN="$(command -v timeout || command -v gtimeout || true)"
+SYNTH_TIMEOUT="${SYNTH_TIMEOUT:-900}"   # 秒。合成は通常1-4分・900s(15分)で"ハング"と判断
 GAP="brain/state/wiki_gaps.json"
 SIG_FILE="brain/state/gaps_last_sig.txt"
 MODEL="${SYNTH_MODEL:-sonnet}"   # synthesize.sh と同じ変数名・既定値
@@ -47,7 +50,7 @@ fi
 # グローバル有効の telegram プラグインの poller を起動し、getUpdates は1トークン
 # 1ポーラー仕様なので本人のチャンネル poller を SIGTERM で乗っ取って切断する
 # (2026-06-23 フラッピング原因特定)。gap解決はファイル読み書きのみで telegram不要。
-claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
+${TIMEOUT_BIN:+$TIMEOUT_BIN $SYNTH_TIMEOUT} claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$(cat brain/gap_prompt.md)" >> "$LOG" 2>&1 \
   && { echo "gaps: done" >> "$LOG"; [ -n "$current_sig" ] && echo "$current_sig" > "$SIG_FILE"; } \
   || echo "gaps: claude error(queue保持)" >> "$LOG"
