@@ -244,6 +244,5 @@ brain/state/launchd.err
 brain/state/launchd.out
 brain/state/live_pulse.json
 brain/state/watchdog_status.json
-brain/state/collect_health.json
 brain/state/x_uid_cache.json
 brain/state/launch_stream.lock
