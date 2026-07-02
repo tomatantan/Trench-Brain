@@ -77,7 +77,9 @@ def main():
             cache[ca] = {"outcome": ("dead" if mc < DEAD_MCAP else "alive"), "mcap": round(mc), "graduated": comp}
         looked += 1
         time.sleep(0.15)
-    CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    _tmp = CACHE.with_suffix(".json.tmp")  # atomic(2026-07-02 M2): kill時のtruncated cacheで全キャッシュ喪失を防ぐ
+    _tmp.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    os.replace(_tmp, CACHE)
 
     # 3) per-KOL hit-rate
     recs = {}

@@ -18,6 +18,7 @@ metric source: frontend-api-v3.pump.fun（無料・keyless） / DexScreener（gr
       / synth_queue.json（エージェントが合成すべき 誕生/変化/死）。
 """
 import json
+import os
 import re
 import sys
 import time
@@ -68,7 +69,11 @@ def load_json(p, default):
 
 def save_json(p, obj):
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    # atomic書込み: 非atomic(truncate→write)だと、書込み中にreaderが partial file を
+    # json.loads して JSONDecodeError で落ちる(predictive_study/feedback等)。temp→os.replace で不可分化(2026-07-02 M2)。
+    tmp = p.with_suffix(p.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, p)
 
 
 def _get(url):

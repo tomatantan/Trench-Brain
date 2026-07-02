@@ -30,7 +30,10 @@ def rate(dead, total):
 def main():
     if not TRACKED.exists():
         return
-    d = json.loads(TRACKED.read_text(encoding="utf-8"))
+    try:
+        d = json.loads(TRACKED.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return   # 2026-07-02 M2: 書込み中の partial file を掴んでも落ちない(predictive_studyとguard統一)
     items = d if isinstance(d, list) else list(d.values())
     dead = [x for x in items if x.get("status") == "dead"]
     alive = [x for x in items if x.get("status") == "tracked"]  # pending(未決着)
