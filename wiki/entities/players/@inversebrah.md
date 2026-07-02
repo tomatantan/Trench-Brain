@@ -4,12 +4,12 @@ kind: player
 title: @inversebrah
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 99
+posts: 101
 ---
 
 # @inversebrah
 
-> 自動生成。信号投稿 99件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 101件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,6 +18,7 @@ posts: 99
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 151 |  | had to be smolchained :3 | [[inversebrah__2068978090362143123]] |
+| 139 |  | underappreciated GIGABANGER   smolchained | [[inversebrah__2072573781378478510]] |
 | 134 |  | underappreciated gigabanger   smolchained | [[inversebrah__2069056871659618317]] |
 | 97 |  | its picking up | [[inversebrah__2069974117030461650]] |
 | 75 |  | plz plz plz can we haz | [[inversebrah__2069913788397371565]] |
@@ -26,7 +27,6 @@ posts: 99
 | 66 |  | the new beeple tho | [[inversebrah__2069029430966866389]] |
 | 66 |  | (green is bitcoin) | [[inversebrah__2070180844967432302]] |
 | 65 |  | final days of q2 2026 | [[inversebrah__2068836841281982670]] |
-| 64 |  | tf is wrong with dis planet | [[inversebrah__2069767292746146136]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

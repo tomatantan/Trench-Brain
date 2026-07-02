@@ -4,13 +4,13 @@ kind: token
 title: $TRIPLET
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 15
+mentions: 17
 accounts: 4
 ---
 
 # $TRIPLET
 
-> 自動生成(brain/build_entities.py)。言及 15件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 17件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -30,8 +30,8 @@ accounts: 4
 | 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 136 | [[@dxrnell]] | New ATH on my $TripleT | [[dxrnell__2072268946712281378]] |
 | 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 117 | [[@Crypto_Alch]] | How $TripleT looking this morning   Gas it | [[crypto_alch__2072602281019686922]] |
 | 108 | [[@PumpfunEco]] | A $TripleT whale is currently holding a $221,000 bag 🔥 | [[pumpfuneco__2072440460140777475]] |
-| 105 | [[@Crypto_Alch]] | $TripleT prediction coming to light   There’s only problem you’ll have is that you d | [[crypto_alch__2070095384798454114]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）
@@ -77,4 +77,11 @@ accounts: 4
 - 総括: **アカウント数は2→3に増えたが、質的には"独立確認"でなく"保有者2人の相互強化"に近い**。signal強度の格上げには慎重であるべき。confidence=低（据え置き）。⚠️ 単一whale集中（$221K）＋保有者自身によるFOMO誘導レトリック。[[onchain-verification]] でのholder分布精査が引き続き必要。
 
 関連: [[launchpad-economics]] [[rug-anatomy]] [[manipulation-playbook]] [[onchain-verification]] [[$KINS]]
+
+### 2026-07-02 確認②（Crypto_Alch「Gas it」/ PumpfunEco「+23%」・継続確認）
+出典: [[crypto_alch__2072602281019686922]]（117♥・2026-07-02T08:44Z）/ [[pumpfuneco__2072617863433642275]]（26♥・2026-07-02T09:46Z）
+
+- [[@Crypto_Alch]]（117♥）: 「How $TripleT looking this morning. Gas it」= 朝一番のショートシル。前サイクル「Balls are tingly」（167♥・ATH 予告）と同型の感情的レトリック（「Gas it」= 買え・上がれ）。自己保有者による rally 祈願。
+- [[@PumpfunEco]]（26♥）: 「$TripleT is rallying, up 23% past 6 hours 👀」= 価格動向 bot 的投稿。前サイクル（+44%, +34%, +21%, +23% 連続）と同じフォーマットの継続。
+- **継続確認**: 既存合成「Crypto_Alch（保有公言・FOMO誘導）+ PumpfunEco（価格 bot）の2源構造」に変化なし。独立 KOL の客観的追認は今サイクルも確認されず。朝一の Crypto_Alch 投稿（117♥）が直近の最高エンゲージだが、前サイクル同時刻比（167♥・153♥）より低下傾向——attention が維持されているかどうかの監視点。confidence=低（維持）。⚠️ holder 集中・単一 whale $221K（前サイクル）・[[onchain-verification]] 未完。
 <!-- synthesis:end -->

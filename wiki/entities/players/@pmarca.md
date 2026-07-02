@@ -4,12 +4,12 @@ kind: player
 title: @pmarca
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 61
+posts: 64
 ---
 
 # @pmarca
 
-> 自動生成。信号投稿 61件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 64件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

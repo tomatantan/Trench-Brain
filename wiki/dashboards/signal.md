@@ -7,68 +7,68 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 12220 件 → ノイズ(RT/短文/中身なし)除外後 **8951 件**が信号。
+生ツイ 12382 件 → ノイズ(RT/短文/中身なし)除外後 **9063 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
-| $BTC | 176 | 22 | ?, Bankless, BinanceUS, CoinMarketCap, CredibleCrypto, CryptoHayes |
-| $ETH | 167 | 20 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
-| $SOL | 54 | 12 | ?, CryptoHayes, DefiIgnas, RookieXBT, TrustlessState, blknoiz06 |
+| $BTC | 179 | 22 | ?, Bankless, BinanceUS, CoinMarketCap, CredibleCrypto, CryptoHayes |
+| $ETH | 170 | 20 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
+| $SOL | 55 | 12 | ?, CryptoHayes, DefiIgnas, RookieXBT, TrustlessState, blknoiz06 |
 | $HYPE | 42 | 14 | ?, CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT |
-| $SPCX | 39 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
-| $STRC | 38 | 10 | Bankless, CredibleCrypto, CryptoKaleo, TrustlessState, coingecko, coinkeiba |
+| $SPCX | 40 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
+| $STRC | 39 | 10 | Bankless, CredibleCrypto, CryptoKaleo, TrustlessState, coingecko, coinkeiba |
 | $MASK | 37 | 1 | spyzer |
 | $CLUTCH | 36 | 1 | Clutch_FIFA2026 |
 | $PUMPI | 31 | 1 | pumpilians_ |
 | $USDC | 30 | 5 | BinanceUS, DefiIgnas, cryptocom, lookonchain, rajgokal |
 | $KINS | 29 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
+| $MSTR | 29 | 6 | AdimsSHOGUN, Bankless, CredibleCrypto, CryptoKaleo, saylor, theunipcs |
 | $WOJAK | 29 | 6 | ?, BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
 | $JOTCHUA | 28 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
-| $MSTR | 28 | 6 | AdimsSHOGUN, Bankless, CredibleCrypto, CryptoKaleo, saylor, theunipcs |
+| $MU | 28 | 9 | AdimsSHOGUN, DEG_2020, DefiIgnas, MEXC, WatcherGuru, blknoiz06 |
 | $ASTEROID | 27 | 2 | Crypto_Alch, solbrdl |
-| $MU | 27 | 8 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
-| $USELESS | 25 | 2 | Crypto_Alch, theunipcs |
+| $USELESS | 26 | 2 | Crypto_Alch, theunipcs |
 | $PEPE | 25 | 6 | ?, lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
 | $MERLIN | 22 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |
 | $BONK | 19 | 3 | lookonchain, rajgokal, theunipcs |
 | $USDT | 19 | 3 | BinanceUS, MEXC, lookonchain |
 | $KINTON | 18 | 2 | JPY_TO_Crypto, xvwmuca |
+| $TRIPLET | 17 | 4 | Crypto_Alch, PumpfunEco, dxrnell, xvwmuca |
 | $FARTCOIN | 17 | 3 | PumpfunEco, lookonchain, theunipcs |
 | $ANSEM | 17 | 13 | CredibleCrypto, DefiIgnas, Ministerr, PumpfunEco, arkham, bull_bnb |
 | $THREE | 16 | 2 | Crypto_Alch, PumpfunEco |
 | $DOGE | 16 | 7 | ?, RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher |
 | $WIF | 16 | 7 | ?, DefiIgnas, badattrading_, blknoiz06, lookonchain, solbrdl |
 | $YAJUCOIN | 16 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
-| $TRIPLET | 15 | 4 | Crypto_Alch, PumpfunEco, dxrnell, xvwmuca |
 | $TRUMP | 15 | 8 | ?, DefiIgnas, arkham, blknoiz06, frankdegods, lookonchain |
 
 ## 活発なアカウント（信号込み投稿数 / 累計いいね）
 
 | account | 投稿数 | 累計likes |
 |---|---|---|
-| [[@MarioNawfal]] | 519 | 158,906 |
-| [[@noritaka_okabe]] | 374 | 292,418 |
-| [[@inversebrah]] | 316 | 287,819 |
-| [[@blknoiz06]] | 312 | 932,005 |
-| [[@badattrading_]] | 310 | 17,756 |
+| [[@MarioNawfal]] | 539 | 160,778 |
+| [[@noritaka_okabe]] | 394 | 292,642 |
+| [[@badattrading_]] | 330 | 18,325 |
+| [[@inversebrah]] | 325 | 288,309 |
+| [[@blknoiz06]] | 318 | 937,366 |
 | [[@laurashin]] | 244 | 146,900 |
-| [[@CoinMarketCap]] | 225 | 39,072 |
-| [[@DEG_2020]] | 209 | 11,110 |
+| [[@CoinMarketCap]] | 236 | 40,377 |
+| [[@DEG_2020]] | 220 | 11,457 |
 | [[@elonmusk]] | 198 | 2,770,386 |
-| [[@lookonchain]] | 186 | 266,905 |
+| [[@lookonchain]] | 189 | 267,294 |
 | [[@WhiteHouse]] | 183 | 1,158,066 |
-| [[@DefiIgnas]] | 173 | 126,873 |
-| [[@Ministerr]] | 171 | 304,168 |
-| [[@milesdeutscher]] | 167 | 580,780 |
-| [[@CryptoHayes]] | 167 | 399,490 |
+| [[@DefiIgnas]] | 174 | 126,903 |
+| [[@Ministerr]] | 172 | 304,239 |
+| [[@milesdeutscher]] | 168 | 580,903 |
+| [[@CryptoHayes]] | 168 | 399,632 |
+| [[@ren_Nevermind]] | 167 | 618,909 |
 | [[@KyleSamani]] | 165 | 95,419 |
 | [[@frankdegods]] | 161 | 366,775 |
-| [[@ren_Nevermind]] | 158 | 616,302 |
+| [[@theunipcs]] | 156 | 227,506 |
 | [[@CryptoKaleo]] | 156 | 21,143 |
-| [[@theunipcs]] | 155 | 227,361 |
 | [[@hosseeb]] | 153 | 278,023 |
 | [[@ShapeFN_]] | 151 | 352,892 |
 | [[@Lightspeedpodhq]] | 149 | 13,592 |

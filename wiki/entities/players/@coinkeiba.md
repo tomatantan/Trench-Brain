@@ -4,12 +4,12 @@ kind: player
 title: @coinkeiba
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 58
+posts: 59
 ---
 
 # @coinkeiba
 
-> 自動生成。信号投稿 58件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 59件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$SPCX]](2) [[$TSLA]](1) [[$STRC]](1) [[$HYPE]](1) [[$SOL]](1) [[$BP]](1)

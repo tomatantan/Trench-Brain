@@ -4,20 +4,20 @@ kind: token
 title: $SPCX
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 39
+mentions: 40
 accounts: 18
 ---
 
 # $SPCX
 
-> 自動生成(brain/build_entities.py)。言及 39件 / 18アカ。
+> 自動生成(brain/build_entities.py)。言及 40件 / 18アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@0xFunX]] [[@AdimsSHOGUN]] [[@CryptoHayes]] [[@DEG_2020]] [[@DefiIgnas]] [[@MEXC]] [[@MurphyBTC]] [[@WatcherGuru]] [[@coingecko]] [[@coinkeiba]] [[@cryptocom]] [[@dxrnell]] [[@lookonchain]] [[@nansen_ai]] [[@solbrdl]] [[@spyzer]] [[@thedefiedge]] [[@theunipcs]]
 
 ## 共起トークン
-[[$SPCS]] [[$GOOGL]] [[$NVDA]] [[$MU]] [[$TSLA]] [[$DOGE]] [[$USELESS]] [[$ASTEROID]]
+[[$MU]] [[$NVDA]] [[$SPCS]] [[$GOOGL]] [[$TSLA]] [[$DOGE]] [[$USELESS]] [[$ASTEROID]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -120,4 +120,18 @@ accounts: 18
 **⚠️ 判断（light-touch）**:
 - DEG_2020「値固め？」は全騰幅消去後の横ばいに対する JP KOL の観察。8♥ = 極小エンゲージ・signal 強度低。lockup スケジュール（2026年8月〜）が迫る中での「値固め」は、むしろ lockup 前の一時的な需給均衡（強気サインでなく静止状態）の可能性が高い。
 - 既存合成（全騰幅消去・lockup スケジュール・弱気バイアス）に変化なし。confidence=弱気（維持）。
+
+### 2026-07-02 更新（新 beat: Nasdaq-100 組み入れ Jul 7 / DefiIgnas マクロ回帰論）
+出典: [[mexc__2072243817516769510]]（101♥・2026-07-01T09:00Z）/ [[defiignas__2072618892610945190]]（30♥・2026-07-02T09:50Z）
+
+**観測（事実）**:
+- [[@MEXC]]（2026-07-01）: 「Not all buying is driven by investors. Some follows an index. $SPCX joins the Nasdaq-100 on Jul 7, which means index funds are expected to rebalance. Do you hold a Nasdaq-100 ETF?」= **$SPCX が 2026-07-07 に Nasdaq-100 へ組み入れ予定**。指数連動ファンドの強制的なリバランス買い需要が発生する見込み。
+- [[@DefiIgnas]]（2026-07-02）: 「For crypto to pump again, retail needs to stop making money elsewhere. It's happening: KOSPI dumped 7.9% today, -18% from ATH(+85% YTD でまだ余地あり) / Gold -27% and silver -50% from records / $NVDA -16%, $MU -18%, and **$SPCX can't even manage a disbelief rally** / Korean retail, historically crypto's most degen crowd, rotated into KOSPI this cycle. That trade is breaking now. / Sidelined money has to go somewhere. Or this is one big risk-off and everything dumps together.」= SPCX の不振をマクロ文脈で位置付けるフレーミング。
+
+**判断**:
+- **Nasdaq-100 組み入れ（Jul 7）**: 既合成「全騰幅消去（-17.8%）・lockup 解除スケジュール（2026 年 8 月〜）・弱気バイアス」の中で、**一時的な買い需要の触媒**。パッシブ運用（ETF・インデックスファンド）は銘柄組み入れ時にルール上 $SPCX を購入せざるを得ない＝**需要の質は "指数への強制リバランス"** であり投資判断に基づく需要ではない。MEXC の演出は取引所プロモ（「あなたは Nasdaq-100 ETF を持っているか？」= 既 $SPCX 保有ルートの暗示）。ただし組み入れ直前の需給的な価格押し上げ効果は存在しうる（典型的な「組み入れ前買い・後売り」）。
+- ⚠️ **「強制リバランス≠ファンダ改善」**: 既合成「lockup 解除（2026-08〜）が 7〜10 倍の需要を必要」という計算の前で、Nasdaq-100 組み入れによるパッシブ買いが吸収バッファになるかは規模次第。DefiIgnas が「disbelief rally すら起きない」と評する通り、$SPCX は全騰幅消去後もモメンタムが立っていない状態。
+- **DefiIgnas マクロ論**: 「KOSPI/Gold/NVDA/MU が同時に崩れ、Korean retail の alternative trade が崩壊しつつある → crypto に戻る条件が整いつつある」。その文脈で $SPCX を「反発すら起きない」と評する = $SPCX を **crypto 内の弱い輪（macro recovery に乗れない銘柄）** と位置付け。「全部まとめてリスクオフで沈む」可能性も明示。
+- **既存合成との接続**: DefiIgnas の「SPCX can't manage a disbelief rally」は既合成「全騰幅消去・弱気バイアス（confidence=弱気）」の最新確認として整合。Nasdaq-100 組み入れ（Jul 7）の前後で一時的な反発が起きるかを監視ポイントとして追加。それ以降は lockup スケジュールに戻る（既合成）。confidence=弱気（維持・Jul 7 周辺の需給イベントを注視）。
+- 接続: [[spacex-ipo-narrative]]（組み入れ後の需給パターンは「外部イベント→一時的資金流入→剥落」の変種）/ [[majors-rotation-supercycle]]（DefiIgnas: KOSPI/Gold 崩壊 → crypto rotation 条件形成の文脈で $SPCX が「乗れない」銘柄として位置付け）/ [[perp-dex-wars]]（MEXC は組み入れを perp 取引促進のネタに転用）。
 <!-- synthesis:end -->

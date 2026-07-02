@@ -4,13 +4,13 @@ kind: token
 title: $MSTR
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 28
+mentions: 29
 accounts: 6
 ---
 
 # $MSTR
 
-> 自動生成(brain/build_entities.py)。言及 28件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 29件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
