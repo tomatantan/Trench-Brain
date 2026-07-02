@@ -4,7 +4,7 @@
 # headless claude が wiki を読んで横断回答(読むだけ=wiki編集しない・--strict-mcp-config=telegram干渉なし)。
 # 将来この出力を Q&A bot(別トークン)が telegram に返す。中身=このスクリプト。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${ASK_MODEL:-sonnet}"
 

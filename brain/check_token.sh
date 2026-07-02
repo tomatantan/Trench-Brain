@@ -7,7 +7,7 @@
 #   corpus接続ゼロ(無名KOL/未言及)なら「wiki signal無し=on-chainのみ=低edge」と正直に出す。
 # read-only・--strict-mcp-config。bot /check $CA。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${CHECK_MODEL:-sonnet}"
 ARG="${*:-}"

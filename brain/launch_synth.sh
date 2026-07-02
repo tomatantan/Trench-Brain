@@ -4,7 +4,7 @@
 # 『launch-pulse concept(今何が発射されてるか)』を更新＋traction+KOL standoutだけ個別採用。
 # ＝湯水を止めず"流れの意味"を合成し続ける。--strict-mcp-config(telegram干渉なし)。throughput安全(1合成/回)。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${LAUNCH_SYNTH_MODEL:-sonnet}"
 WINDOW_H="${LAUNCH_PULSE_WINDOW_H:-6}"

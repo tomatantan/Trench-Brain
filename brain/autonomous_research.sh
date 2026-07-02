@@ -3,7 +3,7 @@
 # 確証/反証(=ダメだった)/不確定 を正直に評価→学びを log＋確証は concept に焼く＝試行錯誤で corpus が賢くなる
 # (本人2026-06-26「考える→チェック→ダメだったか→試行錯誤と合成・収集」)。--strict-mcp-config。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${RESEARCH_MODEL:-sonnet}"
 command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 0; }

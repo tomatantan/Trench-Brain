@@ -4,7 +4,7 @@
 # 新しい順 最大3本 deep 合成する(bounded=volume制御)。未合成0なら claude を呼ばない(コスト0)。
 # X(synthesize_x.sh)/pump(synthesize.sh)に続く第3の合成輪。cron が前後で git する。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 LOG="brain/state/cron.log"
 SRC="sources/youtube"

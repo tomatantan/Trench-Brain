@@ -4,7 +4,7 @@
 # headless claude(マルチモーダル)が画像を Read→観測(写ってる物/画像内テキスト/ticker)＋推論(ナラティブ/型)を source 化。
 # --strict-mcp-config(telegram干渉なし)。--dangerously-skip-permissions(Read tool許可)。
 set -euo pipefail
-cd /Users/toma/trench-brain
+cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${IMG_MODEL:-sonnet}"
 IMG="${1:-}"
