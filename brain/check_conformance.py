@@ -336,6 +336,67 @@ def _op1():
     return ("FAIL" if age_h > 12 else "PASS"), f"最新player entity {age_h:.1f}h前更新({len(files)}件)＝{'古い=build_entities停止疑い' if age_h > 12 else 'パイプライン稼働'}"
 
 
+@check("S1", "§Lint/指針7", "内部 wikilink の切れ(指す先のwikiページが存在しない)を検出")
+def _s1():
+    wdir = ROOT / "wiki"
+    if not wdir.exists():
+        return "WARN", "wiki/ なし"
+    # 既存ページ集合(stem)
+    all_stems = {p.stem for p in wdir.rglob("*.md")}
+    all_stems_lower = {s.lower() for s in all_stems}
+    # ソース参照パターン(dangling扱いしない): 例 0xFunX__2065133916802167217
+    source_ref_re = re.compile(r"^[A-Za-z0-9_]+__\d{6,}$")
+    dangling: set = set()
+    for p in wdir.rglob("*.md"):
+        try:
+            text = p.read_text(encoding="utf-8", errors="replace")
+        except Exception:
+            continue
+        targets = re.findall(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
+        for t in targets:
+            t = t.strip()
+            if source_ref_re.match(t):
+                continue
+            if t in all_stems or t.lower() in all_stems_lower:
+                continue
+            dangling.add(t)
+    n = len(dangling)
+    sample = sorted(dangling)[:5]
+    return ("WARN" if n > 0 else "PASS"), f"内部dangling {n}件(上位: {sample})"
+
+
+@check("S2", "ページ規約", "summaries/concepts/queries が必須frontmatter(type/title/created/updated/tags・summaryはsource)を持つ")
+def _s2():
+    REQUIRED_ALL = {"type", "title", "created", "updated", "tags"}
+    bad = []
+    for subdir in ("summaries", "concepts", "queries"):
+        d = ROOT / "wiki" / subdir
+        if not d.exists():
+            continue
+        for p in sorted(d.glob("*.md")):
+            try:
+                text = p.read_text(encoding="utf-8", errors="replace")
+            except Exception:
+                bad.append(p.name); continue
+            parts = text.split("---", 2)
+            if len(parts) < 3:
+                bad.append(p.name); continue
+            fm = parts[1]
+            keys = {m.group(1) for m in re.finditer(r"^(\w+)\s*:", fm, re.M)}
+            required = REQUIRED_ALL | ({"source"} if subdir == "summaries" else set())
+            missing = required - keys
+            if missing:
+                bad.append(f"{p.name}(欠:{sorted(missing)})")
+    total = sum(
+        len(list((ROOT / "wiki" / s).glob("*.md")))
+        for s in ("summaries", "concepts", "queries")
+        if (ROOT / "wiki" / s).exists()
+    )
+    if not bad:
+        return "PASS", f"対象{total}枚すべて規約準拠"
+    return "FAIL", f"frontmatter欠落 {len(bad)}件: {bad[:5]}"
+
+
 def main():
     rows = []
     for id, ref, req, fn in CHECKS:
