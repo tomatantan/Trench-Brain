@@ -47,6 +47,8 @@ rm -f wiki/concepts/player-*.md 2>/dev/null || true
 bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 # (2d)backfill層=高signal未合成stubを5件/サイクル deep 合成=グラフ密度UP(対象無で呼ばない=コスト0・自己限定)
 bash brain/synthesize_backfill.sh || echo "synth-backfill skipped" >> "$LOG"
+# (2d.5)★合成出力の門番(step3・foolproof): この周期の合成が壊れたページ(frontmatter破損/synthesisブロック不均衡/失敗マーカー)を吐いてないか機械検証。fail-safe=commitは止めない(queueがgitignore=revertでqueue-loss危険)が不正をloudにログ+記録し沈黙failを根絶。
+python3 brain/synth_validate.py > brain/state/synth_validate.out 2>&1 && echo "synth_validate: OK" >> "$LOG" || echo "★synth_validate: 合成出力に不正検出→brain/state/synth_validate.out 要確認" >> "$LOG"
 # (2e)lint層=第5の輪・自己検証(過学習対策)。wiki自身の小N型/矛盾/陳腐化を敵対的に検出→lint-report(報告のみ)。~日次gate。
 bash brain/synthesize_lint.sh || echo "lint skipped" >> "$LOG"
 # (2f)★憲法conformance検査(機械・毎サイクル・安価)=芯チェックの構造化。違反は wiki/conformance-report.md+ログに出す。
