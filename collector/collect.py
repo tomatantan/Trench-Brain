@@ -112,10 +112,13 @@ def read_watchlist_handles(path: Path, tier: str = "all"):
     return out
 
 
-def _get(url: str, headers=None, retries: int = 4, timeout: int = 25):
-    """429/5xx は指数バックオフでリトライ。402(Payment)や403は即raise=無駄打ちしない。"""
+def _get(url: str, headers=None, retries: int = 3, timeout: int = 20):
+    """429/5xx は指数バックオフでリトライ。402(Payment)や403は即raise=無駄打ちしない。
+    ★backoffは抑える(delay 2・cap 6・retries 3)＝131アカのbatchで多数が詰まると
+    per-account待ちが積算し run が病的に長くなる(暴走=事実上の失敗)。1アカの最悪待ちをboundし
+    詰まったアカは fast-fail して次サイクルで拾う(2026-07-02 fix)。"""
     headers = {"User-Agent": UA, **(headers or {})}
-    delay = 5
+    delay = 2
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=headers)
@@ -123,7 +126,7 @@ def _get(url: str, headers=None, retries: int = 4, timeout: int = 25):
                 return r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503) and attempt < retries - 1:
-                time.sleep(delay)
+                time.sleep(min(delay, 6))
                 delay *= 2
                 continue
             raise
