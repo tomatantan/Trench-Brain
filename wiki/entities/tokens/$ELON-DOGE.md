@@ -2,12 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
+peak_mcap: $248,623
 title: $ELON-DOGE（Elon Musk's DOGE）
 mint: 5pCL6QsxegdE18F6Xx3g5wyB4QijcKGXLfGiFKobpump
 created: 2026-07-02
-updated: 2026-07-02
-tags: [token, auto-track, graduated, traction0, elon-meme, doge-meme, association-marketing, high-real-sol, stub]
+updated: 2026-07-02 (DEAD確定・peak$248,623→$2,920/-98.8%・⑬コホート型)
+tags: [token, auto-track, graduated, traction0, elon-meme, doge-meme, association-marketing, high-real-sol, dead-denominator]
 ---
 
 # $ELON-DOGE（Elon Musk's DOGE）
@@ -51,6 +53,16 @@ tags: [token, auto-track, graduated, traction0, elon-meme, doge-meme, associatio
 - 71 SOL が pool に残存している間は deployer が pump 燃料を持ち続ける = 次窓でさらに上昇可能性があるが、traction ゼロが続く限り出口となる。
 
 **接続概念**: [[rug-anatomy]]（⑬高 real_sol コホート・association marketing 型）/ [[launchpad-economics]]（graduated-but-empty）
+
+### 2026-07-02T09:27Z DEAD確定（peak $248,623 → $2,920 / -98.8%）
+**観測（事実）**
+- mcap $2,920（flags: mcap枯れ、cause: mcap枯れ($2920)）。real_sol=71 SOL のまま（pool 資金残存・deployer 撤退/流動性崩壊）。
+- reply=0・KOL 皆無 全期間変化なし。
+
+**判断**
+- -98.8% 崩壊。⑬コホート型（71 SOL real_sol × traction0 × association marketing）の帰結が確定。
+- $FLYRO(84.4SOL→-98.5%) / $GOON(39.9SOL→-99.7%) / $GIRLS(82.9SOL→-98.6%) と同型——⑬コホート N=11 確定（N=10 から追加）。
+- [[rug-anatomy]] 死亡台帳 追記。型通り。
 <!-- synthesis:end -->
 
 ## 関連

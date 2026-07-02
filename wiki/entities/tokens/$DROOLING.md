@@ -4,13 +4,13 @@ kind: token
 title: $DROOLING
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 12
+mentions: 13
 accounts: 4
 ---
 
 # $DROOLING
 
-> 自動生成(brain/build_entities.py)。言及 12件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 13件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -31,7 +31,7 @@ accounts: 4
 | 88 | [[@PumpfunEco]] | $drooling has pumped 47% today! 🔥 | [[pumpfuneco__2069351440640843821]] |
 | 85 | [[@PumpfunEco]] | $drooling has pumped 43% today! 🔥 | [[PumpfunEco__2069063497166516527]] |
 | 69 | [[@itspyrored]] | You know a meme is good when you don’t have to constantly bull post.  Sometimes it’s | [[itspyrored__2065250268921434330]] |
-| 22 | [[@itspyrored]] | New ATHs for $Drooling 🤤 | [[itspyrored__2072550857313267800]] |
+| 46 | [[@PumpfunEco]] | $drooling has pumped 47% today! 🔥 | [[PumpfunEco__2069351440640843821]] |
 
 <!-- synthesis:start -->
 ## 合成メモ

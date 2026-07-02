@@ -4,29 +4,29 @@ kind: player
 title: @saylor
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 15
+posts: 22
 ---
 
 # @saylor
 
-> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](6) [[$BTC]](5) [[$MSTR]](5) [[$SATA]](1) [[$IBIT]](1)
+[[$STRC]](9) [[$MSTR]](6) [[$BTC]](5) [[$SATA]](1) [[$IBIT]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 21,065 |  | Markets are closed today. Volatility is never easy. Bitcoin keeps working. So do we. | [[saylor__2067861414069375418]] |
+| 20,663 |  | Bitcoin is working today. So are we. | [[saylor__2070778349622808768]] |
+| 20,425 |  | We’re gonna need more charts. | [[saylor__2071191288129433925]] |
 | 19,943 | [[$MSTR]] | When I gave this speech in October 2022, Bitcoin traded near $20,000, Strategy held  | [[saylor__2068278654455488789]] |
 | 18,413 | [[$BTC]] [[$MSTR]] [[$STRC]] | Strategy has acquired 1,587 BTC for $100 million to increase our $BTC Reserve to ₿84 | [[saylor__2066491610863419722]] |
+| 16,133 |  | Stronger credit. Stronger equity. More Bitcoin. | [[saylor__2071891299926511778]] |
 | 15,581 |  | Looks better with more dots. | [[saylor__2068667168930074957]] |
 | 12,524 |  | Bitcoiners agree on the 99% that matters. We shouldn’t let the 1% divide us while ne | [[saylor__2068585855136997745]] |
 | 12,088 | [[$BTC]] [[$MSTR]] [[$STRC]] | Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to  | [[saylor__2069028571880845340]] |
-| 8,070 |  | ₿uild them a product they’re allowed to buy.  Bitcoin Capitalism — in 2 minutes. | [[saylor__2066888546212872454]] |
-| 7,362 |  | Building on ₿846,842. | [[saylor__2067573786698805279]] |
-| 5,597 | [[$MSTR]] | Volatility tests every capital structure. Strategy remains focused on Bitcoin, disci | [[saylor__2070420835358183827]] |
-| 5,096 | [[$BTC]] | Digital Money should be stable, liquid, digital, and yield-bearing. Bitcoin-backed c | [[saylor__2066836220747903414]] |
+| 11,667 | [[$MSTR]] [[$STRC]] | Strategy announces a Digital Credit Capital Framework designed to strengthen Digital | [[saylor__2071565162377568377]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

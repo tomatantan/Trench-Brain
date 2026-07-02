@@ -4,15 +4,15 @@ kind: player
 title: @theunipcs
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 117
+posts: 126
 ---
 
 # @theunipcs
 
-> 自動生成。信号投稿 117件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 126件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$USELESS]](15) [[$BONK]](15) [[$BTC]](10) [[$SOL]](9) [[$DOGE]](8) [[$PENGU]](7) [[$PEPE]](6) [[$ETH]](6) [[$FARTCOIN]](5) [[$SHIB]](5)
+[[$USELESS]](22) [[$BONK]](17) [[$BTC]](15) [[$SOL]](13) [[$PEPE]](9) [[$WIF]](9) [[$DOGE]](9) [[$PENGU]](9) [[$FARTCOIN]](8) [[$ETH]](8)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

@@ -4,33 +4,33 @@ kind: player
 title: @golocojp
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 26
+posts: 36
 ---
 
 # @golocojp
 
-> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 8件 / 現outcome評価 5件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$CARDS]](2) [[$VEN]](1) [[$REYA]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1)
+[[$CARDS]](2) [[$VEN]](1) [[$REYA]](1) [[$HYPE]](1) [[$POKERX]](1) [[$TCG]](1) [[$CPX]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 20 |  | solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump @c0mputeAI FDV1.7Mでトップブラストして良かった | [[golocojp__2068244837426696341]] |
 | 18 |  | これぞまさにGud Tek！！  leyten氏に賭けたい、応援の気持ちで solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7d | [[golocojp__2067702170162798877]] |
+| 18 |  | kickstart szn  Still too early. | [[golocojp__2072244779363319999]] |
+| 17 |  | solana:bS532krUcXBMNqXURPtGqYA7dhEsenYe2z9QKkcEASY @cpx_token  R6さんもdipでinして倍々👏  Cog | [[golocojp__2071971847340720472]] |
+| 13 | [[$CPX]] | The MCG effects hit $CPX @cpx_token on @EasyA_Kickstart as usual even BTC going down | [[golocojp__2071974713656770786]] |
 | 10 |  | .@seyong Thanks for building @fomo  Not only we can enjoy day trading in multi-chain | [[golocojp__2069870809573896194]] |
 | 7 |  | Ornn     for Compute. solana:AWGCDT2gd8JadbYbYyZy1iKxfWokPNgrEQoU24zUpump for Memory | [[golocojp__2070074350750076989]] |
 | 7 |  | EasyA x fomo....なんだ？？👀 | [[golocojp__2069795779494244617]] |
-| 5 |  | ほんとさらなるベア相場への警戒感強すぎてチャレンジウォレッとNansen以外で買い控えてたけど、   solana:Eg2ymQ2aQqjMcibnmTt8erC6Tv | [[golocojp__2067825859688648792]] |
-| 5 | [[$CARDS]] | Have one or two of project tokens positioned in the strong markets such as RWAs & Pr | [[golocojp__2069742548936278521]] |
-| 4 | [[$REYA]] | Reya $Reya が毎日トレードする人を応援する「Streakers」キャンペーン開始  期間: 2026年6月25日（木）日本時間9時〜7月9日（木）同8時59分 | [[golocojp__2070097555552395711]] |
-| 4 | [[$VEN]] | Aped $Ven  Red @redemptionarcc always publicly give us the right "mispriced" project | [[golocojp__2069131913579933988]] |
-| 4 |  | 1.7M*FDV → 6.8M 4倍👏 solana:EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump まだいけちゃう？ | [[golocojp__2068086426861015299]] |
+| 6 |  | 今回のNansen @nansen_ai の宝くじキャンペーンのルール変更は大大大朗報。  Solanaの現物少額デイトレしてても1-2枚/週はいけるだろうし、1000 | [[golocojp__2072008454903050342]] |
+| 6 |  | if I win(1/4000)😂, I'll do giveaway(with hodl term) in some easyA ecos tokens to Jap | [[golocojp__2072425337875775558]] |
 
 <!-- synthesis:start -->
 ## 思考の型（how they reason・視点エンジン用）

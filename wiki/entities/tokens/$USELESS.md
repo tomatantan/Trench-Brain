@@ -2,16 +2,15 @@
 type: entity
 kind: token
 title: $USELESS
-updated: 2026-07-02
-tags: [trench, entity, token, auto-track]
-mentions: 24
+updated: 2026-06-22
+tags: [trench, entity, token]
+mentions: 25
 accounts: 2
-mint: Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk
 ---
 
 # $USELESS
 
-> 自動生成(brain/build_entities.py)。言及 24件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 25件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント

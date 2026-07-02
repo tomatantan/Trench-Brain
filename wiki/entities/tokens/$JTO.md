@@ -17,7 +17,7 @@ accounts: 2
 [[@blknoiz06]] [[@milesdeutscher]]
 
 ## 共起トークン
-[[$JUP]] [[$PYTH]] [[$MANTA]] [[$TIA]]
+[[$MANTA]] [[$TIA]] [[$JUP]] [[$PYTH]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

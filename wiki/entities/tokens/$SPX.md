@@ -17,7 +17,7 @@ accounts: 2
 [[@CryptoHayes]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$USELESS]] [[$WIF]]
+[[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SHIB]] [[$USELESS]] [[$WIF]] [[$BTC]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

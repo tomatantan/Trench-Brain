@@ -4,15 +4,15 @@ kind: player
 title: @mag_onsol
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 18
+posts: 19
 ---
 
 # @mag_onsol
 
-> 自動生成。信号投稿 18件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HOUSE]](1) [[$PEPE]](1) [[$HOLD]](1) [[$PEACEMAKER]](1) [[$MICHI]](1)
+[[$HOUSE]](1) [[$PEPE]](1) [[$HOLD]](1) [[$HONKERMOG]](1) [[$PEACEMAKER]](1) [[$MICHI]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -24,9 +24,9 @@ posts: 18
 | 6 |  | 嘘です、今ちょい売ります | [[mag_onsol__2029258303747047687]] |
 | 6 | [[$PEACEMAKER]] | God bless Trump, the $peacemaker in Chif! | [[mag_onsol__2028378362037891341]] |
 | 5 |  | 超ロースーパーギャンブル | [[mag_onsol__2028119120420704260]] |
+| 5 | [[$HONKERMOG]] | $honkermog 👀 | [[mag_onsol__2039969613036015922]] |
 | 4 |  | 飯屋、菓子メーカー 値上がりしてもいいからそこままの量、 そのままのクオリティで出してくれんかいな、、 | [[mag_onsol__2030488405289922903]] |
 | 4 |  | てかそろそろ何かしらクリプト民由来のミーム飛んで欲しい | [[mag_onsol__2033376908721983664]] |
-| 4 | [[$PEPE]] | $pepe pepeは全部買う | [[mag_onsol__2040777977680818489]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

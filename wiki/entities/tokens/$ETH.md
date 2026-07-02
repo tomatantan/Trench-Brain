@@ -4,20 +4,20 @@ kind: token
 title: $ETH
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 160
+mentions: 167
 accounts: 19
 ---
 
 # $ETH
 
-> 自動生成(brain/build_entities.py)。言及 160件 / 19アカ。
+> 自動生成(brain/build_entities.py)。言及 167件 / 19アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@arkham]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@fundstrat]] [[@hosseeb]] [[@lookonchain]] [[@milesdeutscher]] [[@rajgokal]] [[@thedefiedge]] [[@theunipcs]] [[@wojakcto]] [[@zhusu]]
 
 ## 共起トークン
-[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$USELESS]] [[$PENGU]] [[$SHIB]]
+[[$BTC]] [[$SOL]] [[$USDC]] [[$PEPE]] [[$HYPE]] [[$USELESS]] [[$WIF]] [[$PENGU]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -353,6 +353,7 @@ ETF 流出（2026-06-25）:
 - 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達）に変化なし。confidence=中（変化なし）。
 
 ### 2026-07-02 確認③（worklist 代表ツイ確認・Machi Big Brother ETH long 連続清算 light-touch）
+
 出典: [[lookonchain__1832985691640209764]]（1,896♥・2024-09-09・旧ツイ）/ [[lookonchain__2069443310356508923]]（130♥・2026-06-23T15:31Z）/ [[arkham__2070516573014532322]]（114♥・2026-06-26T14:36Z）
 
 - **1,896♥ [[lookonchain__1832985691640209764]]**（2024-09-09）: 「Machi Big Brother(@machibigbrother) spent ~5.2K $ETH($16.7M) to buy 11.1M $FRIEND, now worth only $0.7M! He lost ~$16M on $FRIEND!」= **2024年9月の旧ツイ再キャプチャ**（friend.tech への 5.2K ETH 投入 → -$16M 損失）。ETH 直接 signal ではなく ETH が大口損失に使われた先例として記録。
@@ -382,4 +383,10 @@ ETF 流出（2026-06-25）:
 - **MurphyBTC short 再増**: 既合成の TOP10 short open/close サイクル（2026-06-22 open→close）の続き。10♥と低エンゲージだが、既存の「大口の弱気ポジションは解消されていない・繰り返し再エントリーする」というパターンを継続確認。
 - 既存合成「ETH = コンセンサストレード（リターン薄）・OG 投げ売り・BTC beta 脱却未達」に矛盾なし。BlackRock 反転売りと 0xcB92 アークが新規の具体的補強材料。confidence=中（arkham/lookonchain 観測・複数事例）。
 - 接続: [[majors-rotation-supercycle]]（BlackRock ETH 売り方向への転換を追記）/ [[rug-anatomy]]（KOL "watch this trader" 推奨→全損の track record）/ [[perp-dex-wars]]（TOP10 short 再増）/ [[onchain-verification]]（0xcB92・BlackRock フローの独立確認推奨）。
+
+### 2026-07-02 確認⑧（worklist 代表ツイ確認・新 beat なし）
+- **3,864♥ [[zhusu__1389092285992771587]]**（2022-04-07）: 「mental math with $eth will be a lot easier when it 10k」= **旧ツイ再キャプチャ**。多数サイクル確認済み。新情報なし。
+- **1,865♥ [[lookonchain__1906903915070886341]]**（2025-04-01）: 「Karma hit fast. Hacker steals 2,930 $ETH($5.4M) from zkLend... then gets phished while using Tornado Cash. All 2,930 $ETH gone — to another thief.」= **旧ツイ（2025-04-01・本合成未記録）。light-touch 追記**: zkLend ハッカーが ETH を盗んだ後、Tornado Cash 使用中に別の詐欺師にフィッシングされ全額喪失。ETH が犯罪エコシステムにおいて価値移転ツールとして機能しつつ onchain tracking 可能な事例。[[onchain-verification]]（犯罪資金フローは Tornado Cash 経由でも monitoring の対象）。ETH の投資 signal なし。
+- **690♥ [[lookonchain__2071912914680987813]]**（2026-06-30）: 「BlackRock deposited 4,984.56 $BTC($295M) and 30,725 $ETH($48.58M) to Coinbase Prime」= ETH 側 $48.58M（30,725 ETH）の入金量が具体化。既合成「BlackRock 7日連続 ETH 売り（2026-06-30 arkham・更新⑦）」との整合: Coinbase Prime への ETH 入金 = spot 売りの前段として一貫した方向。詳細は [[$BTC]] 確認④参照。
+- 既存合成（ETH = コンセンサストレード・OG 投げ売り・BTC beta 脱却未達・BlackRock 7日連続売り）に変化なし。confidence=中（変化なし）。
 <!-- synthesis:end -->

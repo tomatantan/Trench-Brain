@@ -4,20 +4,20 @@ kind: token
 title: $ZERO
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 5
+mentions: 6
 accounts: 2
 ---
 
 # $ZERO
 
-> 自動生成(brain/build_entities.py)。言及 5件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 6件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@moonshot]]
 
 ## 共起トークン
-[[$FARTCOIN]] [[$JOTCHUA]] [[$KINS]] [[$QUEST]] [[$SOLANGELES]] [[$ZEREBRO]] [[$AAIF]] [[$BOLEX]]
+[[$FARTCOIN]] [[$JOTCHUA]] [[$KINS]] [[$QUEST]] [[$AAIF]] [[$BOLEX]] [[$BTC]] [[$CARDS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -26,6 +26,7 @@ accounts: 2
 | 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
 | 80 | [[@PumpfunEco]] | 24h volume leaders on pump fun 👀  $ZERO $8.70M $Fartcoin $3.97M $KINS $3.52M $Jotchu | [[PumpfunEco__2068691523894706265]] |
+| 63 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
 | 0 | [[@?]] | ## 観測（写っているもの）  **ダッシュボード名**: BRAIN CALLL — meme launch call monitor   **ツール**: TREN | brain-calll-dashboard-20260629 |
 
 <!-- synthesis:start -->

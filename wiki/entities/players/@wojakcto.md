@@ -4,29 +4,29 @@ kind: player
 title: @wojakcto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 36
 ---
 
 # @wojakcto
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$WOJAK]](6)
+[[$WOJAK]](8) [[$ETH]](3)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 348 |  | assembling all Feels Guys. take a max dose and BOOST your bullishtosterone  availabl | [[wojakcto__2067651365367664981]] |
 | 332 |  | this feels right | [[wojakcto__2067751714971877851]] |
+| 330 | [[$WOJAK]] | feeling like @HTX_Global knows real meme culture  $WOJAK is going live on HTX very s | [[wojakcto__2071807413162770444]] |
 | 302 |  | some people just want to watch the world burn | [[wojakcto__2068169466526216206]] |
 | 292 | [[$WOJAK]] | omw to @BinanceUS to deposit some $WOJAK | [[wojakcto__2067067819707994586]] |
+| 291 |  | if you had one wish to ask from shenron pepe, what would it be? @pepecoineth i, woja | [[wojakcto__2070651823502102718]] |
 | 281 | [[$WOJAK]] | we used to pray for times like this  @wojakcto 🤝 @BinanceUS   $WOJAK is live on Bina | [[wojakcto__2067432030913098158]] |
+| 254 |  | gm this is not a role i take lightly | [[wojakcto__2071557289887342761]] |
 | 243 |  | how I feel after my fifth coffee  gmgm | [[wojakcto__2068344620564853068]] |
-| 215 |  | happy father's day. feeling so happy to see the kids growing up in a world full of m | [[wojakcto__2068769713719533816]] |
-| 213 |  | conviction in your future, anon | [[wojakcto__2066526893545771100]] |
-| 211 |  | feeling like it's time to start a pod on taking Ws | [[wojakcto__2068014203567227122]] |
-| 202 |  | 3 years of history 2 cycles in the books 1 ticker: ethereum:0x8de39b057cc6522230ab19 | [[wojakcto__2066659517174276474]] |
+| 242 |  | ser grandmaster Pepe, will you please hurry up and make a move?  @HTX_Global is wait | [[wojakcto__2072036982268539120]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

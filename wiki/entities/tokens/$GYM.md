@@ -4,13 +4,13 @@ kind: token
 title: $GYM
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 11
 accounts: 2
 ---
 
 # $GYM
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 11件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -23,6 +23,7 @@ accounts: 2
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 171 | [[@PumpfunEco]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[pumpfuneco__2069507554682515894]] |
+| 90 | [[@PumpfunEco]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[PumpfunEco__2069507554682515894]] |
 | 72 | [[@cookerbruski]] | if you like $gym at 2m you’re gonna love it at 20m | [[cookerbruski__2068346040579674515]] |
 | 71 | [[@cookerbruski]] | the best products sell themselves  $GYM | [[cookerbruski__2065559887002640555]] |
 | 70 | [[@PumpfunEco]] | This trader bought $1,200 worth of $GYM at $50K market cap and never sold a single c | [[pumpfuneco__2069732870675984801]] |

@@ -4,33 +4,34 @@ kind: token
 title: $ZEC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 9
+mentions: 12
 accounts: 6
 ---
 
 # $ZEC
 
-> 自動生成(brain/build_entities.py)。言及 9件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 12件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@BinanceUS]] [[@CryptoHayes]] [[@DefiIgnas]] [[@RookieXBT]] [[@blknoiz06]] [[@lookonchain]]
 
 ## 共起トークン
-[[$HYPE]] [[$BTC]] [[$SOL]] [[$WLD]] [[$UNI]] [[$AAIF]] [[$BOLEX]] [[$CARDS]]
+[[$HYPE]] [[$BTC]] [[$SOL]] [[$WLD]] [[$AAIF]] [[$BOLEX]] [[$CARDS]] [[$CATWIF]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
 |---|---|---|---|
 | 2,725 | [[@CryptoHayes]] | The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e | [[cryptohayes__2062723034369458520]] |
+| 2,722 | [[@CryptoHayes]] | The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e | [[CryptoHayes__2062723034369458520]] |
 | 2,580 | [[@CryptoHayes]] | It's just ludicrous.  $ZEC to $10k | [[CryptoHayes__1986692678310899854]] |
 | 2,571 | [[@CryptoHayes]] | Vibe check   $ZEC to $10k | [[CryptoHayes__1982371104082596248]] |
 | 313 | [[@blknoiz06]] | MERT'S 5 MAIN HOLDINGS: - $ZEC - solana:So11111111111111111111111111111111111111112  | [[blknoiz06__2070274427799867510]] |
 | 229 | [[@lookonchain]] | Garrett Jin(@GarrettBullish) has closed his $ZEC long for a $417K profit and his $UN | [[lookonchain__2067763889945890997]] |
 | 195 | [[@DefiIgnas]] | How does one prepare for the next bull if you are still bullish on crypto?  When I s | [[defiignas__2071916200016372176]] |
 | 187 | [[@RookieXBT]] | $hype $zec barbell for q2 really do be comfy | [[rookiexbt__2056115832569413825]] |
+| 186 | [[@RookieXBT]] | $hype $zec barbell for q2 really do be comfy | [[RookieXBT__2056115832569413825]] |
 | 151 | [[@BinanceUS]] | We've added a new trading pair for $ZEC on @BinanceUS!  🔸 Trading is now available o | [[binanceus__2067446797484859794]] |
-| 0 | [[@?]] | ## 観測（写っているもの）  **ダッシュボード名**: BRAIN CALLL — meme launch call monitor   **ツール**: TREN | brain-calll-dashboard-20260629 |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,29 +4,29 @@ kind: player
 title: @moonshot
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 33
 ---
 
 # @moonshot
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 33件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$SOLANGELES]](1) [[$SPCXX]](1) [[$SON]](1) [[$ARX]](1) [[$MERLIN]](1) [[$TURTLE]](1) [[$FARM]](1) [[$MANIFEST]](1) [[$ZERO]](1)
+[[$SON]](2) [[$SOLANGELES]](1) [[$SPCXX]](1) [[$ARX]](1) [[$TJR]](1) [[$MERLIN]](1) [[$TURTLE]](1) [[$ANSEM]](1) [[$FARM]](1) [[$MANIFEST]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 2,721 | [[$SON]] | are ya giving, son? yeah dad, we're giving away $5,000 in $SON  20 winners will each | [[moonshot__2071611677020147995]] |
+| 1,217 |  | It's not personal, anon. It's strictly business. | [[moonshot__2071289695212839420]] |
+| 716 | [[$ANSEM]] | The Black Bull ($ANSEM) is now verified on Moonshot. | [[moonshot__2071278079687671924]] |
 | 664 |  | open for business 🌙 | [[moonshot__2065871704400818640]] |
+| 660 |  | 🚨 BREAKING: LeBron James has left the Los Angeles Lakers to join Solana. | [[moonshot__2072067297682870479]] |
+| 554 |  | we are going to make crypto cool to normies this time around | [[moonshot__2071775236102443232]] |
+| 531 |  | solana summer ☀️ | [[moonshot__2070603099824099340]] |
 | 476 |  | any trillion dollar runners? | [[moonshot__2065507982054391879]] |
 | 463 | [[$SOLANGELES]] | Live from SolAngeles TV, we're giving away $5,000 in $SOLANGELES   20 winners will e | [[moonshot__2069080868673425610]] |
-| 438 |  | 48 nations. one log | [[moonshot__2065154378676179383]] |
-| 422 |  | majors down, memes UP | [[moonshot__2068828219080347806]] |
-| 366 | [[$TURTLE]] | TheMisterTurtle ($TURTLE) is now verified on Moonshot. | [[moonshot__2066273424473776582]] |
-| 355 |  | good boys get green candles | [[moonshot__2067620967686230276]] |
-| 331 |  | Trenches warming up this weekend 🔥   What was the last coin you aped? | [[moonshot__2068448102965461113]] |
-| 298 |  | the trenches are heating up 🔥  what community do you want to see on Moonshot next? | [[moonshot__2065202666205073601]] |
-| 285 | [[$SON]] | Are Ya Winning, Son? ($SON) is now verified on Moonshot. | [[moonshot__2067694301170090064]] |
+| 442 | [[$TJR]] | The Top Floor Boss ($TJR) is now verified on Moonshot. | [[moonshot__2071795122040177105]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

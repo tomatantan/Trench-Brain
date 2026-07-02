@@ -17,7 +17,7 @@ accounts: 2
 [[@a1lon9]] [[@lookonchain]]
 
 ## 共起トークン
-[[$USDC]] [[$SOL]] [[$YZY]] [[$MELANIA]]
+[[$SOL]] [[$USDC]] [[$YZY]] [[$MELANIA]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

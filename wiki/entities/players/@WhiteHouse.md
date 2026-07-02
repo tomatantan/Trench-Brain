@@ -4,12 +4,12 @@ kind: player
 title: @WhiteHouse
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 73
+posts: 83
 ---
 
 # @WhiteHouse
 
-> 自動生成。信号投稿 73件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 83件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,16 +17,16 @@ posts: 73
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 29,211 |  | PROUD TO BE AN AMERICAN. | [[whitehouse__2072402562653868156]] |
 | 27,080 |  | Happy Father’s Day from the White House!  As a father & grandfather, President Trump | [[WhiteHouse__2068715233967792226]] |
+| 22,908 |  | Great American Summer | [[whitehouse__2072460479771881929]] |
 | 22,860 |  | Always trust. 👀 | [[WhiteHouse__2069124520661696843]] |
+| 22,834 |  | “Freedom is not a gift that lasts long in the hands of cowards.” - Theodore Roosevel | [[whitehouse__2072410640531026081]] |
+| 18,780 |  | *EAGLE SCREECH*   🦅🦅🦅🦅 | [[whitehouse__2072502642358579591]] |
 | 17,325 |  | Eyes Up, Guardians 🇺🇸 | [[whitehouse__2070253292383252879]] |
 | 16,131 |  | 🇺🇸🦅 THIS IS WHAT AN AMERICAN KICK-OFF LOOKS LIKE. | [[whitehouse__2069940297694343283]] |
 | 14,777 |  | Vandalism of statues, fountains, and landmarks in our nation's capital is unacceptab | [[WhiteHouse__2069105216947896767]] |
 | 14,271 |  | POV: You realize the World Cup hits different in America. 🦅 | [[whitehouse__2070310190969126971]] |
-| 13,547 |  | Air Force One enters its next era 🔥🇺🇸 | [[WhiteHouse__2068782594485866613]] |
-| 11,658 |  | ︎︎White House will be Q posting today…  ︎  ︎  ︎  ︎ ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎  ︎   | [[WhiteHouse__2069071254829609256]] |
-| 11,069 |  | Oil prices are tumbling down, and the World is a much safer place!! 🇺🇸 | [[WhiteHouse__2069399355547590968]] |
-| 10,589 |  | "Six people have been arrested, and seven people have been cited, for the damage the | [[whitehouse__2069447413811540258]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

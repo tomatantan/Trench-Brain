@@ -4,12 +4,12 @@ kind: player
 title: @coinbase
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 22
+posts: 29
 ---
 
 # @coinbase
 
-> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 29件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,15 +18,15 @@ posts: 22
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 2,634 |  | We started as a place to buy Bitcoin, now we power your entire financial life.  Here | [[coinbase__2066991052847010042]] |
+| 2,088 |  | Open USD is coming to @Base and other leading chains this year.  We're joining 140+  | [[coinbase__2071952368497787287]] |
+| 1,392 |  | 14 years ago, Coinbase was just a place to buy Bitcoin.  Now it's where you manage y | [[coinbase__2070883033633202380]] |
 | 1,097 |  | Your whole financial life just got an update.  Here's everything new from the System | [[coinbase__2067741964213309550]] |
+| 994 |  | How money should be. | [[coinbase__2071532494462017611]] |
 | 978 |  | If you haven't noticed yet, we're launching a lot of products.  More to come. | [[coinbase__2069038091889774618]] |
 | 916 |  | Say hello to @CoinbaseIndia 🇮🇳 | [[coinbase__2068255794349404348]] |
 | 806 |  | Staking on Coinbase, but need cash?  Borrow up to $1M in USDC on your staked ETH or  | [[coinbase__2066977498408030460]] |
 | 757 |  | It's been a big week.   So here's a 5 minute recap of everything we announced to mak | [[coinbase__2068705206804623799]] |
-| 494 |  | Two of the biggest upcoming IPOs:  OpenAI and Anthropic.  Get exposure to both now o | [[coinbase__2069025485384810614]] |
-| 442 |  | POV: you missed our System Update and asked us to summarize.  (Full recap below) | [[coinbase__2067977605190455741]] |
-| 400 |  | Trade everything in one place.  Here's everything new on the Everything Exchange ↓ | [[coinbase__2067623914176725330]] |
-| 338 |  | Want to travel the world and earn Bitcoin for it?  Trick question, of course you do. | [[coinbase__2067262334112866795]] |
+| 711 |  | Building for the global onchain economy. | [[coinbase__2071129094880710867]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

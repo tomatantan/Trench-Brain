@@ -4,15 +4,15 @@ kind: player
 title: @Ministerr
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 140
+posts: 159
 ---
 
 # @Ministerr
 
-> 自動生成。信号投稿 140件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 159件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-—
+[[$ANSEM]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

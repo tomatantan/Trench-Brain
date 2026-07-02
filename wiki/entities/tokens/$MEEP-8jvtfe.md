@@ -46,6 +46,10 @@ pump.fun 発。名称「MEEP CAT」——cat meme 系。同名の別 mint（E7wb
 ### 2026-06-28 update（mcap+42%）
 **観測**: mcap $36,331 → $51,435（+42%）。reply_count 164 変化なし。graduated 維持。
 **判断**: 短期反発の観測。reply が横這いのまま mcap だけ動いた = 新規 buying があるが新たな community 反応は出ていない。TikTok 起点の散発的買いか、KOL（tsuyuto6154）フォロワーの遅延 entry が疑われる。引き続き reply / KOL 再言及を監視。
+
+### 2026-07-02T09:27Z update（mcap+60%・$30,491→$48,726）
+**観測（事実）**: mcap $30,491 → $48,726（+60%）。reply_count 164・KOL kol_ticker[]（tsuyuto6154 の新規言及なし）。graduated・complete:true 変化なし。pool null（real_sol=0）。
+**判断**: 6/28 の $51k から一時下落後（$30k 台）に再上昇。reply が動いていないため organic 需要増加よりも散発的 whale buying の可能性が高い。reply=164 は高水準だが2週間前の snapshot——現時点での活性度は別途要確認。traction0 の復活シグナルなし。watch 継続。
 <!-- synthesis:end -->
 
 ## 関連

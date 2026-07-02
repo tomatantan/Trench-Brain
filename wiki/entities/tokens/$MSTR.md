@@ -4,20 +4,20 @@ kind: token
 title: $MSTR
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 27
+mentions: 28
 accounts: 6
 ---
 
 # $MSTR
 
-> 自動生成(brain/build_entities.py)。言及 27件 / 6アカ。
+> 自動生成(brain/build_entities.py)。言及 28件 / 6アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@AdimsSHOGUN]] [[@Bankless]] [[@CredibleCrypto]] [[@CryptoKaleo]] [[@saylor]] [[@theunipcs]]
 
 ## 共起トークン
-[[$STRC]] [[$BTC]] [[$SOL]] [[$USELESS]] [[$DOGE]] [[$ETH]] [[$FARTCOIN]] [[$PENGU]]
+[[$STRC]] [[$BTC]] [[$SOL]] [[$USELESS]] [[$IBIT]] [[$DOGE]] [[$ETH]] [[$FARTCOIN]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

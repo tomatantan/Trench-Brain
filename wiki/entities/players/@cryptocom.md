@@ -4,29 +4,29 @@ kind: player
 title: @cryptocom
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 43
+posts: 61
 ---
 
 # @cryptocom
 
-> 自動生成。信号投稿 43件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 61件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HPP]](4) [[$GRAM]](3) [[$RE]](3) [[$BTC]](2) [[$AERGO]](2) [[$CRO]](1) [[$ETH]](1) [[$TON]](1) [[$SPCX]](1) [[$ATOM]](1)
+[[$BTC]](4) [[$HPP]](4) [[$GRAM]](4) [[$RE]](3) [[$CRO]](2) [[$ETH]](2) [[$AERGO]](2) [[$TON]](1) [[$GIS]](1) [[$LNN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 649 |  | Diamond hands reveal what's worth holding | [[cryptocom__2067661370380681504]] |
+| 625 |  | 10 years ago, it started with crypto. Today, it’s an entire financial world.  To eve | [[cryptocom__2071986873568772288]] |
 | 542 |  | Invest like nobody’s watching. Because nobody is. | [[cryptocom__2067736867429069058]] |
 | 452 |  | There will be signs. You just have to look. | [[cryptocom__2068004632622706784]] |
+| 431 |  | The bar has been raised for crypto platforms in the EEA.  Crypto․com is fully licens | [[cryptocom__2071919427419873776]] |
+| 348 |  | 10 years in. The best is still ahead.  From crypto to stocks, cards to retirement, e | [[cryptocom__2072010025384435892]] |
 | 346 |  | Work-life, balanced | [[cryptocom__2067323897477775717]] |
 | 332 |  | Rate the new look 👇 | [[cryptocom__2067909948042817585]] |
+| 331 |  | No rush. The destination isn’t going anywhere. | [[cryptocom__2071686392531325267]] |
 | 320 |  | Dads who adapt, we see you. Happy Father’s Day. | [[cryptocom__2068699208496919036]] |
-| 283 |  | The holy trinity of doing nothing: sleep, DCA, passive income | [[cryptocom__2068336826436223219]] |
-| 239 |  | I invest because _______________ | [[cryptocom__2067249657613303988]] |
-| 205 |  | What’s the best money advice your dad ever gave you? | [[cryptocom__2068700467304026120]] |
-| 155 |  | Native USDC, EURC, and CCTP are coming to @CronosApp!  In partnership with @Circle,  | [[cryptocom__2069052661534527755]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

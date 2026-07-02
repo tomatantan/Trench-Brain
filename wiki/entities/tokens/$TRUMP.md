@@ -17,7 +17,7 @@ accounts: 7
 [[@DefiIgnas]] [[@arkham]] [[@blknoiz06]] [[@frankdegods]] [[@lookonchain]] [[@milesdeutscher]] [[@theunipcs]]
 
 ## 共起トークン
-[[$DOGE]] [[$PEPE]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$USELESS]] [[$WIF]]
+[[$DOGE]] [[$PEPE]] [[$BTC]] [[$WIF]] [[$FARTCOIN]] [[$PENGU]] [[$SHIB]] [[$USELESS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

@@ -4,19 +4,19 @@ kind: player
 title: @cookerbruski
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 104
+posts: 109
 ---
 
 # @cookerbruski
 
-> 自動生成。信号投稿 104件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 109件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 2件 / 現outcome評価 2件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$GYM]](4) [[$TROLL]](2) [[$COOK]](2) [[$GROW]](2) [[$WOULD]](1) [[$PWEASE]](1) [[$NEET]](1) [[$LABUBU]](1) [[$RICE]](1)
+[[$GYM]](5) [[$TROLL]](2) [[$COOK]](2) [[$GROW]](2) [[$WOULD]](1) [[$PWEASE]](1) [[$NEET]](1) [[$LABUBU]](1) [[$RICE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

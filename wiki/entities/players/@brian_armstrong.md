@@ -4,12 +4,12 @@ kind: player
 title: @brian_armstrong
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 22
+posts: 36
 ---
 
 # @brian_armstrong
 
-> 自動生成。信号投稿 22件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,15 +18,15 @@ posts: 22
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 6,654 |  | The fact that orbital compute is (soon) the most efficient way to build datacenters  | [[brian_armstrong__2067656268156981706]] |
+| 6,031 |  | How to keep AI spend flat while token usage grows exponentially: Not with friction a | [[brian_armstrong__2070670644577280109]] |
+| 5,196 |  | Barely even a winter TBH  More like a cool breeze | [[brian_armstrong__2070608243483897900]] |
+| 5,145 |  | Indeed how 🤯 | [[brian_armstrong__2070542119966789822]] |
 | 3,862 |  | This Illinois law is remarkably bad - it will end up hurting the state, kill jobs an | [[brian_armstrong__2067399356739997917]] |
+| 3,144 |  | Tokenized stocks are a win for everyone.  For people that already hold stocks, it ma | [[brian_armstrong__2070557703601090942]] |
 | 2,952 |  | We registered the AI agent itself with the SEC as an investment advisor.  It has you | [[brian_armstrong__2066970407618445655]] |
+| 2,556 |  | The US Constitution was the most important political innovation ever, but it's missi | [[brian_armstrong__2072388768699678801]] |
 | 2,437 |  | Should SpaceX build a von Neumann probe (self replicating spacecraft)?  Potentially  | [[brian_armstrong__2067107388310585389]] |
-| 1,558 |  | Gave an impromptu talk to the interns at our New York office today.  Many aspiring e | [[brian_armstrong__2067410897543614572]] |
-| 1,487 |  | Banking on your phone used to sound crazy, and now everyone does it. Using AI agents | [[brian_armstrong__2066974842432495898]] |
-| 1,271 |  | Agree - everything in hard tech is more difficult than software (especially in bio w | [[brian_armstrong__2068110095993778306]] |
-| 1,261 |  | Big week for Coinbase! Like I said on stage, thanks to all the Coinbase employees (a | [[brian_armstrong__2067810633928581355]] |
-| 647 |  | Get exposure to private companies before they go public with pre-IPO perps on Coinba | [[brian_armstrong__2066967211558797319]] |
-| 626 |  | By being a Coinbase customer, you're helping support economic freedom, and therefore | [[brian_armstrong__2067409995915018361]] |
+| 2,168 |  | Excited to advance the adoption of stablecoins! Let’s update the financial system. | [[brian_armstrong__2072015848387051667]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

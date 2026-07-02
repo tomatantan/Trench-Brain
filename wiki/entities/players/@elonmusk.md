@@ -4,12 +4,12 @@ kind: player
 title: @elonmusk
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 35
+posts: 40
 ---
 
 # @elonmusk
 
-> 自動生成。信号投稿 35件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,11 +22,11 @@ posts: 35
 | 67,727 |  | Karl’s Dad was cool | [[elonmusk__2068743751376244966]] |
 | 62,352 |  | This is happening throughout the West | [[elonmusk__2069848693080306061]] |
 | 53,882 |  | “Robber” Khanna! | [[elonmusk__2069150708952187280]] |
+| 50,471 |  | Walking the Optimus production line in Fremont | [[elonmusk__2072214077372518657]] |
+| 43,628 |  | Four-story elevator … wow  Real “man of the people” he is | [[elonmusk__2072086313160040675]] |
 | 36,061 |  | Your kids will love this video!  Grok Imagine prompt: The kittens with mittens start | [[elonmusk__2068748080623604004]] |
-| 28,543 |  | The standard applied by DOGE was very simple and easy:  Provide contact information  | [[elonmusk__2069087335824699744]] |
-| 27,182 |  | Tip of the iceberg | [[elonmusk__2069514943385469087]] |
-| 27,120 |  | Works every time | [[elonmusk__2068845321984053656]] |
-| 26,133 |  | Lee Kuan Yew was a genius | [[elonmusk__2069892302575911055]] |
+| 32,148 |  | Free money, housing, etc acts as a massive financial forcing function to draw illega | [[elonmusk__2072450156801446239]] |
+| 31,271 |  | Orwell was a genius | [[elonmusk__2072379307461423161]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

@@ -4,29 +4,29 @@ kind: player
 title: @MemememHen
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 26
+posts: 34
 ---
 
 # @MemememHen
 
-> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 34件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PUNCH]](1)
+[[$PUNCH]](3)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 61 |  | i met punch short time 😁 | [[memememhen__2071855833756123151]] |
+| 41 |  | punch but riding on bull | [[memememhen__2071754413656682867]] |
 | 32 |  | In Japan, there are still almost no people who truly understand how good FOMO is.    | [[memememhen__2069051983898857907]] |
 | 28 |  | New friends 🥰🥰 | [[MemememHen__2067998105174434173]] |
 | 21 |  | In Japan, there are still almost no people who truly understand how good FOMO is.    | [[MemememHen__2069051983898857907]] |
 | 19 |  | Where’s next ??? | [[memememhen__2069061729250841059]] |
 | 18 |  | The best narrative is price   Even a coin that’s almost completely ignored—or outrig | [[memememhen__2068869363932017043]] |
+| 17 | [[$PUNCH]] | Hang in there campaign is getting much bigger!!! $Punch | [[memememhen__2072479383638683842]] |
 | 15 |  | 日本の皆さんはfomoappを使った事がありますか？  ないなら、あるけど今は使ってないならその理由を教えてください | [[memememhen__2069215863371387147]] |
 | 11 |  | lmaooooo 😂😂😂 | [[MemememHen__2068626500878995675]] |
-| 10 |  | punch / solana | [[MemememHen__2068349300690813336]] |
-| 9 |  | これたぶんkintara連想なのおもろい | [[memememhen__2068693551886815320]] |
-| 9 |  | mewing punch 😂 | [[MemememHen__2068625260182913343]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

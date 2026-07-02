@@ -17,7 +17,7 @@ accounts: 3
 [[@dxrnell]] [[@lookonchain]] [[@moonshot]]
 
 ## 共起トークン
-[[$ANSEM]] [[$LUKE]] [[$USDC]]
+[[$USDC]] [[$ANSEM]] [[$LUKE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

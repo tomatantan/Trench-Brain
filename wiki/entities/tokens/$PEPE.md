@@ -17,7 +17,7 @@ accounts: 5
 [[@lookonchain]] [[@mag_onsol]] [[@milesdeutscher]] [[@pepecoineth]] [[@theunipcs]]
 
 ## 共起トークン
-[[$ETH]] [[$WIF]] [[$BTC]] [[$SHIB]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]]
+[[$WIF]] [[$ETH]] [[$BTC]] [[$SHIB]] [[$DOGE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

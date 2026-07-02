@@ -4,12 +4,12 @@ kind: player
 title: @Uniswap
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 41
+posts: 45
 ---
 
 # @Uniswap
 
-> 自動生成。信号投稿 41件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 45件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$FIDD]](2)
@@ -19,14 +19,14 @@ posts: 41
 |---|---|---|---|
 | 737 |  | Stablecoins power DeFi  That's why Uniswap is coming to @Arc with protocol, apps, an | [[uniswap__2066597943738609862]] |
 | 735 |  | Stablecoins power DeFi  That's why Uniswap is coming to @Arc with protocol, apps, an | [[Uniswap__2066597943738609862]] |
+| 723 |  | This week is going to be Mega 🐰 | [[uniswap__2071228653527060736]] |
 | 594 |  | Bankr puts numbers on the board  $4B+ in all-time Uniswap Protocol volume 🏆 | [[uniswap__2063246077696864619]] |
 | 588 |  | Bankr puts numbers on the board  $4B+ in all-time Uniswap Protocol volume 🏆 | [[Uniswap__2063246077696864619]] |
 | 562 |  | The world's value is moving onchain  And now, you can access it all through Uniswap  | [[uniswap__2065442029350363558]] |
 | 558 | [[$FIDD]] | Fidelity, one of the world's largest asset management firms, is moving onchain with  | [[Uniswap__2065159152486199396]] |
 | 557 | [[$FIDD]] | Fidelity, one of the world's largest asset management firms, is moving onchain with  | [[uniswap__2065159152486199396]] |
 | 550 |  | The world's value is moving onchain  And now, you can access it all through Uniswap  | [[Uniswap__2065442029350363558]] |
-| 391 |  | Trade everything on 🦄 | [[uniswap__2067229503273799819]] |
-| 383 |  | The world wants to trade freely, without gatekeepers, borders, or asking permission  | [[Uniswap__2062186186794226110]] |
+| 431 |  | MegaETH is now live on Uniswap Web App, Wallet, and API  Swap and LP on one of the f | [[uniswap__2071619498759561264]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

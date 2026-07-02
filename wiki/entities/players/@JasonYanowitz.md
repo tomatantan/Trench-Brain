@@ -4,12 +4,12 @@ kind: player
 title: @JasonYanowitz
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 140
+posts: 146
 ---
 
 # @JasonYanowitz
 
-> 自動生成。信号投稿 140件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 146件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$LINK]](1)

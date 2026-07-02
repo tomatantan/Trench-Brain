@@ -4,12 +4,12 @@ kind: player
 title: @SeruDefi
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 40
+posts: 41
 ---
 
 # @SeruDefi
 
-> 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 41件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 4件 / 現outcome評価 4件中 **死2（50%）** ＝平均的。

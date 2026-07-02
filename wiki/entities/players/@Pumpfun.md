@@ -4,12 +4,12 @@ kind: player
 title: @Pumpfun
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 38
+posts: 44
 ---
 
 # @Pumpfun
 
-> 自動生成。信号投稿 38件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 44件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,11 +22,11 @@ posts: 38
 | 2,226 |  | the moon is just the beginning | [[Pumpfun__2065150083541135758]] |
 | 2,224 |  | the moon is just the beginning | [[pumpfun__2065150083541135758]] |
 | 2,110 |  | POV: you just woke up to an Ansem candle on one of your conviction bags | [[pumpfun__2068363103134269714]] |
+| 2,105 |  | this is what peak male performance looks like btw | [[pumpfun__2070984795241284000]] |
 | 2,092 |  | you know that feeling when you're building something great? | [[Pumpfun__2064770309220085922]] |
 | 2,090 |  | you know that feeling when you're building something great? | [[pumpfun__2064770309220085922]] |
 | 2,038 |  | POV: you just woke up to an Ansem candle on one of your conviction bags | [[Pumpfun__2068363103134269714]] |
 | 2,020 |  | i’m collecting memes to achieve my dreams | [[pumpfun__2067311179282755829]] |
-| 1,932 |  | i’m collecting memes to achieve my dreams | [[Pumpfun__2067311179282755829]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

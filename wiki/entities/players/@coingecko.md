@@ -4,15 +4,15 @@ kind: player
 title: @coingecko
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 62
+posts: 78
 ---
 
 # @coingecko
 
-> 自動生成。信号投稿 62件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 78件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$HYPE]](5) [[$BTC]](5) [[$SPCX]](2) [[$PENGU]](2) [[$ETH]](2) [[$SOL]](2) [[$VERONA]](1) [[$JPYSC]](1) [[$SIREN]](1) [[$TAIKO]](1)
+[[$HYPE]](5) [[$BTC]](5) [[$SPCX]](2) [[$PENGU]](2) [[$ETH]](2) [[$BP]](2) [[$SOL]](2) [[$VERONA]](1) [[$JPYSC]](1) [[$SIREN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -22,11 +22,11 @@ posts: 62
 | 1,749 |  | NOW: Bitcoin reclaims $66,000. | [[coingecko__2066482688257618045]] |
 | 1,277 | [[$BTC]] | JUST IN: Strategy purchases another 1,587 Bitcoin for ~$100M, bringing its total hol | [[coingecko__2066491800911552975]] |
 | 1,160 |  | JUST IN: Bitcoin falls below $63,000. | [[coingecko__2067635553583993272]] |
+| 939 |  | 11 Blockchains Ranked by User Retention Rates  1. @Ethereum - 26.2% 2. @BNBCHAIN - 2 | [[coingecko__2071861052908703828]] |
+| 826 |  | JUST IN: Bitcoin falls below $59,000. | [[coingecko__2071932361143353562]] |
 | 742 | [[$BP]] | INSIGHT: $BP is up 27.4% following the debut of its tokenized SpaceX stock. | [[coingecko__2066073983913447663]] |
 | 707 |  | JUST IN: Bitcoin falls below $59,000. | [[coingecko__2070144744009662478]] |
-| 617 | [[$BTC]] | JUST IN: Strategy purchases another 520 Bitcoin for ~$35M, bringing its total holdin | [[coingecko__2069030123341304208]] |
-| 495 |  | JUST IN: Bitcoin falls below $63,000 amid heightened liquidation-driven volatility. | [[coingecko__2069306973229588538]] |
-| 458 | [[$SPCX]] | NEWS: $SPCX falls 17.8%, erasing most of its gains since its market debut. | [[coingecko__2069288716133425284]] |
+| 678 |  | Project for July? | [[coingecko__2072077748323905810]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

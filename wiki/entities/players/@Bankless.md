@@ -4,15 +4,15 @@ kind: player
 title: @Bankless
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 45
+posts: 51
 ---
 
 # @Bankless
 
-> 自動生成。信号投稿 45件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](2) [[$CARDS]](1) [[$BTC]](1) [[$RE]](1)
+[[$STRC]](4) [[$MSTR]](2) [[$CARDS]](1) [[$BTC]](1) [[$RE]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -21,12 +21,12 @@ posts: 45
 | 347 |  | INTERVIEW: @CryptoHayes - The AI Crash That Could Send bitcoin:native  to $1M  Arthu | [[bankless__2069027635582103941]] |
 | 225 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[bankless__2065488183656378680]] |
 | 219 |  | “Tom Lee is the most important thing happening in the Ethereum ecosystem right now.  | [[Bankless__2065488183656378680]] |
+| 192 |  | NEW EPISODE: @ethlabs_org : The New Org to Make @Ethereum Win / @adietrichs  & @casp | [[bankless__2071597156096508339]] |
+| 134 |  | The ethereum:native roadmap needs a trillion-dollar north star.   @adietrichs: “I th | [[bankless__2071941211716309251]] |
 | 99 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[bankless__2067655855646945787]] |
 | 95 |  | “The implosion of the AI bubble… is going to dwarf subprime.”  @CryptoHayes thinks t | [[Bankless__2067655855646945787]] |
+| 94 |  | The ethereum:native thesis starts with @ethereum itself.  @adietrichs says it plainl | [[bankless__2072002225988407425]] |
 | 84 |  | EARLY ACCESS: "The Fed Can't Print Moore's Law" - @CryptoHayes   🟢 Out now for Bankl | [[bankless__2067287789536682479]] |
-| 73 |  | EARLY ACCESS: "The Fed Can't Print Moore's Law" - @CryptoHayes   🟢 Out now for Bankl | [[Bankless__2067287789536682479]] |
-| 56 |  | INTERVIEW: MegaETH’s MOSS -- One Wallet for Every App  @megaeth wants crypto apps to | [[Bankless__2067260987519164644]] |
-| 56 |  | INTERVIEW: MegaETH’s MOSS -- One Wallet for Every App  @megaeth wants crypto apps to | [[bankless__2067260987519164644]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

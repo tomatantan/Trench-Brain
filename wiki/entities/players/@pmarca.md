@@ -4,12 +4,12 @@ kind: player
 title: @pmarca
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 54
+posts: 61
 ---
 
 # @pmarca
 
-> 自動生成。信号投稿 54件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 61件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -19,14 +19,14 @@ posts: 54
 |---|---|---|---|
 | 8,898 |  | Hey, this gives me a great idea! | [[pmarca__2068624303759978645]] |
 | 7,085 |  | Did cancer write this? | [[pmarca__2069137336508801360]] |
+| 6,701 |  | No kidding. Building those things is illegal now. | [[pmarca__2072108481784758430]] |
+| 5,702 |  | Who is John Galt? | [[pmarca__2072481605328019874]] |
+| 3,928 |  | 1 Make building things illegal.  2 ? 3 Complain those things aren’t getting built.   | [[pmarca__2072173799148326955]] |
 | 3,859 |  | American hero. | [[pmarca__2068577394806710651]] |
 | 2,935 |  | I, on the other hand, remember 2014-2024. | [[pmarca__2069931975235027131]] |
 | 2,439 |  | I have bad news about your podcast, dude. | [[pmarca__2069198492887814157]] |
 | 1,423 |  | While I’m at it: America at 250 is now an older society than what we still call “Eng | [[pmarca__2070296734815961441]] |
 | 821 |  | As one thing (digital content) becomes cheap and plentiful, another thing (in-person | [[pmarca__2070175954497065135]] |
-| 815 |  | The infernal fascist disinformation machine that is destroying our democracy and rui | [[pmarca__2070232891326685656]] |
-| 774 |  | Cyberpunk AF. | [[pmarca__2070023917071433995]] |
-| 668 |  | Using old models is the #1 cause of AI cope right now. | [[pmarca__2069531438391926833]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

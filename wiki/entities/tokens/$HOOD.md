@@ -55,6 +55,24 @@ pump.fun 発。bonding curve 卒業済（complete=true）。"Robin Hood" 命名�
 
 **outcome**: died
 
+### 2026-07-02 ⚠️ ticker 衝突（disambiguation）+ 新 beat: Robinhood $HOOD 株価 +8.1% / Robinhood Chain launch
+出典: [[coingecko__2072545990129639717]]（80♥・2026-07-02T05:00Z）/ [[defi_kay___2072426401618075680]]（5♥・2026-07-01T21:05Z）/ [[coingecko__2072394893255954646]]（101♥・2026-07-01T19:00Z）/ [[coingecko__2072515674233266286]]（134♥・2026-07-02T03:00Z）
+
+**⚠️ ticker 衝突・disambiguation**:
+- **本entity**（mint:9isPr2）は pump.fun 産「Robin Hood」pixel art token = 2026-06-27 に **-99.3% で死亡確定**済みの別資産。
+- **2026-07-01/02 の新規 signal はすべて Robinhood Markets Inc. 株式 $HOOD（Nasdaq: HOOD）に関するツイ**であり、pump.fun meme token とは無関係の別物。ticker 共有による自動集約の副産物として混在している。以下の合成は **Robinhood Markets $HOOD** として扱う。
+
+**観測（Robinhood Markets $HOOD・2026-07-01/02）**:
+- [[@coingecko]]（80♥、2026-07-02）: 「INSIGHT: $HOOD rose 8.1% after Robinhood successfully launched its crypto mainnet and expanded its crypto perp offerings in the EU.」= Robinhood Chain mainnet launch 後に $HOOD 株価 +8.1%。
+- [[@defi_kay_]]（5♥、2026-07-01）: 「$HOOD event — Hood chain live, tokenized stock trading / Lighter perps integration into wallet / RWA perp markets (EU) / Earn product, 7% apy headline rate on stables. Stock tokens and perps not in main app for US yet, but hope reg easing enables this soon? Vlad and team COOKED.」= Robinhood Chain launch の詳細: ①Hood chain mainnet ②tokenized stock trading（EU先行）③Lighter.xyz perps integration ④RWA perp markets（EU）⑤Earn 7% APY on stables。
+- [[@coingecko]] x2（2026-07-01/02）: Robinhood Chain data live on CoinGecko API / "Robinhood Chain brings RWAs onchain"。
+
+**判断**:
+- **[[external-event-to-token-pattern]]**: Robinhood Chain launch が $HOOD 株価 +8.1% の catalyst に。「onchain 展開 = TradFi 株価への trench edge」という逆方向の影響経路。
+- **[[spacex-ipo-narrative]] / RWA 文脈との接続**: Robinhood が EU で tokenized stock trading を開始 = 「株式の onchain 化」の実実装例。[[$BP]]（Backpack）が $SPCX（SpaceX tokenized）で RWA 展開したのに対し、Robinhood は自前チェーンで株式 onchain 化を実装。両者とも **EU 先行・規制裁定**という同構造を取るが、Robinhood は自社 infra（$HOOD はトークンでなく株式）= $BP とは性質が異なる。
+- ⚠️ **$BP（Backpack）への影響**: Robinhood Chain が EU で perps + tokenized stocks を展開 = Backpack の EU 先行 moat の競合軸が出現。$BP の単一 moat リスク（tokenized equities 1点依存）が強化された可能性（詳細は [[$BP]] 参照）。
+- confidence=中（Robinhood Chain launch は real event・株価 +8.1% は信頼性高い）。接続: [[external-event-to-token-pattern]]（TradFi chain launch → 株価 catalyst）/ [[spacex-ipo-narrative]]（RWA tokenization 実実装）/ [[perp-dex-wars]]（Robinhood が perp 参入・Lighter integration）/ [[$BP]]（EU 規制先行 × tokenized stocks の競合軸）。
+
 <!-- synthesis:end -->
 
 ## 関連

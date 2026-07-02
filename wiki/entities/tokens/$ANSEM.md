@@ -17,7 +17,7 @@ accounts: 13
 [[@CredibleCrypto]] [[@DefiIgnas]] [[@Ministerr]] [[@PumpfunEco]] [[@arkham]] [[@bull_bnb]] [[@dxrnell]] [[@itspyrored]] [[@lookonchain]] [[@moonshot]] [[@solbrdl]] [[@spyzer]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$USELESS]] [[$FARTCOIN]] [[$WIF]] [[$LUKE]] [[$TJR]] [[$COAI]] [[$LAB]]
+[[$BTC]] [[$USELESS]] [[$WIF]] [[$FARTCOIN]] [[$LUKE]] [[$TJR]] [[$IGNAS]] [[$SOL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -58,4 +58,19 @@ accounts: 13
 - ⚠️ holder集中（本人58.7%保有・公開情報）。[[onchain-verification]] での残り41.3%の分布（insider追加wallet有無）は未検証。confidence=低〜中（体裁は強いが供給構造がCredibleCryptoの警告どおり脆弱）。
 
 関連: [[rug-anatomy]] [[launchpad-economics]] [[manipulation-playbook]] [[onchain-verification]]
+
+### 2026-07-02 更新（新 beat: "MM execution 型"の先行事例群 + "grifters 回帰"）
+出典: [[bull_bnb__2071523789125329203]]（174♥・2026-06-29T09:18Z）/ [[ministerr__2072150632329511405]]（119♥・2026-07-01T02:49Z）
+
+**観測（事実）**:
+- [[@bull_bnb]]（174♥、2026-06-29）: 「It doesn't matter how they're pumping $ANSEM. What matters is that someone actually had the balls to execute it. Let's not pretend we've never seen this before. $MYX, $COAI, $SIREN, $SKYAI, $LAB, and $VELVET all had insane runs with little to no fundamentals at the time, mostly driven by strong market makers. This hybrid of retail hype + elite MM execution is bringing attention back to Solana, and for that alone, respect.」
+- [[@Ministerr]]（119♥、2026-07-01）: 「The $Ansem coin got all the grifters coming back to crypto」
+
+**判断（追記）**:
+- **"MM execution 型"の先行銘柄群が名指し確定**: bull_bnb が $MYX/$COAI/$SIREN/$SKYAI/$LAB/$VELVET という**6銘柄を先行事例**として名指し。「ファンダほぼゼロ・Market Maker 主導の pump」という共通パターンとして $ANSEM を位置づけた。これは既合成「[[launchpad-economics]] の KOL-driven pump の典型」を具体的な先行コホートで補強する。"elite MM execution" という表現は、既合成「プロモーター＝最大受益者（58.7%保有）」と整合: Ansem 本人 + 強力 MM という二重構造が正面から肯定された形。
+- ⚠️ bull_bnb の立場はニュートラル-ポジ（「pump 構造を認めた上で容認」）。既合成「弱気側（CredibleCrypto: 人為的低float）」とは問題設定が異なる——「pump は悪か」という文化的反応の差として両論を保持。
+- **Ministerr「grifters が戻った」**: $ANSEM が「機会主義者層（grifters）を crypto に呼び戻した」という観察。批判的 undertone を含むが直接の否定ではない。「attention が戻った」という事実の観測として記録（bull_bnb の「Solana に注目を戻した・respect」と同じ事実を grifters という語彙で表現したバリアント）。
+- **⚠️ 3軸が成立**: ① CredibleCrypto「有機的蓄積なし・人為低float」 ② bull_bnb「MM execution 容認・Solana 回帰に敬意」 ③ Ministerr「grifters 回帰」= pump 自体は認知されながら意味評価が3方向に分裂。
+- $MYX/$COAI/$SIREN/$SKYAI/$LAB/$VELVET の pump 後の結末が先行事例として重要（bull_bnb の口ぶりは「insane runs」= pump-and-dump型を暗に示す）。$ANSEM が同クラスなら [[rug-anatomy]] の "MM pump → OG 出口 → retail 残骸" 型の可能性を高める。
+- confidence=低〜中（$ANSEM の長期結末は未確定・pump 構造は多角的に確認）。接続: [[launchpad-economics]]（MM pump 先行コホート群）/ [[manipulation-playbook]]（"elite MM execution" の明示的承認）/ [[rug-anatomy]]（先行6銘柄との比較・grifters 回帰 = 市場参加者層の変化）。
 <!-- synthesis:end -->

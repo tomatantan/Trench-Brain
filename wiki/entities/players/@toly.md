@@ -4,12 +4,12 @@ kind: player
 title: @toly
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 50
+posts: 51
 ---
 
 # @toly
 
-> 自動生成。信号投稿 50件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

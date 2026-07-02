@@ -4,12 +4,12 @@ kind: player
 title: @gainzy222
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 27
+posts: 38
 ---
 
 # @gainzy222
 
-> 自動生成。信号投稿 27件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 38件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -23,10 +23,10 @@ posts: 27
 | 423 |  | Rooting for that kintara game to run hard and breathe life into the crypto gaming se | [[gainzy222__2068570217199071481]] |
 | 423 |  | One more legit bull run like 2017 or 2021 and we will see insane prices again  I’ve  | [[gainzy222__2069234640800633096]] |
 | 338 |  | Most unreal display of wealth I’ve ever seen  The gym has only solid gold dumbbells | [[gainzy222__2065983351975206981]] |
+| 333 |  | Don’t sit all bear market in boring coins, reallocate into more promising ones  Hand | [[gainzy222__2070687148291010934]] |
 | 232 |  | Messi the greatest to ever do it | [[gainzy222__2067077435900731415]] |
 | 185 |  | USA is gonna win the world cup and it will globally be called soccer in my lifetime | [[gainzy222__2070091922727940514]] |
 | 162 |  | banana bread lowkey goated | [[gainzy222__2066333357722779790]] |
-| 156 |  | dirty bulked my way into a massive double chin on accident   and now we diet to dimi | [[gainzy222__2067183149315244205]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

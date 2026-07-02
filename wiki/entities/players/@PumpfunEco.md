@@ -4,29 +4,29 @@ kind: player
 title: @PumpfunEco
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 96
+posts: 111
 ---
 
 # @PumpfunEco
 
-> 自動生成。信号投稿 96件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 111件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$JOTCHUA]](15) [[$KINS]](10) [[$SOLANGELES]](10) [[$FARM]](6) [[$FARTCOIN]](6) [[$SQUIRE]](5) [[$QUEST]](5) [[$GYM]](5) [[$WORLD]](5) [[$DROOLING]](4)
+[[$JOTCHUA]](16) [[$KINS]](12) [[$SOLANGELES]](10) [[$FARTCOIN]](7) [[$WORLD]](7) [[$GYM]](6) [[$FARM]](6) [[$THREE]](5) [[$SQUIRE]](5) [[$QUEST]](5)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 518 | [[$WORLD]] | JUST IN: $world hits a new all-time high of $10.7M market cap! 🔥 | [[pumpfuneco__2072320106793709706]] |
 | 389 | [[$PUMPCADE]] [[$QUEST]] [[$SQUIRE]] | Ansem (@blknoiz06) makes first purchases on his @Pumpfun wallet 🔥  He bought $PUMPCA | [[pumpfuneco__2069407494300950984]] |
+| 373 | [[$MITCH]] | $MITCH surges 679% after Ansem's post calling for his X account to be reinstated! | [[pumpfuneco__2072341828808954187]] |
 | 349 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[pumpfuneco__2069430064580641055]] |
+| 306 | [[$TROLL]] | $TROLL is rallying, currently up 18% in 24 hours 👀 | [[pumpfuneco__2072467207460712613]] |
+| 242 | [[$ANSEM]] | $ANSEM has pumped 25% today! 🔥 | [[pumpfuneco__2072498066511286645]] |
+| 214 | [[$ANSEM]] [[$DOG]] [[$FARTCOIN]] | 24h volume leaders on pump fun 👀  $ANSEM $44.4M $Fartcoin $6.76M $dog $5.83M $Jotchu | [[pumpfuneco__2072300491833475413]] |
 | 211 | [[$THREE]] | $three is rallying, currently up 29% in 24 hours 👀 | [[pumpfuneco__2069426642204667975]] |
 | 205 | [[$WORLD]] | This trader is up $93,000 after buying $136 worth of $world   They gained a 684x ret | [[pumpfuneco__2070103784248742256]] |
 | 201 | [[$JOTCHUA]] | $Jotchua is rallying, currently up 92% in 24 hours 👀 | [[PumpfunEco__2068633451973247417]] |
-| 186 | [[$JOTCHUA]] | $Jotchua has pumped 900% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068756088174882931]] |
-| 181 | [[$JOTCHUA]] | $Jotchua has pumped 49% today! 🔥 | [[PumpfunEco__2068440964801196350]] |
-| 173 | [[$SOLANGELES]] | $SOLANGELES has pumped 100% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068742566137274401]] |
-| 171 | [[$CLAW]] [[$GYM]] | Ansem (@blknoiz06) just bought $1,000 of $CLAW & $GYM 👀 | [[pumpfuneco__2069507554682515894]] |
-| 160 |  | CALLING ALL GAMERS: Earn $10,000 by being the first person to defeat this boss 1,000 | [[PumpfunEco__2069430064580641055]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

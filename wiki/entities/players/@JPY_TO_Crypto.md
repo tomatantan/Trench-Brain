@@ -4,19 +4,19 @@ kind: player
 title: @JPY_TO_Crypto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 33
+posts: 36
 ---
 
 # @JPY_TO_Crypto
 
-> 自動生成。信号投稿 33件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 36件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 3件 / 現outcome評価 3件中 **死3（100%）** ＝⚠️callの死多(信頼性低)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$KINTON]](10) [[$YAJUCOIN]](5) [[$IROHA]](4) [[$TACTICS]](2) [[$CURAK]](2) [[$YARIRAFY]](1)
+[[$KINTON]](10) [[$YAJUCOIN]](5) [[$IROHA]](4) [[$YARIRAFY]](3) [[$TACTICS]](2) [[$CURAK]](2) [[$RTM]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

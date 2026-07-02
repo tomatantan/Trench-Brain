@@ -4,15 +4,15 @@ kind: player
 title: @xvwmuca
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 11
+posts: 12
 ---
 
 # @xvwmuca
 
-> 自動生成。信号投稿 11件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$KINTON]](8) [[$TRIPLET]](1) [[$URL]](1)
+[[$KINTON]](8) [[$URL]](2) [[$TRIPLET]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

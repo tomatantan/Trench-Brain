@@ -4,12 +4,12 @@ kind: player
 title: @ren_Nevermind
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 51
+posts: 57
 ---
 
 # @ren_Nevermind
 
-> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 57件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

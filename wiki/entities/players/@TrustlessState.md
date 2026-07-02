@@ -4,29 +4,29 @@ kind: player
 title: @TrustlessState
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 42
+posts: 54
 ---
 
 # @TrustlessState
 
-> 自動生成。信号投稿 42件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 54件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$STRC]](2) [[$LIT]](2) [[$DRAM]](1) [[$BMNP]](1)
+[[$STRC]](2) [[$LIT]](2) [[$SOL]](1) [[$DRAM]](1) [[$BMNP]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 628 |  | The EF is intentionally leaving a power vacuum for new structures to step up and inf | [[trustlessstate__2069110440903196810]] |
 | 373 |  | The EF is intentionally leaving a power vacuum for new structures to step up and inf | [[TrustlessState__2069110440903196810]] |
+| 211 |  | Pretty huge week for news  - Strategy's ‘Digital Credit Capital Framework’ - Venice  | [[trustlessstate__2072458192693428289]] |
+| 200 |  | This isn’t bullish because of the Robinhood Wallet   It’s bullish because  - it show | [[trustlessstate__2072408763256951089]] |
+| 175 |  | I am setting my thermostat to 68 and you should too   Send market signals.  Unless w | [[trustlessstate__2072454552461119894]] |
+| 122 | [[$SOL]] | Pretty crazy action going on over on Solana downstream of all the action on Ansem's  | [[trustlessstate__2072461987645202607]] |
 | 120 |  | increasing the yield isn't gonna fix this | [[trustlessstate__2069819004684792226]] |
 | 103 |  | Funding Secured | [[TrustlessState__2068036318836277573]] |
 | 100 |  | Why would anyone hold MSTR?   @PunterJeff on our pod, you called this 'amplified BTC | [[trustlessstate__2069086341770383871]] |
-| 85 |  | Arthur Hayes invented the Perp, so I asked him what he thinks of Hyperliquid taking  | [[trustlessstate__2069074030628364349]] |
-| 65 | [[$LIT]] | $LIT offering a deal today | [[TrustlessState__2067736157010469294]] |
-| 63 | [[$STRC]] | yikes dude!   $STRC trading down to $76 | [[trustlessstate__2070145958420079094]] |
-| 59 |  | If the USA just committed to soccer as a sport we could achieve world peace | [[TrustlessState__2068091072559845515]] |
-| 56 |  | You gotta listen to Trump pronounce cryptography  First time he’s ever read that wor | [[trustlessstate__2069186391582429384]] |
+| 100 |  | Lighter will be powering the native perpetual product on Robinhood's Wallet | [[trustlessstate__2072400849725190497]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

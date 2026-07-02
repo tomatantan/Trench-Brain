@@ -4,12 +4,12 @@ kind: player
 title: @TheRollupCo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 81
+posts: 101
 ---
 
 # @TheRollupCo
 
-> 自動生成。信号投稿 81件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 101件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$AERO]](1) [[$HYPE]](1)
@@ -23,10 +23,10 @@ posts: 81
 | 75 |  | Alexander Cutler says token buybacks mean nothing if insiders are dumping more.  He  | [[therollupco__2068205856378782017]] |
 | 69 |  | Hester Peirce (@HesterPeirce)  just casually revealed she's leaving the SEC.  Her pa | [[therollupco__2068529343429820669]] |
 | 34 |  | Rand Hindi (@randhindi) says privacy should be the standard in every transaction.  “ | [[therollupco__2067979716364304540]] |
+| 31 |  | "We're big Lighter bulls here, one of our core holdings."  @andyyy explains why the  | [[therollupco__2072418538405372202]] |
 | 21 |  | SEC Commissioner Hester Peirce (@HesterPeirce) on what should never be compromised:  | [[therollupco__2068338081678143545]] |
 | 18 |  | Se Yong says people have never been able to be early enough to the best trades.  "By | [[therollupco__2069854978655559690]] |
-| 16 |  | 🚨LIVE: Saylor's MSTR In Trouble?! Debasement Trade Over? Volatility Incoming. Fomo C | [[therollupco__2069821263993086269]] |
-| 16 |  | Binji (@binji_x) explains why full-stack privacy matters for Ethereum and the intern | [[therollupco__2068802894657114186]] |
+| 17 |  | Dmitry Berenzon says why RWAs need a two-category framework instead of one:  "Two di | [[therollupco__2072444017401610377]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

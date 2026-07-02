@@ -4,13 +4,13 @@ kind: token
 title: $NEET
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 5
+mentions: 7
 accounts: 3
 ---
 
 # $NEET
 
-> 自動生成(brain/build_entities.py)。言及 5件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 7件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -26,6 +26,8 @@ accounts: 3
 | 165 | [[@dxrnell]] | The $20M floor holding extremely well on $neet  Would be silly to not have exposure  | [[dxrnell__2072261429290537134]] |
 | 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 128 | [[@Crypto_Alch]] | Bottom on the $NEET foundation technology   One of the very few cults that will out- | [[crypto_alch__2072384633178648600]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
+| 112 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[Crypto_Alch__2069087026813530587]] |
 | 64 | [[@Crypto_Alch]] | Here is update on how summer we're entering summer, god bless  Check our TG:   - $KI | [[crypto_alch__2069087026813530587]] |
 
 <!-- synthesis:start -->
@@ -48,4 +50,19 @@ accounts: 3
 
 ### 関連 concept / entity
 [[reflexivity]]（accumulation = 燃料蓄積、range 抜け = ループ点火）/ [[survivor-memes]]（proof-of-patience 型・community-building meme）/ [[launchpad-economics]]（traction signal で篩を通るか）
+
+### 2026-07-02 更新（新 beat: 2026-07-01 dxrnell $20M floor + Crypto_Alch "bottom/patience" 同日コール）
+出典: [[dxrnell__2072261429290537134]]（165♥・2026-07-01T10:10Z）/ [[crypto_alch__2072384633178648600]]（128♥・2026-07-01T18:19Z）
+
+**観測（事実）**:
+- [[@dxrnell]]（165♥、2026-07-01）: 「The $20M floor holding extremely well on $neet. Would be silly to not have exposure to this token. We are all NEET's」
+- [[@Crypto_Alch]]（128♥、2026-07-01）: 「Bottom on the $NEET foundation technology. One of the very few cults that will out-leave the bear. Patience」
+
+**判断**:
+- **$20M floor**: dxrnell が具体的な mcap 水準（$20M）を支持帯として明示し「保有すべき」とコール。既合成「accumulation range 中の proof-of-patience 型」（cookerbruski 2025-08-19・$TROLL アナロジー）と同一構造——range が $20M フロアで定義されたことで具体的な参照水準が確定した（[[onchain-verification]] で実 mcap 確認推奨）。
+- **Crypto_Alch「out-leave the bear」**: 「この bear market を生き残る cult のひとつ」= 既合成 [[survivor-memes]]「proof-of-patience 型・community-building meme」に直接対応。"foundation technology" は meme coin への ironicな community-speak だが、"few cults that will survive" = 選別の宣言でもある。
+- **2KOL 独立同日コール（2026-07-01）**: dxrnell（10:10Z）と Crypto_Alch（18:19Z）が同日独立に $NEET を肯定。既合成は 2025-08-19（cookerbruski）+ 2026-06-23（Crypto_Alch poll）= 時系列的に散発。今回は **48h 以内 × 2アカ** の concurrent コールで鮮度ゲート通過の根拠が明確。
+- **"We are all NEETs"**: dxrnell が自己を含む「NEET」と同一視。NEET（Not in Employment, Education, or Training）= bear market で alt に賭ける人物像との概念的重ね合わせ。[[survivor-memes]] 観点で「感情的同化が可能な meme = 生存力が高い」というパターンに合致。
+- ⚠️ 2025-08-19 cookerbruski 予言（$TROLL アナロジー → range 抜けで violent pump）が的中したかは依然未確認。$20M floor が実際に機能するか・「out-leave the bear」が実現するかは継続観察。confidence=低〜中（複数 KOL 同日コールは鮮度のある signal だが実体は meme のまま）。
+- **§2 concept 候補（worklist）判断**: $NEET の "bear survivor cult" という型は [[survivor-memes]] が既に内包する。新 concept は不要。[[survivor-memes]] へのリンク強化で対応する。
 <!-- synthesis:end -->

@@ -4,29 +4,29 @@ kind: player
 title: @CredibleCrypto
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 21
+posts: 37
 ---
 
 # @CredibleCrypto
 
-> 自動生成。信号投稿 21件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 37件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$XRP]](5) [[$CRV]](5) [[$BTC]](4) [[$ETH]](4) [[$HBAR]](1)
+[[$BTC]](7) [[$ETH]](5) [[$XRP]](5) [[$CRV]](5) [[$TRAC]](1) [[$MSTR]](1) [[$STRC]](1) [[$HBAR]](1) [[$ANSEM]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 1,311 |  | Hang in there fam, we are close. | [[crediblecrypto__2072252238022820108]] |
 | 910 |  | Believe me, many are.   But if you want to be one of the ones who makes a boat load  | [[crediblecrypto__2068172326857052465]] |
+| 778 |  | You guys claim you want progress and growth in this space but then you keep repeatin | [[crediblecrypto__2071927089150968149]] |
 | 735 | [[$BTC]] [[$CRV]] [[$ETH]] | Not much has changed here, still think most logical outcome on $BTC for now is relie | [[crediblecrypto__2065743233393610974]] |
+| 723 | [[$BTC]] [[$ETH]] | I have a feeling our macro $ETH bottom at $1,500 is going to look very similar to ou | [[crediblecrypto__2072465495803220359]] |
+| 709 | [[$ANSEM]] | The same reason the $ANSEM token is running so hard is the exact same reason "the gr | [[crediblecrypto__2071450416341262549]] |
+| 693 |  | Looks decent to me tbh.   Kinda crazy how different two people's perspectives can be | [[crediblecrypto__2071094503881195615]] |
 | 658 | [[$CRV]] [[$XRP]] | Longed some $XRP here, a near identical setup to the one shared on $CRV in the quote | [[crediblecrypto__2065417989583769925]] |
 | 612 | [[$CRV]] | Honestly they'll still ignore it at $1 and only call it obvious at $6 (prior ATH).   | [[crediblecrypto__2065124640821797243]] |
 | 612 | [[$CRV]] | Honestly they'll still ignore it at $1 and only call it obvious at $6 (prior ATH).   | [[CredibleCrypto__2065124640821797243]] |
-| 602 | [[$CRV]] | A look under the hood of this recent $CRV rally:  1. Perp CVD has remained relativel | [[crediblecrypto__2065000023587168414]] |
-| 578 | [[$ETH]] | Longed some $ETH here.   1. We have printed a LTF impulse that gives us a clear inva | [[crediblecrypto__2067233085687562662]] |
-| 506 | [[$BTC]] [[$XRP]] | Unfortunately nearly fully retraced our move on $XRP on this pullback.  As stops wer | [[crediblecrypto__2067665232533549481]] |
-| 485 | [[$ETH]] | Continue higher we did 🎯 $ETH | [[crediblecrypto__2066663875148161230]] |
-| 437 | [[$XRP]] | SL can now safely be moved to entry at $1.13, making this a risk-free trade.   Targe | [[crediblecrypto__2066512098637631583]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

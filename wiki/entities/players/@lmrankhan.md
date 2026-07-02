@@ -4,12 +4,12 @@ kind: player
 title: @lmrankhan
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 16
+posts: 29
 ---
 
 # @lmrankhan
 
-> 自動生成。信号投稿 16件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 29件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,16 +17,16 @@ posts: 16
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 958 |  | I’d keep an eye on Luka. He built his last startup during the first wave of fintech  | [[lmrankhan__2071762786443493397]] |
+| 569 |  | I have a thesis that personal brands will become one of the most valuable assets ove | [[lmrankhan__2072192556952125522]] |
+| 415 |  | Crypto VC market is getting hot again. Or maybe Alliance has become enough of a sign | [[lmrankhan__2070634480763584571]] |
 | 397 |  | Why do founders choose Alliance over others?  We’re backed by Founders Fund, Jump, J | [[lmrankhan__2065473385329529053]] |
 | 395 |  | One of the strongest early signals of extreme PMF is when your customers want to inv | [[lmrankhan__2066922827190526043]] |
 | 327 |  | We have an ex Anthropic team at Alliance working on a very interesting wedge at the  | [[lmrankhan__2065066868872741343]] |
+| 260 |  | Negative self talk especially for founders is one of the biggest killers of startups | [[lmrankhan__2070985131922473076]] |
+| 223 |  | Being the underdog is a much better place to be than having everything handed to you | [[lmrankhan__2071336269779493208]] |
+| 210 |  | Founders just a heads up, please don't show up at the Alliance office to pitch us. W | [[lmrankhan__2071703251389493599]] |
 | 201 |  | Stablecoin startup getting ready to present at our Demo Day in 3 weeks just crossed  | [[lmrankhan__2068095742947012884]] |
-| 195 |  | Read the recent Delphi report on token markets and agree with the broader theme. We’ | [[lmrankhan__2067397421919883534]] |
-| 192 |  | It’s going to be difficult to build venture scale startups on top of Kalshi and Poly | [[lmrankhan__2064541426436739151]] |
-| 188 |  | Our early admissions for the next Alliance batch just wrapped up, and we’ve doubled  | [[lmrankhan__2067065997664612780]] |
-| 175 |  | Personally, I think Kalshi’s products are net negative for on chain liquidity. Every | [[lmrankhan__2065648637791629389]] |
-| 171 |  | To be a successful hip3 deployer, you first need distribution.  The challenge is tha | [[lmrankhan__2066580818391363849]] |
-| 128 |  | I've seen a ton of "agents for X" ideas that help find creators, generate leads, or  | [[lmrankhan__2067363777360941314]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

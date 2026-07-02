@@ -4,19 +4,19 @@ kind: player
 title: @ShapeFN_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 100
+posts: 113
 ---
 
 # @ShapeFN_
 
-> 自動生成。信号投稿 100件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 113件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$MERLIN]](9) [[$MITCH]](8) [[$SERGEYEVNA]](5) [[$INDIAN]](5) [[$NOSEY]](5) [[$AIZEN]](4) [[$VINTEDGATE]](3) [[$REN]](2) [[$PENGUIN]](2) [[$SUBARU]](2)
+[[$MERLIN]](11) [[$MITCH]](8) [[$SERGEYEVNA]](5) [[$MMG]](5) [[$INDIAN]](5) [[$NOSEY]](5) [[$AIZEN]](4) [[$VINTEDGATE]](3) [[$REN]](2) [[$PENGUIN]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -24,13 +24,13 @@ CA言及 7件 / 現outcome評価 6件中 **死4（67%）** ＝平均的。
 | 1,973 | [[$MERLIN]] | Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin | [[shapefn___2068315352124006863]] |
 | 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[ShapeFN___2067208855918960741]] |
 | 406 | [[$MERLIN]] [[$PENGUIN]] | People compare $Merlin to $Penguin because both went viral.  I think they're missing | [[shapefn___2067208855918960741]] |
+| 283 |  | 410 sol for a 911 was lowkey fire | [[shapefn___2064813983127818582]] |
 | 141 | [[$MERLIN]] | From selling water on the streets to the top of the World Cup. 🦆🏆 $Merlin | [[shapefn___2067195484842651871]] |
 | 109 | [[$MERLIN]] | Official @FOXSports added $Merlin to their x profile | [[shapefn___2067616747088142496]] |
 | 80 | [[$MERLIN]] | POV: You accidentally become FIFA's newest ambassador. $Merlin | [[shapefn___2067201353361785315]] |
 | 78 | [[$MERLIN]] | DoorDash changed their pic to $Merlin is it time for Merlinfication? | [[shapefn___2067754051551265088]] |
 | 63 |  | I THINK I FOUND THE NEXT VIRAL TIKTOK MEME ITS GOING CRAZY ON TIKTOK | [[ShapeFN___1898406623153963026]] |
 | 58 |  | The real Annabelle lore 👻  Annabelle is a haunted doll kept in a locked glass case b | [[ShapeFN___1927028226573885709]] |
-| 51 | [[$MITCH]] | When she doesn’t believe $MITCH will 100x, but you know. | [[ShapeFN___1946602057110045050]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

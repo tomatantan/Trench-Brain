@@ -6,7 +6,7 @@ status: watch
 ticker: $TJR
 mint: 4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump
 created: 2026-07-02
-updated: 2026-07-02 (birth stub・$411k・KOL tsuyuto6154・既存[[$TJR]]と同ticker別mint)
+updated: 2026-07-02 (mcap更新$411k→$455k・KOL tsuyuto6154・ticker-squat継続watch)
 tags: [token, pumpfun, graduated, kol-ca, tsuyuto6154, ticker-collision]
 ---
 
@@ -24,6 +24,7 @@ pump.fun 発。bonding curve 卒業済（complete=true）。"The Top Floor Boss"
 | pool | Eg2SxQ3zkT3ZjQmnXg318aVUR8eo4YfUPUVzeU6riGJN |
 | gate | safety:ok / traction:kol |
 | 初検知 mcap | $411,424.94（2026-07-02T07:32:57Z） |
+| mcap(更新) | $455,327（2026-07-02T09:27Z） |
 | reply_count | 0 |
 | KOL（CA確認） | [[@tsuyuto6154]] |
 | twitter | https://x.com/Supermanonchain/status/2071581476207182216（外部投稿） |

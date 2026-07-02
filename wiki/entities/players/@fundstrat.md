@@ -4,28 +4,29 @@ kind: player
 title: @fundstrat
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 9
+posts: 15
 ---
 
 # @fundstrat
 
-> 自動生成。信号投稿 9件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 15件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$BMNR]](1) [[$ETH]](1)
+[[$ETH]](2) [[$BMNR]](2) [[$BTC]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 2,232 | [[$ETH]] | In my opinion, zero chance of this ‘crisis’ happening for $ETH  zero  “Funding secur | [[fundstrat__2068030092064834011]] |
+| 999 |  | Congratulations @ethereuminsti on this announcement  - another great team set to do  | [[fundstrat__2072318453248094708]] |
+| 990 | [[$BTC]] [[$ETH]] | Crypto is a hyper volatile asset and some macro headwinds are weighing on Bitcoin an | [[fundstrat__2071689742870270210]] |
 | 901 | [[$BMNR]] | Congrats Bitmine @bitmnr on being named Fortunes Crypto 100  $BMNR @fortune | [[fundstrat__2065122359908925856]] |
+| 810 |  | Congrats @ethlabs_org   Great first week | [[fundstrat__2071701007843672189]] |
+| 735 | [[$BMNR]] | Ethereum Institutional @ethereuminsti will play a central and key role as a neutral  | [[fundstrat__2072393267224760423]] |
+| 704 |  | Great to see the @ethereumfndn to thoughtfully address critical issues for governmen | [[fundstrat__2072370952466215236]] |
 | 690 |  | Good data @joechalom 👍 | [[fundstrat__2066932468532351352]] |
 | 594 |  | Great blast from the past | [[fundstrat__2068445304232321460]] |
 | 442 |  | The press conference post FOMC rate decisions has only been in place since 2019:  -  | [[fundstrat__2067305096619209034]] |
-| 410 |  | Oldie but a goodie | [[fundstrat__2066640552263553512]] |
-| 164 |  | Tune into @CNBCClosingBell at 3pm ET with @TheJudgeCNBC   - I will be on discussing  | [[fundstrat__2070215030188945779]] |
-| 139 |  | Tune into CNBC Closing Bell @CNBCClosingBell at 3:35pm (bit later)... with @TheJudge | [[fundstrat__2067692887928684703]] |
-| 137 |  | Ai jobs for humans | [[fundstrat__2070316191092990365]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

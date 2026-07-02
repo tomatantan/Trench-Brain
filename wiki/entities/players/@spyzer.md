@@ -4,15 +4,15 @@ kind: player
 title: @spyzer
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 114
+posts: 125
 ---
 
 # @spyzer
 
-> 自動生成。信号投稿 114件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 125件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MASK]](37) [[$VINE]](10) [[$REALIS]](7) [[$CPT]](3) [[$LIL]](2) [[$GOR]](2) [[$ELLIE]](1) [[$LIGHT]](1) [[$USEDCAR]](1) [[$AVICI]](1)
+[[$MASK]](37) [[$VINE]](10) [[$REALIS]](7) [[$CPT]](4) [[$LIL]](2) [[$GOR]](2) [[$ELLIE]](1) [[$LIGHT]](1) [[$USEDCAR]](1) [[$ANSEM]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -21,12 +21,12 @@ posts: 114
 | 870 |  | @pheromones_sol Another one out the trenches  W | [[spyzer__1801388297823895918]] |
 | 795 | [[$MASK]] | Never Underestimate The Power of Community    $MASK up     Save The Trenches | [[spyzer__1928980904057123162]] |
 | 689 | [[$MASK]] | $MASK UUUUUUUUUUUUUP 🔥🔥🔥 | [[spyzer__1930245851693363645]] |
+| 623 | [[$ANSEM]] | $ANSEM @blknoiz06  A bet on our biggest onchain KOL and crypto in general   Everyone | [[spyzer__2072061139501056347]] |
+| 535 |  | This is what I do it for  Thank you @blknoiz06 & to everyone else who has been suppo | [[spyzer__2071949365879406896]] |
 | 446 | [[$MASK]] | Why I believe $MASK could be the next billion-dollar memecoin  I’ve got a few reason | [[spyzer__1932046870013939858]] |
 | 443 | [[$MASK]] | PUT THE FUCKING $MASK ON | [[spyzer__1929179827602427968]] |
 | 442 | [[$MASK]] | $MASK ON 🔥🔥🔥 @cryptorapcalls | [[spyzer__1931471379322290416]] |
 | 396 | [[$MASK]] | $MASK UP G 🥷🔥 | [[spyzer__1930648461227004260]] |
-| 390 | [[$MASK]] | G $MASK THE FUCK UP | [[spyzer__1931692499287867517]] |
-| 387 | [[$MASK]] | WHO IS THE FLYEST OF THEM ALL  $MASK | [[spyzer__1933902009465508201]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

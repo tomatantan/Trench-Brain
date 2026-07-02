@@ -4,20 +4,20 @@ kind: token
 title: $BTC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 171
+mentions: 176
 accounts: 21
 ---
 
 # $BTC
 
-> 自動生成(brain/build_entities.py)。言及 171件 / 21アカ。
+> 自動生成(brain/build_entities.py)。言及 176件 / 21アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Bankless]] [[@BinanceUS]] [[@CoinMarketCap]] [[@CredibleCrypto]] [[@CryptoHayes]] [[@CryptoKaleo]] [[@Crypto_Alch]] [[@DefiIgnas]] [[@MurphyBTC]] [[@WatcherGuru]] [[@blknoiz06]] [[@coingecko]] [[@cryptocom]] [[@daisuk_e4]] [[@fundstrat]] [[@lookonchain]] [[@milesdeutscher]] [[@saylor]] [[@thedefiedge]] [[@theunipcs]] [[@zhusu]]
 
 ## 共起トークン
-[[$ETH]] [[$SOL]] [[$USELESS]] [[$STRC]] [[$PEPE]] [[$PENGU]] [[$MSTR]] [[$DOGE]]
+[[$ETH]] [[$SOL]] [[$USELESS]] [[$STRC]] [[$PEPE]] [[$PENGU]] [[$DOGE]] [[$WIF]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -456,4 +456,15 @@ accounts: 21
 - ⚠️ 「BTC $15,000」は具体的日付なし・本ツイのみでは実際に BTC が再度 $15K まで下がる予測なのか、単なる「底の形状（V字/長期保合い）」のアナロジーなのか曖昧。次数値確認が必要（[[onchain-verification]]）。
 - 接続: [[majors-rotation-supercycle]]（AI FOMO による crypto外流出という新規ローテ非点火要因）/ [[regulation-catalyst]]（Clarity Act purgatory＝規制停滞の具体名）/ [[$ETH]]（$1,500 ボトム TA予告・PO3パターン、詳細は ETH 側合成参照）/ [[rug-anatomy]]（CredibleCrypto の強気/弱気シナリオ併存＝track record の一貫性検証対象）。
 - confidence=中（Fundstrat は TradFi ソースとして新規性あり／CredibleCrypto はTA予測で検証待ち）。既存合成（BTC = fiat liquidity smoke alarm・全体収縮フェーズ）の方向に変化なし、headwinds/bottom-analogy の具体データ点を追加。
+
+### 2026-07-02 確認④（新 beat: BlackRock 2026-06-30 Coinbase Prime 入金 第三波・worklist 代表ツイ確認）
+出典: [[lookonchain__2071912914680987813]]（690♥・2026-06-30T11:05Z）/ [[coingecko__2069030123341304208]]（617♥・2026-06-22・既合成）
+
+**観測（事実・2026-06-30）**: [[@lookonchain]]（690♥）「BlackRock just deposited another 4,984.56 $BTC($295M) and 30,725 $ETH($48.58M) to Coinbase Prime.」= 2026-06-30、BlackRock が BTC $295M + ETH $48.58M を Coinbase Prime に追加入金。
+
+**判断（light-touch）**:
+- 既合成「2026-06-25: 3,410 BTC（$209.64M）/ 2026-06-26: 4,577 BTC（$272M）入金（2026-06-27 更新②）」に続く**第三波**。3回合計: 3,410 + 4,577 + 4,985 ≈ **12,972 BTC（$776M+）**を Coinbase Prime へ累積入金。
+- **BTC と ETH 同時入金**: 既合成「BlackRock 7日連続 ETH 売り（arkham 2026-06-30・$ETH 合成 2026-07-02 更新⑦）」の文脈では、この 2026-06-30 の同時入金は **ETH 継続売り + BTC 継続入金** が同一日に発生した確認。「custody/rebalance vs 出口向け spot 売り準備の二択」（既合成）の構造は変わらないが、BTC + ETH の同時入金 = **出口向けリバランスの一貫した方向性**を示す可能性。
+- ⚠️ coingecko Strategy 617♥ tweet（[[coingecko__2069030123341304208]]・2026-06-22）: 既合成「2026-06-23 更新（Strategy 520 BTC・847,363 BTC total）」で合成済み。新情報なし。
+- confidence=中（既存合成の方向に変化なし・入金パターン継続の第三波確認）。接続: [[onchain-verification]]（Coinbase Prime 入金 = 独立確認推奨）/ [[majors-rotation-supercycle]]（BlackRock BTC+ETH 同時入金継続 = 出口シグナル候補の観察継続）。
 <!-- synthesis:end -->

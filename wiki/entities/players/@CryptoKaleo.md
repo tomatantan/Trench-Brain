@@ -4,15 +4,15 @@ kind: player
 title: @CryptoKaleo
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 74
+posts: 87
 ---
 
 # @CryptoKaleo
 
-> 自動生成。信号投稿 74件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 87件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MSTR]](15) [[$STRC]](13) [[$GME]](2) [[$AMC]](2) [[$ETH]](2) [[$BTC]](1)
+[[$MSTR]](16) [[$STRC]](13) [[$GME]](2) [[$BTC]](2) [[$AMC]](2) [[$ETH]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

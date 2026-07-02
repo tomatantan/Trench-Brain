@@ -4,12 +4,12 @@ kind: player
 title: @mert
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 31
 ---
 
 # @mert
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 31件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -18,15 +18,15 @@ posts: 23
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 3,128 |  | the entire premise of socialist types is:  "we could not solve any problem for the p | [[mert__2069078178350371157]] |
+| 1,778 |  | Solana at ATH for transaction activity  up and to the right | [[mert__2072268845562187931]] |
 | 1,659 |  | 20 years ago my dad moved us out of turkey to the greatest country on earth  he work | [[mert__2068781703246524600]] |
+| 1,372 |  | "We're going to protect consumers by increasing taxes and restricting market competi | [[mert__2072362125348266185]] |
 | 1,195 |  | dear noobs,  since people think SOL is paying shills, I will start actually paying y | [[mert__2068641128912499087]] |
 | 898 |  | a core tenet of capitalism is that if you fail, you LOSE capital  if you make shitty | [[mert__2068688052197703926]] |
+| 828 |  | truly onchain prediction markets are finally on solana  this will lead to more oncha | [[mert__2072319735874646262]] |
 | 687 |  | hey, why are you shilling the most usable, scalable, and battle-tested blockchain in | [[mert__2068637065852404065]] |
+| 677 |  | it is not too late to quit your job to help build the future of money, markets, and  | [[mert__2072406262600351944]] |
 | 520 |  | if you cant handle volatility  take a deep breath, reassess why you're here, call yo | [[mert__2069868396569567441]] |
-| 515 |  | any asset in the world, instantly tradable, 24/7 with just an internet connection  s | [[mert__2069079891996189156]] |
-| 510 |  | privacy is security   the less you expose, the less ammo AI has over you  encrypt yo | [[mert__2070096258006474990]] |
-| 433 |  | some insane cooking from @HeliusPrivacy coming to Solana soon | [[mert__2069383592032018459]] |
-| 429 |  | what is dead may never die  ATHs soon | [[mert__2069851322099081672]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

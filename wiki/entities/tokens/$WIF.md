@@ -17,7 +17,7 @@ accounts: 6
 [[@DefiIgnas]] [[@badattrading_]] [[@blknoiz06]] [[@lookonchain]] [[@solbrdl]] [[@theunipcs]]
 
 ## 共起トークン
-[[$PEPE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]] [[$BTC]] [[$DOGE]] [[$SOL]] [[$SHIB]]
+[[$PEPE]] [[$FARTCOIN]] [[$PENGU]] [[$USELESS]] [[$BTC]] [[$DOGE]] [[$SOL]] [[$BONK]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

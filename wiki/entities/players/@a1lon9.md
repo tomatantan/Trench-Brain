@@ -4,12 +4,12 @@ kind: player
 title: @a1lon9
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 112
+posts: 114
 ---
 
 # @a1lon9
 
-> 自動生成。信号投稿 112件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 114件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$PUMP]](5) [[$TROLL]](2) [[$LIBRA]](1) [[$TOKABU]](1) [[$USDUC]](1)
@@ -21,12 +21,12 @@ posts: 112
 | 7,376 |  | Q4 will be pump fun’s best quarter yet  book it. | [[a1lon9__1970944615743439288]] |
 | 7,050 |  | huge announcement coming for organic community coins in the pump fun ecosystem this  | [[a1lon9__1952479163572777078]] |
 | 5,436 |  | the return to memes will be glorious | [[a1lon9__1971651042753614131]] |
+| 5,386 |  | seeing this level of activity and excitement in our ecosystem in the middle of a bea | [[a1lon9__2071683173453332584]] |
 | 5,345 |  | I feel like we're gonna run back Q4 2024 pump fun trenches soon  but way higher | [[a1lon9__1954698666654261344]] |
 | 5,263 |  | Hantavirus.   A COVID-level threat? More lockdowns? Worse?  If you're an internet pe | [[a1lon9__2052510691790073867]] |
 | 5,198 |  | pump fun badge anyone? | [[a1lon9__1986108328133730730]] |
 | 5,172 |  | 2024 was the warm up. | [[a1lon9__2052123970443346282]] |
 | 5,005 |  | today, we made history once again   from being one of the fastest growing companies  | [[a1lon9__1944140985539473557]] |
-| 4,925 |  | when you stream on pump fun you get  - INSTANT Creator Fees (100x+ of what you earn  | [[a1lon9__1967245564506251509]] |
 
 <!-- synthesis:start -->
 ## 思考の型（@a1lon9）

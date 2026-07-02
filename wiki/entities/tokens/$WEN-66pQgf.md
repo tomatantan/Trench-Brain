@@ -46,4 +46,16 @@ pump.fun 発。名称「Wendy's Co」——WSB（r/wallstreetbets）ミーム起
 - **学習点**: 構造クリーン × KOL wallet-analysis attention × $1M超到達でも、有機的 traction ゼロなら最終崩壊——$SOB（top70=83.2% 集中崩壊）とは構造が異なるが「KOL wallet-analysis attention = 生存保証でない」という結論は同じ（N追加）。[[external-event-to-token-pattern]] の WSB/株式ネタ型で organic traction が発生しなかった事例。
 
 **概念接続**: [[launchpad-economics]]（構造クリーン卒業→死亡）/ [[external-event-to-token-pattern]]（WSB/株式ミーム→SOL meme・traction未転換）/ [[rug-anatomy]]（KOL wallet-analysis attention ≠ 生存保証 N追加）
+
+### 2026-07-02T09:27Z POST-MORTEM BOUNCE（+64%・$142,051→$233,080）
+**観測（事実）**
+- dead 確定後（2026-06-25 peak $1.14M→$110k -90%）に mcap $142k → $233k（+64%）が記録された。queue flags: mcap+64%。
+- kol_ca: [] / reply=0 / twitter-website 変化なし。complete=true・pool 継続。
+- kol_ticker に theunipcs が記録（queue birth列）——theunipcs が ticker を言及した可能性あり。
+
+**判断**
+- dead 判定後に $233k まで V字回復——典型的 dead-cat bounce。entity status は dead のまま（有機的 traction 復活の証拠なし）。
+- WSB ミーム（「Wendy's を救え」）が再度話題になった or whale が floor 付近から再 pump した可能性。
+- ⚠️ theunipcs の ticker 言及が真にこの CA を指すか未確認——kol_ca ゼロで CA 裏付け不在。言及≠推薦の注意事項は据え置き。
+- dead-cat bounce として記録。次窓で $233k を維持できなければ再崩壊確定。
 <!-- synthesis:end -->

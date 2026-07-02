@@ -4,20 +4,20 @@ kind: token
 title: $KINS
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 24
+mentions: 29
 accounts: 3
 ---
 
 # $KINS
 
-> 自動生成(brain/build_entities.py)。言及 24件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 29件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@Crypto_Alch]] [[@MurphyBTC]] [[@PumpfunEco]]
 
 ## 共起トークン
-[[$JOTCHUA]] [[$FARTCOIN]] [[$ZERO]] [[$THREE]] [[$WORLD]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]]
+[[$JOTCHUA]] [[$FARTCOIN]] [[$ALTSZN]] [[$ASTEROID]] [[$BUTTCOIN]] [[$NEET]] [[$ZERO]] [[$THREE]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |
@@ -30,8 +30,8 @@ accounts: 3
 | 154 | [[@Crypto_Alch]] | A summer $1k-$100k PF   • $KINS  • $TripleT • $drooling  • solana:BcHEaaTCvycPwwsJ9y | [[crypto_alch__2072340127100133406]] |
 | 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 139 | [[@PumpfunEco]] | $KINS is rallying, currently up 28% in 24 hours 👀 | [[PumpfunEco__2068793368239317204]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 122 | [[@Crypto_Alch]] | Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli | [[Crypto_Alch__2068928202135781813]] |
-| 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述・2026-06-23）

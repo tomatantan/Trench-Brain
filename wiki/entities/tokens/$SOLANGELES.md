@@ -4,13 +4,13 @@ kind: token
 title: $SOLANGELES
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 11
+mentions: 12
 accounts: 3
 ---
 
 # $SOLANGELES
 
-> 自動生成(brain/build_entities.py)。言及 11件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 12件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -27,11 +27,11 @@ accounts: 3
 | 151 | [[@PumpfunEco]] | $SOLANGELES is rallying, up 28% in the past hour 👀 | [[pumpfuneco__2069379112989339718]] |
 | 144 | [[@Crypto_Alch]] | When do they pull the bundle?  Top $SOLANGELES holder has 35% supply   Fascinating s | [[Crypto_Alch__2068993734084112473]] |
 | 140 | [[@PumpfunEco]] | $SOLANGELES has pumped 200% since it began trending on pump fun! 🔥 | [[PumpfunEco__2068774140224356546]] |
+| 133 | [[@PumpfunEco]] | $SOLANGELES is rallying, up 28% in the past hour 👀 | [[PumpfunEco__2069379112989339718]] |
 | 108 | [[@PumpfunEco]] | This trader is up $21,600 after buying $250 worth of $SOLANGELES   They gained an 87 | [[PumpfunEco__2069002054958194927]] |
 | 102 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $6.30M $SOLANG | [[PumpfunEco__2069045129449812400]] |
 | 85 | [[@PumpfunEco]] | This trader bought $4,180 worth of $SOLANGELES at $352K market cap and never sold a  | [[PumpfunEco__2069137193747071400]] |
 | 77 | [[@PumpfunEco]] | A $SOLANGELES whale is currently holding a $55,000 bag 🔥 | [[pumpfuneco__2069947098494030288]] |
-| 76 | [[@PumpfunEco]] | $SOLANGELES has pumped 131% today! 🔥 | [[PumpfunEco__2068842335400563070]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述・2026-06-23）

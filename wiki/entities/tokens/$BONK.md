@@ -17,7 +17,7 @@ accounts: 3
 [[@lookonchain]] [[@rajgokal]] [[@theunipcs]]
 
 ## 共起トークン
-[[$WIF]] [[$USELESS]] [[$BTC]] [[$FARTCOIN]] [[$PENGU]] [[$PEPE]] [[$SOL]] [[$DOGE]]
+[[$WIF]] [[$BTC]] [[$USELESS]] [[$PEPE]] [[$FARTCOIN]] [[$PENGU]] [[$DOGE]] [[$SHIB]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

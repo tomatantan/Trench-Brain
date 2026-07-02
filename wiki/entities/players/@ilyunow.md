@@ -4,12 +4,12 @@ kind: player
 title: @ilyunow
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 12
+posts: 19
 ---
 
 # @ilyunow
 
-> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 19件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -17,16 +17,16 @@ posts: 12
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
+| 163 |  | let’s bring memecoins back” | [[ilyunow__2071520211438903348]] |
 | 145 |  | bring back having fun instead of soulless extraction👍 | [[ilyunow__2068387796776255897]] |
+| 125 |  | ansem coin is just the warmup  what if | [[ilyunow__2071201777161318444]] |
 | 77 |  | don’t need to predict perfectly. you need a position size that lets you live with bo | [[ilyunow__2061817846976368950]] |
 | 73 |  | **dream_bigger** | [[ilyunow__2068309761003803120]] |
+| 62 |  | do we slam or do i log back off | [[ilyunow__2071093376620081649]] |
+| 50 |  | wow the cycle just repeats | [[ilyunow__2071804546490486928]] |
 | 33 |  | what if it was the start of an end that leads to the start of the beginning | [[ilyunow__2069836646208692460]] |
 | 33 |  | adin called the top, lacy will call the bottom. | [[ilyunow__2059778931801116985]] |
 | 32 |  | do you still remember? | [[ilyunow__2068668759435534738]] |
-| 31 |  | some of yall need to study memetics because you clearly don’t get shit | [[ilyunow__2069086693014266079]] |
-| 27 |  | cats cats dog cats cats | [[ilyunow__2067278118843462008]] |
-| 22 |  | these local mini pancakes in japan are so fire | [[ilyunow__2065755684743037165]] |
-| 14 |  | @elonmusk do you also like cats or just dogs? | [[ilyunow__2069478821569716327]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

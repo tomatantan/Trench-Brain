@@ -4,20 +4,20 @@ kind: token
 title: $FARTCOIN
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 16
+mentions: 17
 accounts: 3
 ---
 
 # $FARTCOIN
 
-> 自動生成(brain/build_entities.py)。言及 16件 / 3アカ。
+> 自動生成(brain/build_entities.py)。言及 17件 / 3アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
 [[@PumpfunEco]] [[@lookonchain]] [[@theunipcs]]
 
 ## 共起トークン
-[[$USELESS]] [[$PENGU]] [[$PEPE]] [[$WIF]] [[$KINS]] [[$BTC]] [[$DOGE]] [[$SHIB]]
+[[$USELESS]] [[$PENGU]] [[$PEPE]] [[$WIF]] [[$KINS]] [[$DOGE]] [[$SHIB]] [[$BTC]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

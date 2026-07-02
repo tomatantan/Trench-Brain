@@ -4,15 +4,15 @@ kind: player
 title: @bull_bnb
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 30
+posts: 35
 ---
 
 # @bull_bnb
 
-> 自動生成。信号投稿 30件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 35件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$ASTER]](3) [[$XDOG]](3) [[$JSON]](1) [[$OKB]](1)
+[[$ASTER]](3) [[$XDOG]](3) [[$JSON]](1) [[$OKB]](1) [[$APE]](1) [[$ANSEM]](1) [[$COAI]](1) [[$LAB]](1) [[$MYX]](1) [[$SIREN]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

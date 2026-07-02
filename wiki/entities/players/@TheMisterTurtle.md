@@ -4,12 +4,12 @@ kind: player
 title: @TheMisterTurtle
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 23
+posts: 41
 ---
 
 # @TheMisterTurtle
 
-> 自動生成。信号投稿 23件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 41件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -24,9 +24,9 @@ posts: 23
 | 408 |  | I actually think meme coins will be bigger this cycle than they were last cycle. | [[TheMisterTurtle__2068911611759268049]] |
 | 402 |  | good morning | [[themisterturtle__2067864346571473255]] |
 | 401 |  | You are hiding sub $15k market cap gems in your portfolio, are you not? | [[themisterturtle__2068042021713879172]] |
+| 353 |  | Day 3 of not wiping my ass until Ansem sends me an airdrop. | [[themisterturtle__2072295851297223157]] |
 | 343 |  | “Bro, Satoshi launched this coin.” | [[themisterturtle__2068054492650656241]] |
-| 333 |  | Frontrun this meta, frontrun that narra, how about you go out front and run a lap ar | [[themisterturtle__2067832799424336345]] |
-| 330 |  | Solana looks great here. | [[themisterturtle__2069305741345771693]] |
+| 339 |  | I only made $500 in airdrops today | [[themisterturtle__2072143108020523456]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

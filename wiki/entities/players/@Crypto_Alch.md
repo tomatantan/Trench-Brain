@@ -4,19 +4,19 @@ kind: player
 title: @Crypto_Alch
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 91
+posts: 110
 ---
 
 # @Crypto_Alch
 
-> 自動生成。信号投稿 91件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 110件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 3件 / 現outcome評価 2件中 **死0（0%）** ＝callが残りやすい(相対的に注目)。
 > ★近似(現mcap基準)・小N。母集団は[[launchpad-economics]]で大半死＝相対比較で読む。
 
 ## よく言及するトークン
-[[$KINS]](11) [[$JOTCHUA]](10) [[$THREE]](10) [[$ALTSZN]](8) [[$ASTEROID]](6) [[$WOJAK]](6) [[$BUTTCOIN]](4) [[$NEET]](4) [[$HYPE]](4) [[$TRIPLET]](3)
+[[$KINS]](15) [[$JOTCHUA]](11) [[$THREE]](11) [[$ALTSZN]](9) [[$ASTEROID]](6) [[$TRIPLET]](6) [[$WOJAK]](6) [[$DROOLING]](6) [[$NEET]](5) [[$BUTTCOIN]](4)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -26,11 +26,11 @@ CA言及 3件 / 現outcome評価 2件中 **死0（0%）** ＝callが残りやす
 | 221 |  | Rise and gamble   No one is coming to safe you | [[Crypto_Alch__2067875925845307833]] |
 | 217 | [[$WOJAK]] | Imagine being bearish on memes when $wojak printing bullish like this   Idk bros $10 | [[Crypto_Alch__2069009974873800901]] |
 | 217 |  | Gm my trench people  Till death all defeat us psychological | [[Crypto_Alch__2067957052895277148]] |
+| 216 | [[$THREE]] | Moment of truth for the $three tech   What if they start a tech release for IBM?  Wi | [[crypto_alch__2072239246660850165]] |
 | 214 |  | Accepting requests to join my FREE TG   Where I share market alpha with my community | [[Crypto_Alch__2067966154383958293]] |
 | 207 | [[$USELESS]] | Randomly remembered I gave you the $USELESS coin pico bottom   Most nvggers on here  | [[crypto_alch__2070151698031472845]] |
-| 179 |  | Solana to $1000 is not too crazy if you think about it  - Gamers onboarding  - Gambl | [[Crypto_Alch__2069057968327344451]] |
-| 171 | [[$KINS]] | Entry on $KINS IMO  $50-$100M to to bring gaming trenches back   Few understand, man | [[crypto_alch__2069678933960770011]] |
-| 161 | [[$ASTEROID]] | $ASTEROID pulling a ‘fvck you’ reversal   How are nvggas betting against a bundled s | [[Crypto_Alch__2067990029964644410]] |
+| 206 | [[$KINS]] | $KINS curling up for an onchain gaming season   CT is too slow and 99.9988667% will  | [[crypto_alch__2072179353308348718]] |
+| 198 | [[$JOTCHUA]] | $Jotchua in a clear vertical accumulation   No one is talking about it  Were early a | [[crypto_alch__2072295880409878872]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

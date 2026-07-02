@@ -2,13 +2,14 @@
 type: entity
 kind: token
 source: auto-track
-status: watch
+status: dead
+outcome: died
 peak_mcap: $1,784,452
 title: $BITBOY（The White Bull）
 mint: V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump
 created: 2026-07-01
-updated: 2026-07-02
-tags: [trench, entity, token, auto-track, graduated, traction0, association-marketing, stub]
+updated: 2026-07-02 (DEAD確定・peak$1,784,452→$166,137/-90.7%)
+tags: [trench, entity, token, auto-track, graduated, traction0, association-marketing, dead-denominator]
 ---
 
 # $BITBOY（The White Bull）
@@ -64,6 +65,15 @@ tags: [trench, entity, token, auto-track, graduated, traction0, association-mark
 - peak $1.78M から $385k へ縮退（peak比 -78%）。traction0 全期間継続のまま半値割れ。
 - BREAKOUT-then-dead の縮退フェーズ進行中——[[launchpad-economics]] 「traction 転化ゼロ × 高 mcap jump → 急落」型の教科書例。
 - ⚠️ real_sol=0 全期間 = LP なし状態での価格形成。次窓で reply/KOL 出現なければ death 境界域接近。
+### 2026-07-02T09:27Z DEAD確定（peak $1,784,452 → $166,137 / -90.7%）
+**観測（事実）**
+- mcap $166,137（flags: death、cause: mcap -90% from peak($1784452)）。
+- reply=0・real_sol=0・KOL 皆無 全期間変化なし。status: dead確定。
+
+**判断**
+- peak $1.78M → $166k = -90.7%。traction0 全期間のまま完全崩壊。
+- [[launchpad-economics]] 跳躍台帳 $BITBOY（+265%・$1.78M）の BREAKOUT-then-dead が完結——KOL名借用×social整備×real_sol=0×whale pump→崩壊の教科書型。
+- [[rug-anatomy]] 死亡台帳 追記。型通りの死（1行で十分）。
 <!-- synthesis:end -->
 
 ## 関連

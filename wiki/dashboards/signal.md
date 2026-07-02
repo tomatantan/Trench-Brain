@@ -7,43 +7,43 @@ tags: [trench, dashboard]
 
 # Signal digest（仕分け集計）
 
-生ツイ 11354 件 → ノイズ(RT/短文/中身なし)除外後 **8261 件**が信号。
+生ツイ 12220 件 → ノイズ(RT/短文/中身なし)除外後 **8951 件**が信号。
 [[index]] / この集計を入力にエージェントが [[concepts|concept]] を合成する。
 
 ## ホット $ticker（言及ノート数 × 言及アカ数）
 
 | ticker | 言及数 | アカ数 | 言及アカ(一部) |
 |---|---|---|---|
-| $BTC | 171 | 22 | ?, Bankless, BinanceUS, CoinMarketCap, CredibleCrypto, CryptoHayes |
-| $ETH | 160 | 20 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
-| $SOL | 53 | 12 | ?, CryptoHayes, DefiIgnas, RookieXBT, TrustlessState, blknoiz06 |
+| $BTC | 176 | 22 | ?, Bankless, BinanceUS, CoinMarketCap, CredibleCrypto, CryptoHayes |
+| $ETH | 167 | 20 | ?, CredibleCrypto, CryptoHayes, CryptoKaleo, DefiIgnas, MurphyBTC |
+| $SOL | 54 | 12 | ?, CryptoHayes, DefiIgnas, RookieXBT, TrustlessState, blknoiz06 |
+| $HYPE | 42 | 14 | ?, CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT |
+| $SPCX | 39 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
+| $STRC | 38 | 10 | Bankless, CredibleCrypto, CryptoKaleo, TrustlessState, coingecko, coinkeiba |
 | $MASK | 37 | 1 | spyzer |
-| $STRC | 37 | 10 | Bankless, CredibleCrypto, CryptoKaleo, TrustlessState, coingecko, coinkeiba |
-| $HYPE | 35 | 14 | ?, CryptoHayes, Crypto_Alch, DefiIgnas, MurphyBTC, RookieXBT |
+| $CLUTCH | 36 | 1 | Clutch_FIFA2026 |
 | $PUMPI | 31 | 1 | pumpilians_ |
-| $SPCX | 30 | 19 | 0xFunX, ?, AdimsSHOGUN, CryptoHayes, DEG_2020, DefiIgnas |
-| $USDC | 28 | 5 | BinanceUS, DefiIgnas, cryptocom, lookonchain, rajgokal |
-| $MSTR | 27 | 6 | AdimsSHOGUN, Bankless, CredibleCrypto, CryptoKaleo, saylor, theunipcs |
-| $ASTEROID | 25 | 2 | Crypto_Alch, solbrdl |
+| $USDC | 30 | 5 | BinanceUS, DefiIgnas, cryptocom, lookonchain, rajgokal |
+| $KINS | 29 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
+| $WOJAK | 29 | 6 | ?, BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
+| $JOTCHUA | 28 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
+| $MSTR | 28 | 6 | AdimsSHOGUN, Bankless, CredibleCrypto, CryptoKaleo, saylor, theunipcs |
+| $ASTEROID | 27 | 2 | Crypto_Alch, solbrdl |
+| $MU | 27 | 8 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
+| $USELESS | 25 | 2 | Crypto_Alch, theunipcs |
 | $PEPE | 25 | 6 | ?, lookonchain, mag_onsol, milesdeutscher, pepecoineth, theunipcs |
-| $KINS | 24 | 3 | Crypto_Alch, MurphyBTC, PumpfunEco |
-| $JOTCHUA | 24 | 3 | Crypto_Alch, PumpfunEco, badattrading_ |
-| $USELESS | 24 | 2 | Crypto_Alch, theunipcs |
-| $MU | 24 | 8 | AdimsSHOGUN, DEG_2020, MEXC, WatcherGuru, blknoiz06, cryptocom |
-| $WOJAK | 23 | 6 | ?, BinanceUS, Crypto_Alch, MurphyBTC, lookonchain, wojakcto |
+| $MERLIN | 22 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |
 | $BONK | 19 | 3 | lookonchain, rajgokal, theunipcs |
-| $CLUTCH | 18 | 1 | Clutch_FIFA2026 |
+| $USDT | 19 | 3 | BinanceUS, MEXC, lookonchain |
+| $KINTON | 18 | 2 | JPY_TO_Crypto, xvwmuca |
+| $FARTCOIN | 17 | 3 | PumpfunEco, lookonchain, theunipcs |
 | $ANSEM | 17 | 13 | CredibleCrypto, DefiIgnas, Ministerr, PumpfunEco, arkham, bull_bnb |
-| $FARTCOIN | 16 | 3 | PumpfunEco, lookonchain, theunipcs |
-| $MERLIN | 16 | 4 | PumpfunEco, ShapeFN_, badattrading_, moonshot |
+| $THREE | 16 | 2 | Crypto_Alch, PumpfunEco |
+| $DOGE | 16 | 7 | ?, RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher |
 | $WIF | 16 | 7 | ?, DefiIgnas, badattrading_, blknoiz06, lookonchain, solbrdl |
-| $DOGE | 15 | 7 | ?, RookieXBT, coingecko, dogecoin, lookonchain, milesdeutscher |
-| $USDT | 15 | 3 | BinanceUS, MEXC, lookonchain |
+| $YAJUCOIN | 16 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
+| $TRIPLET | 15 | 4 | Crypto_Alch, PumpfunEco, dxrnell, xvwmuca |
 | $TRUMP | 15 | 8 | ?, DefiIgnas, arkham, blknoiz06, frankdegods, lookonchain |
-| $YAJUCOIN | 14 | 4 | 810yenshamp, JPY_TO_Crypto, daisuk_e4, tsuyuto6154 |
-| $TRIPLET | 14 | 4 | Crypto_Alch, PumpfunEco, dxrnell, xvwmuca |
-| $KINTON | 13 | 2 | JPY_TO_Crypto, xvwmuca |
-| $DROOLING | 12 | 4 | Crypto_Alch, PumpfunEco, itspyrored, jzbookp9ca |
 
 ## 活発なアカウント（信号込み投稿数 / 累計いいね）
 
@@ -55,25 +55,25 @@ tags: [trench, dashboard]
 | [[@blknoiz06]] | 312 | 932,005 |
 | [[@badattrading_]] | 310 | 17,756 |
 | [[@laurashin]] | 244 | 146,900 |
-| [[@CoinMarketCap]] | 209 | 37,659 |
-| [[@DEG_2020]] | 201 | 10,891 |
+| [[@CoinMarketCap]] | 225 | 39,072 |
+| [[@DEG_2020]] | 209 | 11,110 |
 | [[@elonmusk]] | 198 | 2,770,386 |
 | [[@lookonchain]] | 186 | 266,905 |
-| [[@WhiteHouse]] | 168 | 1,092,943 |
+| [[@WhiteHouse]] | 183 | 1,158,066 |
+| [[@DefiIgnas]] | 173 | 126,873 |
+| [[@Ministerr]] | 171 | 304,168 |
 | [[@milesdeutscher]] | 167 | 580,780 |
+| [[@CryptoHayes]] | 167 | 399,490 |
+| [[@KyleSamani]] | 165 | 95,419 |
 | [[@frankdegods]] | 161 | 366,775 |
+| [[@ren_Nevermind]] | 158 | 616,302 |
+| [[@CryptoKaleo]] | 156 | 21,143 |
 | [[@theunipcs]] | 155 | 227,361 |
 | [[@hosseeb]] | 153 | 278,023 |
-| [[@DefiIgnas]] | 153 | 123,861 |
-| [[@Ministerr]] | 151 | 302,771 |
+| [[@ShapeFN_]] | 151 | 352,892 |
+| [[@Lightspeedpodhq]] | 149 | 13,592 |
 | [[@toly]] | 149 | 67,251 |
-| [[@CryptoHayes]] | 147 | 390,822 |
-| [[@KyleSamani]] | 145 | 91,337 |
-| [[@ren_Nevermind]] | 143 | 598,402 |
-| [[@spyzer]] | 142 | 31,416 |
-| [[@solana]] | 139 | 36,356 |
-| [[@a1lon9]] | 139 | 388,095 |
-| [[@cookerbruski]] | 137 | 36,763 |
+| [[@JasonYanowitz]] | 147 | 316,643 |
 
 ## 高エンゲージ・ツイート Top 25（信号のみ）
 

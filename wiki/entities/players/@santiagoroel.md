@@ -4,12 +4,12 @@ kind: player
 title: @santiagoroel
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 113
+posts: 116
 ---
 
 # @santiagoroel
 
-> 自動生成。信号投稿 113件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 116件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$GME]](1)

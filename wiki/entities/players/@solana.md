@@ -4,20 +4,21 @@ kind: player
 title: @solana
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 40
+posts: 46
 ---
 
 # @solana
 
-> 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 46件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PAXG]](2) [[$BAGEY]](1) [[$MU]](1) [[$ARX]](1) [[$SNDK]](1)
+[[$PAXG]](2) [[$BSPX]](1) [[$BAGEY]](1) [[$MU]](1) [[$ARX]](1) [[$SNDK]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
 |---|---|---|---|
 | 2,394 |  | If you weren't here, it will feel coordinated.  If you were here, you knew all along | [[solana__2068424246305366494]] |
+| 1,444 |  | a little help up here | [[solana__2072446070638964862]] |
 | 1,012 |  | Solana's got a full house.  This week Moody's, AWS, Kraken, and more all sat down at | [[solana__2068680345936142657]] |
 | 958 |  | BREAKING: Toss Bank is set to use Solana for its global remittance and settlement Po | [[solana__2068891897847001365]] |
 | 914 |  | $1 billion in weekly tokenized equities volume on Solana  higher imo | [[solana__2068349198487912877]] |
@@ -26,7 +27,6 @@ posts: 40
 | 603 |  | thinking about memory | [[solana__2070420666604716129]] |
 | 600 |  | sorry, i'm absolutely swamped today | [[solana__2069772072667275438]] |
 | 537 | [[$ARX]] | BREAKING: $ARX from @Arcium is now live on Solana | [[solana__2069030283257733554]] |
-| 530 |  | BREAKING: Allfunds is expanding tokenized funds to Solana.  The platform connects 3, | [[solana__2069323971687030830]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

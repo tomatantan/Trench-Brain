@@ -4,12 +4,12 @@ kind: player
 title: @cz_binance
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 17
+posts: 20
 ---
 
 # @cz_binance
 
-> 自動生成。信号投稿 17件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 20件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -22,11 +22,11 @@ posts: 17
 | 6,449 |  | Might be late...  I can't predict anything. 😂 | [[cz_binance__2065865666339733515]] |
 | 5,372 |  | In the last two years, I made 4 donations of $500k every 6 months to Prison Professo | [[cz_binance__2067443528096161829]] |
 | 5,123 |  | Be an early adopter. | [[cz_binance__2065121182899159226]] |
+| 4,145 |  | Just back from the Philippines. One of the most exciting digital asset markets in SE | [[cz_binance__2071231045379477985]] |
 | 3,905 |  | After tokenizing the stocks, they will want to access the largest liquidity pool in  | [[cz_binance__2067435662929002599]] |
 | 2,806 |  | Protect users when things don't go as planned.  👋 | [[cz_binance__2065462766861766965]] |
 | 2,620 |  | Imagine not having access to stocks, until now. | [[cz_binance__2065401311818846291]] |
 | 2,393 |  | Was busy meeting a few country leaders and regulators in Asia to advance crypto. Mak | [[cz_binance__2067343999195902290]] |
-| 1,936 |  | Just my personal view.   (I cringe when listening to myself. 🤣 I wish I can learn to | [[cz_binance__2068217091841540575]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

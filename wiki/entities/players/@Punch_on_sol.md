@@ -4,12 +4,12 @@ kind: player
 title: @Punch_on_sol
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 40
+posts: 46
 ---
 
 # @Punch_on_sol
 
-> 自動生成。信号投稿 40件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 46件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —
@@ -26,7 +26,7 @@ posts: 40
 | 2,156 |  | Time for a Punch group hug! | [[punch_on_sol__2067745631112724580]] |
 | 2,152 |  | Time for a Punch group hug! | [[Punch_on_sol__2067745631112724580]] |
 | 1,838 |  | Professional cuddler | [[Punch_on_sol__2063293871061168567]] |
-| 1,459 |  | Punch is ready for game 2! | [[punch_on_sol__2068338798245671208]] |
+| 1,510 |  | Punch & Momiage sharing an intimate moment | [[punch_on_sol__2070600399438966917]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

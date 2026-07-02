@@ -17,7 +17,7 @@ accounts: 3
 [[@DefiIgnas]] [[@lookonchain]] [[@milesdeutscher]]
 
 ## 共起トークン
-[[$ENS]] [[$OP]] [[$ETH]] [[$HYPE]] [[$SOL]] [[$BTC]] [[$ZEC]] [[$ARB]]
+[[$ENS]] [[$OP]] [[$BTC]] [[$ZEC]] [[$ARB]] [[$BLUR]] [[$DYDX]] [[$FORTH]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

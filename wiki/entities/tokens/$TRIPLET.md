@@ -4,13 +4,13 @@ kind: token
 title: $TRIPLET
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 14
+mentions: 15
 accounts: 4
 ---
 
 # $TRIPLET
 
-> 自動生成(brain/build_entities.py)。言及 14件 / 4アカ。
+> 自動生成(brain/build_entities.py)。言及 15件 / 4アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -29,9 +29,9 @@ accounts: 4
 | 153 | [[@Crypto_Alch]] | Bangggg $TripleT price discovery | [[crypto_alch__2072270285630324913]] |
 | 152 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[crypto_alch__2069507304773374136]] |
 | 136 | [[@dxrnell]] | New ATH on my $TripleT | [[dxrnell__2072268946712281378]] |
+| 128 | [[@Crypto_Alch]] | $10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET  | [[Crypto_Alch__2069507304773374136]] |
 | 108 | [[@PumpfunEco]] | A $TripleT whale is currently holding a $221,000 bag 🔥 | [[pumpfuneco__2072440460140777475]] |
 | 105 | [[@Crypto_Alch]] | $TripleT prediction coming to light   There’s only problem you’ll have is that you d | [[crypto_alch__2070095384798454114]] |
-| 76 | [[@PumpfunEco]] | $TripleT has pumped 44% today! 🔥 | [[PumpfunEco__2068987840583676395]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

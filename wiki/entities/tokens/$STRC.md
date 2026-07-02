@@ -4,13 +4,13 @@ kind: token
 title: $STRC
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 37
+mentions: 38
 accounts: 10
 ---
 
 # $STRC
 
-> 自動生成(brain/build_entities.py)。言及 37件 / 10アカ。
+> 自動生成(brain/build_entities.py)。言及 38件 / 10アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント

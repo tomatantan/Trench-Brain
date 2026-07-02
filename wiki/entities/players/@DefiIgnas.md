@@ -4,15 +4,15 @@ kind: player
 title: @DefiIgnas
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 144
+posts: 158
 ---
 
 # @DefiIgnas
 
-> 自動生成。信号投稿 144件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 158件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$ETH]](21) [[$HYPE]](9) [[$SPCX]](4) [[$GNO]](4) [[$SOL]](4) [[$VAR]](3) [[$ATOM]](3) [[$XMR]](2) [[$POLY]](2) [[$SPCS]](2)
+[[$ETH]](21) [[$HYPE]](11) [[$SOL]](6) [[$VAR]](4) [[$SPCX]](4) [[$GNO]](4) [[$BP]](3) [[$ATOM]](3) [[$XMR]](2) [[$POLY]](2)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

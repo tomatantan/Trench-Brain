@@ -59,6 +59,13 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub, multi-mint
 - 2段跳ね × traction0 全期間は [[launchpad-economics]] [[$BOO]] 2段 BREAKOUT（$324k→$709k）と型は同じだが 1桁規模が上。
 - ⚠️ traction0 × multi-mint sibling 即死済 × 2段連続 pump = whale/bot がポジション継続中の疑い。出口直前の最終 pump 候補。[[rug-anatomy]] BREAKOUT-then-dead 最高 peak 更新候補。
 
+### 2026-07-01T00:15Z dxrnell 言及「$testibull profits を $testicle にローテ」
+出典: [[dxrnell__2072111939589963788]]（153♥・2026-07-01T00:15Z）
+
+**観測（事実）**: 「So what's the plan here / Rotate $testibull profits into $testicle I presume 👀」= dxrnell が $TESTIBULL の利益確定→別 meme（$testicle）ローテという文脈で言及。
+
+**判断**: traction0 全期間継続中での初の KOL 言及。「profits を rotate」= 保有者が利益を持っているという前提での発言 = 2nd BREAKOUT（$4.4M・既記）から mcap+41%（$5.34M）の上昇局面が KOL の観測圏内に入ったことを示す。ただし dxrnell の口ぶりは観察的・揶揄的（"I presume"）= 直接の buy 推奨ではない。「$testicle」への rotation という ironic 命名のバケツ同士の話で、TESTIBULL の pump 構造をからかう tone でもある。
+
 ### 2026-07-01T12:47Z mcap+41%（$3,782,048→$5,342,002）
 **観測（事実）**
 - mcap $3,782,048 → $5,342,002（+41%）。flags: mcap+41%。
@@ -68,6 +75,18 @@ tags: [trench, entity, token, auto-track, graduated, traction0, stub, multi-mint
 - 2nd BREAKOUT（$4.4M）後も traction0 のまま mcap 継続上昇。$5.34M はコホート内最高峰を更新。
 - KOL/reply ゼロ全期間 × +41% 更新 = whale/bot のポジション追加 or 外部出来高流入の両義——有機的需要の証拠なし継続。
 - この水準まで traction0 で到達したケースは観測コホート内で $TESTIBULL が唯一。「traction0 でどこまで膨張するか」の上限観測として継続追跡。
+
+### 2026-07-01T22:49Z Moonshot verified（305♥）
+出典: [[moonshot__2072452459591561691]]（305♥・2026-07-01T22:49Z）
+
+**観測（事実）**: [[@moonshot]]（305♥）「testibull ($TESTIBULL) is now verified on Moonshot」= Moonshot プラットフォームが $TESTIBULL を verify。mcap+41%（$5.34M, 12:47Z）の約10時間後。
+
+**判断（追記・2026-07-02）**:
+- **Moonshot verified = traction0 からの最初の逸脱**: 本entity の合成履歴全期間を通じて「traction0・reply=0・real_sol=0・KOL皆無」が継続していた。Moonshot verified（305♥）は**初の外部 platform 承認 + 中エンゲージ** = 外部認証の初到達点。
+- ⚠️ **Moonshot verify ≠ 有機的 traction**: $ANSEM も [[moonshot__2071278079687671924]] で verified（KOL 銘柄の通過儀礼的側面がある）。verify されても内部コミュニティ形成（twitter活動・reply・自発的拡散）が伴わなければ既存の「BREAKOUT-then-dead」シナリオは変わらない。auto-track（2026-07-01T12:47Z・$5.34M）時点で real_sol=0・reply=0 継続のため、Moonshot verify は外部からの注目付与であって内部 traction 確立の証拠ではない。
+- **タイムライン（2026-07-01）**: T=00:15 dxrnell「rotate profits」言及 → T=12:47 $5.34M（+41%・auto-track）→ T=22:49 Moonshot verify（305♥）= 同日に KOL 言及・mcap 継続上昇・外部 verify が集中。上昇後のブランディング追加か、further upside の触媒か = 次サイクル auto-track で判定。
+- ⚠️ 「$testicle」ローテ先 ticker の存在・dxrnell の実取引は未確認。
+- 接続: [[launchpad-economics]]（traction0 → Moonshot verified = BREAKOUT-then-dead か continuation かの分岐点）/ [[survivor-memes]]（ironic 命名 × 外部 verification = survivor 候補への昇格候補？）/ [[rug-anatomy]]（traction0 全期間継続のまま $5.34M = whale/bot pump の可能性は継続）。confidence=低〜中（Moonshot verify は事実・内部 traction なしの構造は変化なし）。
 <!-- synthesis:end -->
 
 ## 関連

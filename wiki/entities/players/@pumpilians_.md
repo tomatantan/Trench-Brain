@@ -4,15 +4,15 @@ kind: player
 title: @pumpilians_
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 51
+posts: 58
 ---
 
 # @pumpilians_
 
-> 自動生成。信号投稿 51件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 58件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$PUMPI]](27)
+[[$PUMPI]](31)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |

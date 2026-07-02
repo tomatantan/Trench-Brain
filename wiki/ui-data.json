@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:21:51Z",
+  "generated_at": "2026-07-02T10:08:50Z",
   "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
   "schema": "signals[]: concept由来の泡 {type,title,size,color,glow,trace} / live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)",
   "count": 40,
@@ -10,10 +10,10 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 22,
+      "mentions": 25,
       "accounts": 5,
       "trace": {
-        "why": "22件の言及 / 5アカ / 高エンゲージ計18,881♥",
+        "why": "25件の言及 / 5アカ / 高エンゲージ計18,881♥",
         "accounts_n": 5,
         "top": [
           {
@@ -55,11 +55,11 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 47,
-      "accounts": 10,
+      "mentions": 54,
+      "accounts": 11,
       "trace": {
-        "why": "47件の言及 / 10アカ / 高エンゲージ計32,543♥",
-        "accounts_n": 10,
+        "why": "54件の言及 / 11アカ / 高エンゲージ計32,543♥",
+        "accounts_n": 11,
         "top": [
           {
             "likes": 7875,
@@ -101,11 +101,11 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 13,
-      "accounts": 6,
+      "mentions": 15,
+      "accounts": 7,
       "trace": {
-        "why": "13件の言及 / 6アカ / 高エンゲージ計25,834♥",
-        "accounts_n": 6,
+        "why": "15件の言及 / 7アカ / 高エンゲージ計25,834♥",
+        "accounts_n": 7,
         "top": [
           {
             "likes": 7756,
@@ -149,11 +149,11 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 21,
-      "accounts": 3,
+      "mentions": 28,
+      "accounts": 6,
       "trace": {
-        "why": "21件の言及 / 3アカ / 高エンゲージ計60,409♥",
-        "accounts_n": 3,
+        "why": "28件の言及 / 6アカ / 高エンゲージ計67,708♥",
+        "accounts_n": 6,
         "top": [
           {
             "likes": 19943,
@@ -171,14 +171,14 @@
             "text": "Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to"
           },
           {
+            "likes": 11667,
+            "account": "saylor",
+            "text": "Strategy announces a Digital Credit Capital Framework designed to strengthen Digital"
+          },
+          {
             "likes": 5597,
             "account": "saylor",
             "text": "Volatility tests every capital structure. Strategy remains focused on Bitcoin, disci"
-          },
-          {
-            "likes": 4368,
-            "account": "saylor",
-            "text": "Bitcoin Capitalism — my keynote from @BTCPrague 2026.  Digital Capital is the founda"
           }
         ],
         "causal": [
@@ -194,10 +194,10 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 38,
+      "mentions": 39,
       "accounts": 18,
       "trace": {
-        "why": "38件の言及 / 18アカ / 高エンゲージ計8,087♥",
+        "why": "39件の言及 / 18アカ / 高エンゲージ計8,087♥",
         "accounts_n": 18,
         "top": [
           {
@@ -239,11 +239,11 @@
       "title": "$WOJAK",
       "size": 130,
       "color": "#48eca0",
-      "glow": 0.99,
-      "mentions": 26,
+      "glow": 1.0,
+      "mentions": 29,
       "accounts": 5,
       "trace": {
-        "why": "26件の言及 / 5アカ / 高エンゲージ計3,710♥",
+        "why": "29件の言及 / 5アカ / 高エンゲージ計3,710♥",
         "accounts_n": 5,
         "top": [
           {
@@ -283,11 +283,11 @@
       "size": 130,
       "color": "#ff4ba8",
       "glow": 1.0,
-      "mentions": 31,
-      "accounts": 9,
+      "mentions": 38,
+      "accounts": 10,
       "trace": {
-        "why": "31件の言及 / 9アカ / 高エンゲージ計42,443♥",
-        "accounts_n": 9,
+        "why": "38件の言及 / 10アカ / 高エンゲージ計60,335♥",
+        "accounts_n": 10,
         "top": [
           {
             "likes": 18413,
@@ -300,19 +300,19 @@
             "text": "Strategy has increased its USD Reserve by $300 million to $1.4 billion and plans to"
           },
           {
-            "likes": 4824,
+            "likes": 11667,
             "account": "saylor",
-            "text": "The hardest thing in business is not seeing the future. It is surviving long enough"
+            "text": "Strategy announces a Digital Credit Capital Framework designed to strengthen Digital"
           },
           {
-            "likes": 4368,
+            "likes": 10724,
             "account": "saylor",
-            "text": "Bitcoin Capitalism — my keynote from @BTCPrague 2026.  Digital Capital is the founda"
+            "text": "Income. Twice a month. $STRC"
           },
           {
-            "likes": 2750,
+            "likes": 7443,
             "account": "saylor",
-            "text": "$STRC now pays dividends twice per month.  What is the clearest way to describe this"
+            "text": "As Strategy disclosed Monday: our corporate objective is for $STRC to trade over tim"
           }
         ],
         "causal": [
@@ -323,16 +323,61 @@
       }
     },
     {
+      "type": "WORLD",
+      "title": "$ANSEM",
+      "size": 130,
+      "color": "#ff4ba8",
+      "glow": 1.0,
+      "mentions": 17,
+      "accounts": 13,
+      "trace": {
+        "why": "17件の言及 / 13アカ / 高エンゲージ計3,235♥",
+        "accounts_n": 13,
+        "top": [
+          {
+            "likes": 774,
+            "account": "arkham",
+            "text": "Ansem is up $75M on $ANSEM.  The pumpfun account “ansemconzimp” is up $73.8M after b"
+          },
+          {
+            "likes": 716,
+            "account": "moonshot",
+            "text": "The Black Bull ($ANSEM) is now verified on Moonshot."
+          },
+          {
+            "likes": 709,
+            "account": "CredibleCrypto",
+            "text": "The same reason the $ANSEM token is running so hard is the exact same reason \"the gr"
+          },
+          {
+            "likes": 623,
+            "account": "spyzer",
+            "text": "$ANSEM @blknoiz06  A bet on our biggest onchain KOL and crypto in general   Everyone"
+          },
+          {
+            "likes": 413,
+            "account": "theunipcs",
+            "text": "one memecoin remains strong and unfazed. it's up double-digit percentages and actual"
+          }
+        ],
+        "causal": [
+          "型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）"
+        ],
+        "confidence": "低〜中（体裁は強いが供給構造がCredibleCryptoの警告どおり脆弱）",
+        "synthesized": true
+      }
+    },
+    {
       "type": "MACRO",
       "title": "$ETH",
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 149,
-      "accounts": 18,
+      "mentions": 167,
+      "accounts": 19,
       "trace": {
-        "why": "149件の言及 / 18アカ / 高エンゲージ計29,737♥",
-        "accounts_n": 18,
+        "why": "167件の言及 / 19アカ / 高エンゲージ計29,737♥",
+        "accounts_n": 19,
         "top": [
           {
             "likes": 7875,
@@ -374,11 +419,11 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 27,
-      "accounts": 4,
+      "mentions": 30,
+      "accounts": 5,
       "trace": {
-        "why": "27件の言及 / 4アカ / 高エンゲージ計16,792♥",
-        "accounts_n": 4,
+        "why": "30件の言及 / 5アカ / 高エンゲージ計16,792♥",
+        "accounts_n": 5,
         "top": [
           {
             "likes": 4455,
@@ -417,11 +462,11 @@
       "size": 130,
       "color": "#48eca0",
       "glow": 1.0,
-      "mentions": 26,
-      "accounts": 7,
+      "mentions": 27,
+      "accounts": 8,
       "trace": {
-        "why": "26件の言及 / 7アカ / 高エンゲージ計2,979♥",
-        "accounts_n": 7,
+        "why": "27件の言及 / 8アカ / 高エンゲージ計2,979♥",
+        "accounts_n": 8,
         "top": [
           {
             "likes": 1188,
@@ -460,11 +505,11 @@
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 155,
-      "accounts": 19,
+      "mentions": 176,
+      "accounts": 21,
       "trace": {
-        "why": "155件の言及 / 19アカ / 高エンゲージ計64,023♥",
-        "accounts_n": 19,
+        "why": "176件の言及 / 21アカ / 高エンゲージ計64,023♥",
+        "accounts_n": 21,
         "top": [
           {
             "likes": 18413,
@@ -501,15 +546,60 @@
       }
     },
     {
+      "type": "WORLD",
+      "title": "$KINS",
+      "size": 130,
+      "color": "#ff4ba8",
+      "glow": 0.89,
+      "mentions": 29,
+      "accounts": 3,
+      "trace": {
+        "why": "29件の言及 / 3アカ / 高エンゲージ計946♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 214,
+            "account": "PumpfunEco",
+            "text": "24h volume leaders on pump fun 👀  $ANSEM $44.4M $Fartcoin $6.76M $dog $5.83M $Jotchu"
+          },
+          {
+            "likes": 206,
+            "account": "Crypto_Alch",
+            "text": "$KINS curling up for an onchain gaming season   CT is too slow and 99.9988667% will"
+          },
+          {
+            "likes": 184,
+            "account": "Crypto_Alch",
+            "text": "$KINS waking up   Onchain gaming soon"
+          },
+          {
+            "likes": 171,
+            "account": "Crypto_Alch",
+            "text": "It’s a shame $KINS too undervalued at these valuations   Good devs aren’t rewarded e"
+          },
+          {
+            "likes": 171,
+            "account": "Crypto_Alch",
+            "text": "Entry on $KINS IMO  $50-$100M to to bring gaming trenches back   Few understand, man"
+          }
+        ],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "低〜中（単一シラー減点）",
+        "synthesized": true
+      }
+    },
+    {
       "type": "MACRO",
       "title": "$DOGE",
       "size": 130,
       "color": "#28e1f2",
-      "glow": 0.89,
-      "mentions": 15,
+      "glow": 0.91,
+      "mentions": 16,
       "accounts": 6,
       "trace": {
-        "why": "15件の言及 / 6アカ / 高エンゲージ計8,918♥",
+        "why": "16件の言及 / 6アカ / 高エンゲージ計8,918♥",
         "accounts_n": 6,
         "top": [
           {
@@ -548,11 +638,11 @@
       "title": "$BONK",
       "size": 130,
       "color": "#ff4ba8",
-      "glow": 0.95,
-      "mentions": 17,
+      "glow": 1.0,
+      "mentions": 19,
       "accounts": 3,
       "trace": {
-        "why": "17件の言及 / 3アカ / 高エンゲージ計15,050♥",
+        "why": "19件の言及 / 3アカ / 高エンゲージ計15,050♥",
         "accounts_n": 3,
         "top": [
           {
@@ -594,11 +684,11 @@
       "title": "$PUMP",
       "size": 130,
       "color": "#ff4ba8",
-      "glow": 0.89,
-      "mentions": 11,
+      "glow": 0.91,
+      "mentions": 12,
       "accounts": 4,
       "trace": {
-        "why": "11件の言及 / 4アカ / 高エンゲージ計16,614♥",
+        "why": "12件の言及 / 4アカ / 高エンゲージ計16,614♥",
         "accounts_n": 4,
         "top": [
           {
@@ -636,15 +726,60 @@
       }
     },
     {
+      "type": "WORLD",
+      "title": "$WIF",
+      "size": 130,
+      "color": "#ff4ba8",
+      "glow": 0.93,
+      "mentions": 16,
+      "accounts": 6,
+      "trace": {
+        "why": "16件の言及 / 6アカ / 高エンゲージ計9,300♥",
+        "accounts_n": 6,
+        "top": [
+          {
+            "likes": 2443,
+            "account": "blknoiz06",
+            "text": "hey @_RichardTeng if this gets 2k retweets can you list $WIF as a christmas present"
+          },
+          {
+            "likes": 1799,
+            "account": "lookonchain",
+            "text": "Ansem(@blknoiz06) - the best crypto trader who:   170x on $SOL  520x on $WIF  80x on"
+          },
+          {
+            "likes": 1744,
+            "account": "DefiIgnas",
+            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
+          },
+          {
+            "likes": 1697,
+            "account": "lookonchain",
+            "text": "blockgraze(@blockgraze), who made a profit of $8.6M(7,439x) on $WIF, deposited all 1"
+          },
+          {
+            "likes": 1617,
+            "account": "theunipcs",
+            "text": "bonk guy proven right once again  just days ago we requested that @coinbase list the"
+          }
+        ],
+        "causal": [
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
       "type": "MACRO",
       "title": "$HYPE",
       "size": 130,
       "color": "#28e1f2",
       "glow": 1.0,
-      "mentions": 39,
+      "mentions": 42,
       "accounts": 13,
       "trace": {
-        "why": "39件の言及 / 13アカ / 高エンゲージ計9,256♥",
+        "why": "42件の言及 / 13アカ / 高エンゲージ計9,256♥",
         "accounts_n": 13,
         "top": [
           {
@@ -678,6 +813,137 @@
           "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）"
         ],
         "confidence": "中",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$MERLIN",
+      "size": 129,
+      "color": "#48eca0",
+      "glow": 0.86,
+      "mentions": 22,
+      "accounts": 4,
+      "trace": {
+        "why": "22件の言及 / 4アカ / 高エンゲージ計4,996♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 1973,
+            "account": "ShapeFN_",
+            "text": "Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin"
+          },
+          {
+            "likes": 1969,
+            "account": "ShapeFN_",
+            "text": "Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin"
+          },
+          {
+            "likes": 406,
+            "account": "ShapeFN_",
+            "text": "People compare $Merlin to $Penguin because both went viral.  I think they're missing"
+          },
+          {
+            "likes": 406,
+            "account": "ShapeFN_",
+            "text": "People compare $Merlin to $Penguin because both went viral.  I think they're missing"
+          },
+          {
+            "likes": 242,
+            "account": "moonshot",
+            "text": "The Patriotic Duck ($Merlin) is now verified on Moonshot."
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$ZEC",
+      "size": 129,
+      "color": "#48eca0",
+      "glow": 0.86,
+      "mentions": 12,
+      "accounts": 6,
+      "trace": {
+        "why": "12件の言及 / 6アカ / 高エンゲージ計10,911♥",
+        "accounts_n": 6,
+        "top": [
+          {
+            "likes": 2725,
+            "account": "CryptoHayes",
+            "text": "The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e"
+          },
+          {
+            "likes": 2722,
+            "account": "CryptoHayes",
+            "text": "The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e"
+          },
+          {
+            "likes": 2580,
+            "account": "CryptoHayes",
+            "text": "It's just ludicrous.  $ZEC to $10k"
+          },
+          {
+            "likes": 2571,
+            "account": "CryptoHayes",
+            "text": "Vibe check   $ZEC to $10k"
+          },
+          {
+            "likes": 313,
+            "account": "blknoiz06",
+            "text": "MERT'S 5 MAIN HOLDINGS: - $ZEC - solana:So11111111111111111111111111111111111111112"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$JOTCHUA",
+      "size": 129,
+      "color": "#ff4ba8",
+      "glow": 0.86,
+      "mentions": 28,
+      "accounts": 3,
+      "trace": {
+        "why": "28件の言及 / 3アカ / 高エンゲージ計980♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 214,
+            "account": "PumpfunEco",
+            "text": "24h volume leaders on pump fun 👀  $ANSEM $44.4M $Fartcoin $6.76M $dog $5.83M $Jotchu"
+          },
+          {
+            "likes": 201,
+            "account": "PumpfunEco",
+            "text": "$Jotchua is rallying, currently up 92% in 24 hours 👀"
+          },
+          {
+            "likes": 198,
+            "account": "Crypto_Alch",
+            "text": "$Jotchua in a clear vertical accumulation   No one is talking about it  Were early a"
+          },
+          {
+            "likes": 186,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 900% since it began trending on pump fun! 🔥"
+          },
+          {
+            "likes": 181,
+            "account": "PumpfunEco",
+            "text": "$Jotchua has pumped 49% today! 🔥"
+          }
+        ],
+        "causal": [
+          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+        ],
+        "confidence": "低）",
         "synthesized": true
       }
     },
@@ -725,129 +991,132 @@
       }
     },
     {
-      "type": "MEME",
-      "title": "$MERLIN",
-      "size": 125,
-      "color": "#48eca0",
-      "glow": 0.81,
-      "mentions": 20,
-      "accounts": 4,
+      "type": "WORLD",
+      "title": "$ASTEROID",
+      "size": 124,
+      "color": "#ff4ba8",
+      "glow": 0.8,
+      "mentions": 27,
+      "accounts": 2,
       "trace": {
-        "why": "20件の言及 / 4アカ / 高エンゲージ計4,996♥",
-        "accounts_n": 4,
+        "why": "27件の言及 / 2アカ / 高エンゲージ計1,009♥",
+        "accounts_n": 2,
         "top": [
           {
-            "likes": 1973,
-            "account": "ShapeFN_",
-            "text": "Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin"
+            "likes": 248,
+            "account": "Crypto_Alch",
+            "text": "$ASTEROID just 2x in a single fvcking candle   Did you faded?"
           },
           {
-            "likes": 1969,
-            "account": "ShapeFN_",
-            "text": "Nos vemos el jueves. Merlin estará ahí.🦆🏆🇲🇽 $Merlin"
+            "likes": 220,
+            "account": "solbrdl",
+            "text": "Do people realize $ASTEROID was ACTUALLY on stage at SpaceX IPO?"
           },
           {
-            "likes": 406,
-            "account": "ShapeFN_",
-            "text": "People compare $Merlin to $Penguin because both went viral.  I think they're missing"
+            "likes": 198,
+            "account": "solbrdl",
+            "text": "It’s literally confirmed in the URL of the SpaceX $ASTEROID  \"spacex-asteroid-mascot"
           },
           {
-            "likes": 406,
-            "account": "ShapeFN_",
-            "text": "People compare $Merlin to $Penguin because both went viral.  I think they're missing"
+            "likes": 180,
+            "account": "solbrdl",
+            "text": "Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th"
           },
           {
-            "likes": 242,
-            "account": "moonshot",
-            "text": "The Patriotic Duck ($Merlin) is now verified on Moonshot."
+            "likes": 163,
+            "account": "solbrdl",
+            "text": "In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea"
           }
         ],
-        "causal": [],
-        "confidence": "—",
+        "causal": [
+          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
+          "型 — 外部イベント → token（二股: RWA と meme）"
+        ],
+        "confidence": "低〜中",
         "synthesized": true
       }
     },
     {
       "type": "WORLD",
-      "title": "$JOTCHUA",
-      "size": 125,
-      "color": "#ff4ba8",
-      "glow": 0.81,
-      "mentions": 26,
-      "accounts": 3,
-      "trace": {
-        "why": "26件の言及 / 3アカ / 高エンゲージ計879♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 201,
-            "account": "PumpfunEco",
-            "text": "$Jotchua is rallying, currently up 92% in 24 hours 👀"
-          },
-          {
-            "likes": 186,
-            "account": "PumpfunEco",
-            "text": "$Jotchua has pumped 900% since it began trending on pump fun! 🔥"
-          },
-          {
-            "likes": 181,
-            "account": "PumpfunEco",
-            "text": "$Jotchua has pumped 49% today! 🔥"
-          },
-          {
-            "likes": 159,
-            "account": "PumpfunEco",
-            "text": "One of the top holders of $Jotchua is sitting on a $123,000 position! 🔥"
-          },
-          {
-            "likes": 152,
-            "account": "Crypto_Alch",
-            "text": "$10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET"
-          }
-        ],
-        "causal": [
-          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
-        ],
-        "confidence": "低）",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$ZEC",
+      "title": "$USELESS",
       "size": 123,
-      "color": "#48eca0",
+      "color": "#ff4ba8",
       "glow": 0.79,
-      "mentions": 11,
-      "accounts": 5,
+      "mentions": 25,
+      "accounts": 2,
       "trace": {
-        "why": "11件の言及 / 5アカ / 高エンゲージ計10,911♥",
-        "accounts_n": 5,
+        "why": "25件の言及 / 2アカ / 高エンゲージ計2,633♥",
+        "accounts_n": 2,
         "top": [
           {
-            "likes": 2725,
-            "account": "CryptoHayes",
-            "text": "The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e"
+            "likes": 1083,
+            "account": "theunipcs",
+            "text": "i'm seeing a lot of similarities between $USELESS and $BONK before i took my legenda"
           },
           {
-            "likes": 2722,
-            "account": "CryptoHayes",
-            "text": "The Holy Trinity is dead. Sadly due to the Orchard Pool exploit, I had to dump our e"
+            "likes": 413,
+            "account": "theunipcs",
+            "text": "one memecoin remains strong and unfazed. it's up double-digit percentages and actual"
           },
           {
-            "likes": 2580,
-            "account": "CryptoHayes",
-            "text": "It's just ludicrous.  $ZEC to $10k"
+            "likes": 390,
+            "account": "theunipcs",
+            "text": "i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels"
           },
           {
-            "likes": 2571,
-            "account": "CryptoHayes",
-            "text": "Vibe check   $ZEC to $10k"
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
           },
           {
-            "likes": 313,
-            "account": "blknoiz06",
-            "text": "MERT'S 5 MAIN HOLDINGS: - $ZEC - solana:So11111111111111111111111111111111111111112"
+            "likes": 366,
+            "account": "theunipcs",
+            "text": "$USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi"
+          }
+        ],
+        "causal": [
+          "型 — オンチェーン裏取り（言説 vs 実際の資金）"
+        ],
+        "confidence": "中）",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MACRO",
+      "title": "$USDT",
+      "size": 121,
+      "color": "#28e1f2",
+      "glow": 0.76,
+      "mentions": 19,
+      "accounts": 3,
+      "trace": {
+        "why": "19件の言及 / 3アカ / 高エンゲージ計5,665♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 1772,
+            "account": "lookonchain",
+            "text": "MrBeast (@MrBeast) just deposited 114,483 $USDT into #Aster.  @MrBeast profited over"
+          },
+          {
+            "likes": 1648,
+            "account": "lookonchain",
+            "text": "It seems that #Bybit spent 100M $USDT to buy 36,893 $ETH at $2,711 from Galaxy Digit"
+          },
+          {
+            "likes": 1363,
+            "account": "lookonchain",
+            "text": "Before the #SEC sued #Binance news reported, @FBGCapital withdrew 35M $USDT from #Bi"
+          },
+          {
+            "likes": 494,
+            "account": "MEXC",
+            "text": "Got rewarded in the $SPACEX(PRE) 0-Fee Gala yet?   🎁 20 winners × 15 $USDT. To enter"
+          },
+          {
+            "likes": 388,
+            "account": "MEXC",
+            "text": "The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d"
           }
         ],
         "causal": [],
@@ -857,91 +1126,47 @@
     },
     {
       "type": "WORLD",
-      "title": "$WIF",
-      "size": 120,
+      "title": "$FARTCOIN",
+      "size": 117,
       "color": "#ff4ba8",
-      "glow": 0.75,
-      "mentions": 11,
-      "accounts": 5,
-      "trace": {
-        "why": "11件の言及 / 5アカ / 高エンゲージ計9,300♥",
-        "accounts_n": 5,
-        "top": [
-          {
-            "likes": 2443,
-            "account": "blknoiz06",
-            "text": "hey @_RichardTeng if this gets 2k retweets can you list $WIF as a christmas present"
-          },
-          {
-            "likes": 1799,
-            "account": "lookonchain",
-            "text": "Ansem(@blknoiz06) - the best crypto trader who:   170x on $SOL  520x on $WIF  80x on"
-          },
-          {
-            "likes": 1744,
-            "account": "DefiIgnas",
-            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
-          },
-          {
-            "likes": 1697,
-            "account": "lookonchain",
-            "text": "blockgraze(@blockgraze), who made a profit of $8.6M(7,439x) on $WIF, deposited all 1"
-          },
-          {
-            "likes": 1617,
-            "account": "theunipcs",
-            "text": "bonk guy proven right once again  just days ago we requested that @coinbase list the"
-          }
-        ],
-        "causal": [
-          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
-        ],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$KINS",
-      "size": 119,
-      "color": "#ff4ba8",
-      "glow": 0.74,
-      "mentions": 23,
+      "glow": 0.71,
+      "mentions": 17,
       "accounts": 3,
       "trace": {
-        "why": "23件の言及 / 3アカ / 高エンゲージ計712♥",
+        "why": "17件の言及 / 3アカ / 高エンゲージ計5,928♥",
         "accounts_n": 3,
         "top": [
           {
-            "likes": 171,
-            "account": "Crypto_Alch",
-            "text": "Entry on $KINS IMO  $50-$100M to to bring gaming trenches back   Few understand, man"
+            "likes": 2628,
+            "account": "lookonchain",
+            "text": "I've never seen such a smart trader!  A ~$19M profit on $ai16z—a 6,400x return.  An"
           },
           {
-            "likes": 152,
-            "account": "Crypto_Alch",
-            "text": "$10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET"
+            "likes": 2247,
+            "account": "lookonchain",
+            "text": "What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $"
           },
           {
-            "likes": 139,
-            "account": "PumpfunEco",
-            "text": "$KINS is rallying, currently up 28% in 24 hours 👀"
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
           },
           {
-            "likes": 128,
-            "account": "Crypto_Alch",
-            "text": "$10k to $100k which community is building this?  1. $USELESS 2. $ASTEROID  3. $NEET"
+            "likes": 366,
+            "account": "theunipcs",
+            "text": "$USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi"
           },
           {
-            "likes": 122,
-            "account": "Crypto_Alch",
-            "text": "Legend has it that $KINS is in vertical accumulation   Onchain gaming to go paraboli"
+            "likes": 306,
+            "account": "theunipcs",
+            "text": "i actually care about other coins  i've been most vocal about $USELESS because it's"
           }
         ],
         "causal": [
-          "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）",
+          "型 — AI-meme（トークン＝自律エージェントの配布層）"
         ],
-        "confidence": "低〜中（単一シラー減点）",
+        "confidence": "中）**:",
         "synthesized": true
       }
     },
@@ -984,104 +1209,15 @@
       }
     },
     {
-      "type": "WORLD",
-      "title": "$ASTEROID",
-      "size": 116,
-      "color": "#ff4ba8",
-      "glow": 0.7,
-      "mentions": 23,
-      "accounts": 2,
-      "trace": {
-        "why": "23件の言及 / 2アカ / 高エンゲージ計1,009♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 248,
-            "account": "Crypto_Alch",
-            "text": "$ASTEROID just 2x in a single fvcking candle   Did you faded?"
-          },
-          {
-            "likes": 220,
-            "account": "solbrdl",
-            "text": "Do people realize $ASTEROID was ACTUALLY on stage at SpaceX IPO?"
-          },
-          {
-            "likes": 198,
-            "account": "solbrdl",
-            "text": "It’s literally confirmed in the URL of the SpaceX $ASTEROID  \"spacex-asteroid-mascot"
-          },
-          {
-            "likes": 180,
-            "account": "solbrdl",
-            "text": "Today is SpaceX IPO.   Two scenarios for $ASTEROID:   1. Seeing Asteroid Shiba on th"
-          },
-          {
-            "likes": 163,
-            "account": "solbrdl",
-            "text": "In a world full of liquidity rotations, solana farms etc. Most of you forgot to drea"
-          }
-        ],
-        "causal": [
-          "SpaceX IPO 動線 — 外部イベントが meme と tokenized stock を生む",
-          "型 — 外部イベント → token（二股: RWA と meme）"
-        ],
-        "confidence": "低〜中",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MACRO",
-      "title": "$USDT",
-      "size": 113,
-      "color": "#28e1f2",
-      "glow": 0.66,
-      "mentions": 15,
-      "accounts": 3,
-      "trace": {
-        "why": "15件の言及 / 3アカ / 高エンゲージ計5,665♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 1772,
-            "account": "lookonchain",
-            "text": "MrBeast (@MrBeast) just deposited 114,483 $USDT into #Aster.  @MrBeast profited over"
-          },
-          {
-            "likes": 1648,
-            "account": "lookonchain",
-            "text": "It seems that #Bybit spent 100M $USDT to buy 36,893 $ETH at $2,711 from Galaxy Digit"
-          },
-          {
-            "likes": 1363,
-            "account": "lookonchain",
-            "text": "Before the #SEC sued #Binance news reported, @FBGCapital withdrew 35M $USDT from #Bi"
-          },
-          {
-            "likes": 494,
-            "account": "MEXC",
-            "text": "Got rewarded in the $SPACEX(PRE) 0-Fee Gala yet?   🎁 20 winners × 15 $USDT. To enter"
-          },
-          {
-            "likes": 388,
-            "account": "MEXC",
-            "text": "The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
       "type": "MEME",
       "title": "$SHIB",
-      "size": 111,
+      "size": 113,
       "color": "#48eca0",
-      "glow": 0.64,
-      "mentions": 10,
+      "glow": 0.66,
+      "mentions": 11,
       "accounts": 3,
       "trace": {
-        "why": "10件の言及 / 3アカ / 高エンゲージ計9,504♥",
+        "why": "11件の言及 / 3アカ / 高エンゲージ計9,504♥",
         "accounts_n": 3,
         "top": [
           {
@@ -1112,97 +1248,6 @@
         ],
         "causal": [],
         "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$USELESS",
-      "size": 109,
-      "color": "#ff4ba8",
-      "glow": 0.61,
-      "mentions": 18,
-      "accounts": 2,
-      "trace": {
-        "why": "18件の言及 / 2アカ / 高エンゲージ計2,525♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 1083,
-            "account": "theunipcs",
-            "text": "i'm seeing a lot of similarities between $USELESS and $BONK before i took my legenda"
-          },
-          {
-            "likes": 390,
-            "account": "theunipcs",
-            "text": "i haven't tweeted about any other memecoin except $USELESS in ages  but $DOGE feels"
-          },
-          {
-            "likes": 381,
-            "account": "theunipcs",
-            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
-          },
-          {
-            "likes": 366,
-            "account": "theunipcs",
-            "text": "$USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi"
-          },
-          {
-            "likes": 305,
-            "account": "theunipcs",
-            "text": "one metric that almost nobody is talking about:  $USELESS has more perps Open Intere"
-          }
-        ],
-        "causal": [
-          "型 — オンチェーン裏取り（言説 vs 実際の資金）"
-        ],
-        "confidence": "中）",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$FARTCOIN",
-      "size": 109,
-      "color": "#ff4ba8",
-      "glow": 0.61,
-      "mentions": 13,
-      "accounts": 3,
-      "trace": {
-        "why": "13件の言及 / 3アカ / 高エンゲージ計5,927♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 2628,
-            "account": "lookonchain",
-            "text": "I've never seen such a smart trader!  A ~$19M profit on $ai16z—a 6,400x return.  An"
-          },
-          {
-            "likes": 2247,
-            "account": "lookonchain",
-            "text": "What a smart #AI coin trader!  Profits exceeded $5.14M on $GOAT.  Profits exceeded $"
-          },
-          {
-            "likes": 381,
-            "account": "theunipcs",
-            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
-          },
-          {
-            "likes": 366,
-            "account": "theunipcs",
-            "text": "$USELESS is now the second most-traded memecoin on Coinbase  USELESS ranks just behi"
-          },
-          {
-            "likes": 305,
-            "account": "theunipcs",
-            "text": "one metric that almost nobody is talking about:  $USELESS has more perps Open Intere"
-          }
-        ],
-        "causal": [
-          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）",
-          "型 — AI-meme（トークン＝自律エージェントの配布層）"
-        ],
-        "confidence": "中）**:",
         "synthesized": true
       }
     },
@@ -1248,6 +1293,137 @@
           "型 — 日本コミュニティ meme クラスタ（相互保有で束ねる）"
         ],
         "confidence": "中",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$PENGU",
+      "size": 108,
+      "color": "#ff4ba8",
+      "glow": 0.6,
+      "mentions": 12,
+      "accounts": 3,
+      "trace": {
+        "why": "12件の言及 / 3アカ / 高エンゲージ計6,046♥",
+        "accounts_n": 3,
+        "top": [
+          {
+            "likes": 1794,
+            "account": "theunipcs",
+            "text": "make no mistake:  the $PENGU pump should absolutely be celebrated  you should want i"
+          },
+          {
+            "likes": 1744,
+            "account": "DefiIgnas",
+            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
+          },
+          {
+            "likes": 1726,
+            "account": "theunipcs",
+            "text": "$SOL is ripping right now and outperforming $BTC, $ETH, and other majors  which mean"
+          },
+          {
+            "likes": 401,
+            "account": "coingecko",
+            "text": "Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto"
+          },
+          {
+            "likes": 381,
+            "account": "theunipcs",
+            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          }
+        ],
+        "causal": [
+          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+        ],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$TRIPLET",
+      "size": 107,
+      "color": "#48eca0",
+      "glow": 0.59,
+      "mentions": 15,
+      "accounts": 4,
+      "trace": {
+        "why": "15件の言及 / 4アカ / 高エンゲージ計830♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 179,
+            "account": "dxrnell",
+            "text": "The “I’ve never seen $TripleT it’s a terrible coin” gang are gonna regret ever sayin"
+          },
+          {
+            "likes": 177,
+            "account": "dxrnell",
+            "text": "The $TripleT chart is simply lovely"
+          },
+          {
+            "likes": 167,
+            "account": "Crypto_Alch",
+            "text": "Balls are tingly  $TripleT new ATHs today or I’ll cut it"
+          },
+          {
+            "likes": 154,
+            "account": "Crypto_Alch",
+            "text": "A summer $1k-$100k PF   • $KINS  • $TripleT • $drooling  • solana:BcHEaaTCvycPwwsJ9y"
+          },
+          {
+            "likes": 153,
+            "account": "Crypto_Alch",
+            "text": "Bangggg $TripleT price discovery"
+          }
+        ],
+        "causal": [],
+        "confidence": "低",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$TROLL",
+      "size": 105,
+      "color": "#48eca0",
+      "glow": 0.56,
+      "mentions": 6,
+      "accounts": 4,
+      "trace": {
+        "why": "6件の言及 / 4アカ / 高エンゲージ計8,800♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 4795,
+            "account": "a1lon9",
+            "text": "REAL communities in the pump fun ecosystem are doing unthinkable numbers in these ma"
+          },
+          {
+            "likes": 3324,
+            "account": "a1lon9",
+            "text": "$TROLL is the first time in a long time that we're seeing genuine onboarding into th"
+          },
+          {
+            "likes": 306,
+            "account": "PumpfunEco",
+            "text": "$TROLL is rallying, currently up 18% in 24 hours 👀"
+          },
+          {
+            "likes": 243,
+            "account": "cookerbruski",
+            "text": "similar to the way that $troll ranged for months, when $neet breaks out of accumulat"
+          },
+          {
+            "likes": 132,
+            "account": "cookerbruski",
+            "text": "prayers out to my friend who’s been bullish on $troll coin for the last 5 months jus"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
         "synthesized": true
       }
     },
@@ -1340,47 +1516,128 @@
       }
     },
     {
-      "type": "WORLD",
-      "title": "$PENGU",
+      "type": "MEME",
+      "title": "$TSLA",
       "size": 104,
-      "color": "#ff4ba8",
+      "color": "#48eca0",
       "glow": 0.55,
-      "mentions": 10,
-      "accounts": 3,
+      "mentions": 4,
+      "accounts": 4,
       "trace": {
-        "why": "10件の言及 / 3アカ / 高エンゲージ計6,046♥",
-        "accounts_n": 3,
+        "why": "4件の言及 / 4アカ / 高エンゲージ計10,122♥",
+        "accounts_n": 4,
         "top": [
           {
-            "likes": 1794,
+            "likes": 9613,
+            "account": "nikitabier",
+            "text": "We heard you guys like charts, so we made them bigger.   Introducing Big Charts  Emb"
+          },
+          {
+            "likes": 299,
             "account": "theunipcs",
-            "text": "make no mistake:  the $PENGU pump should absolutely be celebrated  you should want i"
+            "text": "$USELESS has now consolidated in its current range for 51 days  and it did this whil"
           },
           {
-            "likes": 1744,
-            "account": "DefiIgnas",
-            "text": "$PENGU:  • 91% claimed $PENGU airdrop (1.1M addresses) • 74% sold or moved all airdr"
+            "likes": 107,
+            "account": "coinkeiba",
+            "text": "$SPCX 買わずに淡々と $TSLA 集めてる🚘"
           },
           {
-            "likes": 1726,
-            "account": "theunipcs",
-            "text": "$SOL is ripping right now and outperforming $BTC, $ETH, and other majors  which mean"
+            "likes": 103,
+            "account": "milesdeutscher",
+            "text": "Robotics investments just hit a new all-time high of $16B.  Here's how I think the a"
+          }
+        ],
+        "causal": [],
+        "confidence": "低（言及総数4件・薄い",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "MEME",
+      "title": "$SPX",
+      "size": 104,
+      "color": "#48eca0",
+      "glow": 0.55,
+      "mentions": 6,
+      "accounts": 2,
+      "trace": {
+        "why": "6件の言及 / 2アカ / 高エンゲージ計12,017♥",
+        "accounts_n": 2,
+        "top": [
+          {
+            "likes": 7163,
+            "account": "CryptoHayes",
+            "text": "The plan:  Be fucking patient. $BTC likely bottoms around $70k. 36% correction from"
           },
           {
-            "likes": 401,
-            "account": "coingecko",
-            "text": "Top 20 Trending Coins on CoinGecko 🦎  This week's top 3 features $SIREN (@SirenProto"
+            "likes": 3862,
+            "account": "CryptoHayes",
+            "text": "FTX = Lehman  That wasn’t the bottom.   $SPX hit 666 in March of 2009.   Therefore $"
           },
           {
             "likes": 381,
             "account": "theunipcs",
             "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
+          },
+          {
+            "likes": 306,
+            "account": "theunipcs",
+            "text": "i actually care about other coins  i've been most vocal about $USELESS because it's"
+          },
+          {
+            "likes": 305,
+            "account": "theunipcs",
+            "text": "one metric that almost nobody is talking about:  $USELESS has more perps Open Intere"
+          }
+        ],
+        "causal": [],
+        "confidence": "—",
+        "synthesized": true
+      }
+    },
+    {
+      "type": "WORLD",
+      "title": "$DROOLING",
+      "size": 103,
+      "color": "#ff4ba8",
+      "glow": 0.54,
+      "mentions": 13,
+      "accounts": 4,
+      "trace": {
+        "why": "13件の言及 / 4アカ / 高エンゲージ計793♥",
+        "accounts_n": 4,
+        "top": [
+          {
+            "likes": 178,
+            "account": "Crypto_Alch",
+            "text": "Last cycle we had a dog   This cycle the trenches want a cat   $drooling cat fit jus"
+          },
+          {
+            "likes": 165,
+            "account": "Crypto_Alch",
+            "text": "My Nigerian quant sent me this $drooling TA   That MFer don’t miss"
+          },
+          {
+            "likes": 159,
+            "account": "Crypto_Alch",
+            "text": "$drooling cat as the POPCAT of the big 2026 is free at these valuations   CT is too"
+          },
+          {
+            "likes": 154,
+            "account": "Crypto_Alch",
+            "text": "A summer $1k-$100k PF   • $KINS  • $TripleT • $drooling  • solana:BcHEaaTCvycPwwsJ9y"
+          },
+          {
+            "likes": 137,
+            "account": "Crypto_Alch",
+            "text": "Here’s a screenshot taken from the future   $drooling"
           }
         ],
         "causal": [
-          "型 — 生存者meme（blue-chip memeと⚠️生存者バイアス）"
+          "型 — rugの解剖（繰り返す抽出メカニクスと赤旗チェックリスト）"
         ],
-        "confidence": "—",
+        "confidence": "低（signal強いが対象不特定）",
         "synthesized": true
       }
     },
@@ -1474,183 +1731,21 @@
     },
     {
       "type": "MEME",
-      "title": "$SPX",
-      "size": 102,
-      "color": "#48eca0",
-      "glow": 0.53,
-      "mentions": 5,
-      "accounts": 2,
-      "trace": {
-        "why": "5件の言及 / 2アカ / 高エンゲージ計12,010♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 7163,
-            "account": "CryptoHayes",
-            "text": "The plan:  Be fucking patient. $BTC likely bottoms around $70k. 36% correction from"
-          },
-          {
-            "likes": 3862,
-            "account": "CryptoHayes",
-            "text": "FTX = Lehman  That wasn’t the bottom.   $SPX hit 666 in March of 2009.   Therefore $"
-          },
-          {
-            "likes": 381,
-            "account": "theunipcs",
-            "text": "over the past few days:  • i highlighted data showing $USELESS has a higher OI to ma"
-          },
-          {
-            "likes": 305,
-            "account": "theunipcs",
-            "text": "one metric that almost nobody is talking about:  $USELESS has more perps Open Intere"
-          },
-          {
-            "likes": 299,
-            "account": "theunipcs",
-            "text": "一个几乎没有人讨论的指标：  $USELESS 在 Lighter（首个上线它、也是目前最大的永续合约 DEX）上的永续合约未平仓量（OI），除了 $TRUMP 之外，"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$TROLL",
-      "size": 99,
-      "color": "#48eca0",
-      "glow": 0.49,
-      "mentions": 5,
-      "accounts": 3,
-      "trace": {
-        "why": "5件の言及 / 3アカ / 高エンゲージ計8,514♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 4795,
-            "account": "a1lon9",
-            "text": "REAL communities in the pump fun ecosystem are doing unthinkable numbers in these ma"
-          },
-          {
-            "likes": 3324,
-            "account": "a1lon9",
-            "text": "$TROLL is the first time in a long time that we're seeing genuine onboarding into th"
-          },
-          {
-            "likes": 243,
-            "account": "cookerbruski",
-            "text": "similar to the way that $troll ranged for months, when $neet breaks out of accumulat"
-          },
-          {
-            "likes": 132,
-            "account": "cookerbruski",
-            "text": "prayers out to my friend who’s been bullish on $troll coin for the last 5 months jus"
-          },
-          {
-            "likes": 20,
-            "account": "badattrading_",
-            "text": "In any case, on a pure TA level despite what the market is doing, this is an entry,"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$UNI",
-      "size": 98,
-      "color": "#48eca0",
-      "glow": 0.47,
-      "mentions": 4,
-      "accounts": 3,
-      "trace": {
-        "why": "4件の言及 / 3アカ / 高エンゲージ計9,215♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 4561,
-            "account": "milesdeutscher",
-            "text": "2023 is shaping up to be a HUGE year for airdrops.  In recent years, people made up"
-          },
-          {
-            "likes": 4399,
-            "account": "lookonchain",
-            "text": "1/ Missed the $ARB airdrop?  We found 6 smart airdrop hunters who have gotten nearly"
-          },
-          {
-            "likes": 229,
-            "account": "lookonchain",
-            "text": "Garrett Jin(@GarrettBullish) has closed his $ZEC long for a $417K profit and his $UN"
-          },
-          {
-            "likes": 26,
-            "account": "DefiIgnas",
-            "text": "Wish crypto would decouple from BTC already.  The industry is actually maturing. RWA"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
-      "title": "$SOLANGELES",
-      "size": 98,
-      "color": "#48eca0",
-      "glow": 0.47,
-      "mentions": 12,
-      "accounts": 3,
-      "trace": {
-        "why": "12件の言及 / 3アカ / 高エンゲージ計1,071♥",
-        "accounts_n": 3,
-        "top": [
-          {
-            "likes": 463,
-            "account": "moonshot",
-            "text": "Live from SolAngeles TV, we're giving away $5,000 in $SOLANGELES   20 winners will e"
-          },
-          {
-            "likes": 173,
-            "account": "PumpfunEco",
-            "text": "$SOLANGELES has pumped 100% since it began trending on pump fun! 🔥"
-          },
-          {
-            "likes": 151,
-            "account": "PumpfunEco",
-            "text": "$SOLANGELES is rallying, up 28% in the past hour 👀"
-          },
-          {
-            "likes": 144,
-            "account": "Crypto_Alch",
-            "text": "When do they pull the bundle?  Top $SOLANGELES holder has 35% supply   Fascinating s"
-          },
-          {
-            "likes": 140,
-            "account": "PumpfunEco",
-            "text": "$SOLANGELES has pumped 200% since it began trending on pump fun! 🔥"
-          }
-        ],
-        "causal": [],
-        "confidence": "中（板は強・構造リスク高）",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "MEME",
       "title": "$THREE",
-      "size": 97,
+      "size": 101,
       "color": "#48eca0",
-      "glow": 0.46,
-      "mentions": 14,
+      "glow": 0.51,
+      "mentions": 16,
       "accounts": 2,
       "trace": {
-        "why": "14件の言及 / 2アカ / 高エンゲージ計769♥",
+        "why": "16件の言及 / 2アカ / 高エンゲージ計857♥",
         "accounts_n": 2,
         "top": [
+          {
+            "likes": 216,
+            "account": "Crypto_Alch",
+            "text": "Moment of truth for the $three tech   What if they start a tech release for IBM?  Wi"
+          },
           {
             "likes": 211,
             "account": "PumpfunEco",
@@ -1670,108 +1765,68 @@
             "likes": 132,
             "account": "Crypto_Alch",
             "text": "$three looking like this in this imploding market   There’s a thing about good tek m"
-          },
-          {
-            "likes": 128,
-            "account": "Crypto_Alch",
-            "text": "Pay attention to the projects that hold levels when the market retrace   $three buil"
           }
         ],
         "causal": [],
         "confidence": "低",
         "synthesized": true
       }
-    },
-    {
-      "type": "MEME",
-      "title": "$LINK",
-      "size": 96,
-      "color": "#48eca0",
-      "glow": 0.45,
-      "mentions": 4,
-      "accounts": 2,
-      "trace": {
-        "why": "4件の言及 / 2アカ / 高エンゲージ計10,340♥",
-        "accounts_n": 2,
-        "top": [
-          {
-            "likes": 3799,
-            "account": "lookonchain",
-            "text": "Trump's World Liberty(@worldlibertyfi) has bought 1,408 $ETH($4.7M),  177,928 $LINK("
-          },
-          {
-            "likes": 2772,
-            "account": "lookonchain",
-            "text": "A whale spent 4,806 $ETH($21.25M) to buy 938,489 $LINK across 5 wallets 8 hours ago."
-          },
-          {
-            "likes": 2396,
-            "account": "lookonchain",
-            "text": "Trump's World Liberty(@worldlibertyfi) is buying $ETH, $LINK and $AAVE!  In the past"
-          },
-          {
-            "likes": 1373,
-            "account": "JasonYanowitz",
-            "text": "If this tweet gets 500 likes, I’ll invite @SergeyNazarov on the podcast.   $LINK mar"
-          }
-        ],
-        "causal": [],
-        "confidence": "—",
-        "synthesized": true
-      }
-    },
-    {
-      "type": "WORLD",
-      "title": "$ASTER",
-      "size": 94,
-      "color": "#ff4ba8",
-      "glow": 0.42,
-      "mentions": 6,
-      "accounts": 4,
-      "trace": {
-        "why": "6件の言及 / 4アカ / 高エンゲージ計3,042♥",
-        "accounts_n": 4,
-        "top": [
-          {
-            "likes": 2125,
-            "account": "theunipcs",
-            "text": "i feel obligated to post an update since many seem to have misunderstood @lookonchai"
-          },
-          {
-            "likes": 410,
-            "account": "lookonchain",
-            "text": "After Aster announced its tokenomics update, whale 0x5f91 FOMOed into a 5.33M $ASTER"
-          },
-          {
-            "likes": 209,
-            "account": "bull_bnb",
-            "text": "Oh my God  months of underwater fuckery finally coming out. $Aster keep sending it."
-          },
-          {
-            "likes": 207,
-            "account": "bull_bnb",
-            "text": "Can it now recover my 10/10 losses?  $Aster"
-          },
-          {
-            "likes": 91,
-            "account": "coingecko",
-            "text": "$HYPE vs. $ASTER vs. $LIT  \"Is a coin actually pumping, or is its sector just trendi"
-          }
-        ],
-        "causal": [
-          "動線 — perp DEX戦争（Hyperliquid vs 群雄・\"productive crypto\"の影）"
-        ],
-        "confidence": "—",
-        "synthesized": true
-      }
     }
   ],
   "live": [
     {
+      "ticker": "$SPX",
+      "name": "SPX6900 (Wormhole)",
+      "mint": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "mcap": 344783045,
+      "peak_mcap": 344783045,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "theunipcs"
+      ],
+      "ai_agent": false,
+      "reply_count": 140,
+      "first_seen": "2026-07-02T09:27:22Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "spark": [
+        341633824,
+        340004139,
+        344783045
+      ]
+    },
+    {
+      "ticker": "$USELESS",
+      "name": "USELESS COIN",
+      "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "mcap": 85055403,
+      "peak_mcap": 85055403,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "theunipcs"
+      ],
+      "ai_agent": false,
+      "reply_count": 174,
+      "first_seen": "2026-07-02T09:27:22Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "spark": [
+        83313096,
+        83407021,
+        85055403
+      ]
+    },
+    {
       "ticker": "$JOTCHUA",
       "name": "Jotchua",
       "mint": "BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
-      "mcap": 9848751,
+      "mcap": 10324830,
       "peak_mcap": 11129332,
       "status": "tracked",
       "outcome": null,
@@ -1786,10 +1841,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
       "spark": [
-        8522390,
-        8271186,
-        7896681,
-        8544882,
         8569850,
         9141896,
         8663259,
@@ -1809,14 +1860,18 @@
         9576678,
         9769399,
         9996797,
-        9848751
+        9848751,
+        9962414,
+        10612838,
+        10511161,
+        10324830
       ]
     },
     {
       "ticker": "$TESTIBULL",
       "name": "testibull",
       "mint": "C6kWVdLGAE3Eb8Xc6VRZbs9ZvouHhBMYbhd4BVagD4Da",
-      "mcap": 3929384,
+      "mcap": 3945838,
       "peak_mcap": 5342002,
       "status": "tracked",
       "outcome": null,
@@ -1829,10 +1884,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/C6kWVdLGAE3Eb8Xc6VRZbs9ZvouHhBMYbhd4BVagD4Da",
       "spark": [
-        1970591,
-        2102628,
-        1773609,
-        1898776,
         1976780,
         1986810,
         4422540,
@@ -1852,14 +1903,18 @@
         4393153,
         4151982,
         4011014,
-        3929384
+        3929384,
+        3832854,
+        3979476,
+        3917595,
+        3945838
       ]
     },
     {
       "ticker": "$ZERO",
       "name": "c0mpute",
       "mint": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-      "mcap": 2618759,
+      "mcap": 2526618,
       "peak_mcap": 3073250,
       "status": "tracked",
       "outcome": null,
@@ -1872,10 +1927,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
       "spark": [
-        1965461,
-        2167508,
-        3073250,
-        2506023,
         2452586,
         2779314,
         2736760,
@@ -1895,41 +1946,18 @@
         2609496,
         2617807,
         2617858,
-        2618759
-      ]
-    },
-    {
-      "ticker": "$LR",
-      "name": "Ledger Realms",
-      "mint": "32e2Rpw2ZLLhSaoVwMn4Vyx3vkHG6xCPRiyXrPJYpump",
-      "mcap": 1305285,
-      "peak_mcap": 1338437,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T19:41:26Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/32e2Rpw2ZLLhSaoVwMn4Vyx3vkHG6xCPRiyXrPJYpump",
-      "spark": [
-        124682,
-        139373,
-        563429,
-        1166296,
-        817860,
-        1047385,
-        1338437,
-        1305285
+        2618759,
+        2536537,
+        2493133,
+        2542524,
+        2526618
       ]
     },
     {
       "ticker": "$ALBEMARLE",
       "name": "Albemarle City",
       "mint": "FMTG5DSNYSS6Wv6d6bWG8MnK9ncdgVnkUFRj3ksdpump",
-      "mcap": 749772,
+      "mcap": 894564,
       "peak_mcap": 1921729,
       "status": "tracked",
       "outcome": null,
@@ -1954,14 +1982,49 @@
         793946,
         751265,
         851887,
-        749772
+        749772,
+        718776,
+        684562,
+        1016487,
+        894564
+      ]
+    },
+    {
+      "ticker": "$LR",
+      "name": "Ledger Realms",
+      "mint": "32e2Rpw2ZLLhSaoVwMn4Vyx3vkHG6xCPRiyXrPJYpump",
+      "mcap": 752896,
+      "peak_mcap": 1338437,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-01T19:41:26Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/32e2Rpw2ZLLhSaoVwMn4Vyx3vkHG6xCPRiyXrPJYpump",
+      "spark": [
+        124682,
+        139373,
+        563429,
+        1166296,
+        817860,
+        1047385,
+        1338437,
+        1305285,
+        1168514,
+        1055727,
+        847902,
+        752896
       ]
     },
     {
       "ticker": "$滑る猫",
       "name": "Sliding Cat",
       "mint": "3oX9emrqYRGzFEDPP3jA6tYnUBML4QSr3DfgD2r5pump",
-      "mcap": 551327,
+      "mcap": 561110,
       "peak_mcap": 972231,
       "status": "tracked",
       "outcome": null,
@@ -1974,10 +2037,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/3oX9emrqYRGzFEDPP3jA6tYnUBML4QSr3DfgD2r5pump",
       "spark": [
-        319619,
-        302498,
-        349320,
-        401238,
         339270,
         318889,
         300255,
@@ -1997,15 +2056,43 @@
         533717,
         573651,
         570823,
-        551327
+        551327,
+        539351,
+        542980,
+        520172,
+        561110
       ]
     },
     {
-      "ticker": "$BITBOY",
-      "name": "The White Bull",
-      "mint": "V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump",
-      "mcap": 315199,
-      "peak_mcap": 1784452,
+      "ticker": "$TJR",
+      "name": "The Top Floor Boss",
+      "mint": "4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump",
+      "mcap": 439173,
+      "peak_mcap": 455630,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "tsuyuto6154"
+      ],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-02T09:27:21Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump",
+      "spark": [
+        455328,
+        455630,
+        439173
+      ]
+    },
+    {
+      "ticker": "$PENALTY",
+      "name": "degenfc.fun",
+      "mint": "2GA23vuHaY7eTAQW3itMSoUmcWjZuazaqh6tUtiBgoa1",
+      "mcap": 303274,
+      "peak_mcap": 369961,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2013,61 +2100,89 @@
       "kol": [],
       "ai_agent": false,
       "reply_count": 0,
-      "first_seen": "2026-06-30T20:56:36Z",
+      "first_seen": "2026-07-01T23:19:14Z",
       "died_at": null,
-      "link": "https://pump.fun/coin/V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump",
+      "link": "https://pump.fun/coin/2GA23vuHaY7eTAQW3itMSoUmcWjZuazaqh6tUtiBgoa1",
       "spark": [
-        456091,
-        488979,
-        1784452,
-        1383436,
-        882688,
-        811453,
-        838652,
-        760394,
-        385543,
-        482301,
-        400564,
-        338139,
-        347737,
-        334919,
-        361620,
-        367222,
-        347170,
-        312804,
-        318231,
-        315199
+        369640,
+        369961,
+        362833,
+        303274
       ]
     },
     {
-      "ticker": "$ELON DOGE",
-      "name": "Elon Musk's DOGE",
-      "mint": "5pCL6QsxegdE18F6Xx3g5wyB4QijcKGXLfGiFKobpump",
-      "mcap": 213243,
-      "peak_mcap": 213243,
+      "ticker": "$GLUE",
+      "name": "GLUE",
+      "mint": "NpqoucNKKJ62PwikH4NBvTm3R7mgREXoTtv7nJSGLUE",
+      "mcap": 244050,
+      "peak_mcap": 244050,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "tsuyuto6154"
+      ],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-02T09:27:21Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/NpqoucNKKJ62PwikH4NBvTm3R7mgREXoTtv7nJSGLUE",
+      "spark": [
+        234996,
+        235198,
+        244050
+      ]
+    },
+    {
+      "ticker": "$WEN",
+      "name": "Wendy's Co",
+      "mint": "66pQgfLHEfbHSBgYSZSrKEdJHHaGiYbgCtNbz48Apump",
+      "mcap": 227824,
+      "peak_mcap": 235213,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:user_checked",
       "kol": [],
       "ai_agent": false,
       "reply_count": 0,
-      "first_seen": "2026-07-01T21:44:37Z",
+      "first_seen": "2026-06-27T09:27:16Z",
       "died_at": null,
-      "link": "https://pump.fun/coin/5pCL6QsxegdE18F6Xx3g5wyB4QijcKGXLfGiFKobpump",
+      "link": "https://pump.fun/coin/66pQgfLHEfbHSBgYSZSrKEdJHHaGiYbgCtNbz48Apump",
       "spark": [
-        115182,
-        122618,
-        174280,
-        213243
+        117317,
+        102183,
+        118190,
+        123031,
+        143995,
+        136722,
+        132668,
+        128725,
+        147856,
+        143262,
+        151782,
+        156530,
+        151547,
+        153891,
+        166823,
+        167265,
+        161103,
+        156970,
+        152762,
+        152588,
+        141826,
+        142051,
+        233080,
+        227824
       ]
     },
     {
       "ticker": "$WHITEBULL",
       "name": "WHITEBULL",
       "mint": "JBRhpdRYVvXgzMT9UDmTQ4ojpG82ETp86PLJF2yNpump",
-      "mcap": 178336,
-      "peak_mcap": 178336,
+      "mcap": 180631,
+      "peak_mcap": 180631,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2087,15 +2202,19 @@
         177077,
         178128,
         178306,
-        178336
+        178336,
+        177938,
+        176847,
+        179074,
+        180631
       ]
     },
     {
       "ticker": "$APE",
       "name": "JUST APE",
       "mint": "4aW3TstuhmYmoMMCRVoBo49mmvBG9LxmyocN1Nfkpump",
-      "mcap": 174424,
-      "peak_mcap": 174515,
+      "mcap": 176773,
+      "peak_mcap": 176773,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2110,15 +2229,19 @@
         174347,
         174320,
         174515,
-        174424
+        174424,
+        174153,
+        173041,
+        175444,
+        176773
       ]
     },
     {
       "ticker": "$MC",
       "name": "Merica Coin",
       "mint": "3h6v9g2yQzqtTMQGbyQioUVp1svZ937vLD97hzxopump",
-      "mcap": 167238,
-      "peak_mcap": 167238,
+      "mcap": 169407,
+      "peak_mcap": 169407,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2140,15 +2263,19 @@
         166109,
         167035,
         167223,
-        167238
+        167238,
+        166885,
+        165816,
+        167907,
+        169407
       ]
     },
     {
       "ticker": "$BLOCKCHAIN",
       "name": "BLOCKCHAIN",
       "mint": "22cuTnStTvS5Xrd41Ag9nTLhpQsW6LCKnsTD8cNgpump",
-      "mcap": 160140,
-      "peak_mcap": 160170,
+      "mcap": 162268,
+      "peak_mcap": 162268,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2169,15 +2296,19 @@
         159109,
         160002,
         160170,
-        160140
+        160140,
+        159868,
+        158828,
+        160936,
+        162268
       ]
     },
     {
       "ticker": "$MBAPEPE",
       "name": "MBAPEPE",
       "mint": "A7pN2Hi6W9utga4VzQexuqVCGCRZNq28UwdP6Cejpump",
-      "mcap": 159841,
-      "peak_mcap": 159841,
+      "mcap": 161940,
+      "peak_mcap": 161940,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2189,10 +2320,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/A7pN2Hi6W9utga4VzQexuqVCGCRZNq28UwdP6Cejpump",
       "spark": [
-        150957,
-        150224,
-        149888,
-        149663,
         149551,
         150376,
         150311,
@@ -2212,15 +2339,19 @@
         158752,
         159713,
         159827,
-        159841
+        159841,
+        159542,
+        158563,
+        160599,
+        161940
       ]
     },
     {
       "ticker": "$CHIBUL",
       "name": "Chill Bullok",
       "mint": "6ANdVaAHJY43ZBGGHr1nj7K5m1FWcFexzMrQLC5Rpump",
-      "mcap": 159737,
-      "peak_mcap": 159737,
+      "mcap": 161797,
+      "peak_mcap": 161797,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2232,10 +2363,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/6ANdVaAHJY43ZBGGHr1nj7K5m1FWcFexzMrQLC5Rpump",
       "spark": [
-        150874,
-        150110,
-        149828,
-        149453,
         149455,
         150266,
         150290,
@@ -2255,15 +2382,19 @@
         158650,
         159606,
         159725,
-        159737
+        159737,
+        159475,
+        158501,
+        160495,
+        161797
       ]
     },
     {
       "ticker": "$BRONZE",
       "name": "bronze",
       "mint": "CDWHRkHp4DfiusCLEvK7h9tBLz8fRabUCcEruY5Tpump",
-      "mcap": 155915,
-      "peak_mcap": 155919,
+      "mcap": 157928,
+      "peak_mcap": 157928,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2292,15 +2423,19 @@
         154781,
         155695,
         155919,
-        155915
+        155915,
+        155567,
+        154548,
+        156626,
+        157928
       ]
     },
     {
       "ticker": "$KLIPY",
       "name": "Klipy",
       "mint": "7h3ppuYdqmHkVYhAzZ9P347egzrMo6xYPUMAgMWopump",
-      "mcap": 154167,
-      "peak_mcap": 154203,
+      "mcap": 156204,
+      "peak_mcap": 156204,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2317,15 +2452,19 @@
         153186,
         154022,
         154203,
-        154167
+        154167,
+        153848,
+        152906,
+        154969,
+        156204
       ]
     },
     {
       "ticker": "$BELIVE ",
       "name": "belive ",
       "mint": "64oYF5UHBekacSB6SUcdEcAeKKpWY9uLPF23MJVwpump",
-      "mcap": 153335,
-      "peak_mcap": 153335,
+      "mcap": 155393,
+      "peak_mcap": 155393,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2339,58 +2478,19 @@
       "spark": [
         40207,
         89826,
-        153335
-      ]
-    },
-    {
-      "ticker": "$WEN",
-      "name": "Wendy's Co",
-      "mint": "66pQgfLHEfbHSBgYSZSrKEdJHHaGiYbgCtNbz48Apump",
-      "mcap": 152588,
-      "peak_mcap": 235213,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:user_checked",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-27T09:27:16Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/66pQgfLHEfbHSBgYSZSrKEdJHHaGiYbgCtNbz48Apump",
-      "spark": [
-        142091,
-        154494,
-        156200,
-        131585,
-        117317,
-        102183,
-        118190,
-        123031,
-        143995,
-        136722,
-        132668,
-        128725,
-        147856,
-        143262,
-        151782,
-        156530,
-        151547,
-        153891,
-        166823,
-        167265,
-        161103,
-        156970,
-        152762,
-        152588
+        153335,
+        153136,
+        152112,
+        154224,
+        155393
       ]
     },
     {
       "ticker": "$BAN",
       "name": "nana",
       "mint": "9xH6VJu1SHzZVrD7ccpJPAjQChyLCBNqnjMJoFHppump",
-      "mcap": 152235,
-      "peak_mcap": 152235,
+      "mcap": 154222,
+      "peak_mcap": 154222,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2402,7 +2502,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/9xH6VJu1SHzZVrD7ccpJPAjQChyLCBNqnjMJoFHppump",
       "spark": [
-        143792,
         143168,
         143138,
         143209,
@@ -2422,15 +2521,19 @@
         151206,
         151997,
         152222,
-        152235
+        152235,
+        151939,
+        151044,
+        152915,
+        154222
       ]
     },
     {
       "ticker": "$BOOGLE",
       "name": "Boogle",
       "mint": "BnpqpEkh5B76tMQCF2fhHkiFWNDZ1GrAdmq4G8R5pump",
-      "mcap": 151545,
-      "peak_mcap": 151545,
+      "mcap": 153492,
+      "peak_mcap": 153492,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2451,15 +2554,19 @@
         150472,
         151393,
         151512,
-        151545
+        151545,
+        151192,
+        150209,
+        152132,
+        153492
       ]
     },
     {
       "ticker": "$TBB",
       "name": "THE BLACKIST BULL",
       "mint": "BMf4QQkvzri3zf1ffSwWEsKH1pFG9GgZ5Po6MRBipump",
-      "mcap": 149860,
-      "peak_mcap": 149864,
+      "mcap": 151795,
+      "peak_mcap": 151795,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2488,15 +2595,19 @@
         148770,
         149648,
         149864,
-        149860
+        149860,
+        149549,
+        148602,
+        150544,
+        151795
       ]
     },
     {
       "ticker": "$NSHARK",
       "name": "Neon Shark",
       "mint": "D8hyRSuqM7N2L8fFCdq7zbCzickoZJjnAVtjftPpump",
-      "mcap": 149270,
-      "peak_mcap": 149270,
+      "mcap": 151191,
+      "peak_mcap": 151191,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2516,15 +2627,19 @@
         148216,
         149079,
         149245,
-        149270
+        149270,
+        148937,
+        147980,
+        149888,
+        151191
       ]
     },
     {
       "ticker": "$AT",
       "name": "at",
       "mint": "6S7wmwnCkbckJFqdQXH72vNmDZbtU2ZvPNjqroSYpump",
-      "mcap": 147170,
-      "peak_mcap": 147170,
+      "mcap": 149075,
+      "peak_mcap": 149075,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2536,9 +2651,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/6S7wmwnCkbckJFqdQXH72vNmDZbtU2ZvPNjqroSYpump",
       "spark": [
-        137984,
-        137973,
-        137758,
         137753,
         138386,
         138430,
@@ -2558,15 +2670,19 @@
         146110,
         146924,
         146992,
-        147170
+        147170,
+        146869,
+        145981,
+        147782,
+        149075
       ]
     },
     {
       "ticker": "$BLOB",
       "name": "BLOB",
       "mint": "8LhAAmnECtqG1ZXnzHx5QfPar6iLFbBy1FgjyeDipump",
-      "mcap": 139016,
-      "peak_mcap": 139044,
+      "mcap": 140982,
+      "peak_mcap": 140982,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2578,10 +2694,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/8LhAAmnECtqG1ZXnzHx5QfPar6iLFbBy1FgjyeDipump",
       "spark": [
-        131339,
-        130535,
-        130380,
-        130090,
         130138,
         130782,
         130726,
@@ -2601,15 +2713,19 @@
         138118,
         138901,
         139044,
-        139016
+        139016,
+        138814,
+        137764,
+        139677,
+        140982
       ]
     },
     {
       "ticker": "$BBR",
       "name": "BABY BULL RUN 2028",
       "mint": "22fidZDkuj1ixv8wXGakCRuGSzRdVdRrRiXzcx3vpump",
-      "mcap": 118448,
-      "peak_mcap": 118448,
+      "mcap": 120021,
+      "peak_mcap": 120021,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2621,10 +2737,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/22fidZDkuj1ixv8wXGakCRuGSzRdVdRrRiXzcx3vpump",
       "spark": [
-        111842,
-        111229,
-        111055,
-        110859,
         110796,
         111395,
         111327,
@@ -2644,15 +2756,19 @@
         117589,
         118276,
         118362,
-        118448
+        118448,
+        118228,
+        117471,
+        118910,
+        120021
       ]
     },
     {
       "ticker": "$GUTCHU",
       "name": "GUTCHU",
       "mint": "GzfBEfLVzNUgAnPHacitJhoQ8VQgNT94kqinTGEDpump",
-      "mcap": 107752,
-      "peak_mcap": 107752,
+      "mcap": 109138,
+      "peak_mcap": 109138,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2664,10 +2780,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/GzfBEfLVzNUgAnPHacitJhoQ8VQgNT94kqinTGEDpump",
       "spark": [
-        101732,
-        101232,
-        101029,
-        100816,
         100778,
         101325,
         101341,
@@ -2687,15 +2799,19 @@
         106988,
         107562,
         107666,
-        107752
+        107752,
+        107524,
+        106878,
+        108285,
+        109138
       ]
     },
     {
       "ticker": "$BANANA",
       "name": "Banana For Scale",
       "mint": "3Uu8anjcxD5Z5nWbyY4Wn2jB5czb5ph1dp41L7e6pump",
-      "mcap": 97221,
-      "peak_mcap": 97221,
+      "mcap": 98541,
+      "peak_mcap": 98541,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2707,10 +2823,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/3Uu8anjcxD5Z5nWbyY4Wn2jB5czb5ph1dp41L7e6pump",
       "spark": [
-        91803,
-        91243,
-        91157,
-        90997,
         90937,
         91430,
         91409,
@@ -2730,15 +2842,19 @@
         96531,
         97129,
         97165,
-        97221
+        97221,
+        97055,
+        96406,
+        97605,
+        98541
       ]
     },
     {
       "ticker": "$SON",
       "name": "son",
       "mint": "DMHyTb83qYbqa1etGHEfsbnE6uKdtGbdWtf9DXSMpump",
-      "mcap": 96413,
-      "peak_mcap": 96413,
+      "mcap": 97700,
+      "peak_mcap": 97700,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2750,8 +2866,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/DMHyTb83qYbqa1etGHEfsbnE6uKdtGbdWtf9DXSMpump",
       "spark": [
-        90208,
-        90239,
         90194,
         90626,
         90703,
@@ -2771,15 +2885,19 @@
         95735,
         96321,
         96314,
-        96413
+        96413,
+        96233,
+        95636,
+        96850,
+        97700
       ]
     },
     {
       "ticker": "$CLIMBITRC",
       "name": "CLIMBINGTRENCH",
       "mint": "9VUqBM1awkxtUgu6TKVsoB6REkxAeogLAfEg8M8Xpump",
-      "mcap": 86255,
-      "peak_mcap": 86264,
+      "mcap": 87353,
+      "peak_mcap": 87353,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2804,15 +2922,19 @@
         85615,
         86112,
         86264,
-        86255
+        86255,
+        86057,
+        85491,
+        86652,
+        87353
       ]
     },
     {
       "ticker": "$PEPEBULL",
       "name": "The PEPE Bull",
       "mint": "DVt8WDxWLCUMiyEwCVgbg1PQ1RpQTMKckp2cF8S1pump",
-      "mcap": 85110,
-      "peak_mcap": 85110,
+      "mcap": 86256,
+      "peak_mcap": 86256,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2824,10 +2946,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/DVt8WDxWLCUMiyEwCVgbg1PQ1RpQTMKckp2cF8S1pump",
       "spark": [
-        80378,
-        79929,
-        79806,
-        79673,
         79619,
         80050,
         80008,
@@ -2847,15 +2965,19 @@
         84508,
         85049,
         85064,
-        85110
+        85110,
+        84967,
+        84425,
+        85457,
+        86256
       ]
     },
     {
       "ticker": "$$BEN",
       "name": "JUSTICE FOR BENNY",
       "mint": "A6HP9WfH6RyB3LYU3iDDvoP515y8KQKnFhLmMfhKpump",
-      "mcap": 80347,
-      "peak_mcap": 80360,
+      "mcap": 81399,
+      "peak_mcap": 81399,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2880,15 +3002,19 @@
         79787,
         80247,
         80360,
-        80347
+        80347,
+        80189,
+        79673,
+        80732,
+        81399
       ]
     },
     {
       "ticker": "$BEACH ",
       "name": "Venice Beach ",
       "mint": "9Z5iBt5shDkaw7wJfqVtvcApxAdr9pvKvGGpsS9opump",
-      "mcap": 71589,
-      "peak_mcap": 71589,
+      "mcap": 72504,
+      "peak_mcap": 72504,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -2900,10 +3026,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/9Z5iBt5shDkaw7wJfqVtvcApxAdr9pvKvGGpsS9opump",
       "spark": [
-        67587,
-        67217,
-        67108,
-        67000,
         66958,
         67321,
         67306,
@@ -2923,102 +3045,18 @@
         71083,
         71498,
         71537,
-        71589
-      ]
-    },
-    {
-      "ticker": "$BELIVE ",
-      "name": "belive ",
-      "mint": "H4hNahdT297cjC3pZKizAkfGGZrtF2kcuwTUHFwtpump",
-      "mcap": 60733,
-      "peak_mcap": 60733,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:mcap>=30000",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T22:15:05Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/H4hNahdT297cjC3pZKizAkfGGZrtF2kcuwTUHFwtpump",
-      "spark": [
-        50597,
-        60733
-      ]
-    },
-    {
-      "ticker": "$BOWL",
-      "name": "bowl",
-      "mint": "7QHVySgefcEcHjt9By4vCbAECkuj9zgfWVSYAkeepump",
-      "mcap": 55830,
-      "peak_mcap": 55830,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:mcap>=30000",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-30T02:13:37Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/7QHVySgefcEcHjt9By4vCbAECkuj9zgfWVSYAkeepump",
-      "spark": [
-        52726,
-        52453,
-        52328,
-        52249,
-        52216,
-        52541,
-        52510,
-        53054,
-        52851,
-        53630,
-        53073,
-        55011,
-        54852,
-        55446,
-        55332,
-        55303,
-        55321,
-        55068,
-        54724,
-        54962,
-        55433,
-        55747,
-        55775,
-        55830
-      ]
-    },
-    {
-      "ticker": "$PROP",
-      "name": "PEPE PROPELLER",
-      "mint": "CKVmemsxwR5vhiaFChwPq3RT1kaPgRqXiQmEpi8fpump",
-      "mcap": 55726,
-      "peak_mcap": 55736,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:mcap>=30000",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T21:13:51Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/CKVmemsxwR5vhiaFChwPq3RT1kaPgRqXiQmEpi8fpump",
-      "spark": [
-        55367,
-        55369,
-        55674,
-        55736,
-        55726
+        71589,
+        71454,
+        71004,
+        71903,
+        72504
       ]
     },
     {
       "ticker": "$LOT",
       "name": "LEAGUE OF TRENCHES",
       "mint": "ByMzTYShp2mnswUBW2du1tgCUTDVw8DTheJH7jc5pump",
-      "mcap": 54934,
+      "mcap": 64027,
       "peak_mcap": 65356,
       "status": "tracked",
       "outcome": null,
@@ -3031,7 +3069,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/ByMzTYShp2mnswUBW2du1tgCUTDVw8DTheJH7jc5pump",
       "spark": [
-        25564,
         25994,
         51735,
         39837,
@@ -3051,129 +3088,19 @@
         52466,
         54682,
         55016,
-        54934
-      ]
-    },
-    {
-      "ticker": "$OMERTA",
-      "name": "OMERTA",
-      "mint": "FgHLUnFugq41TrSSRkZLnK2RaHQ6JZFv2sHGyvJfpump",
-      "mcap": 53614,
-      "peak_mcap": 53614,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:mcap>=30000",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T19:02:52Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/FgHLUnFugq41TrSSRkZLnK2RaHQ6JZFv2sHGyvJfpump",
-      "spark": [
-        53150,
-        53100,
-        52910,
-        52549,
-        52799,
-        53235,
-        53551,
-        53605,
-        53614
-      ]
-    },
-    {
-      "ticker": "$TOUCHED",
-      "name": "pocket hitlers touched me",
-      "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
-      "mcap": 52802,
-      "peak_mcap": 52802,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:user_checked",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-27T09:27:15Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
-      "spark": [
-        49861,
-        49579,
-        49504,
-        49416,
-        49393,
-        49660,
-        49642,
-        50178,
-        50003,
-        50733,
-        50198,
-        52045,
-        51915,
-        52488,
-        52311,
-        52313,
-        52323,
-        52078,
-        51748,
-        52000,
-        52433,
-        52751,
-        52778,
-        52802
-      ]
-    },
-    {
-      "ticker": "$CHEW",
-      "name": "chewy",
-      "mint": "EBon2sqXN4uKV1rKQcBhXBNRjVgPvzUgxQXDNa67pump",
-      "mcap": 48526,
-      "peak_mcap": 48526,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:mcap>=30000",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-29T04:01:12Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/EBon2sqXN4uKV1rKQcBhXBNRjVgPvzUgxQXDNa67pump",
-      "spark": [
-        45833,
-        45601,
-        45514,
-        45436,
-        45403,
-        45653,
-        45633,
-        46124,
-        45949,
-        46630,
-        46147,
-        47850,
-        47704,
-        48219,
-        48111,
-        48089,
-        48109,
-        47869,
-        47522,
-        47789,
-        48197,
-        48486,
-        48508,
-        48526
+        54934,
+        57386,
+        52687,
+        63273,
+        64027
       ]
     },
     {
       "ticker": "$YAJUCOIN",
       "name": "淫夢 1145141919810 ",
       "mint": "BRrc4qh3t1wpE97FETgea1DEefu8A95Cu3g9vcN5pump",
-      "mcap": 48135,
-      "peak_mcap": 58069,
+      "mcap": 59220,
+      "peak_mcap": 59220,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3187,10 +3114,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/BRrc4qh3t1wpE97FETgea1DEefu8A95Cu3g9vcN5pump",
       "spark": [
-        49402,
-        48402,
-        52330,
-        44429,
         45125,
         46641,
         46046,
@@ -3210,15 +3133,272 @@
         47817,
         48102,
         48134,
-        48135
+        48135,
+        48075,
+        47738,
+        58659,
+        59220
+      ]
+    },
+    {
+      "ticker": "$BOWL",
+      "name": "bowl",
+      "mint": "7QHVySgefcEcHjt9By4vCbAECkuj9zgfWVSYAkeepump",
+      "mcap": 56553,
+      "peak_mcap": 56553,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-30T02:13:37Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/7QHVySgefcEcHjt9By4vCbAECkuj9zgfWVSYAkeepump",
+      "spark": [
+        52216,
+        52541,
+        52510,
+        53054,
+        52851,
+        53630,
+        53073,
+        55011,
+        54852,
+        55446,
+        55332,
+        55303,
+        55321,
+        55068,
+        54724,
+        54962,
+        55433,
+        55747,
+        55775,
+        55830,
+        55716,
+        55370,
+        56074,
+        56553
+      ]
+    },
+    {
+      "ticker": "$AIRDROP",
+      "name": "Airdrop",
+      "mint": "ivuh8r2gCkJYxmcvdDNuDtLRqKCS4gNz1kLWzLgpump",
+      "mcap": 54751,
+      "peak_mcap": 226356,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-01T22:43:10Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/ivuh8r2gCkJYxmcvdDNuDtLRqKCS4gNz1kLWzLgpump",
+      "spark": [
+        226356,
+        142896,
+        130079,
+        55393,
+        54751
+      ]
+    },
+    {
+      "ticker": "$OMERTA",
+      "name": "OMERTA",
+      "mint": "FgHLUnFugq41TrSSRkZLnK2RaHQ6JZFv2sHGyvJfpump",
+      "mcap": 54304,
+      "peak_mcap": 54304,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-01T19:02:52Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/FgHLUnFugq41TrSSRkZLnK2RaHQ6JZFv2sHGyvJfpump",
+      "spark": [
+        53150,
+        53100,
+        52910,
+        52549,
+        52799,
+        53235,
+        53551,
+        53605,
+        53614,
+        53481,
+        53153,
+        53836,
+        54304
+      ]
+    },
+    {
+      "ticker": "$TOUCHED",
+      "name": "pocket hitlers touched me",
+      "mint": "223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
+      "mcap": 53534,
+      "peak_mcap": 53534,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:user_checked",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-27T09:27:15Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/223P2GJH69yiAwCvFUss6bAN18B1MX8B3HAsCJuipump",
+      "spark": [
+        49393,
+        49660,
+        49642,
+        50178,
+        50003,
+        50733,
+        50198,
+        52045,
+        51915,
+        52488,
+        52311,
+        52313,
+        52323,
+        52078,
+        51748,
+        52000,
+        52433,
+        52751,
+        52778,
+        52802,
+        52706,
+        52359,
+        53070,
+        53534
+      ]
+    },
+    {
+      "ticker": "$MEEP",
+      "name": "MEEP CAT",
+      "mint": "8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump",
+      "mcap": 52389,
+      "peak_mcap": 60672,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "tsuyuto6154"
+      ],
+      "ai_agent": false,
+      "reply_count": 164,
+      "first_seen": "2026-06-27T09:27:11Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump",
+      "spark": [
+        44991,
+        38426,
+        32497,
+        32589,
+        30618,
+        32956,
+        33356,
+        32966,
+        31966,
+        30922,
+        31611,
+        30952,
+        29890,
+        30712,
+        30402,
+        30933,
+        31468,
+        31003,
+        31026,
+        30477,
+        31255,
+        30491,
+        48727,
+        52389
+      ]
+    },
+    {
+      "ticker": "$MAXEXTRACT",
+      "name": "Maxing Extraction",
+      "mint": "BwnYo8o3HhkpdYsuDxJBA1z5mRC3bywV8L57V7JXpump",
+      "mcap": 49295,
+      "peak_mcap": 49295,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-01T23:19:14Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/BwnYo8o3HhkpdYsuDxJBA1z5mRC3bywV8L57V7JXpump",
+      "spark": [
+        45494,
+        41909,
+        48942,
+        49295
+      ]
+    },
+    {
+      "ticker": "$CHEW",
+      "name": "chewy",
+      "mint": "EBon2sqXN4uKV1rKQcBhXBNRjVgPvzUgxQXDNa67pump",
+      "mcap": 49159,
+      "peak_mcap": 49159,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:mcap>=30000",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-29T04:01:12Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/EBon2sqXN4uKV1rKQcBhXBNRjVgPvzUgxQXDNa67pump",
+      "spark": [
+        45403,
+        45653,
+        45633,
+        46124,
+        45949,
+        46630,
+        46147,
+        47850,
+        47704,
+        48219,
+        48111,
+        48089,
+        48109,
+        47869,
+        47522,
+        47789,
+        48197,
+        48486,
+        48508,
+        48526,
+        48436,
+        48141,
+        48756,
+        49159
       ]
     },
     {
       "ticker": "$AURUM+",
       "name": "Aurum +",
       "mint": "5AkPFPnjuJvg7fqSTnJL7Qr6RVYa3fr8Sfix4fwepump",
-      "mcap": 47311,
-      "peak_mcap": 47311,
+      "mcap": 47919,
+      "peak_mcap": 47919,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3230,10 +3410,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/5AkPFPnjuJvg7fqSTnJL7Qr6RVYa3fr8Sfix4fwepump",
       "spark": [
-        44673,
-        44451,
-        44356,
-        44285,
         44257,
         44504,
         44487,
@@ -3253,60 +3429,19 @@
         46984,
         47262,
         47284,
-        47311
-      ]
-    },
-    {
-      "ticker": "$MUTUMBO",
-      "name": "mutumbo",
-      "mint": "4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump",
-      "mcap": 45008,
-      "peak_mcap": 84077,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:kol",
-      "kol": [
-        "tsuyuto6154"
-      ],
-      "ai_agent": false,
-      "reply_count": 253,
-      "first_seen": "2026-06-27T09:27:08Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump",
-      "spark": [
-        46984,
-        45677,
-        45318,
-        58129,
-        47463,
-        47571,
-        45259,
-        45361,
-        45192,
-        44389,
-        43243,
-        45467,
-        45344,
-        45878,
-        45584,
-        45268,
-        45290,
-        45078,
-        44742,
-        44340,
-        44727,
-        44971,
-        45005,
-        45008
+        47311,
+        47213,
+        46926,
+        47525,
+        47919
       ]
     },
     {
       "ticker": "$PROP",
       "name": "PEPE PROPELLER",
       "mint": "Eeako5V6kVxqnSeW5BCGuJ8EAU6FdYAGPymR6DUjpump",
-      "mcap": 43486,
-      "peak_mcap": 43490,
+      "mcap": 44035,
+      "peak_mcap": 44035,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3329,15 +3464,64 @@
         43182,
         43416,
         43490,
-        43486
+        43486,
+        43390,
+        43107,
+        43679,
+        44035
+      ]
+    },
+    {
+      "ticker": "$MUTUMBO",
+      "name": "mutumbo",
+      "mint": "4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump",
+      "mcap": 42183,
+      "peak_mcap": 84077,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "tsuyuto6154"
+      ],
+      "ai_agent": false,
+      "reply_count": 253,
+      "first_seen": "2026-06-27T09:27:08Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump",
+      "spark": [
+        47463,
+        47571,
+        45259,
+        45361,
+        45192,
+        44389,
+        43243,
+        45467,
+        45344,
+        45878,
+        45584,
+        45268,
+        45290,
+        45078,
+        44742,
+        44340,
+        44727,
+        44971,
+        45005,
+        45008,
+        45385,
+        45043,
+        41785,
+        42183
       ]
     },
     {
       "ticker": "$INCA",
       "name": "Inca LLM",
       "mint": "6SkS7KNQVRU1BACkbEEeMPGNVUkNdvKuM1BgZpn5pump",
-      "mcap": 41291,
-      "peak_mcap": 41291,
+      "mcap": 41836,
+      "peak_mcap": 41836,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3349,10 +3533,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/6SkS7KNQVRU1BACkbEEeMPGNVUkNdvKuM1BgZpn5pump",
       "spark": [
-        38987,
-        38769,
-        38708,
-        38644,
         38628,
         38822,
         38820,
@@ -3372,15 +3552,19 @@
         40999,
         41238,
         41261,
-        41291
+        41291,
+        41213,
+        40950,
+        41473,
+        41836
       ]
     },
     {
       "ticker": "$100MIL",
       "name": "100 MIL MARKET CAP SPEEDRUN",
       "mint": "9r3ijYEyXhBY1NSBRnYcjUpVFQQ2BLhdjRo2aP6dpump",
-      "mcap": 40842,
-      "peak_mcap": 40844,
+      "mcap": 41373,
+      "peak_mcap": 41373,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3405,14 +3589,18 @@
         40543,
         40787,
         40844,
-        40842
+        40842,
+        40752,
+        40485,
+        41023,
+        41373
       ]
     },
     {
       "ticker": "$ARENA",
       "name": "Grand Arena",
       "mint": "Ddrae7atujkL2Np8myWgMF2LBU1E4ewRVQ3cwpAJpump",
-      "mcap": 40384,
+      "mcap": 40214,
       "peak_mcap": 62625,
       "status": "tracked",
       "outcome": null,
@@ -3427,10 +3615,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/Ddrae7atujkL2Np8myWgMF2LBU1E4ewRVQ3cwpAJpump",
       "spark": [
-        56307,
-        47278,
-        51901,
-        42111,
         42140,
         42480,
         39786,
@@ -3450,15 +3634,19 @@
         40952,
         40952,
         40966,
-        40384
+        40384,
+        40326,
+        40751,
+        39843,
+        40214
       ]
     },
     {
       "ticker": "$EPA",
       "name": "EXIT PARABOLIC",
       "mint": "AGTGHfAg3Py3xTRTYJkr9utnAiGCA4XfALN4G1Ezpump",
-      "mcap": 31882,
-      "peak_mcap": 31885,
+      "mcap": 32288,
+      "peak_mcap": 32288,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3481,14 +3669,18 @@
         31645,
         31831,
         31885,
-        31882
+        31882,
+        31808,
+        31608,
+        32028,
+        32288
       ]
     },
     {
       "ticker": "$SPX69",
       "name": "SPX69",
       "mint": "22YdUsszykBXqgb9CHHkng2aUGE3nssfa3RfZwX8pump",
-      "mcap": 30532,
+      "mcap": 30930,
       "peak_mcap": 40336,
       "status": "tracked",
       "outcome": null,
@@ -3501,10 +3693,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/22YdUsszykBXqgb9CHHkng2aUGE3nssfa3RfZwX8pump",
       "spark": [
-        28834,
-        28684,
-        28622,
-        28573,
         28556,
         28709,
         28716,
@@ -3524,59 +3712,18 @@
         30315,
         30487,
         30495,
-        30532
-      ]
-    },
-    {
-      "ticker": "$MEEP",
-      "name": "MEEP CAT",
-      "mint": "8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump",
-      "mcap": 30477,
-      "peak_mcap": 60672,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:kol",
-      "kol": [
-        "tsuyuto6154"
-      ],
-      "ai_agent": false,
-      "reply_count": 164,
-      "first_seen": "2026-06-27T09:27:11Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/8jvtfeVTJQsrQ3L4kjQmRcXJ1iSFQMmkjkCqPUe3pump",
-      "spark": [
-        51690,
-        48916,
-        55541,
-        45828,
-        44991,
-        38426,
-        32497,
-        32589,
-        30618,
-        32956,
-        33356,
-        32966,
-        31966,
-        30922,
-        31611,
-        30952,
-        29890,
-        30712,
-        30402,
-        30933,
-        31468,
-        31003,
-        31026,
-        30477
+        30532,
+        30473,
+        30285,
+        30665,
+        30930
       ]
     },
     {
       "ticker": "$PORTNOY",
       "name": "PORTNOY 2029",
       "mint": "8aas5iSr68LhJ2KKYWGLc9aE3CQpN4mPdcBudDYzpump",
-      "mcap": 26417,
+      "mcap": 26758,
       "peak_mcap": 107802,
       "status": "tracked",
       "outcome": null,
@@ -3589,10 +3736,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/8aas5iSr68LhJ2KKYWGLc9aE3CQpN4mPdcBudDYzpump",
       "spark": [
-        54738,
-        46726,
-        34410,
-        31210,
         22545,
         22667,
         22673,
@@ -3612,166 +3755,18 @@
         26227,
         26378,
         26387,
-        26417
-      ]
-    },
-    {
-      "ticker": "$APE",
-      "name": "just ape",
-      "mint": "EGUYJ5ZmMMbfkBjCPar2N4MKMp7MGqJmsKavuv8wpump",
-      "mcap": 22055,
-      "peak_mcap": 101418,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T21:13:51Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/EGUYJ5ZmMMbfkBjCPar2N4MKMp7MGqJmsKavuv8wpump",
-      "spark": [
-        97784,
-        101418,
-        37393,
-        21944,
-        22055
-      ]
-    },
-    {
-      "ticker": "$THREADGUY",
-      "name": "THREADGUY",
-      "mint": "FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump",
-      "mcap": 21909,
-      "peak_mcap": 35441,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-30T17:49:48Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump",
-      "spark": [
-        34845,
-        35441,
-        17294,
-        15353,
-        12005,
-        11945,
-        12044,
-        11915,
-        12287,
-        12224,
-        12360,
-        12331,
-        12321,
-        12324,
-        12291,
-        12217,
-        12270,
-        12376,
-        12450,
-        21960,
-        21909
-      ]
-    },
-    {
-      "ticker": "$FABLE",
-      "name": "Fablehooks",
-      "mint": "GG2doYrugPs4qrXXg3CNvjvatE3UJLHp2gFa7NYKpump",
-      "mcap": 21284,
-      "peak_mcap": 67278,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T22:03:43Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/GG2doYrugPs4qrXXg3CNvjvatE3UJLHp2gFa7NYKpump",
-      "spark": [
-        67278,
-        59456,
-        21284
-      ]
-    },
-    {
-      "ticker": "$BBF",
-      "name": "The Black Bull Fund",
-      "mint": "A37jiDn7ANorAGj6NVVdwUFmxDK2D6zLxMKFcRGSpump",
-      "mcap": 21130,
-      "peak_mcap": 177807,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-29T19:44:06Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/A37jiDn7ANorAGj6NVVdwUFmxDK2D6zLxMKFcRGSpump",
-      "spark": [
-        58728,
-        110877,
-        123523,
-        73597,
-        65666,
-        54213,
-        35514,
-        34080,
-        24639,
-        27350,
-        28706,
-        21758,
-        22105,
-        21774,
-        22400,
-        22918,
-        23809,
-        23633,
-        22666,
-        23570,
-        23483,
-        23863,
-        23537,
-        21130
-      ]
-    },
-    {
-      "ticker": "$LIVEWORK",
-      "name": "LIVEWORK",
-      "mint": "J6jpD3pN5bk5Mhktk8Taocobb9davFPBQbResWNCpump",
-      "mcap": 18098,
-      "peak_mcap": 105241,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-07-01T21:44:37Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/J6jpD3pN5bk5Mhktk8Taocobb9davFPBQbResWNCpump",
-      "spark": [
-        105241,
-        98392,
-        36826,
-        18098
+        26417,
+        26363,
+        26202,
+        26529,
+        26758
       ]
     },
     {
       "ticker": "$$TUPID",
       "name": "$tupid money",
       "mint": "3G8zFxHAnuWXiiC9MobE9EUUqV6m6MjL51YnN6tGpump",
-      "mcap": 13237,
+      "mcap": 13342,
       "peak_mcap": 16713,
       "status": "tracked",
       "outcome": null,
@@ -3786,10 +3781,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/3G8zFxHAnuWXiiC9MobE9EUUqV6m6MjL51YnN6tGpump",
       "spark": [
-        12160,
-        12334,
-        12382,
-        12383,
         11929,
         11895,
         11827,
@@ -3809,15 +3800,19 @@
         13792,
         13469,
         13477,
-        13237
+        13237,
+        13137,
+        13047,
+        13235,
+        13342
       ]
     },
     {
-      "ticker": "$LANA",
-      "name": "Lana",
-      "mint": "3LsmiJFquqMC4dnU66A2rds8cAtEMxErnUEuDA6apump",
-      "mcap": 10432,
-      "peak_mcap": 26674,
+      "ticker": "$THREADGUY",
+      "name": "THREADGUY",
+      "mint": "FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump",
+      "mcap": 12580,
+      "peak_mcap": 35441,
       "status": "tracked",
       "outcome": null,
       "color": "#48eca0",
@@ -3825,19 +3820,65 @@
       "kol": [],
       "ai_agent": false,
       "reply_count": 0,
-      "first_seen": "2026-07-01T22:15:05Z",
+      "first_seen": "2026-06-30T17:49:48Z",
       "died_at": null,
-      "link": "https://pump.fun/coin/3LsmiJFquqMC4dnU66A2rds8cAtEMxErnUEuDA6apump",
+      "link": "https://pump.fun/coin/FteqaE8uj9jMZv6HRcAgiFd2chtLkpDuDUnnjTjypump",
       "spark": [
-        26674,
-        10432
+        35441,
+        17294,
+        15353,
+        12005,
+        11945,
+        12044,
+        11915,
+        12287,
+        12224,
+        12360,
+        12331,
+        12321,
+        12324,
+        12291,
+        12217,
+        12270,
+        12376,
+        12450,
+        21960,
+        21909,
+        12844,
+        12766,
+        12472,
+        12580
+      ]
+    },
+    {
+      "ticker": "$AIRDROP",
+      "name": "Airdrop",
+      "mint": "FxjYbDhKitVVS5dAB9yRzkvGjgFCHZuSyHZqeM8ipump",
+      "mcap": 8927,
+      "peak_mcap": 8927,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-07-01T22:43:10Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/FxjYbDhKitVVS5dAB9yRzkvGjgFCHZuSyHZqeM8ipump",
+      "spark": [
+        8873,
+        8869,
+        8741,
+        8856,
+        8927
       ]
     },
     {
       "ticker": "$RO",
       "name": "Ro The Robber",
       "mint": "8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
-      "mcap": 8194,
+      "mcap": 8468,
       "peak_mcap": 14018,
       "status": "tracked",
       "outcome": null,
@@ -3850,10 +3891,6 @@
       "died_at": null,
       "link": "https://pump.fun/coin/8krsxHiFmnY5BNMDTFA7EuhsXk8fq94ntzaB7Hhqpump",
       "spark": [
-        9400,
-        9442,
-        9457,
-        8199,
         8297,
         8536,
         9561,
@@ -3873,7 +3910,76 @@
         8308,
         8357,
         8193,
-        8194
+        8194,
+        8182,
+        8263,
+        8398,
+        8468
+      ]
+    },
+    {
+      "ticker": "$URL",
+      "name": "u r liquidated",
+      "mint": "2QE381QgxWF76zPGTdokzPjkcQ5FaFuW1gXfTK7Spump",
+      "mcap": 6980,
+      "peak_mcap": 6980,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:kol",
+      "kol": [
+        "xvwmuca"
+      ],
+      "ai_agent": true,
+      "reply_count": 110,
+      "first_seen": "2026-07-02T09:27:20Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/2QE381QgxWF76zPGTdokzPjkcQ5FaFuW1gXfTK7Spump",
+      "spark": [
+        6918,
+        6923,
+        6980
+      ]
+    },
+    {
+      "ticker": "$BITBOY",
+      "name": "The White Bull",
+      "mint": "V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump",
+      "mcap": 166138,
+      "peak_mcap": 1784452,
+      "status": "dead",
+      "outcome": "died",
+      "color": "#5a6472",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-06-30T20:56:36Z",
+      "died_at": "2026-07-02T09:27:38Z",
+      "link": "https://pump.fun/coin/V1qBxZ72Ae5eDCP3MVdgW8S8RBUtcJfk6pzdimspump",
+      "spark": [
+        456091,
+        488979,
+        1784452,
+        1383436,
+        882688,
+        811453,
+        838652,
+        760394,
+        385543,
+        482301,
+        400564,
+        338139,
+        347737,
+        334919,
+        361620,
+        367222,
+        347170,
+        312804,
+        318231,
+        315199,
+        314914,
+        298558
       ]
     },
     {
@@ -3899,35 +4005,14 @@
         57201,
         43880
       ]
-    },
-    {
-      "ticker": "$TOGI",
-      "name": "The Gambling Bull",
-      "mint": "5CrjzbLgpE7vVR35vBFSS5AGytCvTcbaoYyRXyWLpump",
-      "mcap": 32422,
-      "peak_mcap": 407671,
-      "status": "dead",
-      "outcome": "died",
-      "color": "#5a6472",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-06-28T18:18:06Z",
-      "died_at": "2026-06-28T21:35:20Z",
-      "link": "https://pump.fun/coin/5CrjzbLgpE7vVR35vBFSS5AGytCvTcbaoYyRXyWLpump",
-      "spark": [
-        407671,
-        337019
-      ]
     }
   ],
   "base_rate": {
-    "mints_seen": 13089,
-    "gate_passed": 166,
-    "died": 108,
-    "graduated": 124,
-    "pass_rate_pct": 1.27,
+    "mints_seen": 14294,
+    "gate_passed": 178,
+    "died": 120,
+    "graduated": 134,
+    "pass_rate_pct": 1.25,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }
 }

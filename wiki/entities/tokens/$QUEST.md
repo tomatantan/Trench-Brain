@@ -4,13 +4,13 @@ kind: token
 title: $QUEST
 updated: 2026-06-22
 tags: [trench, entity, token]
-mentions: 4
+mentions: 6
 accounts: 2
 ---
 
 # $QUEST
 
-> 自動生成(brain/build_entities.py)。言及 4件 / 2アカ。
+> 自動生成(brain/build_entities.py)。言及 6件 / 2アカ。
 事実=この自動集約 / 判断=下の合成メモ＋関連する concept ページ。
 
 ## 言及アカウント
@@ -25,6 +25,8 @@ accounts: 2
 | 389 | [[@PumpfunEco]] | Ansem (@blknoiz06) makes first purchases on his @Pumpfun wallet 🔥  He bought $PUMPCA | [[pumpfuneco__2069407494300950984]] |
 | 108 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[pumpfuneco__2069416873025065167]] |
 | 70 | [[@PumpfunEco]] | This trader refused to sell early & now their $922 buy on $QUEST is worth $12,730 | [[pumpfuneco__2069486811043238005]] |
+| 63 | [[@PumpfunEco]] | Top traded pump fun coins by volume in the last 24 hours 👀  $Fartcoin $7.66M $QUEST  | [[PumpfunEco__2069416873025065167]] |
+| 51 | [[@PumpfunEco]] | This trader refused to sell early & now their $922 buy on $QUEST is worth $12,730 | [[PumpfunEco__2069486811043238005]] |
 | 21 | [[@badattrading_]] | $QUEST (CA Et3nNiuGyhQxwVW3W8pLTvsMXcSKiyogHrNjdr4wpoke) doesn't have snipers, insid | [[badattrading___2069312569395863714]] |
 
 <!-- synthesis:start -->

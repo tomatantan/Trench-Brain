@@ -4,15 +4,15 @@ kind: player
 title: @MEXC
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 95
+posts: 115
 ---
 
 # @MEXC
 
-> 自動生成。信号投稿 95件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 115件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
-[[$MU]](9) [[$USDT]](7) [[$SPCX]](6) [[$GOOGL]](2) [[$NVDA]](2) [[$SPACEX]](2) [[$SNDK]](2) [[$XAUT]](1) [[$AMD]](1) [[$ARM]](1)
+[[$USDT]](10) [[$MU]](9) [[$SPCX]](7) [[$GOOGL]](2) [[$NVDA]](2) [[$SPACEX]](2) [[$SNDK]](2) [[$META]](1) [[$XAUT]](1) [[$ELSA]](1)
 
 ## 高エンゲージ投稿
 | likes | tickers | 抜粋 | source |
@@ -23,10 +23,10 @@ posts: 95
 | 388 | [[$USDT]] | The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d | [[mexc__2069314511450919395]] |
 | 377 |  | 🇪🇸 Spain vs 🇸🇦 Saudi Arabia kicks off in hours.  Right now, what's on your screen? ⚽ | [[MEXC__2068689120432714005]] |
 | 320 |  | Everyone’s first stock has a story.   Vugar’s? A Happy Meal his dad believed in. @us | [[mexc__2069405108463632517]] |
+| 255 |  | July 100000x | [[mexc__2072017324652003451]] |
 | 222 |  | Think you've got an eye for opportunities? 👀    First 10 correct answers earn a Spot | [[MEXC__2068242449445830785]] |
 | 215 | [[$USDT]] | New look. Same infinite opportunities. ♾️  What do you think of MEXC's brand upgrade | [[mexc__2069692004196597941]] |
 | 176 | [[$SPCX]] [[$USDT]] | 🚀 SpaceX fever is real.  $SPCX Futures daily trading volume on MEXC just topped 800M | [[MEXC__2067963107084046668]] |
-| 171 | [[$USDT]] | The game lasts 90 minutes. The fit lasts forever. ⚽♾️  Show us your ultimate match-d | [[MEXC__2069314511450919395]] |
 
 <!-- synthesis:start -->
 ## 合成メモ（synthesis / エージェント記述）

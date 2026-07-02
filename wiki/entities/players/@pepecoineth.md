@@ -4,12 +4,12 @@ kind: player
 title: @pepecoineth
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 12
+posts: 13
 ---
 
 # @pepecoineth
 
-> 自動生成。信号投稿 12件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 13件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 [[$PEPE]](3)

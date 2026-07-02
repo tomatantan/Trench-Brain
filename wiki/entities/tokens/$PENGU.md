@@ -17,7 +17,7 @@ accounts: 3
 [[@DefiIgnas]] [[@coingecko]] [[@theunipcs]]
 
 ## 共起トークン
-[[$BTC]] [[$FARTCOIN]] [[$PEPE]] [[$USELESS]] [[$WIF]] [[$DOGE]] [[$SHIB]] [[$SOL]]
+[[$FARTCOIN]] [[$PEPE]] [[$USELESS]] [[$WIF]] [[$BTC]] [[$DOGE]] [[$SHIB]] [[$SOL]]
 
 ## 高エンゲージ言及
 | likes | account | 抜粋 | source |

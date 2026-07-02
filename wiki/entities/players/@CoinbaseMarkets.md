@@ -4,12 +4,12 @@ kind: player
 title: @CoinbaseMarkets
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 61
+posts: 66
 ---
 
 # @CoinbaseMarkets
 
-> 自動生成。信号投稿 61件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 66件。watchlist: [[watchlist]]。
 
 ## よく言及するトークン
 —

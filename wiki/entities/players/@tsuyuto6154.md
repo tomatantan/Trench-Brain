@@ -4,12 +4,12 @@ kind: player
 title: @tsuyuto6154
 updated: 2026-06-22
 tags: [trench, entity, player]
-posts: 24
+posts: 26
 ---
 
 # @tsuyuto6154
 
-> 自動生成。信号投稿 24件。watchlist: [[watchlist]]。
+> 自動生成。信号投稿 26件。watchlist: [[watchlist]]。
 
 ## call track-record（[[manipulation-playbook]]・[[KOL track-record]]）
 CA言及 9件 / 現outcome評価 9件中 **死4（44%）** ＝平均的。

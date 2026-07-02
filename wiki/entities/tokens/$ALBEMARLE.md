@@ -62,6 +62,8 @@ tags: [token, IP/brand, traction, pump.fun, dead-denominator, auto-track, gradua
 **接続概念**: [[launchpad-economics]]（graduated × traction0 × website 無し）/ [[rug-anatomy]]（IP/brand 即死パターン・insider pump 疑い）/ [[reflexivity]]（T3点火がなければ循環は起動しない）
 
 **更新（10窓目・2026-07-02）**: queue基準で $1,932,110 → $874,058（-55%）。8-9窓目観測($799k→$750k)後、未記録の中間反発で一時$1.93M台まで戻したが（synthesis未記録の窓・peak_mcap $1,953,524は依然更新せず僅差で未達）、その後 $874,058 まで再下落。T3ゼロ全10窓——乱高下はしているが有機的需要の点火は依然なし。エバポレーション完結の途中で振動が入っている状態と解釈。
+
+**更新（11窓目・2026-07-02T09:27Z）**: queue基準 $684,562 → $1,016,487（+48%）。前窓 $874k からさらに下落した後に中間反発し $1.016M 到達。T3ゼロ・reply=0継続不変。反発は deployer/whale 資金による一時的 pump と見られる——traction 転化のエビデンスなし。乱高下継続でエバポレーション判断は保留。
 <!-- synthesis:end -->
 
 ## 関連
