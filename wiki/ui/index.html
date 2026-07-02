@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trench Brain</title>
-  <link rel="icon" href="./assets/trench-brain-logo.png">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./assets/trench-brain-logo.png?v=logo-tdygfjh2">
+  <link rel="stylesheet" href="./styles.css?v=ask-api-only-1">
 </head>
 <body>
   <section class="login-gate" id="login-gate" aria-label="Trench Brain login">
@@ -21,6 +21,7 @@
       </div>
     </div>
     <div class="login-copy">
+      <img class="login-brand-logo" src="./assets/trench-brain-logo.png?v=logo-tdygfjh2" alt="Trench Brain">
       <p>MEMETIC INTELLIGENCE</p>
       <h1>Trench Brain</h1>
     </div>
@@ -40,7 +41,7 @@
 
         <header class="terminal-header">
           <div class="brain-logo" aria-hidden="true">
-            <img src="./assets/trench-brain-logo.png" alt="">
+            <img src="./assets/trench-brain-logo.png?v=logo-tdygfjh2" alt="">
           </div>
           <section class="hotword-panel">
             <div class="panel-title">
@@ -63,7 +64,15 @@
           </div>
         </header>
 
-        <section class="terminal-panel">
+        <nav class="tools-tabs" aria-label="Trench Brain Tools">
+          <span class="tools-label">TRENCH BRAIN TOOLS</span>
+          <button class="tool-tab active" type="button" data-tool="terminal">LLM TERMINAL</button>
+          <button class="tool-tab" type="button" data-tool="brain-call">BRAIN CALLL</button>
+          <button class="tool-tab" type="button" data-tool="wiki-search">WIKI SEARCH</button>
+        </nav>
+
+        <section class="tool-panel terminal-tool active" data-tool-panel="terminal">
+          <section class="terminal-panel">
           <div class="panel-title">
             <span>TERMINAL</span>
             <button id="clear-chat" type="button">RESET</button>
@@ -89,6 +98,69 @@
               <button type="submit">TRANSMIT</button>
             </div>
           </form>
+          </section>
+        </section>
+
+        <section class="tool-panel brain-call-tool" data-tool-panel="brain-call">
+          <div class="call-board">
+            <aside class="call-side">
+              <div class="call-title">
+                <span>BRAIN CALLL</span>
+                <small>meme launch call monitor</small>
+              </div>
+              <form class="scan-box" id="scan-form">
+                <label for="scan-token">SCAN / APE-OR-AVOID</label>
+                <div>
+                  <input id="scan-token" type="text" placeholder="$ticker or CA">
+                  <button type="submit">SCAN</button>
+                </div>
+                <small id="scan-status">backend: checking</small>
+              </form>
+              <div class="call-type-switch" role="group" aria-label="call type filter">
+                <button class="call-filter active" type="button" data-call-filter="ALL">ALL CALLS</button>
+                <button class="call-filter" type="button" data-call-filter="SMART DETECT">SMART DETECT</button>
+                <button class="call-filter" type="button" data-call-filter="HIGH TIRE DETECT">HIGH TIRE DETECT</button>
+              </div>
+              <div class="call-stats">
+                <span><b id="call-total">--</b> calls</span>
+                <span><b id="smart-total">--</b> smart</span>
+                <span><b id="tire-total">--</b> high tire</span>
+              </div>
+            </aside>
+
+            <section class="call-main">
+              <article class="scan-result" id="scan-result">
+                <span class="call-badge smart">SCAN</span>
+                <h2>Ready</h2>
+                <p>Enter a ticker or CA. If backend is live, `/api/score` will return ape-or-avoid intelligence.</p>
+              </article>
+              <div class="call-feed" id="call-feed"></div>
+              <article class="call-detail" id="call-detail">
+                <span class="call-badge smart">SMART DETECT</span>
+                <h2>Waiting for launch feed</h2>
+                <p>Brain CALLL will classify observed launch candidates from Trench Brain data.</p>
+              </article>
+            </section>
+          </div>
+        </section>
+
+        <section class="tool-panel wiki-search-tool" data-tool-panel="wiki-search">
+          <div class="wiki-search-board">
+            <form class="wiki-search-box" id="wiki-search-form">
+              <label for="wiki-query">SEARCH LLM WIKI</label>
+              <div>
+                <input id="wiki-query" type="text" placeholder="narrative / ticker / KOL / concept">
+                <button type="submit">SEARCH</button>
+              </div>
+              <small id="wiki-search-status">truth source: GET /api/index / search endpoint</small>
+            </form>
+            <div class="wiki-results" id="wiki-results">
+              <article>
+                <b>WIKI SEARCH</b>
+                <p>Search concepts, sources, and pages from Trench-Brain backend. Static UI fallback remains available when backend is offline.</p>
+              </article>
+            </div>
+          </div>
         </section>
 
         <div class="hidden-support" aria-hidden="true">
@@ -106,6 +178,15 @@
     </section>
   </main>
 
-  <script src="./app.js?v=20260627-data-connection"></script>
+  <script src="./app.js?v=ask-api-only-1"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+

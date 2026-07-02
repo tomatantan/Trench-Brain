@@ -1,5 +1,7 @@
 ﻿const DATA_URLS = ["../ui-data.json", "https://raw.githubusercontent.com/tomatantan/Trench-Brain/main/wiki/ui-data.json"];
 
+const API_BASE = "/api";
+
 const fallbackSignals = [
   {
     word: "PERSIAN GULF",
@@ -33,10 +35,140 @@ let state = {
   baseRate: null,
   selected: fallbackSignals[0],
   category: "ALL",
+  activeTool: "terminal",
+  callFilter: "ALL",
+  selectedCall: null,
+  backendLive: false,
   queue: JSON.parse(localStorage.getItem("trenchBrainLearningQueue") || "[]")
 };
 
 const $ = (selector) => document.querySelector(selector);
+
+async function apiGet(path, params = {}, options = {}) {
+  const url = new URL(`${API_BASE}${path}`, window.location.origin);
+  Object.entries(params).forEach(([key, value]) => {
+    if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
+  });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), options.timeoutMs || 2600);
+  try {
+    const response = await fetch(url, { cache: "no-store", signal: controller.signal });
+    if (response.status === 429) throw new Error("rate limited / 429");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const json = await response.json();
+    if (json && json.ok === false) throw new Error(json.error || "backend ok:false");
+    return json;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function apiErrorMessage(status, fallback = "backend unavailable") {
+  if (status === 429 || String(fallback).includes("429")) return "連投しすぎ。少し待ってから再送してください。";
+  if (status === 504 || String(fallback).includes("504")) return "時間内に返せず。問いを短くして再送してください。";
+  if (status >= 500 || String(fallback).includes("500")) return "backend側で空応答または処理失敗。少し待って再送してください。";
+  return fallback || "backend unavailable";
+}
+
+function renderAskMarkdown(answer) {
+  const safe = escapeHtml(answer || "")
+    .replace(/\[\[([^\]]+)\]\]/g, '<span class="cite">[[$1]]</span>')
+    .replace(/\n/g, "<br>");
+  return `<div class="brain-answer">${safe || "No answer returned from /api/ask."}</div>`;
+}
+
+async function apiAsk(question) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 240000);
+  try {
+    const response = await fetch(new URL(`${API_BASE}/ask`, window.location.origin), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question }),
+      cache: "no-store",
+      signal: controller.signal
+    });
+    let payload = {};
+    try {
+      payload = await response.json();
+    } catch (_) {
+      payload = {};
+    }
+    if (!response.ok || payload.ok === false) {
+      const err = new Error(apiErrorMessage(response.status, payload.error || `HTTP ${response.status}`));
+      err.status = response.status;
+      throw err;
+    }
+    return payload.answer || "";
+  } catch (error) {
+    if (error.name === "AbortError") {
+      const err = new Error(apiErrorMessage(504));
+      err.status = 504;
+      throw err;
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function listFromPayload(payload, keys) {
+  for (const key of keys) {
+    const value = payload?.[key];
+    if (Array.isArray(value)) return value;
+    if (value && Array.isArray(value.items)) return value.items;
+    if (value && Array.isArray(value.results)) return value.results;
+  }
+  if (Array.isArray(payload)) return payload;
+  if (Array.isArray(payload?.data)) return payload.data;
+  if (Array.isArray(payload?.items)) return payload.items;
+  if (Array.isArray(payload?.results)) return payload.results;
+  return [];
+}
+
+function normalizeFeedSignal(item, index) {
+  return normalizeSignal({
+    title: item.word || item.title || item.token || item.ticker || item.name || `SIGNAL-${index + 1}`,
+    type: item.type || item.category || item.kind || "WORLD",
+    category: item.category || item.type,
+    mention_accounts: item.mention_accounts || item.accounts || item.accounts_n || item.count,
+    observed_at: item.observed_at || item.updated_at || item.time,
+    area: item.area || item.region,
+    summary: item.summary || item.desc || item.description || item.why,
+    why: item.why || item.reason || item.summary,
+    confidence: item.confidence,
+    events: item.events || item.observed_events || [],
+    posts: item.posts || item.top || item.tweets || [],
+    history: item.history || item.patterns || [],
+    trace: item.trace || {
+      why: item.why || item.reason,
+      top: item.top || item.posts || [],
+      causal: item.causal || item.association_path || [],
+      confidence: item.confidence
+    }
+  }, index);
+}
+
+function normalizeFeedLaunch(item) {
+  return {
+    ticker: item.ticker || item.token || item.symbol || item.title || item.name || "UNKNOWN",
+    name: item.name || item.title || item.token || item.ticker || "UNKNOWN",
+    mint: item.mint || item.ca || item.address || item.contract || "",
+    mcap: item.mcap || item.market_cap || item.marketCap || item.liquidity || 0,
+    peak_mcap: item.peak_mcap || item.peak_market_cap || item.ath_mcap || item.mcap || 0,
+    status: item.status || item.verdict || item.call || "tracked",
+    outcome: item.outcome || item.risk || null,
+    color: item.color || "#48eca0",
+    gate: item.gate || item.reason || item.summary || "",
+    kol: item.kol || item.kols || item.accounts || [],
+    ai_agent: Boolean(item.ai_agent),
+    reply_count: item.reply_count || item.replies || item.mentions || 0,
+    first_seen: item.first_seen || item.created_at || item.observed_at || item.updated_at || "",
+    died_at: item.died_at || null,
+    link: item.link || item.url || "",
+    spark: item.spark || item.series || []
+  };
+}
 
 function inferType(signal) {
   const accounts = (signal.trace?.top || []).map((post) => String(post.account || "").toLowerCase());
@@ -93,6 +225,7 @@ function renderAll() {
   renderSignals();
   renderLaunches();
   renderIntel();
+  renderBrainCalls();
 }
 
 function renderMetrics() {
@@ -179,6 +312,238 @@ function renderLaunches() {
   `).join("") : `<p class="muted">Launch lifecycle data is not available yet.</p>`;
 }
 
+function callType(launch) {
+  const mcap = Number(launch.mcap || 0);
+  const peak = Number(launch.peak_mcap || 0);
+  const replies = Number(launch.reply_count || 0);
+  const kolCount = Array.isArray(launch.kol) ? launch.kol.length : 0;
+  if (mcap >= 1_000_000 || peak >= 2_500_000 || replies >= 1200 || kolCount >= 2) return "HIGH TIRE DETECT";
+  return "SMART DETECT";
+}
+
+function callScore(launch) {
+  const mcap = Number(launch.mcap || 0);
+  const peak = Number(launch.peak_mcap || 0);
+  const replies = Number(launch.reply_count || 0);
+  const kolCount = Array.isArray(launch.kol) ? launch.kol.length : 0;
+  return Math.round(
+    Math.min(42, Math.log10(Math.max(mcap, 1)) * 4)
+    + Math.min(26, Math.log10(Math.max(peak, 1)) * 3)
+    + Math.min(22, replies / 90)
+    + Math.min(10, kolCount * 5)
+  );
+}
+
+function normalizeCalls() {
+  return (state.launches || []).map((launch, index) => ({
+    id: launch.mint || launch.link || `${launch.ticker || "CALL"}-${index}`,
+    type: callType(launch),
+    score: callScore(launch),
+    ...launch
+  })).sort((a, b) => b.score - a.score);
+}
+
+function renderBrainCalls() {
+  const feed = $("#call-feed");
+  if (!feed) return;
+  const calls = normalizeCalls();
+  if (!state.selectedCall && calls.length) state.selectedCall = calls[0].id;
+  const visible = state.callFilter === "ALL" ? calls : calls.filter((call) => call.type === state.callFilter);
+  const selected = calls.find((call) => call.id === state.selectedCall) || visible[0] || calls[0] || null;
+  if (selected) state.selectedCall = selected.id;
+
+  $("#call-total").textContent = calls.length;
+  $("#smart-total").textContent = calls.filter((call) => call.type === "SMART DETECT").length;
+  $("#tire-total").textContent = calls.filter((call) => call.type === "HIGH TIRE DETECT").length;
+
+  feed.innerHTML = visible.length ? visible.map((call) => {
+    const isHigh = call.type === "HIGH TIRE DETECT";
+    return `
+      <button class="call-card ${isHigh ? "high" : "smart"} ${call.id === state.selectedCall ? "active" : ""}" type="button" data-call-id="${escapeHtml(call.id)}">
+        <span class="call-badge ${isHigh ? "high" : "smart"}">${escapeHtml(call.type)}</span>
+        <h3>${escapeHtml(call.ticker || call.name || "UNKNOWN")}</h3>
+        <p>${escapeHtml(call.name || call.status || "observed launch candidate")}</p>
+        <div class="call-meta">
+          <span>score ${call.score}</span>
+          <span>${money(call.mcap)}</span>
+          <span>${escapeHtml(call.gate || "gate n/a")}</span>
+        </div>
+      </button>
+    `;
+  }).join("") : `<p class="muted">No calls in this detect lane.</p>`;
+
+  document.querySelectorAll(".call-card").forEach((button) => {
+    button.onclick = () => {
+      state.selectedCall = button.dataset.callId;
+      renderBrainCalls();
+    };
+  });
+
+  renderCallDetail(selected);
+}
+
+function renderCallDetail(call) {
+  const detail = $("#call-detail");
+  if (!detail) return;
+  if (!call) {
+    detail.innerHTML = `
+      <span class="call-badge smart">WAITING</span>
+      <h2>No call feed</h2>
+      <p>Brain CALLL is waiting for <span class="cite">[[ui-data.json live[]]]</span>.</p>
+    `;
+    return;
+  }
+  const isHigh = call.type === "HIGH TIRE DETECT";
+  const spark = Array.isArray(call.spark) && call.spark.length
+    ? `${money(call.spark[0])} → ${money(call.spark[call.spark.length - 1])}`
+    : "not recorded";
+  detail.innerHTML = `
+    <span class="call-badge ${isHigh ? "high" : "smart"}">${escapeHtml(call.type)}</span>
+    <h2>${escapeHtml(call.ticker || call.name || "UNKNOWN")}</h2>
+    <p>${escapeHtml(call.name || "observed launch candidate")}</p>
+    <p>CALL reason: ${escapeHtml(call.gate || "launch feed observed; detailed reason not recorded yet.")}</p>
+    <div class="call-detail-grid">
+      <span>mcap<b>${money(call.mcap)}</b></span>
+      <span>peak<b>${money(call.peak_mcap)}</b></span>
+      <span>reply count<b>${Number(call.reply_count || 0).toLocaleString()}</b></span>
+      <span>score<b>${call.score}</b></span>
+      <span>KOL<b>${escapeHtml((call.kol || []).join(", ") || "not recorded")}</b></span>
+      <span>first seen<b>${escapeHtml(call.first_seen || "not recorded")}</b></span>
+      <span>spark<b>${escapeHtml(spark)}</b></span>
+      <span>CA<b>${escapeHtml(call.mint || "not recorded")}</b></span>
+    </div>
+    <p><span class="cite">[[${escapeHtml(call.link || "ui-data.json live[]")}]]</span></p>
+  `;
+}
+
+function verdictClass(value) {
+  const text = String(value || "").toLowerCase();
+  if (text.includes("ape") || text.includes("buy") || text.includes("call")) return "ape";
+  if (text.includes("avoid") || text.includes("skip") || text.includes("danger")) return "avoid";
+  return "watch";
+}
+
+function renderScoreResult(payload, token) {
+  const box = $("#scan-result");
+  if (!box) return;
+  const data = (payload?.score && typeof payload.score === "object")
+    ? payload.score
+    : (payload?.result && typeof payload.result === "object")
+      ? payload.result
+      : (payload?.data && typeof payload.data === "object")
+        ? payload.data
+        : (payload || {});
+  const verdict = data.verdict || data.call || data.label || data.decision || data.status || "WATCH";
+  const score = data.score ?? data.total_score ?? data.confidence ?? data.rating ?? "--";
+  const confidence = data.confidence ?? data.probability ?? data.conf ?? null;
+  const reason = data.reason || data.why || data.summary || data.explanation || "Backend returned a score response.";
+  const risks = listFromPayload(data, ["risks", "risk", "warnings"]).slice(0, 4);
+  const evidence = listFromPayload(data, ["evidence", "sources", "links", "wiki"]).slice(0, 5);
+  const klass = verdictClass(verdict);
+  box.className = `scan-result ${klass}`;
+  box.innerHTML = `
+    <span class="call-badge ${klass === "avoid" ? "high" : "smart"}">SCAN</span>
+    <h2>${escapeHtml(String(verdict).toUpperCase())}</h2>
+    <p><b>${escapeHtml(token)}</b> / score: ${escapeHtml(score)}${confidence !== null ? ` / confidence: ${escapeHtml(confidence)}` : ""}</p>
+    <p>${escapeHtml(reason)}</p>
+    ${risks.length ? `<p class="unknown">Risk:</p><ul>${risks.map((risk) => `<li>${escapeHtml(typeof risk === "string" ? risk : JSON.stringify(risk))}</li>`).join("")}</ul>` : ""}
+    ${evidence.length ? `<p>Evidence:</p><ul>${evidence.map((item) => `<li><span class="cite">[[${escapeHtml(typeof item === "string" ? item : (item.path || item.title || item.url || JSON.stringify(item)))}]]</span></li>`).join("")}</ul>` : ""}
+  `;
+}
+
+function renderScoreFallback(token) {
+  const launch = findLaunchByMint(token) || state.launches.find((item) => {
+    const needle = token.toLowerCase();
+    return String(item.ticker || "").toLowerCase() === needle
+      || String(item.name || "").toLowerCase() === needle
+      || String(item.ticker || "").toLowerCase() === `$${needle.replace(/^\$/, "")}`;
+  });
+  if (!launch) {
+    renderScoreResult({
+      verdict: "UNRECORDED",
+      score: "--",
+      reason: "Backend /api/score is offline and fallback live[] has no matching token/CA. No inferred call is made.",
+      risks: ["No backend score", "No local launch match"]
+    }, token);
+    return;
+  }
+  renderScoreResult({
+    verdict: callType(launch) === "HIGH TIRE DETECT" ? "WATCH" : "SMART WATCH",
+    score: callScore(launch),
+    confidence: "fallback",
+    reason: launch.gate || "Fallback result from local ui-data.json live[].",
+    evidence: [launch.link || "ui-data.json live[]"]
+  }, token);
+}
+
+async function runScan(token) {
+  const value = String(token || "").trim();
+  if (!value) return;
+  $("#scan-status").textContent = "backend: scoring...";
+  try {
+    const result = await apiGet("/score", { token: value });
+    state.backendLive = true;
+    $("#scan-status").textContent = "backend: /api/score live";
+    renderScoreResult(result, value);
+  } catch (error) {
+    state.backendLive = false;
+    $("#scan-status").textContent = `backend: offline / fallback (${error.message || "unavailable"})`;
+    renderScoreFallback(value);
+  }
+}
+
+async function answerFromBackend(question) {
+  try {
+    const answerText = await apiAsk(question);
+    state.backendLive = true;
+    return renderAskMarkdown(answerText);
+  } catch (error) {
+    state.backendLive = false;
+    const message = apiErrorMessage(error.status, error.message || "backend unavailable");
+    return `<p class="unknown">ASK FAILED: ${escapeHtml(message)}</p>`;
+  }
+}
+
+function renderWikiResults(payload, query) {
+  const box = $("#wiki-results");
+  const items = listFromPayload(payload, ["results", "items", "pages", "matches"]).slice(0, 20);
+  if (!items.length) {
+    box.innerHTML = `<article><b>NO MATCH</b><p class="unknown">No backend wiki result for "${escapeHtml(query)}".</p></article>`;
+    return;
+  }
+  box.innerHTML = items.map((item) => {
+    const title = typeof item === "string" ? item : (item.title || item.path || item.name || "Untitled");
+    const path = typeof item === "string" ? item : (item.path || item.url || item.wiki || title);
+    const text = typeof item === "string" ? "" : (item.snippet || item.summary || item.text || item.desc || "");
+    return `
+      <article>
+        <b>${escapeHtml(title)}</b>
+        <p>${escapeHtml(text || path)}</p>
+        <p><span class="cite">[[${escapeHtml(path)}]]</span></p>
+      </article>
+    `;
+  }).join("");
+}
+
+async function runWikiSearch(query) {
+  const value = String(query || "").trim();
+  if (!value) return;
+  $("#wiki-search-status").textContent = "backend: searching...";
+  try {
+    const payload = await apiGet("/search", { q: value }, { timeoutMs: 30000 });
+    $("#wiki-search-status").textContent = "backend: /api/search live";
+    renderWikiResults(payload, value);
+  } catch (error) {
+    $("#wiki-search-status").textContent = `backend: search offline (${error.message || "unavailable"})`;
+    $("#wiki-results").innerHTML = `
+      <article>
+        <b>SEARCH OFFLINE</b>
+        <p class="unknown">Backend /api/search is not available. Start <span class="cite">[[brain/ui_server.py]]</span> or pull latest main.</p>
+      </article>
+    `;
+  }
+}
+
 function renderIntel() {
   const signal = state.selected;
   if (!signal) return;
@@ -209,40 +574,165 @@ function rows(items, empty) {
   return items.slice(0, 5).map((row) => `<small>繝ｻ${row.map((cell) => escapeHtml(String(cell || ""))).join(" / ")}</small>`).join("");
 }
 
+function flattenSignal(signal) {
+  return [
+    signal.word,
+    signal.type,
+    signal.area,
+    signal.summary,
+    signal.why,
+    ...(signal.events || []).flat(),
+    ...(signal.posts || []).flat(),
+    ...(signal.history || []).flat()
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function queryTerms(question) {
+  const lowered = question.toLowerCase();
+  const tickers = question.match(/\$[a-z0-9_]+/gi) || [];
+  const commands = new Set([
+    "check", "wiki", "hot", "word", "meme", "trend", "source", "origin", "start",
+    "why", "kol", "figure", "post", "posts", "what", "this", "that", "from",
+    "about", "tell", "show", "今", "これ", "この", "起点", "理由", "関連", "発言"
+  ]);
+  const words = lowered
+    .replace(/[^\p{L}\p{N}$]+/gu, " ")
+    .split(/\s+/)
+    .filter((term) => term.length >= 2 && !commands.has(term));
+  return [...new Set([...tickers.map((term) => term.toLowerCase()), ...words])];
+}
+
+function extractMint(question) {
+  const commandMint = question.match(/^\/check\s+([^\s]+)/i)?.[1];
+  if (commandMint) return commandMint.trim();
+  return question.match(/[1-9A-HJ-NP-Za-km-z]{32,48}/)?.[0] || null;
+}
+
+function findLaunchByMint(mint) {
+  if (!mint) return null;
+  const needle = mint.toLowerCase();
+  return state.launches.find((launch) => {
+    return String(launch.mint || "").toLowerCase() === needle
+      || String(launch.link || "").toLowerCase().includes(needle);
+  }) || null;
+}
+
+function scoreSignal(signal, terms) {
+  const haystack = flattenSignal(signal);
+  let score = 0;
+  for (const term of terms) {
+    if (!term) continue;
+    if (String(signal.word || "").toLowerCase() === term) score += 80;
+    if (String(signal.word || "").toLowerCase().includes(term)) score += 35;
+    if (haystack.includes(term)) score += 10;
+  }
+  return score + Math.min(Number(signal.accounts || 0), 20) / 10;
+}
+
+function findSignals(question) {
+  const terms = queryTerms(question);
+  if (!terms.length) return [];
+  return [...state.signals]
+    .map((signal) => ({ signal, score: scoreSignal(signal, terms) }))
+    .filter((item) => item.score >= 10)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5)
+    .map((item) => item.signal);
+}
+
+function launchAnswer(question) {
+  const mint = extractMint(question);
+  if (!mint) return null;
+  const launch = findLaunchByMint(mint);
+  if (!launch) {
+    return `
+      <p><b>CA check</b>: ${escapeHtml(mint)}</p>
+      <p class="unknown">未収録。現在の <span class="cite">[[ui-data.json live[] / signals[]]]</span> には、このCAに一致するtoken recordがありません。</p>
+      <p>別のHOT WORDへ推測で紐づけません。CA一致がない場合は、根拠なしの関連付けを行いません。</p>
+    `;
+  }
+  const spark = Array.isArray(launch.spark) && launch.spark.length
+    ? `${money(launch.spark[0])} → ${money(launch.spark[launch.spark.length - 1])}`
+    : "not recorded";
+  return `
+    <p><b>CA check</b>: ${escapeHtml(mint)}</p>
+    <ul>
+      <li>token: <b>${escapeHtml(launch.ticker || launch.name || "UNKNOWN")}</b></li>
+      <li>name: ${escapeHtml(launch.name || "not recorded")}</li>
+      <li>mcap / peak: ${money(launch.mcap)} / ${money(launch.peak_mcap)}</li>
+      <li>gate: ${escapeHtml(launch.gate || "not recorded")}</li>
+      <li>KOL: ${escapeHtml((launch.kol || []).join(", ") || "not recorded")}</li>
+      <li>first seen: ${escapeHtml(launch.first_seen || "not recorded")}</li>
+      <li>spark: ${escapeHtml(spark)}</li>
+    </ul>
+    <p><span class="cite">[[${escapeHtml(launch.link || "ui-data.json live[]")}]]</span></p>
+  `;
+}
+
+function signalListAnswer(signals, label) {
+  if (!signals.length) {
+    return `
+      <p class="unknown">未収録。現在のUI接続データには、この質問に一致する観測事実がありません。</p>
+      <p>根拠なしに現在選択中のHOT WORDへ接続しません。Wiki側の次回生成、またはsource追加が必要です。</p>
+    `;
+  }
+  return `
+    <p>${escapeHtml(label)}</p>
+    <ul>${signals.map((signal) => `
+      <li>
+        <b>${escapeHtml(signal.word)}</b> — ${Number(signal.accounts || 0).toLocaleString()} accounts / ${escapeHtml(signal.type)}
+        <span class="cite">[[${escapeHtml(signal.word)}]]</span>
+      </li>
+    `).join("")}</ul>
+    <p class="unknown">指標: いいね数ではなく、独立言及アカウント数を優先。</p>
+  `;
+}
+
 function answer(question) {
   const q = question.toLowerCase();
   const hot = [...state.signals].sort((a, b) => (b.accounts || 0) - (a.accounts || 0)).slice(0, 5);
+  const checkedLaunch = launchAnswer(question);
+  if (checkedLaunch) return checkedLaunch;
 
   if (q.includes("hot") || q.includes("meme") || q.includes("trend") || q.includes("word")) {
-    return `
-      <p>Trench Brain currently sees these as the strongest meme-word candidates by independent account mentions.</p>
-      <ul>${hot.map((signal) => `<li><b>${escapeHtml(signal.word)}</b> — ${Number(signal.accounts || 0).toLocaleString()} accounts <span class="cite">[[${escapeHtml(signal.word)}]]</span></li>`).join("")}</ul>
-      <p class="unknown">Note: this favors independent mentions, not impressions or likes.</p>
-    `;
+    return signalListAnswer(hot, "Trench Brain currently sees these as the strongest meme-word candidates.");
   }
+
+  const matches = findSignals(question);
 
   if (q.includes("why") || q.includes("source") || q.includes("origin") || q.includes("start")) {
+    if (!matches.length) return signalListAnswer([], "");
+    const target = matches[0];
     return `
-      <p>Observed starting points for <b>${escapeHtml(state.selected.word)}</b>:</p>
-      <ul>${(state.selected.events || []).slice(0, 4).map((event) => `<li>${escapeHtml(event[2] || "event")} <span class="cite">[[${escapeHtml(event[4] || state.selected.word)}]]</span></li>`).join("") || "<li>Not recorded</li>"}</ul>
-      <p>Inference: ${escapeHtml(state.selected.why)}</p>
+      <p>Observed starting points for <b>${escapeHtml(target.word)}</b>:</p>
+      <ul>${(target.events || []).slice(0, 4).map((event) => `<li>${escapeHtml(event[2] || "event")} <span class="cite">[[${escapeHtml(event[4] || target.word)}]]</span></li>`).join("") || "<li>Not recorded</li>"}</ul>
+      <p>LLM inference: ${escapeHtml(target.why)}</p>
+      <p class="unknown">観測事実と推論は分離。未収録部分は補完しません。</p>
     `;
   }
 
-  if (q.includes("kol") || q.includes("figure") || q.includes("post") || q.includes("x")) {
-    const posts = state.signals.flatMap((signal) => signal.posts.map((post) => ({ signal, post }))).slice(0, 6);
+  if (q.includes("kol") || q.includes("figure") || q.includes("post") || q.includes("posts") || q.includes("x発言") || q.includes("twitter") || q.includes("tweet")) {
+    const source = matches.length ? matches : state.signals;
+    const posts = source.flatMap((signal) => signal.posts.map((post) => ({ signal, post }))).slice(0, 6);
     return `
       <p>Visible KOL / figure wire:</p>
       <ul>${posts.map(({ signal, post }) => `<li>${escapeHtml(post[0])}: ${escapeHtml(post[1])} <span class="cite">[[${escapeHtml(signal.word)}]]</span></li>`).join("") || "<li>Not recorded</li>"}</ul>
     `;
   }
 
-  return `
-    <p>Current selected signal: <b>${escapeHtml(state.selected.word)}</b></p>
-    <p>${escapeHtml(state.selected.summary)}</p>
-    <p>Inference: ${escapeHtml(state.selected.why)}</p>
-    <p><span class="cite">[[${escapeHtml(state.selected.word)}]]</span></p>
-  `;
+  if (matches.length) {
+    return `
+      <p>Wiki-connected matches:</p>
+      ${matches.slice(0, 3).map((signal) => `
+        <p><b>${escapeHtml(signal.word)}</b> — ${escapeHtml(signal.summary)}</p>
+        <p>Observed: ${Number(signal.accounts || 0).toLocaleString()} independent accounts / ${escapeHtml(signal.type)} / ${escapeHtml(signal.area)}</p>
+        <p>LLM inference: ${escapeHtml(signal.why)}</p>
+        <p><span class="cite">[[${escapeHtml(signal.word)}]]</span></p>
+      `).join("")}
+    `;
+  }
+
+  return signalListAnswer([], "");
 }
 function addMessage(role, html) {
   const article = document.createElement("article");
@@ -254,6 +744,30 @@ function addMessage(role, html) {
 
 async function connectData() {
   let lastError;
+  try {
+    const feed = await apiGet("/feed");
+    const apiSignals = listFromPayload(feed, ["hot", "signals", "words", "themes"]);
+    const apiLaunches = listFromPayload(feed, ["launches", "live", "calls"]);
+    if (apiSignals.length || apiLaunches.length) {
+      state.signals = (apiSignals.length ? apiSignals : fallbackSignals).map(normalizeFeedSignal);
+      state.launches = apiLaunches.map(normalizeFeedLaunch);
+      state.baseRate = feed.base_rate || feed.baseRate || null;
+      state.selected = state.signals[0] || fallbackSignals[0];
+      state.backendLive = true;
+      $(".status-light").classList.add("live");
+      $("#connection-label").textContent = "API LIVE";
+      $("#data-source").textContent = "source: Trench-Brain backend /api/feed";
+      $("#generated-at").textContent = feed.generated_at || feed.updated_at || "backend live";
+      $("#scan-status").textContent = "backend: /api/score ready";
+      renderAll();
+      return;
+    }
+  } catch (error) {
+    lastError = error;
+    state.backendLive = false;
+    $("#scan-status").textContent = `backend: offline (${error.message || "unavailable"})`;
+  }
+
   for (const url of DATA_URLS) {
     try {
       const controller = new AbortController();
@@ -268,10 +782,12 @@ async function connectData() {
       state.launches = payload.live || [];
       state.baseRate = payload.base_rate || null;
       state.selected = state.signals[0] || fallbackSignals[0];
+      state.backendLive = false;
       $(".status-light").classList.add("live");
       $("#connection-label").textContent = "LIVE";
       $("#data-source").textContent = url.startsWith("http") ? "source: GitHub MAIN ui-data.json" : "source: local ui-data.json";
       $("#generated-at").textContent = payload.generated_at || "generated_at unknown";
+      $("#scan-status").textContent = lastError ? `backend: offline / fallback active` : "backend: fallback active";
       renderAll();
       return;
     } catch (error) {
@@ -280,6 +796,7 @@ async function connectData() {
   }
   $("#connection-label").textContent = "FALLBACK";
   $("#generated-at").textContent = lastError?.message || "ui-data unavailable";
+  $("#scan-status").textContent = "backend: unavailable";
   renderAll();
 }
 
@@ -305,9 +822,48 @@ $("#hot-ticker").onclick = (event) => {
   openSignalAnalysis(button.dataset.word);
 };
 
-$("#chat-form").onsubmit = (event) => {
+document.querySelectorAll(".tool-tab").forEach((button) => {
+  button.onclick = () => {
+    state.activeTool = button.dataset.tool;
+    document.querySelectorAll(".tool-tab").forEach((tab) => tab.classList.toggle("active", tab === button));
+    document.querySelectorAll(".tool-panel").forEach((panel) => {
+      panel.classList.toggle("active", panel.dataset.toolPanel === state.activeTool);
+    });
+    renderBrainCalls();
+  };
+});
+
+document.querySelectorAll(".call-filter").forEach((button) => {
+  button.onclick = () => {
+    state.callFilter = button.dataset.callFilter;
+    document.querySelectorAll(".call-filter").forEach((filter) => filter.classList.toggle("active", filter === button));
+    const calls = normalizeCalls();
+    const visible = state.callFilter === "ALL" ? calls : calls.filter((call) => call.type === state.callFilter);
+    state.selectedCall = visible[0]?.id || calls[0]?.id || null;
+    renderBrainCalls();
+  };
+});
+
+$("#scan-form").onsubmit = (event) => {
+  event.preventDefault();
+  runScan($("#scan-token").value);
+};
+
+$("#wiki-search-form").onsubmit = (event) => {
+  event.preventDefault();
+  runWikiSearch($("#wiki-query").value);
+};
+
+$("#question").addEventListener("keydown", (event) => {
+  if (event.key !== "Enter" || event.shiftKey || event.isComposing) return;
+  event.preventDefault();
+  $("#chat-form").requestSubmit();
+});
+
+$("#chat-form").onsubmit = async (event) => {
   event.preventDefault();
   const input = $("#question");
+  const submitButton = $("#chat-form button[type='submit']");
   const text = input.value.trim();
   if (!text) return;
   addMessage("user", `<p>${escapeHtml(text)}</p>`);
@@ -322,7 +878,23 @@ $("#chat-form").onsubmit = (event) => {
     localStorage.setItem("trenchBrainLearningQueue", JSON.stringify(state.queue));
   }
   input.value = "";
-  setTimeout(() => addMessage("brain", answer(text)), 300);
+  input.disabled = true;
+  if (submitButton) submitButton.disabled = true;
+  addMessage("brain", `<p class="unknown">全wiki横断中…最大数分かかります。/api/ask is thinking.</p>`);
+  const pending = $("#chat-log article:last-child");
+  try {
+    const html = await answerFromBackend(text);
+    if (pending) {
+      pending.innerHTML = `<b>Trench Brain</b>${html}`;
+      $("#chat-log").scrollTop = $("#chat-log").scrollHeight;
+    } else {
+      addMessage("brain", html);
+    }
+  } finally {
+    input.disabled = false;
+    if (submitButton) submitButton.disabled = false;
+    input.focus();
+  }
 };
 
 $("#clear-chat").onclick = () => {
