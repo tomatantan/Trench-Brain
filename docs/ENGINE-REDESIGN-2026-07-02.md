@@ -199,3 +199,23 @@ ask経路(ask.sh/ask_prompt.md)を、**判断状況の問い**で以下を必須
 - 「部品はあるがループしてない」を再発させない＝§4ループが一周する事を機械で確認（outcomeがmind-modelに戻ってるか）。
 
 > この設計は「どのAIでも実現できる構成」を意図する。実装は本文の契約(§5/§6)に従えばモデルを問わない。
+
+---
+
+## 10. 進捗（2026-07-02 自律session・DONE=実データ検証済のみ）
+
+**★DONE + 検証済（実データで acceptance test 通過）**:
+- **P2 = 回答を relay→synthesis of winning minds に（最高impact・commit 778d0044）**: `ask_context.py`(BM25 retrieval で合成済みwiki＋KOL track record death%＋base-rate をコードで注入=G1/G2) + `ask_prompt.md` 回答契約(視点/実績錨/矛盾/教える/relay禁止=§5)。
+  - 検証: (a)「勝ってる勢はどう立ち回る」→視点+実績錨(@golocojp死0%小N)+転換シグナル+⚠️負け方。(b)「強者vs弱者」→選別と待機 vs 声のデカさFOMO・損切りなし。(c)**鏡**「@badattrading客観評価」→死64%(母数大で信頼)・広く浅い型・⚠️言行不一致(逆張り哲学を語るが実際は薄く広い連発)=どのツールも出せない0→1。
+  - ＝本人vision全次元(非relay/強弱/実績錨/教える/矛盾/鏡)を質問横断で実現。「部品はあるがループしてない」の核(feedback→answer)を繋いだ。
+- **G3 = KOL検出バグ修正（commit b068391e）**: $ticker一致も拾う。kol_standouts空の根因除去（旧0件→ticker検出）。※データ薄で当面マッチ少。
+- **調べる人拡張（commit 3ba4fd30）**: expand_watchlist 強化(閾値2/org除外)＋実在の人28件承認(131→159 handle)。反echo-chamber。
+
+**★検証で判明した訂正（原則2）**: agent報告の「manipulation-playbook論理逆転」は誤診＝方向は正しい(traction12%死vs55%=助ける)。真の問題は**数字が古い**(concept 12%/55% vs feedback.md実測29%(9/31)/68%)=G4非対称freshness。鵜呑みなら正しいconceptを壊してた。
+
+**★残（autonomousで検証不能 or 本人input要＝偽完了しない）**:
+- G4 自己改訂（stale concept/数字の再合成・confidence減衰）＝systemic・検証に cycle 要。
+- G5b 答えの後追い採点（query_log call→outcome照合）＝outcome到来に時間要。
+- mind-model schema(§3.1)の synth_x_prompt.md 深化＝LIVE合成prompt変更でquality検証に synthesis run 要。
+- 鏡を本人自身に＝本人の handle/wallet 入力要。更なる拡張＝seed list or 2次引用(noise増)。
+- 矛盾=KPI(§0.1-1)の metric 昇格・強弱concept(§3.2)の明示ページ化。
