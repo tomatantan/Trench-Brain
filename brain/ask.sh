@@ -114,7 +114,7 @@ $(cat brain/methodology/synthesis-rules.md)
 $TS
 
 ## ★リアルタイム pump 観測（裏で常時更新＝今の生の流れ・最重要の鮮度層）
-「今 何が pump/launch してる/盛り上がってる/熱い meme は」系は**まずこれを参照して答える**。flow件数・scam率・theme分布・traction候補(live mcap＋検知時からの変化%＝動いてるか死んでるか)・death分母。**live が無い/古い（flow=0 等）時は live を無理に語らず、合成知識（型・死亡/跳躍台帳・base-rate）で答えよ。持っていない具体 live 数値（「\$Xが今+Y%」等）は捏造禁止。**
+「今 何が pump/launch してる/盛り上がってる/熱い meme は」系はこれを参照。**ただし門を守れ＝"熱い"の先頭は必ず KOL裏付けのある物(kol_standouts＝複数の目立つアカウントが実際に言及)。reply=0 で KOL言及なしの traction候補は"熱い"ではなく『動いてるだけの未確認ノイズ』＝先頭に出すな・"熱い"と呼ぶな。**触れるとしても「板は動いてるが誰も話してない＝噴きの噴きで大半が死ぬ」と型で添えるだけ(観測≠採用)。**kol_standouts が空＝今 KOL裏付けの熱い物は無い、が正しい答え＝正直にそう言い、reply0 の死にかけ micro-cap を"熱い"に仕立てるな**（それが今の質の悪さの元）。live が無い/古い(flow=0 等)時は live を語らず合成知識(型・base-rate)で答えよ。持っていない具体 live 数値は捏造禁止。
 $LIVEPULSE
 ${LIVEX:+
 
@@ -133,8 +133,23 @@ $Q"
 # ★backend 切替: 運用者=claude(サブスク・既定) / 公開=gemini(無料・ToS安全・GPU負荷ゼロ)。
 # ui_server(公開)は ASK_BACKEND=gemini を渡す。運用者が ask.sh を直に叩くと既定=claude。
 if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then
-  printf '%s' "$PROMPT" | python3 brain/ask_gemini.py
+  ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py)"
 else
   # --strict-mcp-config 必須(telegram等MCPを起動させない)。read-only(wiki編集しない)。
-  claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT"
+  ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
 fi
+
+# ★学習の両輪(収集半・原則3): 有効なQ&Aを query_log に capture。
+# wikiは書かない(読取専用維持)=state queueに積むだけ。資産化(合成半)は brain/asset_queries.sh が
+# 門付きで wiki/queries に落とす=「質問するほど脳が賢くなる」。失敗しても答えは壊さない(|| true)。
+if [ -n "$ANSWER" ]; then
+  ASK_Q="$Q" ASK_A="$ANSWER" ASK_B="${ASK_BACKEND:-claude}" python3 - <<'PY' 2>/dev/null || true
+import json, os, datetime
+rec = {"ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+       "question": os.environ.get("ASK_Q", ""), "answer": os.environ.get("ASK_A", ""),
+       "backend": os.environ.get("ASK_B", ""), "assetized": False}
+with open("brain/state/query_log.jsonl", "a", encoding="utf-8") as f:
+    f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+PY
+fi
+printf '%s\n' "$ANSWER"
