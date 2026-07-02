@@ -127,8 +127,10 @@ def check_page(path: Path) -> list[str]:
             fm_body = "\n".join(lines[1:close_idx])
             if "type:" not in fm_body:
                 failures.append("frontmatter: 必須キー 'type' が無い")
-            if "title:" not in fm_body:
-                failures.append("frontmatter: 必須キー 'title' が無い")
+            # 識別子は title OR ticker(auto-track token entityは title でなく ticker が確立規約・
+            # pump合成 synth_prompt 生成。build_entities は title)。どちらか有れば正常(2026-07-02 fix)。
+            if "title:" not in fm_body and "ticker:" not in fm_body:
+                failures.append("frontmatter: 識別子キー(title/ticker)が無い")
 
     # 2. synthesis ブロック均衡
     start_count = content.count("<!-- synthesis:start -->")
