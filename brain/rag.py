@@ -60,7 +60,18 @@ class Retriever:
         self.avgdl = sum(d["len"] for d in self.docs) / max(1, self.N)
         # 知識グラフ index: path/stem 引き + 内向きリンク(誰がこのページを[[link]]してるか)
         self.by_path = {d["path"]: d for d in self.docs}
-        self.by_stem = {d["stem"]: d for d in self.docs}
+        self.by_stem = {}
+        _collisions = 0
+        for d in sorted(self.docs, key=lambda x: x["path"]):
+            s = d["stem"]
+            if s in self.by_stem:
+                if self.by_stem[s]["path"] != d["path"]:
+                    _collisions += 1
+                continue
+            self.by_stem[s] = d
+        if _collisions:
+            import sys as _sys
+            print(f"rag: stem衝突 {_collisions}件(path順で先勝ち・決定化)", file=_sys.stderr)
         self.inbound = {}
         for d in self.docs:
             for tgt in d["links"]:
