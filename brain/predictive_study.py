@@ -50,7 +50,13 @@ def rate(d, n):
 
 
 def main():
-    d = json.loads((STATE / "tracked.json").read_text(encoding="utf-8"))
+    tf = STATE / "tracked.json"
+    if not tf.exists():
+        print("tracked.json 無し=まだ観測データが無い(skip)"); return   # 2026-07-02 M2: FileNotFoundでcrashさせない
+    try:
+        d = json.loads(tf.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        print("tracked.json 読取不可(書込み中?)=次サイクル(skip)"); return  # partial file で落ちない
     items = d if isinstance(d, list) else list(d.values())
     n = len(items)
     dead_total = sum(1 for x in items if x.get("status") == "dead")
