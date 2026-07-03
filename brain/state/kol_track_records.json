@@ -10,12 +10,12 @@
  },
  "badattrading": {
   "handle": "badattrading",
-  "mentioned": 181,
-  "evaluated": 152,
-  "dead": 97,
-  "alive": 55,
-  "death_rate": 64,
-  "unknown": 29
+  "mentioned": 191,
+  "evaluated": 161,
+  "dead": 101,
+  "alive": 60,
+  "death_rate": 63,
+  "unknown": 30
  },
  "clutch_fifa2026": {
   "handle": "Clutch_FIFA2026",
@@ -95,6 +95,24 @@
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "ren_nevermind": {
+  "handle": "ren_nevermind",
+  "mentioned": 3,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 1
+ },
+ "jzbookp9ca": {
+  "handle": "jzbookp9ca",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
   "death_rate": 0,
   "unknown": 0
  },
@@ -285,15 +303,6 @@
   "dead": 0,
   "alive": 0,
   "death_rate": null,
-  "unknown": 1
- },
- "ren_nevermind": {
-  "handle": "ren_nevermind",
-  "mentioned": 2,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
   "unknown": 1
  },
  "fibonacki": {
