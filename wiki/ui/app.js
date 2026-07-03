@@ -70,11 +70,124 @@ function apiErrorMessage(status, fallback = "backend unavailable") {
   return fallback || "backend unavailable";
 }
 
-function renderAskMarkdown(answer) {
-  const safe = escapeHtml(answer || "")
+function renderMarkdownInline(text) {
+  return escapeHtml(text || "")
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\[\[([^\]]+)\]\]/g, '<span class="cite">[[$1]]</span>')
-    .replace(/\n/g, "<br>");
-  return `<div class="brain-answer">${safe || "No answer returned from /api/ask."}</div>`;
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/__([^_]+)__/g, "<strong>$1</strong>")
+    .replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>");
+}
+
+function renderAskMarkdown(answer) {
+  const source = String(answer || "").trim();
+  if (!source) return `<div class="brain-answer"><p>No answer returned from /api/ask.</p></div>`;
+
+  const lines = source.replace(/\r\n?/g, "\n").split("\n");
+  const html = [];
+  let paragraph = [];
+  let list = null;
+  let quote = [];
+  let code = [];
+  let inCode = false;
+
+  const flushParagraph = () => {
+    if (!paragraph.length) return;
+    html.push(`<p>${renderMarkdownInline(paragraph.join(" "))}</p>`);
+    paragraph = [];
+  };
+  const flushList = () => {
+    if (!list) return;
+    html.push(`<${list.type}>${list.items.map((item) => `<li>${renderMarkdownInline(item)}</li>`).join("")}</${list.type}>`);
+    list = null;
+  };
+  const flushQuote = () => {
+    if (!quote.length) return;
+    html.push(`<blockquote>${quote.map((item) => `<p>${renderMarkdownInline(item)}</p>`).join("")}</blockquote>`);
+    quote = [];
+  };
+  const closeOpenBlocks = () => {
+    flushParagraph();
+    flushList();
+    flushQuote();
+  };
+
+  lines.forEach((rawLine) => {
+    const line = rawLine.trimEnd();
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith("```")) {
+      if (inCode) {
+        html.push(`<pre><code>${escapeHtml(code.join("\n"))}</code></pre>`);
+        code = [];
+        inCode = false;
+      } else {
+        closeOpenBlocks();
+        inCode = true;
+      }
+      return;
+    }
+
+    if (inCode) {
+      code.push(rawLine);
+      return;
+    }
+
+    if (!trimmed) {
+      closeOpenBlocks();
+      return;
+    }
+
+    const heading = trimmed.match(/^(#{1,4})\s+(.+)$/);
+    if (heading) {
+      closeOpenBlocks();
+      const level = Math.min(heading[1].length + 2, 5);
+      html.push(`<h${level}>${renderMarkdownInline(heading[2])}</h${level}>`);
+      return;
+    }
+
+    const unordered = trimmed.match(/^[-*]\s+(.+)$/);
+    if (unordered) {
+      flushParagraph();
+      flushQuote();
+      if (!list || list.type !== "ul") {
+        flushList();
+        list = { type: "ul", items: [] };
+      }
+      list.items.push(unordered[1]);
+      return;
+    }
+
+    const ordered = trimmed.match(/^\d+\.\s+(.+)$/);
+    if (ordered) {
+      flushParagraph();
+      flushQuote();
+      if (!list || list.type !== "ol") {
+        flushList();
+        list = { type: "ol", items: [] };
+      }
+      list.items.push(ordered[1]);
+      return;
+    }
+
+    const quoted = trimmed.match(/^>\s?(.+)$/);
+    if (quoted) {
+      flushParagraph();
+      flushList();
+      quote.push(quoted[1]);
+      return;
+    }
+
+    flushList();
+    flushQuote();
+    paragraph.push(trimmed);
+  });
+
+  if (inCode) html.push(`<pre><code>${escapeHtml(code.join("\n"))}</code></pre>`);
+  closeOpenBlocks();
+
+  return `<div class="brain-answer markdown-body">${html.join("")}</div>`;
 }
 
 async function apiAsk(question) {
