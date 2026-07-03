@@ -12,9 +12,9 @@
   "handle": "badattrading",
   "mentioned": 181,
   "evaluated": 152,
-  "dead": 96,
-  "alive": 56,
-  "death_rate": 63,
+  "dead": 97,
+  "alive": 55,
+  "death_rate": 64,
   "unknown": 29
  },
  "clutch_fifa2026": {
@@ -25,6 +25,15 @@
   "alive": 0,
   "death_rate": null,
   "unknown": 1
+ },
+ "serudefi": {
+  "handle": "SeruDefi",
+  "mentioned": 4,
+  "evaluated": 4,
+  "dead": 2,
+  "alive": 2,
+  "death_rate": 50,
+  "unknown": 0
  },
  "shapefn": {
   "handle": "ShapeFN",
@@ -69,15 +78,6 @@
   "dead": 0,
   "alive": 4,
   "death_rate": 0,
-  "unknown": 0
- },
- "serudefi": {
-  "handle": "serudefi",
-  "mentioned": 4,
-  "evaluated": 4,
-  "dead": 2,
-  "alive": 2,
-  "death_rate": 50,
   "unknown": 0
  },
  "adimsshogun": {
@@ -145,11 +145,11 @@
  },
  "tsuyuto6154": {
   "handle": "tsuyuto6154",
-  "mentioned": 11,
-  "evaluated": 11,
-  "dead": 4,
-  "alive": 7,
-  "death_rate": 36,
+  "mentioned": 15,
+  "evaluated": 15,
+  "dead": 7,
+  "alive": 8,
+  "death_rate": 47,
   "unknown": 0
  },
  "buffalu": {
