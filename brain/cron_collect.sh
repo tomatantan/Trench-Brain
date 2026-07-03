@@ -43,6 +43,10 @@ bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
 bash brain/synthesize_x.sh || echo "synth-x skipped" >> "$LOG"
 # ★単一player思考conceptの濫造防止(指針8): synthesize_xが作っても掃除=player思考はentity(synthesize_player)がcanonical
 rm -f wiki/concepts/player-*.md 2>/dev/null || true
+# (2d.47)★核心成果物の自動維持: player mind-model(KOLの"脳"=思考の型)を毎サイクル自動合成。
+# 従来 synthesize_player は手動のみで cron未配線＝KOLの脳が自動更新されてなかった(engine再設計の核gap)。
+# 直近活動+stale順に上限3人/サイクル。空ならclaude未呼出=$0。視点エンジン(ask.sh)が読む燃料を厚くする。
+bash brain/synthesize_players.sh >> "$LOG" 2>&1 || echo "synthesize_players skipped" >> "$LOG"
 # (2c)長文合成層=未合成transcriptを3本/サイクル deep 合成(0本なら呼ばない=コスト0)
 bash brain/synthesize_longform.sh || echo "synth-longform skipped" >> "$LOG"
 # (2d)backfill層=高signal未合成stubを5件/サイクル deep 合成=グラフ密度UP(対象無で呼ばない=コスト0・自己限定)
