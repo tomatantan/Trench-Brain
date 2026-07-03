@@ -10,11 +10,11 @@
  },
  "badattrading": {
   "handle": "badattrading",
-  "mentioned": 175,
-  "evaluated": 146,
-  "dead": 94,
-  "alive": 52,
-  "death_rate": 64,
+  "mentioned": 181,
+  "evaluated": 152,
+  "dead": 96,
+  "alive": 56,
+  "death_rate": 63,
   "unknown": 29
  },
  "clutch_fifa2026": {
@@ -100,10 +100,10 @@
  },
  "crypto_alch": {
   "handle": "crypto_alch",
-  "mentioned": 6,
-  "evaluated": 5,
+  "mentioned": 7,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
   "unknown": 1
  },
@@ -169,6 +169,15 @@
   "alive": 0,
   "death_rate": null,
   "unknown": 1
+ },
+ "thecaliber": {
+  "handle": "thecaliber",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "solangelestv": {
   "handle": "solangelestv",
@@ -278,12 +287,30 @@
   "death_rate": null,
   "unknown": 1
  },
+ "ren_nevermind": {
+  "handle": "ren_nevermind",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
+ },
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 2,
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "larpvontrier": {
+  "handle": "larpvontrier",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
   "death_rate": 0,
   "unknown": 0
  },
@@ -323,15 +350,6 @@
   "death_rate": 0,
   "unknown": 0
  },
- "larpvontrier": {
-  "handle": "larpvontrier",
-  "mentioned": 1,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
- },
  "mert": {
   "handle": "mert",
   "mentioned": 1,
@@ -358,15 +376,6 @@
   "alive": 1,
   "death_rate": 0,
   "unknown": 0
- },
- "ren_nevermind": {
-  "handle": "ren_nevermind",
-  "mentioned": 1,
-  "evaluated": 0,
-  "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
  },
  "pumpilians": {
   "handle": "pumpilians",
