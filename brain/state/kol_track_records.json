@@ -10,10 +10,10 @@
  },
  "badattrading": {
   "handle": "badattrading",
-  "mentioned": 191,
-  "evaluated": 161,
-  "dead": 101,
-  "alive": 60,
+  "mentioned": 196,
+  "evaluated": 166,
+  "dead": 104,
+  "alive": 62,
   "death_rate": 63,
   "unknown": 30
  },
@@ -64,10 +64,10 @@
  },
  "dxrnell": {
   "handle": "dxrnell",
-  "mentioned": 4,
-  "evaluated": 4,
+  "mentioned": 5,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
   "unknown": 0
  },
@@ -91,10 +91,10 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 2,
-  "evaluated": 2,
+  "mentioned": 3,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 2,
+  "alive": 3,
   "death_rate": 0,
   "unknown": 0
  },
@@ -271,10 +271,10 @@
  },
  "minnus": {
   "handle": "minnus",
-  "mentioned": 1,
-  "evaluated": 1,
+  "mentioned": 2,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
   "unknown": 0
  },
@@ -370,6 +370,15 @@
  },
  "remusofmars": {
   "handle": "remusofmars",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "_shadow36": {
+  "handle": "_shadow36",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
