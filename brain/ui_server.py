@@ -19,6 +19,7 @@ import subprocess
 import sys
 import time
 import urllib.request
+import uuid
 from collections import deque
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -125,6 +126,10 @@ API_INDEX = [
     {"path": "/api/sitemap", "method": "GET", "desc": "全ページ一覧(path/title/kind=ナビ/クロール)"},
     {"path": "/api/compare", "method": "GET", "params": {"a": "...", "b": "..."},
      "desc": "2エンティティを並べて比較(token/player)"},
+    {"path": "/api/detect", "method": "POST", "body": {"ca": "str", "symbol": "str", "verdict": "APE|REVIEW|AVOID|WATCH|RECOVERED"},
+     "desc": "External detector webhook. Appends normalized CALL detections to brain/state/detections.jsonl."},
+    {"path": "/api/detections", "method": "GET", "params": {"n": "50", "include_avoids": "1"},
+     "desc": "Recent detector events plus CALL-shaped rows for UI/debug."},
     {"path": "/api/feed", "method": "GET",
      "desc": "ホーム用アグリゲート=hot+直近launch+最近更新+themes を1呼びで"},
 ]
@@ -154,6 +159,132 @@ def _tail_jsonl(name, n, maxbytes=300000):
         return out
     except Exception:
         return []
+
+
+DETECTION_VERDICTS = {"APE", "REVIEW", "AVOID", "WATCH", "RECOVERED"}
+DETECTION_TYPES = {"SMART DETECT", "HIGH TIRE DETECT"}
+DETECTION_MAX_BODY = 65536
+
+
+def _clean_text(value, default="", limit=500):
+    if value is None:
+        return default
+    text = str(value).strip()
+    return text[:limit] if text else default
+
+
+def _clean_number(value, default=0):
+    try:
+        if value is None or value == "":
+            return default
+        return float(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _clean_reasons(value):
+    if isinstance(value, list):
+        return [_clean_text(v, limit=180) for v in value if _clean_text(v, limit=180)][:8]
+    if value:
+        return [_clean_text(value, limit=180)]
+    return []
+
+
+def _now_iso(ts=None):
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(ts or time.time()))
+
+
+def _normalize_detection(body):
+    if not isinstance(body, dict):
+        raise ValueError("body must be object")
+    ca = _clean_text(
+        body.get("ca") or body.get("mint") or body.get("address") or body.get("contract"),
+        limit=120,
+    )
+    if not ca:
+        raise ValueError("ca or mint is required")
+
+    ts = int(time.time())
+    verdict = _clean_text(body.get("verdict") or body.get("status") or "REVIEW", "REVIEW", 40).upper()
+    if verdict not in DETECTION_VERDICTS:
+        verdict = "REVIEW"
+    dtype = _clean_text(body.get("signal_type") or body.get("type") or "SMART DETECT", "SMART DETECT", 60).upper()
+    if dtype not in DETECTION_TYPES:
+        dtype = "SMART DETECT"
+
+    metrics = body.get("metrics") if isinstance(body.get("metrics"), dict) else {}
+    det = {
+        "id": _clean_text(body.get("id"), limit=80) or f"detect_{time.strftime('%Y%m%d_%H%M%S', time.gmtime(ts))}_{uuid.uuid4().hex[:6]}",
+        "source": _clean_text(body.get("source"), "unknown", 80),
+        "chain": _clean_text(body.get("chain"), "solana", 40),
+        "symbol": _clean_text(body.get("symbol") or body.get("ticker") or body.get("token"), "UNKNOWN", 80),
+        "name": _clean_text(body.get("name") or body.get("title"), "UNKNOWN", 160),
+        "ca": ca,
+        "mint": ca,
+        "type": dtype,
+        "signal_type": dtype,
+        "verdict": verdict,
+        "risk_score": _clean_number(body.get("risk_score"), None),
+        "reasons": _clean_reasons(body.get("reasons") or body.get("reason") or body.get("why")),
+        "metrics": metrics,
+        "detected_at": _clean_text(body.get("detected_at") or body.get("observed_at") or body.get("created_at"), _now_iso(ts), 80),
+        "url": _clean_text(body.get("url") or body.get("link"), "", 500),
+        "received_at": _now_iso(ts),
+    }
+    return det
+
+
+def _detection_to_call(det):
+    metrics = det.get("metrics") if isinstance(det.get("metrics"), dict) else {}
+    reasons = det.get("reasons") if isinstance(det.get("reasons"), list) else []
+    reason = "; ".join([str(r) for r in reasons[:3]]) or det.get("verdict") or "detected"
+    mcap = metrics.get("mcap_usd") or metrics.get("market_cap") or metrics.get("marketCap") or 0
+    replies = metrics.get("reply_count") or metrics.get("replies") or metrics.get("mentions") or 0
+    return {
+        "id": det.get("id"),
+        "source": det.get("source"),
+        "ticker": det.get("symbol"),
+        "symbol": det.get("symbol"),
+        "name": det.get("name"),
+        "ca": det.get("ca"),
+        "mint": det.get("mint") or det.get("ca"),
+        "type": det.get("type") or det.get("signal_type") or "SMART DETECT",
+        "status": det.get("verdict"),
+        "verdict": det.get("verdict"),
+        "risk_score": det.get("risk_score"),
+        "reason": reason,
+        "gate": reason,
+        "mcap": mcap,
+        "peak_mcap": metrics.get("peak_mcap") or metrics.get("peak_market_cap") or mcap,
+        "reply_count": replies,
+        "first_seen": det.get("detected_at"),
+        "link": det.get("url"),
+        "metrics": metrics,
+        "reasons": reasons,
+    }
+
+
+def _recent_detections(n=50, include_avoids=True):
+    rows = _tail_jsonl("detections.jsonl", n)
+    if not include_avoids:
+        rows = [r for r in rows if str(r.get("verdict", "")).upper() != "AVOID"]
+    return rows[::-1]
+
+
+def _append_detection(det):
+    STATE.mkdir(parents=True, exist_ok=True)
+    with open(STATE / "detections.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(det, ensure_ascii=False, separators=(",", ":")) + "\n")
+
+
+def _read_json_body(handler, maxbytes=DETECTION_MAX_BODY):
+    try:
+        n = int(handler.headers.get("Content-Length") or 0)
+    except ValueError:
+        raise ValueError("bad content-length")
+    if n > maxbytes:
+        raise OverflowError("body too large")
+    return json.loads(handler.rfile.read(n) or b"{}")
 
 
 def _creator_history(wallet, limit=60):
@@ -504,11 +635,13 @@ class Handler(SimpleHTTPRequestHandler):
                 live = _state_json("live_pulse.json", {})
                 hot = [t for t in live.get("traction_candidates", []) if not t.get("stale")]
                 hot.sort(key=lambda t: -(t.get("変化pct") or 0))
+                calls = [_detection_to_call(x) for x in _recent_detections(20, include_avoids=False)]
                 self._json(200, {"ok": True, "hot": hot[:5],
                                  "themes": live.get("theme_distribution", {}),
                                  "recent_launches": [{k: x.get(k) for k in ("symbol", "usd_mcap", "rc_score")}
                                                      for x in _tail_jsonl("launch_queue.jsonl", 5)][::-1],
-                                 "recent_wiki": r.recent(6),
+                                  "recent_wiki": r.recent(6),
+                                  "calls": calls,
                                  "generated_at": live.get("generated_at")})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
@@ -557,6 +690,14 @@ class Handler(SimpleHTTPRequestHandler):
                     "usd_mcap", "reply", "rc_score", "top_pct", "insiders", "kol", "reason", "detected_at")
             launches = [{k: r.get(k) for k in keys} for r in rows][::-1]
             self._json(200, {"ok": True, "launches": launches, "count": len(launches)})
+            return
+        if path0 == "/api/detections":
+            qs = parse_qs(urlparse(self.path).query)
+            n = min(_to_int(qs.get("n", ["50"])[0] or 50, 50), 200)
+            include_avoids = str(qs.get("include_avoids", ["1"])[0]).lower() not in ("0", "false", "no")
+            detections = _recent_detections(n, include_avoids=include_avoids)
+            calls = [_detection_to_call(x) for x in detections]
+            self._json(200, {"ok": True, "detections": detections, "calls": calls, "count": len(detections)})
             return
         if path0 == "/api/base-rate":
             br = _state_json("base_rate.json", {})
@@ -639,7 +780,28 @@ class Handler(SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_POST(self):
-        if self.path.split("?")[0] != "/api/ask":
+        path0 = self.path.split("?")[0]
+        if path0 == "/api/detect":
+            token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
+            if token and self.headers.get("Authorization", "").strip() != f"Bearer {token}":
+                self._json(401, {"ok": False, "error": "unauthorized"})
+                return
+            if not _rate_ok(f"{_real_ip(self)}:detect", 120):
+                self._json(429, {"ok": False, "error": "rate limit(detect)"})
+                return
+            try:
+                det = _normalize_detection(_read_json_body(self))
+                _append_detection(det)
+                self._json(201, {"ok": True, "id": det["id"], "status": "queued", "detection": det})
+            except OverflowError:
+                self._json(413, {"ok": False, "error": "body too large"})
+            except ValueError as e:
+                self._json(400, {"ok": False, "error": str(e)[:300]})
+            except Exception as e:
+                print(f"[detect] error: {e}", file=sys.stderr)
+                self._json(500, {"ok": False, "error": "internal error"})
+            return
+        if path0 != "/api/ask":
             self.send_error(404)
             return
         if not _rate_ok(f"{_real_ip(self)}:ask", 5):  # ask は claude 叩くので厳しめ
