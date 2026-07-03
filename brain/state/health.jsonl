@@ -44,3 +44,7 @@
 {"ts": "2026-07-02T09:27Z", "corpus_ts": "2026-07-02T06:10Z", "raw_new": 8217, "signal_backlog": 7, "single_source": 60, "stale": 370}
 {"ts": "2026-07-02T11:39Z", "corpus_ts": "2026-07-02T10:16Z", "raw_new": 8313, "signal_backlog": 6, "single_source": 76, "stale": 360}
 {"ts": "2026-07-02T12:23Z", "corpus_ts": "2026-07-02T10:16Z", "raw_new": 8299, "signal_backlog": 2, "single_source": 74, "stale": 362}
+{"ts": "2026-07-02T15:42Z", "corpus_ts": "2026-07-02T15:31Z", "raw_new": 10324, "signal_backlog": 8, "single_source": 69, "stale": 550}
+{"ts": "2026-07-02T19:10Z", "corpus_ts": "2026-07-02T15:31Z", "raw_new": 10313, "signal_backlog": 5, "single_source": 68, "stale": 555}
+{"ts": "2026-07-02T22:36Z", "corpus_ts": "2026-07-02T15:31Z", "raw_new": 10305, "signal_backlog": 5, "single_source": 68, "stale": 554}
+{"ts": "2026-07-03T02:07Z", "corpus_ts": "2026-07-02T23:33Z", "raw_new": 10930, "signal_backlog": 14, "single_source": 105, "stale": 538}
