@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-04T10:36Z",
+ "ts": "2026-07-04T14:05Z",
  "summary": {
   "answers": 9,
   "tokens_mentioned": 9,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 34042.308924656834,
-     "mcap_now": 33262.832308813595
+     "mcap_now": 33138.338765815344
     }
    },
    "kols": {},

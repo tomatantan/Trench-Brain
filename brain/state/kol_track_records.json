@@ -12,8 +12,8 @@
   "handle": "badattrading_",
   "mentioned": 206,
   "evaluated": 175,
-  "dead": 106,
-  "alive": 69,
+  "dead": 107,
+  "alive": 68,
   "death_rate": 61,
   "unknown": 31
  },
@@ -124,6 +124,15 @@
   "alive": 6,
   "death_rate": 0,
   "unknown": 1
+ },
+ "adam_tehc": {
+  "handle": "adam_tehc",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "spyzer": {
   "handle": "spyzer",
