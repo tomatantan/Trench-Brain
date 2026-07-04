@@ -253,3 +253,5 @@ brain/state/compounding_history.jsonl
 
 # 学習の両輪 収集半(ask.shが積む・資産化後は wiki/queries が正・runtime state)
 brain/state/query_log.jsonl
+brain/state/revise_queue.json
+brain/state/revise_last_sig.txt
