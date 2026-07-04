@@ -93,6 +93,13 @@ FAILURE_MARKERS_CI = [
     "i am sorry",
 ]
 CODE_FENCE = "```"
+SYN_START = "<!-- synthesis:start -->"
+SYN_END = "<!-- synthesis:end -->"
+# 合成LLMが成果物でなく行動を報告した時に出る語(先頭数行に出たらメタ報告=ゴミ)
+META_NARRATION_KW = (
+    "合成を完了", "合成を書き", "書き込んだ", "書込んだ", "に書き込み",
+    "updatedも", "updated も", "統合・置換した", "置き換え、", "mind-model 合成を", "mind-modelを",
+)
 
 
 def check_page(path: Path) -> list[str]:
@@ -154,6 +161,16 @@ def check_page(path: Path) -> list[str]:
     fence_count = content.count(CODE_FENCE)
     if fence_count % 2 != 0:
         failures.append(f"未閉じコードフェンス(``` の総数={fence_count} が奇数)")
+
+    # 5. メタ報告混入(2026-07-04): --dangerously-skip-permissions で合成LLMが agent挙動になり、
+    #    成果物でなく「合成を完了/ファイルに書き込んだ」等の行動要約を synthesisブロックに吐く実害。
+    #    構造は健全なので既存checkを素通りする→内容ゴミを門番が見逃す。文字列で検出する。
+    for s in range(content.count(SYN_START)):
+        block = content.split(SYN_START, s + 1)[-1].split(SYN_END, 1)[0]
+        head = "\n".join(block.strip().splitlines()[:3])
+        if any(kw in head for kw in META_NARRATION_KW):
+            failures.append("synthesisブロックがメタ報告(『合成を完了/書き込んだ』等の行動要約=成果物でない)")
+            break
 
     return failures
 
