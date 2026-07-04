@@ -24,6 +24,14 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 PORT="${PORT:-8000}"
 
+# .env を読む(多層防御・本命は ui_server 自力読みだが起動環境にも入れておく。2026-07-04)
+if [ -f ./.env ]; then
+  set -a
+  # shellcheck disable=SC1091
+  . ./.env
+  set +a
+fi
+
 command -v python3 >/dev/null 2>&1 || { echo "python3 が必要"; exit 1; }
 
 if ! command -v cloudflared >/dev/null 2>&1; then

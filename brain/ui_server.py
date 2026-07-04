@@ -64,6 +64,27 @@ WIKI = ROOT / "wiki"
 ASK = ROOT / "brain" / "ask.sh"
 ASK_TIMEOUT = 240  # headless claude は 1-3 分かかる
 
+
+def _load_dotenv():
+    """起動wrapperが .env を読まない経路(本番で実測)でも DETECT_WEBHOOK_TOKEN 等が
+    確実に見えるよう、サーバ自身が repo ルートの .env を読む(2026-07-04)。
+    既存の環境変数は上書きしない。ファイル無し等は静かに続行。"""
+    try:
+        p = ROOT / ".env"
+        if not p.exists():
+            return
+        for line in p.read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k = k.strip()
+            v = v.strip()
+            if k and k not in os.environ:
+                os.environ[k] = v
+    except Exception:
+        pass
+
 # ★案A「検索できるLLM Wiki」: rag.py の retriever を遅延ロード(初回検索で索引構築)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 _RETRIEVER = None
@@ -796,7 +817,12 @@ class Handler(SimpleHTTPRequestHandler):
         path0 = self.path.split("?")[0]
         if path0 == "/api/detect":
             token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
-            if token and self.headers.get("Authorization", "").strip() != f"Bearer {token}":
+            if not token:
+                # トークン未設定＝誰でもPOST可能(本番で素通し実測 2026-07-04)。明示ONでのみ dev 用に開ける
+                if os.environ.get("DETECT_ALLOW_UNAUTH") != "1":
+                    self._json(503, {"ok": False, "error": "DETECT_WEBHOOK_TOKEN未設定(fail-closed)。devで開けるなら DETECT_ALLOW_UNAUTH=1"})
+                    return
+            elif self.headers.get("Authorization", "").strip() != f"Bearer {token}":
                 self._json(401, {"ok": False, "error": "unauthorized"})
                 return
             if not _rate_ok(f"{_real_ip(self)}:detect", 120):
@@ -862,6 +888,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 def main():
+    _load_dotenv()  # .env 自力読み(未設定キーのみ)。認証トークン等が起動wrapper任せにならないように
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, default=8000)
     ap.add_argument("--host", default="127.0.0.1")
