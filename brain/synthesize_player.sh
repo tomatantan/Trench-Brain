@@ -7,6 +7,7 @@ cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 MODEL="${SYNTH_PLAYER_MODEL:-sonnet}"
 H="${1:?handle(no @)を渡して}"
+H="$(printf '%s' "$H" | tr 'A-Z' 'a-z')"  # entity pathはlowercase正典(handleはcase-insensitive)
 ENT="wiki/entities/players/@${H}.md"
 [ -f "$ENT" ] || { echo "entity無し: $ENT" >&2; exit 1; }
 command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }

@@ -102,8 +102,10 @@ def main():
         # ★handle健全化(2026-06-24 bug fix): image/system source の via(例 "/add-image")が
         #   player entity の path を壊す(players/@/add-image.md で crash)のを防ぐ。有効X handle のみ player化。
         def _handle(x):
-            x = str(x or "").lstrip("@").strip()
-            return x if re.match(r"^[A-Za-z0-9_]{1,30}$", x) else None
+            # ★lowercase正規化(2026-07-04): X handleはcase-insensitive。caseをそのまま鍵/pathに使うと
+            #   同一人物が @RaoulGMI.md / @raoulgmi.md に分裂(実害9ペア)し、macOSのpull/resetも塞ぐ。
+            x = str(x or "").lstrip("@").strip().lower()
+            return x if re.match(r"^[a-z0-9_]{1,30}$", x) else None
         via_h = _handle(via)
         acct_h = _handle(acct)
         likes = to_int(meta.get("likes"))

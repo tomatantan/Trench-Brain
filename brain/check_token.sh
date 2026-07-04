@@ -101,7 +101,7 @@ except Exception:
     _ktr = {}
 for v in ranked:
     a = v["by"]
-    ent = os.path.exists(f"wiki/entities/players/@{a}.md")
+    ent = os.path.exists(f"wiki/entities/players/@{a.lower()}.md")  # entity pathはlowercase正典
     tr = _ktr.get(a.lower())
     their = [x for x in _items if a in (x.get("kol_ca") or [])]
     if tr and tr.get("evaluated", 0) >= 2:  # bootstrap済の歴史track-record優先(richer)
