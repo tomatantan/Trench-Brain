@@ -616,6 +616,30 @@ def _append_detection(det):
         f.write(json.dumps(det, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
+def _normalize_learn(body):
+    """1タップ学習の受信を正規化。銘柄/CA/KOL/本文/URLのどれかは要る(全部空は弾く)。"""
+    if not isinstance(body, dict):
+        raise ValueError("body must be object")
+    ca = _clean_text(body.get("ca") or body.get("mint") or body.get("token_ca"), limit=120)
+    ticker = _clean_text(body.get("ticker") or body.get("symbol"), limit=40).lstrip("$")
+    handle = _clean_text(body.get("handle") or body.get("kol"), limit=40).lstrip("@")
+    text = _clean_text(body.get("text") or body.get("tweet"), limit=2000)
+    url = _clean_text(body.get("url"), limit=500)
+    if not any([ca, ticker, handle, text]):
+        raise ValueError("ca/ticker/handle/text のどれかは必須")
+    ts = int(time.time())
+    return {"id": f"learn_{time.strftime('%Y%m%d_%H%M%S', time.gmtime(ts))}_{uuid.uuid4().hex[:6]}",
+            "ca": ca, "ticker": ticker.upper(), "handle": handle.lower(),
+            "text": text, "url": url, "source": _clean_text(body.get("source"), "surf", 40),
+            "ts": _now_iso(ts), "processed": False}
+
+
+def _append_learn(item):
+    STATE.mkdir(parents=True, exist_ok=True)
+    with open(STATE / "learn_queue.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
+
+
 def _read_json_body(handler, maxbytes=DETECTION_MAX_BODY):
     try:
         n = int(handler.headers.get("Content-Length") or 0)
@@ -1144,6 +1168,23 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         path0 = self.path.split("?")[0]
+        if path0 == "/api/learn":
+            # ★1タップ学習(本人2026-07-04): サーフィン中の「これ学習しろ」を即キュー。
+            #   人が選んだ=門を通した最強のキュレーション。重い合成は脳側(cron consumer)が裏で。
+            if not _rate_ok(f"{_real_ip(self)}:learn", 120):
+                self._json(429, {"ok": False, "error": "rate limit(learn)"})
+                return
+            try:
+                body = _read_json_body(self, maxbytes=DETECTION_MAX_BODY)
+                item = _normalize_learn(body)
+                _append_learn(item)
+                self._json(201, {"ok": True, "id": item["id"], "status": "queued"})
+            except ValueError as e:
+                self._json(400, {"ok": False, "error": str(e)[:200]})
+            except Exception as e:
+                print(f"[learn] error: {e}", file=sys.stderr)
+                self._json(500, {"ok": False, "error": "internal error"})
+            return
         if path0 == "/api/detect":
             token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
             if not token:

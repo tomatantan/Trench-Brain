@@ -256,3 +256,5 @@ brain/state/query_log.jsonl
 brain/state/revise_queue.json
 brain/state/revise_last_sig.txt
 brain/state/detections.jsonl
+brain/state/learn_queue.jsonl
+brain/state/learn_flags.json

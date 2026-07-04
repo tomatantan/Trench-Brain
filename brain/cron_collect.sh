@@ -61,6 +61,8 @@ bash brain/synthesize_gaps.sh || echo "synth-gaps skipped" >> "$LOG"
 # (2d.46)★学習の両輪(合成半・§Query/原則3): ask.sh が積んだ Q&A(query_log)を門付きで wiki/queries に
 # 資産化＝質問するほど脳が賢くなる(以後 BM25/api/search で回答材料に=クエリ軸の複利)。空queue=コスト0。
 python3 brain/asset_queries.py >> "$LOG" 2>&1 || echo "asset_queries skipped" >> "$LOG"
+# (2d.48)★1タップ学習を消費(サーフィンの「学習」ボタン→KOL watchlist昇格/銘柄フラグ/ソース保存・人が門)
+python3 brain/learn_consume.py >> "$LOG" 2>&1 || echo "learn_consume skipped" >> "$LOG"
 # (2d.5)★合成出力の門番(step3・foolproof): この周期の合成が壊れたページ(frontmatter破損/synthesisブロック不均衡/失敗マーカー)を吐いてないか機械検証。fail-safe=commitは止めない(queueがgitignore=revertでqueue-loss危険)が不正をloudにログ+記録し沈黙failを根絶。
 python3 brain/synth_validate.py > brain/state/synth_validate.out 2>&1 && echo "synth_validate: OK" >> "$LOG" || echo "★synth_validate: 合成出力に不正検出→brain/state/synth_validate.out 要確認" >> "$LOG"
 # (2e)lint層=第5の輪・自己検証(過学習対策)。wiki自身の小N型/矛盾/陳腐化を敵対的に検出→lint-report(報告のみ)。~日次gate。
@@ -93,7 +95,7 @@ python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
-git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json brain/state/feedback_stats.json brain/state/answer_scorecard.json brain/state/compounding_history.jsonl >> "$LOG" 2>&1 || true
+git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json brain/state/feedback_stats.json brain/state/answer_scorecard.json brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
