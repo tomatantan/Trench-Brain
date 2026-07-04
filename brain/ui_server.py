@@ -132,6 +132,10 @@ API_INDEX = [
     {"path": "/api/death-ledger", "method": "GET", "desc": "died/graduated/death_rate+分母"},
     {"path": "/api/score", "method": "GET", "params": {"token": "$ticker or CA"},
      "desc": "★ape-or-avoid=scam門(rugcheck)+保有集中+base-rateで張る/避ける判定"},
+    {"path": "/api/judge", "method": "GET/POST",
+     "params": {"e": "entity,entity2,... (GET・カンマ区切り・$有無どちらも可・最大50)"},
+     "body": {"entities": ["str", "..."]},
+     "desc": "★トークンサーフィン用の一瞬バッジ=networkを呼ばずローカルstateのみで<50ms判定。詳細は/api/scoreへエスカレーション"},
     {"path": "/api/digest", "method": "GET", "desc": "日次snapshot差分=何が変わった(mints/死/台帳…)"},
     {"path": "/api/contradictions", "method": "GET", "desc": "⚠️矛盾フラグの立ったページ(矛盾の表面化)"},
     {"path": "/api/orphans", "method": "GET", "params": {"kind": "任意"},
@@ -180,6 +184,146 @@ def _tail_jsonl(name, n, maxbytes=300000):
         return out
     except Exception:
         return []
+
+
+# --- /api/judge: トークンサーフィン用の一瞬バッジ ---
+# network呼ばず brain/state/*.json だけを読む決定的判定(LLM不使用)。<50msを狙い、
+# 大きい tracked.json(数MB)はモジュールレベルで mtime キャッシュ(変わらない限り再パースしない)。
+_JUDGE_CA_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{32,44}$")
+_STATE_MTIME_CACHE = {}  # name -> (mtime, data)
+_TRACKED_CACHE = {"mtime": None, "by_mint": {}, "by_ticker": {}}
+
+
+def _cached_state_json(name, default):
+    """_state_json のキャッシュ版: mtime が変わってなければ再読込しない(judge の性能要件用)。"""
+    p = STATE / name
+    try:
+        mtime = p.stat().st_mtime
+    except OSError:
+        return default
+    cached = _STATE_MTIME_CACHE.get(name)
+    if cached is not None and cached[0] == mtime:
+        return cached[1]
+    data = _state_json(name, default)
+    _STATE_MTIME_CACHE[name] = (mtime, data)
+    return data
+
+
+def _tracked_data():
+    """tracked.json を mint→rec と ticker(upper・$無し)→[rec,...](first_seen昇順) の両方でキャッシュ。"""
+    p = STATE / "tracked.json"
+    try:
+        mtime = p.stat().st_mtime
+    except OSError:
+        return {}, {}
+    if _TRACKED_CACHE["mtime"] == mtime:
+        return _TRACKED_CACHE["by_mint"], _TRACKED_CACHE["by_ticker"]
+    by_mint = _state_json("tracked.json", {})
+    by_ticker = {}
+    for rec in by_mint.values():
+        t = (rec.get("ticker") or "").strip().lstrip("$").upper()
+        if not t:
+            continue
+        by_ticker.setdefault(t, []).append(rec)
+    for rows in by_ticker.values():
+        rows.sort(key=lambda r: r.get("first_seen") or "")
+    _TRACKED_CACHE.update({"mtime": mtime, "by_mint": by_mint, "by_ticker": by_ticker})
+    return by_mint, by_ticker
+
+
+def _judge_kols(rec, kol_records):
+    """rec の kol_ca+kol_ticker handle を kol_track_records と突合(evaluated>=2のみ・最大3人)。"""
+    out, seen = [], set()
+    handles = list(rec.get("kol_ca") or []) + list(rec.get("kol_ticker") or [])
+    for h in handles:
+        key = str(h).strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        kr = kol_records.get(key)
+        if kr and (kr.get("evaluated") or 0) >= 2:
+            out.append({"handle": kr.get("handle") or h, "death_rate": kr.get("death_rate")})
+        if len(out) >= 3:
+            break
+    return out
+
+
+def _judge_verdict_tracked(rec):
+    """tracked.json のrecから決定的にverdict/headlineを出す(仕様の優先順位そのまま)。"""
+    status = rec.get("status")
+    gate = rec.get("gate") or ""
+    last = rec.get("last") or {}
+    has_kol = bool(rec.get("kol_ca")) or bool(rec.get("kol_ticker"))
+    if status == "dead":
+        return "DEAD", f"死亡確認(peak_mcap=${rec.get('peak_mcap') or 0:,.0f})"
+    if "graduated" in gate and not has_kol and (last.get("reply_count") or 0) == 0:
+        return "AVOID寄り", "graduated-but-empty型=最頻死型(KOL言及無し・reply0)"
+    if "mcap" in gate:
+        return "WATCH", "mcap勢い門通過=相対生存層"
+    return "OBSERVED", f"追跡中(gate: {gate or '不明'})"
+
+
+def _judge_tracked_result(rec, kol_records):
+    verdict, headline = _judge_verdict_tracked(rec)
+    return {
+        "verdict": verdict, "headline": headline, "status": rec.get("status"),
+        "peak_mcap": rec.get("peak_mcap"), "mcap_now": (rec.get("last") or {}).get("mcap_usd"),
+        "gate": rec.get("gate"), "kols": _judge_kols(rec, kol_records),
+    }
+
+
+def _judge_unknown(die_pct):
+    return {"verdict": "UNKNOWN", "headline": f"未観測。base-rate: 門通過でも死{die_pct}%",
+            "status": None, "peak_mcap": None, "mcap_now": None, "gate": None, "kols": []}
+
+
+def _judge_entity(raw, by_mint, by_ticker, ca_cache, kol_records, die_pct):
+    core = raw.strip().lstrip("$")
+    if _JUDGE_CA_RE.match(core):
+        rec = by_mint.get(core)
+        if rec is not None:
+            return _judge_tracked_result(rec, kol_records)
+        cached = ca_cache.get(core)
+        if cached is not None:
+            outcome = cached.get("outcome")
+            mcap = cached.get("mcap")
+            graduated = cached.get("graduated")
+            if outcome == "dead":
+                return {"verdict": "DEAD",
+                        "headline": f"死亡確認(cache: mcap=${mcap or 0:,.0f})",
+                        "status": "dead", "peak_mcap": None, "mcap_now": mcap,
+                        "gate": None, "kols": []}
+            if outcome == "alive":
+                grad_note = "・graduated" if graduated else ""
+                return {"verdict": "OBSERVED",
+                        "headline": f"生存確認(cache: mcap=${mcap or 0:,.0f}{grad_note})",
+                        "status": "alive", "peak_mcap": None, "mcap_now": mcap,
+                        "gate": None, "kols": []}
+            # outcome=="unknown" 等はこれ以上の情報が無い＝未観測と同じ扱いに落とす
+        return _judge_unknown(die_pct)
+    # ticker: tracked.json を ticker(upper・$剥がし)で逆引き
+    ticker = core.upper()
+    rows = by_ticker.get(ticker)
+    if rows:
+        rec = rows[-1]  # first_seen 最新(昇順ソート済み配列の末尾)
+        out = _judge_tracked_result(rec, kol_records)
+        if len(rows) > 1:
+            out["candidates"] = len(rows)
+        return out
+    return _judge_unknown(die_pct)
+
+
+def _judge(entities):
+    by_mint, by_ticker = _tracked_data()
+    ca_cache = _cached_state_json("ca_outcome_cache.json", {})
+    kol_records = _cached_state_json("kol_track_records.json", {})
+    br = _cached_state_json("base_rate.json", {})
+    gp = br.get("gate_passed") or 1
+    die_pct = round(100 * (br.get("died") or 0) / gp, 1)
+    results = {}
+    for raw in entities:
+        results[raw] = _judge_entity(raw, by_mint, by_ticker, ca_cache, kol_records, die_pct)
+    return {"ok": True, "results": results, "count": len(results)}
 
 
 DETECTION_VERDICTS = {"APE", "REVIEW", "AVOID", "WATCH", "RECOVERED"}
@@ -497,11 +641,16 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_header("Location", "/ui/index.html")
             self.end_headers()
             return
-        # rate limit(公開保護): score は外部on-chain叩くので厳しめ・他はゆるめ
+        # rate limit(公開保護): score は外部on-chain叩くので厳しめ・judge はnetwork無しなので緩め・他は既定
         if path0.startswith("/api/"):
             ip = _real_ip(self)
-            is_score = path0 == "/api/score"
-            if not _rate_ok(f"{ip}:{'s' if is_score else 'g'}", 15 if is_score else 90):
+            if path0 == "/api/score":
+                bucket, limit = "s", 15
+            elif path0 == "/api/judge":
+                bucket, limit = "j", 240
+            else:
+                bucket, limit = "g", 90
+            if not _rate_ok(f"{ip}:{bucket}", limit):
                 self._json(429, {"ok": False, "error": "rate limit — 少し待ってから再試行"})
                 return
         # 自己ドキュメント: 全API機能の一覧(UIチームの発見入口)
@@ -799,6 +948,22 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # ★トークンサーフィン用インラインバッジ: network無し・ローカルstateのみで<50ms判定
+        if path0 == "/api/judge":
+            qs = parse_qs(urlparse(self.path).query)
+            raw = qs.get("e", [""])[0]
+            entities = [p.strip() for p in raw.split(",") if p.strip()]
+            if not entities:
+                self._json(400, {"ok": False, "error": "e が空(カンマ区切りentity、最大50)"})
+                return
+            if len(entities) > 50:
+                self._json(400, {"ok": False, "error": "最大50個まで"})
+                return
+            try:
+                self._json(200, _judge(entities))
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
         # ★定期ダイジェスト: 日次snapshot差分＝先週/昨日から何が変わったか
         if path0 == "/api/digest":
             hist = _tail_jsonl("pulse_history.jsonl", 8)
@@ -863,6 +1028,34 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 print(f"[detect] error: {e}", file=sys.stderr)
                 self._json(500, {"ok": False, "error": "internal error"})
+            return
+        if path0 == "/api/judge":
+            if not _rate_ok(f"{_real_ip(self)}:j", 240):
+                self._json(429, {"ok": False, "error": "rate limit — 少し待ってから再試行"})
+                return
+            try:
+                body = _read_json_body(self, maxbytes=DETECTION_MAX_BODY)
+            except OverflowError:
+                self._json(413, {"ok": False, "error": "body too large"})
+                return
+            except Exception:
+                self._json(400, {"ok": False, "error": "bad json body"})
+                return
+            entities = body.get("entities") if isinstance(body, dict) else None
+            if not isinstance(entities, list):
+                self._json(400, {"ok": False, "error": "entities(配列)が要る"})
+                return
+            entities = [str(e).strip() for e in entities if str(e).strip()]
+            if not entities:
+                self._json(400, {"ok": False, "error": "entities が空"})
+                return
+            if len(entities) > 50:
+                self._json(400, {"ok": False, "error": "最大50個まで"})
+                return
+            try:
+                self._json(200, _judge(entities))
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
             return
         if path0 != "/api/ask":
             self.send_error(404)
