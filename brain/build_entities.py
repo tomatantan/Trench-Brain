@@ -135,7 +135,8 @@ def main():
         notes_.sort(reverse=True)
         accts = sorted(tk_accounts[tk])
         cooc = [f"[[{t}]]" for t, _ in tk_cooc[tk].most_common(8)]
-        rows = [f"| {lk:,} | [[@{ac}]] | {snip(bd)} | [[{fn}]] |"
+        # ac="?"(handle不明)は [[@?]] の壊れリンクになる→リンクにせず素の"?"にする(dangling根絶)
+        rows = [f"| {lk:,} | {('[[@'+ac+']]') if ac != '?' else '?'} | {snip(bd)} | [[{fn}]] |"
                 for lk, ac, bd, fn in notes_[:10]]
         page = [
             "---", "type: entity", "kind: token", f"title: {tk}",

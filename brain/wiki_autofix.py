@@ -45,6 +45,11 @@ def build_stem_maps():
     lower_map: dict[str, set[str]] = defaultdict(set)
     for stem in existing:
         lower_map[stem.lower()].add(stem)
+        # 表記ゆれ耐性(2026-07-04): space↔hyphen を正規化した鍵も張る。
+        # 「[[my concept]]」↔「my-concept.md」の類を一意なら auto-repair できる(dangling蓄積対策)。
+        norm = stem.lower().replace(" ", "-")
+        if norm != stem.lower():
+            lower_map[norm].add(stem)
     return existing, lower_map
 
 
@@ -105,9 +110,10 @@ def classify(
             leave_targets.add(target)
             continue
 
-        # (a) auto-repair: lower が一意に1つの既存 stem に解決でき、かつ target != stem
-        if tl in lower_map and len(lower_map[tl]) == 1:
-            correct_stem = next(iter(lower_map[tl]))
+        # (a) auto-repair: lower(または space→hyphen正規化) が一意に1つの既存 stem に解決でき、かつ target != stem
+        key = tl if tl in lower_map else tl.replace(" ", "-")
+        if key in lower_map and len(lower_map[key]) == 1:
+            correct_stem = next(iter(lower_map[key]))
             if target != correct_stem:
                 repairs[target] = correct_stem
                 repair_files[target].append(file_path)
