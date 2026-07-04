@@ -1,12 +1,12 @@
 {
- "ts": "2026-07-04T06:54Z",
+ "ts": "2026-07-04T10:36Z",
  "summary": {
-  "answers": 6,
-  "tokens_mentioned": 4,
-  "dead_now": 2,
-  "alive_now": 0,
-  "unknown": 2,
-  "dead_pct_of_resolved": 100
+  "answers": 9,
+  "tokens_mentioned": 9,
+  "dead_now": 5,
+  "alive_now": 1,
+  "unknown": 3,
+  "dead_pct_of_resolved": 83
  },
  "answers": {
   "2026-07-02T16:02Z-bf59495f": {
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 63,
-     "evaluated_now": 166
+     "death_rate_now": 61,
+     "evaluated_now": 175
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -143,7 +143,7 @@
     },
     "golocojp": {
      "death_rate_now": 0,
-     "evaluated_now": 6
+     "evaluated_now": 7
     }
    },
    "at_first_score": {
@@ -157,6 +157,105 @@
      "golocojp": {
       "death_rate_now": 0,
       "evaluated_now": 6
+     }
+    }
+   }
+  },
+  "2026-07-04T07:00Z-86fc2143": {
+   "ts": "2026-07-04T07:00Z",
+   "question": "Ansem",
+   "tokens": {
+    "$ALYCIA": {
+     "status": "dead",
+     "peak_mcap": 113825.39664860426,
+     "mcap_now": 1690.4164779195023,
+     "ambiguous_candidates": 4
+    },
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 286.2390268938988,
+     "mcap_now": 286.2390268938988,
+     "ambiguous_candidates": 4
+    },
+    "$GLDBULL": {
+     "status": "dead",
+     "peak_mcap": 65682.00196808706,
+     "mcap_now": 5590.17249975069
+    },
+    "$TRIPLEA": {
+     "status": "alive",
+     "peak_mcap": 34042.308924656834,
+     "mcap_now": 33262.832308813595
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-04T10:36Z",
+    "tokens": {
+     "$ALYCIA": {
+      "status": "dead",
+      "peak_mcap": 113825.39664860426,
+      "mcap_now": 1690.4164779195023,
+      "ambiguous_candidates": 4
+     },
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 286.2390268938988,
+      "mcap_now": 286.2390268938988,
+      "ambiguous_candidates": 4
+     },
+     "$GLDBULL": {
+      "status": "dead",
+      "peak_mcap": 65682.00196808706,
+      "mcap_now": 5590.17249975069
+     },
+     "$TRIPLEA": {
+      "status": "alive",
+      "peak_mcap": 34042.308924656834,
+      "mcap_now": 33262.832308813595
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-04T07:01Z-025a8bb5": {
+   "ts": "2026-07-04T07:01Z",
+   "question": "Ansemの発言によって様々なトークンが伸び来ているが",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-04T10:36Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-04T07:02Z-aa5eb017": {
+   "ts": "2026-07-04T07:02Z",
+   "question": "今年のビットコインの底値は",
+   "tokens": {
+    "$STRC": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {
+    "cryptokaleo": {
+     "death_rate_now": 0,
+     "evaluated_now": 1
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T10:36Z",
+    "tokens": {
+     "$STRC": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {
+     "cryptokaleo": {
+      "death_rate_now": 0,
+      "evaluated_now": 1
      }
     }
    }
