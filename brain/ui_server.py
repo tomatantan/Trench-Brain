@@ -379,25 +379,35 @@ def _judge_unknown(die_pct, core=None, is_ca=False):
         mcap = enr["mcap"]
         age_h = enr.get("age_h")
         mstr = f"${mcap/1e6:.1f}M" if mcap >= 1e6 else f"${mcap/1e3:.0f}K"
-        agestr = (f"{age_h/24:.0f}日前" if age_h and age_h >= 24 else f"{age_h:.0f}時間前" if age_h else "不明")
-        if mcap >= 3e6:  # 確立済みの大型/中型
-            return {"verdict": "ESTABLISHED",
-                    "headline": f"確立済み({mstr}・作成{agestr})",
-                    "lens": {"hook": f"確立済みの銘柄（時価総額{mstr}）。新規の博打じゃない＝別の見方で読む",
-                             "why": f"pump.fun新規の“死ぬ/生きる”の話とは別枠。{mstr}まで育った＝一定の需要と時間を生き延びた銘柄。ここで効くのは『死亡型』でなく、今の勢い・板の厚み・誰が今推してるか。",
-                             "how": "1) DexScreenerで直近の出来高と買い/売りの比＝勢いが続いてるか失速か\n2) Xで“今”誰が話してるか＝実績あるKOLか、遅れてきた養分か\n3) チャートで高値掴みになってないか（既に伸びきってないか）",
-                             "act": "『死ぬ博打』の枠で見るな。勢い・板・高値掴みリスクで判断。乗るなら利確ラインを先に決める",
-                             },
-                    "status": "established", "peak_mcap": None, "mcap_now": mcap, "gate": None, "kols": []}
-        # 小型/新規寄り
-        return {"verdict": "SMALL",
-                "headline": f"小型/新規寄り({mstr}・作成{agestr})",
-                "lens": {"hook": f"まだ小さい（{mstr}・{agestr}）＝新規〜初期の博打ゾーン",
-                         "why": f"時価総額{mstr}は初期。うちの魔界の実測ではこの規模帯は門を通っても大半が死ぬ（base {die_pct}%）。伸びる前の初期でもあり、死ぬ前でもある＝一番分かれる所。",
-                         "how": "1) DexScreenerのTxns＝買いが連続して分厚いか（本物の需要）\n2) Holders上位が数人で独占してないか（1人投げたら終わり）\n3) Xで実績あるKOLが拾い始めてるか",
-                         "act": "小さく・利確ライン決めて。板が売りに変わったら即降りる。KOL裏付け無しの噴きは見送り",
-                         },
-                "status": "small", "peak_mcap": None, "mcap_now": mcap, "gate": None, "kols": []}
+        agestr = (f"{age_h/24:.0f}日前" if age_h and age_h >= 24 else f"{age_h:.0f}時間前" if age_h else "作成不明")
+        # ★魔界基準のスケール(本人2026-07-04「2M超えてまだ小さいはキモい・200越えなんか見ない」):
+        #   memeは大半が$100K以下で死ぬ。$1M超=既に生存者。$50M超=大型。$200M超=一握りのトップ級。
+        #   TradFi脳($3M=小型)は誤り。生き残った銘柄を"小さい"と言わない。
+        if mcap >= 2e8:   # トップ級(ANSEM/BONK級・魔界では稀)
+            v, st = "ELITE", "elite"
+            hook = f"魔界トップ級（{mstr}）。ここまで来る銘柄は一握り＝博打の枠はとうに抜けてる"
+            why = f"memeは大半が$100K以下で死ぬ中、{mstr}は別次元。もう「死ぬ/生きる」の話じゃない。ここで効くのは『まだ上があるか・天井が近いか・高値掴みじゃないか』。"
+            act = "初期博打の枠で見るな。天井/高値掴みリスクと、まだ買い需要が続いてるかで判断"
+        elif mcap >= 3e7:  # 大型
+            v, st = "MAJOR", "major"
+            hook = f"大型（{mstr}）。大半が死ぬ魔界で相当生き残った側。小さくない"
+            why = f"{mstr}まで育った＝需要と時間を生き延びた実力銘柄。死亡型の枠でなく、今の勢い・板の厚み・誰が今推してるかで読む。"
+            act = "『死ぬ博打』でなく勢い・板・高値掴みで判断。乗るなら利確ライン先に決める"
+        elif mcap >= 1e6:  # 生存者・中堅(★$1M超は"小さい"と言わない)
+            v, st = "SURVIVOR", "survivor"
+            hook = f"生き残った側（{mstr}）。ゴミの山を抜けて需要を掴んだ実在の銘柄"
+            why = f"魔界は大半が$100K以下で消える。{mstr}まで来た時点で篩は抜けてる＝“小さい新規”ではない。ただ天井かはまだ分からない＝勢いが続くか失速かの分かれ目。"
+            act = "勢い(出来高/買い売り比)と、今も実績KOLが推してるかで判断。伸びきってたら見送り"
+        else:  # $1M未満＝まだ篩の中(ここが本当の初期/博打ゾーン)
+            v, st = "EARLY", "early"
+            hook = f"まだ篩の中（{mstr}・{agestr}）＝大半がここで消える博打ゾーン"
+            why = f"魔界で$1M未満は初期＝門を通っても大半が死ぬ（base {die_pct}%）帯。伸びる前でもあり死ぬ前でもある＝一番分かれる所。"
+            act = "小さく・利確ライン決めて。板が売りに変わったら即降り。実績KOL裏付け無しの噴きは見送り"
+        return {"verdict": v, "headline": f"{mstr}・作成{agestr}",
+                "lens": {"hook": hook, "why": why,
+                         "how": "1) DexScreenerで直近の出来高と買い/売り比＝勢いが続くか失速か\n2) Xで“今”誰が話してるか＝実績KOLか遅れてきた養分か\n3) チャートで既に伸びきってないか（高値掴み）",
+                         "act": act},
+                "status": st, "peak_mcap": None, "mcap_now": mcap, "gate": None, "kols": []}
     # mcapが取れない＝本当に不明(正直に)
     return {"verdict": "UNKNOWN", "headline": "データ取得不可＝自分で確かめる",
             "lens": {"hook": "この銘柄の情報が取れない＝自分で見分けるしかない",
