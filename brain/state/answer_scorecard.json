@@ -1,36 +1,87 @@
 {
- "ts": "2026-07-04T04:46Z",
+ "ts": "2026-07-04T06:54Z",
  "summary": {
-  "answers": 4,
+  "answers": 6,
   "tokens_mentioned": 4,
-  "dead_now": 0,
+  "dead_now": 2,
   "alive_now": 0,
-  "unknown": 4,
-  "dead_pct_of_resolved": null
+  "unknown": 2,
+  "dead_pct_of_resolved": 100
  },
  "answers": {
-  "2026-07-02T14:45Z-c8e82a7f": {
-   "ts": "2026-07-02T14:45Z",
-   "question": "今暑いミーム",
+  "2026-07-02T16:02Z-bf59495f": {
+   "ts": "2026-07-02T16:02Z",
+   "question": "今流行りのmeme",
    "tokens": {
-    "$BAG": {
+    "$ANSEMCT": {
      "status": "unknown",
      "note": "trackedに無し(ticker未解決)"
     },
-    "$MBAPPE": {
+    "$BAG": {
+     "status": "dead",
+     "peak_mcap": 640972.2440279952,
+     "mcap_now": 59514.4204398738
+    },
+    "$EXCITEDGUY": {
+     "status": "dead",
+     "peak_mcap": 184459.6386875612,
+     "mcap_now": 1942.654926906135
+    }
+   },
+   "kols": {
+    "badattrading_": {
+     "death_rate_now": 63,
+     "evaluated_now": 166
+    },
+    "crypto_alch": {
+     "death_rate_now": 0,
+     "evaluated_now": 6
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T06:54Z",
+    "tokens": {
+     "$ANSEMCT": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$BAG": {
+      "status": "dead",
+      "peak_mcap": 640972.2440279952,
+      "mcap_now": 59514.4204398738
+     },
+     "$EXCITEDGUY": {
+      "status": "dead",
+      "peak_mcap": 184459.6386875612,
+      "mcap_now": 1942.654926906135
+     }
+    },
+    "kols": {
+     "badattrading_": {
+      "death_rate_now": 63,
+      "evaluated_now": 166
+     },
+     "crypto_alch": {
+      "death_rate_now": 0,
+      "evaluated_now": 6
+     }
+    }
+   }
+  },
+  "2026-07-02T16:06Z-9db634e4": {
+   "ts": "2026-07-02T16:06Z",
+   "question": "次に来るmeme",
+   "tokens": {
+    "$DRTRUMP": {
      "status": "unknown",
      "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
    "at_first_score": {
-    "scored_ts": "2026-07-04T04:13Z",
+    "scored_ts": "2026-07-04T06:54Z",
     "tokens": {
-     "$BAG": {
-      "status": "unknown",
-      "note": "trackedに無し(ticker未解決)"
-     },
-     "$MBAPPE": {
+     "$DRTRUMP": {
       "status": "unknown",
       "note": "trackedに無し(ticker未解決)"
      }
@@ -38,14 +89,57 @@
     "kols": {}
    }
   },
-  "2026-07-02T15:46Z-b76383a9": {
-   "ts": "2026-07-02T15:46Z",
-   "question": "今の魔界、勝ってるトレーダーならどう立ち回る?",
+  "2026-07-02T16:07Z-14fdbe79": {
+   "ts": "2026-07-02T16:07Z",
+   "question": "猫は？",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-04T06:54Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-04T05:30Z-8ffda0e2": {
+   "ts": "2026-07-04T05:30Z",
+   "question": "これから熱くなりそうなトークン",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-04T06:54Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-04T05:30Z-fb5c39f7": {
+   "ts": "2026-07-04T05:30Z",
+   "question": "今KOLならどう動くといいかな",
    "tokens": {},
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 4
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T06:54Z",
+    "tokens": {},
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     }
+    }
+   }
+  },
+  "2026-07-04T05:36Z-8795297c": {
+   "ts": "2026-07-04T05:36Z",
+   "question": "今強者はどう動く",
+   "tokens": {},
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
     },
     "golocojp": {
      "death_rate_now": 0,
@@ -53,7 +147,7 @@
     }
    },
    "at_first_score": {
-    "scored_ts": "2026-07-04T04:13Z",
+    "scored_ts": "2026-07-04T06:54Z",
     "tokens": {},
     "kols": {
      "blknoiz06": {
@@ -65,69 +159,6 @@
       "evaluated_now": 6
      }
     }
-   }
-  },
-  "2026-07-02T15:56Z-27096408": {
-   "ts": "2026-07-02T15:56Z",
-   "question": "強いトレーダーと弱いトレーダーの決定的な違いは何? 魔界で勝つ思考と負ける思考を対比して",
-   "tokens": {},
-   "kols": {
-    "blknoiz06": {
-     "death_rate_now": 0,
-     "evaluated_now": 3
-    },
-    "golocojp": {
-     "death_rate_now": 0,
-     "evaluated_now": 6
-    }
-   },
-   "at_first_score": {
-    "scored_ts": "2026-07-04T04:13Z",
-    "tokens": {},
-    "kols": {
-     "blknoiz06": {
-      "death_rate_now": 0,
-      "evaluated_now": 4
-     },
-     "golocojp": {
-      "death_rate_now": 0,
-      "evaluated_now": 6
-     }
-    }
-   }
-  },
-  "2026-07-02T15:58Z-9e988de5": {
-   "ts": "2026-07-02T15:58Z",
-   "question": "@badattrading_ は客観的に強いトレーダー? 弱い? 実績と思考の型で第三者評価して",
-   "tokens": {
-    "$AGI": {
-     "status": "unknown",
-     "note": "trackedに無し(ticker未解決)"
-    },
-    "$MERLIN": {
-     "status": "unknown",
-     "note": "trackedに無し(ticker未解決)"
-    }
-   },
-   "kols": {
-    "badattrading_": {
-     "death_rate_now": 63,
-     "evaluated_now": 145
-    }
-   },
-   "at_first_score": {
-    "scored_ts": "2026-07-04T04:13Z",
-    "tokens": {
-     "$AGI": {
-      "status": "unknown",
-      "note": "trackedに無し(ticker未解決)"
-     },
-     "$MERLIN": {
-      "status": "unknown",
-      "note": "trackedに無し(ticker未解決)"
-     }
-    },
-    "kols": {}
    }
   }
  }
