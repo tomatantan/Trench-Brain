@@ -92,6 +92,15 @@ def main():
             "expected": [pct("gate_mcap")],
             "truth": bucket_str(s["gate_mcap"], "mcap勢い門"),
         })
+    if pct("gate_graduated") is not None:
+        # 敵対検証C1(2026-07-04)の教訓: 台帳に無いメトリクスはループの外に恒久的に残る。
+        # feedback_stats に bucket を足したら、ここに metric を必ず対で足す(SSOT=stats側)。
+        metrics.append({
+            "id": "gate_graduated", "mode": "kw", "kw": "graduated門",
+            "filter": lambda l: "graduated門" in l and "死" in l and "%" in l,
+            "expected": [pct("gate_graduated")],
+            "truth": bucket_str(s["gate_graduated"], "graduated門(全graduated)"),
+        })
     if pct("peak_below_10k") is not None:
         metrics.append({
             "id": "peak_below_10k", "mode": "kw", "kw": "10k",
@@ -144,7 +153,7 @@ def main():
     pages = sorted({q["page"] for q in queue})
     print(f"revise_detect: {len(queue)}件のstale数値を検出 → revise_queue.json（{len(pages)}ページ: "
           + ", ".join(p.split('/')[-1] for p in pages) + ")" if queue else
-          "revise_detect: 乖離なし(concept数値は実測と整合)")
+          f"revise_detect: 登録{len(metrics)}メトリクスの範囲で乖離なし（台帳外の数値は保証しない＝拡充はfeedback_statsとペアで）")
 
 
 if __name__ == "__main__":

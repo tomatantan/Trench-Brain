@@ -21,10 +21,11 @@ if [ "$n" -eq 0 ]; then
 fi
 
 # 署名dedup: 同じ乖離集合を毎サイクル再合成しない(LLM出力が同じ乖離を残した場合の無限コスト防止)。
+# 署名に current(実測側)も含める=実測がさらにドリフトしたら別署名になり再試行される(敵対検証P1: 永久凍結防止)。
 current_sig=$(python3 -c "
 import json,hashlib
 d=json.load(open('$QUEUE'))
-keys=sorted(f\"{x['page']}|{x['metric']}|{x['written_pct']}\" for x in d if isinstance(x,dict))
+keys=sorted(f\"{x['page']}|{x['metric']}|{x['written_pct']}|{x.get('current')}\" for x in d if isinstance(x,dict))
 print(hashlib.md5(','.join(keys).encode()).hexdigest())
 " 2>/dev/null || echo "")
 prev_sig=""

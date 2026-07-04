@@ -336,11 +336,13 @@ def _op1():
     return ("FAIL" if age_h > 12 else "PASS"), f"最新player entity {age_h:.1f}h前更新({len(files)}件)＝{'古い=build_entities停止疑い' if age_h > 12 else 'パイプライン稼働'}"
 
 
-@check("K1", "§0.1-1 矛盾=KPI", "conceptsが増えてるのに表面化した矛盾(⚠️)が増えてない=echo-chamber兆候を検出")
+@check("K1", "§0.1-1 矛盾=KPI", "知識(concepts/entities)が増えてるのに表面化した矛盾(⚠️)が増えてない=echo-chamber兆候を検出")
 def _k1():
     # 設計書 ENGINE-REDESIGN §0.1-1: wikiの健康は coverage でなく surfaced contradictions。
-    # 一致だけ増えるのは劣化(echo-chamber)。compounding_history.jsonl(compounding.py が毎サイクル追記)の
-    # 推移で「concepts純増 なのに contradictions_surfaced 横這い」を機械検出する。
+    # 一致だけ増えるのは劣化(echo-chamber)。compounding_history.jsonl(compounding.py が毎サイクル追記)の推移で検出。
+    # 敵対検証C5(2026-07-04): conceptsは指針8で静止しがち=concepts条件だけでは支配的なecho-chamberモード
+    # (既存ページに一致だけ肥る)を検出できない→entities成長も「知識が増えてる」条件に加えた。
+    # ⚠️既知の限界: contradictions_surfaced は ⚠️ カウント＝revise loop 自身も増やす(自家発電分を含む)。
     import json as _j
     p = ROOT / "brain" / "state" / "compounding_history.jsonl"
     if not p.exists():
@@ -355,11 +357,38 @@ def _k1():
         return "WARN", f"履歴{len(rows)}点=推移未評価(2点以上で評価開始)"
     win = rows[-10:]
     dc = (win[-1].get("n_concepts") or 0) - (win[0].get("n_concepts") or 0)
+    de = (win[-1].get("n_entities") or 0) - (win[0].get("n_entities") or 0)
     dk = (win[-1].get("contradictions_surfaced") or 0) - (win[0].get("contradictions_surfaced") or 0)
     now_k = win[-1].get("contradictions_surfaced")
-    if dc >= 2 and dk <= 0:
-        return "WARN", f"直近{len(win)}点: concepts +{dc} なのに矛盾表面化 {dk:+d}＝一致だけ増えてる疑い(echo-chamber)→対立ソース/弱者voiceの取り込みを"
-    return "PASS", f"直近{len(win)}点: concepts {dc:+d} / 矛盾表面化 {dk:+d}（現在{now_k}）＝矛盾が知識と共に増えてる"
+    if (dc >= 2 or de >= 20) and dk <= 0:
+        return "WARN", (f"直近{len(win)}点: concepts +{dc} / entities +{de} なのに矛盾表面化 {dk:+d}"
+                        f"＝一致だけ増えてる疑い(echo-chamber)→対立ソース/弱者voiceの取り込みを")
+    return "PASS", f"直近{len(win)}点: concepts {dc:+d} / entities {de:+d} / 矛盾表面化 {dk:+d}（現在{now_k}）"
+
+
+@check("G4a", "G4/自己改訂", "revise滞留=署名済みのまま再合成されない乖離が残ってない(自己改訂の沈黙fail防止)")
+def _g4a():
+    # 敵対検証P1/P2(2026-07-04): consumerがexit 0でも直せてないと署名dedupで永久skipし得る。
+    # queueが非空かつ署名が前回consumed署名と一致=「検出されてるのに二度と直されない」状態をWARNで可視化。
+    import hashlib as _h
+    import json as _j
+    q = ROOT / "brain" / "state" / "revise_queue.json"
+    sig_f = ROOT / "brain" / "state" / "revise_last_sig.txt"
+    if not q.exists():
+        return "PASS", "revise_queue無し(未稼働 or 乖離ゼロ)"
+    try:
+        d = _j.loads(q.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return "WARN", "revise_queue parse不可"
+    if not d:
+        return "PASS", "revise_queue空=concept数値は登録メトリクス範囲で実測と整合"
+    keys = sorted(f"{x['page']}|{x['metric']}|{x['written_pct']}|{x.get('current')}" for x in d if isinstance(x, dict))
+    cur = _h.md5(",".join(keys).encode()).hexdigest()
+    prev = sig_f.read_text().strip() if sig_f.exists() else ""
+    if cur == prev:
+        pages = sorted({x.get("page", "?").split("/")[-1] for x in d if isinstance(x, dict)})
+        return "WARN", f"revise滞留 {len(d)}件({', '.join(pages[:4])})＝署名済みで再合成されない乖離(consumer失敗 or LLMが直せてない)"
+    return "PASS", f"queue {len(d)}件は未消費(次サイクルでconsumerが処理予定)"
 
 
 @check("S1", "§Lint/指針7", "内部 wikilink の切れ(指す先のwikiページが存在しない)を検出")

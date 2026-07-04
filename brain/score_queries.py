@@ -87,7 +87,8 @@ def main():
             continue
         aid = ts + "-" + hashlib.md5(q.encode()).hexdigest()[:8]
         # 構造化ログ(新)があれば使う。旧エントリは本文から抽出(fallback)。
-        tks = e.get("a_tickers") or tickers_of(q + " " + a)
+        # q_tickers も採点対象に含める(質問の主語銘柄を回答が復唱しないケース・敵対検証C3)。
+        tks = sorted(set(e.get("a_tickers") or tickers_of(q + " " + a)) | set(e.get("q_tickers") or []))
         cas = e.get("q_cas") or sorted(set(CA_RE.findall(q)))
         handles = e.get("a_handles") or sorted({h.lower() for h in HANDLE_RE.findall(a)})
 
@@ -95,10 +96,17 @@ def main():
         for tk in tks:
             recs = by_ticker.get(tk)
             if recs:
-                # 同ticker複数mintは「回答時点までに生まれた中で最新」を採る(誤ればunknown側に倒れるだけ)
-                cand = [r for r in recs if (r.get("first_seen") or "") <= (ts or "9999")] or recs
-                rec = max(cand, key=lambda r: r.get("first_seen") or "")
-                tokens[f"${tk}"] = token_outcome(rec)
+                # 同ticker複数mintは「回答時点までに生まれた中で最新」を採る。
+                # 回答時点より後に生まれたmintしか無ければ誤帰属せず unknown に倒す(敵対検証C2)。
+                cand = [r for r in recs if (r.get("first_seen") or "") <= (ts or "9999")]
+                if cand:
+                    rec = max(cand, key=lambda r: r.get("first_seen") or "")
+                    o = token_outcome(rec)
+                    if len(cand) > 1:
+                        o["ambiguous_candidates"] = len(cand)  # 同ticker多mint=誤帰属リスクを明示
+                    tokens[f"${tk}"] = o
+                else:
+                    tokens[f"${tk}"] = {"status": "unknown", "note": "回答時点で既知のmint無し(後発tickerのみ)"}
             else:
                 tokens[f"${tk}"] = {"status": "unknown", "note": "trackedに無し(ticker未解決)"}
         for ca in cas:
