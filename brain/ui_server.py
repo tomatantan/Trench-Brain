@@ -323,15 +323,79 @@ def _judge_tracked_result(rec, kol_records):
     }
 
 
-def _judge_unknown(die_pct):
-    # ★正直化(本人指摘2026-07-04「古いものでも新しいと言う＝精度ゴミ」): UNKNOWN=「うちが追跡してない」であって
-    #   「生まれたて」ではない。$ANSEM等の確立済みトークンもここに落ちる→"生まれたて"と断定するのは嘘。
-    #   断定せず「データが無い＝自分で新旧を見分けろ」+見分け方を渡す(無い時は無いと言う/教える)。
-    return {"verdict": "UNKNOWN", "headline": "うちの魔界追跡データに無い銘柄",
-            "lens": {"hook": "うちのデータに無い＝新規の博打か・確立済みか、まず自分で見分ける",
-                     "why": "うちが追跡してるのはpump.funの“新規ローンチ”。有名トークンや古い銘柄はそもそもデータが無い＝「分からない」が正直な答え。ここで断定しないのが精度。焦って乗る材料にはならない。",
-                     "how": "DexScreenerで新旧を見分ける:\n・時価総額がデカい/作成が数日以上前 → 確立済み。板の厚み・出来高・今誰が推してるかで見る\n・時価総額が小さい/作成が数時間以内 → 生まれたての博打（門通過でも" + f"{die_pct}%" + "死ぬ前提）",
-                     "act": "うちの判定を当てにせず、先に mcap と作成日で『新規の博打』か『確立済み』かを分ける。それから板と推し手を見る"},
+_DEX_CACHE = {}   # entity -> (ts, dict|None)  DexScreener即席enrichmentのTTLキャッシュ
+_DEX_TTL = 600
+
+
+def _dex_enrich(core, is_ca):
+    """UNKNOWN銘柄の実mcap/年齢をDexScreenerの公開APIで即席取得。断定材料を取ってから喋る為(本人「$347Mを"分からん"は無能」)。
+    返り値: {"mcap":float,"age_h":float|None,"name":str} or None。失敗/不明はNone(呼び側で正直unknownに落とす)。"""
+    import time as _t
+    key = core.lower()
+    hit = _DEX_CACHE.get(key)
+    if hit and _t.time() - hit[0] < _DEX_TTL:
+        return hit[1]
+    out = None
+    try:
+        if is_ca:
+            url = f"https://api.dexscreener.com/latest/dex/tokens/{core}"
+        else:
+            url = f"https://api.dexscreener.com/latest/dex/search?q={urllib.parse.quote(core)}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        data = json.loads(urllib.request.urlopen(req, timeout=4).read())
+        pairs = data.get("pairs") or []
+        # tickerは symbol 一致を優先(検索は緩い)。solana優先・流動性最大を採る。
+        want = None if is_ca else core.lstrip("$").upper()
+        cand = [p for p in pairs if not want or (p.get("baseToken") or {}).get("symbol", "").upper() == want]
+        cand = cand or pairs
+        cand.sort(key=lambda p: (p.get("chainId") != "solana", -((p.get("liquidity") or {}).get("usd") or 0)))
+        if cand:
+            p = cand[0]
+            mcap = p.get("marketCap") or p.get("fdv")
+            created = p.get("pairCreatedAt")
+            age_h = (_t.time() - created / 1000) / 3600 if created else None
+            if mcap:
+                out = {"mcap": float(mcap), "age_h": age_h,
+                       "name": (p.get("baseToken") or {}).get("name") or core}
+    except Exception:  # noqa: BLE001
+        out = None
+    _DEX_CACHE[key] = (_t.time(), out)
+    return out
+
+
+def _judge_unknown(die_pct, core=None, is_ca=False):
+    # ★精度(本人2026-07-04「$347Mを"分からん"は無能」): UNKNOWN(=うちの新規追跡に無い)でも、その場でmcap/年齢を取って
+    #   確立済み/新規を判別し実のある読みを返す。取れない時だけ正直に「不明・自分で見分けろ」。
+    enr = _dex_enrich(core, is_ca) if core else None
+    if enr and enr.get("mcap"):
+        mcap = enr["mcap"]
+        age_h = enr.get("age_h")
+        mstr = f"${mcap/1e6:.1f}M" if mcap >= 1e6 else f"${mcap/1e3:.0f}K"
+        agestr = (f"{age_h/24:.0f}日前" if age_h and age_h >= 24 else f"{age_h:.0f}時間前" if age_h else "不明")
+        if mcap >= 3e6:  # 確立済みの大型/中型
+            return {"verdict": "ESTABLISHED",
+                    "headline": f"確立済み({mstr}・作成{agestr})",
+                    "lens": {"hook": f"確立済みの銘柄（時価総額{mstr}）。新規の博打じゃない＝別の見方で読む",
+                             "why": f"pump.fun新規の“死ぬ/生きる”の話とは別枠。{mstr}まで育った＝一定の需要と時間を生き延びた銘柄。ここで効くのは『死亡型』でなく、今の勢い・板の厚み・誰が今推してるか。",
+                             "how": "1) DexScreenerで直近の出来高と買い/売りの比＝勢いが続いてるか失速か\n2) Xで“今”誰が話してるか＝実績あるKOLか、遅れてきた養分か\n3) チャートで高値掴みになってないか（既に伸びきってないか）",
+                             "act": "『死ぬ博打』の枠で見るな。勢い・板・高値掴みリスクで判断。乗るなら利確ラインを先に決める",
+                             },
+                    "status": "established", "peak_mcap": None, "mcap_now": mcap, "gate": None, "kols": []}
+        # 小型/新規寄り
+        return {"verdict": "SMALL",
+                "headline": f"小型/新規寄り({mstr}・作成{agestr})",
+                "lens": {"hook": f"まだ小さい（{mstr}・{agestr}）＝新規〜初期の博打ゾーン",
+                         "why": f"時価総額{mstr}は初期。うちの魔界の実測ではこの規模帯は門を通っても大半が死ぬ（base {die_pct}%）。伸びる前の初期でもあり、死ぬ前でもある＝一番分かれる所。",
+                         "how": "1) DexScreenerのTxns＝買いが連続して分厚いか（本物の需要）\n2) Holders上位が数人で独占してないか（1人投げたら終わり）\n3) Xで実績あるKOLが拾い始めてるか",
+                         "act": "小さく・利確ライン決めて。板が売りに変わったら即降りる。KOL裏付け無しの噴きは見送り",
+                         },
+                "status": "small", "peak_mcap": None, "mcap_now": mcap, "gate": None, "kols": []}
+    # mcapが取れない＝本当に不明(正直に)
+    return {"verdict": "UNKNOWN", "headline": "データ取得不可＝自分で確かめる",
+            "lens": {"hook": "この銘柄の情報が取れない＝自分で見分けるしかない",
+                     "why": "うちの追跡にもDexScreenerにも今すぐ出てこない＝判断材料ゼロ。ここで断定しないのが精度。焦って乗る所じゃない。",
+                     "how": "DexScreenerかpump.funで直接検索:\n・時価総額デカい/作成が古い → 確立済み（勢い・板で見る）\n・小さい/数時間以内 → 新規の博打（門通過でも" + f"{die_pct}%" + "死ぬ前提）",
+                     "act": "先に mcap と作成日で『新規の博打』か『確立済み』かを分けてから判断"},
             "status": None, "peak_mcap": None, "mcap_now": None, "gate": None, "kols": []}
 
 
@@ -357,8 +421,8 @@ def _judge_entity(raw, by_mint, by_ticker, ca_cache, kol_records, die_pct):
                         "headline": f"生存確認(cache: mcap=${mcap or 0:,.0f}{grad_note})",
                         "status": "alive", "peak_mcap": None, "mcap_now": mcap,
                         "gate": None, "kols": []}
-            # outcome=="unknown" 等はこれ以上の情報が無い＝未観測と同じ扱いに落とす
-        return _judge_unknown(die_pct)
+            # outcome=="unknown" 等はこれ以上の情報が無い＝enrichで実mcapを取りに行く
+        return _judge_unknown(die_pct, core=core, is_ca=True)
     # ticker: tracked.json を ticker(upper・$剥がし)で逆引き
     ticker = core.upper()
     rows = by_ticker.get(ticker)
@@ -368,7 +432,7 @@ def _judge_entity(raw, by_mint, by_ticker, ca_cache, kol_records, die_pct):
         if len(rows) > 1:
             out["candidates"] = len(rows)
         return out
-    return _judge_unknown(die_pct)
+    return _judge_unknown(die_pct, core=core, is_ca=False)
 
 
 def _judge(entities):
