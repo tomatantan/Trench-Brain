@@ -44,6 +44,10 @@ def load_token():
 TOKEN = load_token()
 API = f"https://api.telegram.org/bot{TOKEN}"
 
+# チーム投稿口(watch_intake)の承認コマンドは運営のみ。本人の Telegram chat_id。
+OWNER_CHAT_ID = 7563521418
+import watch_intake  # noqa: E402  (brain/ を sys.path に足すのは main 側)
+
 
 def _get(url, data=None, timeout=40):
     req = urllib.request.Request(url, data=data, headers={"User-Agent": UA})
@@ -283,6 +287,61 @@ def handle_wiki(chat_id, q):
         print(f"assetize err: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
 
 
+def handle_watch(chat_id, arg, sender):
+    """チーム: Xアカウントを承認待ちキューへ（誰でも）。"""
+    msg, paths = watch_intake.add_watch(str(ROOT), arg, sender)
+    if paths:
+        ok = git_commit_push(paths, f"watch-intake: 提案 {sender}")
+        msg += "" if ok else "\n⚠️ push失敗＝cloud未達(次サイクルで再試行)。"
+    send(chat_id, msg)
+
+
+def handle_source(chat_id, arg, sender):
+    """チーム: ニュース/情報ソースを承認待ちキューへ（誰でも）。"""
+    msg, paths = watch_intake.add_source(str(ROOT), arg, sender)
+    if paths:
+        ok = git_commit_push(paths, f"watch-intake: ソース提案 {sender}")
+        msg += "" if ok else "\n⚠️ push失敗＝cloud未達(次サイクルで再試行)。"
+    send(chat_id, msg)
+
+
+def handle_pending(chat_id):
+    """運営のみ: 承認待ち一覧。"""
+    if chat_id != OWNER_CHAT_ID:
+        send(chat_id, "承認待ちの確認は運営のみ。"); return
+    send(chat_id, watch_intake.list_pending(str(ROOT)))
+
+
+def handle_approve(chat_id, arg):
+    """運営のみ: 承認→本監視入り。"""
+    if chat_id != OWNER_CHAT_ID:
+        send(chat_id, "承認は運営のみ。"); return
+    msg, paths = watch_intake.approve(str(ROOT), arg)
+    if paths:
+        ok = git_commit_push(paths, "watch-intake: 承認→門/取り込み口に追加")
+        msg += "" if ok else "\n⚠️ push失敗＝cloud未達(次サイクルで再試行)。"
+    send(chat_id, msg)
+
+
+def handle_reject(chat_id, arg):
+    """運営のみ: 却下。"""
+    if chat_id != OWNER_CHAT_ID:
+        send(chat_id, "却下は運営のみ。"); return
+    msg, paths = watch_intake.reject(str(ROOT), arg)
+    if paths:
+        git_commit_push(paths, "watch-intake: 却下")
+    send(chat_id, msg)
+
+
+def sender_name(msg):
+    """提案者の表示名: @username 優先、無ければ first_name、最後に id。"""
+    fr = msg.get("from") or {}
+    if fr.get("username"):
+        return "@" + fr["username"]
+    nm = (fr.get("first_name", "") + " " + fr.get("last_name", "")).strip()
+    return nm or str(fr.get("id", "?"))
+
+
 def parse_cmd(text):
     """'/wiki@bot 質問' → ('wiki','質問')。コマンドでなければ (None,None)。"""
     text = text.strip()
@@ -375,7 +434,8 @@ def main():
             if not text:
                 continue
             cmd, arg = parse_cmd(text)
-            if cmd in ("wiki", "add", "check", "discover", "who", "context", "start", "help"):
+            if cmd in ("wiki", "add", "check", "discover", "who", "context", "start", "help",
+                       "watch", "source", "pending", "approve", "reject"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
@@ -390,8 +450,18 @@ def main():
                     handle_who(chat_id, arg)
                 elif cmd == "context":
                     handle_context(chat_id, arg)
+                elif cmd == "watch":
+                    handle_watch(chat_id, arg, sender_name(msg))
+                elif cmd == "source":
+                    handle_source(chat_id, arg, sender_name(msg))
+                elif cmd == "pending":
+                    handle_pending(chat_id)
+                elif cmd == "approve":
+                    handle_approve(chat_id, arg)
+                elif cmd == "reject":
+                    handle_reject(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
-                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n画像を送る = ミームをvisionで取り込む")
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n/watch @handle = 監視アカ提案(承認制)\n/source <URL> = 情報ソース提案(承認制)\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
                 print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
                 try:
