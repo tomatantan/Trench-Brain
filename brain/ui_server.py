@@ -324,12 +324,14 @@ def _judge_tracked_result(rec, kol_records):
 
 
 _DEX_CACHE = {}   # entity -> (ts, dict|None)  DexScreener即席enrichmentのTTLキャッシュ
-_DEX_TTL = 600
+_DEX_TTL = 90     # memeは値動きが速い→短命キャッシュ(本人「適切に」=鮮度優先)
 
 
 def _dex_enrich(core, is_ca):
     """UNKNOWN銘柄の実mcap/年齢をDexScreenerの公開APIで即席取得。断定材料を取ってから喋る為(本人「$347Mを"分からん"は無能」)。
-    返り値: {"mcap":float,"age_h":float|None,"name":str} or None。失敗/不明はNone(呼び側で正直unknownに落とす)。"""
+    ★tickerは同名別トークンが多数(ANSEM=pump.fun版$317M と 別の$248M版)→trenchツールなので
+      solana×pump.fun版を最優先で選ぶ(本人「248じゃねぇ」=違うトークンを拾ってた根因)。
+    返り値: {"mcap":float,"age_h":float|None,"name":str,"mint":str} or None。"""
     import time as _t
     key = core.lower()
     hit = _DEX_CACHE.get(key)
@@ -344,11 +346,16 @@ def _dex_enrich(core, is_ca):
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         data = json.loads(urllib.request.urlopen(req, timeout=4).read())
         pairs = data.get("pairs") or []
-        # tickerは symbol 一致を優先(検索は緩い)。solana優先・流動性最大を採る。
         want = None if is_ca else core.lstrip("$").upper()
         cand = [p for p in pairs if not want or (p.get("baseToken") or {}).get("symbol", "").upper() == want]
         cand = cand or pairs
-        cand.sort(key=lambda p: (p.get("chainId") != "solana", -((p.get("liquidity") or {}).get("usd") or 0)))
+
+        def rank(p):
+            addr = (p.get("baseToken") or {}).get("address", "") or ""
+            liq = (p.get("liquidity") or {}).get("usd") or 0
+            # 優先度: solana > pump.fun版(mintが"pump"終わり=魔界の本物) > 流動性
+            return (p.get("chainId") == "solana", addr.endswith("pump"), liq)
+        cand.sort(key=rank, reverse=True)
         if cand:
             p = cand[0]
             mcap = p.get("marketCap") or p.get("fdv")
@@ -356,7 +363,8 @@ def _dex_enrich(core, is_ca):
             age_h = (_t.time() - created / 1000) / 3600 if created else None
             if mcap:
                 out = {"mcap": float(mcap), "age_h": age_h,
-                       "name": (p.get("baseToken") or {}).get("name") or core}
+                       "name": (p.get("baseToken") or {}).get("name") or core,
+                       "mint": (p.get("baseToken") or {}).get("address")}
     except Exception:  # noqa: BLE001
         out = None
     _DEX_CACHE[key] = (_t.time(), out)
