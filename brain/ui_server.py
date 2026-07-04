@@ -263,17 +263,56 @@ def _judge_verdict_tracked(rec):
     return "OBSERVED", f"追跡中(gate: {gate or '不明'})"
 
 
+def _judge_lens(rec, verdict, kols):
+    """★製品の芯(本人directive 2026-07-04): 結論(AVOID/APE)でなく『この銘柄はどこをどう見るか』を返す。
+    勝者の読みを借りて目の前の1個を読む=ユーザーが強くなる(self-sufficient)・コピーされない・LLM Wikiでしか出せない。
+    watch=見るべき一点 / why=なぜそこが分かれ目か(教える) / tell=監視する具体シグナル。決定的(状況→lens)。"""
+    gate = rec.get("gate") or ""
+    kol_line = ""
+    if kols:
+        k = kols[0]
+        dr = k.get("death_rate")
+        kol_line = f"@{k.get('handle')}（過去call死{dr}%）が触れてる。"
+    if verdict == "DEAD":
+        return {"watch": "もう死んでる。学ぶのは『次に同じ型を見た時どこを見るか』",
+                "why": "この銘柄は結果が出た＝教材。graduated/勢い門/traction の有無のどれが効いたかを型として持ち帰る。",
+                "tell": "同型（gate・KOL有無・reply）を次に見たら、この結末を思い出す"}
+    if "graduated" in gate and verdict == "AVOID寄り":
+        return {"watch": "卒業済みなのに誰も話してない。板が“本物の需要”か“botの噴き”か",
+                "why": "graduated-but-empty はこのwikiで最頻の死に方。今の時点で乗る根拠が無い（誰も見てない＝需要の裏付けゼロ）。",
+                "tell": "後からKOLが付くか・replyが伸びるか。付かないまま数時間なら噴きの噴き"}
+    if "mcap" in gate:
+        return {"watch": "勢いで買われてる初期。この勢いが“実需で続く”か“単発の噴きで失速”か",
+                "why": "mcap勢い門は相対的に生存側だが保証ではない。分かれ目は勢いの持続と、拾い手の質。",
+                "tell": f"{kol_line}誰が拾い始めるか（KOL収束）と板の厚みの推移を追う"}
+    if kols:
+        k = kols[0]; dr = k.get("death_rate") or 0
+        stance = "実績が悪い＝call自体を逆signal寄りに割り引く" if dr >= 60 else \
+                 "実績は悪くないが小Nなら過信しない" if dr <= 40 else "平均的＝call単体では決め手にならない"
+        return {"watch": f"誰が推してるか。{kol_line}その人の実績と“言行一致”",
+                "why": f"{stance}。『この人がこの型をどう読むか』を借りて、銘柄でなく読み手で判断する。",
+                "tell": "その人が普段と違う熱量か・過去に同型で当てたか外したか"}
+    return {"watch": f"追跡中だが決め手が薄い（gate: {gate or '不明'}）。何を見れば分かれるか",
+            "why": "母集団は門を通っても大半死ぬ。単発の値動きでなく、需要の裏付け（KOL/板/creator）を見る。",
+            "tell": "最初に拾うKOL・板の厚み・creatorの過去（連続rugか）"}
+
+
 def _judge_tracked_result(rec, kol_records):
     verdict, headline = _judge_verdict_tracked(rec)
+    kols = _judge_kols(rec, kol_records)
     return {
-        "verdict": verdict, "headline": headline, "status": rec.get("status"),
+        "verdict": verdict, "headline": headline, "lens": _judge_lens(rec, verdict, kols),
+        "status": rec.get("status"),
         "peak_mcap": rec.get("peak_mcap"), "mcap_now": (rec.get("last") or {}).get("mcap_usd"),
-        "gate": rec.get("gate"), "kols": _judge_kols(rec, kol_records),
+        "gate": rec.get("gate"), "kols": kols,
     }
 
 
 def _judge_unknown(die_pct):
     return {"verdict": "UNKNOWN", "headline": f"未観測。base-rate: 門通過でも死{die_pct}%",
+            "lens": {"watch": "観測履歴ゼロ＝生まれたて。判定材料は何も無い。だから“最初に何を見るか”",
+                     "why": f"門を通っても大半（{die_pct}%）が死ぬのが前提。生まれたては誰にも分からない＝焦って乗る所じゃない。",
+                     "tell": "最初に拾うKOLは誰か・板の厚みが本物か・creatorの過去（連続rugでないか）"},
             "status": None, "peak_mcap": None, "mcap_now": None, "gate": None, "kols": []}
 
 
