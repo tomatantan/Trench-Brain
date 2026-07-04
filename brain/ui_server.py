@@ -267,11 +267,32 @@ def _normalize_detection(body):
     return det
 
 
+def _parse_money(v):
+    """"$45K"->45000.0 / "$1.2M"->1200000.0 / "$1,234"->1234.0 / 45000->45000.0 / 不能->0.0
+    smart_wallet 検知の metrics.token_mc は money文字列で来る(実測)ため、数値化して使えるようにする。"""
+    if isinstance(v, (int, float)) and not isinstance(v, bool):
+        return float(v)
+    if not isinstance(v, str):
+        return 0.0
+    s = v.strip().upper().replace("$", "").replace(",", "")
+    if not s:
+        return 0.0
+    mult = 1.0
+    if s[-1] in ("K", "M", "B"):
+        mult = {"K": 1e3, "M": 1e6, "B": 1e9}[s[-1]]
+        s = s[:-1]
+    try:
+        return float(s) * mult
+    except ValueError:
+        return 0.0
+
+
 def _detection_to_call(det):
     metrics = det.get("metrics") if isinstance(det.get("metrics"), dict) else {}
     reasons = det.get("reasons") if isinstance(det.get("reasons"), list) else []
     reason = "; ".join([str(r) for r in reasons[:3]]) or det.get("verdict") or "detected"
-    mcap = metrics.get("mcap_usd") or metrics.get("market_cap") or metrics.get("marketCap") or 0
+    mcap = (metrics.get("mcap_usd") or metrics.get("market_cap") or metrics.get("marketCap")
+            or _parse_money(metrics.get("token_mc")) or 0)
     replies = metrics.get("reply_count") or metrics.get("replies") or metrics.get("mentions") or 0
     return {
         "id": det.get("id"),
@@ -668,7 +689,10 @@ class Handler(SimpleHTTPRequestHandler):
                 r = _retriever()
                 live = _state_json("live_pulse.json", {})
                 hot = [t for t in live.get("traction_candidates", []) if not t.get("stale")]
-                hot.sort(key=lambda t: -(t.get("変化pct") or 0))
+                # 門の思想: reply=0(誰も話してない)の未確認moverを変化率だけで先頭にしない。
+                # reply>0 を先に、その中で 変化pct 降順。
+                hot.sort(key=lambda t: (-(1 if (t.get("reply") or 0) > 0 else 0), -(t.get("変化pct") or 0)))
+                # TODO: kol_standouts の先頭挿入は shape検証後(現在0件で未検証・盲目マッピング禁止)。
                 calls = [_detection_to_call(x) for x in _recent_detections(20, include_avoids=False)]
                 self._json(200, {"ok": True, "hot": hot[:5],
                                  "themes": live.get("theme_distribution", {}),
