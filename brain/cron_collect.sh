@@ -87,6 +87,9 @@ bash brain/autonomous_read.sh >> "$LOG" 2>&1 || echo "auto-read skipped" >> "$LO
 bash brain/autonomous_research.sh >> "$LOG" 2>&1 || echo "auto-research skipped" >> "$LOG"
 # (3)UI連携=entities+track状態 → wiki/ui-data.json(UIチームが消費)
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
+# (3a)★Master Index/MOC自動再生成: 被リンク数(inbound)から知識の中心を機械算出し wiki/index.md を
+#   上書き(原則1=手書きindexは腐る対策)。build_entities/synthesisが全部済んだ後・git add の直前に置く。
+python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
