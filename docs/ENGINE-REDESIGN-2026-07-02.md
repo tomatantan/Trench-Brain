@@ -214,8 +214,21 @@ ask経路(ask.sh/ask_prompt.md)を、**判断状況の問い**で以下を必須
 **★検証で判明した訂正（原則2）**: agent報告の「manipulation-playbook論理逆転」は誤診＝方向は正しい(traction12%死vs55%=助ける)。真の問題は**数字が古い**(concept 12%/55% vs feedback.md実測29%(9/31)/68%)=G4非対称freshness。鵜呑みなら正しいconceptを壊してた。
 
 **★残（autonomousで検証不能 or 本人input要＝偽完了しない）**:
-- G4 自己改訂（stale concept/数字の再合成・confidence減衰）＝systemic・検証に cycle 要。
-- G5b 答えの後追い採点（query_log call→outcome照合）＝outcome到来に時間要。
-- mind-model schema(§3.1)の synth_x_prompt.md 深化＝LIVE合成prompt変更でquality検証に synthesis run 要。
+- ~~G4 自己改訂~~ → **DONE 2026-07-04（下記§10.1）**
+- ~~G5b 答えの後追い採点~~ → **DONE 2026-07-04（下記§10.1）**
+- ~~mind-model schema(§3.1)の合成prompt深化~~ → **DONE 2026-07-04（synth_player_prompt.md・下記§10.1）**
 - 鏡を本人自身に＝本人の handle/wallet 入力要。更なる拡張＝seed list or 2次引用(noise増)。
-- 矛盾=KPI(§0.1-1)の metric 昇格・強弱concept(§3.2)の明示ページ化。
+- ~~矛盾=KPI(§0.1-1)の metric 昇格・強弱concept(§3.2)の明示ページ化~~ → **DONE 2026-07-04（下記§10.1）**
+
+## 10.1 進捗（2026-07-04 自律session・DONE=実データ検証済のみ）
+
+- **G4自己改訂＝ループ一周を実証**: `feedback.py`が機械可読正典 `feedback_stats.json` を emit → 新 `revise_detect.py`（決定的）が concept本文の既知メトリクス数値と実測の乖離を **ラベル対応比較**（有り↔with/無し↔without・台帳行除外・±5pp）で検出 → `revise_queue.json` → 新 `synthesize_revise.sh`+`revise_prompt.md`（gaps流儀: 署名dedup/timeout/空=コスト0）が推移保持で再合成 → 再検出0件・synth_validate OK。cron配線済(2g2)。
+  - 実戦果: 5concept が「traction有り死12% vs 無し55%」(6/24凍結)のまま→実測60%/70%＝**差43pt→10ptに崩壊。「tractionは最強の生存signal」を撤回し弱signalに格下げ**（旧値は推移として保存・confidence減衰）。
+- **G5b答え採点＝自己校正loopを配線**: 新 `score_queries.py`（決定的・network不使用）が query_log の各回答の言及銘柄/KOLを tracked/ca_outcome_cache/kol_track_records と照合→ `answer_scorecard.json`+dashboard。ask.sh が言及entityを**回答時点で構造化ログ**（q_tickers/q_cas/a_tickers/a_handles）。ask_context.py 第4注入「過去の自分の回答のその後」。cron配線済(2g3)。7/2の実4回答で検証（観測≠正誤判定の線引き明示）。
+- **矛盾=KPI昇格**: compounding.py を cron 配線(2g1・従来未配線)＋conformance新check **K1**（concepts増なのに⚠️矛盾flat＝echo-chamber兆候をWARN）。逆算検証済（echo-chamber合成データ→WARN/健全→PASS）。初回実測: 矛盾+10（G4改訂が⚠️を増やした＝健全）。
+- **強弱concept**: `wiki/concepts/winners-vs-losers.md`（§3.2）＝track recordで母集団を割った強弱対比（0%群の選別と待機 vs badattrading_ N=145死63%の広く浅い連発+言行不一致）・生存者バイアス/小N留保・成長path。ape-or-avoid/indexから接続。
+- **mind-model prompt深化（§3.1完全化）**: `synth_player_prompt.md` に decision_process/motivations/reads_market_as/⚠️矛盾(言行不一致) を追加。@badattrading_ で実合成→schema完全準拠・N=145錨の言行不一致を自動検出（sonnetで＝モデル非依存契約が機能）。
+- **根深いbug 2件を根治**: ①players/tokens の**大小文字ページ分裂**（同一KOLが@RaoulGMI.md/@raoulgmi.mdに分裂=9+4ペア・macOSのpullも塞いだ）→統合+生成源lowercase正典化。②**末尾`_`のhandleがファイル名`split("__")[0]`で切り落とされ**、@badattrading_ が track-record/mind-model合成/採点から漏れていた→`rsplit("__",1)`に統一（kol_track_record/discover/synthesize_players/synthesize_player）。
+
+**★残（本人input要）**: 鏡を本人自身に（handle/wallet）／watchlist更なる拡張（seed list）。
+**★残（時間/cycle要）**: 回答のstance対応採点（構造化ログ蓄積後）・K1の長期推移評価・G4検出メトリクスの拡充（現4種）。

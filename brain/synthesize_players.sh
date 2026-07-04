@@ -14,7 +14,7 @@ active = {}
 for p in glob.glob("sources/x/*.md"):
     base = os.path.basename(p)
     if "__" not in base: continue
-    h = base.split("__")[0].lower()  # handleはcase-insensitive・entity pathはlowercase正典
+    h = base.rsplit("__", 1)[0].lower()  # rsplit=末尾_のhandle対応・lowercase=entity path正典
     try: mt = os.path.getmtime(p)
     except OSError: continue
     if now - mt <= WINDOW: active[h] = max(active.get(h,0), mt)

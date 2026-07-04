@@ -336,6 +336,32 @@ def _op1():
     return ("FAIL" if age_h > 12 else "PASS"), f"最新player entity {age_h:.1f}h前更新({len(files)}件)＝{'古い=build_entities停止疑い' if age_h > 12 else 'パイプライン稼働'}"
 
 
+@check("K1", "§0.1-1 矛盾=KPI", "conceptsが増えてるのに表面化した矛盾(⚠️)が増えてない=echo-chamber兆候を検出")
+def _k1():
+    # 設計書 ENGINE-REDESIGN §0.1-1: wikiの健康は coverage でなく surfaced contradictions。
+    # 一致だけ増えるのは劣化(echo-chamber)。compounding_history.jsonl(compounding.py が毎サイクル追記)の
+    # 推移で「concepts純増 なのに contradictions_surfaced 横這い」を機械検出する。
+    import json as _j
+    p = ROOT / "brain" / "state" / "compounding_history.jsonl"
+    if not p.exists():
+        return "WARN", "compounding_history無し(compounding.py 未稼働=矛盾KPIが測れてない)"
+    rows = []
+    for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+        try:
+            rows.append(_j.loads(ln))
+        except ValueError:
+            continue
+    if len(rows) < 2:
+        return "WARN", f"履歴{len(rows)}点=推移未評価(2点以上で評価開始)"
+    win = rows[-10:]
+    dc = (win[-1].get("n_concepts") or 0) - (win[0].get("n_concepts") or 0)
+    dk = (win[-1].get("contradictions_surfaced") or 0) - (win[0].get("contradictions_surfaced") or 0)
+    now_k = win[-1].get("contradictions_surfaced")
+    if dc >= 2 and dk <= 0:
+        return "WARN", f"直近{len(win)}点: concepts +{dc} なのに矛盾表面化 {dk:+d}＝一致だけ増えてる疑い(echo-chamber)→対立ソース/弱者voiceの取り込みを"
+    return "PASS", f"直近{len(win)}点: concepts {dc:+d} / 矛盾表面化 {dk:+d}（現在{now_k}）＝矛盾が知識と共に増えてる"
+
+
 @check("S1", "§Lint/指針7", "内部 wikilink の切れ(指す先のwikiページが存在しない)を検出")
 def _s1():
     wdir = ROOT / "wiki"

@@ -61,6 +61,22 @@ def main():
         base_line = (f"門通過 {gp}銘柄中 死{di}/卒業{gr}＝**門を通っても大半が死ぬ**のが基準線。"
                      f"個別銘柄はこの事前確率の上で読む。")
 
+    # G5b: 過去の自分の回答のその後（自己校正＝答えっぱなしにしない）
+    sc = _load("answer_scorecard.json", {})
+    self_lines = []
+    summ = sc.get("summary") or {}
+    if summ.get("tokens_mentioned"):
+        dp = summ.get("dead_pct_of_resolved")
+        self_lines.append(
+            f"過去{summ['answers']}回答の言及銘柄{summ['tokens_mentioned']}件: "
+            f"現在 dead {summ['dead_now']} / alive {summ['alive_now']}"
+            + (f"（決着分の死{dp}%）" if dp is not None else ""))
+        for aid in sorted((sc.get("answers") or {}), reverse=True)[:3]:
+            v = sc["answers"][aid]
+            toks = " ".join(f"{k}:{t.get('status')}" for k, t in list(v.get("tokens", {}).items())[:4])
+            if toks:
+                self_lines.append(f"- {v.get('ts')}「{v.get('question','')[:50]}」→ {toks}")
+
     out = []
     if ctx:
         out.append("### 合成済みwiki（決定的に取得＝これを根拠に横断合成せよ。[[..]]で引用）\n" + ctx)
@@ -69,6 +85,11 @@ def main():
                    "**成績**で『勝者』を判断せよ・声のデカさで語るな）\n" + "\n".join(recs))
     if base_line:
         out.append("### base-rate（錨）\n" + base_line)
+    if self_lines:
+        out.append("### 過去の自分の回答のその後（自己校正＝同じ外し方を繰り返すな）\n"
+                   "言及した銘柄の多くが死んでいるなら、その型の推し方自体を疑って答えよ"
+                   "（観測であり正誤ではない＝avoid警告が的中して死んだ可能性もある。文脈で読む）。\n"
+                   + "\n".join(self_lines))
     if out:
         print("\n\n".join(out))
 

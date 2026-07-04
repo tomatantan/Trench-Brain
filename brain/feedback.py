@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TRACKED = ROOT / "brain" / "state" / "tracked.json"
 OUT = ROOT / "wiki" / "dashboards" / "feedback.md"
+STATS = ROOT / "brain" / "state" / "feedback_stats.json"  # 機械可読の正典(G4 revise_detect が読む)
 
 
 def has_traction(x):
@@ -88,8 +89,33 @@ def main():
     ]
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    # ★機械可読stats(G4自己改訂の正典)。dashboardのmd文面でなくこのJSONを revise_detect.py が読む＝
+    #   「実測は毎サイクル更新されるのにconcept本文の数値が凍結する」非対称freshnessを機械で閉じる入口。
+    def bucket(sub):
+        sd = sum(1 for x in sub if x.get("status") == "dead")
+        return {"n": len(sub), "dead": sd, "pct": (100 * sd // len(sub)) if sub else None}
+    grad_no_tr = [x for x in items if gate_kind(x) == "graduated" and not has_traction(x)]
+    def peak(x):
+        try:
+            return float(x.get("peak_mcap") or 0)
+        except (TypeError, ValueError):
+            return 0.0
+    sub10k = [x for x in items if 0 < peak(x) < 10_000]
+    import datetime
+    stats = {
+        "ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+        "n": n, "dead": len(dead), "pending": len(alive),
+        "traction_with": bucket(tr),
+        "traction_without": bucket(notr),
+        "gate_graduated": bucket([x for x in items if gate_kind(x) == "graduated"]),
+        "gate_mcap": bucket([x for x in items if gate_kind(x) == "mcap勢い門"]),
+        "graduated_no_traction": bucket(grad_no_tr),   # ≒ "graduated-but-empty"
+        "peak_below_10k": bucket(sub10k),
+    }
+    STATS.write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"feedback: tracked{n}(dead{len(dead)}/pending{len(alive)}) traction無し死{rate(len(notr_dead),len(notr))} "
-          f"traction有りN={len(tr)} → wiki/dashboards/feedback.md")
+          f"traction有りN={len(tr)} → wiki/dashboards/feedback.md + feedback_stats.json")
 
 
 if __name__ == "__main__":

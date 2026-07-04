@@ -69,9 +69,18 @@ bash brain/synthesize_lint.sh || echo "lint skipped" >> "$LOG"
 python3 brain/check_conformance.py >> brain/state/conformance.log 2>&1 && echo "conformance: PASS" >> "$LOG" || echo "★conformance: 違反あり→wiki/conformance-report.md" >> "$LOG"
 # (2g)★時系列snapshot=主要metricsをdated appendで貯める(本人「時系列弱い」対処・決定的・安価)。trajectory取得の土台。
 python3 brain/snapshot.py >> "$LOG" 2>&1 || echo "snapshot skipped" >> "$LOG"
+# (2g1)★複利計=矛盾KPI(§0.1-1): contradictions_surfaced 含む複利metricsを毎サイクル記録(K1がechochamber監視)。
+python3 brain/compounding.py >> "$LOG" 2>&1 || echo "compounding skipped" >> "$LOG"
 python3 brain/feedback.py >> "$LOG" 2>&1 || echo "feedback skipped" >> "$LOG"
 python3 brain/kol_track_record.py >> "$LOG" 2>&1 || echo "kol-track-record skipped" >> "$LOG"
+# (2g3)★G5b答え採点: 過去回答の言及銘柄/KOLを実outcomeと照合(ca_outcome_cache更新直後)→ask_context第4注入で自己校正。
+python3 brain/score_queries.py >> "$LOG" 2>&1 || echo "score_queries skipped" >> "$LOG"
 python3 brain/predictive_study.py >> "$LOG" 2>&1 || echo "predictive-study skipped" >> "$LOG"
+# (2g2)★G4自己改訂: 実測(feedback_stats)とconcept本文の数値乖離を決定的検出→LLMが推移保持で再合成→門番で再検証。
+#   実測系(feedback/predictive)の直後に置く=最新実測との比較。queueが空/同一署名なら consumer はコスト0。
+python3 brain/revise_detect.py >> "$LOG" 2>&1 || echo "revise_detect skipped" >> "$LOG"
+bash brain/synthesize_revise.sh || echo "synth-revise skipped" >> "$LOG"
+python3 brain/synth_validate.py >> brain/state/synth_validate.out 2>&1 || echo "★synth_validate(revise後): 不正検出→brain/state/synth_validate.out" >> "$LOG"
 # (2h)★自律read=trenchを見てgenuine notableな時だけ本人にpush(大半沈黙・spam無)
 bash brain/autonomous_read.sh >> "$LOG" 2>&1 || echo "auto-read skipped" >> "$LOG"
 # (2i)★自律research=脳が自分で仮説立て→tracked dataで検証→確証/反証を学ぶ(試行錯誤で corpus が賢くなる)
@@ -81,7 +90,7 @@ python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
-git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json >> "$LOG" 2>&1 || true
+git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json brain/state/feedback_stats.json brain/state/answer_scorecard.json brain/state/compounding_history.jsonl >> "$LOG" 2>&1 || true
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else

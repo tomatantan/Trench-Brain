@@ -64,7 +64,7 @@ def main():
         base = os.path.basename(p)
         if "__" not in base:
             continue
-        acct = base.split("__")[0]
+        acct = base.rsplit("__", 1)[0]  # rsplit: 末尾_のhandle(badattrading_)を切り落とさない
         try:
             t = open(p, encoding="utf-8", errors="replace").read()
         except Exception:

@@ -152,10 +152,16 @@ fi
 # 門付きで wiki/queries に落とす=「質問するほど脳が賢くなる」。失敗しても答えは壊さない(|| true)。
 if [ -n "$ANSWER" ]; then
   ASK_Q="$Q" ASK_A="$ANSWER" ASK_B="${ASK_BACKEND:-claude}" python3 - <<'PY' 2>/dev/null || true
-import json, os, datetime
+import json, os, datetime, re
+q = os.environ.get("ASK_Q", ""); a = os.environ.get("ASK_A", "")
+# ★G5b: 呼んだ銘柄/KOLを回答時点で構造化保存＝後からの採点(score_queries.py)を精密にする。
+money = re.compile(r"\d+(?:[.,]\d+)?[kKmMbB]?$")
+tick = lambda t: sorted({x.upper() for x in re.findall(r"\$([A-Za-z0-9]{2,15})\b", t) if not money.fullmatch(x)})
 rec = {"ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-       "question": os.environ.get("ASK_Q", ""), "answer": os.environ.get("ASK_A", ""),
-       "backend": os.environ.get("ASK_B", ""), "assetized": False}
+       "question": q, "answer": a,
+       "backend": os.environ.get("ASK_B", ""), "assetized": False,
+       "q_tickers": tick(q), "q_cas": sorted(set(re.findall(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q))),
+       "a_tickers": tick(a), "a_handles": sorted({h.lower() for h in re.findall(r"@([A-Za-z0-9_]{3,15})", a)})}
 with open("brain/state/query_log.jsonl", "a", encoding="utf-8") as f:
     f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 PY

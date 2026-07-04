@@ -18,7 +18,7 @@ h = sys.argv[1].lower()
 posts = []
 for p in glob.glob("sources/x/*.md"):
     base = p.split("/")[-1]
-    if "__" not in base or base.split("__")[0].lower() != h:
+    if "__" not in base or base.rsplit("__", 1)[0].lower() != h:
         continue
     try:
         t = open(p, encoding="utf-8", errors="replace").read()

@@ -1,0 +1,134 @@
+{
+ "ts": "2026-07-04T04:16Z",
+ "summary": {
+  "answers": 4,
+  "tokens_mentioned": 4,
+  "dead_now": 0,
+  "alive_now": 0,
+  "unknown": 4,
+  "dead_pct_of_resolved": null
+ },
+ "answers": {
+  "2026-07-02T14:45Z-c8e82a7f": {
+   "ts": "2026-07-02T14:45Z",
+   "question": "今暑いミーム",
+   "tokens": {
+    "$BAG": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    },
+    "$MBAPPE": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-04T04:13Z",
+    "tokens": {
+     "$BAG": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$MBAPPE": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-02T15:46Z-b76383a9": {
+   "ts": "2026-07-02T15:46Z",
+   "question": "今の魔界、勝ってるトレーダーならどう立ち回る?",
+   "tokens": {},
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 3
+    },
+    "golocojp": {
+     "death_rate_now": 0,
+     "evaluated_now": 6
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T04:13Z",
+    "tokens": {},
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "golocojp": {
+      "death_rate_now": 0,
+      "evaluated_now": 6
+     }
+    }
+   }
+  },
+  "2026-07-02T15:56Z-27096408": {
+   "ts": "2026-07-02T15:56Z",
+   "question": "強いトレーダーと弱いトレーダーの決定的な違いは何? 魔界で勝つ思考と負ける思考を対比して",
+   "tokens": {},
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 3
+    },
+    "golocojp": {
+     "death_rate_now": 0,
+     "evaluated_now": 6
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T04:13Z",
+    "tokens": {},
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "golocojp": {
+      "death_rate_now": 0,
+      "evaluated_now": 6
+     }
+    }
+   }
+  },
+  "2026-07-02T15:58Z-9e988de5": {
+   "ts": "2026-07-02T15:58Z",
+   "question": "@badattrading_ は客観的に強いトレーダー? 弱い? 実績と思考の型で第三者評価して",
+   "tokens": {
+    "$AGI": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    },
+    "$MERLIN": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {
+    "badattrading_": {
+     "death_rate_now": 63,
+     "evaluated_now": 145
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-04T04:13Z",
+    "tokens": {
+     "$AGI": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$MERLIN": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {}
+   }
+  }
+ }
+}

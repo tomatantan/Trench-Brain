@@ -48,7 +48,7 @@ def main():
         base = os.path.basename(p)
         if "__" not in base:
             continue
-        acct = base.split("__")[0].lower()
+        acct = base.rsplit("__", 1)[0].lower()  # rsplit: 末尾_のhandleを切り落とさない
         if acct not in cred:
             continue
         mt = os.path.getmtime(p)
