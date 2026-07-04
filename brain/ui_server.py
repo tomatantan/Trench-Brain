@@ -162,7 +162,6 @@ def _tail_jsonl(name, n, maxbytes=300000):
 
 
 DETECTION_VERDICTS = {"APE", "REVIEW", "AVOID", "WATCH", "RECOVERED"}
-DETECTION_TYPES = {"SMART DETECT", "HIGH TIRE DETECT"}
 DETECTION_MAX_BODY = 65536
 
 
@@ -197,33 +196,46 @@ def _now_iso(ts=None):
 def _normalize_detection(body):
     if not isinstance(body, dict):
         raise ValueError("body must be object")
+    # 互換: smart_wallet 検知側は token_ca / token_name / type=MULTI_BUY|3_WALLET_BUY / wallet_count を送る
+    # (2026-07-04 依頼仕様)。猫太郎bot は ca|mint / symbol / verdict / metrics を送る。両方受ける。
     ca = _clean_text(
-        body.get("ca") or body.get("mint") or body.get("address") or body.get("contract"),
+        body.get("ca") or body.get("mint") or body.get("token_ca")
+        or body.get("address") or body.get("contract"),
         limit=120,
     )
     if not ca:
-        raise ValueError("ca or mint is required")
+        raise ValueError("ca or mint (or token_ca) is required")
 
     ts = int(time.time())
     verdict = _clean_text(body.get("verdict") or body.get("status") or "REVIEW", "REVIEW", 40).upper()
     if verdict not in DETECTION_VERDICTS:
         verdict = "REVIEW"
+    # type は自由記述を保持(検知側が増えるたび enum が嘘になる)。空だけ SMART DETECT に落とす。
     dtype = _clean_text(body.get("signal_type") or body.get("type") or "SMART DETECT", "SMART DETECT", 60).upper()
-    if dtype not in DETECTION_TYPES:
-        dtype = "SMART DETECT"
 
-    metrics = body.get("metrics") if isinstance(body.get("metrics"), dict) else {}
+    metrics = dict(body.get("metrics")) if isinstance(body.get("metrics"), dict) else {}
+    # smart_wallet 系の付帯情報は metrics に畳む(正規化スキーマを汚さず保存)
+    for k in ("token_price", "token_mc", "timestamp"):
+        if body.get(k) is not None and k not in metrics:
+            metrics[k] = body.get(k)
+    txs = body.get("tx_hashes")
+    if isinstance(txs, list) and txs and "tx_hashes" not in metrics:
+        metrics["tx_hashes"] = [_clean_text(t, limit=120) for t in txs[:10]]
+
+    wallet_count = body.get("wallet_count")
     det = {
         "id": _clean_text(body.get("id"), limit=80) or f"detect_{time.strftime('%Y%m%d_%H%M%S', time.gmtime(ts))}_{uuid.uuid4().hex[:6]}",
         "source": _clean_text(body.get("source"), "unknown", 80),
         "chain": _clean_text(body.get("chain"), "solana", 40),
-        "symbol": _clean_text(body.get("symbol") or body.get("ticker") or body.get("token"), "UNKNOWN", 80),
-        "name": _clean_text(body.get("name") or body.get("title"), "UNKNOWN", 160),
+        "symbol": _clean_text(body.get("symbol") or body.get("ticker") or body.get("token")
+                              or body.get("token_name"), "UNKNOWN", 80),
+        "name": _clean_text(body.get("name") or body.get("title") or body.get("token_name"), "UNKNOWN", 160),
         "ca": ca,
         "mint": ca,
         "type": dtype,
         "signal_type": dtype,
         "verdict": verdict,
+        "wallet_count": int(_clean_number(wallet_count, 0)) or None,
         "risk_score": _clean_number(body.get("risk_score"), None),
         "reasons": _clean_reasons(body.get("reasons") or body.get("reason") or body.get("why")),
         "metrics": metrics,
@@ -252,6 +264,7 @@ def _detection_to_call(det):
         "status": det.get("verdict"),
         "verdict": det.get("verdict"),
         "risk_score": det.get("risk_score"),
+        "wallet_count": det.get("wallet_count"),
         "reason": reason,
         "gate": reason,
         "mcap": mcap,
