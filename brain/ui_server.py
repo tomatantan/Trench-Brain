@@ -89,6 +89,9 @@ def _load_dotenv():
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 _RETRIEVER = None
 
+# A2: Live Activity push(brain/apns_push.py・stdlib only・sibling module)
+from apns_push import send_live_activity_push
+
 
 def _retriever():
     global _RETRIEVER
@@ -155,6 +158,10 @@ API_INDEX = [
      "desc": "External detector webhook. Appends normalized CALL detections to brain/state/detections.jsonl."},
     {"path": "/api/detections", "method": "GET", "params": {"n": "50", "include_avoids": "1"},
      "desc": "Recent detector events plus CALL-shaped rows for UI/debug."},
+    {"path": "/api/la/register", "method": "POST", "body": {"token": "str"},
+     "desc": "Register/replace the Live Activity APNs push token (brain/state/la_token.json). No auth, rate-limited only."},
+    {"path": "/api/la/push", "method": "POST", "body": {"status": "str", "hook": "str?", "bump": "bool?"},
+     "desc": "Push a Live Activity content-state update (status/count/lastHook) via APNs for the registered token. Bearer-authed like /api/detect."},
     {"path": "/api/feed", "method": "GET",
      "desc": "ホーム用アグリゲート=hot+直近launch+最近更新+themes を1呼びで"},
 ]
@@ -638,6 +645,17 @@ def _append_learn(item):
     STATE.mkdir(parents=True, exist_ok=True)
     with open(STATE / "learn_queue.jsonl", "a", encoding="utf-8") as f:
         f.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
+
+
+# --- A2: Live Activity push token(単一ユーザー)。brain/state/la_token.json に永続化 ---
+def _la_load():
+    return _state_json("la_token.json", {})
+
+
+def _la_save(d):
+    STATE.mkdir(parents=True, exist_ok=True)
+    with open(STATE / "la_token.json", "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False)
 
 
 def _read_json_body(handler, maxbytes=DETECTION_MAX_BODY):
@@ -1209,6 +1227,73 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 print(f"[detect] error: {e}", file=sys.stderr)
                 self._json(500, {"ok": False, "error": "internal error"})
+            return
+        if path0 == "/api/la/register":
+            # push token登録は無害(pushできるだけ)＝認証なし。rate limitのみで保護。
+            if not _rate_ok(f"{_real_ip(self)}:la_reg", 60):
+                self._json(429, {"ok": False, "error": "rate limit(la/register)"})
+                return
+            try:
+                body = _read_json_body(self, maxbytes=DETECTION_MAX_BODY)
+            except OverflowError:
+                self._json(413, {"ok": False, "error": "body too large"})
+                return
+            except Exception:
+                self._json(400, {"ok": False, "error": "bad json body"})
+                return
+            if not isinstance(body, dict):
+                body = {}
+            token = _clean_text(body.get("token"), limit=500)
+            if not token:
+                self._json(400, {"ok": False, "error": "token が空"})
+                return
+            _la_save({"token": token, "count": 0, "updated": _now_iso()})
+            self._json(200, {"ok": True})
+            return
+        if path0 == "/api/la/push":
+            # /api/detect と同じ Bearer(DETECT_WEBHOOK_TOKEN) fail-closed パターン
+            token_env = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
+            if not token_env:
+                if os.environ.get("DETECT_ALLOW_UNAUTH") != "1":
+                    self._json(503, {"ok": False, "error": "DETECT_WEBHOOK_TOKEN未設定(fail-closed)。devで開けるなら DETECT_ALLOW_UNAUTH=1"})
+                    return
+            elif self.headers.get("Authorization", "").strip() != f"Bearer {token_env}":
+                self._json(401, {"ok": False, "error": "unauthorized"})
+                return
+            if not _rate_ok(f"{_real_ip(self)}:la_push", 120):
+                self._json(429, {"ok": False, "error": "rate limit(la/push)"})
+                return
+            try:
+                body = _read_json_body(self, maxbytes=DETECTION_MAX_BODY)
+            except OverflowError:
+                self._json(413, {"ok": False, "error": "body too large"})
+                return
+            except Exception:
+                self._json(400, {"ok": False, "error": "bad json body"})
+                return
+            if not isinstance(body, dict):
+                body = {}
+            la = _la_load()
+            saved_token = la.get("token")
+            if not saved_token:
+                self._json(200, {"ok": False, "error": "no token registered"})
+                return
+            status = _clean_text(body.get("status"), default="idle", limit=40)
+            hook = _clean_text(body.get("hook"), default=la.get("lastHook") or "", limit=500)
+            bump = bool(body.get("bump"))
+            count = int(la.get("count") or 0)
+            if bump:
+                count += 1
+            la["count"] = count
+            la["lastHook"] = hook
+            la["updated"] = _now_iso()
+            _la_save(la)
+            content_state = {"status": status, "count": count, "lastHook": hook}
+            try:
+                ok, summary = send_live_activity_push(saved_token, content_state, event="update")
+            except Exception as e:
+                ok, summary = False, f"send_live_activity_push error: {e}"
+            self._json(200, {"ok": ok, "apns": summary, "state": content_state})
             return
         if path0 == "/api/judge":
             if not _rate_ok(f"{_real_ip(self)}:j", 240):

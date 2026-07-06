@@ -141,7 +141,12 @@ $Q"
 # ★backend 切替: 運用者=claude(サブスク・既定) / 公開=gemini(無料・ToS安全・GPU負荷ゼロ)。
 # ui_server(公開)は ASK_BACKEND=gemini を渡す。運用者が ask.sh を直に叩くと既定=claude。
 if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then
-  ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py)"
+  # gemini(公開・無料)。未設定/失敗で空が返ったら claude にフォールバックしてASKを落とさない
+  # (2026-07-05: GEMINI_API_KEY未設定でASKが全滅=「ASK FAILED」になっていた根治)。
+  ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py 2>/dev/null || true)"
+  if [ -z "$ANSWER" ]; then
+    ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
+  fi
 else
   # --strict-mcp-config 必須(telegram等MCPを起動させない)。read-only(wiki編集しない)。
   ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
