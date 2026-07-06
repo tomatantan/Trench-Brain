@@ -100,6 +100,118 @@ def snip(body, n=84):
     return html.unescape(URL_RE.sub("", body).replace("\n", " ").replace("|", "/")).strip()[:n]
 
 
+# ---- KOL立場マップ（多視点・自動）用の語彙ヒューリスティック ----
+# ★近似（本文の語彙カウントのみ・意味理解ではない）。あくまで観測材料＝指針6(観測とLLM推論の分離)。
+# ★語境界必須(2026-07-06 独立検証で発覚): 素のsubstringだと pump.fun→"pump"・holder→"hold"・
+#   moonshot→"moon"・cape/shape→"ape"・along→"long" が誤爆し、全立場が「強気」に化ける(系統バイアス)。
+STANCE_NEG_RE = re.compile(
+    r"\b(rug(ged|s)?|scam(my|mer)?|avoid|dump(ing|ed)?|sell(ing|s)?|sold|short(ing)?"
+    r"|dead|jeet(s|ed)?|exit(ing)?|honeypot|bearish|rekt)\b|死|売り|逃げ", re.I)
+STANCE_POS_RE = re.compile(
+    r"\b(buy(ing)?|bought|ape(d|ing)?|send(ing)?|moon(ing)?|pump(ing|ed)?(?!\.fun)"
+    r"|bull(ish)?|long|hold(ing)?|accumulate[d]?|dca|up only)\b|買い|強い|入っ", re.I)
+CREATED_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}")
+
+
+def stance_label(pos, neg):
+    if pos > 0 and neg == 0:
+        return "強気"
+    if neg > 0 and pos == 0:
+        return "弱気"
+    if pos > 0 and neg > 0:
+        return "混在"
+    return "言及のみ"
+
+
+def death_pct_for(handle, ktr):
+    """kol_track_records.jsonからdeath%を引く(handle variant込み・evaluated>=2のみ採用)。"""
+    tr = ktr.get(handle) or ktr.get(handle.rstrip("_")) or ktr.get(handle + "_")
+    if tr and tr.get("evaluated", 0) >= 2 and tr.get("death_rate") is not None:
+        return tr["death_rate"]
+    return None
+
+
+def build_stance_map(tk, accts, handle_posts, ktr):
+    """トークン毎の「KOL立場マップ」セクション本文を組む(>=1 handle分のデータが無ければ空)。
+    handle_posts: {(tk, handle): [(likes, created_date_or_None, body), ...]}
+    """
+    stats = []
+    for h in accts:
+        posts = handle_posts.get((tk, h))
+        if not posts:
+            continue
+        pos = sum(len(STANCE_POS_RE.findall(bd)) for _, _, bd in posts)
+        neg = sum(len(STANCE_NEG_RE.findall(bd)) for _, _, bd in posts)
+        dates = sorted(d for _, d, _ in posts if d)
+        period = "—" if not dates else (dates[0] if dates[0] == dates[-1] else f"{dates[0]}〜{dates[-1]}")
+        top_likes, _, top_body = max(posts, key=lambda x: x[0])
+        dr = death_pct_for(h, ktr)
+        stats.append({
+            "handle": h, "label": stance_label(pos, neg), "count": len(posts),
+            "period": period, "dr": dr, "quote": snip(top_body, 90),
+        })
+    if not stats:
+        return ""
+
+    evaluated = sorted((s for s in stats if s["dr"] is not None), key=lambda s: s["dr"])
+    rest = sorted((s for s in stats if s["dr"] is None), key=lambda s: -s["count"])
+    ordered = (evaluated + rest)[:8]
+
+    rows = [f"| [[@{s['handle']}]] | {s['label']} | {s['count']} | {s['period']} | "
+            f"{(str(s['dr']) + '%') if s['dr'] is not None else '—'} | {s['quote']} |" for s in ordered]
+
+    bullish = [s for s in ordered if s["label"] == "強気"]
+    bearish = [s for s in ordered if s["label"] == "弱気"]
+    cross_line = ""
+    if len(ordered) >= 2 and bullish and bearish:
+        bull_s = "、".join(f"@{s['handle']}" for s in bullish)
+        bear_s = "、".join(f"@{s['handle']}" for s in bearish)
+        cross_line = (f"⚠️**矛盾**: 強気={bull_s} / 弱気={bear_s}"
+                      f"＝矛盾は消さない・両論のまま判断材料（[[manipulation-playbook]]で偽tractionも照合）")
+    elif len(bullish) >= 2:
+        cross_line = (f"**共通点**: {len(bullish)}人が強気方向＝収束。"
+                      f"ただし[[manipulation-playbook]]型5(KOL bundle順番投稿)の偽装収束を時刻分布で疑え")
+
+    section = [
+        "## KOL立場マップ（多視点・自動）",
+        "> 立場は本文の語彙からの**近似**（観測であり判断でない・指針6）。実績=[[kol-track-records]]の現outcome近似。",
+        "",
+        "| handle | 立場(近似) | 言及数 | 期間 | 実績(death%) | 代表引用 |",
+        "|---|---|---|---|---|---|",
+        *rows,
+    ]
+    if cross_line:
+        section.append(cross_line)
+    section.append("")
+    return "\n".join(section)
+
+
+def build_player_ledger(h, pl_tokens, handle_posts):
+    """playerページ側の「立場台帳」＝このKOLが各銘柄にいつ・どっち向きで言ったか(tokenマップの転置)。
+    多視点の鏡: tokenページ=「この銘柄を誰がどう見てるか」/ ここ=「この人が何をどう見てるか」。"""
+    rows = []
+    for tk, cnt in pl_tokens[h].most_common(10):
+        posts = handle_posts.get((tk, h))
+        if not posts:
+            continue
+        pos = sum(len(STANCE_POS_RE.findall(bd)) for _, _, bd in posts)
+        neg = sum(len(STANCE_NEG_RE.findall(bd)) for _, _, bd in posts)
+        dates = sorted(d for _, d, _ in posts if d)
+        period = "—" if not dates else (dates[0] if dates[0] == dates[-1] else f"{dates[0]}〜{dates[-1]}")
+        _, _, top_body = max(posts, key=lambda x: x[0])
+        rows.append(f"| [[{tk}]] | {stance_label(pos, neg)} | {cnt} | {period} | {snip(top_body, 70)} |")
+    if not rows:
+        return ""
+    return "\n".join([
+        "## 立場台帳（このKOLの銘柄別スタンス・近似・自動）",
+        "> 語彙からの**近似**（指針6）。銘柄側の多視点は各 token ページの「KOL立場マップ」。",
+        "",
+        "| token | 立場(近似) | 言及数 | 期間 | 代表引用 |",
+        "|---|---|---|---|---|",
+        *rows, "",
+    ])
+
+
 def main():
     notes = list(SRC.glob("*.md"))
     # 集計
@@ -108,6 +220,7 @@ def main():
     tk_notes = defaultdict(list)         # TICKER -> [(likes, account, body, fname)]
     tk_accounts = defaultdict(set)       # TICKER -> {accounts}
     tk_cooc = defaultdict(Counter)       # TICKER -> co-occurring TICKER counts
+    tk_handle_posts = defaultdict(list)  # (TICKER, handle) -> [(likes, created_date_or_None, body)]
 
     for p in notes:
         meta, body = parse(p)
@@ -135,6 +248,9 @@ def main():
             tk_notes[tk].append((likes, acct_h or "?", body, p.stem))
             if acct_h:
                 tk_accounts[tk].add(acct_h)
+                created = meta.get("created", "")
+                cdate = created[:10] if CREATED_DATE_RE.match(created) else None
+                tk_handle_posts[(tk, acct_h)].append((likes, cdate, body))
             for other in tickers:
                 if other != tk:
                     tk_cooc[tk][other] += 1
@@ -142,6 +258,15 @@ def main():
     (ENT / "players").mkdir(parents=True, exist_ok=True)
     (ENT / "tokens").mkdir(parents=True, exist_ok=True)
     n_pl = n_tk = 0
+
+    # KOL track-record(call生存率)を entity に焼く=信頼性の合成(kol_track_record.py が生成・/checkも読む)
+    # ★token/player両ループが使うので先に読む(元は player ループ直前にあったが token側のKOL立場マップも
+    #   death%を必要とするため前出しに変更・2026-07-06)。
+    ktr_f = ROOT / "brain" / "state" / "kol_track_records.json"
+    try:
+        ktr = json.loads(ktr_f.read_text(encoding="utf-8")) if ktr_f.exists() else {}
+    except Exception:
+        ktr = {}
 
     # ---- token entity ----
     for tk, notes_ in tk_notes.items():
@@ -154,6 +279,7 @@ def main():
         # ac="?"(handle不明)は [[@?]] の壊れリンクになる→リンクにせず素の"?"にする(dangling根絶)
         rows = [f"| {lk:,} | {('[[@'+ac+']]') if ac != '?' else '?'} | {snip(bd)} | [[{fn}]] |"
                 for lk, ac, bd, fn in notes_[:10]]
+        stance_map = build_stance_map(tk, accts, tk_handle_posts, ktr)
         page = [
             "---", "type: entity", "kind: token", f"title: {tk}",
             "updated: 2026-06-22", "tags: [trench, entity, token]",
@@ -166,17 +292,11 @@ def main():
             "## 高エンゲージ言及",
             "| likes | account | 抜粋 | source |", "|---|---|---|---|",
             *rows, "",
+            *([stance_map, ""] if stance_map else []),
             *([kp, ""] if (kp := keep_profile(ENT / "tokens" / f"{tk}.md")) else []),
             keep_synthesis(ENT / "tokens" / f"{tk}.md"), "",
         ]
         (ENT / "tokens" / f"{tk}.md").write_text("\n".join(page), encoding="utf-8")
-
-    # KOL track-record(call生存率)を entity に焼く=信頼性の合成(kol_track_record.py が生成・/checkも読む)
-    ktr_f = ROOT / "brain" / "state" / "kol_track_records.json"
-    try:
-        ktr = json.loads(ktr_f.read_text(encoding="utf-8")) if ktr_f.exists() else {}
-    except Exception:
-        ktr = {}
 
     # ---- player entity ----
     for h, posts in pl_posts.items():
@@ -203,6 +323,7 @@ def main():
             f"> 自動生成。信号投稿 {len(posts)}件。watchlist: [[watchlist]]。", "",
             *tr_section,
             "## よく言及するトークン", " ".join(toptok) or "—", "",
+            *([lg] if (lg := build_player_ledger(h, pl_tokens, tk_handle_posts)) else []),
             "## 高エンゲージ投稿",
             "| likes | tickers | 抜粋 | source |", "|---|---|---|---|",
             *rows, "",

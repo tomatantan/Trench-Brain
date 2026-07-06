@@ -90,6 +90,77 @@ def main():
                    "言及した銘柄の多くが死んでいるなら、その型の推し方自体を疑って答えよ"
                    "（観測であり正誤ではない＝avoid警告が的中して死んだ可能性もある。文脈で読む）。\n"
                    + "\n".join(self_lines))
+
+    # G3: 銘柄のKOL立場マップ注入（brain/build_entities.py が token entity に焼いた多視点テーブルを
+    # そのまま見せる＝1視点のKOLコールを鵜呑みにさせない）。失敗しても ask を絶対に壊さない。
+    try:
+        STANCE_HDR = "## KOL立場マップ（多視点・自動）"
+        tickers_in_q, seen = [], set()
+        for m in re.findall(r"\$[A-Za-z][A-Za-z0-9]{1,9}", q):
+            tk = m.upper()
+            if tk not in seen:
+                seen.add(tk)
+                tickers_in_q.append(tk)
+            if len(tickers_in_q) >= 2:
+                break
+        stance_blocks = []
+        for tk in tickers_in_q:
+            path = os.path.join(ROOT, "wiki", "entities", "tokens", f"{tk}.md")
+            if not os.path.isfile(path):
+                continue
+            with open(path, encoding="utf-8") as f:
+                txt = f.read()
+            i = txt.find(STANCE_HDR)
+            if i == -1:
+                continue
+            after = txt[i + len(STANCE_HDR):]
+            ends = [p for p in (after.find("\n## "), after.find("<!--")) if p != -1]
+            section = STANCE_HDR + (after[:min(ends)] if ends else after)
+            stance_blocks.append(section.strip())
+        if stance_blocks:
+            out.append(
+                "### 銘柄のKOL立場マップ（多視点＝**共通点と矛盾**を軸に答えよ・1視点の買い推奨はゴミ）\n"
+                + "\n\n".join(stance_blocks))
+    except Exception:  # noqa: BLE001
+        pass
+
+    # G4: 言及KOLの深堀りprofile注入（curated profile:start ブロックの「視点エンジンでの使い方」＋
+    # 「⚠️矛盾」を渡し、その人の思考の型で答えさせる）。失敗してもask を絶対に壊さない。
+    try:
+        PROF_START, PROF_END = "<!-- profile:start -->", "<!-- profile:end -->"
+        HDR_RE = re.compile(r"^### .*$", re.MULTILINE)
+        prof_blocks = []
+        # 質問文に直接出るhandleを優先(cap=2でretrieval由来のアルファベット先行handleに主役が押し出されるのを防ぐ)
+        in_q = [h.lower() for h in re.findall(r"@([A-Za-z0-9_]{3,15})", q)]
+        ordered_handles = in_q + sorted(h for h in handles if h not in in_q)
+        for h in ordered_handles:
+            if len(prof_blocks) >= 2:
+                break
+            path = os.path.join(ROOT, "wiki", "entities", "players", f"@{h}.md")
+            if not os.path.isfile(path):
+                continue
+            with open(path, encoding="utf-8") as f:
+                txt = f.read()
+            i, j = txt.find(PROF_START), txt.find(PROF_END)
+            if i == -1 or j == -1:
+                continue
+            inner = txt[i + len(PROF_START):j]
+            subs, ms = [], list(HDR_RE.finditer(inner))
+            for idx, m in enumerate(ms):
+                s = m.start()
+                e = ms[idx + 1].start() if idx + 1 < len(ms) else len(inner)
+                subs.append(inner[s:e].strip())
+            persp = next((s for s in subs if s.split("\n", 1)[0].startswith("### 視点エンジンでの使い方")), None)
+            contra = next((s for s in subs if s.split("\n", 1)[0].startswith("### ⚠️矛盾")), None)
+            parts = [s for s in (persp, contra) if s]
+            excerpt = ("\n\n".join(parts) if parts else inner.strip())[:900]
+            prof_blocks.append(f"**@{h}**:\n{excerpt}")
+        if prof_blocks:
+            out.append("### 言及KOLの深堀りprofile（思考の型＝この人ならこう読む）\n"
+                       + "\n\n".join(prof_blocks))
+    except Exception:  # noqa: BLE001
+        pass
+
     if out:
         print("\n\n".join(out))
 
