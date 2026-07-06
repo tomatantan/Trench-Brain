@@ -258,3 +258,4 @@ brain/state/revise_last_sig.txt
 brain/state/detections.jsonl
 brain/state/learn_queue.jsonl
 brain/state/learn_flags.json
+brain/state/la_token.json
