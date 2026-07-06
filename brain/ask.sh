@@ -103,11 +103,30 @@ PY
 # grep運任せをやめ、脳に「読むべき合成知識」と「誰が本当に当ててるか」をコードで渡す。失敗しても空。
 ASKCTX="$(python3 brain/ask_context.py "$Q" 2>/dev/null)"
 
+# ★ライブmacro価格(BTC/ETH/SOL)＝「今の相場/majors/BTCどう」系の土台。
+# これが無くて$80-95k等の嘘価格を出してた根治(2026-07-06 本人指摘)。取得失敗時は価格を語らせない。
+MACRO="$(python3 - <<'PY'
+import json, urllib.request
+try:
+    u="https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true"
+    d=json.loads(urllib.request.urlopen(u, timeout=10).read())
+    def f(k):
+        x=d.get(k,{}); return "${:,.0f} ({:+.1f}%/24h)".format(x.get("usd",0), x.get("usd_24h_change",0))
+    print("BTC {} / ETH {} / SOL {}".format(f("bitcoin"), f("ethereum"), f("solana")))
+except Exception:
+    print("(macro価格 取得失敗＝価格を数字で語るな)")
+PY
+)"
+
 PROMPT="$(cat brain/ask_prompt.md)
 ${ASKCTX:+
 ## ★★決定的に取得した合成知識＋実績（grepより先に これを主根拠にせよ）
 $ASKCTX
 }
+
+## ★今のmajors実価格（ライブ・最優先の事実）
+BTC/ETH/SOL や「今の相場/macro/majors/どう動く」系は**必ずこの実価格を根拠にせよ**。記憶や幻の数字で価格レンジを語るな（過去に 8万〜9.5万ドル台 等の捏造で失格した）。この値が「今」。
+$MACRO
 
 ## ★この人(本人)の文脈＝これを前提に「この人のために」考える(A6)
 $(cat brain/user_context.md 2>/dev/null)
