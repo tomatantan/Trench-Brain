@@ -80,6 +80,22 @@ def keep_synthesis(path):
     return SYN_DEFAULT
 
 
+PROF_START = "<!-- profile:start -->"
+PROF_END = "<!-- profile:end -->"
+
+
+def keep_profile(path):
+    """curated深堀りprofileブロックを保持。synthesis(cron自動合成)と別枠＝機械が上書きしない層。
+    無ければ空(全playerにデフォルト雛形は撒かない=乱造防止)。"""
+    if not path.exists():
+        return ""
+    t = path.read_text(encoding="utf-8")
+    i, j = t.find(PROF_START), t.find(PROF_END)
+    if i != -1 and j != -1:
+        return t[i:j + len(PROF_END)]
+    return ""
+
+
 def snip(body, n=84):
     return html.unescape(URL_RE.sub("", body).replace("\n", " ").replace("|", "/")).strip()[:n]
 
@@ -150,6 +166,7 @@ def main():
             "## 高エンゲージ言及",
             "| likes | account | 抜粋 | source |", "|---|---|---|---|",
             *rows, "",
+            *([kp, ""] if (kp := keep_profile(ENT / "tokens" / f"{tk}.md")) else []),
             keep_synthesis(ENT / "tokens" / f"{tk}.md"), "",
         ]
         (ENT / "tokens" / f"{tk}.md").write_text("\n".join(page), encoding="utf-8")
@@ -189,6 +206,7 @@ def main():
             "## 高エンゲージ投稿",
             "| likes | tickers | 抜粋 | source |", "|---|---|---|---|",
             *rows, "",
+            *([kp, ""] if (kp := keep_profile(ENT / "players" / f"@{h}.md")) else []),
             keep_synthesis(ENT / "players" / f"@{h}.md"), "",
         ]
         (ENT / "players" / f"@{h}.md").write_text("\n".join(page), encoding="utf-8")

@@ -42,10 +42,23 @@ try:
 except Exception: print('track-record: 不明')
 " 2>/dev/null)"
 
+# curated深堀りprofile(<!-- profile:start/end -->・原典/長文ソース由来)があれば文脈として渡す。
+# synthesisはこれを「上書き」せず「今の投稿と突き合わせる」＝profileは人/エージェントのcurated層で不可侵。
+PROF="$(python3 - "$ENT" <<'PY'
+import sys
+t = open(sys.argv[1], encoding="utf-8", errors="replace").read()
+i, j = t.find("<!-- profile:start -->"), t.find("<!-- profile:end -->")
+print(t[i:j] if (i != -1 and j != -1) else "")
+PY
+)"
+
 PROMPT="$(cat brain/synth_player_prompt.md)
 
 ## 対象 player: @${H}
 $TR
+${PROF:+
+## curated深堀りprofile（原典由来・不可侵の前提知識。今の投稿がこれと矛盾したら⚠️で指摘）
+$PROF}
 
 ## 実投稿（エンゲージ上位・これに grounded に）:
 $POSTS"
