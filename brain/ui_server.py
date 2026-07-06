@@ -777,6 +777,26 @@ def _score_token(token):
         if isinstance(total_holders, int) and 0 < total_holders < 15:
             flags.append(f"holder極少({total_holders})")
         flags += [f"危険: {dn}" for dn in danger]
+    # ★VOL/MC比(spyzer guide p.25: 出来高は原則mcapより大きいべき・<80%はほぼbundle)。
+    #   ただし本人も「若いコインほど差が大きくあるべき」＝閾値は文脈依存→flagは若い銘柄(48h以内)のみ、
+    #   それ以外は info として出すだけ(成熟銘柄で日次vol<mcapは正常＝一律適用は偽赤旗)。
+    dx = _http_json(f"https://api.dexscreener.com/latest/dex/tokens/{ca}")
+    pairs = (dx or {}).get("pairs") or []
+    if pairs:
+        p0 = max(pairs, key=lambda p: ((p.get("liquidity") or {}).get("usd") or 0))
+        vol24 = ((p0.get("volume") or {}).get("h24") or 0)
+        mc_dx = p0.get("marketCap") or p0.get("fdv") or 0
+        ratio = round(100 * vol24 / mc_dx, 1) if mc_dx else None
+        onchain["dex"] = {"vol24_usd": round(vol24), "mcap_usd": round(mc_dx),
+                          "vol_mc_pct": ratio,
+                          "liq_usd": round((p0.get("liquidity") or {}).get("usd") or 0)}
+        age_h = None
+        cts = pf.get("created_timestamp") if pf else None
+        if cts:
+            age_h = round((time.time() - cts / 1000) / 3600, 1)
+            onchain["dex"]["age_h"] = age_h
+        if ratio is not None and age_h is not None and age_h <= 48 and ratio < 80:
+            flags.append(f"VOL/MC {ratio}%<80%＝bundle疑い(spyzer基準・launch {age_h}h)")
     br = _state_json("base_rate.json", {})
     gp = br.get("gate_passed") or 1
     die_pct = round(100 * (br.get("died") or 0) / gp, 1)
