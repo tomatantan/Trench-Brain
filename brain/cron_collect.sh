@@ -34,6 +34,9 @@ python3 brain/pipeline.py >> "$LOG" 2>&1 || echo "pipeline failed(継続)" >> "$
 python3 collector/collect_youtube.py --limit 1 >> "$LOG" 2>&1 || echo "yt-collect skipped(継続)" >> "$LOG"
 # ★自動で賢くなる: watchlist(門)を引用グラフから自動拡張(候補化→人は承認だけ・指針2)。決定的層=LLM不要。
 python3 brain/expand_watchlist.py >> "$LOG" 2>&1 || echo "expand-watchlist skipped" >> "$LOG"
+# ★段階投入: 承認済み候補queueを1人/サイクルだけ門へ(本人指示2026-07-07「一気でなく1人ずつ」)。
+#   健康ゲート(signal_backlog増加中は停止)+理解ゲート(onboarding profile必須)。決定的・queue空ならno-op。
+python3 brain/staged_intake.py >> "$LOG" 2>&1 || echo "staged-intake skipped" >> "$LOG"
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"

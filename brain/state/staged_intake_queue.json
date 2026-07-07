@@ -1,0 +1,725 @@
+{
+ "note": "本人承認2026-07-07・1人/サイクル段階投入(staged_intake.py)。並び=followers降順×main2:CN1交互",
+ "queue": [
+  {
+   "handle": "shahh",
+   "group": "main",
+   "followers": 402674
+  },
+  {
+   "handle": "cishanjia",
+   "group": "cn",
+   "followers": 306753
+  },
+  {
+   "handle": "Jeremybtc",
+   "group": "main",
+   "followers": 282494
+  },
+  {
+   "handle": "metaversejoji",
+   "group": "main",
+   "followers": 263326
+  },
+  {
+   "handle": "huahuayjy",
+   "group": "cn",
+   "followers": 300305
+  },
+  {
+   "handle": "0xSweep",
+   "group": "main",
+   "followers": 249098
+  },
+  {
+   "handle": "SolportTom",
+   "group": "main",
+   "followers": 209340
+  },
+  {
+   "handle": "0xcryptowizard",
+   "group": "cn",
+   "followers": 228217
+  },
+  {
+   "handle": "cozypront",
+   "group": "main",
+   "followers": 205691
+  },
+  {
+   "handle": "cryptolyxe",
+   "group": "main",
+   "followers": 198601
+  },
+  {
+   "handle": "0xSunNFT",
+   "group": "cn",
+   "followers": 211374
+  },
+  {
+   "handle": "patty_fi",
+   "group": "main",
+   "followers": 147730
+  },
+  {
+   "handle": "CookerFlips",
+   "group": "main",
+   "followers": 135608
+  },
+  {
+   "handle": "0xAA_Science",
+   "group": "cn",
+   "followers": 180533
+  },
+  {
+   "handle": "crypto_iso",
+   "group": "main",
+   "followers": 133387
+  },
+  {
+   "handle": "HopiumPapi",
+   "group": "main",
+   "followers": 131710
+  },
+  {
+   "handle": "hellosuoha",
+   "group": "cn",
+   "followers": 178110
+  },
+  {
+   "handle": "daumenxyz",
+   "group": "main",
+   "followers": 123869
+  },
+  {
+   "handle": "rasmr_eth",
+   "group": "main",
+   "followers": 122678
+  },
+  {
+   "handle": "BitCloutCat",
+   "group": "cn",
+   "followers": 149582
+  },
+  {
+   "handle": "bonkfun",
+   "group": "main",
+   "followers": 106866
+  },
+  {
+   "handle": "Cbb0fe",
+   "group": "main",
+   "followers": 106625
+  },
+  {
+   "handle": "connectfarm1",
+   "group": "cn",
+   "followers": 134076
+  },
+  {
+   "handle": "ResellCalendar",
+   "group": "main",
+   "followers": 102000
+  },
+  {
+   "handle": "WhiteWhaleLabs",
+   "group": "main",
+   "followers": 98301
+  },
+  {
+   "handle": "EnHeng456",
+   "group": "cn",
+   "followers": 104880
+  },
+  {
+   "handle": "fomomofosol",
+   "group": "main",
+   "followers": 94361
+  },
+  {
+   "handle": "slingoorio",
+   "group": "main",
+   "followers": 84270
+  },
+  {
+   "handle": "DekuKing1",
+   "group": "cn",
+   "followers": 103979
+  },
+  {
+   "handle": "SolidTradesz",
+   "group": "main",
+   "followers": 84016
+  },
+  {
+   "handle": "suganarium",
+   "group": "main",
+   "followers": 82313
+  },
+  {
+   "handle": "silverfang88",
+   "group": "cn",
+   "followers": 95874
+  },
+  {
+   "handle": "FlippingProfits",
+   "group": "main",
+   "followers": 73803
+  },
+  {
+   "handle": "ShockedJS",
+   "group": "main",
+   "followers": 73596
+  },
+  {
+   "handle": "brc20niubi",
+   "group": "cn",
+   "followers": 91731
+  },
+  {
+   "handle": "gudmansachs",
+   "group": "main",
+   "followers": 70970
+  },
+  {
+   "handle": "icobeast",
+   "group": "main",
+   "followers": 67792
+  },
+  {
+   "handle": "hexiecs",
+   "group": "cn",
+   "followers": 90337
+  },
+  {
+   "handle": "gumsays",
+   "group": "main",
+   "followers": 65438
+  },
+  {
+   "handle": "DimitriDotEth",
+   "group": "main",
+   "followers": 64562
+  },
+  {
+   "handle": "CryptoDevinL",
+   "group": "cn",
+   "followers": 89436
+  },
+  {
+   "handle": "izebel_eth",
+   "group": "main",
+   "followers": 59745
+  },
+  {
+   "handle": "WazzCrypto",
+   "group": "main",
+   "followers": 55627
+  },
+  {
+   "handle": "Ed_x0101",
+   "group": "cn",
+   "followers": 82228
+  },
+  {
+   "handle": "watchingmarkets",
+   "group": "main",
+   "followers": 50368
+  },
+  {
+   "handle": "wrld_sol",
+   "group": "main",
+   "followers": 50071
+  },
+  {
+   "handle": "Michael_Liu93",
+   "group": "cn",
+   "followers": 81205
+  },
+  {
+   "handle": "0xBossman",
+   "group": "main",
+   "followers": 49422
+  },
+  {
+   "handle": "roboPBOC",
+   "group": "main",
+   "followers": 46493
+  },
+  {
+   "handle": "0xmagnolia",
+   "group": "cn",
+   "followers": 65123
+  },
+  {
+   "handle": "jackduval",
+   "group": "main",
+   "followers": 44220
+  },
+  {
+   "handle": "cryptoleon",
+   "group": "main",
+   "followers": 43590
+  },
+  {
+   "handle": "liangfenxiaodao",
+   "group": "cn",
+   "followers": 60259
+  },
+  {
+   "handle": "ieatjeets",
+   "group": "main",
+   "followers": 43526
+  },
+  {
+   "handle": "NewsyJohnson",
+   "group": "main",
+   "followers": 41389
+  },
+  {
+   "handle": "Unipioneer",
+   "group": "cn",
+   "followers": 52536
+  },
+  {
+   "handle": "0xSoju",
+   "group": "main",
+   "followers": 40169
+  },
+  {
+   "handle": "evee0x",
+   "group": "main",
+   "followers": 39439
+  },
+  {
+   "handle": "liping007",
+   "group": "cn",
+   "followers": 50179
+  },
+  {
+   "handle": "Fapital3",
+   "group": "main",
+   "followers": 39215
+  },
+  {
+   "handle": "clukz",
+   "group": "main",
+   "followers": 37859
+  },
+  {
+   "handle": "nine_DeFi",
+   "group": "cn",
+   "followers": 49358
+  },
+  {
+   "handle": "degengambleh",
+   "group": "main",
+   "followers": 36025
+  },
+  {
+   "handle": "miragemunny",
+   "group": "main",
+   "followers": 33319
+  },
+  {
+   "handle": "neso",
+   "group": "cn",
+   "followers": 45447
+  },
+  {
+   "handle": "roxinft",
+   "group": "main",
+   "followers": 32776
+  },
+  {
+   "handle": "0GAntD",
+   "group": "main",
+   "followers": 31500
+  },
+  {
+   "handle": "GCsheng",
+   "group": "cn",
+   "followers": 45240
+  },
+  {
+   "handle": "zinceth",
+   "group": "main",
+   "followers": 29992
+  },
+  {
+   "handle": "ChillTRD",
+   "group": "main",
+   "followers": 29799
+  },
+  {
+   "handle": "kaikaibtc",
+   "group": "cn",
+   "followers": 43850
+  },
+  {
+   "handle": "JW100x",
+   "group": "main",
+   "followers": 29649
+  },
+  {
+   "handle": "crypticd22",
+   "group": "main",
+   "followers": 29227
+  },
+  {
+   "handle": "Arya_web3",
+   "group": "cn",
+   "followers": 41249
+  },
+  {
+   "handle": "Bancrypto__",
+   "group": "main",
+   "followers": 29170
+  },
+  {
+   "handle": "CryptoTomYT",
+   "group": "main",
+   "followers": 27981
+  },
+  {
+   "handle": "luge517",
+   "group": "cn",
+   "followers": 41014
+  },
+  {
+   "handle": "real_y22",
+   "group": "main",
+   "followers": 26994
+  },
+  {
+   "handle": "iruletrenches",
+   "group": "main",
+   "followers": 26495
+  },
+  {
+   "handle": "Mirro7777",
+   "group": "cn",
+   "followers": 39189
+  },
+  {
+   "handle": "BeanzzSOL",
+   "group": "main",
+   "followers": 26457
+  },
+  {
+   "handle": "0xRenaissance",
+   "group": "main",
+   "followers": 26446
+  },
+  {
+   "handle": "bigbottle44",
+   "group": "cn",
+   "followers": 37819
+  },
+  {
+   "handle": "sonder_crypto",
+   "group": "main",
+   "followers": 25363
+  },
+  {
+   "handle": "_logjam",
+   "group": "main",
+   "followers": 23671
+  },
+  {
+   "handle": "SuperL9",
+   "group": "cn",
+   "followers": 34466
+  },
+  {
+   "handle": "0xdetweiler",
+   "group": "main",
+   "followers": 23040
+  },
+  {
+   "handle": "Catolicc",
+   "group": "main",
+   "followers": 22700
+  },
+  {
+   "handle": "0xNoNo_1",
+   "group": "cn",
+   "followers": 33577
+  },
+  {
+   "handle": "cryptokillua99",
+   "group": "main",
+   "followers": 22514
+  },
+  {
+   "handle": "funcry",
+   "group": "main",
+   "followers": 21542
+  },
+  {
+   "handle": "cryptojiuyi",
+   "group": "cn",
+   "followers": 27993
+  },
+  {
+   "handle": "RainsRevenge",
+   "group": "main",
+   "followers": 21283
+  },
+  {
+   "handle": "DataC58218",
+   "group": "main",
+   "followers": 21147
+  },
+  {
+   "handle": "Huang2024",
+   "group": "cn",
+   "followers": 25483
+  },
+  {
+   "handle": "goyimpnl",
+   "group": "main",
+   "followers": 20394
+  },
+  {
+   "handle": "AxisAce101",
+   "group": "main",
+   "followers": 20022
+  },
+  {
+   "handle": "3ethtomoon",
+   "group": "cn",
+   "followers": 24795
+  },
+  {
+   "handle": "xydotdot",
+   "group": "main",
+   "followers": 19312
+  },
+  {
+   "handle": "winiam4444",
+   "group": "main",
+   "followers": 17229
+  },
+  {
+   "handle": "minglaugodel",
+   "group": "cn",
+   "followers": 24696
+  },
+  {
+   "handle": "Cryptotrissy",
+   "group": "main",
+   "followers": 17095
+  },
+  {
+   "handle": "MidCurveMortal",
+   "group": "main",
+   "followers": 14028
+  },
+  {
+   "handle": "Deibajie",
+   "group": "cn",
+   "followers": 22840
+  },
+  {
+   "handle": "onchainrapist",
+   "group": "main",
+   "followers": 13704
+  },
+  {
+   "handle": "AlphaHunte19762",
+   "group": "main",
+   "followers": 11560
+  },
+  {
+   "handle": "HtrZac",
+   "group": "cn",
+   "followers": 21731
+  },
+  {
+   "handle": "AceAgain_",
+   "group": "main",
+   "followers": 11391
+  },
+  {
+   "handle": "dylansdegens",
+   "group": "main",
+   "followers": 10118
+  },
+  {
+   "handle": "0xEdwin999",
+   "group": "cn",
+   "followers": 13738
+  },
+  {
+   "handle": "solvenant",
+   "group": "main",
+   "followers": 9892
+  },
+  {
+   "handle": "0xHeroSt",
+   "group": "main",
+   "followers": 9386
+  },
+  {
+   "handle": "real_dr_pump",
+   "group": "cn",
+   "followers": 10871
+  },
+  {
+   "handle": "amabinvesting",
+   "group": "main",
+   "followers": 8998
+  },
+  {
+   "handle": "jikksol",
+   "group": "main",
+   "followers": 8878
+  },
+  {
+   "handle": "BiliSquare",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "DecentrlizOrDie",
+   "group": "main",
+   "followers": 8327
+  },
+  {
+   "handle": "BernieOnChain",
+   "group": "main",
+   "followers": 7767
+  },
+  {
+   "handle": "Wolfy_XBT",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "Nic_Wenzel_1",
+   "group": "main",
+   "followers": 7330
+  },
+  {
+   "handle": "bitbellaa",
+   "group": "main",
+   "followers": 7212
+  },
+  {
+   "handle": "BroLeonAus",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "lesabrefomo",
+   "group": "main",
+   "followers": 6780
+  },
+  {
+   "handle": "supercontraa",
+   "group": "main",
+   "followers": 6690
+  },
+  {
+   "handle": "GoldenPepeCabal",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "leyten",
+   "group": "main",
+   "followers": 6683
+  },
+  {
+   "handle": "thokani",
+   "group": "main",
+   "followers": 6163
+  },
+  {
+   "handle": "Dincocoin",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "DineroDom0",
+   "group": "main",
+   "followers": 5805
+  },
+  {
+   "handle": "feikuu",
+   "group": "main",
+   "followers": 5249
+  },
+  {
+   "handle": "Wmafia6",
+   "group": "cn",
+   "followers": 0
+  },
+  {
+   "handle": "sized_in",
+   "group": "main",
+   "followers": 4899
+  },
+  {
+   "handle": "trenchesborn",
+   "group": "main",
+   "followers": 4488
+  },
+  {
+   "handle": "redemptionarcc",
+   "group": "main",
+   "followers": 4435
+  },
+  {
+   "handle": "J_Dood_",
+   "group": "main",
+   "followers": 3933
+  },
+  {
+   "handle": "0xx_Hammy",
+   "group": "main",
+   "followers": 2665
+  },
+  {
+   "handle": "CryptoCaptic",
+   "group": "main",
+   "followers": 2417
+  },
+  {
+   "handle": "rynzoeth",
+   "group": "main",
+   "followers": 741
+  },
+  {
+   "handle": "zer0profit_",
+   "group": "main",
+   "followers": 454
+  },
+  {
+   "handle": "sippin_icm",
+   "group": "main",
+   "followers": 432
+  },
+  {
+   "handle": "game_for_one",
+   "group": "main",
+   "followers": 0
+  },
+  {
+   "handle": "fey_xbt",
+   "group": "main",
+   "followers": 0
+  },
+  {
+   "handle": "duckingnator",
+   "group": "main",
+   "followers": 0
+  },
+  {
+   "handle": "tryfomo",
+   "group": "main",
+   "followers": 0
+  }
+ ]
+}

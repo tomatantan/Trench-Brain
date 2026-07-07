@@ -19,6 +19,11 @@ if [ -f "$ENT" ] && grep -q "profile:start" "$ENT" && [ "$FORCE" != "--force" ];
   echo "onboard: @$H は profile 済み → skip（--force で上書き）"; exit 0
 fi
 
+# ★prefetch対応(2026-07-07): ONBOARD_DATA_DIR に data_<handle>.json があればAPIを叩かずそれを使う。
+#   fetch(レート制限側)とLLM生成(遅い側)の分離＝並列バッチがAPIを乱打してsuccess+0件連鎖する事故の根治。
+if [ -n "${ONBOARD_DATA_DIR:-}" ] && [ -s "${ONBOARD_DATA_DIR}/data_${H}.json" ]; then
+  DATA="$(cat "${ONBOARD_DATA_DIR}/data_${H}.json")"
+else
 DATA="$(python3 - "$H" <<'PY'
 import sys, json, urllib.request, urllib.parse
 H = sys.argv[1]
@@ -49,6 +54,7 @@ out["recent_tweets"] = tw or "取得不可"
 print(json.dumps(out, ensure_ascii=False, indent=1))
 PY
 )"
+fi
 
 # 取得ゼロなら合成しない（薄いデータで人物像を捏造させない）
 if printf '%s' "$DATA" | grep -q '"recent_tweets": "取得不可"'; then
