@@ -26,7 +26,7 @@ if [ "${ASK_UI:-}" = "1" ]; then
   UI_RULES="
 ## ★★UI出力規律（エンドユーザー向け＝最優先・絶対遵守。破ったら失格）
 **1. 内部/パイプラインの言葉を一切出すな（出したらゴミに見える）**:
-   禁止語・禁止表現＝「corpus」「backlog」「live_pulse」「death_ledger」「死亡台帳」「跳躍台帳」「pulse_history」「queue」「tracked/tracked分」「ゲート通過」「N窓(目)」「観測N件」「scam reject率」「0.0X%」「reject率」「watchlist」「合成」「観測が止まってる」「課金切れ」「flow_count」。
+   禁止語・禁止表現＝「corpus」「backlog」「live_pulse」「death_ledger」「死亡台帳」「跳躍台帳」「pulse_history」「queue」「tracked/tracked分」「ゲート通過」「N窓(目)」「観測N件」「scam reject率」「0.0X%」「reject率」「watchlist」「合成」「観測が止まってる」「課金切れ」「flow_count」「kol_standouts」「stance_map」「ask_context」。queries/内部ファイルパスをそのまま [[queries/...md]] と引用するな（内容は使ってよい・出典表記は概念/銘柄/人物ページのみ）。
    データの**出所名・パイプライン指標・window数・生の観測カウント・通過率%を書くな**。根拠は人間の言葉で（例『複数の大型KOLが同時に言及』『過去の同型は崩壊した』）か、簡潔な [[概念名]] リンクのみ（[[rug-anatomy]] 等はOK・live_pulse/death_ledger等の内部名はNG）。
 **2. 具体を先に・メタ/統計を後に**: 「トレンド/今何が」系は**実際に今 動いてる/launchしてる銘柄を名前で**挙げよ（\$X, \$Y…＋一言ずつ何者か）。死亡率/通過率/件数みたいなメタ統計から始めるな。
 **3. 静かでも『待ち』で終わるな**: signalが薄くても (a)今流れてる実銘柄を数個 (b)テーマの偏り (c)**何が出たら入るか=具体的watch条件** を出せ。「待ちが正解」だけの非回答は禁止＝ユーザーは『で、何見ればいいの』となる。
@@ -156,7 +156,9 @@ $ENTDATA}
 $UI_RULES
 
 ## ユーザーの問い:
-$Q"
+$Q
+
+★最後に確認: この問いが判断/相場/銘柄系なら、出力は必ず『**複数KOLレンズ**(実在KOL2-3人・実績%付)/**共通点＝強い信号**/**⚠️矛盾＝ここが学び**/**今すぐ見る1つ**』の4見出し構造(上の「出力の型」)。1視点の買い/避け推奨だけの回答は失格。一般知識の問いなら短く直答でよい。"
 # ★backend 切替: 運用者=claude(サブスク・既定) / 公開=gemini(無料・ToS安全・GPU負荷ゼロ)。
 # ui_server(公開)は ASK_BACKEND=gemini を渡す。運用者が ask.sh を直に叩くと既定=claude。
 if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then

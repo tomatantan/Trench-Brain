@@ -38,6 +38,20 @@ python3 brain/expand_watchlist.py >> "$LOG" 2>&1 || echo "expand-watchlist skipp
 #   健康ゲート(signal_backlog増加中は停止)+理解ゲート(onboarding profile必須)。決定的・queue空ならno-op。
 python3 brain/staged_intake.py >> "$LOG" 2>&1 || echo "staged-intake skipped" >> "$LOG"
 
+# ★節約モード(本人指示2026-07-07「サブスク上限・クレジット消費中=節約して」・既定ON):
+#   維持系のheadless合成を haiku に落とし件数も絞る。品質は synth_validate(門番)+北極星設計
+#   「弱いモデルでも運用できる」が担保。★ユーザー向け /api/ask は対象外(公開=gemini無料・fallbackのみclaude)。
+#   戻す時: ECONOMY=0 をwrapper/環境で渡す。個別上書き(SYNTH_MODEL等)は常に優先される。
+ECONOMY="${ECONOMY:-1}"
+if [ "$ECONOMY" = "1" ]; then
+  export SYNTH_MODEL="${SYNTH_MODEL:-haiku}"
+  export SYNTH_PLAYER_MODEL="${SYNTH_PLAYER_MODEL:-haiku}"
+  export ONBOARD_MODEL="${ONBOARD_MODEL:-haiku}"
+  export PLAYER_SYNTH_MAX="${PLAYER_SYNTH_MAX:-1}"
+  export BACKFILL_TOPN="${BACKFILL_TOPN:-2}"
+  echo "economy mode ON (維持合成=haiku・player 1/巡・backfill 2/巡)" >> "$LOG"
+fi
+
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
 # (2)pump.fun合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
