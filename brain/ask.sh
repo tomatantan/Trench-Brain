@@ -10,7 +10,12 @@ MODEL="${ASK_MODEL:-sonnet}"
 
 Q="${*:-}"
 [ -n "$Q" ] || { echo "問いを渡して: bash brain/ask.sh \"...\"" >&2; exit 1; }
-command -v claude >/dev/null 2>&1 || { echo "claude CLI なし" >&2; exit 1; }
+# claude CLI はbackend=claude か geminiのfallback時のみ必要。クラウドserving VM(gemini専・claude無し)でも
+# 動ける様に必須チェックを外す(2026-07-08 serving層の家出し)。実呼び出し箇所で有無を見る。
+HAS_CLAUDE=0; command -v claude >/dev/null 2>&1 && HAS_CLAUDE=1
+if [ "${ASK_BACKEND:-claude}" != "gemini" ] && [ "$HAS_CLAUDE" = "0" ]; then
+  echo "claude CLI なし(ASK_BACKEND=gemini なら動く)" >&2; exit 1
+fi
 
 # 時系列データ(直近)＝「いつ何が変わった/速度/トレンド」の問いに使う。日次snapshot。
 TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列データなし)')"
@@ -165,7 +170,7 @@ if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then
   # gemini(公開・無料)。未設定/失敗で空が返ったら claude にフォールバックしてASKを落とさない
   # (2026-07-05: GEMINI_API_KEY未設定でASKが全滅=「ASK FAILED」になっていた根治)。
   ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py 2>/dev/null || true)"
-  if [ -z "$ANSWER" ]; then
+  if [ -z "$ANSWER" ] && [ "$HAS_CLAUDE" = "1" ]; then
     ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
   fi
 else
