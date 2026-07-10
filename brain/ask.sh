@@ -31,7 +31,7 @@ if [ "${ASK_UI:-}" = "1" ]; then
   UI_RULES="
 ## ★★UI出力規律（エンドユーザー向け＝最優先・絶対遵守。破ったら失格）
 **1. 内部/パイプラインの言葉を一切出すな（出したらゴミに見える）**:
-   禁止語・禁止表現＝「corpus」「backlog」「live_pulse」「death_ledger」「死亡台帳」「跳躍台帳」「pulse_history」「queue」「tracked/tracked分」「ゲート通過」「N窓(目)」「観測N件」「scam reject率」「0.0X%」「reject率」「watchlist」「合成」「観測が止まってる」「課金切れ」「flow_count」「kol_standouts」「stance_map」「ask_context」。queries/内部ファイルパスをそのまま [[queries/...md]] と引用するな（内容は使ってよい・出典表記は概念/銘柄/人物ページのみ）。
+   禁止語・禁止表現＝「corpus」「backlog」「live_pulse」「death_ledger」「死亡台帳」「跳躍台帳」「pulse_history」「queue」「tracked/tracked分」「ゲート通過」「N窓(目)」「観測N件」「scam reject率」「0.0X%」「reject率」「watchlist」「合成」「観測が止まってる」「課金切れ」「flow_count」「kol_standouts」「stance_map」「ask_context」「traction_candidates」「kol_ca」「synth_queue」。queries/内部ファイルパスをそのまま [[queries/...md]] と引用するな（内容は使ってよい・出典表記は概念/銘柄/人物ページのみ）。
    データの**出所名・パイプライン指標・window数・生の観測カウント・通過率%を書くな**。根拠は人間の言葉で（例『複数の大型KOLが同時に言及』『過去の同型は崩壊した』）か、簡潔な [[概念名]] リンクのみ（[[rug-anatomy]] 等はOK・live_pulse/death_ledger等の内部名はNG）。
 **2. 具体を先に・メタ/統計を後に**: 「トレンド/今何が」系は**実際に今 動いてる/launchしてる銘柄を名前で**挙げよ（\$X, \$Y…＋一言ずつ何者か）。死亡率/通過率/件数みたいなメタ統計から始めるな。
 **3. 静かでも『待ち』で終わるな**: signalが薄くても (a)今流れてる実銘柄を数個 (b)テーマの偏り (c)**何が出たら入るか=具体的watch条件** を出せ。「待ちが正解」だけの非回答は禁止＝ユーザーは『で、何見ればいいの』となる。
