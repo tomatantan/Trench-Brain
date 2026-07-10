@@ -1,9 +1,86 @@
 [
   {
+    "concept": "brain-calll-dashboard-20260629",
+    "referenced_by": [
+      "$CHAMELEON.md",
+      "$PUMPCADE.md",
+      "$TCG.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "catwif-cluster",
+    "referenced_by": [
+      "$BAG.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "death-ledger",
+    "referenced_by": [
+      "log.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "kol-standouts",
+    "referenced_by": [
+      "2026-07-04-今kolならどう動くといいかな.md",
+      "2026-07-06-ちま何がバズってる.md",
+      "2026-07-07-今の相場-魔界どう動く.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "player-cobie-thinking-pattern",
+    "referenced_by": [
+      "log.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "player-cryptohayes-thinking-pattern",
+    "referenced_by": [
+      "log.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
     "concept": "soros-reflexivity",
     "referenced_by": [
       "reflexivity.md"
     ],
     "first_seen": "2026-07-02T05:08:53Z"
+  },
+  {
+    "concept": "spyzer-complete-meme-coin-guide-fulltext",
+    "referenced_by": [
+      "@blknoiz06.md",
+      "@spyzer.md",
+      "@spyzercrypto.md",
+      "ape-or-avoid.md",
+      "index.md",
+      "log.md",
+      "manipulation-playbook.md",
+      "onchain-verification.md",
+      "spyzercrypto-memecoin-guide-2026-06-30.md",
+      "watchlist.md",
+      "winners-vs-losers.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "traction-candidates",
+    "referenced_by": [
+      "2026-07-06-ちま何がバズってる.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
+  },
+  {
+    "concept": "trench-brain-vision",
+    "referenced_by": [
+      "watchlist.md"
+    ],
+    "first_seen": "2026-07-07T10:59:46Z"
   }
 ]

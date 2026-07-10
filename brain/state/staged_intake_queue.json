@@ -2,36 +2,6 @@
  "note": "本人承認2026-07-07・1人/サイクル段階投入(staged_intake.py)。並び=followers降順×main2:CN1交互",
  "queue": [
   {
-   "handle": "shahh",
-   "group": "main",
-   "followers": 402674
-  },
-  {
-   "handle": "cishanjia",
-   "group": "cn",
-   "followers": 306753
-  },
-  {
-   "handle": "Jeremybtc",
-   "group": "main",
-   "followers": 282494
-  },
-  {
-   "handle": "metaversejoji",
-   "group": "main",
-   "followers": 263326
-  },
-  {
-   "handle": "huahuayjy",
-   "group": "cn",
-   "followers": 300305
-  },
-  {
-   "handle": "0xSweep",
-   "group": "main",
-   "followers": 249098
-  },
-  {
    "handle": "SolportTom",
    "group": "main",
    "followers": 209340

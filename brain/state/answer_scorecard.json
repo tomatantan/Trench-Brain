@@ -1,12 +1,12 @@
 {
- "ts": "2026-07-04T17:43Z",
+ "ts": "2026-07-08T11:12Z",
  "summary": {
-  "answers": 9,
-  "tokens_mentioned": 9,
-  "dead_now": 5,
-  "alive_now": 1,
-  "unknown": 3,
-  "dead_pct_of_resolved": 83
+  "answers": 28,
+  "tokens_mentioned": 37,
+  "dead_now": 23,
+  "alive_now": 3,
+  "unknown": 11,
+  "dead_pct_of_resolved": 88
  },
  "answers": {
   "2026-07-02T16:02Z-bf59495f": {
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 63,
-     "evaluated_now": 175
+     "death_rate_now": 66,
+     "evaluated_now": 239
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 34042.308924656834,
-     "mcap_now": 33486.1959097617
+     "mcap_now": 32885.77134313924
     }
    },
    "kols": {},
@@ -256,6 +256,719 @@
      "cryptokaleo": {
       "death_rate_now": 0,
       "evaluated_now": 1
+     }
+    }
+   }
+  },
+  "2026-07-06T08:41Z-36622e62": {
+   "ts": "2026-07-06T08:41Z",
+   "question": "日本語でいける？",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-06T08:41Z-bcac63bf": {
+   "ts": "2026-07-06T08:41Z",
+   "question": "ANSEM",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     }
+    }
+   }
+  },
+  "2026-07-06T08:42Z-9885c134": {
+   "ts": "2026-07-06T08:42Z",
+   "question": "Ansem周りで起きてる事柄をまとめて",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "dxrnell": {
+     "death_rate_now": 12,
+     "evaluated_now": 8
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "dxrnell": {
+      "death_rate_now": 12,
+      "evaluated_now": 8
+     }
+    }
+   }
+  },
+  "2026-07-06T08:42Z-d777c7a4": {
+   "ts": "2026-07-06T08:42Z",
+   "question": "今ansemがバズってるけど、なぜバズってるの？",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "theunipcs": {
+     "death_rate_now": 0,
+     "evaluated_now": 3
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "theunipcs": {
+      "death_rate_now": 0,
+      "evaluated_now": 3
+     }
+    }
+   }
+  },
+  "2026-07-06T08:44Z-446af243": {
+   "ts": "2026-07-06T08:44Z",
+   "question": "ANSEMのトークン状況",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-06T08:44Z-6e780317": {
+   "ts": "2026-07-06T08:44Z",
+   "question": "ちま何がバズってる？",
+   "tokens": {
+    "$BULLATLAS": {
+     "status": "dead",
+     "peak_mcap": 212133.8355677787,
+     "mcap_now": 3775.1153594917273
+    },
+    "$SEXY": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {
+    "tsuyuto6154": {
+     "death_rate_now": 50,
+     "evaluated_now": 16
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$BULLATLAS": {
+      "status": "dead",
+      "peak_mcap": 212133.8355677787,
+      "mcap_now": 3775.1153594917273
+     },
+     "$SEXY": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {
+     "tsuyuto6154": {
+      "death_rate_now": 50,
+      "evaluated_now": 16
+     }
+    }
+   }
+  },
+  "2026-07-06T13:07Z-683fdf90": {
+   "ts": "2026-07-06T13:07Z",
+   "question": "今何が熱い？",
+   "tokens": {
+    "$BULLATLAS": {
+     "status": "dead",
+     "peak_mcap": 212133.8355677787,
+     "mcap_now": 3775.1153594917273
+    },
+    "$SEXY": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$BULLATLAS": {
+      "status": "dead",
+      "peak_mcap": 212133.8355677787,
+      "mcap_now": 3775.1153594917273
+     },
+     "$SEXY": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-06T13:07Z-d03bc2a6": {
+   "ts": "2026-07-06T13:07Z",
+   "question": "ビットコインは何ドルになるかな",
+   "tokens": {
+    "$STRC": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$STRC": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-07T00:30Z-5e94a19f": {
+   "ts": "2026-07-07T00:30Z",
+   "question": "kol発言から何が見える？",
+   "tokens": {
+    "$AT": {
+     "status": "dead",
+     "peak_mcap": 11.256208948758509,
+     "mcap_now": 11.256208948758509,
+     "ambiguous_candidates": 6
+    },
+    "$UNC": {
+     "status": "alive",
+     "peak_mcap": 88885.69352468142,
+     "mcap_now": 12332.700226385312,
+     "ambiguous_candidates": 3
+    },
+    "$UNCAGENT": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {
+    "crypto_alch": {
+     "death_rate_now": 0,
+     "evaluated_now": 6
+    },
+    "fibonacki": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "ren_nevermind": {
+     "death_rate_now": 0,
+     "evaluated_now": 2
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$AT": {
+      "status": "dead",
+      "peak_mcap": 11.256208948758509,
+      "mcap_now": 11.256208948758509,
+      "ambiguous_candidates": 6
+     },
+     "$UNC": {
+      "status": "alive",
+      "peak_mcap": 88885.69352468142,
+      "mcap_now": 12340.034462509904,
+      "ambiguous_candidates": 3
+     },
+     "$UNCAGENT": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {
+     "crypto_alch": {
+      "death_rate_now": 0,
+      "evaluated_now": 6
+     },
+     "fibonacki": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "ren_nevermind": {
+      "death_rate_now": 0,
+      "evaluated_now": 2
+     }
+    }
+   }
+  },
+  "2026-07-07T00:43Z-4d70d266": {
+   "ts": "2026-07-07T00:43Z",
+   "question": "今すべき行動",
+   "tokens": {
+    "$ALYCIA": {
+     "status": "dead",
+     "peak_mcap": 1461.7917739599823,
+     "mcap_now": 1461.7917739599823,
+     "ambiguous_candidates": 5
+    },
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    },
+    "$GLDBULL": {
+     "status": "dead",
+     "peak_mcap": 65682.00196808706,
+     "mcap_now": 5590.17249975069
+    },
+    "$KRILLION": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    },
+    "$SULTAN": {
+     "status": "alive",
+     "peak_mcap": 138589.58858723266,
+     "mcap_now": 60906.781629369936,
+     "ambiguous_candidates": 6
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ALYCIA": {
+      "status": "dead",
+      "peak_mcap": 1461.7917739599823,
+      "mcap_now": 1461.7917739599823,
+      "ambiguous_candidates": 5
+     },
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     },
+     "$GLDBULL": {
+      "status": "dead",
+      "peak_mcap": 65682.00196808706,
+      "mcap_now": 5590.17249975069
+     },
+     "$KRILLION": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$SULTAN": {
+      "status": "alive",
+      "peak_mcap": 138589.58858723266,
+      "mcap_now": 62145.14456185908,
+      "ambiguous_candidates": 6
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-07T00:45Z-2743fc12": {
+   "ts": "2026-07-07T00:45Z",
+   "question": "今の相場、魔界どう動く？",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-07T01:53Z-8358975e": {
+   "ts": "2026-07-07T01:53Z",
+   "question": "直近1時間のバズりはある？",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {}
+   }
+  },
+  "2026-07-07T01:54Z-8358975e": {
+   "ts": "2026-07-07T01:54Z",
+   "question": "直近1時間のバズりはある？",
+   "tokens": {
+    "$KELL": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    },
+    "$NIETSPE": {
+     "status": "dead",
+     "peak_mcap": 29259.635322431634,
+     "mcap_now": 3056.260169828244
+    },
+    "$PRIMUS": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    },
+    "$SPCXAI": {
+     "status": "dead",
+     "peak_mcap": 118925.36234628511,
+     "mcap_now": 1821.044445086939
+    }
+   },
+   "kols": {
+    "tsuyuto6154": {
+     "death_rate_now": 50,
+     "evaluated_now": 16
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$KELL": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$NIETSPE": {
+      "status": "dead",
+      "peak_mcap": 29259.635322431634,
+      "mcap_now": 3056.260169828244
+     },
+     "$PRIMUS": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     },
+     "$SPCXAI": {
+      "status": "dead",
+      "peak_mcap": 118925.36234628511,
+      "mcap_now": 1821.044445086939
+     }
+    },
+    "kols": {
+     "tsuyuto6154": {
+      "death_rate_now": 50,
+      "evaluated_now": 16
+     }
+    }
+   }
+  },
+  "2026-07-07T01:58Z-e0da293f": {
+   "ts": "2026-07-07T01:58Z",
+   "question": "次のナラティブ候補って今のところある？",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-07T09:22Z-acd26ceb": {
+   "ts": "2026-07-07T09:22Z",
+   "question": "今の魔界どう？何か仕込むべき？",
+   "tokens": {},
+   "kols": {},
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {},
+    "kols": {}
+   }
+  },
+  "2026-07-07T09:22Z-453e2ea8": {
+   "ts": "2026-07-07T09:22Z",
+   "question": "$ANSEM 乗るか避けるか",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    },
+    "$PUMPSEM": {
+     "status": "dead",
+     "peak_mcap": 21.29907369140193,
+     "mcap_now": 20.674627332894467,
+     "ambiguous_candidates": 2
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "dxrnell": {
+     "death_rate_now": 12,
+     "evaluated_now": 8
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     },
+     "$PUMPSEM": {
+      "status": "dead",
+      "peak_mcap": 21.29907369140193,
+      "mcap_now": 20.674627332894467,
+      "ambiguous_candidates": 2
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "dxrnell": {
+      "death_rate_now": 12,
+      "evaluated_now": 8
+     }
+    }
+   }
+  },
+  "2026-07-07T09:43Z-453e2ea8": {
+   "ts": "2026-07-07T09:43Z",
+   "question": "$ANSEM 乗るか避けるか",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "senshineo7": {
+     "death_rate_now": 50,
+     "evaluated_now": 4
+    },
+    "theunipcs": {
+     "death_rate_now": 0,
+     "evaluated_now": 3
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "senshineo7": {
+      "death_rate_now": 50,
+      "evaluated_now": 4
+     },
+     "theunipcs": {
+      "death_rate_now": 0,
+      "evaluated_now": 3
+     }
+    }
+   }
+  },
+  "2026-07-07T10:30Z-453e2ea8": {
+   "ts": "2026-07-07T10:30Z",
+   "question": "$ANSEM 乗るか避けるか",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    }
+   },
+   "kols": {
+    "badattrading_": {
+     "death_rate_now": 66,
+     "evaluated_now": 239
+    },
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "theunipcs": {
+     "death_rate_now": 0,
+     "evaluated_now": 3
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     }
+    },
+    "kols": {
+     "badattrading_": {
+      "death_rate_now": 65,
+      "evaluated_now": 239
+     },
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "theunipcs": {
+      "death_rate_now": 0,
+      "evaluated_now": 3
+     }
+    }
+   }
+  },
+  "2026-07-07T10:35Z-90bcadc5": {
+   "ts": "2026-07-07T10:35Z",
+   "question": "今の魔界どう動くべき？",
+   "tokens": {
+    "$ANSEM": {
+     "status": "dead",
+     "peak_mcap": 47281.53310484894,
+     "mcap_now": 1473.2416420357451,
+     "ambiguous_candidates": 11
+    },
+    "$PUNCH": {
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
+    }
+   },
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    },
+    "golocojp": {
+     "death_rate_now": 0,
+     "evaluated_now": 7
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-07T11:00Z",
+    "tokens": {
+     "$ANSEM": {
+      "status": "dead",
+      "peak_mcap": 47281.53310484894,
+      "mcap_now": 1473.2416420357451,
+      "ambiguous_candidates": 11
+     },
+     "$PUNCH": {
+      "status": "unknown",
+      "note": "trackedに無し(ticker未解決)"
+     }
+    },
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
+     },
+     "golocojp": {
+      "death_rate_now": 0,
+      "evaluated_now": 7
      }
     }
    }
