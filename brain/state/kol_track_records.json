@@ -10,10 +10,10 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 310,
-  "evaluated": 279,
-  "dead": 192,
-  "alive": 87,
+  "mentioned": 315,
+  "evaluated": 284,
+  "dead": 195,
+  "alive": 89,
   "death_rate": 69,
   "unknown": 31
  },
@@ -368,6 +368,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "monke_": {
+  "handle": "monke_",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "daisuk_e4": {
   "handle": "daisuk_e4",
   "mentioned": 6,
@@ -440,6 +449,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "cozypront": {
+  "handle": "cozypront",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "armaniferrante": {
   "handle": "armaniferrante",
   "mentioned": 2,
@@ -467,6 +485,15 @@
   "death_rate": 50,
   "unknown": 0
  },
+ "cookerflips": {
+  "handle": "cookerflips",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "memememhen": {
   "handle": "memememhen",
   "mentioned": 2,
@@ -483,6 +510,15 @@
   "dead": 0,
   "alive": 0,
   "death_rate": null,
+  "unknown": 1
+ },
+ "0xsunnft": {
+  "handle": "0xsunnft",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
   "unknown": 1
  },
  "theunipcs": {
