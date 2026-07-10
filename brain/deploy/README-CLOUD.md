@@ -1,5 +1,10 @@
 # serving層のクラウド移設（trenchbrain.fun を家から独立させる）
 
+> ★**現況(2026-07-10)**: 移設は Windows AI が**手動で完了済み**＝Oracle VM が配信中。ただし方式が本キットと違う＝
+> **cloudflaredは cert.pem 方式**（本キットは TUNNEL_TOKEN 方式）。**生きてるVMに bootstrap_vm.sh をそのまま流すな**
+> （トンネル二重構成で壊れる）。本キットの用途＝①ゼロからの作り直し/IP変更時の再現手順 ②`trench-pull.sh` 部分の単体流用
+> （repo自動追従。現VMは手動同期＝これを入れるまで公開面のwikiが凍る）。
+
 > 2026-07-08 incident: Windows端末死→Cloudflare 1033→サイト全落ち＋cron pushも7/4から停止していた。
 > 根治＝**servingを常時稼働クラウドVMへ**。家（Windows/Mac）は合成専任＝死んでも「賢くなるのが遅れる」だけでサービスは不死。
 
