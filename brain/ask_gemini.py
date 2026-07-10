@@ -73,8 +73,15 @@ def _call(prompt, key, model):
 
 # 判断/相場/銘柄の問いで必須の出力構造(ask_prompt.md「出力の型」)。弱いモデルが無視しがち＝
 # ここで機械検証する(2026-07-07: 本番geminiが1視点531字の"雑魚"回答を返した根治。テンプレはprompt内に有ったが不服従)。
-_STRUCT_MARKS = ("複数KOLレンズ", "矛盾")
-_JUDGE_Q = ("どう", "買", "乗る", "避け", "仕込", "ape", "avoid", "$", "相場", "魔界", "熱い", "うごく", "動く")
+# ★型B対応(2026-07-10 本人「QとAが一致してない」): 「どう動けば/分からん」系は型B(この人の行動指針)が正答＝
+#   型Aの見出しを強制しない。型A/型Bどちらかの構造が有ればOK。
+_STRUCT_A = ("複数KOLレンズ", "矛盾")
+_STRUCT_B = ("モード", "罠")
+_JUDGE_Q = ("どう", "買", "乗る", "避け", "仕込", "ape", "avoid", "$", "相場", "魔界", "熱い", "うごく", "動く", "分から", "すれば", "動け")
+
+
+def _has_struct(text):
+    return all(m in text for m in _STRUCT_A) or all(m in text for m in _STRUCT_B)
 
 
 def main():
@@ -99,14 +106,15 @@ def main():
     #   実回答がある限り空にせず返す(構造は不完全でも本物の回答 > 失敗)。真に空の時だけ落とす。
     tail = prompt[-400:]
     is_judge = any(k in tail for k in _JUDGE_Q)
-    if is_judge and text and not all(m in text for m in _STRUCT_MARKS):
+    if is_judge and text and not _has_struct(text):
         retry = (prompt
-                 + "\n\n★★あなたの前回出力は構造違反だった。必ず次の4見出しをこの通り含めよ(判断/相場/銘柄の問いだ):"
-                 + "\n**複数KOLレンズ**(実在KOL2-3人・実績%付き)\n**共通点＝強い信号**\n**⚠️矛盾＝ここが学び/edge**\n**今すぐ見る1つ**"
-                 + "\n内部名(kol_standouts等のデータ変数名)は出すな。1視点の買い推奨は失格。")
+                 + "\n\n★★あなたの前回出力は構造違反だった。問いのタイプで型を選び、必ずその見出しを含めよ:"
+                 + "\n型A(銘柄/相場の判断): **複数KOLレンズ**(実在KOL2-3人・実績%付き)/**共通点＝強い信号**/**⚠️矛盾＝ここが学び/edge**/**今すぐ見る1つ**"
+                 + "\n型B(この人がどう動くかの相談=「どう動けば/分からん」系): **今のあなたの正しいモード**/**今日やる3つ**/**勝者ならこうする**/**⚠️今のあなたの罠**"
+                 + "\n内部名(kol_standouts/traction_candidates等のデータ変数名)は出すな。1視点の買い推奨・相場解説だけの型B回答は失格。")
         try:
             text2 = _call(retry, key, model)
-            if text2 and all(m in text2 for m in _STRUCT_MARKS):
+            if text2 and _has_struct(text2):
                 text = text2          # 構造遵守=採用
             elif text2:
                 text = text2          # 構造不完全でも再試行の方が濃いので採用(空にしない)
