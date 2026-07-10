@@ -169,7 +169,16 @@ $Q
 if [ "${ASK_BACKEND:-claude}" = "gemini" ]; then
   # gemini(公開・無料)。未設定/失敗で空が返ったら claude にフォールバックしてASKを落とさない
   # (2026-07-05: GEMINI_API_KEY未設定でASKが全滅=「ASK FAILED」になっていた根治)。
-  ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py 2>/dev/null || true)"
+  ANSWER=""
+  # ① まずローカル(Windows)のサブスク Haiku 窓口(ask.trenchbrain.fun)を試す。
+  #   起動してれば頭いい回答、落ちてれば Cloudflare が即エラー→空→②Geminiへ自動fallback(2026-07-10)。
+  if [ -n "${ASK_WINDOW_URL:-}" ]; then
+    ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_window_client.py 2>/dev/null || true)"
+  fi
+  # ② 空なら Gemini(VM完結・常時稼働)へ
+  if [ -z "$ANSWER" ]; then
+    ANSWER="$(printf '%s' "$PROMPT" | python3 brain/ask_gemini.py 2>/dev/null || true)"
+  fi
   if [ -z "$ANSWER" ] && [ "$HAS_CLAUDE" = "1" ]; then
     ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
   fi
