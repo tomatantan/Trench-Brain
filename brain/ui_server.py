@@ -1059,10 +1059,22 @@ class Handler(SimpleHTTPRequestHandler):
         if path0 == "/api/health":
             h = (_tail_jsonl("health.jsonl", 1) or [{}])[-1]
             br = _state_json("base_rate.json", {})
+            # ★push可視化(2026-07-10): Windowsのsynth push停止が3〜6日誰にも見えなかった事故の再発防止。
+            #   last_commit=repo全体の鮮度(GHA込) / last_synth_push=家の合成push(auto-collect)の最終時刻＝
+            #   ここが古い=「公開面が賢くなるのが止まってる」を外から検知できる。
+            def _git_ts(*grep):
+                try:
+                    out = subprocess.run(["git", "log", "-1", "--format=%cI", *grep],
+                                         capture_output=True, text=True, timeout=5, cwd=str(ROOT))
+                    return out.stdout.strip() or None
+                except Exception:
+                    return None
             self._json(200, {"ok": True, "signal_backlog": h.get("signal_backlog"),
                              "raw_new": h.get("raw_new"), "single_source": h.get("single_source"),
                              "stale": h.get("stale"), "ts": h.get("ts"),
-                             "wiki_pages": _retriever().N, "tracked_passed": br.get("gate_passed")})
+                             "wiki_pages": _retriever().N, "tracked_passed": br.get("gate_passed"),
+                             "last_commit": _git_ts(),
+                             "last_synth_push": _git_ts("--grep", "auto-collect")})
             return
         if path0 == "/api/sitemap":
             try:
