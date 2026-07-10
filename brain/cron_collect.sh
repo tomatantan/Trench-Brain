@@ -112,7 +112,18 @@ python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
-git add sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json brain/state/feedback_stats.json brain/state/answer_scorecard.json brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json >> "$LOG" 2>&1 || true
+# ★per-path add(2026-07-10 恒久修正): 一括addだと1個の欠損pathspec(例: learn_consumeが消した
+#   learn_queue.jsonl)で git add が丸ごとfatal→**有効な変更が1件もstageされずcommit/pushが数日死ぬ**
+#   (7/4-7/10の実事故・synthは正常なのに公開面が凍った真因)。1 pathずつaddし欠損は握り潰す。
+for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries \
+          wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json \
+          wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl \
+          brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl \
+          brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
+          brain/state/feedback_stats.json brain/state/answer_scorecard.json \
+          brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json; do
+  git add "$_p" >> "$LOG" 2>&1 || true
+done
 if git diff --cached --quiet; then
   echo "no new data" >> "$LOG"
 else
