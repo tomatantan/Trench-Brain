@@ -350,6 +350,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "cozypront": {
+  "handle": "cozypront",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "cryptokaleo": {
   "handle": "cryptokaleo",
   "mentioned": 1,
@@ -448,15 +457,6 @@
   "alive": 0,
   "death_rate": null,
   "unknown": 1
- },
- "cozypront": {
-  "handle": "cozypront",
-  "mentioned": 1,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
  },
  "armaniferrante": {
   "handle": "armaniferrante",
