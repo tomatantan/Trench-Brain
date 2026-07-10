@@ -2,46 +2,6 @@
  "note": "本人承認2026-07-07・1人/サイクル段階投入(staged_intake.py)。並び=followers降順×main2:CN1交互",
  "queue": [
   {
-   "handle": "SolportTom",
-   "group": "main",
-   "followers": 209340
-  },
-  {
-   "handle": "0xcryptowizard",
-   "group": "cn",
-   "followers": 228217
-  },
-  {
-   "handle": "cozypront",
-   "group": "main",
-   "followers": 205691
-  },
-  {
-   "handle": "cryptolyxe",
-   "group": "main",
-   "followers": 198601
-  },
-  {
-   "handle": "0xSunNFT",
-   "group": "cn",
-   "followers": 211374
-  },
-  {
-   "handle": "patty_fi",
-   "group": "main",
-   "followers": 147730
-  },
-  {
-   "handle": "CookerFlips",
-   "group": "main",
-   "followers": 135608
-  },
-  {
-   "handle": "0xAA_Science",
-   "group": "cn",
-   "followers": 180533
-  },
-  {
    "handle": "crypto_iso",
    "group": "main",
    "followers": 133387

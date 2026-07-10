@@ -2,16 +2,18 @@
   {
     "concept": "brain-calll-dashboard-20260629",
     "referenced_by": [
+      "$CATWIF.md",
       "$CHAMELEON.md",
       "$PUMPCADE.md",
       "$TCG.md"
     ],
-    "first_seen": "2026-07-07T10:59:46Z"
+    "first_seen": "2026-07-10T07:58:24Z"
   },
   {
     "concept": "catwif-cluster",
     "referenced_by": [
-      "$BAG.md"
+      "$BAG.md",
+      "$BULLCAT.md"
     ],
     "first_seen": "2026-07-07T10:59:46Z"
   },
@@ -20,7 +22,7 @@
     "referenced_by": [
       "log.md"
     ],
-    "first_seen": "2026-07-07T10:59:46Z"
+    "first_seen": "2026-07-10T07:58:24Z"
   },
   {
     "concept": "kol-standouts",
@@ -36,14 +38,14 @@
     "referenced_by": [
       "log.md"
     ],
-    "first_seen": "2026-07-07T10:59:46Z"
+    "first_seen": "2026-07-10T07:58:24Z"
   },
   {
     "concept": "player-cryptohayes-thinking-pattern",
     "referenced_by": [
       "log.md"
     ],
-    "first_seen": "2026-07-07T10:59:46Z"
+    "first_seen": "2026-07-10T07:58:24Z"
   },
   {
     "concept": "soros-reflexivity",
@@ -56,6 +58,7 @@
     "concept": "spyzer-complete-meme-coin-guide-fulltext",
     "referenced_by": [
       "@blknoiz06.md",
+      "@chjokka.md",
       "@spyzer.md",
       "@spyzercrypto.md",
       "ape-or-avoid.md",
@@ -81,6 +84,6 @@
     "referenced_by": [
       "watchlist.md"
     ],
-    "first_seen": "2026-07-07T10:59:46Z"
+    "first_seen": "2026-07-10T07:58:24Z"
   }
 ]
