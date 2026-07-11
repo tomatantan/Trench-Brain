@@ -1046,6 +1046,11 @@ class Handler(SimpleHTTPRequestHandler):
                 # 門の思想: reply=0(誰も話してない)の未確認moverを変化率だけで先頭にしない。
                 # reply>0 を先に、その中で 変化pct 降順。
                 hot.sort(key=lambda t: (-(1 if (t.get("reply") or 0) > 0 else 0), -(t.get("変化pct") or 0)))
+                # ★UI互換キー付与(2026-07-11): live_pulse由来のhotはキーが sym/reply だが、UI(app.js
+                #   normalizeFeedSignal)は word/ticker/name と mention_accounts/count を探す→不一致で
+                #   ティッカーが「SIGNAL-3 / 1 accounts」のplaceholderに崩れてた(本人スクショで実測)。
+                hot = [{**t, "word": f"${t.get('sym', '?')}", "ticker": f"${t.get('sym', '?')}",
+                        "mention_accounts": t.get("reply") or 0, "type": "PUMP"} for t in hot]
                 # TODO: kol_standouts の先頭挿入は shape検証後(現在0件で未検証・盲目マッピング禁止)。
                 calls = [_detection_to_call(x) for x in _recent_detections(20, include_avoids=False)]
                 self._json(200, {"ok": True, "hot": hot[:5],
