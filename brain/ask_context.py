@@ -45,6 +45,21 @@ def main():
     hay = q + "\n" + ctx
     handles = {h.lower() for h in re.findall(r"@([A-Za-z0-9_]{3,15})", hay)}
     handles |= {h.lower() for h in re.findall(r"\b([A-Za-z0-9_]{4,15})\b", q)}
+    # ★alias解決(2026-07-11 本人「猫太郎とかのシグナル使えてなくない？」): 日本語名/表示名で聞かれても
+    #   handleに解決できる様、watchlist.md の |[[@handle]]|名前| 列から alias辞書を組む(決定的・毎回~1ms)。
+    #   例: 「猫太郎」→ tsuyuto6154。名前は「猫太郎_Nekotaro」の様な複合形→ _/／/空白 で分割して各tokenも引く。
+    alias_hits = []  # 質問文中の表示名ヒット=名指しされた本人(G4の注入優先順で最上位に置く)
+    try:
+        wl = open(os.path.join(ROOT, "wiki", "watchlist.md"), encoding="utf-8").read()
+        for h, name in re.findall(r"^\|\s*\[\[@([A-Za-z0-9_]+)\]\]\s*\|\s*([^|]+?)\s*\|", wl, re.M):
+            for alias in re.split(r"[_/／\s@]+", name):
+                alias = alias.strip()
+                if len(alias) >= 2 and alias in q:
+                    handles.add(h.lower())
+                    if h.lower() not in alias_hits:
+                        alias_hits.append(h.lower())
+    except Exception:  # noqa: BLE001
+        pass
     recs = []
     for k, v in ktr.items():
         if not isinstance(v, dict):
@@ -130,9 +145,11 @@ def main():
         PROF_START, PROF_END = "<!-- profile:start -->", "<!-- profile:end -->"
         HDR_RE = re.compile(r"^### .*$", re.MULTILINE)
         prof_blocks = []
-        # 質問文に直接出るhandleを優先(cap=2でretrieval由来のアルファベット先行handleに主役が押し出されるのを防ぐ)
+        # 質問文に直接出るhandle＋表示名(alias)で名指しされた本人を優先
+        # (cap=2でretrieval由来のアルファベット先行handleに主役が押し出されるのを防ぐ)
         in_q = [h.lower() for h in re.findall(r"@([A-Za-z0-9_]{3,15})", q)]
-        ordered_handles = in_q + sorted(h for h in handles if h not in in_q)
+        named = in_q + [h for h in alias_hits if h not in in_q]
+        ordered_handles = named + sorted(h for h in handles if h not in named)
         for h in ordered_handles:
             if len(prof_blocks) >= 2:
                 break
@@ -142,18 +159,27 @@ def main():
             with open(path, encoding="utf-8") as f:
                 txt = f.read()
             i, j = txt.find(PROF_START), txt.find(PROF_END)
-            if i == -1 or j == -1:
-                continue
-            inner = txt[i + len(PROF_START):j]
-            subs, ms = [], list(HDR_RE.finditer(inner))
-            for idx, m in enumerate(ms):
-                s = m.start()
-                e = ms[idx + 1].start() if idx + 1 < len(ms) else len(inner)
-                subs.append(inner[s:e].strip())
-            persp = next((s for s in subs if s.split("\n", 1)[0].startswith("### 視点エンジンでの使い方")), None)
-            contra = next((s for s in subs if s.split("\n", 1)[0].startswith("### ⚠️矛盾")), None)
-            parts = [s for s in (persp, contra) if s]
-            excerpt = ("\n\n".join(parts) if parts else inner.strip())[:900]
+            if i != -1 and j != -1:
+                inner = txt[i + len(PROF_START):j]
+                subs, ms = [], list(HDR_RE.finditer(inner))
+                for idx, m in enumerate(ms):
+                    s = m.start()
+                    e = ms[idx + 1].start() if idx + 1 < len(ms) else len(inner)
+                    subs.append(inner[s:e].strip())
+                persp = next((s for s in subs if s.split("\n", 1)[0].startswith("### 視点エンジンでの使い方")), None)
+                contra = next((s for s in subs if s.split("\n", 1)[0].startswith("### ⚠️矛盾")), None)
+                parts = [s for s in (persp, contra) if s]
+                excerpt = ("\n\n".join(parts) if parts else inner.strip())[:900]
+            else:
+                # ★fallback(2026-07-11): curated profile未整備でも、自動合成の「思考の型」(synthesisブロック)が
+                #   あればそれを注入＝JP trench勢等(猫太郎=tsuyuto6154)の脳が回答に届かない穴を塞ぐ。
+                si, sj = txt.find("<!-- synthesis:start -->"), txt.find("<!-- synthesis:end -->")
+                if si == -1 or sj == -1:
+                    continue
+                syn = txt[si + len("<!-- synthesis:start -->"):sj].strip()
+                if "思考の型" not in syn:
+                    continue
+                excerpt = syn[:900]
             prof_blocks.append(f"**@{h}**:\n{excerpt}")
         if prof_blocks:
             out.append("### 言及KOLの深堀りprofile（思考の型＝この人ならこう読む）\n"
