@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-11T17:02Z",
+ "ts": "2026-07-11T20:26Z",
  "summary": {
   "answers": 28,
   "tokens_mentioned": 37,
@@ -31,7 +31,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 68,
-     "evaluated_now": 312
+     "evaluated_now": 316
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 34042.308924656834,
-     "mcap_now": 31648.321271096585
+     "mcap_now": 31733.651962926717
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11863.323422627791,
+     "mcap_now": 11904.112610839371,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 30059.267047749872,
+     "mcap_now": 25499.97164994104,
      "ambiguous_candidates": 6
     }
    },
@@ -885,7 +885,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 68,
-     "evaluated_now": 312
+     "evaluated_now": 316
     },
     "blknoiz06": {
      "death_rate_now": 0,
