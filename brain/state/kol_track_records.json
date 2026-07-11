@@ -10,11 +10,11 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 326,
-  "evaluated": 295,
-  "dead": 200,
-  "alive": 95,
-  "death_rate": 68,
+  "mentioned": 333,
+  "evaluated": 302,
+  "dead": 201,
+  "alive": 101,
+  "death_rate": 67,
   "unknown": 31
  },
  "_shadow36": {
@@ -25,6 +25,15 @@
   "alive": 2,
   "death_rate": 0,
   "unknown": 0
+ },
+ "blknoiz06": {
+  "handle": "blknoiz06",
+  "mentioned": 6,
+  "evaluated": 4,
+  "dead": 0,
+  "alive": 4,
+  "death_rate": 0,
+  "unknown": 2
  },
  "clutch_fifa2026": {
   "handle": "Clutch_FIFA2026",
@@ -52,15 +61,6 @@
   "alive": 1,
   "death_rate": 0,
   "unknown": 0
- },
- "blknoiz06": {
-  "handle": "blknoiz06",
-  "mentioned": 6,
-  "evaluated": 4,
-  "dead": 0,
-  "alive": 4,
-  "death_rate": 0,
-  "unknown": 2
  },
  "golocojp": {
   "handle": "golocojp",
