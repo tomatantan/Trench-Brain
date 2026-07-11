@@ -67,6 +67,12 @@ def normalize(do=False):
         upper = infos[0]["tk"].upper()
         distinct = {i["mint"] for i in infos if i["mint"]}
 
+        if not distinct:
+            # ---- 全員mint不明: 同一トークンの証拠ゼロ=マージすると別トークンを消し合う恐れ ----
+            # (2026-07-11 Mac側の敵対的検証で発見: LLMがmint欄を書き損ねた別トークン同士がMERGEされるedge)
+            acts.append("SKIP(全mint不明・同一性を確認できずマージしない・要人力確認): "
+                        + ", ".join(i["f"].name for i in infos))
+            continue
         if len(distinct) <= 1:
             # ---- 同mint(or mint不明を同一視) : merge ----
             m6 = next((i["m6"] for i in infos if i["m6"]), None)
