@@ -2,36 +2,6 @@
  "note": "本人承認2026-07-07・1人/サイクル段階投入(staged_intake.py)。並び=followers降順×main2:CN1交互",
  "queue": [
   {
-   "handle": "crypto_iso",
-   "group": "main",
-   "followers": 133387
-  },
-  {
-   "handle": "HopiumPapi",
-   "group": "main",
-   "followers": 131710
-  },
-  {
-   "handle": "hellosuoha",
-   "group": "cn",
-   "followers": 178110
-  },
-  {
-   "handle": "daumenxyz",
-   "group": "main",
-   "followers": 123869
-  },
-  {
-   "handle": "rasmr_eth",
-   "group": "main",
-   "followers": 122678
-  },
-  {
-   "handle": "BitCloutCat",
-   "group": "cn",
-   "followers": 149582
-  },
-  {
    "handle": "bonkfun",
    "group": "main",
    "followers": 106866
