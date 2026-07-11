@@ -611,10 +611,13 @@ def _detection_to_call(det):
 
 
 def _recent_detections(n=50, include_avoids=True):
-    rows = _tail_jsonl("detections.jsonl", n)
+    # ★filter→take順(2026-07-11 本人「UIのシグナル欄に出てない」の真因): 検知botはAVOIDを高頻度で
+    #   撃つため「末尾n件→AVOID除外」だと直近n件が全AVOIDになりCALL欄が恒常的に空になる
+    #   (実測: VM 185件中 REVIEW 18件が全て20件窓の外に埋没)。AVOID除外してから最新n件を取る。
+    rows = _tail_jsonl("detections.jsonl", n if include_avoids else max(n * 20, 400))
     if not include_avoids:
         rows = [r for r in rows if str(r.get("verdict", "")).upper() != "AVOID"]
-    return rows[::-1]
+    return rows[-n:][::-1]
 
 
 def _append_detection(det):
