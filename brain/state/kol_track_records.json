@@ -10,9 +10,9 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 325,
-  "evaluated": 294,
-  "dead": 198,
+  "mentioned": 326,
+  "evaluated": 295,
+  "dead": 199,
   "alive": 96,
   "death_rate": 67,
   "unknown": 31
@@ -127,10 +127,10 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 12,
-  "evaluated": 9,
+  "mentioned": 13,
+  "evaluated": 10,
   "dead": 0,
-  "alive": 9,
+  "alive": 10,
   "death_rate": 0,
   "unknown": 3
  },
