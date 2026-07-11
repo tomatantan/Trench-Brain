@@ -108,6 +108,9 @@ bash brain/autonomous_research.sh >> "$LOG" 2>&1 || echo "auto-research skipped"
 python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 # (3a)★Master Index/MOC自動再生成: 被リンク数(inbound)から知識の中心を機械算出し wiki/index.md を
 #   上書き(原則1=手書きindexは腐る対策)。build_entities/synthesisが全部済んだ後・git add の直前に置く。
+# ★entity_paths normalizer(2026-07-11): LLMが書いたtokenページのcasefold衝突を機械的に潰す
+#   (macOS case-insensitive FSのpull/rebase詰まり根治)。synthesis全済み後・git add前・writer非依存の安全層。
+python3 brain/entity_paths.py --fix >> "$LOG" 2>&1 || echo "entity_paths normalizer error" >> "$LOG"
 python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
