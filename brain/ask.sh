@@ -24,6 +24,35 @@ TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列�
 # 「今 何が pump/launch してる/熱い」系はこれを主に参照(corpus/wikiは合成済だが数時間〜古い)。
 LIVEPULSE="$(cat brain/state/live_pulse.json 2>/dev/null || echo '(リアルタイムpumpデータなし=launch_stream/live_pulse_writer 未稼働)')"
 
+# ★外部検知botのライブCALL(2026-07-11 本人「猫太郎とかのシグナル使えてなくない？」の根治①):
+# /api/detect に着弾した検知(brain/state/detections.jsonl=serving機ローカル)を回答材料に注入。
+# 従来はUIのCALL欄表示のみ=脳が一切使ってなかった。鮮度gate=直近24h・最新15件・AVOID含む(避け材料も価値)。
+DETECTS="$(python3 - <<'PY' 2>/dev/null || true
+import json, datetime
+now = datetime.datetime.now(datetime.timezone.utc)
+rows = []
+try:
+    for ln in open("brain/state/detections.jsonl", encoding="utf-8"):
+        try:
+            d = json.loads(ln)
+        except Exception:
+            continue
+        ts = d.get("ts") or d.get("time") or ""
+        try:
+            t = datetime.datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+            if (now - t).total_seconds() > 24 * 3600:
+                continue
+        except Exception:
+            pass  # ts不明は捨てない(直近ファイル末尾なら新しい)
+        rows.append(d)
+except Exception:
+    pass
+for d in rows[-15:]:
+    sym = d.get("symbol") or "?"
+    print(f"- [{d.get('ts','?')}] ${sym} verdict={d.get('verdict','?')} ca={str(d.get('ca') or '')[:10]}… src={d.get('source','?')}")
+PY
+)"
+
 # ★UIモード(ui_server経由=エンドユーザー向け)の時だけ user-facing 出力規律を効かせる。
 # 運用者の /wiki(wiki_bot)は default=内部状態が見えるまま(toma用に有用)。
 UI_RULES=""
@@ -148,6 +177,11 @@ $TS
 ## ★リアルタイム pump 観測（裏で常時更新＝今の生の流れ・最重要の鮮度層）
 「今 何が pump/launch してる/盛り上がってる/熱い meme は」系はこれを参照。**ただし門を守れ＝"熱い"の先頭は必ず KOL裏付けのある物(kol_standouts＝複数の目立つアカウントが実際に言及)。reply=0 で KOL言及なしの traction候補は"熱い"ではなく『動いてるだけの未確認ノイズ』＝先頭に出すな・"熱い"と呼ぶな。**触れるとしても「板は動いてるが誰も話してない＝噴きの噴きで大半が死ぬ」と型で添えるだけ(観測≠採用)。**kol_standouts が空＝今 KOL裏付けの熱い物は無い、が正しい答え＝正直にそう言い、reply0 の死にかけ micro-cap を"熱い"に仕立てるな**（それが今の質の悪さの元）。live が無い/古い(flow=0 等)時は live を語らず合成知識(型・base-rate)で答えよ。持っていない具体 live 数値は捏造禁止。
 $LIVEPULSE
+${DETECTS:+
+
+## ★外部検知botのライブCALL（直近24h・信頼するチームの検知網＝生きたsignal層）
+コミュニティの検知bot（pump検知・門判定つき）が今日拾ったもの。「今シグナル出てる？/何か検知した？」系はまずここ。verdict=AVOIDは**避け側の材料として**使う（推奨に化けさせない）。検知=注目であって安全ではない＝scam門/base-rateと必ずクロス。
+$DETECTS}
 ${LIVEX:+
 
 ## live X（問いの \$ticker/CA を今 誰が語ってるか・watchlist外含む・follower重み）
