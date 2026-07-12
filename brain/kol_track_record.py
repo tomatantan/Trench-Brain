@@ -60,23 +60,23 @@ def pf_mcap(ca):
 
 def dex_mcap(ca):
     """EVM CA版のoutcome取得(2026-07-12)。pf_mcapはpump.fun専用=EVMは常に404になるので、
-    dexscreenerの汎用tokensエンドポイントで代替。(mcap, transient)の2-tupleでpf_mcapと揃える
-    (completeに相当する概念がEVMには無いのでNoneで返し、呼び出し側はca先頭0xでcomplete相当を無視)。"""
+    dexscreenerの汎用tokensエンドポイントで代替。(mcap, transient, chain)の3-tuple
+    (chain=最大流動性ペアのchainId。チェーン別base-rate(KOL言及コホート)の材料=2026-07-12 Phase2-lite)。"""
     try:
         u = f"https://api.dexscreener.com/latest/dex/tokens/{ca}"
         d = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=10).read())
         pairs = (d or {}).get("pairs") or []
         if not pairs:
-            return None, False  # genuine not-found(ペア無し) → cacheしてよい
+            return None, False, None  # genuine not-found(ペア無し) → cacheしてよい
         p0 = max(pairs, key=lambda p: ((p.get("liquidity") or {}).get("usd") or 0))
         mc = p0.get("marketCap") or p0.get("fdv")
-        return mc, False
+        return mc, False, p0.get("chainId")
     except urllib.error.HTTPError as e:
         if e.code == 404:
-            return None, False
-        return None, True
+            return None, False, None
+        return None, True, None
     except Exception:
-        return None, True
+        return None, True, None
 
 
 def main():
@@ -111,8 +111,9 @@ def main():
             continue
         if looked >= MAX_CA:
             break
+        chain = None
         if ca.startswith("0x"):
-            mc, transient = dex_mcap(ca)
+            mc, transient, chain = dex_mcap(ca)
             comp = None  # graduated概念はEVMに無い
         else:
             mc, comp, transient = pf_mcap(ca)
@@ -124,11 +125,31 @@ def main():
             cache[ca] = {"outcome": "unknown", "mcap": None, "ts": time.time()}  # 鞍替え/old/非pump
         else:
             cache[ca] = {"outcome": ("dead" if mc < DEAD_MCAP else "alive"), "mcap": round(mc), "graduated": comp, "ts": time.time()}
+            if chain:
+                cache[ca]["chain"] = chain  # チェーン別base-rate(KOL言及コホート)の材料
         looked += 1
         time.sleep(0.15)
     _tmp = CACHE.with_suffix(".json.tmp")  # atomic(2026-07-02 M2): kill時のtruncated cacheで全キャッシュ喪失を防ぐ
     _tmp.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     os.replace(_tmp, CACHE)
+
+    # 2.5) ★チェーン別base-rate(Phase2-lite・2026-07-12): 「watchlist KOLが言及した0x CA」=門付きコホートの
+    # 現生死をchain別に集計。Solanaのbase_rate.json(全mint観測)とは母集団が違う=「KOL言及コホート」と明示して使う。
+    chains = defaultdict(lambda: {"n": 0, "dead": 0, "alive": 0})
+    for ca, e in cache.items():
+        ch = e.get("chain")
+        if not ch or e.get("outcome") not in ("dead", "alive"):
+            continue
+        chains[ch]["n"] += 1
+        chains[ch][e["outcome"]] += 1
+    if chains:
+        crates = {ch: {**v, "death_rate": round(100 * v["dead"] / v["n"])} for ch, v in chains.items() if v["n"]}
+        _cb = STATE / "chain_base_rate.json"
+        _cbt = _cb.with_suffix(".json.tmp")
+        _cbt.write_text(json.dumps({"updated": time.strftime("%Y-%m-%dT%H:%MZ", time.gmtime()),
+                                    "cohort": "watchlist KOLが言及した0x CA(門付き・全mint観測ではない)",
+                                    "chains": crates}, ensure_ascii=False), encoding="utf-8")
+        os.replace(_cbt, _cb)
 
     # 3) per-KOL hit-rate
     recs = {}

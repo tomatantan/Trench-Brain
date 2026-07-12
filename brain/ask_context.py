@@ -75,6 +75,13 @@ def main():
     if gp:
         base_line = (f"門通過 {gp}銘柄中 死{di}/卒業{gr}＝**門を通っても大半が死ぬ**のが基準線。"
                      f"個別銘柄はこの事前確率の上で読む。")
+    # ★チェーン別base-rate(Phase2-lite 2026-07-12): KOL言及コホートの0x CA現生死。母集団が違う事を明示。
+    cb = _load("chain_base_rate.json", {})
+    ch_lines = [f"{ch}: {v['n']}件中 死{v['death_rate']}%"
+                for ch, v in sorted((cb.get("chains") or {}).items()) if v.get("n", 0) >= 3]
+    if ch_lines:
+        base_line += ("\nEVM各チェーン(KOL言及コホート・全mint観測でない=Solanaのbase-rateと母集団が違う): "
+                      + " / ".join(ch_lines))
 
     # G5b: 過去の自分の回答のその後（自己校正＝答えっぱなしにしない）
     sc = _load("answer_scorecard.json", {})
