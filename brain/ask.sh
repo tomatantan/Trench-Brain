@@ -252,7 +252,8 @@ REPL = {
     "kol_standouts": "複数の目立つアカの言及", "traction_candidates": "板が動いてる候補群",
     "live_pulse": "リアルタイム観測", "pulse_history": "時系列記録", "death_ledger": "過去の死亡記録",
     "ask_context": "参照知識", "synth_queue": "処理待ち", "flow_count": "観測量",
-    "backlog": "未消化の新規", "stance_map": "立場マップ", "chain_base_rate": "チェーン別の実測死亡率",
+    "signal_backlog": "未消化の新規シグナル", "backlog": "未消化の新規",
+    "stance_map": "立場マップ", "chain_base_rate": "チェーン別の実測死亡率",
     "flow_pulse": "網の話題重心",
 }
 for k, v in REPL.items():
