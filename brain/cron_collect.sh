@@ -37,6 +37,23 @@ python3 brain/expand_watchlist.py >> "$LOG" 2>&1 || echo "expand-watchlist skipp
 # ★段階投入: 承認済み候補queueを1人/サイクルだけ門へ(本人指示2026-07-07「一気でなく1人ずつ」)。
 #   健康ゲート(signal_backlog増加中は停止)+理解ゲート(onboarding profile必須)。決定的・queue空ならno-op。
 python3 brain/staged_intake.py >> "$LOG" 2>&1 || echo "staged-intake skipped" >> "$LOG"
+# ★onboarding自動化(2026-07-12): queue内でprofile未作成の先頭1人を毎サイクルonboard(理解→収集の門の自動運転)。
+#   従来onboardはcron未配線=実ツイ取得不可だった12人が永久に待つ構造だった。データが取れ次第自動で通る。
+ONBOARD_TARGET="$(python3 - <<'PYEOF'
+import json, os
+try:
+    q = json.load(open("brain/state/staged_intake_queue.json")).get("queue") or []
+except Exception:
+    q = []
+for it in q:
+    h = (it.get("handle") or "").lower()
+    ent = f"wiki/entities/players/@{h}.md"
+    if h and not (os.path.exists(ent) and "profile:start" in open(ent, encoding="utf-8", errors="replace").read()):
+        print(h)
+        break
+PYEOF
+)"
+[ -n "$ONBOARD_TARGET" ] && { bash brain/onboard_player.sh "$ONBOARD_TARGET" >> "$LOG" 2>&1 || echo "onboard($ONBOARD_TARGET) skipped" >> "$LOG"; }
 
 # ★節約モード(本人指示2026-07-07「サブスク上限・クレジット消費中=節約して」・既定ON):
 #   維持系のheadless合成を haiku に落とし件数も絞る。品質は synth_validate(門番)+北極星設計
@@ -46,7 +63,7 @@ ECONOMY="${ECONOMY:-1}"
 if [ "$ECONOMY" = "1" ]; then
   export SYNTH_MODEL="${SYNTH_MODEL:-haiku}"
   export SYNTH_PLAYER_MODEL="${SYNTH_PLAYER_MODEL:-haiku}"
-  export ONBOARD_MODEL="${ONBOARD_MODEL:-haiku}"
+  # ONBOARD_MODEL は economy 対象外(2026-07-12 本人「発言を取る前に人物理解が要る」=人物理解の質は節約しない→sonnet既定)
   export PLAYER_SYNTH_MAX="${PLAYER_SYNTH_MAX:-1}"
   export BACKFILL_TOPN="${BACKFILL_TOPN:-2}"
   echo "economy mode ON (維持合成=haiku・player 1/巡・backfill 2/巡)" >> "$LOG"

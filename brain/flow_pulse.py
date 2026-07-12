@@ -65,41 +65,91 @@ def main():
     n_cur = n_prev = 0
     examples = {k: [] for k in BUCKETS}
     regs = {k: re.compile(v, re.I) for k, v in BUCKETS.items()}
+
+    # ★人物重み(2026-07-12 本人「発言を取る前にその人がどういう人間かの理解が要る」):
+    # 頭数カウントは「誰が言ったか」を捨てる=原則違反だった。track record(実績)で重み付け:
+    # 実績上位(評価>=3・死<=25%)=2.0 / 実績下位(評価>=10・死>=60%)=0.5 / その他=1.0。
+    # rawカウントも残す(観測=raw / 重み付き=読み、の分離=指針6)。
+    try:
+        ktr = json.loads((ROOT / "brain" / "state" / "kol_track_records.json").read_text(encoding="utf-8"))
+    except Exception:
+        ktr = {}
+
+    def _weight(h):
+        r = ktr.get(h) or {}
+        ev, dr = r.get("evaluated") or 0, r.get("death_rate")
+        if dr is None:
+            return 1.0
+        if ev >= 3 and dr <= 25:
+            return 2.0
+        if ev >= 10 and dr >= 60:
+            return 0.5
+        return 1.0
+
+    speakers = {k: {} for k in BUCKETS}   # bucket -> handle -> posts(今週)
+    w_cur = {k: 0.0 for k in BUCKETS}
+    w_prev = {k: 0.0 for k in BUCKETS}
+    wn_cur = wn_prev = 0.0
     for ts, h, body in _post_iter():
         age = now - ts
         if age > 2 * WINDOW:
             continue
         recent = age <= WINDOW
+        w = _weight(h)
         if recent:
             n_cur += 1
+            wn_cur += w
         else:
             n_prev += 1
+            wn_prev += w
         for k, rx in regs.items():
             if rx.search(body):
                 if recent:
                     cur[k]["posts"] += 1
                     cur[k]["accounts"].add(h)
+                    w_cur[k] += w
+                    speakers[k][h] = speakers[k].get(h, 0) + 1
                     if len(examples[k]) < 2 and len(body) > 60:
                         examples[k].append(f"@{h}: " + re.sub(r"https?://\S+", "", body).strip().replace("\n", " ")[:110])
                 else:
                     prev[k] += 1
+                    w_prev[k] += w
+
+    def _who(k):
+        """この話題を動かしてる人 top3(実績注記つき)＝「何票」でなく「誰の頭」を答える。"""
+        top = sorted(speakers[k].items(), key=lambda x: -(x[1] * _weight(x[0])))[:3]
+        out = []
+        for h, n in top:
+            r = ktr.get(h) or {}
+            dr = r.get("death_rate")
+            tag = f"死{dr}%" if (r.get("evaluated") or 0) >= 3 and dr is not None else "実績薄"
+            out.append(f"@{h}({tag}/{n}件)")
+        return out
 
     buckets = {}
     for k in BUCKETS:
         share_now = round(100 * cur[k]["posts"] / n_cur, 1) if n_cur else 0.0
         share_prev = round(100 * prev[k] / n_prev, 1) if n_prev else 0.0
+        wshare_now = round(100 * w_cur[k] / wn_cur, 1) if wn_cur else 0.0
+        wshare_prev = round(100 * w_prev[k] / wn_prev, 1) if wn_prev else 0.0
         buckets[k] = {"posts_7d": cur[k]["posts"], "accounts_7d": len(cur[k]["accounts"]),
                       "share_now_pct": share_now, "share_prev_pct": share_prev,
-                      "delta_pp": round(share_now - share_prev, 1)}
-    moved = sorted(buckets.items(), key=lambda x: -abs(x[1]["delta_pp"]))
+                      "delta_pp": round(share_now - share_prev, 1),
+                      "w_share_now_pct": wshare_now,
+                      "w_delta_pp": round(wshare_now - wshare_prev, 1),
+                      "who": _who(k)}
+    # 移動ランキングは重み付きdelta(誰が動いたかを反映)を主・rawをtiebreak
+    moved = sorted(buckets.items(), key=lambda x: (-abs(x[1]["w_delta_pp"]), -abs(x[1]["delta_pp"])))
     out = {
         "updated": time.strftime("%Y-%m-%dT%H:%MZ", time.gmtime()),
         "window": {"posts_7d": n_cur, "posts_prev7d": n_prev},
-        "note": "watchlist全発言(ティッカー無し含む)の話題重心。share=その話題に触れた投稿の割合・delta_pp=前7日比。",
+        "note": ("watchlist全発言の話題重心。raw=頭数(観測) / w_=実績重み付き(実績上位2.0/下位0.5)＝"
+                 "『誰の頭が動いたか』。whoはその話題を動かしてる人と実績。"),
         "buckets": buckets,
-        "top_moves": [{"topic": k, "delta_pp": v["delta_pp"], "share_now_pct": v["share_now_pct"],
-                       "accounts": v["accounts_7d"],
-                       "examples": examples.get(k, [])[:2]} for k, v in moved[:4] if abs(v["delta_pp"]) >= 0.5],
+        "top_moves": [{"topic": k, "w_delta_pp": v["w_delta_pp"], "delta_pp": v["delta_pp"],
+                       "share_now_pct": v["share_now_pct"], "accounts": v["accounts_7d"],
+                       "who": v["who"], "examples": examples.get(k, [])[:2]}
+                      for k, v in moved[:4] if abs(v["w_delta_pp"]) >= 0.5 or abs(v["delta_pp"]) >= 0.5],
     }
     tmp = OUT.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
