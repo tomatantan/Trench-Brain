@@ -24,6 +24,10 @@ TS="$(tail -14 brain/state/pulse_history.jsonl 2>/dev/null || echo '(時系列�
 # 「今 何が pump/launch してる/熱い」系はこれを主に参照(corpus/wikiは合成済だが数時間〜古い)。
 LIVEPULSE="$(cat brain/state/live_pulse.json 2>/dev/null || echo '(リアルタイムpumpデータなし=launch_stream/live_pulse_writer 未稼働)')"
 
+# ★KOL網の流れ(2026-07-12 本人「KOLを取るのは市場の流れを捉えるため・銘柄の温度じゃない」):
+# watchlist全発言(ティッカー無し含む)の話題重心とその移動(7日vs前7日)＝地合いダイヤルの入力。
+FLOWPULSE="$(cat brain/state/flow_pulse.json 2>/dev/null || true)"
+
 # ★外部検知botのライブCALL(2026-07-11 本人「猫太郎とかのシグナル使えてなくない？」の根治①):
 # /api/detect に着弾した検知(brain/state/detections.jsonl=serving機ローカル)を回答材料に注入。
 # 従来はUIのCALL欄表示のみ=脳が一切使ってなかった。鮮度gate=直近24h・最新15件・AVOID含む(避け材料も価値)。
@@ -188,6 +192,11 @@ $TS
 ## ★リアルタイム pump 観測（裏で常時更新＝今の生の流れ・最重要の鮮度層）
 「今 何が pump/launch してる/盛り上がってる/熱い meme は」系はこれを参照。**ただし門を守れ＝"熱い"の先頭は必ず KOL裏付けのある物(kol_standouts＝複数の目立つアカウントが実際に言及)。reply=0 で KOL言及なしの traction候補は"熱い"ではなく『動いてるだけの未確認ノイズ』＝先頭に出すな・"熱い"と呼ぶな。**触れるとしても「板は動いてるが誰も話してない＝噴きの噴きで大半が死ぬ」と型で添えるだけ(観測≠採用)。**kol_standouts が空＝今 KOL裏付けの熱い物は無い、が正しい答え＝正直にそう言い、reply0 の死にかけ micro-cap を"熱い"に仕立てるな**（それが今の質の悪さの元）。live が無い/古い(flow=0 等)時は live を語らず合成知識(型・base-rate)で答えよ。持っていない具体 live 数値は捏造禁止。
 $LIVEPULSE
+${FLOWPULSE:+
+
+## ★KOL網の流れ（話題の重心と移動・7日vs前7日＝市場の流れの一次入力）
+「相場どう/地合い/どう動く/何が来る」系は**銘柄の温度でなくまずこれ**＝網全体の頭がどっちを向き始めたか(delta_pp=話題シェアの移動)。地合いダイヤル(攻める/守る/待つ)の入力・ローテーションの先行指標として読む。銘柄言及はこの流れの下の証拠層。
+$FLOWPULSE}
 ${DETECTS:+
 
 ## ★外部検知botのライブCALL（直近24h・信頼するチームの検知網＝生きたsignal層）

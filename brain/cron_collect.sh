@@ -86,6 +86,8 @@ python3 brain/synth_validate.py > brain/state/synth_validate.out 2>&1 && echo "s
 bash brain/synthesize_lint.sh || echo "lint skipped" >> "$LOG"
 # (2f)★憲法conformance検査(機械・毎サイクル・安価)=芯チェックの構造化。違反は wiki/conformance-report.md+ログに出す。
 python3 brain/check_conformance.py >> brain/state/conformance.log 2>&1 && echo "conformance: PASS" >> "$LOG" || echo "★conformance: 違反あり→wiki/conformance-report.md" >> "$LOG"
+# (2g0)★KOL網の流れ計測(2026-07-12 本人「KOLは市場の流れを捉えるため」)=話題重心の移動を決定的に。$0
+python3 brain/flow_pulse.py >> "$LOG" 2>&1 || echo "flow-pulse skipped" >> "$LOG"
 # (2g)★時系列snapshot=主要metricsをdated appendで貯める(本人「時系列弱い」対処・決定的・安価)。trajectory取得の土台。
 python3 brain/snapshot.py >> "$LOG" 2>&1 || echo "snapshot skipped" >> "$LOG"
 # (2g1)★複利計=矛盾KPI(§0.1-1): contradictions_surfaced 含む複利metricsを毎サイクル記録(K1がechochamber監視)。
@@ -127,7 +129,7 @@ for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summa
           brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
           brain/state/feedback_stats.json brain/state/answer_scorecard.json \
           brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json \
-          brain/state/detect_history.json brain/state/detect_track_records.json brain/state/chain_base_rate.json; do
+          brain/state/detect_history.json brain/state/detect_track_records.json brain/state/chain_base_rate.json brain/state/flow_pulse.json; do
   git add "$_p" >> "$LOG" 2>&1 || true
 done
 if git diff --cached --quiet; then
