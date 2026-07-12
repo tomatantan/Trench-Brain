@@ -1115,6 +1115,22 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        if path0 == "/api/learn_queue":
+            # ★学習queueの回収口(2026-07-12): serving層のVM移設後、/api/learnの1タップ学習が
+            #   VMローカルのlearn_queue.jsonlに溜まるだけで合成脳(Windows)に届かない分断の根治。
+            #   Windows cron(learn_consume)がここをpullする。内容は本人の学習指示=Bearer必須(fail-closed)。
+            token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
+            auth = (self.headers.get("Authorization") or "").removeprefix("Bearer ").strip()
+            if not token or auth != token:
+                self._json(401 if token else 503,
+                           {"ok": False, "error": "unauthorized" if token else "token未設定(fail-closed)"})
+                return
+            try:
+                rows = _tail_jsonl("learn_queue.jsonl", 300)
+                self._json(200, {"ok": True, "items": rows, "count": len(rows)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
         if path0 == "/api/watchlist":
             try:
                 p = WIKI / "watchlist.md"  # wiki直下(rag SUBDIRS外)なので直接読む

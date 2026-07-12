@@ -24,6 +24,35 @@ WL_END = "<!-- learn-added:end -->"
 HANDLE_RE = re.compile(r"^[a-z0-9_]{2,30}$")
 
 
+def _pull_from_serving():
+    """serving機(VM)の learn_queue を API 経由で回収して local queue にマージ(id dedupe)。
+    2026-07-12: VM移設後、UIの1タップ学習がVMローカルに溜まるだけで脳に届かない分断の根治
+    (detect_track_record と同じpull型)。token/接続が無ければ静かにskip=既存動作を壊さない。"""
+    import os
+    import urllib.request
+    api = os.environ.get("LEARN_QUEUE_API", "https://trenchbrain.fun/api/learn_queue")
+    token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
+    if not token:
+        return 0
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(
+            api, headers={"Authorization": f"Bearer {token}",
+                          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}), timeout=15)
+        items = (json.loads(r.read()) or {}).get("items") or []
+    except Exception:
+        return 0
+    have = {it.get("id") for it in _load_queue()}
+    added = 0
+    with open(QUEUE, "a", encoding="utf-8") as f:
+        for it in items:
+            if it.get("id") and it["id"] not in have:
+                f.write(json.dumps(it, ensure_ascii=False) + "\n")
+                added += 1
+    if added:
+        print(f"learn_consume: serving機から{added}件回収")
+    return added
+
+
 def _load_queue():
     if not QUEUE.exists():
         return []
@@ -43,6 +72,7 @@ def _existing_watchlist_handles():
 
 
 def main():
+    _pull_from_serving()
     items = _load_queue()
     if not items:
         print("learn_consume: キュー空")
