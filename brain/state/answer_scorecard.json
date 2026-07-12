@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-12T06:41Z",
+ "ts": "2026-07-12T10:11Z",
  "summary": {
   "answers": 28,
   "tokens_mentioned": 37,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 66,
-     "evaluated_now": 334
+     "death_rate_now": 63,
+     "evaluated_now": 354
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -118,7 +118,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -139,11 +139,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "golocojp": {
-     "death_rate_now": 12,
-     "evaluated_now": 8
+     "death_rate_now": 11,
+     "evaluated_now": 9
     }
    },
    "at_first_score": {
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 34042.308924656834,
-     "mcap_now": 30959.27651505044
+     "mcap_now": 31200.25198959854
     }
    },
    "kols": {},
@@ -285,7 +285,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -320,7 +320,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "dxrnell": {
      "death_rate_now": 11,
@@ -363,7 +363,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "theunipcs": {
      "death_rate_now": 0,
@@ -433,8 +433,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 53,
-     "evaluated_now": 17
+     "death_rate_now": 50,
+     "evaluated_now": 18
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11603.627207337426,
+     "mcap_now": 11689.743979327917,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 20194.0422175226,
+     "mcap_now": 20356.92955178817,
      "ambiguous_candidates": 6
     }
    },
@@ -709,8 +709,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 53,
-     "evaluated_now": 17
+     "death_rate_now": 50,
+     "evaluated_now": 18
     }
    },
    "at_first_score": {
@@ -785,7 +785,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "dxrnell": {
      "death_rate_now": 11,
@@ -834,7 +834,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "senshineo7": {
      "death_rate_now": 33,
@@ -884,12 +884,12 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 66,
-     "evaluated_now": 334
+     "death_rate_now": 63,
+     "evaluated_now": 354
     },
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "theunipcs": {
      "death_rate_now": 0,
@@ -940,11 +940,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     },
     "golocojp": {
-     "death_rate_now": 12,
-     "evaluated_now": 8
+     "death_rate_now": 11,
+     "evaluated_now": 9
     }
    },
    "at_first_score": {
