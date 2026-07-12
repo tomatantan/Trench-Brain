@@ -92,6 +92,8 @@ python3 brain/snapshot.py >> "$LOG" 2>&1 || echo "snapshot skipped" >> "$LOG"
 python3 brain/compounding.py >> "$LOG" 2>&1 || echo "compounding skipped" >> "$LOG"
 python3 brain/feedback.py >> "$LOG" 2>&1 || echo "feedback skipped" >> "$LOG"
 python3 brain/kol_track_record.py >> "$LOG" 2>&1 || echo "kol-track-record skipped" >> "$LOG"
+# (2g4)★検知bot成績表: 外部検知(猫太郎bot等)のCAをoutcome照合し source×verdict で採点(cache共有・bounded)
+python3 brain/detect_track_record.py >> "$LOG" 2>&1 || echo "detect-track-record skipped" >> "$LOG"
 # (2g3)★G5b答え採点: 過去回答の言及銘柄/KOLを実outcomeと照合(ca_outcome_cache更新直後)→ask_context第4注入で自己校正。
 python3 brain/score_queries.py >> "$LOG" 2>&1 || echo "score_queries skipped" >> "$LOG"
 python3 brain/predictive_study.py >> "$LOG" 2>&1 || echo "predictive-study skipped" >> "$LOG"
@@ -124,7 +126,8 @@ for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summa
           brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl \
           brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
           brain/state/feedback_stats.json brain/state/answer_scorecard.json \
-          brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json; do
+          brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json \
+          brain/state/detect_history.json brain/state/detect_track_records.json; do
   git add "$_p" >> "$LOG" 2>&1 || true
 done
 if git diff --cached --quiet; then

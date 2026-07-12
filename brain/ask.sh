@@ -47,6 +47,16 @@ try:
         rows.append(d)
 except Exception:
     pass
+# 検知botの成績表(detect_track_record.py)＝「出た」でなく「当たるのか」の重み。あれば先頭に1行。
+try:
+    tr = json.load(open("brain/state/detect_track_records.json", encoding="utf-8"))
+    lines = [f"{k}: {v['evaluated']}件評価中 死{v['death_rate']}%"
+             for k, v in sorted((tr.get("records") or {}).items()) if v.get("evaluated")]
+    if lines:
+        print("★この検知網の実績(AVOIDは死%高=避けが的中/REVIEW系は死%低=拾いが良い・現時点スナップショット): "
+              + " / ".join(lines))
+except Exception:
+    pass
 for d in rows[-15:]:
     sym = d.get("symbol") or "?"
     print(f"- [{d.get('ts','?')}] ${sym} verdict={d.get('verdict','?')} ca={str(d.get('ca') or '')[:10]}… src={d.get('source','?')}")
