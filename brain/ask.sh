@@ -82,7 +82,7 @@ fi
 LIVEX="$(python3 - "$Q" <<'PY'
 import sys, re, json, urllib.request, urllib.parse
 q = sys.argv[1]
-ents = list((set(re.findall(r"\$[A-Za-z0-9]{2,15}", q)) | set(re.findall(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q))))[:3]
+ents = list((set(re.findall(r"\$[A-Za-z0-9]{2,15}", q)) | set(re.findall(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q)) | set(re.findall(r"\b0x[a-fA-F0-9]{40}\b", q))))[:3]  # 2026-07-12 EVM対応
 if not ents: sys.exit(0)
 key = ""
 try:
@@ -120,8 +120,9 @@ try:
 except Exception: pass
 out = {}
 m = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q)
-if m:
-    ca = m.group(0)
+m_evm = re.search(r"\b0x[a-fA-F0-9]{40}\b", q)  # 2026-07-12 EVM対応: CA検出にEVMも追加
+ca = (m_evm.group(0) if m_evm else None) or (m.group(0) if m else None)
+if ca and not ca.startswith("0x"):  # pump.fun/rugcheckはSolana専用＝EVMはgracefully skip(空のまま・エラーにしない)
     try:
         c = json.loads(urllib.request.urlopen(urllib.request.Request(f"https://frontend-api-v3.pump.fun/coins/{ca}", headers={"User-Agent": UA}), timeout=10).read())
         out["token"] = {"sym": c.get("symbol"), "name": c.get("name"), "mcap": c.get("usd_market_cap"), "reply": c.get("reply_count"), "complete": c.get("complete"), "twitter": c.get("twitter")}
@@ -244,7 +245,7 @@ tick = lambda t: sorted({x.upper() for x in re.findall(r"\$([A-Za-z0-9]{2,15})\b
 rec = {"ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
        "question": q, "answer": a,
        "backend": os.environ.get("ASK_B", ""), "assetized": False,
-       "q_tickers": tick(q), "q_cas": sorted(set(re.findall(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q))),
+       "q_tickers": tick(q), "q_cas": sorted(set(re.findall(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", q)) | set(re.findall(r"\b0x[a-fA-F0-9]{40}\b", q))),  # 2026-07-12 EVM対応
        "a_tickers": tick(a), "a_handles": sorted({h.lower() for h in re.findall(r"@([A-Za-z0-9_]{3,15})", a)})}
 with open("brain/state/query_log.jsonl", "a", encoding="utf-8") as f:
     f.write(json.dumps(rec, ensure_ascii=False) + "\n")

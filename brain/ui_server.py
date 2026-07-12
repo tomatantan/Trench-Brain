@@ -706,23 +706,40 @@ def _http_json(url, timeout=12, retries=2):
     return None
 
 
+_EVM_CA_RE = re.compile(r"\b0x[a-fA-F0-9]{40}\b")
+_SOL_CA_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b")
+# GoPlus token_security の chain id(dexscreener chainId → GoPlus数値id)。無いchainは正直に未対応扱い。
+_GOPLUS_CHAIN_ID = {"ethereum": "1", "bsc": "56", "base": "8453", "arbitrum": "42161",
+                    "polygon": "137", "avalanche": "43114", "optimism": "10"}
+
+
 def _score_token(token):
-    """ape-or-avoid 総合読み(決定的・LLM不使用・$0)＝scam門(rugcheck)+base-rate文脈。
-    CA→on-chain判定 / ticker→wikiからCA解決 試行。正直にape断定しない(base-rate厳しい)。"""
+    """ape-or-avoid 総合読み(決定的・LLM不使用・$0)＝scam門(rugcheck/GoPlus)+base-rate文脈。
+    CA→on-chain判定 / ticker→wikiからCA解決 試行。正直にape断定しない(base-rate厳しい)。
+    ★2026-07-12 multi-chain Phase1: 0x+40hexはEVM(dexscreener+GoPlus)、それ以外はSolana(pump.fun+rugcheck)。"""
     token = token.strip()
-    m = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", token)
-    ca = m.group(0) if m else None
+    m = _EVM_CA_RE.search(token)
+    evm_ca = m.group(0).lower() if m else None
+    m = _SOL_CA_RE.search(token) if not evm_ca else None
+    ca = evm_ca or (m.group(0) if m else None)
     wiki_excerpt = None
     if not ca:  # ticker → 合成wikiページからCAを探す
         d = _retriever().page(token)
         if d:
             wiki_excerpt = d["body"][:600]
-            mm = re.search(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b", d["body"])
-            ca = mm.group(0) if mm else None
+            mm = _EVM_CA_RE.search(d["body"])
+            if mm:
+                evm_ca = mm.group(0).lower()
+                ca = evm_ca
+            else:
+                mm = _SOL_CA_RE.search(d["body"])
+                ca = mm.group(0) if mm else None
         if not ca:
             return {"token": token, "verdict": "需CA",
-                    "verdict_reason": "on-chain判定には CA(mint address) が要る。tickerのみだと合成wikiの読みだけ。",
+                    "verdict_reason": "on-chain判定には CA(mint address/contract address) が要る。tickerのみだと合成wikiの読みだけ。",
                     "wiki": wiki_excerpt}
+    if evm_ca:
+        return _score_evm_token(token, evm_ca, wiki_excerpt)
     onchain, flags = {}, []
     pf = _http_json(f"https://frontend-api-v3.pump.fun/coins/{ca}")
     if pf:
@@ -821,6 +838,94 @@ def _score_token(token):
             "flags": flags or (["on-chain赤旗なし"] if rc else ["on-chainデータ無し"]),
             "onchain": onchain,
             "base_rate_note": f"門通過でも約{die_pct}%が死ぬ(pump.fun base rate)＝赤旗無し≠安全。",
+            "wiki": wiki_excerpt}
+
+
+def _score_evm_token(token, ca, wiki_excerpt):
+    """EVM(0x CA) 版 ape-or-avoid。pump.fun/rugcheckがSolana専用なので別経路:
+    板=dexscreener(汎用・全chain対応) / scam門=GoPlus token_security(chain-mapped分のみ)。
+    GoPlusが未対応chainか取得失敗の時は「安全に見せない」＝部分判定で正直に落とす(指針4=観測と推論の分離と同じ精神)。"""
+    onchain, flags = {}, []
+    chain = None
+    dx = _http_json(f"https://api.dexscreener.com/latest/dex/tokens/{ca}")
+    pairs = (dx or {}).get("pairs") or []
+    p0 = None
+    if pairs:
+        p0 = max(pairs, key=lambda p: ((p.get("liquidity") or {}).get("usd") or 0))
+        chain = p0.get("chainId")
+        vol24 = ((p0.get("volume") or {}).get("h24") or 0)
+        mc_dx = p0.get("marketCap") or p0.get("fdv") or 0
+        ratio = round(100 * vol24 / mc_dx, 1) if mc_dx else None
+        age_h = None
+        cts = p0.get("pairCreatedAt")
+        if cts:
+            age_h = round((time.time() - cts / 1000) / 3600, 1)
+        onchain["dex"] = {"chain": chain, "vol24_usd": round(vol24), "mcap_usd": round(mc_dx),
+                          "vol_mc_pct": ratio, "liq_usd": round((p0.get("liquidity") or {}).get("usd") or 0),
+                          "age_h": age_h}
+        # VOL/MC bundle疑い(Solana版と同じ閾値・年齢ゲート＝spyzer基準を汎用適用)
+        if ratio is not None and age_h is not None and age_h <= 48 and ratio < 80:
+            flags.append(f"VOL/MC {ratio}%<80%＝bundle疑い(spyzer基準・launch {age_h}h)")
+    honeypot = False
+    goplus_checked = False
+    gid = _GOPLUS_CHAIN_ID.get(chain) if chain else None
+    if gid:
+        gp = _http_json(f"https://api.gopluslabs.io/api/v1/token_security/{gid}?contract_addresses={ca}",
+                        timeout=10, retries=1)
+        try:
+            res = (gp or {}).get("result") or {}
+            tok = res.get(ca) or (next(iter(res.values())) if res else None)
+        except Exception:
+            tok = None
+        if tok:
+            goplus_checked = True
+            onchain["goplus"] = tok
+            if tok.get("is_honeypot") == "1":
+                honeypot = True
+                flags.append("honeypot判定(GoPlus)")
+            try:
+                buy_tax = float(tok.get("buy_tax") or 0)
+                sell_tax = float(tok.get("sell_tax") or 0)
+                if buy_tax > 0.10 or sell_tax > 0.10:
+                    flags.append(f"高税率(buy {round(buy_tax * 100, 1)}%/sell {round(sell_tax * 100, 1)}%)")
+            except Exception:
+                pass
+            if tok.get("is_mintable") == "1":
+                flags.append("mint可能(増刷可)")
+            if tok.get("owner_change_balance") == "1":
+                flags.append("ownerが残高改変可")
+            if tok.get("cannot_sell_all") == "1":
+                flags.append("全量売却不可")
+            try:
+                hc = int(tok.get("holder_count") or 0)
+                if 0 < hc < 15:
+                    flags.append(f"holder極少({hc})")
+            except Exception:
+                pass
+            try:
+                top10 = round(sum(float(h.get("percent") or 0) for h in (tok.get("holders") or [])[:10]), 4)
+                if top10 > 0.5:
+                    flags.append(f"保有集中(上位{round(top10 * 100, 1)}%)")
+            except Exception:
+                pass
+    if not goplus_checked:
+        onchain["goplus"] = "未対応チェーン or 取得失敗=セキュリティ門未検査"
+    if honeypot:
+        verdict = "AVOID"
+    elif not pairs:
+        verdict = "判定不可(このチェーン/CAのデータ無し・再試行を)"
+    elif len(flags) >= 2:
+        verdict = "高リスク(避け寄り)"
+    elif flags:
+        verdict = "要注意"
+    elif not goplus_checked:
+        verdict = "部分判定(セキュリティ門未検査・板データのみ)"
+    else:
+        verdict = "赤旗なし(但base-rate注意)"
+    return {"token": token, "ca": ca, "chain": chain, "verdict": verdict,
+            "flags": flags or (["on-chain赤旗なし(GoPlus検査済)"] if goplus_checked else ["on-chainデータ限定(GoPlus未検査)"]),
+            "onchain": onchain,
+            "base_rate_note": "EVM chainのbase-rate統計は未収集(brain/state/base_rate.jsonはSolana pump.fun専用)＝赤旗無し≠安全。",
             "wiki": wiki_excerpt}
 
 

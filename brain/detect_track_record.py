@@ -14,6 +14,7 @@
 import json
 import os
 import time
+import urllib.error
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -42,6 +43,24 @@ def pf_mcap(ca):
         u = f"https://frontend-api-v3.pump.fun/coins/{ca}"
         d = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=10).read())
         return d.get("usd_market_cap"), False
+    except urllib.error.HTTPError as e:
+        return None, e.code != 404
+    except Exception:
+        return None, True
+
+
+def dex_mcap(ca):
+    """EVM CA(0x)版のoutcome取得(2026-07-12)。pf_mcapはpump.fun専用でEVMは常に404になるため、
+    dexscreenerの汎用tokensエンドポイントで代替。kol_track_record.py の同名関数と同じ規約
+    (このファイルは自己完結を優先し小さな重複を許容=INGEST規約の外側なので依存を増やさない)。"""
+    try:
+        u = f"https://api.dexscreener.com/latest/dex/tokens/{ca}"
+        d = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=10).read())
+        pairs = (d or {}).get("pairs") or []
+        if not pairs:
+            return None, False
+        p0 = max(pairs, key=lambda p: ((p.get("liquidity") or {}).get("usd") or 0))
+        return p0.get("marketCap") or p0.get("fdv"), False
     except urllib.error.HTTPError as e:
         return None, e.code != 404
     except Exception:
@@ -93,7 +112,7 @@ def main():
             continue
         if looked >= MAX_CA:
             break
-        mc, transient = pf_mcap(ca)
+        mc, transient = dex_mcap(ca) if ca.startswith("0x") else pf_mcap(ca)
         looked += 1
         if transient:
             time.sleep(0.15)

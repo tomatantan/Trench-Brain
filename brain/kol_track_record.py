@@ -27,7 +27,8 @@ OUT_MD = ROOT / "wiki" / "dashboards" / "kol-track-records.md"
 OUT_JSON = STATE / "kol_track_records.json"
 CACHE = STATE / "ca_outcome_cache.json"
 CA_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b")
-DEAD_MCAP = 12_000     # 現mcapがこれ未満＝死/フェード(近似)
+EVM_RE = re.compile(r"\b0x[a-fA-F0-9]{40}\b")  # 2026-07-12 EVM対応: KOLがEVM CAを言及するケースも拾う
+DEAD_MCAP = 12_000     # 現mcapがこれ未満＝死/フェード(近似)。EVMも同一閾値で近似(chain別統計は未収集)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 MAX_CA = 200           # 1回の lookup 上限(bounded)
 OUTCOME_TTL = 6 * 3600  # alive/unknown を6h毎に再確認(rug追従・transient回復)
@@ -57,6 +58,27 @@ def pf_mcap(ca):
         return None, None, True       # URLError/timeout/その他 → transient扱い
 
 
+def dex_mcap(ca):
+    """EVM CA版のoutcome取得(2026-07-12)。pf_mcapはpump.fun専用=EVMは常に404になるので、
+    dexscreenerの汎用tokensエンドポイントで代替。(mcap, transient)の2-tupleでpf_mcapと揃える
+    (completeに相当する概念がEVMには無いのでNoneで返し、呼び出し側はca先頭0xでcomplete相当を無視)。"""
+    try:
+        u = f"https://api.dexscreener.com/latest/dex/tokens/{ca}"
+        d = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=10).read())
+        pairs = (d or {}).get("pairs") or []
+        if not pairs:
+            return None, False  # genuine not-found(ペア無し) → cacheしてよい
+        p0 = max(pairs, key=lambda p: ((p.get("liquidity") or {}).get("usd") or 0))
+        mc = p0.get("marketCap") or p0.get("fdv")
+        return mc, False
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, False
+        return None, True
+    except Exception:
+        return None, True
+
+
 def main():
     # 1) KOL別 CA言及を集計(pump系CA)
     kol_cas = defaultdict(set)
@@ -72,6 +94,8 @@ def main():
         for ca in CA_RE.findall(t):
             if ca.endswith("pump") or len(ca) >= 40:
                 kol_cas[acct].add(ca)
+        for ca in EVM_RE.findall(t):  # 2026-07-12: EVM CAはlowercaseに正規化(dedupe/cache keyをchecksummed表記で割らない)
+            kol_cas[acct].add(ca.lower())
     all_cas = set().union(*kol_cas.values()) if kol_cas else set()
 
     # 2) 各CAの現outcome(cache優先・bounded)
@@ -87,7 +111,11 @@ def main():
             continue
         if looked >= MAX_CA:
             break
-        mc, comp, transient = pf_mcap(ca)
+        if ca.startswith("0x"):
+            mc, transient = dex_mcap(ca)
+            comp = None  # graduated概念はEVMに無い
+        else:
+            mc, comp, transient = pf_mcap(ca)
         if transient:
             looked += 1  # bounded 維持のためカウントは進める。cache には書かない → 次runで再試行
             time.sleep(0.15)
