@@ -835,7 +835,8 @@ def _score_token(token):
     else:
         verdict = "赤旗なし(但base-rate注意)"
     return {"token": token, "ca": ca, "verdict": verdict,
-            "flags": flags or (["on-chain赤旗なし"] if rc else ["on-chainデータ無し"]),
+            "stance": "これは門の観測(客観の事実)であって投資判断ではない。判断は人＝各KOL/型の脳がこの事実をどう扱うかは /api/ask で(憲法指針10)。",
+                        "flags": flags or (["on-chain赤旗なし"] if rc else ["on-chainデータ無し"]),
             "onchain": onchain,
             "base_rate_note": f"門通過でも約{die_pct}%が死ぬ(pump.fun base rate)＝赤旗無し≠安全。",
             "wiki": wiki_excerpt}
@@ -923,7 +924,8 @@ def _score_evm_token(token, ca, wiki_excerpt):
     else:
         verdict = "赤旗なし(但base-rate注意)"
     return {"token": token, "ca": ca, "chain": chain, "verdict": verdict,
-            "flags": flags or (["on-chain赤旗なし(GoPlus検査済)"] if goplus_checked else ["on-chainデータ限定(GoPlus未検査)"]),
+            "stance": "これは門の観測(客観の事実)であって投資判断ではない。判断は人＝各KOL/型の脳がこの事実をどう扱うかは /api/ask で(憲法指針10)。",
+                        "flags": flags or (["on-chain赤旗なし(GoPlus検査済)"] if goplus_checked else ["on-chainデータ限定(GoPlus未検査)"]),
             "onchain": onchain,
             "base_rate_note": "EVM chainのbase-rate統計は未収集(brain/state/base_rate.jsonはSolana pump.fun専用)＝赤旗無し≠安全。",
             "wiki": wiki_excerpt}
