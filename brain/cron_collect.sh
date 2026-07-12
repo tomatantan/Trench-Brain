@@ -127,7 +127,7 @@ for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summa
           brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
           brain/state/feedback_stats.json brain/state/answer_scorecard.json \
           brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json \
-          brain/state/detect_history.json brain/state/detect_track_records.json; do
+          brain/state/detect_history.json brain/state/detect_track_records.json brain/state/chain_base_rate.json; do
   git add "$_p" >> "$LOG" 2>&1 || true
 done
 if git diff --cached --quiet; then
