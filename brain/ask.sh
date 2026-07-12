@@ -241,6 +241,27 @@ else
   ANSWER="$(claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config "$PROMPT")"
 fi
 
+# ★内部語の機械置換(2026-07-12): 禁止語プロンプトでも弱モデルが漏らす(backlog/kol_standouts等の実漏れ2回目)
+# ＝イタチごっこ終了・出力後に決定的に潰す。対象は snake_case の内部識別子のみ(曖昧な日本語語は
+# 置換事故が怖いのでプロンプト規律に残す)。ASK_UI=1(エンドユーザー向け)のみ。
+if [ "${ASK_UI:-}" = "1" ] && [ -n "$ANSWER" ]; then
+  ANSWER="$(printf '%s' "$ANSWER" | python3 - <<'PY'
+import sys
+t = sys.stdin.read()
+REPL = {
+    "kol_standouts": "複数の目立つアカの言及", "traction_candidates": "板が動いてる候補群",
+    "live_pulse": "リアルタイム観測", "pulse_history": "時系列記録", "death_ledger": "過去の死亡記録",
+    "ask_context": "参照知識", "synth_queue": "処理待ち", "flow_count": "観測量",
+    "backlog": "未消化の新規", "stance_map": "立場マップ", "chain_base_rate": "チェーン別の実測死亡率",
+    "flow_pulse": "網の話題重心",
+}
+for k, v in REPL.items():
+    t = t.replace(f"[[{k}]]", v).replace(k, v)
+sys.stdout.write(t)
+PY
+)"
+fi
+
 # ★学習の両輪(収集半・原則3): 有効なQ&Aを query_log に capture。
 # wikiは書かない(読取専用維持)=state queueに積むだけ。資産化(合成半)は brain/asset_queries.sh が
 # 門付きで wiki/queries に落とす=「質問するほど脳が賢くなる」。失敗しても答えは壊さない(|| true)。
