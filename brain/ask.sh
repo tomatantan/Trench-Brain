@@ -245,9 +245,12 @@ fi
 # ＝イタチごっこ終了・出力後に決定的に潰す。対象は snake_case の内部識別子のみ(曖昧な日本語語は
 # 置換事故が怖いのでプロンプト規律に残す)。ASK_UI=1(エンドユーザー向け)のみ。
 if [ "${ASK_UI:-}" = "1" ] && [ -n "$ANSWER" ]; then
-  ANSWER="$(printf '%s' "$ANSWER" | python3 - <<'PY'
+  # ★渡し方はenv経由必須: `printf|python3 - <<PY` はheredocがstdinを奪いsys.stdinが空=回答を空に上書きする
+  #   (2026-07-12 本番askを数十分落とした実害バグ)。python失敗時も原文維持(fail-safe)。
+  FILTERED="$(ASK_RAW="$ANSWER" python3 - <<'PY' 2>/dev/null || true
+import os
 import sys
-t = sys.stdin.read()
+t = os.environ.get("ASK_RAW", "")
 REPL = {
     "kol_standouts": "複数の目立つアカの言及", "traction_candidates": "板が動いてる候補群",
     "live_pulse": "リアルタイム観測", "pulse_history": "時系列記録", "death_ledger": "過去の死亡記録",
@@ -261,6 +264,7 @@ for k, v in REPL.items():
 sys.stdout.write(t)
 PY
 )"
+  [ -n "$FILTERED" ] && ANSWER="$FILTERED"
 fi
 
 # ★学習の両輪(収集半・原則3): 有効なQ&Aを query_log に capture。
