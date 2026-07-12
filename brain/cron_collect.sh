@@ -121,6 +121,8 @@ python3 brain/predictive_study.py >> "$LOG" 2>&1 || echo "predictive-study skipp
 python3 brain/revise_detect.py >> "$LOG" 2>&1 || echo "revise_detect skipped" >> "$LOG"
 bash brain/synthesize_revise.sh || echo "synth-revise skipped" >> "$LOG"
 python3 brain/synth_validate.py >> brain/state/synth_validate.out 2>&1 || echo "★synth_validate(revise後): 不正検出→brain/state/synth_validate.out" >> "$LOG"
+# (2g5)★ショーケース回答=UIの「今日の読み」を毎サイクル1本生成(haiku・閲覧は静的=コスト0)
+bash brain/showcase.sh >> "$LOG" 2>&1 || echo "showcase skipped" >> "$LOG"
 # (2h)★自律read=trenchを見てgenuine notableな時だけ本人にpush(大半沈黙・spam無)
 bash brain/autonomous_read.sh >> "$LOG" 2>&1 || echo "auto-read skipped" >> "$LOG"
 # (2i)★自律research=脳が自分で仮説立て→tracked dataで検証→確証/反証を学ぶ(試行錯誤で corpus が賢くなる)
@@ -146,7 +148,7 @@ for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summa
           brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
           brain/state/feedback_stats.json brain/state/answer_scorecard.json \
           brain/state/compounding_history.jsonl brain/state/learn_queue.jsonl brain/state/learn_flags.json \
-          brain/state/detect_history.json brain/state/detect_track_records.json brain/state/chain_base_rate.json brain/state/flow_pulse.json; do
+          brain/state/detect_history.json brain/state/detect_track_records.json brain/state/chain_base_rate.json brain/state/flow_pulse.json brain/state/showcase.json; do
   git add "$_p" >> "$LOG" 2>&1 || true
 done
 if git diff --cached --quiet; then

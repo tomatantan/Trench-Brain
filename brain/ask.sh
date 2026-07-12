@@ -260,7 +260,8 @@ REPL = {
     "flow_pulse": "網の話題重心",
 }
 for k, v in REPL.items():
-    t = t.replace(f"[[{k}]]", v).replace(k, v)
+    for var in (k, k.replace("_", "-")):  # ハイフン変種も潰す(実漏れ: kol-standouts 2026-07-12)
+        t = t.replace(f"[[{var}]]", v).replace(var, v)
 sys.stdout.write(t)
 PY
 )"

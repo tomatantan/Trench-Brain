@@ -1186,6 +1186,51 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # ★発見可能性kit(2026-07-12 本人「何ができるか分からんで終わりそう」):
+        if path0 == "/api/suggestions":
+            # 質問チップ＝固定の能力見本+今のデータから動的生成(流れ/検知/hot)。UIがタップで/api/askへ。
+            try:
+                sug = []
+                flow = _state_json("flow_pulse.json", {})
+                for m in (flow.get("top_moves") or [])[:2]:
+                    t = m.get("topic", "")
+                    if m.get("delta_pp", 0) > 0 and t:
+                        sug.append(f"今『{t}』の話題が増えてるのはなぜ？乗るべき？")
+                dets = [d for d in _recent_detections(5, include_avoids=False)]
+                if dets:
+                    sym = dets[0].get("symbol") or ""
+                    if sym:
+                        sug.append(f"${sym} が検知されてるけど、この検知網って当たるの？")
+                live = _state_json("live_pulse.json", {})
+                hot = [t for t in live.get("traction_candidates", []) if not t.get("stale")]
+                if hot:
+                    sug.append(f"${hot[0].get('sym','?')} いまどう？乗るか避けるか")
+                sug += [
+                    "今日どう立ち回るべき？",
+                    "今KOLたちの関心はどこに移動してる？",
+                    "AnsemがANSEM seasonって言ってる。信じていい？",
+                    "一番参考にしちゃいけないKOLの共通点は？",
+                    "VitalikにトークンをairdropしたらbullishかBearishか",
+                ]
+                # 重複除去して6件
+                seen, out_s = set(), []
+                for s in sug:
+                    if s not in seen:
+                        seen.add(s)
+                        out_s.append(s)
+                self._json(200, {"ok": True, "suggestions": out_s[:6]})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/showcase":
+            # 日替わり(毎サイクル)ショーケース回答＝開いた瞬間に「今日の魔界の読み」が表示済み(静的=コスト0)。
+            sc = _state_json("showcase.json", {})
+            if sc.get("answer"):
+                self._json(200, {"ok": True, **sc})
+            else:
+                self._json(200, {"ok": True, "question": None, "answer": None,
+                                 "note": "showcase未生成(次サイクルで生成)"})
+            return
         # ★Batch5 health/sitemap/compare
         if path0 == "/api/health":
             h = (_tail_jsonl("health.jsonl", 1) or [{}])[-1]
