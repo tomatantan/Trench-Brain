@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-12T03:17Z",
+ "ts": "2026-07-12T06:41Z",
  "summary": {
   "answers": 28,
   "tokens_mentioned": 37,
@@ -30,12 +30,12 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 68,
-     "evaluated_now": 317
+     "death_rate_now": 66,
+     "evaluated_now": 334
     },
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 7
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
@@ -142,8 +142,8 @@
      "evaluated_now": 4
     },
     "golocojp": {
-     "death_rate_now": 14,
-     "evaluated_now": 7
+     "death_rate_now": 12,
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 34042.308924656834,
-     "mcap_now": 31283.380000111898
+     "mcap_now": 30959.27651505044
     }
    },
    "kols": {},
@@ -323,8 +323,8 @@
      "evaluated_now": 4
     },
     "dxrnell": {
-     "death_rate_now": 12,
-     "evaluated_now": 8
+     "death_rate_now": 11,
+     "evaluated_now": 9
     }
    },
    "at_first_score": {
@@ -367,7 +367,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -433,8 +433,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 50,
-     "evaluated_now": 16
+     "death_rate_now": 53,
+     "evaluated_now": 17
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11719.49275447973,
+     "mcap_now": 11603.627207337426,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -534,7 +534,7 @@
    "kols": {
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 7
+     "evaluated_now": 8
     },
     "fibonacki": {
      "death_rate_now": 0,
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 20785.147309902844,
+     "mcap_now": 20194.0422175226,
      "ambiguous_candidates": 6
     }
    },
@@ -709,8 +709,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 50,
-     "evaluated_now": 16
+     "death_rate_now": 53,
+     "evaluated_now": 17
     }
    },
    "at_first_score": {
@@ -788,8 +788,8 @@
      "evaluated_now": 4
     },
     "dxrnell": {
-     "death_rate_now": 12,
-     "evaluated_now": 8
+     "death_rate_now": 11,
+     "evaluated_now": 9
     }
    },
    "at_first_score": {
@@ -837,12 +837,12 @@
      "evaluated_now": 4
     },
     "senshineo7": {
-     "death_rate_now": 40,
-     "evaluated_now": 5
+     "death_rate_now": 33,
+     "evaluated_now": 6
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -884,8 +884,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 68,
-     "evaluated_now": 317
+     "death_rate_now": 66,
+     "evaluated_now": 334
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -893,7 +893,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -943,8 +943,8 @@
      "evaluated_now": 4
     },
     "golocojp": {
-     "death_rate_now": 14,
-     "evaluated_now": 7
+     "death_rate_now": 12,
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
