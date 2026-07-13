@@ -59,6 +59,17 @@ PYEOF
 #   維持系のheadless合成を haiku に落とし件数も絞る。品質は synth_validate(門番)+北極星設計
 #   「弱いモデルでも運用できる」が担保。★ユーザー向け /api/ask は対象外(公開=gemini無料・fallbackのみclaude)。
 #   戻す時: ECONOMY=0 をwrapper/環境で渡す。個別上書き(SYNTH_MODEL等)は常に優先される。
+# Telegram /model で書かれた engine_model.txt を反映(優先順: env明示 > file > ECONOMY既定)。
+# 未設定なら現状維持(何も変わらない)。cwdは冒頭のcdでrepo root。
+if [ -f brain/state/engine_model.txt ]; then
+  _EM="$(tr -dc 'a-z0-9.-' < brain/state/engine_model.txt 2>/dev/null)"; _EM="${_EM:0:40}"
+  if [ -n "$_EM" ]; then
+    export ASK_MODEL="${ASK_MODEL:-$_EM}"
+    export SYNTH_MODEL="${SYNTH_MODEL:-$_EM}"
+    export SYNTH_PLAYER_MODEL="${SYNTH_PLAYER_MODEL:-$_EM}"
+    echo "engine_model.txt→model=$_EM (env未指定の合成/askに適用)" >> "$LOG"
+  fi
+fi
 ECONOMY="${ECONOMY:-1}"
 if [ "$ECONOMY" = "1" ]; then
   export SYNTH_MODEL="${SYNTH_MODEL:-haiku}"
