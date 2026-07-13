@@ -6,7 +6,14 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH="/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
-MODEL="${ASK_MODEL:-sonnet}"
+# モデル決定: ASK_MODEL(env)が最優先 → brain/state/engine_model.txt(Telegram /model で書く) → 既定sonnet。
+# 上のcdでcwd=repo root。fileが無ければ現状維持(何も変わらない)。tr で安全な文字だけ・bashで40字上限。
+MODEL="${ASK_MODEL:-}"
+if [ -z "$MODEL" ] && [ -f brain/state/engine_model.txt ]; then
+  MODEL="$(tr -dc 'a-z0-9.-' < brain/state/engine_model.txt 2>/dev/null)"
+  MODEL="${MODEL:0:40}"
+fi
+MODEL="${MODEL:-sonnet}"
 
 Q="${*:-}"
 [ -n "$Q" ] || { echo "問いを渡して: bash brain/ask.sh \"...\"" >&2; exit 1; }

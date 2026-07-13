@@ -61,13 +61,23 @@ def main():
     except Exception:  # noqa: BLE001
         pass
     recs = []
+    # ★N門(本人指摘2026-07-13「死亡率とかどうでもいい・正しいのかもわからんゴミ指標」):
+    #   N=3〜6の"死亡率0%"は偶然=統計的にゴミ・生存≠強さ・検証不能な精度が信頼を壊す。
+    #   → N<MIN_N は率を出さない(サンプル不足と正直に)。出す時も"生存率であって収益でない弱い補助"に降格。
+    MIN_N = 20
     for k, v in ktr.items():
         if not isinstance(v, dict):
             continue
         hd = (v.get("handle") or k)
-        if (k.lower() in handles or hd.lower() in handles) and v.get("evaluated"):
-            recs.append(f"- @{hd}: 直近{v['evaluated']}件評価中 **death {v.get('death_rate')}%**"
-                        f"（母集団は大半死＝相対で読む・小N注意）")
+        n = v.get("evaluated") or 0
+        if not ((k.lower() in handles or hd.lower() in handles) and n):
+            continue
+        if n < MIN_N:
+            recs.append(f"- @{hd}: 評価{n}件のみ＝**実績を語るにはサンプル不足**"
+                        f"（生存率は出さない・強さの根拠にするな）")
+        else:
+            recs.append(f"- @{hd}: 参考=直近{n}件の**生存率**の粗い目安 death {v.get('death_rate')}%"
+                        f"（※生存であって収益/edgeでない・母集団は大半死＝弱い補助信号・これで強者を順位づけするな）")
 
     # base-rate の錨
     gp, di, gr = base.get("gate_passed"), base.get("died"), base.get("graduated")
@@ -103,8 +113,11 @@ def main():
     if ctx:
         out.append("### 合成済みwiki（決定的に取得＝これを根拠に横断合成せよ。[[..]]で引用）\n" + ctx)
     if recs:
-        out.append("### 言及KOLの実績（track record＝評判/フォロワーでなく"
-                   "**成績**で『勝者』を判断せよ・声のデカさで語るな）\n" + "\n".join(recs))
+        out.append("### 言及KOLの参考実績（★強さの順位づけに使うな）\n"
+                   "track recordは**生存率であって収益/edgeではない**・小Nは偶然。"
+                   "『強者/勝者』を死亡率で並べるな＝**型・考え方・タイミング・待てるか・立ち回り**で語れ"
+                   "（指針10＝判断でなく思考を渡す）。数字は弱い補助にとどめ、N不足なら実績を語らない。\n"
+                   + "\n".join(recs))
     if base_line:
         out.append("### base-rate（錨）\n" + base_line)
     if self_lines:

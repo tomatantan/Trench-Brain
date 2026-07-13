@@ -388,6 +388,41 @@ def handle_photo(chat_id, file_id, caption):
         send(chat_id, f"⚠️ 画像取り込みエラー: {type(e).__name__}")
 
 
+ENGINE_MODEL_FILE = ROOT / "brain" / "state" / "engine_model.txt"
+ALLOWED_MODELS = {"haiku", "sonnet", "opus"}
+
+
+def handle_model(chat_id, arg):
+    """Telegramから裏エンジン(合成/Q&A)のモデルを切替。engine_model.txt に書く→ask.sh/cron合成が読む。
+    ※この会話セッション自体のモデルはTelegram経由では変えられない(仕様・ターミナルの /model のみ)。"""
+    name = (arg or "").strip().lower().split(" ")[0] if (arg or "").strip() else ""
+    if not name:
+        try:
+            cur = ENGINE_MODEL_FILE.read_text().strip()
+        except Exception:
+            cur = ""
+        send(chat_id, f"現在のエンジンモデル: {cur or 'sonnet(既定)'}\n"
+                      "切替: /model haiku | /model sonnet | /model opus\n"
+                      "※これは裏で回る合成・Q&A(/wiki)エンジンのモデル。この会話セッション自体のモデルはTelegramからは変えられない(ターミナルの /model のみ・仕様)。")
+        return
+    if name not in ALLOWED_MODELS:
+        send(chat_id, f"⚠️ 未対応: {name}\n使えるの: {', '.join(sorted(ALLOWED_MODELS))}")
+        return
+    try:
+        ENGINE_MODEL_FILE.parent.mkdir(parents=True, exist_ok=True)
+        ENGINE_MODEL_FILE.write_text(name + "\n")
+        send(chat_id, f"✅ エンジンのモデルを {name} にした。以後の合成・Q&A(/wiki)がこれで動く(コスト haiku<sonnet<opus)。\n戻すのは /model sonnet。")
+    except Exception as e:
+        send(chat_id, f"⚠️ 書込失敗: {type(e).__name__}")
+
+
+def handle_clear(chat_id, arg):
+    """/clear: このbotは1問1答=会話履歴を持たない=クリア対象なし。ライブセッションはTelegram経由で消せない(仕様)。"""
+    send(chat_id, "この bot は1問1答で会話履歴を持たない＝クリアする対象がない。\n"
+                  "動いてるセッション(俺)のコンテキストは Telegram からは消せない仕様＝ターミナル側で /clear(本人操作)。\n"
+                  "エンジンのモデルを既定に戻すなら /model sonnet。")
+
+
 def main():
     if not TOKEN:
         print("TG_WIKI_BOT_TOKEN 未設定。BotFatherの2個目トークンを環境変数か .env に。", file=sys.stderr)
@@ -435,7 +470,7 @@ def main():
                 continue
             cmd, arg = parse_cmd(text)
             if cmd in ("wiki", "add", "check", "discover", "who", "context", "start", "help",
-                       "watch", "source", "pending", "approve", "reject"):
+                       "watch", "source", "pending", "approve", "reject", "model", "clear"):
                 print(f"recv /{cmd} from {chat_id}: {arg[:60]!r}", file=sys.stderr, flush=True)
             try:
                 if cmd == "wiki":
@@ -460,8 +495,12 @@ def main():
                     handle_approve(chat_id, arg)
                 elif cmd == "reject":
                     handle_reject(chat_id, arg)
+                elif cmd == "model":
+                    handle_model(chat_id, arg)
+                elif cmd == "clear":
+                    handle_clear(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
-                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n/watch @handle = 監視アカ提案(承認制)\n/source <URL> = 情報ソース提案(承認制)\n画像を送る = ミームをvisionで取り込む")
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n/watch @handle = 監視アカ提案(承認制)\n/source <URL> = 情報ソース提案(承認制)\n/model haiku|sonnet|opus = 裏エンジン(合成/Q&A)のモデル切替\n/clear = (説明のみ・ライブセッションはターミナルで)\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
                 print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
                 try:
