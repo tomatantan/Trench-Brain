@@ -212,6 +212,7 @@ export SYNTH_MODEL=haiku  # 安価なモデルに切り替え
 | **build_entities が止まっている** | conformance OP1 が FAIL / `brain/state/cron.log` の pipeline 行 | `python3 brain/pipeline.py` を単体実行してエラーを確認。`wiki/entities/players/` の mtime で稼働確認 |
 | **watchdog が死亡通知を出した** | `brain/state/watchdog_status.json` の `checks` 各項目 | 該当項目(ui_server/live_pulse/launch_stream/public_tunnel/synthesis)ごとに対処。watchdog 自体が死んだら cron_collect.sh の自己修復ロジックが起動する（冒頭 pgrep セクション） |
 | **gap queue が増え続ける** | `brain/state/wiki_gaps.json` の件数 | `synthesize_gaps.sh` の claude エラーを cron.log で確認。gap が本物の新概念なら人間が判断（指針8・自動では新ページ作らない） |
+| **`wiki/` へのpushが失敗し続ける／新規clone環境で `wiki/.git 未初期化` ログが出る** | 2026-07-30〜: `wiki/` は独立private repo(`github.com/tomatantan/Trench-Brain-wiki`)。mainリポ(public)はこのパスを追跡しない(`.gitignore`) | 新環境では `cd wiki && git init && git remote add origin https://github.com/tomatantan/Trench-Brain-wiki.git && git fetch && git checkout main`。認証は private repo への書き込み権限を持つ資格情報(gh/deploy key)が必要。`cron_collect.sh` は main側pushの後に `wiki/` 内で別途add/commit/push する(独立ステップ・失敗してもmain側は無事) |
 
 ---
 

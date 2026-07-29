@@ -54,3 +54,14 @@
 - 公開trench-brain: `trench-brain/CLAUDE.md`（門付き収集・矛盾は消さない・合成が収集に追いつく）
 - 全プロジェクト共通: `~/.claude/CLAUDE.md`（運用憲法）+ `~/.claude/PLAYBOOK/`
 - 指針10「AIは思考するが判断しない」＝出力は視点・決定は本人。
+
+## 7. ★リポジトリ構成変更（2026-07-30・本人承認済）
+- **`Trench-Brain`(main) が private→public化**: GitHub Actions課金失敗(2026-07-27〜)の根本原因＝privateリポはActions分課金・publicなら無料無制限。本人承認の上でpublic化、GHA復旧確認済み。
+- **同時に `wiki/` を独立private repo(`github.com/tomatantan/Trench-Brain-wiki`)に分離**: publicになったmainに合成データ本体(entities/concepts/summaries/queries=蓄積した知性そのもの)が丸見えになるのを防ぐ。rawソースは憲法通り「合成されないソースは価値ゼロ」なので公開のままでよい。
+- **具体的な変更**:
+  - `wiki/` は main の `.gitignore` 対象＝main からは一切追跡しない。ディスク上には存在し続けるが、**そのパス自体が別のnested git repo**（`wiki/.git` が独立に存在、remote=Trench-Brain-wiki）。
+  - 運用に必要だった `wiki/ui`・`wiki/watchlist.md`・`wiki/_templates`・`wiki/ui-data.json` はrepoルート直下(`ui/`・`watchlist.md`・`_templates/`・`ui-data.json`)に移設し、参照コードのパスを全て更新済み。
+  - `cron_collect.sh`: main への `git add` ループから wiki/* を除去。main側push後に**別ステップ**で `wiki/` 内独立repoへadd/commit/push（失敗してもmain側は無事）。
+  - `ui_server.py`: 静的配信ルートを`wiki/`→repoルートに変更（`/ui/*`パス解決の為）。ただし配信許可を`/ui/*`と`/ui-data.json`だけに絞るガードを追加＝`wiki/`(private)が誤って配信されないようにした。
+- **Windows Claude側で必要な作業**: 初回サイクル前に `wiki/.git` が無ければ `cd wiki && git init && git remote add origin https://github.com/tomatantan/Trench-Brain-wiki.git && git fetch && git checkout main` を一度実行(private repoへの書き込み権限=gh認証/deploy keyが必要)。詳細は `brain/RUNBOOK.md` §7の追加行。
+- 判断根拠・詳細は memory参照（Mac Claude側）。
