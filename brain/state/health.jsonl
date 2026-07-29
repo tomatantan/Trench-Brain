@@ -90,3 +90,5 @@
 {"ts": "2026-07-12T03:01Z", "corpus_ts": "2026-07-11T23:15Z", "raw_new": 23947, "signal_backlog": 21, "single_source": 121, "stale": 1193}
 {"ts": "2026-07-12T06:21Z", "corpus_ts": "2026-07-12T04:40Z", "raw_new": 24094, "signal_backlog": 22, "single_source": 115, "stale": 1198}
 {"ts": "2026-07-12T09:46Z", "corpus_ts": "2026-07-12T09:20Z", "raw_new": 24200, "signal_backlog": 15, "single_source": 110, "stale": 1218}
+{"ts": "2026-07-29T15:11Z", "corpus_ts": "2026-07-27T03:53Z", "raw_new": 38666, "signal_backlog": 14, "single_source": 81, "stale": 1736}
+{"ts": "2026-07-29T15:24Z", "corpus_ts": "2026-07-27T03:53Z", "raw_new": 38583, "signal_backlog": 7, "single_source": 74, "stale": 1745}
