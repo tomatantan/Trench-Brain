@@ -47,7 +47,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WATCHLIST = ROOT / "wiki" / "watchlist.md"
+WATCHLIST = ROOT / "watchlist.md"
 OUT_DIR = ROOT / "sources" / "x"
 ENV_FILE = ROOT / ".env"
 STATE_DIR = ROOT / "brain" / "state"
