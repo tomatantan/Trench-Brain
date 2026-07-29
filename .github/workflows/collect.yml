@@ -62,12 +62,16 @@ jobs:
           fi
         # exit 2（無料も有料も全滅＝真の収集ゼロ）でのみ job 失敗→下の notify 発火。
 
+      - name: Collect news (broad RSS + ワンクッションfilter, $0/認証不要)
+        continue-on-error: true  # 実験的追加(2026-07-30)。失敗してもX収集の成否には影響させない。
+        run: python3 collector/collect_news.py --limit 30
+
       - name: Commit & push new sources
         if: success()
         run: |
           git config user.name "trench-brain-cloud"
           git config user.email "actions@users.noreply.github.com"
-          git add sources/x brain/state/collect_health.json
+          git add sources/x sources/news brain/state/collect_health.json brain/state/news_seen.json brain/state/collect_health_news.json
           if git diff --cached --quiet; then
             echo "no new tweets"
           else
