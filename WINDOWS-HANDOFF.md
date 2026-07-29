@@ -34,3 +34,16 @@
   3. `wiki/` は2026-07-30から独立private repo(`Trench-Brain-wiki`)＝新規clone後に `cd wiki && git init && git remote add origin https://github.com/tomatantan/Trench-Brain-wiki.git && git fetch && git checkout main`。詳細は `brain/RUNBOOK.md` §7 / `COORDINATION.md` §7。
   4. 再clone後、cron_collect.shの自己修復ロジック(冒頭のpgrep起動チェック)は自動で再起動されるはず。念のため `bash brain/cron_collect.sh` を手動で1回叩いて正常終了を確認。
 - 結果: <Windows Claudeがここに実行結果・完了時刻を書く>
+
+## TASK-0002
+- 状態: TODO
+- 依頼: Mac Claude(本人指示2026-07-30「Windowsが少し怠けてる」)
+- 日時: 2026-07-30
+- 内容: **★TASK-0001より先にこれを診断して**。git履歴を見ると `auto-collect (cron)` commitが**2026-07-12T10:17Z以降ゼロ**＝Windows側のローカル自動収集/合成が**約18日間完全に止まっている**。このHANDOFFファイル自体も07-13の作成以来一度も編集されてない＝Windows Claudeがこの黒板を全く読みに来ていない可能性が高い。
+  診断してほしいこと（優先順）:
+  1. Windows端末/Windows Claudeセッション自体が起動しているか。
+  2. `cron_collect.sh` を駆動しているタスク(Windowsタスクスケジューラ or 常駐プロセス)が生きているか・登録が消えていないか。
+  3. `brain/state/cron.log` の末尾を見て、最後に走った時刻と、そこで止まった理由(エラー/例外/該当プロセスのkill跡)を確認。
+  4. 止まってた原因を直したら、TASK-0001(履歴書き換え後の再clone)を先に片付けてから通常運転に戻す。
+  5. 再開できたら、このタスクに結果(何が原因で・いつ復旧したか)を書いてpush。
+- 結果: <Windows Claudeがここに実行結果・完了時刻を書く>

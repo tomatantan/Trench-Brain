@@ -16,7 +16,8 @@ name: collect-cloud
 
 on:
   schedule:
-    - cron: "15 1,4,7,10,13,16,19,22 * * *"  # 3hごと(UTC)・local cron とは別位相
+    - cron: "*/15 * * * *"  # 2026-07-30: 3hごと→15分毎に大幅増(本人「高頻度で沢山」)。
+      # GitHub Actions公式注意: schedule起動は高負荷時に遅延/間引かれる事があり15分は保証されない(目安)。
   workflow_dispatch:
     inputs:
       use_paid:
