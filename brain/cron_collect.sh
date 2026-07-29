@@ -152,9 +152,8 @@ python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 # ★per-path add(2026-07-10 恒久修正): 一括addだと1個の欠損pathspec(例: learn_consumeが消した
 #   learn_queue.jsonl)で git add が丸ごとfatal→**有効な変更が1件もstageされずcommit/pushが数日死ぬ**
 #   (7/4-7/10の実事故・synthは正常なのに公開面が凍った真因)。1 pathずつaddし欠損は握り潰す。
-for _p in sources/youtube wiki/dashboards wiki/entities wiki/concepts wiki/summaries wiki/queries \
-          wiki/_worklist.md wiki/log.md wiki/index.md wiki/canon.md wiki/feeds.md wiki/ui-data.json \
-          wiki/conformance-report.md brain/user_context.md brain/state/hypotheses.jsonl \
+for _p in sources/youtube ui-data.json watchlist.md \
+          brain/user_context.md brain/state/hypotheses.jsonl \
           brain/state/research_log.jsonl brain/state/ingested.txt brain/state/health.jsonl \
           brain/state/pulse_history.jsonl brain/state/kol_track_records.json brain/state/risk_weights.json \
           brain/state/feedback_stats.json brain/state/answer_scorecard.json \
@@ -171,9 +170,21 @@ else
   git push -q origin main >> "$LOG" 2>&1 && echo "pushed main" >> "$LOG" || echo "push failed(次サイクル再試行)" >> "$LOG"
 fi
 
-# スマホ閲覧用 軽量ミラー＝専用 private repo Trench-Brain-wiki(wiki/だけ・213md)を force更新。
-# 6000+の sources/x を含む main は重くスマホ同期に不向き→iOS Obsidian はこの軽量repoをclone。
-WIKI_SHA="$(git subtree split --prefix=wiki main 2>/dev/null)"
-[ -n "$WIKI_SHA" ] && git push https://github.com/tomatantan/Trench-Brain-wiki.git "$WIKI_SHA":main --force >> "$LOG" 2>&1 \
-  && echo "wiki mobile-mirror updated" >> "$LOG" || echo "wiki mobile-mirror skipped" >> "$LOG"
+# ★wiki/ 本体(entities/concepts/summaries/queries=合成の資産そのもの)は2026-07-30から
+#   main(public)には一切コミットしない＝wiki/ 自体が独立repo(private Trench-Brain-wiki)。
+#   ここで別途 add/commit/push する(main側のpushとは独立・失敗してもmain側は影響されない)。
+if [ -d wiki/.git ]; then
+  ( cd wiki \
+    && git add -A >> "../$LOG" 2>&1 \
+    && if git diff --cached --quiet; then
+         echo "wiki(private): no new data" >> "../$LOG"
+       else
+         git commit -q -m "auto-collect: $(date -u +%Y-%m-%dT%H:%MZ) (cron)" >> "../$LOG" 2>&1
+         git pull -q --rebase --autostash origin main >> "../$LOG" 2>&1 || echo "wiki(private) pull skipped" >> "../$LOG"
+         git push -q origin main >> "../$LOG" 2>&1 && echo "wiki(private) pushed" >> "../$LOG" \
+           || echo "wiki(private) push failed(次サイクル再試行)" >> "../$LOG"
+       fi )
+else
+  echo "★wiki/.git 未初期化＝private repoのclone/git initが必要(brain/RUNBOOK.md参照)" >> "$LOG"
+fi
 echo "=== done ===" >> "$LOG"

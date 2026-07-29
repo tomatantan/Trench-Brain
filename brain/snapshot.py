@@ -77,7 +77,7 @@ def main():
     lp = ROOT / "wiki" / "concepts" / "launchpad-economics.md"
     n_death = len(re.findall(r"^\| \[\[\$", rug.read_text(encoding="utf-8"), re.M)) if rug.exists() else None
     # watchlist 数
-    wl = ROOT / "wiki" / "watchlist.md"
+    wl = ROOT / "watchlist.md"
     n_wl = None
     if wl.exists():
         t = wl.read_text(encoding="utf-8")

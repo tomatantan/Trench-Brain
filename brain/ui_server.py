@@ -1133,7 +1133,7 @@ class Handler(SimpleHTTPRequestHandler):
             return
         if path0 == "/api/watchlist":
             try:
-                p = WIKI / "watchlist.md"  # wiki直下(rag SUBDIRS外)なので直接読む
+                p = ROOT / "watchlist.md"  # 2026-07-30: wiki/private分離でrepoルート直下に移動
                 md = None
                 if p.exists():
                     md = re.sub(r"\A---\n.*?\n---\n", "", p.read_text(encoding="utf-8"), flags=re.S).strip()
@@ -1390,6 +1390,12 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
+        # directory=ROOT にしたのは /ui/* を正しいパスで配信する為だけ。
+        # ROOT配下を無制限公開しないよう、静的配信は /ui/ と /ui-data.json だけに絞る
+        # (2026-07-30: wiki/ 分離＝private repoの中身がここ経由で漏れるのを防ぐ)。
+        if not (path0 == "/ui-data.json" or path0.startswith("/ui/")):
+            self.send_error(404)
+            return
         super().do_GET()
 
     def do_POST(self):
@@ -1584,7 +1590,7 @@ def main():
     ap.add_argument("--port", type=int, default=8000)
     ap.add_argument("--host", default="127.0.0.1")
     args = ap.parse_args()
-    handler = partial(Handler, directory=str(WIKI))
+    handler = partial(Handler, directory=str(ROOT))
     srv = ThreadingHTTPServer((args.host, args.port), handler)
     print(f"Trench-Brain UI: http://{args.host}:{args.port}/ui/index.html  (脳=POST /api/ask)")
     try:

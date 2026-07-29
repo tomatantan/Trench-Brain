@@ -50,7 +50,7 @@ def main():
     #   例: 「猫太郎」→ tsuyuto6154。名前は「猫太郎_Nekotaro」の様な複合形→ _/／/空白 で分割して各tokenも引く。
     alias_hits = []  # 質問文中の表示名ヒット=名指しされた本人(G4の注入優先順で最上位に置く)
     try:
-        wl = open(os.path.join(ROOT, "wiki", "watchlist.md"), encoding="utf-8").read()
+        wl = open(os.path.join(ROOT, "watchlist.md"), encoding="utf-8").read()
         for h, name in re.findall(r"^\|\s*\[\[@([A-Za-z0-9_]+)\]\]\s*\|\s*([^|]+?)\s*\|", wl, re.M):
             for alias in re.split(r"[_/／\s@]+", name):
                 alias = alias.strip()

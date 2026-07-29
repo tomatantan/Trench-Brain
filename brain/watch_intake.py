@@ -131,7 +131,7 @@ def list_pending(root):
 
 
 def _append_watchlist_row(root, handle, sender, note):
-    wl = Path(root) / "wiki" / "watchlist.md"
+    wl = Path(root) / "watchlist.md"
     text = wl.read_text(encoding="utf-8") if wl.exists() else ""
     if f"[[@{handle}]]" in text:
         return False  # 既に門にいる
@@ -191,8 +191,8 @@ def approve(root, arg):
             it["status"] = "approved"
             it["approved_at"] = _now()
             msgs.append(f"✅ @{it['value']} → 監視入り" + ("" if added else "（既に門にいた）"))
-            if "wiki/watchlist.md" not in paths:
-                paths.append("wiki/watchlist.md")
+            if "watchlist.md" not in paths:
+                paths.append("watchlist.md")
         else:
             _append_ingest_queue(root, it["value"], it.get("sender", "?"), it.get("note", ""))
             it["status"] = "approved"

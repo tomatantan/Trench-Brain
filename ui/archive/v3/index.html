@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LLM Wikiから次にmeme化し得るワードを予測・連想するTrench-Brain" />
+    <title>Trench-Brain — Meme Association Cortex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#">
+        <span class="brand-neuron"><i></i><i></i><i></i></span>
+        <span><strong>TRENCH—BRAIN</strong><small>MEME ASSOCIATION CORTEX</small></span>
+      </a>
+      <div class="system-state">
+        <span><i></i>WIKI CONNECTED</span>
+        <b>5,342 SOURCES</b>
+        <b>218 CONCEPTS</b>
+      </div>
+      <div class="operator"><time id="clock">00:00:00 JST</time><button>RK</button></div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="pulse-panel">
+        <header class="panel-header">
+          <span>01 / NOW</span>
+          <h2>WORLD PULSE</h2>
+          <small>LLM Wikiが検知した現在の刺激</small>
+        </header>
+        <div class="pulse-list">
+          <button class="pulse-item active" data-query="米国とイランの緊張からmeme化する言葉">
+            <span class="pulse-type world">WORLD</span>
+            <b>米国・イラン間の緊張</b>
+            <small>US · MIDDLE EAST · 48 sources</small>
+            <i style="--level:92%"></i>
+          </button>
+          <button class="pulse-item" data-query="AI企業と著作権争いから生まれるmemeワード">
+            <span class="pulse-type tech">TECH</span>
+            <b>AI企業と著作権者の衝突</b>
+            <small>US · EU · 31 sources</small>
+            <i style="--level:78%"></i>
+          </button>
+          <button class="pulse-item" data-query="宇宙開発競争から連想されるmemeワード">
+            <span class="pulse-type figure">FIGURE</span>
+            <b>宇宙開発を巡る要人発言</b>
+            <small>US · 19 sources</small>
+            <i style="--level:67%"></i>
+          </button>
+          <button class="pulse-item" data-query="異常気象の珍映像からmeme化する言葉">
+            <span class="pulse-type oddity">ODDITY</span>
+            <b>赤く染まる海の映像</b>
+            <small>EU · 12 sources</small>
+            <i style="--level:53%"></i>
+          </button>
+        </div>
+        <div class="pulse-footer"><span>INGEST</span><b>46 / min</b><span>LANG</span><b>12</b></div>
+      </aside>
+
+      <section class="cortex">
+        <header class="query-head">
+          <div>
+            <span class="section-code">02 / ASSOCIATIVE QUERY</span>
+            <h1>次に、何が言葉になる？</h1>
+          </div>
+          <div class="query-modes">
+            <button class="active">PREDICT</button><button>EXPLORE</button><button>ARCHIVE</button>
+          </div>
+        </header>
+
+        <form class="cortex-search" id="cortex-search">
+          <span class="prompt-mark">›_</span>
+          <input
+            id="query-input"
+            autocomplete="off"
+            value="米国とイランの緊張からmeme化する言葉"
+            aria-label="連想したいテーマ"
+          />
+          <button type="submit">ASSOCIATE <span>↵</span></button>
+        </form>
+
+        <div class="suggestion-row">
+          <span>HOT INPUT</span>
+          <button>要人発言</button><button>世界の珍事</button><button>争いの歴史</button><button>X急上昇語</button>
+        </div>
+
+        <div class="brain-canvas" id="brain-canvas">
+          <svg id="synapse-layer" class="synapse-layer" aria-hidden="true"></svg>
+          <div class="brain-outline"><i></i><i></i><i></i><i></i></div>
+
+          <div class="query-seed" id="query-seed">
+            <small>INPUT STIMULUS</small>
+            <strong>US × IRAN</strong>
+            <span>48 sources / 9 concepts</span>
+          </div>
+
+          <article class="word-neuron primary" data-word="PERSIAN GULF" style="--x:54%;--y:34%;--tone:#4ff4ff">
+            <span class="neuron-orbit"></span>
+            <small>PREDICTED WORD</small>
+            <h2>PERSIAN<br />GULF</h2>
+            <div><b>89</b><span>MEME POTENTIAL</span></div>
+          </article>
+          <article class="word-neuron" data-word="OIL PANIC" style="--x:73%;--y:56%;--tone:#ff5bac;--scale:.84">
+            <span class="neuron-orbit"></span>
+            <small>ASSOCIATION</small>
+            <h2>OIL<br />PANIC</h2>
+            <div><b>77</b><span>MEME POTENTIAL</span></div>
+          </article>
+          <article class="word-neuron" data-word="RED BUTTON" style="--x:36%;--y:67%;--tone:#ffb64d;--scale:.78">
+            <span class="neuron-orbit"></span>
+            <small>VISUAL PHRASE</small>
+            <h2>RED<br />BUTTON</h2>
+            <div><b>71</b><span>MEME POTENTIAL</span></div>
+          </article>
+          <article class="word-neuron faint" data-word="DEALMAKER" style="--x:78%;--y:24%;--tone:#9e72ff;--scale:.62">
+            <span class="neuron-orbit"></span>
+            <small>PERSONA</small>
+            <h2>DEAL<br />MAKER</h2>
+            <div><b>58</b><span>MEME POTENTIAL</span></div>
+          </article>
+
+          <button class="evidence-node origin" data-target="PERSIAN GULF" style="--x:21%;--y:27%">
+            <i></i><b>起点</b><span>ホワイトハウス発言</span><small>US · 18:42</small>
+          </button>
+          <button class="evidence-node" data-target="PERSIAN GULF" style="--x:31%;--y:42%">
+            <i></i><b>歴史</b><span>タンカー危機</span><small>2019 pattern</small>
+          </button>
+          <button class="evidence-node" data-target="OIL PANIC" style="--x:89%;--y:43%">
+            <i></i><b>世論</b><span>gas price anxiety</span><small>18.4K posts</small>
+          </button>
+          <button class="evidence-node" data-target="RED BUTTON" style="--x:18%;--y:73%">
+            <i></i><b>映像</b><span>赤い警報画面</span><small>visual reuse 91</small>
+          </button>
+
+          <div class="cortex-status"><span>SYNAPSES 21,840</span><span>ASSOCIATIONS 164</span><span>LATENCY 1.8s</span></div>
+        </div>
+      </section>
+
+      <aside class="prediction-panel">
+        <header class="panel-header">
+          <span>03 / OUTPUT</span>
+          <h2>WORD FORECAST</h2>
+          <small>選択中: <b id="selected-word">PERSIAN GULF</b></small>
+        </header>
+
+        <section class="forecast-card">
+          <div class="forecast-title"><span>WHY THIS WORD</span><b id="forecast-score">89</b></div>
+          <h3 id="forecast-word">PERSIAN GULF</h3>
+          <p id="forecast-copy">
+            地名として既に認知され、対立・石油・航路を一語で圧縮できる。画像・旗・地図へ変換しやすく、立場の違う陣営でも再利用可能。
+          </p>
+          <div class="score-grid">
+            <span>VISUALITY <b>92</b></span><span>REUSABILITY <b>87</b></span>
+            <span>POLARITY <b>83</b></span><span>NOVELTY <b>66</b></span>
+          </div>
+        </section>
+
+        <section class="association-path">
+          <span>ASSOCIATION PATH</span>
+          <ol id="association-path">
+            <li><b>世界情勢</b><small>US–Iran tension</small></li>
+            <li><b>集団感情</b><small>不安・対立・期待</small></li>
+            <li><b>記憶パターン</b><small>2019 tanker crisis</small></li>
+            <li><b>圧縮ワード</b><small>PERSIAN GULF</small></li>
+          </ol>
+        </section>
+
+        <section class="archive-preview">
+          <span>EVIDENCE ARCHIVE</span>
+          <button><time>2026</time><b>要人発言</b><small>航路安全保障への言及</small></button>
+          <button><time>2019</time><b>ホルムズ海峡危機</b><small>類似する画像・語彙の拡散</small></button>
+          <button><time>1991</time><b>湾岸戦争</b><small>地名が象徴語へ変化</small></button>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="ct-feed">
+      <div class="feed-label"><i></i><span>LIVE LANGUAGE</span><small>MOCK</small></div>
+      <div class="feed-track" id="feed-track"></div>
+      <div class="feed-count"><span>HOT WORDS</span><b>24</b></div>
+    </footer>
+
+    <dialog id="word-dialog" class="word-dialog">
+      <button class="close-dialog">×</button>
+      <span class="section-code">WORD TRACE</span>
+      <h2 id="dialog-word">PERSIAN GULF</h2>
+      <p id="dialog-reason"></p>
+      <div id="dialog-evidence" class="dialog-evidence"></div>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

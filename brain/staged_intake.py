@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "brain" / "state" / "staged_intake_queue.json"
 HEALTH = ROOT / "brain" / "state" / "health.jsonl"
-WL = ROOT / "wiki" / "watchlist.md"
+WL = ROOT / "watchlist.md"
 SECTION = "## spyzer情報網（段階投入・自動 staged_intake.py）"
 
 

@@ -3,7 +3,7 @@
 Trench-Brain → UI 連携エクスポータ。
 
 wiki/entities/tokens と wiki/concepts を読んで、UI(泡＋SIGNAL TRACE)が消費する
-JSON を `wiki/ui-data.json` に書き出す。UI側はこの配列を fetch して泡を描画する。
+JSON を `ui-data.json`(repoルート) に書き出す。UI側はこの配列を fetch して泡を描画する。
 
 各 signal:
   { type, title, size, color, glow, trace:{ why, accounts, top, causal, confidence } }
@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TOK = ROOT / "wiki" / "entities" / "tokens"
 CONCEPTS = ROOT / "wiki" / "concepts"
 STATE = ROOT / "brain" / "state"
-OUT = ROOT / "wiki" / "ui-data.json"
+OUT = ROOT / "ui-data.json"
 
 MACRO = {"$BTC", "$ETH", "$SOL", "$USDC", "$USDT", "$HYPE", "$BNB", "$XRP", "$DOGE"}
 PALETTE = {"MACRO": "#28e1f2", "WORLD": "#ff4ba8", "MEME": "#48eca0", "TOKEN": "#ffb749"}

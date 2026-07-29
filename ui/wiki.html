@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trench Brain — 検索できるLLM Wiki</title>
+<style>
+  :root { --bg:#0b0e0c; --fg:#cfe8d4; --dim:#6f8f78; --accent:#3ddc84; --line:#1c2a20; --card:#10160f; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family: ui-monospace, "SF Mono", Menlo, monospace; line-height:1.6; }
+  header { padding:18px 16px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg); z-index:5; }
+  h1 { margin:0 0 10px; font-size:1.1rem; color:var(--accent); letter-spacing:.04em; }
+  .sub { color:var(--dim); font-size:.78rem; margin:0 0 12px; }
+  form { display:flex; gap:8px; }
+  #q { flex:1; background:var(--card); border:1px solid var(--line); color:var(--fg);
+       padding:10px 12px; border-radius:6px; font:inherit; }
+  #q:focus { outline:none; border-color:var(--accent); }
+  button { background:var(--accent); color:#06210f; border:none; padding:0 16px; border-radius:6px;
+           font:inherit; font-weight:700; cursor:pointer; }
+  main { display:grid; grid-template-columns: 360px 1fr; gap:0; }
+  @media (max-width:820px){ main{ grid-template-columns:1fr; } #reader.empty{ display:none; } }
+  #results { border-right:1px solid var(--line); min-height:60vh; }
+  .hit { padding:12px 16px; border-bottom:1px solid var(--line); cursor:pointer; }
+  .hit:hover { background:var(--card); }
+  .hit .t { color:var(--accent); font-weight:600; font-size:.9rem; }
+  .hit .p { color:var(--dim); font-size:.7rem; margin:2px 0 4px; }
+  .hit .e { color:var(--fg); font-size:.78rem; opacity:.85; }
+  #reader { padding:20px 26px; max-width:820px; }
+  #reader.empty { color:var(--dim); }
+  #reader h1,#reader h2,#reader h3 { color:var(--accent); }
+  #reader h2 { border-bottom:1px solid var(--line); padding-bottom:.2em; font-size:1.15rem; }
+  #reader a.wl { color:var(--accent); text-decoration:none; border-bottom:1px dashed var(--dim); cursor:pointer; }
+  #reader table { display:block; overflow-x:auto; white-space:nowrap; font-size:.8rem; border-collapse:collapse; }
+  #reader td,#reader th { border:1px solid var(--line); padding:4px 8px; }
+  #reader blockquote { border-left:3px solid var(--accent); margin:.6em 0; padding-left:.8em; color:var(--dim); }
+  .muted { color:var(--dim); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🧠 Trench Brain — 検索できるLLM Wiki</h1>
+  <p class="sub">合成済みの知識(concept / token / player / query)を検索。答えは合成ページに根ざす。<span id="stat"></span></p>
+  <form id="f"><input id="q" placeholder="例: 死ぬ型 / $CAFE / 今の trend / CredibleCrypto 信頼できる?" autocomplete="off"><button>検索</button></form>
+</header>
+<main>
+  <div id="results"></div>
+  <article id="reader" class="empty">左で検索 → 合成ページをここで読む。</article>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+$("#f").onsubmit = async e => {
+  e.preventDefault();
+  const q = $("#q").value.trim(); if (!q) return;
+  $("#results").innerHTML = '<p class="muted" style="padding:14px 16px">検索中…</p>';
+  try {
+    const r = await fetch(`/api/search?q=${encodeURIComponent(q)}&k=12`);
+    const d = await r.json();
+    if (!d.ok) throw new Error(d.error || "error");
+    if (!d.results.length) { $("#results").innerHTML = '<p class="muted" style="padding:14px 16px">該当なし</p>'; return; }
+    $("#results").innerHTML = d.results.map((h,i) => `
+      <div class="hit" data-i="${i}">
+        <div class="t">${esc(h.title)}</div>
+        <div class="p">${esc(h.path)} · ${h.score}</div>
+        <div class="e">${esc(h.excerpt)}…</div>
+      </div>`).join("");
+    [...document.querySelectorAll(".hit")].forEach(el =>
+      el.onclick = () => openPage(d.results[+el.dataset.i].path));
+  } catch (err) { $("#results").innerHTML = `<p class="muted" style="padding:14px 16px">検索失敗: ${esc(err.message)}</p>`; }
+};
+
+// path "wiki/entities/tokens/$CAFE.md" → 配信URL "/entities/tokens/$CAFE.md"
+function urlFor(path) {
+  const rel = path.replace(/^wiki\//, "");
+  return "/" + rel.split("/").map(encodeURIComponent).join("/");
+}
+
+async function openPage(path) {
+  $("#reader").className = "";
+  $("#reader").innerHTML = '<p class="muted">読み込み中…</p>';
+  try {
+    const md = await (await fetch(urlFor(path))).text();
+    $("#reader").innerHTML = mdToHtml(md);
+    [...document.querySelectorAll("#reader a.wl")].forEach(a =>
+      a.onclick = () => { $("#q").value = a.dataset.t; $("#f").requestSubmit(); });
+    $("#reader").scrollIntoView({behavior:"smooth", block:"start"});
+  } catch { $("#reader").innerHTML = '<p class="muted">読めなかった</p>'; }
+}
+
+// 合成ページの markdown を最小HTML化(frontmatter除去 / 見出し / 太字 / 箇条書き / 表 / [[link]])
+function mdToHtml(md) {
+  md = md.replace(/^---\n[\s\S]*?\n---\n/, "");   // frontmatter除去
+  const lines = md.split("\n"); let html = "", inList = false, inTable = false;
+  const inline = s => esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+    .replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, (m,t) => `<a class="wl" data-t="${esc(t)}">[[${esc(t)}]]</a>`);
+  const closeList = () => { if (inList){ html += "</ul>"; inList = false; } };
+  const closeTable = () => { if (inTable){ html += "</table>"; inTable = false; } };
+  for (const ln of lines) {
+    if (/^\s*\|.*\|\s*$/.test(ln)) {
+      if (/^\s*\|[\s:|-]+\|\s*$/.test(ln)) continue; // 区切り行
+      const cells = ln.trim().replace(/^\||\|$/g,"").split("|").map(c => inline(c.trim()));
+      if (!inTable){ html += "<table>"; inTable = true; }
+      html += "<tr>" + cells.map(c => `<td>${c}</td>`).join("") + "</tr>"; continue;
+    }
+    closeTable();
+    let m;
+    if (m = ln.match(/^(#{1,4})\s+(.*)/)) { closeList(); html += `<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`; }
+    else if (m = ln.match(/^\s*[-*•]\s+(.*)/)) { if(!inList){html+="<ul>";inList=true;} html += `<li>${inline(m[1])}</li>`; }
+    else if (m = ln.match(/^\s*>\s?(.*)/)) { closeList(); html += `<blockquote>${inline(m[1])}</blockquote>`; }
+    else if (ln.trim()) { closeList(); html += `<p>${inline(ln)}</p>`; }
+  }
+  closeList(); closeTable();
+  return html;
+}
+</script>
+</body>
+</html>

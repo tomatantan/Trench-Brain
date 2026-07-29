@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "sources" / "x"
-WL = ROOT / "wiki" / "watchlist.md"
+WL = ROOT / "watchlist.md"
 MIN_CITERS = 2          # watchlistの何アカ以上が言及してたら候補にするか(KOL言及門)。
                         # ★2に緩和(本人2026-07-02「調べる人をめちゃくちゃ増やせ」)＝矛盾の表面積を広げる。
 TOPN = 60
@@ -93,7 +93,7 @@ def main():
     else:
         new = text.rstrip() + "\n\n" + block + "\n"
     WL.write_text(new, encoding="utf-8")
-    print(f"watchlist auto-candidates: {len(rows)}件 (>= {MIN_CITERS}アカ引用) -> wiki/watchlist.md")
+    print(f"watchlist auto-candidates: {len(rows)}件 (>= {MIN_CITERS}アカ引用) -> watchlist.md")
     for c, n, h in rows[:8]:
         print(f"  @{h}: {c}アカ / {n}言及")
 

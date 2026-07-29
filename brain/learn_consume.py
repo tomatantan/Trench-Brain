@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "brain" / "state" / "learn_queue.jsonl"
 FLAGS = ROOT / "brain" / "state" / "learn_flags.json"
-WL = ROOT / "wiki" / "watchlist.md"
+WL = ROOT / "watchlist.md"
 SRC = ROOT / "sources" / "x"
 WL_START = "<!-- learn-added:start -->"
 WL_END = "<!-- learn-added:end -->"
