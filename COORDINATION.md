@@ -12,6 +12,7 @@
 **持ち場**: MacBook Air（本人が開いている時に稼働・閉じると止まる）
 **専任（Macだけが持つ）**:
 - 本人とのTelegram対話窓口（このチャンネルはMac Claudeが握る）
+  - ★**窓口は常に1セッションだけ**（2026-07-28実障害から）: Telegramは1トークン1受信ポーラー。`claude --channels plugin:telegram` を2セッションで起動するとトークンの取り合いで**両方の受信が死ぬ**（メッセージ未達で滞留）。新セッションを窓口にする時は旧窓口を先に閉じる。診断と復旧手順は memory `telegram-single-poller-conflict`。送信だけなら `~/.claude/channels/telegram/.env` のトークンでBot API直叩きが常に効く（受信死亡時も沈黙しない保険）。
 - 私的brain `~/brain` への書き込み（Macローカル+Obsidian Sync）
 - memory（セッション引き継ぎの記憶）
 **主導する役割**: 全体設計・複雑な実装・独立検証（敵対的に自分の緑を疑う）・深い調査・多視点合成・本人との相談・私的brain運用
