@@ -1,7 +1,7 @@
 {
- "ts": "2026-07-12T10:11Z",
+ "ts": "2026-07-29T17:26Z",
  "summary": {
-  "answers": 28,
+  "answers": 29,
   "tokens_mentioned": 37,
   "dead_now": 23,
   "alive_now": 3,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 63,
-     "evaluated_now": 354
+     "death_rate_now": 75,
+     "evaluated_now": 487
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -118,7 +118,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     }
    },
    "at_first_score": {
@@ -139,11 +139,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 11,
-     "evaluated_now": 9
+     "death_rate_now": 27,
+     "evaluated_now": 11
     }
    },
    "at_first_score": {
@@ -184,8 +184,8 @@
     },
     "$TRIPLEA": {
      "status": "alive",
-     "peak_mcap": 34042.308924656834,
-     "mcap_now": 31200.25198959854
+     "peak_mcap": 49180.832613225786,
+     "mcap_now": 29791.126573842943
     }
    },
    "kols": {},
@@ -285,7 +285,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     }
    },
    "at_first_score": {
@@ -320,11 +320,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "dxrnell": {
-     "death_rate_now": 11,
-     "evaluated_now": 9
+     "death_rate_now": 10,
+     "evaluated_now": 10
     }
    },
    "at_first_score": {
@@ -363,7 +363,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "theunipcs": {
      "death_rate_now": 0,
@@ -433,8 +433,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 50,
-     "evaluated_now": 18
+     "death_rate_now": 47,
+     "evaluated_now": 19
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11689.743979327917,
+     "mcap_now": 11180.571979020913,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -538,11 +538,11 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "ren_nevermind": {
      "death_rate_now": 0,
-     "evaluated_now": 2
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 20356.92955178817,
+     "mcap_now": 16145.535479942057,
      "ambiguous_candidates": 6
     }
    },
@@ -709,8 +709,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 50,
-     "evaluated_now": 18
+     "death_rate_now": 47,
+     "evaluated_now": 19
     }
    },
    "at_first_score": {
@@ -785,11 +785,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "dxrnell": {
-     "death_rate_now": 11,
-     "evaluated_now": 9
+     "death_rate_now": 10,
+     "evaluated_now": 10
     }
    },
    "at_first_score": {
@@ -834,7 +834,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "senshineo7": {
      "death_rate_now": 33,
@@ -884,12 +884,12 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 63,
-     "evaluated_now": 354
+     "death_rate_now": 75,
+     "evaluated_now": 487
     },
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "theunipcs": {
      "death_rate_now": 0,
@@ -940,11 +940,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 11,
-     "evaluated_now": 9
+     "death_rate_now": 27,
+     "evaluated_now": 11
     }
    },
    "at_first_score": {
@@ -969,6 +969,35 @@
      "golocojp": {
       "death_rate_now": 0,
       "evaluated_now": 7
+     }
+    }
+   }
+  },
+  "2026-07-12T12:30Z-af46de99": {
+   "ts": "2026-07-12T12:30Z",
+   "question": "今はどう立ち回ればいいの？",
+   "tokens": {},
+   "kols": {
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 6
+    },
+    "golocojp": {
+     "death_rate_now": 27,
+     "evaluated_now": 11
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-07-29T17:26Z",
+    "tokens": {},
+    "kols": {
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 6
+     },
+     "golocojp": {
+      "death_rate_now": 27,
+      "evaluated_now": 11
      }
     }
    }

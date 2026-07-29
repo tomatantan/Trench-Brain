@@ -1,48 +1,120 @@
 {
  "the_defi_report": {
   "handle": "the_defi_report",
+  "mentioned": 4,
+  "evaluated": 3,
+  "dead": 0,
+  "alive": 3,
+  "death_rate": 0,
+  "unknown": 1
+ },
+ "senshineo7": {
+  "handle": "senshineo7",
+  "mentioned": 7,
+  "evaluated": 6,
+  "dead": 2,
+  "alive": 4,
+  "death_rate": 33,
+  "unknown": 1
+ },
+ "jpy_to_crypto": {
+  "handle": "JPY_TO_Crypto",
   "mentioned": 2,
   "evaluated": 2,
-  "dead": 0,
-  "alive": 2,
-  "death_rate": 0,
+  "dead": 2,
+  "alive": 0,
+  "death_rate": 100,
   "unknown": 0
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 398,
-  "evaluated": 354,
-  "dead": 223,
-  "alive": 131,
-  "death_rate": 63,
-  "unknown": 44
+  "mentioned": 689,
+  "evaluated": 487,
+  "dead": 364,
+  "alive": 123,
+  "death_rate": 75,
+  "unknown": 202
+ },
+ "itspyrored": {
+  "handle": "itspyrored",
+  "mentioned": 4,
+  "evaluated": 4,
+  "dead": 3,
+  "alive": 1,
+  "death_rate": 75,
+  "unknown": 0
  },
  "_shadow36": {
   "handle": "_shadow36",
-  "mentioned": 2,
-  "evaluated": 2,
-  "dead": 0,
-  "alive": 2,
-  "death_rate": 0,
-  "unknown": 0
+  "mentioned": 5,
+  "evaluated": 4,
+  "dead": 1,
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 1
  },
  "blknoiz06": {
   "handle": "blknoiz06",
-  "mentioned": 7,
-  "evaluated": 5,
+  "mentioned": 8,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
   "unknown": 2
  },
- "solbrdl": {
-  "handle": "solbrdl",
+ "trader1sz": {
+  "handle": "trader1sz",
   "mentioned": 2,
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
   "death_rate": 0,
   "unknown": 0
+ },
+ "larpvontrier": {
+  "handle": "larpvontrier",
+  "mentioned": 7,
+  "evaluated": 4,
+  "dead": 0,
+  "alive": 4,
+  "death_rate": 0,
+  "unknown": 3
+ },
+ "solbrdl": {
+  "handle": "solbrdl",
+  "mentioned": 4,
+  "evaluated": 2,
+  "dead": 1,
+  "alive": 1,
+  "death_rate": 50,
+  "unknown": 2
+ },
+ "traderpow": {
+  "handle": "traderpow",
+  "mentioned": 4,
+  "evaluated": 3,
+  "dead": 0,
+  "alive": 3,
+  "death_rate": 0,
+  "unknown": 1
+ },
+ "inversebrah": {
+  "handle": "inversebrah",
+  "mentioned": 5,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 4
+ },
+ "hardhatchad": {
+  "handle": "hardhatchad",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
  },
  "clutch_fifa2026": {
   "handle": "Clutch_FIFA2026",
@@ -64,48 +136,39 @@
  },
  "shapefn_": {
   "handle": "shapefn_",
-  "mentioned": 1,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
+  "mentioned": 8,
+  "evaluated": 7,
+  "dead": 5,
+  "alive": 2,
+  "death_rate": 71,
+  "unknown": 1
  },
  "c1phervoyager": {
   "handle": "c1phervoyager",
-  "mentioned": 7,
+  "mentioned": 8,
   "evaluated": 6,
   "dead": 1,
   "alive": 5,
   "death_rate": 17,
-  "unknown": 1
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 8,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 8,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 4
  },
  "golocojp": {
   "handle": "golocojp",
-  "mentioned": 13,
-  "evaluated": 9,
-  "dead": 1,
-  "alive": 8,
-  "death_rate": 11,
-  "unknown": 4
- },
- "jpy_to_crypto": {
-  "handle": "jpy_to_crypto",
-  "mentioned": 5,
-  "evaluated": 5,
+  "mentioned": 17,
+  "evaluated": 11,
   "dead": 3,
-  "alive": 2,
-  "death_rate": 60,
-  "unknown": 0
+  "alive": 8,
+  "death_rate": 27,
+  "unknown": 6
  },
  "erikvoorhees": {
   "handle": "erikvoorhees",
@@ -118,21 +181,21 @@
  },
  "dxrnell": {
   "handle": "dxrnell",
-  "mentioned": 9,
-  "evaluated": 9,
+  "mentioned": 11,
+  "evaluated": 10,
   "dead": 1,
-  "alive": 8,
-  "death_rate": 11,
-  "unknown": 0
+  "alive": 9,
+  "death_rate": 10,
+  "unknown": 1
  },
- "larpvontrier": {
-  "handle": "larpvontrier",
-  "mentioned": 7,
-  "evaluated": 4,
-  "dead": 0,
-  "alive": 4,
-  "death_rate": 0,
-  "unknown": 3
+ "poorgoat_": {
+  "handle": "poorgoat_",
+  "mentioned": 9,
+  "evaluated": 3,
+  "dead": 2,
+  "alive": 1,
+  "death_rate": 67,
+  "unknown": 6
  },
  "bull_bnb": {
   "handle": "bull_bnb",
@@ -154,15 +217,15 @@
  },
  "just2addicted": {
   "handle": "just2addicted",
-  "mentioned": 7,
-  "evaluated": 6,
+  "mentioned": 8,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 6,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
- "traderpow": {
-  "handle": "traderpow",
+ "810yenshamp": {
+  "handle": "810yenshamp",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
@@ -172,39 +235,39 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 17,
-  "evaluated": 14,
+  "mentioned": 28,
+  "evaluated": 20,
   "dead": 0,
-  "alive": 14,
+  "alive": 20,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 8
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
-  "mentioned": 4,
-  "evaluated": 2,
+  "mentioned": 6,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 2,
+  "alive": 4,
   "death_rate": 0,
   "unknown": 2
  },
  "pumpfuneco": {
   "handle": "pumpfuneco",
-  "mentioned": 2,
-  "evaluated": 2,
+  "mentioned": 3,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 2,
+  "alive": 3,
   "death_rate": 0,
   "unknown": 0
  },
- "inversebrah": {
-  "handle": "inversebrah",
-  "mentioned": 2,
+ "pingucharts": {
+  "handle": "pingucharts",
+  "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
   "alive": 1,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
@@ -217,12 +280,21 @@
  },
  "crypto_alch": {
   "handle": "crypto_alch",
-  "mentioned": 10,
+  "mentioned": 12,
   "evaluated": 8,
   "dead": 0,
   "alive": 8,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 4
+ },
+ "minnus": {
+  "handle": "minnus",
+  "mentioned": 6,
+  "evaluated": 6,
+  "dead": 0,
+  "alive": 6,
+  "death_rate": 0,
+  "unknown": 0
  },
  "adam_tehc": {
   "handle": "adam_tehc",
@@ -235,21 +307,21 @@
  },
  "spyzer": {
   "handle": "spyzer",
-  "mentioned": 9,
+  "mentioned": 10,
   "evaluated": 8,
-  "dead": 0,
-  "alive": 8,
-  "death_rate": 0,
-  "unknown": 1
+  "dead": 1,
+  "alive": 7,
+  "death_rate": 12,
+  "unknown": 2
  },
  "memememhen": {
   "handle": "memememhen",
-  "mentioned": 3,
+  "mentioned": 4,
   "evaluated": 3,
   "dead": 0,
   "alive": 3,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "murphybtc": {
   "handle": "murphybtc",
@@ -262,30 +334,57 @@
  },
  "lookonchain": {
   "handle": "lookonchain",
-  "mentioned": 8,
+  "mentioned": 19,
   "evaluated": 0,
   "dead": 0,
   "alive": 0,
   "death_rate": null,
-  "unknown": 8
+  "unknown": 19
+ },
+ "poe_real69": {
+  "handle": "poe_real69",
+  "mentioned": 11,
+  "evaluated": 7,
+  "dead": 0,
+  "alive": 7,
+  "death_rate": 0,
+  "unknown": 4
+ },
+ "thokani": {
+  "handle": "thokani",
+  "mentioned": 7,
+  "evaluated": 4,
+  "dead": 0,
+  "alive": 4,
+  "death_rate": 0,
+  "unknown": 3
  },
  "trustlessstate": {
   "handle": "trustlessstate",
-  "mentioned": 2,
-  "evaluated": 1,
+  "mentioned": 3,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
   "unknown": 1
  },
+ "bankless": {
+  "handle": "bankless",
+  "mentioned": 7,
+  "evaluated": 5,
+  "dead": 0,
+  "alive": 5,
+  "death_rate": 0,
+  "unknown": 2
+ },
  "zachxbt": {
   "handle": "zachxbt",
-  "mentioned": 13,
+  "mentioned": 15,
   "evaluated": 0,
   "dead": 0,
   "alive": 0,
   "death_rate": null,
-  "unknown": 13
+  "unknown": 15
  },
  "xvwmuca": {
   "handle": "xvwmuca",
@@ -298,12 +397,30 @@
  },
  "tsuyuto6154": {
   "handle": "tsuyuto6154",
-  "mentioned": 18,
-  "evaluated": 18,
+  "mentioned": 19,
+  "evaluated": 19,
   "dead": 9,
-  "alive": 9,
-  "death_rate": 50,
+  "alive": 10,
+  "death_rate": 47,
   "unknown": 0
+ },
+ "cjwat5on": {
+  "handle": "cjwat5on",
+  "mentioned": 3,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 1
+ },
+ "tayvano_": {
+  "handle": "tayvano_",
+  "mentioned": 9,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 9
  },
  "buffalu__": {
   "handle": "buffalu__",
@@ -332,23 +449,14 @@
   "death_rate": null,
   "unknown": 1
  },
- "minnus": {
-  "handle": "minnus",
-  "mentioned": 4,
-  "evaluated": 4,
-  "dead": 0,
-  "alive": 4,
-  "death_rate": 0,
-  "unknown": 0
- },
- "senshineo7": {
-  "handle": "senshineo7",
-  "mentioned": 6,
+ "fibonacki": {
+  "handle": "fibonacki",
+  "mentioned": 7,
   "evaluated": 6,
-  "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 0
+  "dead": 0,
+  "alive": 6,
+  "death_rate": 0,
+  "unknown": 1
  },
  "thecaliber__": {
   "handle": "thecaliber__",
@@ -359,32 +467,14 @@
   "death_rate": 0,
   "unknown": 0
  },
- "bankless": {
-  "handle": "bankless",
-  "mentioned": 1,
-  "evaluated": 0,
-  "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
- },
- "itspyrored": {
-  "handle": "itspyrored",
-  "mentioned": 3,
-  "evaluated": 3,
-  "dead": 3,
-  "alive": 0,
-  "death_rate": 100,
-  "unknown": 0
- },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 5,
-  "evaluated": 5,
+  "mentioned": 14,
+  "evaluated": 10,
   "dead": 0,
-  "alive": 5,
+  "alive": 10,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 4
  },
  "solangelestv": {
   "handle": "solangelestv",
@@ -394,24 +484,6 @@
   "alive": 1,
   "death_rate": 0,
   "unknown": 0
- },
- "fibonacki": {
-  "handle": "fibonacki",
-  "mentioned": 5,
-  "evaluated": 5,
-  "dead": 0,
-  "alive": 5,
-  "death_rate": 0,
-  "unknown": 0
- },
- "poe_real69": {
-  "handle": "poe_real69",
-  "mentioned": 7,
-  "evaluated": 5,
-  "dead": 0,
-  "alive": 5,
-  "death_rate": 0,
-  "unknown": 2
  },
  "mag_onsol": {
   "handle": "mag_onsol",
@@ -433,21 +505,30 @@
  },
  "cozypront": {
   "handle": "cozypront",
-  "mentioned": 1,
-  "evaluated": 1,
+  "mentioned": 4,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 1,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "cryptokaleo": {
   "handle": "cryptokaleo",
-  "mentioned": 1,
+  "mentioned": 2,
   "evaluated": 1,
   "dead": 0,
   "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
+ },
+ "_logjam": {
+  "handle": "_logjam",
+  "mentioned": 2,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "jotagezin": {
   "handle": "jotagezin",
@@ -458,6 +539,24 @@
   "death_rate": 0,
   "unknown": 1
  },
+ "crediblecrypto": {
+  "handle": "crediblecrypto",
+  "mentioned": 2,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
+ },
+ "iconocl4sm_": {
+  "handle": "iconocl4sm_",
+  "mentioned": 3,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 2
+ },
  "monke_": {
   "handle": "monke_",
   "mentioned": 2,
@@ -466,6 +565,15 @@
   "alive": 2,
   "death_rate": 0,
   "unknown": 0
+ },
+ "shawmakesmagic": {
+  "handle": "shawmakesmagic",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
  },
  "daisuk_e4": {
   "handle": "daisuk_e4",
@@ -485,8 +593,8 @@
   "death_rate": 0,
   "unknown": 0
  },
- "810yenshamp": {
-  "handle": "810yenshamp",
+ "0xsweep": {
+  "handle": "0xsweep",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
@@ -539,6 +647,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "shahh": {
+  "handle": "shahh",
+  "mentioned": 2,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "solana": {
   "handle": "solana",
   "mentioned": 1,
@@ -557,12 +674,75 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "arkham": {
+  "handle": "arkham",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
  "wojakcto": {
   "handle": "wojakcto",
   "mentioned": 2,
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "jeremybtc": {
+  "handle": "jeremybtc",
+  "mentioned": 2,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "cookerflips": {
+  "handle": "cookerflips",
+  "mentioned": 4,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 2
+ },
+ "kookcapitalllc": {
+  "handle": "kookcapitalllc",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "nansen_ai": {
+  "handle": "nansen_ai",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "ethereum": {
+  "handle": "ethereum",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
+ "ametomuchi123": {
+  "handle": "ametomuchi123",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
   "death_rate": 0,
   "unknown": 0
  },
@@ -593,8 +773,17 @@
   "death_rate": 0,
   "unknown": 0
  },
- "cookerflips": {
-  "handle": "cookerflips",
+ "mascotasteroid": {
+  "handle": "mascotasteroid",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
+ },
+ "hosseeb": {
+  "handle": "hosseeb",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
@@ -614,32 +803,23 @@
  "0xsunnft": {
   "handle": "0xsunnft",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "theunipcs": {
   "handle": "theunipcs",
-  "mentioned": 4,
+  "mentioned": 5,
   "evaluated": 4,
   "dead": 0,
   "alive": 4,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "mert": {
   "handle": "mert",
-  "mentioned": 1,
-  "evaluated": 0,
-  "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
- },
- "tayvano_": {
-  "handle": "tayvano_",
   "mentioned": 1,
   "evaluated": 0,
   "dead": 0,
@@ -656,26 +836,26 @@
   "death_rate": 0,
   "unknown": 0
  },
- "jeremybtc": {
-  "handle": "jeremybtc",
+ "cz_binance": {
+  "handle": "cz_binance",
   "mentioned": 1,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
- },
- "mascotasteroid": {
-  "handle": "mascotasteroid",
-  "mentioned": 1,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
  },
  "notthreadguy": {
   "handle": "notthreadguy",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "playkintara": {
+  "handle": "playkintara",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,
@@ -692,14 +872,14 @@
   "death_rate": null,
   "unknown": 1
  },
- "playkintara": {
-  "handle": "playkintara",
-  "mentioned": 1,
-  "evaluated": 1,
+ "oinkersrus": {
+  "handle": "oinkersrus",
+  "mentioned": 2,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
