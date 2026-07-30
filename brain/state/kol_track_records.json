@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 706,
-  "evaluated": 607,
-  "dead": 434,
-  "alive": 173,
+  "evaluated": 614,
+  "dead": 438,
+  "alive": 176,
   "death_rate": 71,
-  "unknown": 99
+  "unknown": 92
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -55,12 +55,12 @@
  },
  "blknoiz06": {
   "handle": "blknoiz06",
-  "mentioned": 8,
+  "mentioned": 9,
   "evaluated": 6,
   "dead": 0,
   "alive": 6,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 3
  },
  "trader1sz": {
   "handle": "trader1sz",
@@ -155,11 +155,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
@@ -191,11 +191,11 @@
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 9,
-  "evaluated": 7,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 7,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -316,11 +316,11 @@
  },
  "spyzer": {
   "handle": "spyzer",
-  "mentioned": 10,
-  "evaluated": 9,
+  "mentioned": 11,
+  "evaluated": 10,
   "dead": 1,
-  "alive": 8,
-  "death_rate": 11,
+  "alive": 9,
+  "death_rate": 10,
   "unknown": 1
  },
  "memememhen": {
