@@ -289,17 +289,17 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @JohannKerbrat | 13 | 38 |
 | @realDonaldTrump | 13 | 36 |
 | @SECGov | 13 | 18 |
-| @MeteoraAG | 12 | 101 |
+| @MeteoraAG | 12 | 104 |
 | @Lighter_xyz | 12 | 72 |
 | @jtx_trade | 12 | 35 |
 | @POTUS | 10 | 112 |
 | @TradingTerminal | 10 | 24 |
+| @rasmr_eth | 10 | 21 |
 | @Morpho | 10 | 21 |
-| @rasmr_eth | 10 | 20 |
 | @artsch00lreject | 10 | 20 |
 | @_TJRTrades | 10 | 15 |
 | @krakenfx | 10 | 14 |
-| @ponsdotfamily | 9 | 44 |
+| @ponsdotfamily | 9 | 45 |
 | @AskVenice | 9 | 39 |
 | @virtuals_io | 9 | 38 |
 | @jessepollak | 9 | 26 |
@@ -318,7 +318,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sunrise | 8 | 43 |
 | @slingoorio | 8 | 28 |
 | @justinsuntron | 8 | 23 |
-| @Collector_Crypt | 8 | 20 |
+| @Collector_Crypt | 8 | 21 |
 | @Clive_99 | 8 | 20 |
 | @json1444 | 8 | 19 |
 | @PhoenixTrade | 8 | 19 |
@@ -392,6 +392,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@CookerFlips]] | main | 135608 | 中 |
 | [[@0xAA_Science]] | cn | 180533 | 中 |
 | [[@bonkfun]] | main | 106866 | 中 |
+| [[@Cbb0fe]] | main | 106625 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

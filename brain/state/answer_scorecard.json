@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-30T00:15Z",
+ "ts": "2026-07-30T03:56Z",
  "summary": {
   "answers": 29,
   "tokens_mentioned": 37,
@@ -31,11 +31,11 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 73,
-     "evaluated_now": 529
+     "evaluated_now": 565
     },
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 8
+     "evaluated_now": 9
     }
    },
    "at_first_score": {
@@ -142,8 +142,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 33,
-     "evaluated_now": 12
+     "death_rate_now": 29,
+     "evaluated_now": 14
     }
    },
    "at_first_score": {
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 29978.497658788558
+     "mcap_now": 29968.264864825418
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11245.533175972232,
+     "mcap_now": 11230.034696634333,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -534,7 +534,7 @@
    "kols": {
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 8
+     "evaluated_now": 9
     },
     "fibonacki": {
      "death_rate_now": 0,
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 15492.674821471057,
+     "mcap_now": 15480.424046527833,
      "ambiguous_candidates": 6
     }
    },
@@ -885,7 +885,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 73,
-     "evaluated_now": 529
+     "evaluated_now": 565
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -943,8 +943,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 33,
-     "evaluated_now": 12
+     "death_rate_now": 29,
+     "evaluated_now": 14
     }
    },
    "at_first_score": {
@@ -983,8 +983,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 33,
-     "evaluated_now": 12
+     "death_rate_now": 29,
+     "evaluated_now": 14
     }
    },
    "at_first_score": {
