@@ -289,7 +289,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @JohannKerbrat | 13 | 38 |
 | @realDonaldTrump | 13 | 36 |
 | @SECGov | 13 | 18 |
-| @MeteoraAG | 12 | 104 |
+| @MeteoraAG | 12 | 105 |
 | @Lighter_xyz | 12 | 72 |
 | @jtx_trade | 12 | 35 |
 | @POTUS | 10 | 112 |
@@ -319,9 +319,9 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @slingoorio | 8 | 28 |
 | @justinsuntron | 8 | 23 |
 | @Collector_Crypt | 8 | 21 |
+| @PhoenixTrade | 8 | 20 |
 | @Clive_99 | 8 | 20 |
 | @json1444 | 8 | 19 |
-| @PhoenixTrade | 8 | 19 |
 | @solanamobile | 8 | 16 |
 | @RebeccaRettig1 | 8 | 14 |
 | @haydenzadams | 8 | 13 |
@@ -331,6 +331,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SpaceXAI | 7 | 19 |
 | @based16z | 7 | 18 |
 | @SuiNetwork | 7 | 16 |
+| @tradexyz | 7 | 15 |
 | @RoKhanna | 7 | 15 |
 | @Quanterty | 7 | 15 |
 | @CoinDesk | 7 | 15 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sama | 7 | 10 |
 | @stoolpresidente | 7 | 9 |
 | @izebel_eth | 7 | 9 |
-| @Noxa_Fi | 7 | 9 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）

@@ -10,12 +10,12 @@
  },
  "senshineo7": {
   "handle": "senshineo7",
-  "mentioned": 7,
+  "mentioned": 8,
   "evaluated": 6,
   "dead": 2,
   "alive": 4,
   "death_rate": 33,
-  "unknown": 1
+  "unknown": 2
  },
  "jpy_to_crypto": {
   "handle": "JPY_TO_Crypto",
@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 690,
-  "evaluated": 565,
-  "dead": 412,
-  "alive": 153,
+  "evaluated": 586,
+  "dead": 426,
+  "alive": 160,
   "death_rate": 73,
-  "unknown": 125
+  "unknown": 104
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -47,11 +47,11 @@
  "_shadow36": {
   "handle": "_shadow36",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 1
+  "alive": 4,
+  "death_rate": 20,
+  "unknown": 0
  },
  "blknoiz06": {
   "handle": "blknoiz06",
@@ -200,11 +200,11 @@
  "poorgoat_": {
   "handle": "poorgoat_",
   "mentioned": 9,
-  "evaluated": 4,
+  "evaluated": 6,
   "dead": 3,
-  "alive": 1,
-  "death_rate": 75,
-  "unknown": 5
+  "alive": 3,
+  "death_rate": 50,
+  "unknown": 3
  },
  "bull_bnb": {
   "handle": "bull_bnb",
@@ -290,11 +290,11 @@
  "crypto_alch": {
   "handle": "crypto_alch",
   "mentioned": 12,
-  "evaluated": 9,
+  "evaluated": 10,
   "dead": 0,
-  "alive": 9,
+  "alive": 10,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "minnus": {
   "handle": "minnus",
@@ -353,11 +353,11 @@
  "poe_real69": {
   "handle": "poe_real69",
   "mentioned": 11,
-  "evaluated": 8,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 8,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "thokani": {
   "handle": "thokani",
@@ -470,11 +470,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 14,
-  "evaluated": 12,
+  "evaluated": 13,
   "dead": 0,
-  "alive": 12,
+  "alive": 13,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "solangelestv": {
   "handle": "solangelestv",
@@ -776,11 +776,11 @@
  "mascotasteroid": {
   "handle": "mascotasteroid",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "hosseeb": {
   "handle": "hosseeb",
