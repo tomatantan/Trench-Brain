@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-29T17:26Z",
+ "ts": "2026-07-30T00:15Z",
  "summary": {
   "answers": 29,
   "tokens_mentioned": 37,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 75,
-     "evaluated_now": 487
+     "death_rate_now": 73,
+     "evaluated_now": 529
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -142,8 +142,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 27,
-     "evaluated_now": 11
+     "death_rate_now": 33,
+     "evaluated_now": 12
     }
    },
    "at_first_score": {
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 29791.126573842943
+     "mcap_now": 29978.497658788558
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11180.571979020913,
+     "mcap_now": 11245.533175972232,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -538,7 +538,7 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 6
+     "evaluated_now": 7
     },
     "ren_nevermind": {
      "death_rate_now": 0,
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 16145.535479942057,
+     "mcap_now": 15492.674821471057,
      "ambiguous_candidates": 6
     }
    },
@@ -884,8 +884,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 75,
-     "evaluated_now": 487
+     "death_rate_now": 73,
+     "evaluated_now": 529
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -943,8 +943,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 27,
-     "evaluated_now": 11
+     "death_rate_now": 33,
+     "evaluated_now": 12
     }
    },
    "at_first_score": {
@@ -983,8 +983,8 @@
      "evaluated_now": 6
     },
     "golocojp": {
-     "death_rate_now": 27,
-     "evaluated_now": 11
+     "death_rate_now": 33,
+     "evaluated_now": 12
     }
    },
    "at_first_score": {

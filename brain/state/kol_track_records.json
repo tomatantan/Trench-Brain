@@ -2,11 +2,11 @@
  "the_defi_report": {
   "handle": "the_defi_report",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "senshineo7": {
   "handle": "senshineo7",
@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 689,
-  "evaluated": 487,
-  "dead": 364,
-  "alive": 123,
-  "death_rate": 75,
-  "unknown": 202
+  "mentioned": 690,
+  "evaluated": 529,
+  "dead": 388,
+  "alive": 141,
+  "death_rate": 73,
+  "unknown": 161
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -83,20 +83,20 @@
  "solbrdl": {
   "handle": "solbrdl",
   "mentioned": 4,
-  "evaluated": 2,
-  "dead": 1,
+  "evaluated": 3,
+  "dead": 2,
   "alive": 1,
-  "death_rate": 50,
-  "unknown": 2
+  "death_rate": 67,
+  "unknown": 1
  },
  "traderpow": {
   "handle": "traderpow",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "inversebrah": {
   "handle": "inversebrah",
@@ -164,11 +164,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 17,
-  "evaluated": 11,
-  "dead": 3,
+  "evaluated": 12,
+  "dead": 4,
   "alive": 8,
-  "death_rate": 27,
-  "unknown": 6
+  "death_rate": 33,
+  "unknown": 5
  },
  "erikvoorhees": {
   "handle": "erikvoorhees",
@@ -187,6 +187,15 @@
   "alive": 9,
   "death_rate": 10,
   "unknown": 1
+ },
+ "fibonacki": {
+  "handle": "fibonacki",
+  "mentioned": 7,
+  "evaluated": 7,
+  "dead": 0,
+  "alive": 7,
+  "death_rate": 0,
+  "unknown": 0
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -236,11 +245,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 28,
-  "evaluated": 20,
+  "evaluated": 21,
   "dead": 0,
-  "alive": 20,
+  "alive": 21,
   "death_rate": 0,
-  "unknown": 8
+  "unknown": 7
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -317,11 +326,11 @@
  "memememhen": {
   "handle": "memememhen",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "murphybtc": {
   "handle": "murphybtc",
@@ -353,11 +362,11 @@
  "thokani": {
   "handle": "thokani",
   "mentioned": 7,
-  "evaluated": 4,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 4,
+  "alive": 6,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 1
  },
  "trustlessstate": {
   "handle": "trustlessstate",
@@ -371,11 +380,11 @@
  "bankless": {
   "handle": "bankless",
   "mentioned": 7,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "zachxbt": {
   "handle": "zachxbt",
@@ -449,15 +458,6 @@
   "death_rate": null,
   "unknown": 1
  },
- "fibonacki": {
-  "handle": "fibonacki",
-  "mentioned": 7,
-  "evaluated": 6,
-  "dead": 0,
-  "alive": 6,
-  "death_rate": 0,
-  "unknown": 1
- },
  "thecaliber__": {
   "handle": "thecaliber__",
   "mentioned": 1,
@@ -524,11 +524,11 @@
  "_logjam": {
   "handle": "_logjam",
   "mentioned": 2,
-  "evaluated": 0,
-  "dead": 0,
+  "evaluated": 1,
+  "dead": 1,
   "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "death_rate": 100,
+  "unknown": 1
  },
  "jotagezin": {
   "handle": "jotagezin",
@@ -542,20 +542,20 @@
  "crediblecrypto": {
   "handle": "crediblecrypto",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
  },
  "iconocl4sm_": {
   "handle": "iconocl4sm_",
   "mentioned": 3,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 1,
-  "alive": 0,
-  "death_rate": 100,
-  "unknown": 2
+  "alive": 1,
+  "death_rate": 50,
+  "unknown": 1
  },
  "monke_": {
   "handle": "monke_",

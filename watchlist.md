@@ -284,33 +284,33 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
 | @RobinhoodCrypto | 34 | 84 |
-| @vladtenev | 32 | 96 |
-| @fomo | 27 | 95 |
-| @JohannKerbrat | 13 | 37 |
+| @vladtenev | 32 | 97 |
+| @fomo | 27 | 96 |
+| @JohannKerbrat | 13 | 38 |
 | @realDonaldTrump | 13 | 36 |
 | @SECGov | 13 | 18 |
-| @MeteoraAG | 12 | 97 |
-| @Lighter_xyz | 12 | 71 |
+| @MeteoraAG | 12 | 101 |
+| @Lighter_xyz | 12 | 72 |
 | @jtx_trade | 12 | 35 |
-| @POTUS | 10 | 111 |
+| @POTUS | 10 | 112 |
 | @TradingTerminal | 10 | 24 |
+| @Morpho | 10 | 21 |
 | @rasmr_eth | 10 | 20 |
-| @Morpho | 10 | 20 |
-| @artsch00lreject | 10 | 19 |
+| @artsch00lreject | 10 | 20 |
 | @_TJRTrades | 10 | 15 |
 | @krakenfx | 10 | 14 |
-| @bonkfun | 9 | 47 |
 | @ponsdotfamily | 9 | 44 |
+| @AskVenice | 9 | 39 |
 | @virtuals_io | 9 | 38 |
-| @AskVenice | 9 | 38 |
 | @jessepollak | 9 | 26 |
 | @OndoFinance | 9 | 21 |
 | @jito_sol | 9 | 19 |
+| @OnlyLJC | 9 | 18 |
 | @wrld_sol | 9 | 16 |
 | @arbitrum | 9 | 16 |
 | @DavidSacks | 9 | 15 |
-| @daumenxyz | 9 | 13 |
-| @OpenAI | 9 | 12 |
+| @daumenxyz | 9 | 14 |
+| @OpenAI | 9 | 13 |
 | @Pattyice | 9 | 11 |
 | @aibaldking | 8 | 116 |
 | @NEARProtocol | 8 | 53 |
@@ -318,10 +318,10 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sunrise | 8 | 43 |
 | @slingoorio | 8 | 28 |
 | @justinsuntron | 8 | 23 |
+| @Collector_Crypt | 8 | 20 |
 | @Clive_99 | 8 | 20 |
 | @json1444 | 8 | 19 |
 | @PhoenixTrade | 8 | 19 |
-| @OnlyLJC | 8 | 17 |
 | @solanamobile | 8 | 16 |
 | @RebeccaRettig1 | 8 | 14 |
 | @haydenzadams | 8 | 13 |
@@ -329,7 +329,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @tryfomo | 7 | 38 |
 | @sapijiju | 7 | 24 |
 | @SpaceXAI | 7 | 19 |
-| @Collector_Crypt | 7 | 19 |
 | @based16z | 7 | 18 |
 | @SuiNetwork | 7 | 16 |
 | @RoKhanna | 7 | 15 |
@@ -343,6 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sama | 7 | 10 |
 | @stoolpresidente | 7 | 9 |
 | @izebel_eth | 7 | 9 |
+| @Noxa_Fi | 7 | 9 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -391,7 +391,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@patty_fi]] | main | 147730 | 中 |
 | [[@CookerFlips]] | main | 135608 | 中 |
 | [[@0xAA_Science]] | cn | 180533 | 中 |
-
+| [[@bonkfun]] | main | 106866 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
