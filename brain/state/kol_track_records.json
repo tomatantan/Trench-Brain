@@ -11,11 +11,11 @@
  "senshineo7": {
   "handle": "senshineo7",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 7,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 5,
+  "death_rate": 29,
+  "unknown": 1
  },
  "jpy_to_crypto": {
   "handle": "JPY_TO_Crypto",
@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 690,
-  "evaluated": 586,
-  "dead": 426,
-  "alive": 160,
-  "death_rate": 73,
-  "unknown": 104
+  "mentioned": 706,
+  "evaluated": 607,
+  "dead": 434,
+  "alive": 173,
+  "death_rate": 71,
+  "unknown": 99
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -190,12 +190,12 @@
  },
  "fibonacki": {
   "handle": "fibonacki",
-  "mentioned": 7,
+  "mentioned": 9,
   "evaluated": 7,
   "dead": 0,
   "alive": 7,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 2
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -245,11 +245,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 28,
-  "evaluated": 22,
+  "evaluated": 23,
   "dead": 0,
-  "alive": 22,
+  "alive": 23,
   "death_rate": 0,
-  "unknown": 6
+  "unknown": 5
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -506,11 +506,11 @@
  "cozypront": {
   "handle": "cozypront",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "cryptokaleo": {
   "handle": "cryptokaleo",
@@ -812,11 +812,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "mert": {
   "handle": "mert",

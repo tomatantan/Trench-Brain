@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-30T07:40Z",
+ "ts": "2026-07-30T11:22Z",
  "summary": {
   "answers": 29,
   "tokens_mentioned": 37,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 73,
-     "evaluated_now": 586
+     "death_rate_now": 71,
+     "evaluated_now": 607
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -74,7 +74,7 @@
    "tokens": {
     "$DRTRUMP": {
      "status": "unknown",
-     "note": "trackedに無し(ticker未解決)"
+     "note": "回答時点で既知のmint無し(後発tickerのみ)"
     }
    },
    "kols": {},
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 29983.442722448144
+     "mcap_now": 30026.100766360218
     }
    },
    "kols": {},
@@ -367,7 +367,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11233.514975792448,
+     "mcap_now": 11256.841972928789,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 15495.287258277589,
+     "mcap_now": 15519.213708567342,
      "ambiguous_candidates": 6
     }
    },
@@ -837,12 +837,12 @@
      "evaluated_now": 6
     },
     "senshineo7": {
-     "death_rate_now": 33,
-     "evaluated_now": 6
+     "death_rate_now": 29,
+     "evaluated_now": 7
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -884,8 +884,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 73,
-     "evaluated_now": 586
+     "death_rate_now": 71,
+     "evaluated_now": 607
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -893,7 +893,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
