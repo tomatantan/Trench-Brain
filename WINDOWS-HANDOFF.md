@@ -54,3 +54,5 @@
   **原因①(解消済・TASK-0001で対応)**: `trench-brain`のgitが2026-07-12T22:36にinteractive rebase中でスタック(`onto 4d0833ae8`, 1コマンド適用後に停止)したまま18日放置。detached HEAD上ではcron_collect.sh自体は07-29T16:41まで律儀に3hサイクルを回し続けてた(collect/entities/dashboard/synth試行の形跡がcron.logに残ってる=「Windowsが起動してない」ではなく「起動してたがgitが詰まってpushだけ18日間全滅してた」)。原因は特定できず(何がrebaseを開始させたか不明、おそらく`--autostash`絡みの中断)。対応=再clone(TASK-0001)でこの壊れたgit状態ごと切り捨てて解決。
   **原因②(★未解消・本人対応必須)**: Claude CLI の OAuth access token が **2026-07-16T12:58 JST に期限切れ**、以降refreshも失敗し続けてる(`Failed to authenticate: OAuth access token has expired`が07-29の全synth/revise試行で連発)。非対話的リフレッシュができないので、**Windows機で対話的な再ログインが必要**(WSLで`claude`起動→`/login`、またはターミナルで`claude login`→ブラウザでOAuth完了)。これは俺(Windows Claude)からは実行不可能(ブラウザ認証が要る)。
   **現状**: 上記2つの根治のうち①は再clone・wiki移設・データ保全まで完了。②が残ってる間はtrench-synth.batを再起動しても収集(collect)は回るが**synth/revise(LLM合成)は全滅し続ける**ので、本人のログイン完了までbatはあえて止めたまま待機中。ログイン完了の連絡をもらい次第、こちらでbat再起動+1サイクル検証してこのタスクをDONEにする。
+
+  **★本人confirm(2026-07-30 17:38 JST・Mac Claude経由でTelegramに報告あり)**: 「今やったよー」＝OAuth再ログイン完了との報告。trench-synth.bat再起動＋1サイクル検証をお願いします。完了したらこのタスクをDONEにしてpushしてください。
