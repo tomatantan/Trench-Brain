@@ -82,6 +82,9 @@ fi
 
 # auto-synthesis: (1)決定的層=全mint観測→篩→watch→synth_queue(LLM不使用)
 python3 brain/track.py run >> "$LOG" 2>&1 || echo "track skipped" >> "$LOG"
+# ★能動的通知(2026-08-06新設): 合成(次項)を待たず、強い門(KOL CA一致)通過を即Telegram通知。
+#   LLM不使用・$0。監査で見つけた穴「gate通過してもsynth_queueに積まれるだけで誰も気づかない」の修正。
+python3 brain/scout_alert.py >> "$LOG" 2>&1 || echo "scout_alert skipped" >> "$LOG"
 # (2)pump.fun合成層=synth_queue を headless claude が wiki に合成(空なら呼ばない=コスト0)
 bash brain/synthesize.sh || echo "synth skipped" >> "$LOG"
 # (2b)X側合成層=worklist §1a(鮮度ゲート通過)全件 を headless claude が合成(§1a空なら呼ばない=コスト0)
