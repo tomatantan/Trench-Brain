@@ -1,0 +1,64 @@
+name: ci-lint
+
+# ★2026-08-06新設(開発品質監査への対応)。$0・LLM不使用(ruffのみ)。
+#
+# 設計判断: このrepoは今までlintを1度も通してなかった(pyproject.toml/lint設定が存在しなかった＝
+# ship-check skillが構造的に発動しない状態だった)。導入初日にリポジトリ全体を対象にすると
+# 既存72件のstyle違反(主にE702=セミコロン区切りの意図的な簡潔記法・E741=変数名)で
+# 恒久的に赤くなり、「常に赤いCI＝誰も見なくなる」という別の形骸化を生む。
+# なので: **今回の push/commit で新規に触ったファイルだけ** を対象にする(段階導入・本人の
+# 「複利で積む」流儀と同じ発想)。既存debtは pyproject.toml のコメント通り追って段階的に締める。
+
+on:
+  push:
+    branches: [main]
+    paths: ["**/*.py"]
+  workflow_dispatch:
+    inputs:
+      full_repo:
+        description: "リポジトリ全体をチェック(既存debtも含めて見たい時のみtrue)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  lint-changed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # diffを取るのに直前コミットが要る
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install --quiet ruff
+
+      - name: Determine target files
+        id: files
+        run: |
+          if [ "${{ inputs.full_repo }}" = "true" ]; then
+            echo "target=." >> "$GITHUB_OUTPUT"
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- '*.py' 2>/dev/null || true)
+            if [ -z "$CHANGED" ]; then
+              echo "target=" >> "$GITHUB_OUTPUT"
+            else
+              echo "target=$CHANGED" >> "$GITHUB_OUTPUT"
+            fi
+            echo "mode=diff" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: ruff check
+        if: steps.files.outputs.target != ''
+        run: |
+          echo "mode: ${{ steps.files.outputs.mode }}"
+          ruff check ${{ steps.files.outputs.target }}
+
+      - name: nothing changed
+        if: steps.files.outputs.target == ''
+        run: echo "対象.pyファイルの変更なし。skip。"

@@ -96,7 +96,7 @@ def rugcheck(mint):
     """①scam可能性 ②creator履歴 ④板/insider を1発で。"""
     try:
         d = _get(f"https://api.rugcheck.xyz/v1/tokens/{mint}/report", timeout=15)
-    except Exception as e:
+    except Exception:
         return None
     th = d.get("topHolders") or []
     top_pct = max((h.get("pct") or 0) for h in th) if th else 0

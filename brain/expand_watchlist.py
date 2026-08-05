@@ -77,7 +77,7 @@ def main():
     rows = rows[:TOPN]
 
     lines = [START,
-             f"## 自動拡張候補（引用グラフ・要承認 / `expand_watchlist.py` 自動生成）",
+             "## 自動拡張候補（引用グラフ・要承認 / `expand_watchlist.py` 自動生成）",
              f"watchlist の **{MIN_CITERS}アカ以上**が言及した未収集アカ＝門に足す候補（指針2: 繰り返し引用＝KOL言及門）。",
              "**承認のしかた**: 良いものを上の watchlist 本体に `[[@handle]]` で足すだけ→次サイクルから収集開始。",
              "", "| 候補 | 言及したwatchlistアカ数 | 総言及 |", "|---|---|---|"]

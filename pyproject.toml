@@ -1,0 +1,22 @@
+[project]
+name = "trench-brain"
+version = "0.0.0"
+description = "LLM Wiki for crypto trench — collection/synthesis engine (not a packaged library)."
+requires-python = ">=3.9"
+
+# ★2026-08-06新設: ship-check skill(~/.claude/skills/ship-check)がPythonスタックを認識するのに
+#   pyproject.toml/setup.py/requirements.txt のどれかの存在が必須で、今まで無かった＝
+#   ship-checkが構造的に発動しないまま放置されていた(監査で発見)。まずこの最小manifestで解凍する。
+
+[tool.ruff]
+line-length = 120  # 日本語コメント多め＝厳しすぎる行長制限はノイズ源になる
+target-version = "py39"
+
+[tool.ruff.lint]
+# ★段階導入(本人の「bottom-up・複利で積む」流儀に合わせる): 初回から全ルールは掛けない。
+#   まずpyflakes(F=未使用import/変数、名前解決エラー等の実バグ寄り)とE7xx(明らかな構文的まずさ)だけ。
+#   通ったら段階的に厳しくする(E501長さは line-length で別途緩めに設定済み・W追加は次段)。
+select = ["E7", "E9", "F"]
+ignore = [
+    "F401",  # 未使用import。このrepoはスクリプト集合で「後で使う想定のimport」が多い＝まずは黙らせる。段階2で外す候補。
+]
