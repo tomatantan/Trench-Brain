@@ -1,0 +1,85 @@
+name: healthcheck
+
+# Trench-Brain 自己修復番犬（Priority 0・2026-08-06 本人指示「作りまくれ」で新設）。
+# 目的: 収集(collect-cloud)は生きてても「合成」を回す人間(Mac/Windows)がいなくなった時、
+# 誰にも気づかれず brain/state/health.jsonl が止まったまま放置される事故を二度と起こさない。
+# ★2026-08-06 実例: Windows cron が死んで(過去commitで自己申告あり)から3週間超、
+#   誰にも通知が飛ばず無検知で放置されていたのを本人指示で発見・修復。この番犬はその再発防止。
+# 設計原則: $0・API/サブスク非依存(GHA標準pythonのみ、LLM不使用)。
+#   「合成を自動で直す」のはこのjobの仕事ではない(LLM合成はローカルsubscription専任=指針は
+#   COORDINATION.md/CLAUDE.mdの書き込みパス分離と同じ)。この番犬の仕事は「検知したら必ず言う」
+#   ＝沈黙しない事。直すのは人間 or ローカルセッションでの brain/pipeline.py 実行 or selfheal skill。
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # 6時間毎チェック。通常の合成サイクルは3〜4h毎なので十分な余裕を見て閾値は18h。
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check synthesis freshness
+        id: check
+        run: |
+          python3 - <<'PYEOF' >> "$GITHUB_OUTPUT"
+          import json
+          from datetime import datetime, timezone
+
+          THRESHOLD_HOURS = 18  # 通常3-4h毎更新。これを超えたら異常とみなす。
+
+          def emit(k, v):
+              print(f"{k}={v}")
+
+          path = "brain/state/health.jsonl"
+          try:
+              with open(path) as f:
+                  lines = [l for l in f if l.strip()]
+              last = json.loads(lines[-1])
+              last_ts = datetime.strptime(last["ts"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+          except Exception as e:
+              # health.jsonl 自体が読めない = それも異常（ファイル消失等）。stale扱いで通知する。
+              emit("stale", "true")
+              emit("message", f"[trench healthcheck] health.jsonl が読めません({e})。要調査。")
+              raise SystemExit
+
+          now = datetime.now(timezone.utc)
+          gap_h = (now - last_ts).total_seconds() / 3600
+
+          if gap_h > THRESHOLD_HOURS:
+              msg = (
+                  f"[trench healthcheck] warning: 合成(synthesis)が{gap_h:.0f}h止まってます。"
+                  f"最終health.jsonl: {last['ts']} (backlog={last.get('signal_backlog')}). "
+                  f"Mac/Windowsどちらもcron/launchdが死んでる可能性。"
+                  f"要確認: brain/cron_collect.sh が動くはずのホストの状態、"
+                  f"または手元のセッションで `git pull && python3 brain/pipeline.py` を叩いて復旧。"
+              )
+              emit("stale", "true")
+              emit("message", msg)
+          else:
+              emit("stale", "false")
+              print(f"synthesis healthy: last={last['ts']} ({gap_h:.1f}h ago)")
+          PYEOF
+        continue-on-error: true
+
+      - name: Notify on staleness
+        if: steps.check.outputs.stale == 'true'
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          MSG="${{ steps.check.outputs.message }}"
+          echo "::warning::${MSG}"
+          if [ -n "$TG_BOT_TOKEN" ] && [ -n "$TG_CHAT_ID" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TG_CHAT_ID}" \
+              --data-urlencode "text=${MSG}" >/dev/null || true
+          fi
