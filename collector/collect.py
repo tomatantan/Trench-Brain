@@ -375,7 +375,10 @@ def write_health(backend, new, skipped, errors, accounts):
             "ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "backend": backend, "new": new, "skipped": skipped,
             "errors": errors, "accounts": accounts,
-            "ok": accounts > 0 and errors < accounts and (new > 0 or skipped > 0),
+            # 2026-08-06修正: 旧条件は errors < accounts (=99%失敗でも accounts>errors なら ok:true)。
+            # 実際にaccounts=214/errors=143(67%失敗)でok:trueになってた=無検知のまま劣化してた実例で発覚。
+            # 閾値化: エラー率30%超は不健康とみなす。
+            "ok": accounts > 0 and errors <= accounts * 0.3 and (new > 0 or skipped > 0),
         }, ensure_ascii=False), encoding="utf-8")
     except Exception:
         pass

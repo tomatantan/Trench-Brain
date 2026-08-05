@@ -27,46 +27,57 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Check synthesis freshness
+      - name: Check synthesis freshness + collection health
         id: check
         run: |
           python3 - <<'PYEOF' >> "$GITHUB_OUTPUT"
           import json
           from datetime import datetime, timezone
 
-          THRESHOLD_HOURS = 18  # 通常3-4h毎更新。これを超えたら異常とみなす。
+          SYNTH_THRESHOLD_HOURS = 18  # 通常3-4h毎更新。これを超えたら異常とみなす。
 
           def emit(k, v):
               print(f"{k}={v}")
 
-          path = "brain/state/health.jsonl"
+          problems = []
+
+          # --- 1. 合成の鮮度(health.jsonl) ---
           try:
-              with open(path) as f:
+              with open("brain/state/health.jsonl") as f:
                   lines = [l for l in f if l.strip()]
               last = json.loads(lines[-1])
               last_ts = datetime.strptime(last["ts"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+              gap_h = (datetime.now(timezone.utc) - last_ts).total_seconds() / 3600
+              if gap_h > SYNTH_THRESHOLD_HOURS:
+                  problems.append(
+                      f"合成(synthesis)が{gap_h:.0f}h止まってます。最終health.jsonl: {last['ts']} "
+                      f"(backlog={last.get('signal_backlog')})。Mac/Windowsどちらもcron/launchdが死んでる可能性。"
+                      f"要確認: brain/cron_collect.sh が動くはずのホストの状態、"
+                      f"または手元のセッションで `git pull && python3 brain/pipeline.py` を叩いて復旧。"
+                  )
           except Exception as e:
-              # health.jsonl 自体が読めない = それも異常（ファイル消失等）。stale扱いで通知する。
-              emit("stale", "true")
-              emit("message", f"[trench healthcheck] health.jsonl が読めません({e})。要調査。")
-              raise SystemExit
+              problems.append(f"health.jsonl が読めません({e})。要調査。")
 
-          now = datetime.now(timezone.utc)
-          gap_h = (now - last_ts).total_seconds() / 3600
+          # --- 2. 収集の質(collect_health.json の ok フラグ) ---
+          # 2026-08-06: accounts=214/errors=143(67%失敗)でも ok:true だった旧閾値バグをcollect.py側で修正済み。
+          # ここでは修正後の ok フラグをそのまま信用してチェックするだけ(二重の網)。
+          try:
+              ch = json.loads(open("brain/state/collect_health.json").read())
+              if not ch.get("ok", True):
+                  problems.append(
+                      f"X収集が劣化してます(errors={ch.get('errors')}/accounts={ch.get('accounts')}, "
+                      f"backend={ch.get('backend')}, ts={ch.get('ts')})。collector/collect.py の要調査。"
+                  )
+          except Exception:
+              pass  # このファイルはcloud-collectが正常なら常にある。無ければ他のチェックに任せる。
 
-          if gap_h > THRESHOLD_HOURS:
-              msg = (
-                  f"[trench healthcheck] warning: 合成(synthesis)が{gap_h:.0f}h止まってます。"
-                  f"最終health.jsonl: {last['ts']} (backlog={last.get('signal_backlog')}). "
-                  f"Mac/Windowsどちらもcron/launchdが死んでる可能性。"
-                  f"要確認: brain/cron_collect.sh が動くはずのホストの状態、"
-                  f"または手元のセッションで `git pull && python3 brain/pipeline.py` を叩いて復旧。"
-              )
+          if problems:
+              msg = "[trench healthcheck] warning: " + " / ".join(problems)
               emit("stale", "true")
               emit("message", msg)
           else:
               emit("stale", "false")
-              print(f"synthesis healthy: last={last['ts']} ({gap_h:.1f}h ago)")
+              print("all healthy")
           PYEOF
         continue-on-error: true
 
