@@ -650,6 +650,34 @@ def _append_learn(item):
         f.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
+# --- watchlist候補の1タップ承認(2026-08-06新設・本人指示「やるか」) ---
+# 設計: サーバーは書くだけ(_append_learn/_append_detectionと同じ流儀=ローカルstateに積むだけ)。
+# watchlist.mdへの実反映とgit commit/pushは brain/apply_watchlist_approvals.py が担当し、
+# cron_collect.sh の既存git pull/push サイクルに乗せる(サーバースレッドから直接gitを叩かない)。
+HANDLE_RE_UI = re.compile(r"^[A-Za-z0-9_]{2,15}$")
+
+
+def _current_watchlist_candidates():
+    """watchlist.md の <!-- auto-candidates --> 節から候補handleの集合を返す(承認対象の妥当性チェック用)。"""
+    try:
+        text = (ROOT / "watchlist.md").read_text(encoding="utf-8")
+    except Exception:
+        return set()
+    m = re.search(r"<!-- auto-candidates:start -->(.*?)<!-- auto-candidates:end -->", text, re.S)
+    if not m:
+        return set()
+    return {h.lower() for h in re.findall(r"\|\s*@([A-Za-z0-9_]{2,15})\s*\|", m.group(1))}
+
+
+def _append_watchlist_approval(handle):
+    STATE.mkdir(parents=True, exist_ok=True)
+    item = {"handle": handle, "ts": _now_iso(), "processed": False,
+            "id": f"wlappr_{time.strftime('%Y%m%d_%H%M%S', time.gmtime())}_{uuid.uuid4().hex[:6]}"}
+    with open(STATE / "watchlist_approvals.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
+    return item
+
+
 # --- A2: Live Activity push token(単一ユーザー)。brain/state/la_token.json に永続化 ---
 def _la_load():
     return _state_json("la_token.json", {})
@@ -1415,6 +1443,46 @@ class Handler(SimpleHTTPRequestHandler):
                 self._json(400, {"ok": False, "error": str(e)[:200]})
             except Exception as e:
                 print(f"[learn] error: {e}", file=sys.stderr)
+                self._json(500, {"ok": False, "error": "internal error"})
+            return
+        if path0 == "/api/approve_watchlist":
+            # ★watchlist候補の1タップ承認(2026-08-06)。/api/detect と同じ Bearer fail-closed パターン
+            #   (書き込み系エンドポイントはこの認証を必須にする、が既存の一貫方針)。
+            token = os.environ.get("DETECT_WEBHOOK_TOKEN", "").strip()
+            if not token:
+                if os.environ.get("DETECT_ALLOW_UNAUTH") != "1":
+                    self._json(503, {"ok": False, "error": "DETECT_WEBHOOK_TOKEN未設定(fail-closed)。devで開けるなら DETECT_ALLOW_UNAUTH=1"})
+                    return
+            elif self.headers.get("Authorization", "").strip() != f"Bearer {token}":
+                self._json(401, {"ok": False, "error": "unauthorized"})
+                return
+            if not _rate_ok(f"{_real_ip(self)}:approve_wl", 60):
+                self._json(429, {"ok": False, "error": "rate limit(approve_watchlist)"})
+                return
+            try:
+                body = _read_json_body(self, maxbytes=DETECTION_MAX_BODY)
+            except OverflowError:
+                self._json(413, {"ok": False, "error": "body too large"})
+                return
+            except Exception:
+                self._json(400, {"ok": False, "error": "bad json body"})
+                return
+            handle = _clean_text((body or {}).get("handle"), limit=20).lstrip("@")
+            if not HANDLE_RE_UI.match(handle):
+                self._json(400, {"ok": False, "error": "handle不正(英数字/underscoreのみ2-15文字)"})
+                return
+            candidates = _current_watchlist_candidates()
+            if handle.lower() not in candidates:
+                # ★安全策: expand_watchlist.py が実際に出した候補以外は承認不可
+                #   (任意handleを外部から差し込まれて門を無検証で広げられるのを防ぐ)。
+                self._json(400, {"ok": False, "error": "現在の自動拡張候補に無いhandle(watchlist.mdの<!-- auto-candidates -->節を確認)"})
+                return
+            try:
+                item = _append_watchlist_approval(handle)
+                self._json(201, {"ok": True, "id": item["id"], "status": "queued",
+                                  "note": "次のcron_collect.sh実行時にwatchlist.mdへ反映されcommit/pushされます"})
+            except Exception as e:
+                print(f"[approve_watchlist] error: {e}", file=sys.stderr)
                 self._json(500, {"ok": False, "error": "internal error"})
             return
         if path0 == "/api/detect":
