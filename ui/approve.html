@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watchlist承認 — Trench Brain</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 16px; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+    background: #0d1117; color: #e6edf3; max-width: 640px; margin-inline: auto;
+  }
+  h1 { font-size: 1.1rem; font-weight: 600; margin: 4px 0 4px; }
+  p.sub { color: #8b949e; font-size: 0.85rem; margin: 0 0 16px; }
+  .token-box { display: flex; gap: 8px; margin-bottom: 16px; }
+  .token-box input { flex: 1; background: #161b22; border: 1px solid #30363d; color: #e6edf3; border-radius: 8px; padding: 10px 12px; font-size: 0.9rem; }
+  .token-box button { background: #21262d; border: 1px solid #30363d; color: #e6edf3; border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; }
+  .card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px;
+    margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  }
+  .card .handle { font-weight: 600; font-size: 1rem; }
+  .card .meta { color: #8b949e; font-size: 0.8rem; margin-top: 2px; }
+  .approve-btn {
+    background: #238636; border: none; color: white; border-radius: 8px; padding: 12px 16px;
+    font-size: 0.95rem; font-weight: 600; min-width: 76px; touch-action: manipulation;
+  }
+  .approve-btn:active { background: #1a6b2b; }
+  .approve-btn[disabled] { background: #30363d; color: #8b949e; }
+  .approve-btn.done { background: #1f6feb; }
+  #status { color: #8b949e; font-size: 0.85rem; margin: 8px 0 16px; min-height: 1.2em; }
+  #status.err { color: #f85149; }
+  #empty { color: #8b949e; text-align: center; padding: 40px 0; }
+  #reload { background: none; border: 1px solid #30363d; color: #8b949e; border-radius: 8px; padding: 8px 12px; font-size: 0.8rem; margin-bottom: 12px; }
+</style>
+</head>
+<body>
+  <h1>Watchlist候補 — 1タップ承認</h1>
+  <p class="sub">expand_watchlist.py が引用グラフから出した候補。承認すると次のcron_collect.sh実行時にwatchlist.mdへ反映され収集が始まる。</p>
+
+  <div class="token-box">
+    <input id="token" type="password" placeholder="DETECT_WEBHOOK_TOKEN" autocomplete="off">
+    <button id="save-token">保存</button>
+  </div>
+
+  <button id="reload">再読込</button>
+  <div id="status"></div>
+  <div id="list"></div>
+  <div id="empty" hidden>候補なし</div>
+
+<script>
+const API_BASE = "/api";
+const tokenInput = document.getElementById("token");
+const statusEl = document.getElementById("status");
+const listEl = document.getElementById("list");
+const emptyEl = document.getElementById("empty");
+
+tokenInput.value = localStorage.getItem("wl_approve_token") || "";
+document.getElementById("save-token").onclick = () => {
+  localStorage.setItem("wl_approve_token", tokenInput.value.trim());
+  setStatus("token保存した");
+};
+
+function setStatus(msg, isErr) {
+  statusEl.textContent = msg || "";
+  statusEl.className = isErr ? "err" : "";
+}
+
+// watchlist.md の <!-- auto-candidates:start -->...<!-- auto-candidates:end --> 節から
+// `| @handle | citers | mentions |` 形式の行を抜く(サーバー側 _current_watchlist_candidates と同じ発想)。
+function parseCandidates(markdown) {
+  const m = markdown.match(/<!-- auto-candidates:start -->([\s\S]*?)<!-- auto-candidates:end -->/);
+  if (!m) return [];
+  const rows = [];
+  const rowRe = /\|\s*@([A-Za-z0-9_]{2,15})\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|/g;
+  let mm;
+  while ((mm = rowRe.exec(m[1])) !== null) {
+    rows.push({ handle: mm[1], citers: mm[2], mentions: mm[3] });
+  }
+  return rows;
+}
+
+async function loadCandidates() {
+  setStatus("読み込み中…");
+  listEl.innerHTML = "";
+  emptyEl.hidden = true;
+  try {
+    const res = await fetch(`${API_BASE}/watchlist`);
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "取得失敗");
+    const candidates = parseCandidates(data.markdown || "");
+    if (candidates.length === 0) {
+      emptyEl.hidden = false;
+      setStatus("");
+      return;
+    }
+    for (const c of candidates) {
+      listEl.appendChild(renderCard(c));
+    }
+    setStatus(`${candidates.length}件の候補`);
+  } catch (e) {
+    setStatus(`読み込み失敗: ${e.message}`, true);
+  }
+}
+
+function renderCard(c) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div>
+      <div class="handle">@${c.handle}</div>
+      <div class="meta">言及アカ ${c.citers} / 総言及 ${c.mentions}</div>
+    </div>
+    <button class="approve-btn">承認</button>
+  `;
+  const btn = card.querySelector(".approve-btn");
+  btn.onclick = () => approve(c.handle, btn);
+  return card;
+}
+
+async function approve(handle, btn) {
+  const token = localStorage.getItem("wl_approve_token") || "";
+  if (!token) { setStatus("先にtokenを入力・保存して", true); return; }
+  btn.disabled = true;
+  btn.textContent = "…";
+  try {
+    const res = await fetch(`${API_BASE}/approve_watchlist`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": `Bearer ${token}` },
+      body: JSON.stringify({ handle }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "承認失敗");
+    btn.textContent = "済";
+    btn.classList.add("done");
+    setStatus(`@${handle} を承認キューに追加した`);
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = "承認";
+    setStatus(`@${handle}: ${e.message}`, true);
+  }
+}
+
+document.getElementById("reload").onclick = loadCandidates;
+loadCandidates();
+</script>
+</body>
+</html>
