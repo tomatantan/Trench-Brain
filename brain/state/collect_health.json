@@ -1,1 +1,1 @@
-{"ts": "2026-08-07T03:47:36Z", "backend": "twitterapi", "new": 172, "skipped": 3785, "errors": 0, "accounts": 214, "ok": true}
+{"ts": "2026-08-07T05:54:48Z", "backend": "syndication", "new": 6, "skipped": 6003, "errors": 140, "accounts": 214, "ok": false}
