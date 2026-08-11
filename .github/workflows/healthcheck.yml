@@ -53,7 +53,7 @@ jobs:
                       f"合成(synthesis)が{gap_h:.0f}h止まってます。最終health.jsonl: {last['ts']} "
                       f"(backlog={last.get('signal_backlog')})。Mac/Windowsどちらもcron/launchdが死んでる可能性。"
                       f"要確認: brain/cron_collect.sh が動くはずのホストの状態、"
-                      f"または手元のセッションで `git pull && python3 brain/pipeline.py` を叩いて復旧。"
+                      f"または手元のセッションで git pull してから python3 brain/pipeline.py を叩いて復旧。"
                   )
           except Exception as e:
               problems.append(f"health.jsonl が読めません({e})。要調査。")
@@ -77,7 +77,6 @@ jobs:
               emit("message", msg)
           else:
               emit("stale", "false")
-              print("all healthy")
           PYEOF
         continue-on-error: true
 
