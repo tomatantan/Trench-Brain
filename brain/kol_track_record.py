@@ -163,22 +163,27 @@ def main():
                               "unknown": len(cas) - n}
     OUT_JSON.write_text(json.dumps(recs, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # 4) 報告table(死亡率高い順=信頼性低い順・評価N>=2のみ)
+    # 4) 報告table(観測のみ・評価N>=2のみ。★2026-08-11: 死亡率を「信頼性edge/読み」として
+    #    ランク付け・verdict化するのをやめた＝本人が2026-07-13/07-20/08-11と繰り返し明確に否定した設計
+    #    (「死亡率とかどうでもいい・ゴミ指標」「魔界はほぼ全銘柄が死ぬからKOL単体の死亡率はbase rateと
+    #    区別つかない」)。数値そのもの(観測)は残すが、順位付け・⚠️call死多/平均的/生存多のような
+    #    verdict言葉は出さない(指針10=判断しない・観測の言葉で)。並びは評価N降順(データが厚い順)。
     rows = sorted([r for r in recs.values() if r["evaluated"] >= 2],
-                  key=lambda r: -(r["death_rate"] or 0))
-    lines = ["---", "type: dashboard", "title: KOL track-record（call の生存率）", "updated: auto",
+                  key=lambda r: -r["evaluated"])
+    lines = ["---", "type: dashboard", "title: KOL track-record（言及した銘柄の現outcome・観測のみ）", "updated: auto",
              "tags: [feedback, kol, track-record]", "---", "",
-             "# KOL track-record — call の生死（/check の信頼性 edge）", "",
+             "# KOL track-record — 言及CAの現outcome（観測。信頼性ランキングではない）", "",
              "> `kol_track_record.py` が各KOLの歴史的CA言及(sources/x)の**現outcome**を照合。",
-             "> ★近似: 現mcap<$12k=死/フェード。鞍替え/old=unknown除外。小N・傾向として読む（断定でない）。", "",
-             "| KOL | 言及 | 評価 | 死 | 死亡率 | 読み |", "|---|---|---|---|---|---|"]
+             "> ★近似: 現mcap<$12k=死/フェード。鞍替え/old=unknown除外。小N・傾向として読む（断定でない）。",
+             "> ★死亡率はこのKOLの信頼度/callの質を示す指標ではない＝魔界はほぼ全銘柄が死ぬ母数なので個別",
+             "> KOLの死亡率はbase rateとほぼ区別つかない(本人指摘2026-07-13/07-20/08-11)。ランキング・",
+             "> verdict化はしない・数値は観測として置くだけ。", "",
+             "| KOL | 言及 | 評価 | 死 | 死亡率(観測・参考程度) |", "|---|---|---|---|---|"]
     for r in rows:
-        verdict = ("⚠️call死多" if (r["death_rate"] or 0) >= 70 else
-                   "平均的" if (r["death_rate"] or 0) >= 40 else "生存多(注目)")
         lines.append(f"| [[@{r['handle']}]] | {r['mentioned']} | {r['evaluated']} | {r['dead']} | "
-                     f"{r['death_rate']}% | {verdict} |")
-    lines += ["", f"> 評価N>=2のKOLのみ表示({len(rows)}人)。母集団は魔界=ほぼ死ぬ(base-rate)＝死亡率高は普通、",
-              "> **相対的に低い者＝相対的にcallが残りやすい**と読む。[[launchpad-economics]] base-rate参照。"]
+                     f"{r['death_rate']}% |")
+    lines += ["", f"> 評価N>=2のKOLのみ表示({len(rows)}人・評価N降順)。母集団は魔界=ほぼ死ぬ(base-rate)。",
+              "> [[launchpad-economics]] base-rate参照。"]
     OUT_MD.parent.mkdir(parents=True, exist_ok=True)
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"kol_track_record: {len(kol_cas)}KOL / {len(all_cas)}CA / lookup{looked}件 / 評価可{len(rows)}人 → kol-track-records.md")
