@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 764,
-  "evaluated": 662,
-  "dead": 496,
-  "alive": 166,
+  "mentioned": 765,
+  "evaluated": 669,
+  "dead": 505,
+  "alive": 164,
   "death_rate": 75,
-  "unknown": 102
+  "unknown": 96
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -173,11 +173,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 5,
-  "death_rate": 17,
-  "unknown": 2
+  "alive": 4,
+  "death_rate": 20,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -245,11 +245,11 @@
  "poorgoat_": {
   "handle": "poorgoat_",
   "mentioned": 11,
-  "evaluated": 7,
+  "evaluated": 8,
   "dead": 3,
-  "alive": 4,
-  "death_rate": 43,
-  "unknown": 4
+  "alive": 5,
+  "death_rate": 38,
+  "unknown": 3
  },
  "bull_bnb": {
   "handle": "bull_bnb",
@@ -298,12 +298,12 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 34,
+  "mentioned": 35,
   "evaluated": 27,
   "dead": 1,
   "alive": 26,
   "death_rate": 4,
-  "unknown": 7
+  "unknown": 8
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -416,11 +416,11 @@
  "poe_real69": {
   "handle": "poe_real69",
   "mentioned": 14,
-  "evaluated": 11,
+  "evaluated": 12,
   "dead": 1,
-  "alive": 10,
-  "death_rate": 9,
-  "unknown": 3
+  "alive": 11,
+  "death_rate": 8,
+  "unknown": 2
  },
  "trustlessstate": {
   "handle": "trustlessstate",
@@ -533,11 +533,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 23,
-  "evaluated": 19,
+  "evaluated": 20,
   "dead": 0,
-  "alive": 19,
+  "alive": 20,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
@@ -623,11 +623,11 @@
  "monke_": {
   "handle": "monke_",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "cookerflips": {
   "handle": "cookerflips",

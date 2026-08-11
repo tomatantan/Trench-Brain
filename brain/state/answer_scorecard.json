@@ -1,7 +1,7 @@
 {
- "ts": "2026-08-11T17:20Z",
+ "ts": "2026-08-11T20:34Z",
  "summary": {
-  "answers": 29,
+  "answers": 30,
   "tokens_mentioned": 37,
   "dead_now": 23,
   "alive_now": 3,
@@ -31,7 +31,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 75,
-     "evaluated_now": 662
+     "evaluated_now": 669
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 30454.68242717325
+     "mcap_now": 30856.30074667283
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11417.355400848965,
+     "mcap_now": 11586.278491082834,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 15244.62403715605,
+     "mcap_now": 15455.147300435729,
      "ambiguous_candidates": 6
     }
    },
@@ -885,7 +885,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 75,
-     "evaluated_now": 662
+     "evaluated_now": 669
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -998,6 +998,59 @@
      "golocojp": {
       "death_rate_now": 27,
       "evaluated_now": 11
+     }
+    }
+   }
+  },
+  "2026-08-11T17:24Z-5ddf1f82": {
+   "ts": "2026-08-11T17:24Z",
+   "question": "今の相場で一番の⚠️矛盾は何？そこから何を学ぶ？",
+   "tokens": {},
+   "kols": {
+    "0xsweep": {
+     "death_rate_now": 0,
+     "evaluated_now": 7
+    },
+    "blknoiz06": {
+     "death_rate_now": 0,
+     "evaluated_now": 7
+    },
+    "fibonacki": {
+     "death_rate_now": 0,
+     "evaluated_now": 10
+    },
+    "mcglive": {
+     "death_rate_now": 4,
+     "evaluated_now": 27
+    },
+    "shahh": {
+     "death_rate_now": 0,
+     "evaluated_now": 4
+    }
+   },
+   "at_first_score": {
+    "scored_ts": "2026-08-11T20:34Z",
+    "tokens": {},
+    "kols": {
+     "0xsweep": {
+      "death_rate_now": 0,
+      "evaluated_now": 7
+     },
+     "blknoiz06": {
+      "death_rate_now": 0,
+      "evaluated_now": 7
+     },
+     "fibonacki": {
+      "death_rate_now": 0,
+      "evaluated_now": 10
+     },
+     "mcglive": {
+      "death_rate_now": 4,
+      "evaluated_now": 27
+     },
+     "shahh": {
+      "death_rate_now": 0,
+      "evaluated_now": 4
      }
     }
    }

@@ -283,7 +283,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 40 | 197 |
+| @fomo | 40 | 198 |
 | @vladtenev | 34 | 103 |
 | @RobinhoodCrypto | 34 | 89 |
 | @Pattyice | 17 | 24 |
@@ -307,7 +307,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @CoinDesk | 11 | 25 |
 | @Cointelegraph | 11 | 20 |
 | @krakenfx | 11 | 15 |
-| @POTUS | 10 | 146 |
+| @POTUS | 10 | 148 |
 | @AskVenice | 10 | 53 |
 | @TradingTerminal | 10 | 24 |
 | @arbitrum | 10 | 17 |
@@ -328,7 +328,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @BNBCHAIN | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @aibaldking | 8 | 127 |
-| @NEARProtocol | 8 | 61 |
+| @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 32 |
 | @PhoenixTrade | 8 | 26 |
 | @KobeissiLetter | 8 | 24 |
@@ -337,12 +337,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @tradexyz | 8 | 21 |
 | @moonpay | 8 | 21 |
 | @Clive_99 | 8 | 21 |
+| @based16z | 8 | 20 |
 | @zinceth | 8 | 19 |
 | @SolanaFloor | 8 | 18 |
 | @Chairman_DN | 8 | 18 |
-| @JensenHuang | 8 | 16 |
+| @JensenHuang | 8 | 17 |
 | @sama | 8 | 14 |
-| @Banks | 8 | 14 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -394,6 +394,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@bonkfun]] | main | 106866 | 中 |
 | [[@Cbb0fe]] | main | 106625 | 中 |
 | [[@connectfarm1]] | cn | 134076 | 中 |
+| [[@ResellCalendar]] | main | 102000 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
