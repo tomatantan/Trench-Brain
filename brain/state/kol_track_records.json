@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 763,
-  "evaluated": 654,
-  "dead": 488,
+  "mentioned": 764,
+  "evaluated": 662,
+  "dead": 496,
   "alive": 166,
   "death_rate": 75,
-  "unknown": 109
+  "unknown": 102
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -56,11 +56,11 @@
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
   "mentioned": 6,
-  "evaluated": 4,
-  "dead": 1,
+  "evaluated": 5,
+  "dead": 2,
   "alive": 3,
-  "death_rate": 25,
-  "unknown": 2
+  "death_rate": 40,
+  "unknown": 1
  },
  "blknoiz06": {
   "handle": "blknoiz06",
@@ -227,11 +227,11 @@
  "0xsweep": {
   "handle": "0xsweep",
   "mentioned": 8,
-  "evaluated": 4,
+  "evaluated": 7,
   "dead": 0,
-  "alive": 4,
+  "alive": 7,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 1
  },
  "fibonacki": {
   "handle": "fibonacki",
@@ -308,11 +308,11 @@
  "ren_nevermind": {
   "handle": "ren_nevermind",
   "mentioned": 7,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "pumpfuneco": {
   "handle": "pumpfuneco",
@@ -371,11 +371,11 @@
  "spyzer": {
   "handle": "spyzer",
   "mentioned": 12,
-  "evaluated": 9,
-  "dead": 1,
+  "evaluated": 10,
+  "dead": 2,
   "alive": 8,
-  "death_rate": 11,
-  "unknown": 3
+  "death_rate": 20,
+  "unknown": 2
  },
  "memememhen": {
   "handle": "memememhen",
@@ -415,12 +415,12 @@
  },
  "poe_real69": {
   "handle": "poe_real69",
-  "mentioned": 13,
+  "mentioned": 14,
   "evaluated": 11,
   "dead": 1,
   "alive": 10,
   "death_rate": 9,
-  "unknown": 2
+  "unknown": 3
  },
  "trustlessstate": {
   "handle": "trustlessstate",
@@ -533,11 +533,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 23,
-  "evaluated": 18,
+  "evaluated": 19,
   "dead": 0,
-  "alive": 18,
+  "alive": 19,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 4
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
@@ -587,11 +587,11 @@
  "metaversejoji": {
   "handle": "metaversejoji",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
  },
  "jotagezin": {
   "handle": "jotagezin",
@@ -767,11 +767,11 @@
  "farmercharts": {
   "handle": "farmercharts",
   "mentioned": 1,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "kookcapitalllc": {
   "handle": "kookcapitalllc",
