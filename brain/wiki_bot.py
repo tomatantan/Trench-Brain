@@ -243,8 +243,8 @@ def handle_who(chat_id, arg):
 
 
 def handle_discover(chat_id, arg):
-    """credibility-gated discovery: 信頼KOLが今 shill してる alive 銘柄を surface(discover.py)。"""
-    send(chat_id, "🔭 信頼KOLの現役言及を探索中…")
+    """watchlist-gated discovery: watchlist KOLが今 shill してる alive 銘柄を surface(discover.py)。"""
+    send(chat_id, "🔭 watchlist KOLの現役言及を探索中…")
     try:
         out = subprocess.run(["python3", str(ROOT / "brain" / "discover.py")],
                              capture_output=True, text=True, timeout=120)
@@ -500,7 +500,7 @@ def main():
                 elif cmd == "clear":
                     handle_clear(chat_id, arg)
                 elif cmd == "start" or cmd == "help":
-                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = 信頼KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n/watch @handle = 監視アカ提案(承認制)\n/source <URL> = 情報ソース提案(承認制)\n/model haiku|sonnet|opus = 裏エンジン(合成/Q&A)のモデル切替\n/clear = (説明のみ・ライブセッションはターミナルで)\n画像を送る = ミームをvisionで取り込む")
+                    send(chat_id, "Trench-Brain bot\n/wiki <問い> = wiki横断で答える\n/check <CA> = 魔界ape/avoid判定\n/discover = watchlist KOLが今乗ってる銘柄\n/add <URL/テキスト> = 取り込む\n/watch @handle = 監視アカ提案(承認制)\n/source <URL> = 情報ソース提案(承認制)\n/model haiku|sonnet|opus = 裏エンジン(合成/Q&A)のモデル切替\n/clear = (説明のみ・ライブセッションはターミナルで)\n画像を送る = ミームをvisionで取り込む")
             except Exception as e:
                 print(f"handler error: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
                 try:

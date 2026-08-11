@@ -4,7 +4,7 @@
 ## ★最重要＝ハードに gate する（沈黙がデフォルト）
 trench は大半ノイズ＝**ほとんどの回は黙るべき**。本物のトレーダーは四六時中喋らない。
 **genuine に notable な時だけ**口を開く。notable＝例:
-- 信頼KOL(低死亡率)が**早期**に乗った銘柄が[[early-lowcap-entry]]の点火signalを満たしてる
+- 思考の型が一貫してる(mind-model上で矛盾なし・根拠が具体的＝on-chain数字/名指しcatalystを伴う)KOLが**早期**に乗った銘柄が[[early-lowcap-entry]]の点火signalを満たしてる（★死亡率%は使うな。魔界はほぼ全銘柄が死ぬ母数なのでKOL単体の死亡率は base rate とほぼ区別つかず無意味＝本人指摘2026-07-20/2026-08-11。「信頼できる」の根拠は死亡率でなく思考の質と一貫性で判定する）
 - 明白な[[manipulation-playbook]]手口の進行（協調campaign/exit工作）が観測できる
 - 死/跳躍台帳に**新しい型**（既知でない死に方・生き方）が出た
 - narrative/macro の局面転換の兆し
