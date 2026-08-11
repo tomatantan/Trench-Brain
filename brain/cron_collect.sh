@@ -153,6 +153,35 @@ python3 brain/export_ui.py >> "$LOG" 2>&1 || echo "export_ui skipped" >> "$LOG"
 python3 brain/entity_paths.py --fix >> "$LOG" 2>&1 || echo "entity_paths normalizer error" >> "$LOG"
 python3 brain/build_moc.py >> "$LOG" 2>&1 || echo "build_moc skipped" >> "$LOG"
 
+# ★claude CLI 認証切れ検知(2026-08-11実インシデント再発防止):
+#   OAuth失効でheadless claude(synthesize*.sh)が全滅しても、git pushはclaude非依存で
+#   成功し続ける設計＝「動いてるように見えたまま合成だけ15日死ぬ」が実際に起きた
+#   (2026-07-27失効→8/11発覚、357回連続失敗、queue 819→3650件)。
+#   このサイクルの新規ログだけを見て認証切れの痕跡があれば即Telegram通知(12h debounce)。
+THIS_RUN_LOG="$(awk '/=== .* collect start ===/{buf=""} {buf=buf $0 "\n"} END{print buf}' "$LOG" 2>/dev/null || true)"
+if printf '%s' "$THIS_RUN_LOG" | grep -qiE "oauth (access )?token (has )?expired|please run.*(/login|claude login)|invalid_grant|not logged in"; then
+  ALERT_FILE="brain/state/auth_alert_last.txt"
+  NOW_E=$(date +%s); LAST_E=$(cat "$ALERT_FILE" 2>/dev/null || echo 0)
+  if [ $(( NOW_E - LAST_E )) -gt 43200 ]; then
+    echo "$NOW_E" > "$ALERT_FILE"
+    TOKEN="$(grep '^TG_WIKI_BOT_TOKEN=' .env 2>/dev/null | cut -d= -f2)"
+    if [ -n "$TOKEN" ]; then
+      python3 - "$TOKEN" "7563521418" <<'PY' >> "$LOG" 2>&1 || true
+import sys, urllib.request, urllib.parse
+token, chat = sys.argv[1], sys.argv[2]
+msg = "⚠️ [trench] このホストの claude CLI 認証(OAuth)が切れてます。合成が止まってます。ターミナルで `claude` を起動して再ログインしてください。"
+data = urllib.parse.urlencode({"chat_id": chat, "text": msg}).encode()
+try:
+    urllib.request.urlopen(f"https://api.telegram.org/bot{token}/sendMessage", data=data, timeout=20)
+    print("auth-alert: pushed")
+except Exception as e:
+    print(f"auth-alert push err: {e}")
+PY
+    fi
+    echo "★auth-alert: claude CLI認証切れを検知しTelegram通知" >> "$LOG"
+  fi
+fi
+
 # ingested.txt も add=合成dedup状態を版管理(でないと次サイクルで再合成対象に出る)
 # local は sources/x を add しない(=cloud専任。書き込みパス分離で衝突防止)。local所有=youtube/wiki/state。
 # ★per-path add(2026-07-10 恒久修正): 一括addだと1個の欠損pathspec(例: learn_consumeが消した
