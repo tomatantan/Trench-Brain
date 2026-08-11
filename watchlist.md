@@ -283,9 +283,9 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 39 | 196 |
+| @fomo | 40 | 197 |
 | @vladtenev | 34 | 103 |
-| @RobinhoodCrypto | 34 | 88 |
+| @RobinhoodCrypto | 34 | 89 |
 | @Pattyice | 17 | 24 |
 | @rasmr_eth | 16 | 43 |
 | @Lighter_xyz | 14 | 98 |
@@ -301,13 +301,13 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @wrld_sol | 12 | 22 |
 | @OpenAI | 12 | 19 |
+| @ponsdotfamily | 11 | 49 |
 | @artsch00lreject | 11 | 36 |
 | @jessepollak | 11 | 35 |
 | @Cointelegraph | 11 | 19 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 146 |
 | @AskVenice | 10 | 52 |
-| @ponsdotfamily | 10 | 48 |
 | @TradingTerminal | 10 | 24 |
 | @CoinDesk | 10 | 24 |
 | @arbitrum | 10 | 17 |
