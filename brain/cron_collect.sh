@@ -13,6 +13,16 @@ LOG="brain/state/cron.log"
 mkdir -p brain/state
 echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) collect start ===" >> "$LOG"
 
+# ★headless claude 認証の恒久策(2026-08-11発覚: OAuth /login の access token は無人headless実行
+#   では自動refreshされない=公式ドキュメント確認済の仕様。11〜15日で毎回手動re-login地獄だった)。
+#   `claude setup-token`(要ブラウザ承認・1回だけ)で発行される1年有効トークンを.envに置けば
+#   claude CLIが認証precedenceで自動的にこちらを使う(サブスク課金のまま・API従量課金にはならない)。
+#   .envに無ければ何もしない=既存の/loginセッションにfallback(後方互換・無害)。
+if [ -f .env ]; then
+  _OAUTH_TOKEN="$(grep '^CLAUDE_CODE_OAUTH_TOKEN=' .env 2>/dev/null | head -1 | cut -d= -f2-)"
+  [ -n "$_OAUTH_TOKEN" ] && export CLAUDE_CODE_OAUTH_TOKEN="$_OAUTH_TOKEN"
+fi
+
 # ★永続化(本人「永遠に動かせ」)＝自己修復: このcronはRunAtLoad(boot時)+3h毎に発火する唯一の確実なanchor。
 #   毎回ここで (1)caffeinate=Mac起こし続ける→3h cronが確実に発火 (2)Q&A bot を常駐 を再確認し、死んでたら起こす。
 #   ＝Macが電源ONな限り、collect/合成/bot/起き続け が自己修復で永続する。
