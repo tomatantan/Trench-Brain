@@ -60,3 +60,13 @@
   **★続報・完了(2026-08-11・Windows Claude)**: cron.logを精査した結果、07-30の再ログインは**一時的にしか効かなかった**と判明。07-30 08:38 UTC(=17:38 JST)の再ログイン直後、07-30T11:20:31Z/14:33:19Zのsynthは実際に成功(認証エラーなし)。しかし**その日のうちに再び失効し、以降08-11まで連続破綻**(cron.log上、07-30T14:33以降〜08-11T10:12まで「Failed to authenticate」を挟まない成功synthが1件も無い＝約11日間ゼロ)。つまりOAuth失効は**07-16→07-30 08:38再ログイン→数時間で再失効→11日間サイレント放置**という再発パターン。「trench-synth.batを再起動してほしい」との依頼だったが、**Windows機が本日(08-11)朝9:04 UTC頃に再起動されており、Startup登録経由でtrench-synth.batは既に自動起動済み**(手動再起動は不要だった、WSL uptime実測で確認)。今回は本人が別途「YAJUscan壊す」作業中に「一番怪しい順」チェックリストを提示→調査→**真因=claude CLI OAuthトークンが2026-07-27T12:30:50Z UTCに失効し357回連続401**と特定→本人が対話ログインで再認証(2026-08-11 17:13 UTC頃)→復旧確認(17:15 lint成功、17:28 synth成功、17:52 synthでqueue件数が初めて減少=処理が進んでる)。
   **★恒久策も同日中に実装・push済(本人 or 別セッション、commit 80e247ecd)**: cron_collect.sh末尾で当該サイクルのログから"oauth token expired"/"please run.../login"/"invalid_grant"/"not logged in"を検知→Telegram即通知+12h debounce再送。副次修正(commit 87cd0da19)= healthcheckのTelegram警告文にバッククォート実行バグがあり毎回文字化けしてて、これも「アラート自体が壊れてて気づけない」という二重の見えない障害だった、修正済み。
   **★Mac Claudeへの申し送り**: OAuth失効が**短期間で複数回再発**している(07-16, 07-27, 07-30当日中の3回以上)。単発の期限切れというより**refreshTokenでの自動更新がこの無人実行環境で機能していない**(`~/.claude/.credentials.json`にrefreshTokenは存在するのに使われていない)疑いが強い。恒久検知(Telegram通知)は入ったので「気づけない」問題は解消したが、**そもそも失効自体を防ぐ/自動refreshさせる根本策は未着手**。設計判断が要るので次はMac Claude主導で検討をお願いしたい。
+
+  **★さらに続報(2026-08-11 18:xx)**: Mac Claude側が公式ドキュメント(code.claude.com/docs/en/authentication.md)で根本原因を確定=**headless実行(`claude --print`)はOAuthアクセストークンを自動refreshしない仕様**(ドキュメント記載通り)。解決策=`claude setup-token`で1年有効の長期トークンを発行し`CLAUDE_CODE_OAUTH_TOKEN`環境変数で使う。Mac Claudeがcron_collect.shの配線(commit 5b1e14398、.envにあれば優先使用)をpush済み→Windows側でpull→本人が`claude setup-token`をWSL(Ubuntuアプリ)で実行しブラウザ承認→出力トークンを`~/trench-brain/.env`に`CLAUDE_CODE_OAUTH_TOKEN=...`として追記済み(値は未確認・存在と長さ109文字のみ確認、Windows Claudeはトークン値自体は見ていない)。次サイクルからこれが使われるはず。理論上これで年単位でOAuth失効問題は再発しないはず。念のための検知アラート(TASK-0002の恒久策)はそのまま保険として維持。
+
+## TASK-0003
+- 状態: TODO
+- 依頼: Windows Claude(本人フィードバック代理)
+- 日時: 2026-08-11
+- 内容: **本人が自律read(KOL/player分析)の出力品質を明確に否定**。「これゴミすぎる」「俺が求めてるのってKOLの発言の死亡率じゃないんよな。魔界やミームなんてほとんどが死ぬのに死亡率とかどうでも良い」。本質は**発言から価格に反映されているか**(発言タイミングと価格変化の相関)、そして**KOLが何を考えて喋ってるのか・どこに価値があるのか**(思考の質・根拠の具体性)。死亡率%のような結果論の単純集計を主指標にした分析(今日の自律read出力=NEEGY/HORSE銘柄をKOL死亡率%中心に組み立てた内容)は的外れと判定された。
+  本人「この辺はまぁmacにやらすわ」＝**Mac Claude主導での再設計を希望**。Windows側では先走って実装しない。KOL/player合成プロンプト(`brain/synth_player_prompt.md`等)や自律readのロジック改修時の設計判断材料として。
+- 結果: (Mac Claude担当・未着手)
