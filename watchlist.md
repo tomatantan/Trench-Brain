@@ -317,6 +317,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @MINHxDYNASTY | 9 | 43 |
 | @virtuals_io | 9 | 39 |
 | @sapijiju | 9 | 39 |
+| @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 25 |
 | @OnlyLJC | 9 | 24 |
 | @haydenzadams | 9 | 22 |
@@ -330,7 +331,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 32 |
-| @PhoenixTrade | 8 | 26 |
 | @KobeissiLetter | 8 | 25 |
 | @justinsuntron | 8 | 23 |
 | @moonpay | 8 | 22 |
@@ -395,6 +395,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@Cbb0fe]] | main | 106625 | 中 |
 | [[@connectfarm1]] | cn | 134076 | 中 |
 | [[@ResellCalendar]] | main | 102000 | 中 |
+| [[@WhiteWhaleLabs]] | main | 98301 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

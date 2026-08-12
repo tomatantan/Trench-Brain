@@ -12,9 +12,9 @@
   "handle": "senshineo7",
   "mentioned": 11,
   "evaluated": 9,
-  "dead": 2,
-  "alive": 7,
-  "death_rate": 22,
+  "dead": 3,
+  "alive": 6,
+  "death_rate": 33,
   "unknown": 2
  },
  "jpy_to_crypto": {
@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 765,
-  "evaluated": 670,
-  "dead": 510,
-  "alive": 160,
-  "death_rate": 76,
-  "unknown": 95
+  "evaluated": 669,
+  "dead": 512,
+  "alive": 157,
+  "death_rate": 77,
+  "unknown": 96
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -219,9 +219,9 @@
   "handle": "dxrnell",
   "mentioned": 16,
   "evaluated": 15,
-  "dead": 2,
-  "alive": 13,
-  "death_rate": 13,
+  "dead": 3,
+  "alive": 12,
+  "death_rate": 20,
   "unknown": 1
  },
  "0xsweep": {
@@ -532,10 +532,10 @@
  },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 23,
-  "evaluated": 20,
+  "mentioned": 24,
+  "evaluated": 21,
   "dead": 0,
-  "alive": 20,
+  "alive": 21,
   "death_rate": 0,
   "unknown": 3
  },
