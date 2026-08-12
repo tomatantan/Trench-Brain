@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 765,
-  "evaluated": 670,
-  "dead": 514,
+  "mentioned": 767,
+  "evaluated": 671,
+  "dead": 515,
   "alive": 156,
   "death_rate": 77,
-  "unknown": 95
+  "unknown": 96
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -245,11 +245,11 @@
  "poorgoat_": {
   "handle": "poorgoat_",
   "mentioned": 11,
-  "evaluated": 8,
+  "evaluated": 7,
   "dead": 3,
-  "alive": 5,
-  "death_rate": 38,
-  "unknown": 3
+  "alive": 4,
+  "death_rate": 43,
+  "unknown": 4
  },
  "bull_bnb": {
   "handle": "bull_bnb",
@@ -299,11 +299,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 35,
-  "evaluated": 27,
+  "evaluated": 26,
   "dead": 1,
-  "alive": 26,
+  "alive": 25,
   "death_rate": 4,
-  "unknown": 8
+  "unknown": 9
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -361,11 +361,11 @@
  },
  "thokani": {
   "handle": "thokani",
-  "mentioned": 7,
-  "evaluated": 7,
-  "dead": 0,
+  "mentioned": 8,
+  "evaluated": 8,
+  "dead": 1,
   "alive": 7,
-  "death_rate": 0,
+  "death_rate": 12,
   "unknown": 0
  },
  "spyzer": {
@@ -739,12 +739,12 @@
  },
  "chjokka": {
   "handle": "chjokka",
-  "mentioned": 2,
+  "mentioned": 3,
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "arkham": {
   "handle": "arkham",

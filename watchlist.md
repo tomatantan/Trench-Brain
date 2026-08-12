@@ -283,23 +283,23 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 40 | 204 |
-| @vladtenev | 34 | 104 |
+| @fomo | 41 | 207 |
+| @vladtenev | 34 | 105 |
 | @RobinhoodCrypto | 34 | 89 |
 | @mdudas | 17 | 26 |
 | @Pattyice | 17 | 24 |
-| @rasmr_eth | 16 | 43 |
-| @Lighter_xyz | 14 | 98 |
+| @rasmr_eth | 16 | 44 |
+| @Lighter_xyz | 14 | 99 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 48 |
-| @Morpho | 13 | 29 |
+| @Morpho | 13 | 30 |
 | @MeteoraAG | 12 | 122 |
 | @MarketBubble | 12 | 57 |
-| @slingoorio | 12 | 44 |
+| @slingoorio | 12 | 45 |
 | @jtx_trade | 12 | 36 |
 | @daumenxyz | 12 | 26 |
-| @wrld_sol | 12 | 22 |
+| @wrld_sol | 12 | 23 |
 | @OpenAI | 12 | 19 |
 | @ponsdotfamily | 11 | 49 |
 | @artsch00lreject | 11 | 39 |
@@ -307,9 +307,10 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @CoinDesk | 11 | 26 |
 | @Cointelegraph | 11 | 22 |
 | @krakenfx | 11 | 15 |
-| @POTUS | 10 | 149 |
+| @POTUS | 10 | 150 |
 | @AskVenice | 10 | 54 |
 | @TradingTerminal | 10 | 24 |
+| @haydenzadams | 10 | 23 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 14 |
@@ -318,13 +319,14 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @virtuals_io | 9 | 39 |
 | @sapijiju | 9 | 39 |
 | @PhoenixTrade | 9 | 27 |
+| @FlippingProfits | 9 | 27 |
 | @MEADGod | 9 | 25 |
 | @OnlyLJC | 9 | 24 |
-| @haydenzadams | 9 | 22 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
 | @json1444 | 9 | 20 |
 | @jito_sol | 9 | 19 |
+| @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
 | @izebel_eth | 9 | 18 |
 | @BNBCHAIN | 9 | 16 |
@@ -340,9 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Clive_99 | 8 | 21 |
 | @based16z | 8 | 20 |
 | @zinceth | 8 | 19 |
-| @SolanaFloor | 8 | 18 |
 | @Chairman_DN | 8 | 18 |
-| @JensenHuang | 8 | 17 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -398,6 +398,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@WhiteWhaleLabs]] | main | 98301 | 中 |
 | [[@EnHeng456]] | cn | 104880 | 中 |
 | [[@fomomofosol]] | main | 94361 | 中 |
+| [[@slingoorio]] | main | 84270 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
