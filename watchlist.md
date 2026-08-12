@@ -283,7 +283,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 40 | 201 |
+| @fomo | 40 | 202 |
 | @vladtenev | 34 | 103 |
 | @RobinhoodCrypto | 34 | 89 |
 | @Pattyice | 17 | 24 |
@@ -293,16 +293,16 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 48 |
-| @Morpho | 13 | 28 |
+| @Morpho | 13 | 29 |
 | @MeteoraAG | 12 | 122 |
 | @MarketBubble | 12 | 57 |
-| @slingoorio | 12 | 43 |
+| @slingoorio | 12 | 44 |
 | @jtx_trade | 12 | 36 |
 | @daumenxyz | 12 | 26 |
 | @wrld_sol | 12 | 22 |
 | @OpenAI | 12 | 19 |
 | @ponsdotfamily | 11 | 49 |
-| @artsch00lreject | 11 | 37 |
+| @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
 | @CoinDesk | 11 | 25 |
 | @Cointelegraph | 11 | 22 |
@@ -342,7 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 8 | 18 |
 | @Chairman_DN | 8 | 18 |
 | @JensenHuang | 8 | 17 |
-| @AvgJoesCrypto | 8 | 15 |
+| @izebel_eth | 8 | 16 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -397,6 +397,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@ResellCalendar]] | main | 102000 | 中 |
 | [[@WhiteWhaleLabs]] | main | 98301 | 中 |
 | [[@EnHeng456]] | cn | 104880 | 中 |
+| [[@fomomofosol]] | main | 94361 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

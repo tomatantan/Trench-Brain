@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 765,
-  "evaluated": 669,
+  "evaluated": 670,
   "dead": 512,
-  "alive": 157,
-  "death_rate": 77,
-  "unknown": 96
+  "alive": 158,
+  "death_rate": 76,
+  "unknown": 95
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -182,11 +182,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
