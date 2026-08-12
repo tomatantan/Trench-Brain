@@ -30,9 +30,9 @@
   "handle": "badattrading_",
   "mentioned": 765,
   "evaluated": 670,
-  "dead": 512,
-  "alive": 158,
-  "death_rate": 76,
+  "dead": 513,
+  "alive": 157,
+  "death_rate": 77,
   "unknown": 95
  },
  "itspyrored": {
@@ -64,12 +64,12 @@
  },
  "blknoiz06": {
   "handle": "blknoiz06",
-  "mentioned": 11,
+  "mentioned": 12,
   "evaluated": 7,
   "dead": 0,
   "alive": 7,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "trader1sz": {
   "handle": "trader1sz",
@@ -289,12 +289,12 @@
  },
  "cozypront": {
   "handle": "cozypront",
-  "mentioned": 5,
+  "mentioned": 6,
   "evaluated": 5,
   "dead": 0,
   "alive": 5,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "mcglive": {
   "handle": "mcglive",

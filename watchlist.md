@@ -284,11 +284,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
 | @fomo | 40 | 202 |
-| @vladtenev | 34 | 103 |
+| @vladtenev | 34 | 104 |
 | @RobinhoodCrypto | 34 | 89 |
 | @Pattyice | 17 | 24 |
 | @rasmr_eth | 16 | 43 |
-| @mdudas | 15 | 24 |
+| @mdudas | 16 | 25 |
 | @Lighter_xyz | 14 | 98 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
@@ -304,7 +304,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @ponsdotfamily | 11 | 49 |
 | @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
-| @CoinDesk | 11 | 25 |
+| @CoinDesk | 11 | 26 |
 | @Cointelegraph | 11 | 22 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 149 |
@@ -326,6 +326,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @json1444 | 9 | 20 |
 | @jito_sol | 9 | 19 |
 | @solanamobile | 9 | 18 |
+| @izebel_eth | 9 | 17 |
 | @BNBCHAIN | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @aibaldking | 8 | 127 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 8 | 18 |
 | @Chairman_DN | 8 | 18 |
 | @JensenHuang | 8 | 17 |
-| @izebel_eth | 8 | 16 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
