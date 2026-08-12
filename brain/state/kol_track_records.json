@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 767,
-  "evaluated": 671,
+  "mentioned": 769,
+  "evaluated": 672,
   "dead": 515,
-  "alive": 156,
+  "alive": 157,
   "death_rate": 77,
-  "unknown": 96
+  "unknown": 97
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -272,11 +272,11 @@
  "just2addicted": {
   "handle": "just2addicted",
   "mentioned": 10,
-  "evaluated": 9,
+  "evaluated": 10,
   "dead": 1,
-  "alive": 8,
-  "death_rate": 11,
-  "unknown": 1
+  "alive": 9,
+  "death_rate": 10,
+  "unknown": 0
  },
  "810yenshamp": {
   "handle": "810yenshamp",

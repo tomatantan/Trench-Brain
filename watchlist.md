@@ -284,11 +284,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
 | @fomo | 41 | 207 |
-| @vladtenev | 34 | 105 |
+| @vladtenev | 34 | 106 |
 | @RobinhoodCrypto | 34 | 89 |
+| @rasmr_eth | 17 | 46 |
 | @mdudas | 17 | 26 |
 | @Pattyice | 17 | 24 |
-| @rasmr_eth | 16 | 44 |
 | @Lighter_xyz | 14 | 99 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
@@ -296,15 +296,15 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Morpho | 13 | 30 |
 | @MeteoraAG | 12 | 122 |
 | @MarketBubble | 12 | 57 |
-| @slingoorio | 12 | 45 |
 | @jtx_trade | 12 | 36 |
 | @daumenxyz | 12 | 26 |
-| @wrld_sol | 12 | 23 |
+| @wrld_sol | 12 | 24 |
 | @OpenAI | 12 | 19 |
 | @ponsdotfamily | 11 | 49 |
 | @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
 | @CoinDesk | 11 | 26 |
+| @zinceth | 11 | 24 |
 | @Cointelegraph | 11 | 22 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 150 |
@@ -331,6 +331,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @izebel_eth | 9 | 18 |
 | @BNBCHAIN | 9 | 16 |
 | @DavidSacks | 9 | 15 |
+| @gr3gor14n | 9 | 12 |
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 32 |
@@ -341,7 +342,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @tradexyz | 8 | 21 |
 | @Clive_99 | 8 | 21 |
 | @based16z | 8 | 20 |
-| @zinceth | 8 | 19 |
 | @Chairman_DN | 8 | 18 |
 <!-- auto-candidates:end -->
 
@@ -399,6 +399,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@EnHeng456]] | cn | 104880 | 中 |
 | [[@fomomofosol]] | main | 94361 | 中 |
 | [[@slingoorio]] | main | 84270 | 中 |
+| [[@DekuKing1]] | cn | 103979 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
