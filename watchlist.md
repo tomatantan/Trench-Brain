@@ -305,7 +305,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @artsch00lreject | 11 | 37 |
 | @jessepollak | 11 | 35 |
 | @CoinDesk | 11 | 25 |
-| @Cointelegraph | 11 | 21 |
+| @Cointelegraph | 11 | 22 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 149 |
 | @AskVenice | 10 | 54 |
@@ -342,7 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 8 | 18 |
 | @Chairman_DN | 8 | 18 |
 | @JensenHuang | 8 | 17 |
-| @sama | 8 | 14 |
+| @AvgJoesCrypto | 8 | 15 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -396,6 +396,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@connectfarm1]] | cn | 134076 | 中 |
 | [[@ResellCalendar]] | main | 102000 | 中 |
 | [[@WhiteWhaleLabs]] | main | 98301 | 中 |
+| [[@EnHeng456]] | cn | 104880 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

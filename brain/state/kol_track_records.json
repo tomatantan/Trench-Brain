@@ -101,11 +101,11 @@
  "traderpow": {
   "handle": "traderpow",
   "mentioned": 6,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "inversebrah": {
   "handle": "inversebrah",
@@ -289,10 +289,10 @@
  },
  "cozypront": {
   "handle": "cozypront",
-  "mentioned": 4,
-  "evaluated": 4,
+  "mentioned": 5,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
   "unknown": 0
  },
@@ -371,11 +371,11 @@
  "spyzer": {
   "handle": "spyzer",
   "mentioned": 12,
-  "evaluated": 10,
+  "evaluated": 11,
   "dead": 2,
-  "alive": 8,
-  "death_rate": 20,
-  "unknown": 2
+  "alive": 9,
+  "death_rate": 18,
+  "unknown": 1
  },
  "memememhen": {
   "handle": "memememhen",
@@ -676,10 +676,10 @@
  },
  "ilyunow": {
   "handle": "ilyunow",
-  "mentioned": 1,
-  "evaluated": 1,
+  "mentioned": 2,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
   "unknown": 0
  },
