@@ -283,12 +283,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 40 | 202 |
+| @fomo | 40 | 204 |
 | @vladtenev | 34 | 104 |
 | @RobinhoodCrypto | 34 | 89 |
+| @mdudas | 17 | 26 |
 | @Pattyice | 17 | 24 |
 | @rasmr_eth | 16 | 43 |
-| @mdudas | 16 | 25 |
 | @Lighter_xyz | 14 | 98 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
@@ -326,7 +326,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @json1444 | 9 | 20 |
 | @jito_sol | 9 | 19 |
 | @solanamobile | 9 | 18 |
-| @izebel_eth | 9 | 17 |
+| @izebel_eth | 9 | 18 |
 | @BNBCHAIN | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @aibaldking | 8 | 127 |

@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 765,
   "evaluated": 670,
-  "dead": 513,
-  "alive": 157,
+  "dead": 514,
+  "alive": 156,
   "death_rate": 77,
   "unknown": 95
  },
@@ -271,12 +271,12 @@
  },
  "just2addicted": {
   "handle": "just2addicted",
-  "mentioned": 9,
+  "mentioned": 10,
   "evaluated": 9,
   "dead": 1,
   "alive": 8,
   "death_rate": 11,
-  "unknown": 0
+  "unknown": 1
  },
  "810yenshamp": {
   "handle": "810yenshamp",
@@ -290,11 +290,11 @@
  "cozypront": {
   "handle": "cozypront",
   "mentioned": 6,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "mcglive": {
   "handle": "mcglive",
