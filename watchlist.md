@@ -286,7 +286,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @fomo | 41 | 208 |
 | @vladtenev | 34 | 107 |
 | @RobinhoodCrypto | 34 | 89 |
-| @mdudas | 18 | 28 |
+| @mdudas | 18 | 29 |
 | @rasmr_eth | 17 | 47 |
 | @Pattyice | 17 | 24 |
 | @Lighter_xyz | 14 | 99 |
@@ -340,8 +340,8 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @moonpay | 8 | 22 |
 | @SecScottBessent | 8 | 22 |
 | @tradexyz | 8 | 21 |
+| @based16z | 8 | 21 |
 | @Clive_99 | 8 | 21 |
-| @based16z | 8 | 20 |
 | @Chairman_DN | 8 | 18 |
 <!-- auto-candidates:end -->
 
@@ -401,6 +401,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@slingoorio]] | main | 84270 | 中 |
 | [[@DekuKing1]] | cn | 103979 | 中 |
 | [[@SolidTradesz]] | main | 84016 | 中 |
+| [[@suganarium]] | main | 82313 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
