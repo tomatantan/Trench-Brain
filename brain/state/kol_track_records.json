@@ -28,10 +28,10 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 784,
-  "evaluated": 682,
-  "dead": 520,
-  "alive": 162,
+  "mentioned": 791,
+  "evaluated": 689,
+  "dead": 523,
+  "alive": 166,
   "death_rate": 76,
   "unknown": 102
  },
@@ -313,6 +313,15 @@
   "alive": 5,
   "death_rate": 0,
   "unknown": 2
+ },
+ "slingoorio": {
+  "handle": "slingoorio",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "pumpfuneco": {
   "handle": "pumpfuneco",
@@ -602,15 +611,6 @@
   "death_rate": 0,
   "unknown": 0
  },
- "slingoorio": {
-  "handle": "slingoorio",
-  "mentioned": 1,
-  "evaluated": 1,
-  "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
- },
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
@@ -775,10 +775,10 @@
  },
  "farmercharts": {
   "handle": "farmercharts",
-  "mentioned": 1,
-  "evaluated": 1,
+  "mentioned": 2,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
   "unknown": 0
  },
