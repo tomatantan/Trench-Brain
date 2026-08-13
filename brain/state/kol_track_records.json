@@ -173,11 +173,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 5,
-  "dead": 1,
+  "evaluated": 6,
+  "dead": 2,
   "alive": 4,
-  "death_rate": 20,
-  "unknown": 3
+  "death_rate": 33,
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -299,11 +299,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 35,
-  "evaluated": 25,
+  "evaluated": 26,
   "dead": 1,
-  "alive": 24,
+  "alive": 25,
   "death_rate": 4,
-  "unknown": 10
+  "unknown": 9
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -590,6 +590,15 @@
   "evaluated": 2,
   "dead": 0,
   "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "slingoorio": {
+  "handle": "slingoorio",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
   "death_rate": 0,
   "unknown": 0
  },
