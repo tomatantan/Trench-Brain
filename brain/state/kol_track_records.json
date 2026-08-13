@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 769,
-  "evaluated": 672,
-  "dead": 515,
-  "alive": 157,
+  "evaluated": 674,
+  "dead": 516,
+  "alive": 158,
   "death_rate": 77,
-  "unknown": 97
+  "unknown": 95
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -173,11 +173,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 5,
-  "dead": 1,
+  "evaluated": 6,
+  "dead": 2,
   "alive": 4,
-  "death_rate": 20,
-  "unknown": 3
+  "death_rate": 33,
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -191,11 +191,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 14,
+  "evaluated": 15,
   "dead": 4,
-  "alive": 10,
-  "death_rate": 29,
-  "unknown": 4
+  "alive": 11,
+  "death_rate": 27,
+  "unknown": 3
  },
  "_logjam": {
   "handle": "_logjam",
@@ -593,6 +593,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "slingoorio": {
+  "handle": "slingoorio",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
@@ -866,11 +875,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 5,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",

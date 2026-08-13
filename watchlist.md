@@ -283,11 +283,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 41 | 207 |
-| @vladtenev | 34 | 106 |
+| @fomo | 41 | 208 |
+| @vladtenev | 34 | 107 |
 | @RobinhoodCrypto | 34 | 89 |
-| @rasmr_eth | 17 | 46 |
-| @mdudas | 17 | 26 |
+| @mdudas | 18 | 28 |
+| @rasmr_eth | 17 | 47 |
 | @Pattyice | 17 | 24 |
 | @Lighter_xyz | 14 | 99 |
 | @JohannKerbrat | 14 | 39 |
@@ -300,7 +300,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @wrld_sol | 12 | 24 |
 | @OpenAI | 12 | 19 |
-| @ponsdotfamily | 11 | 49 |
+| @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
 | @CoinDesk | 11 | 26 |
@@ -310,6 +310,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @POTUS | 10 | 150 |
 | @AskVenice | 10 | 54 |
 | @TradingTerminal | 10 | 24 |
+| @json1444 | 10 | 23 |
 | @haydenzadams | 10 | 23 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
@@ -324,7 +325,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @OnlyLJC | 9 | 24 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
-| @json1444 | 9 | 20 |
 | @jito_sol | 9 | 19 |
 | @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
@@ -335,7 +335,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 32 |
-| @KobeissiLetter | 8 | 25 |
+| @KobeissiLetter | 8 | 26 |
 | @justinsuntron | 8 | 23 |
 | @moonpay | 8 | 22 |
 | @SecScottBessent | 8 | 22 |
@@ -400,6 +400,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@fomomofosol]] | main | 94361 | 中 |
 | [[@slingoorio]] | main | 84270 | 中 |
 | [[@DekuKing1]] | cn | 103979 | 中 |
+| [[@SolidTradesz]] | main | 84016 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
