@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-13T07:11Z",
+ "ts": "2026-08-13T10:20Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 77,
-     "evaluated_now": 674
+     "death_rate_now": 76,
+     "evaluated_now": 677
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 31061.03129128961
+     "mcap_now": 30835.581528498256
     }
    },
    "kols": {},
@@ -367,7 +367,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11645.41003813344,
+     "mcap_now": 11559.18948874575,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 15545.357031129302,
+     "mcap_now": 15427.981141005761,
      "ambiguous_candidates": 6
     }
    },
@@ -842,7 +842,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -884,8 +884,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 77,
-     "evaluated_now": 674
+     "death_rate_now": 76,
+     "evaluated_now": 677
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -893,7 +893,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -934,7 +934,7 @@
     },
     "$PUNCH": {
      "status": "unknown",
-     "note": "trackedに無し(ticker未解決)"
+     "note": "回答時点で既知のmint無し(後発tickerのみ)"
     }
    },
    "kols": {
@@ -1021,7 +1021,7 @@
     },
     "mcglive": {
      "death_rate_now": 4,
-     "evaluated_now": 26
+     "evaluated_now": 27
     },
     "shahh": {
      "death_rate_now": 0,

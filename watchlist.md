@@ -284,12 +284,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
 | @fomo | 41 | 208 |
-| @vladtenev | 34 | 107 |
+| @vladtenev | 34 | 108 |
 | @RobinhoodCrypto | 34 | 89 |
+| @rasmr_eth | 18 | 48 |
 | @mdudas | 18 | 29 |
-| @rasmr_eth | 17 | 47 |
 | @Pattyice | 17 | 24 |
-| @Lighter_xyz | 14 | 99 |
+| @Lighter_xyz | 14 | 100 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 48 |
@@ -309,6 +309,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 150 |
 | @AskVenice | 10 | 54 |
+| @MINHxDYNASTY | 10 | 45 |
 | @TradingTerminal | 10 | 24 |
 | @json1444 | 10 | 23 |
 | @haydenzadams | 10 | 23 |
@@ -316,7 +317,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 14 |
 | @sunrise | 9 | 61 |
-| @MINHxDYNASTY | 9 | 43 |
 | @virtuals_io | 9 | 39 |
 | @sapijiju | 9 | 39 |
 | @PhoenixTrade | 9 | 27 |
@@ -338,11 +338,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @KobeissiLetter | 8 | 26 |
 | @justinsuntron | 8 | 23 |
 | @moonpay | 8 | 22 |
+| @heyibinance | 8 | 22 |
 | @SecScottBessent | 8 | 22 |
 | @tradexyz | 8 | 21 |
 | @based16z | 8 | 21 |
 | @Clive_99 | 8 | 21 |
-| @Chairman_DN | 8 | 18 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -402,6 +402,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@DekuKing1]] | cn | 103979 | 中 |
 | [[@SolidTradesz]] | main | 84016 | 中 |
 | [[@suganarium]] | main | 82313 | 中 |
+| [[@silverfang88]] | cn | 95874 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

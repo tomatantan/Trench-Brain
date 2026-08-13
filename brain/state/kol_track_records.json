@@ -28,20 +28,20 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 769,
-  "evaluated": 674,
-  "dead": 516,
-  "alive": 158,
-  "death_rate": 77,
-  "unknown": 95
+  "mentioned": 783,
+  "evaluated": 677,
+  "dead": 517,
+  "alive": 160,
+  "death_rate": 76,
+  "unknown": 106
  },
  "itspyrored": {
   "handle": "itspyrored",
-  "mentioned": 4,
-  "evaluated": 4,
+  "mentioned": 5,
+  "evaluated": 5,
   "dead": 4,
-  "alive": 0,
-  "death_rate": 100,
+  "alive": 1,
+  "death_rate": 80,
   "unknown": 0
  },
  "_shadow36": {
@@ -299,11 +299,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 35,
-  "evaluated": 26,
+  "evaluated": 27,
   "dead": 1,
-  "alive": 25,
+  "alive": 26,
   "death_rate": 4,
-  "unknown": 9
+  "unknown": 8
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -818,6 +818,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "fomomofosol": {
+  "handle": "fomomofosol",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
  "armaniferrante": {
   "handle": "armaniferrante",
   "mentioned": 2,
@@ -875,11 +884,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
