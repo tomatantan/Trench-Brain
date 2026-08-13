@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 783,
-  "evaluated": 677,
-  "dead": 517,
-  "alive": 160,
+  "mentioned": 784,
+  "evaluated": 680,
+  "dead": 519,
+  "alive": 161,
   "death_rate": 76,
-  "unknown": 106
+  "unknown": 104
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -100,12 +100,12 @@
  },
  "traderpow": {
   "handle": "traderpow",
-  "mentioned": 6,
+  "mentioned": 7,
   "evaluated": 6,
   "dead": 0,
   "alive": 6,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "inversebrah": {
   "handle": "inversebrah",
@@ -422,6 +422,15 @@
   "death_rate": 8,
   "unknown": 2
  },
+ "crediblecrypto": {
+  "handle": "crediblecrypto",
+  "mentioned": 2,
+  "evaluated": 2,
+  "dead": 0,
+  "alive": 2,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "trustlessstate": {
   "handle": "trustlessstate",
   "mentioned": 3,
@@ -605,20 +614,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
- },
- "crediblecrypto": {
-  "handle": "crediblecrypto",
-  "mentioned": 2,
-  "evaluated": 2,
-  "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "iconocl4sm_": {
   "handle": "iconocl4sm_",

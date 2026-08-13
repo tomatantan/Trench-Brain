@@ -283,13 +283,13 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 41 | 208 |
-| @vladtenev | 34 | 108 |
-| @RobinhoodCrypto | 34 | 89 |
+| @fomo | 41 | 209 |
+| @vladtenev | 34 | 109 |
+| @RobinhoodCrypto | 34 | 91 |
 | @rasmr_eth | 18 | 48 |
 | @mdudas | 18 | 29 |
 | @Pattyice | 17 | 24 |
-| @Lighter_xyz | 14 | 100 |
+| @Lighter_xyz | 14 | 101 |
 | @JohannKerbrat | 14 | 39 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 48 |
@@ -297,25 +297,25 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @MeteoraAG | 12 | 122 |
 | @MarketBubble | 12 | 57 |
 | @jtx_trade | 12 | 36 |
+| @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @wrld_sol | 12 | 24 |
 | @OpenAI | 12 | 19 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
-| @CoinDesk | 11 | 26 |
 | @zinceth | 11 | 24 |
 | @Cointelegraph | 11 | 22 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 150 |
-| @AskVenice | 10 | 54 |
+| @AskVenice | 10 | 55 |
 | @MINHxDYNASTY | 10 | 45 |
 | @TradingTerminal | 10 | 24 |
 | @json1444 | 10 | 23 |
 | @haydenzadams | 10 | 23 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
-| @DegenerateNews | 10 | 14 |
+| @DegenerateNews | 10 | 15 |
 | @sunrise | 9 | 61 |
 | @virtuals_io | 9 | 39 |
 | @sapijiju | 9 | 39 |
@@ -329,20 +329,20 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
 | @izebel_eth | 9 | 18 |
-| @BNBCHAIN | 9 | 16 |
+| @BNBCHAIN | 9 | 17 |
+| @ThinkingUSD | 9 | 16 |
+| @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @gr3gor14n | 9 | 12 |
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 32 |
-| @KobeissiLetter | 8 | 26 |
+| @KobeissiLetter | 8 | 27 |
 | @justinsuntron | 8 | 23 |
+| @heyibinance | 8 | 23 |
 | @moonpay | 8 | 22 |
-| @heyibinance | 8 | 22 |
 | @SecScottBessent | 8 | 22 |
 | @tradexyz | 8 | 21 |
-| @based16z | 8 | 21 |
-| @Clive_99 | 8 | 21 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -403,6 +403,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@SolidTradesz]] | main | 84016 | 中 |
 | [[@suganarium]] | main | 82313 | 中 |
 | [[@silverfang88]] | cn | 95874 | 中 |
+| [[@FlippingProfits]] | main | 73803 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
