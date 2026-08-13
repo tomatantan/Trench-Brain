@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 784,
-  "evaluated": 680,
-  "dead": 519,
-  "alive": 161,
+  "evaluated": 682,
+  "dead": 520,
+  "alive": 162,
   "death_rate": 76,
-  "unknown": 104
+  "unknown": 102
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -245,11 +245,11 @@
  "poorgoat_": {
   "handle": "poorgoat_",
   "mentioned": 11,
-  "evaluated": 7,
-  "dead": 3,
+  "evaluated": 8,
+  "dead": 4,
   "alive": 4,
-  "death_rate": 43,
-  "unknown": 4
+  "death_rate": 50,
+  "unknown": 3
  },
  "bull_bnb": {
   "handle": "bull_bnb",
@@ -542,11 +542,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 25,
-  "evaluated": 21,
+  "evaluated": 22,
   "dead": 0,
-  "alive": 21,
+  "alive": 22,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
