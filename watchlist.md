@@ -283,11 +283,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 42 | 211 |
-| @vladtenev | 35 | 111 |
+| @fomo | 42 | 212 |
+| @vladtenev | 35 | 113 |
 | @RobinhoodCrypto | 35 | 92 |
-| @mdudas | 19 | 31 |
-| @rasmr_eth | 18 | 48 |
+| @rasmr_eth | 19 | 49 |
+| @mdudas | 19 | 32 |
 | @Pattyice | 17 | 24 |
 | @Lighter_xyz | 14 | 101 |
 | @JohannKerbrat | 14 | 39 |
@@ -405,6 +405,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@silverfang88]] | cn | 95874 | 中 |
 | [[@FlippingProfits]] | main | 73803 | 中 |
 | [[@ShockedJS]] | main | 73596 | 中 |
+| [[@brc20niubi]] | cn | 91731 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

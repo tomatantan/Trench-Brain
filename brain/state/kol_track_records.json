@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 791,
-  "evaluated": 689,
-  "dead": 523,
+  "evaluated": 690,
+  "dead": 524,
   "alive": 166,
   "death_rate": 76,
-  "unknown": 102
+  "unknown": 101
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -101,11 +101,11 @@
  "traderpow": {
   "handle": "traderpow",
   "mentioned": 7,
-  "evaluated": 6,
+  "evaluated": 7,
   "dead": 0,
-  "alive": 6,
+  "alive": 7,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "inversebrah": {
   "handle": "inversebrah",
