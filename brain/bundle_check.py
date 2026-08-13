@@ -27,6 +27,12 @@ bundle_check.py — 門通過token の早期買いに bundling(insider結託) �
      (第三者が複数の別ウォレットに配ってる=最強のbundling signal)場合のみ"strong"、fee_payer自身も
      受取人の一人(自分+誰か1人への送付、で片付く弱いパターン)は"weak"として分ける。判断語ではなく
      観測の強弱ラベル(指針10に沿う)。
+  4. "strong"判定でも実地確認で見つけた残穴: 受取人が実は単なる中継/associated-token-account
+     (プールとは別カテゴリ)で、その場でtoken残高ゼロに戻る=保有してない=結託した「買い手」とは
+     言えないケースがあった(受取人2件とも現残高0で確認)。"strong"判定の各受取人について現在
+     そのmintを保有してるかHeliusのbalancesで確認し、保有0のみなら"strong_no_holdings"
+     (中継の疑い・保有継続してれば"strong"のまま)に格下げする。追加API呼び出しはstrong件のみ
+     (件数が少ない前提)。
 """
 import argparse
 import json
@@ -67,6 +73,35 @@ def fetch_pool_addresses(mint):
         return set(), False
     addrs = {d.get("bonding_curve"), d.get("associated_bonding_curve"), d.get("pump_swap_pool"), d.get("pool_address")}
     return {a for a in addrs if a}, True
+
+
+def wallet_holds_mint(wallet, mint, api_key, timeout=15):
+    """そのwalletが"今"そのmintを保有してるか確認。
+    2026-08-13追加→即日修正: 最初 v0 /addresses/{w}/balances REST を使ったが、このエンドポイントが
+    セッション中に "Method not found"(404)で死んでるのを発見(全アドレスで再現・エンドポイント側の問題)。
+    さらに悪いことに、生きてた時も token-2022 program のtoken(mancoinはこれ)を正しく拾えておらず、
+    実際は219,769枚保有してるアドレスを「保有0」と誤判定していた(本人に一度誤った結論を報告→訂正済み)。
+    標準の getTokenAccountsByOwner JSON-RPC(mint指定)に切替＝token-2022/classic両対応で確実。"""
+    url = f"https://mainnet.helius-rpc.com/?api-key={api_key}"
+    payload = {
+        "jsonrpc": "2.0", "id": 1, "method": "getTokenAccountsByOwner",
+        "params": [wallet, {"mint": mint}, {"encoding": "jsonParsed"}],
+    }
+    try:
+        req = urllib.request.Request(
+            url, data=json.dumps(payload).encode(),
+            headers={"User-Agent": "trench-brain", "Content-Type": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            d = json.loads(r.read().decode("utf-8"))
+    except Exception:
+        return None  # 取得失敗=不明(0とは区別する)
+    for acc in (d.get("result") or {}).get("value", []):
+        amt = acc.get("account", {}).get("data", {}).get("parsed", {}).get("info", {}) \
+            .get("tokenAmount", {}).get("uiAmount")
+        if amt and amt > 0:
+            return True
+    return False
 
 
 def detect_single_tx_bundles(txs, mint, exclude=frozenset()):
@@ -146,7 +181,26 @@ def main():
     single_tx_bundles = detect_single_tx_bundles(txs, args.mint, exclude=pool_addrs)
     slot_clusters = detect_same_slot_clusters(txs, args.mint, exclude=pool_addrs)
 
+    # ★保有裏取り(2026-08-13): strong判定の受取人が今もそのmintを保有してるか確認。
+    #   全員が保有0(受け取った瞬間に右から左=中継アカウントの疑い)なら strong_no_holdings に格下げ。
+    #   1人でも保有してれば strong のまま(実際に持ってる=結託した買い手の疑いが本物に近い)。
+    holdings_cache = {}
+    for b in single_tx_bundles:
+        if b["confidence"] != "strong":
+            continue
+        holds = {}
+        for w in b["recipients"]:
+            if w not in holdings_cache:
+                holdings_cache[w] = wallet_holds_mint(w, args.mint, api_key)
+            holds[w] = holdings_cache[w]
+        b["recipients_currently_hold"] = holds
+        if any(v is True for v in holds.values()):
+            pass  # 保有継続してる人がいる=strongのまま
+        elif all(v is False for v in holds.values()):
+            b["confidence"] = "strong_no_holdings"
+
     strong = [b for b in single_tx_bundles if b["confidence"] == "strong"]
+    strong_no_holdings = [b for b in single_tx_bundles if b["confidence"] == "strong_no_holdings"]
     weak = [b for b in single_tx_bundles if b["confidence"] == "weak"]
 
     involved_wallets = set()
@@ -162,6 +216,7 @@ def main():
         "pool_addresses_excluded": sorted(pool_addrs),
         "pool_lookup_ok": pool_fetch_ok,
         "single_tx_bundles_strong": len(strong),
+        "single_tx_bundles_strong_no_holdings": len(strong_no_holdings),
         "single_tx_bundles_weak": len(weak),
         "same_slot_clusters": len(slot_clusters),
         "involved_wallets": len(involved_wallets),
