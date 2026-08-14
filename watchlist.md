@@ -285,7 +285,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 |---|---|---|
 | @fomo | 44 | 214 |
 | @vladtenev | 35 | 114 |
-| @RobinhoodCrypto | 35 | 92 |
+| @RobinhoodCrypto | 35 | 93 |
 | @rasmr_eth | 19 | 49 |
 | @mdudas | 19 | 34 |
 | @Pattyice | 17 | 25 |
