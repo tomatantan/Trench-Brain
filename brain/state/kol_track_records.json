@@ -28,12 +28,12 @@
  },
  "badattrading_": {
   "handle": "badattrading_",
-  "mentioned": 797,
-  "evaluated": 698,
-  "dead": 528,
-  "alive": 170,
-  "death_rate": 76,
-  "unknown": 99
+  "mentioned": 806,
+  "evaluated": 704,
+  "dead": 529,
+  "alive": 175,
+  "death_rate": 75,
+  "unknown": 102
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -316,10 +316,10 @@
  },
  "slingoorio": {
   "handle": "slingoorio",
-  "mentioned": 1,
-  "evaluated": 1,
+  "mentioned": 2,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
   "unknown": 0
  },
@@ -452,11 +452,11 @@
  "bankless": {
   "handle": "bankless",
   "mentioned": 9,
-  "evaluated": 7,
+  "evaluated": 8,
   "dead": 1,
-  "alive": 6,
-  "death_rate": 14,
-  "unknown": 2
+  "alive": 7,
+  "death_rate": 12,
+  "unknown": 1
  },
  "zachxbt": {
   "handle": "zachxbt",
@@ -611,6 +611,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "whitewhalelabs": {
+  "handle": "whitewhalelabs",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
@@ -719,6 +728,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "chjokka": {
+  "handle": "chjokka",
+  "mentioned": 4,
+  "evaluated": 3,
+  "dead": 0,
+  "alive": 3,
+  "death_rate": 0,
+  "unknown": 1
+ },
  "orangie": {
   "handle": "orangie",
   "mentioned": 1,
@@ -745,15 +763,6 @@
   "alive": 1,
   "death_rate": 0,
   "unknown": 0
- },
- "chjokka": {
-  "handle": "chjokka",
-  "mentioned": 3,
-  "evaluated": 2,
-  "dead": 0,
-  "alive": 2,
-  "death_rate": 0,
-  "unknown": 1
  },
  "arkham": {
   "handle": "arkham",

@@ -283,16 +283,16 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 44 | 214 |
+| @fomo | 45 | 216 |
 | @vladtenev | 35 | 114 |
 | @RobinhoodCrypto | 35 | 93 |
+| @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
-| @mdudas | 19 | 35 |
 | @Pattyice | 17 | 25 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
-| @realDonaldTrump | 13 | 49 |
+| @realDonaldTrump | 13 | 50 |
 | @Morpho | 13 | 32 |
 | @MeteoraAG | 12 | 124 |
 | @MarketBubble | 12 | 64 |
@@ -308,12 +308,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @json1444 | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 24 |
+| @izebel_eth | 11 | 21 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 150 |
 | @AskVenice | 10 | 56 |
 | @MINHxDYNASTY | 10 | 45 |
 | @haydenzadams | 10 | 23 |
-| @izebel_eth | 10 | 19 |
 | @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
@@ -332,17 +332,17 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
 | @econoar | 9 | 17 |
-| @ThinkingUSD | 9 | 16 |
+| @ThinkingUSD | 9 | 17 |
 | @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @okx | 9 | 11 |
 | @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
+| @vydamo_ | 8 | 36 |
 | @Collector_Crypt | 8 | 33 |
 | @KobeissiLetter | 8 | 29 |
+| @ika_xbt | 8 | 24 |
 | @heyibinance | 8 | 23 |
-| @moonpay | 8 | 22 |
-| @SecScottBessent | 8 | 22 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
