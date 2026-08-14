@@ -283,8 +283,8 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 43 | 213 |
-| @vladtenev | 35 | 113 |
+| @fomo | 44 | 214 |
+| @vladtenev | 35 | 114 |
 | @RobinhoodCrypto | 35 | 92 |
 | @rasmr_eth | 19 | 49 |
 | @mdudas | 19 | 34 |
@@ -314,6 +314,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @MINHxDYNASTY | 10 | 45 |
 | @haydenzadams | 10 | 23 |
 | @izebel_eth | 10 | 19 |
+| @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
@@ -331,10 +332,10 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
 | @econoar | 9 | 17 |
-| @BNBCHAIN | 9 | 17 |
 | @ThinkingUSD | 9 | 16 |
 | @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
+| @okx | 9 | 11 |
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 33 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @heyibinance | 8 | 23 |
 | @moonpay | 8 | 22 |
 | @SecScottBessent | 8 | 22 |
-| @tradexyz | 8 | 21 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -407,6 +407,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@ShockedJS]] | main | 73596 | 中 |
 | [[@brc20niubi]] | cn | 91731 | 中 |
 | [[@gudmansachs]] | main | 70970 | 中 |
+| [[@icobeast]] | main | 67792 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
