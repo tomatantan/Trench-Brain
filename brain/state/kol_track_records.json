@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 791,
-  "evaluated": 690,
+  "evaluated": 692,
   "dead": 524,
-  "alive": 166,
+  "alive": 168,
   "death_rate": 76,
-  "unknown": 101
+  "unknown": 99
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -298,12 +298,12 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 35,
-  "evaluated": 27,
+  "mentioned": 37,
+  "evaluated": 28,
   "dead": 1,
-  "alive": 26,
+  "alive": 27,
   "death_rate": 4,
-  "unknown": 8
+  "unknown": 9
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
