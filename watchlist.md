@@ -287,19 +287,20 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @vladtenev | 35 | 114 |
 | @RobinhoodCrypto | 35 | 93 |
 | @rasmr_eth | 19 | 49 |
-| @mdudas | 19 | 34 |
+| @mdudas | 19 | 35 |
 | @Pattyice | 17 | 25 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 49 |
-| @Morpho | 13 | 30 |
+| @Morpho | 13 | 32 |
 | @MeteoraAG | 12 | 124 |
-| @MarketBubble | 12 | 63 |
+| @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 36 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @wrld_sol | 12 | 24 |
+| @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
@@ -307,7 +308,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @json1444 | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 24 |
-| @Cointelegraph | 11 | 23 |
 | @krakenfx | 11 | 15 |
 | @POTUS | 10 | 150 |
 | @AskVenice | 10 | 56 |
@@ -336,7 +336,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
 | @okx | 9 | 11 |
-| @aibaldking | 8 | 127 |
+| @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
 | @Collector_Crypt | 8 | 33 |
 | @KobeissiLetter | 8 | 29 |
@@ -408,6 +408,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@brc20niubi]] | cn | 91731 | 中 |
 | [[@gudmansachs]] | main | 70970 | 中 |
 | [[@icobeast]] | main | 67792 | 中 |
+| [[@hexiecs]] | cn | 90337 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
