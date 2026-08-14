@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 791,
   "evaluated": 692,
-  "dead": 524,
-  "alive": 168,
+  "dead": 525,
+  "alive": 167,
   "death_rate": 76,
   "unknown": 99
  },
@@ -127,10 +127,10 @@
  },
  "senshineo777": {
   "handle": "senshineo777",
-  "mentioned": 2,
-  "evaluated": 1,
+  "mentioned": 4,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 1,
+  "alive": 3,
   "death_rate": 0,
   "unknown": 1
  },
@@ -550,12 +550,12 @@
  },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 25,
-  "evaluated": 22,
+  "mentioned": 28,
+  "evaluated": 23,
   "dead": 0,
-  "alive": 22,
+  "alive": 23,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 5
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",

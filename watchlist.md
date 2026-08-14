@@ -283,19 +283,19 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 42 | 212 |
+| @fomo | 43 | 213 |
 | @vladtenev | 35 | 113 |
 | @RobinhoodCrypto | 35 | 92 |
 | @rasmr_eth | 19 | 49 |
-| @mdudas | 19 | 33 |
-| @Pattyice | 17 | 24 |
+| @mdudas | 19 | 34 |
+| @Pattyice | 17 | 25 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
 | @realDonaldTrump | 13 | 49 |
 | @Morpho | 13 | 30 |
 | @MeteoraAG | 12 | 124 |
-| @MarketBubble | 12 | 59 |
+| @MarketBubble | 12 | 63 |
 | @jtx_trade | 12 | 36 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
@@ -313,6 +313,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @AskVenice | 10 | 56 |
 | @MINHxDYNASTY | 10 | 45 |
 | @haydenzadams | 10 | 23 |
+| @izebel_eth | 10 | 19 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
@@ -321,7 +322,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sapijiju | 9 | 40 |
 | @virtuals_io | 9 | 39 |
 | @PhoenixTrade | 9 | 27 |
-| @MEADGod | 9 | 26 |
+| @MEADGod | 9 | 27 |
 | @justinsuntron | 9 | 24 |
 | @OnlyLJC | 9 | 24 |
 | @RebeccaRettig1 | 9 | 22 |
@@ -329,7 +330,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @jito_sol | 9 | 19 |
 | @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
-| @izebel_eth | 9 | 18 |
 | @econoar | 9 | 17 |
 | @BNBCHAIN | 9 | 17 |
 | @ThinkingUSD | 9 | 16 |
@@ -337,7 +337,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @DavidSacks | 9 | 15 |
 | @aibaldking | 8 | 127 |
 | @NEARProtocol | 8 | 62 |
-| @Collector_Crypt | 8 | 32 |
+| @Collector_Crypt | 8 | 33 |
 | @KobeissiLetter | 8 | 29 |
 | @heyibinance | 8 | 23 |
 | @moonpay | 8 | 22 |
@@ -406,6 +406,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@FlippingProfits]] | main | 73803 | 中 |
 | [[@ShockedJS]] | main | 73596 | 中 |
 | [[@brc20niubi]] | cn | 91731 | 中 |
+| [[@gudmansachs]] | main | 70970 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
