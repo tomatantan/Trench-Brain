@@ -615,9 +615,9 @@
   "handle": "metaversejoji",
   "mentioned": 2,
   "evaluated": 2,
-  "dead": 0,
-  "alive": 2,
-  "death_rate": 0,
+  "dead": 1,
+  "alive": 1,
+  "death_rate": 50,
   "unknown": 0
  },
  "whitewhalelabs": {
