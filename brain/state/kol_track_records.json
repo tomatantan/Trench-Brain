@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 708,
-  "dead": 530,
-  "alive": 178,
+  "dead": 531,
+  "alive": 177,
   "death_rate": 75,
   "unknown": 99
  },
@@ -632,11 +632,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "iconocl4sm_": {
   "handle": "iconocl4sm_",
@@ -830,11 +830,11 @@
  "mexc": {
   "handle": "mexc",
   "mentioned": 2,
-  "evaluated": 1,
-  "dead": 0,
+  "evaluated": 2,
+  "dead": 1,
   "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "death_rate": 50,
+  "unknown": 0
  },
  "ametomuchi123": {
   "handle": "ametomuchi123",
@@ -848,11 +848,11 @@
  "fomomofosol": {
   "handle": "fomomofosol",
   "mentioned": 4,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "armaniferrante": {
   "handle": "armaniferrante",
