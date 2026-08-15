@@ -341,7 +341,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
 | @vydamo_ | 8 | 36 |
-| @Collector_Crypt | 8 | 33 |
+| @Collector_Crypt | 8 | 34 |
 | @MissionGains | 8 | 26 |
 <!-- auto-candidates:end -->
 
@@ -416,6 +416,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@WazzCrypto]] | main | 55627 | 中 |
 | [[@Ed_x0101]] | cn | 82228 | 中 |
 | [[@watchingmarkets]] | main | 50368 | 中 |
+| [[@wrld_sol]] | main | 50071 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
