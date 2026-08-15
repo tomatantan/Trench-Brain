@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-14T20:59Z",
+ "ts": "2026-08-15T00:08Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -31,7 +31,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 75,
-     "evaluated_now": 707
+     "evaluated_now": 708
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 30545.13348014095
+     "mcap_now": 30652.07236325392
     }
    },
    "kols": {},
@@ -367,7 +367,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 11450.809695915676,
+     "mcap_now": 11489.872986309461,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 15292.782986981256,
+     "mcap_now": 15337.140802365506,
      "ambiguous_candidates": 6
     }
    },
@@ -842,7 +842,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -885,7 +885,7 @@
    "kols": {
     "badattrading_": {
      "death_rate_now": 75,
-     "evaluated_now": 707
+     "evaluated_now": 708
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -893,7 +893,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -1021,7 +1021,7 @@
     },
     "mcglive": {
      "death_rate_now": 4,
-     "evaluated_now": 28
+     "evaluated_now": 27
     },
     "shahh": {
      "death_rate_now": 0,

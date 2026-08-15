@@ -29,11 +29,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 707,
-  "dead": 529,
+  "evaluated": 708,
+  "dead": 530,
   "alive": 178,
   "death_rate": 75,
-  "unknown": 100
+  "unknown": 99
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -299,11 +299,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 37,
-  "evaluated": 28,
+  "evaluated": 27,
   "dead": 1,
-  "alive": 27,
+  "alive": 26,
   "death_rate": 4,
-  "unknown": 9
+  "unknown": 10
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -316,12 +316,12 @@
  },
  "slingoorio": {
   "handle": "slingoorio",
-  "mentioned": 2,
-  "evaluated": 2,
-  "dead": 0,
+  "mentioned": 4,
+  "evaluated": 3,
+  "dead": 1,
   "alive": 2,
-  "death_rate": 0,
-  "unknown": 0
+  "death_rate": 33,
+  "unknown": 1
  },
  "pumpfuneco": {
   "handle": "pumpfuneco",
@@ -538,6 +538,15 @@
   "alive": 0,
   "death_rate": null,
   "unknown": 1
+ },
+ "solidtradesz": {
+  "handle": "solidtradesz",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "thecaliber__": {
   "handle": "thecaliber__",
@@ -818,6 +827,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "mexc": {
+  "handle": "mexc",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
+ },
  "ametomuchi123": {
   "handle": "ametomuchi123",
   "mentioned": 1,
@@ -829,12 +847,12 @@
  },
  "fomomofosol": {
   "handle": "fomomofosol",
-  "mentioned": 1,
-  "evaluated": 0,
+  "mentioned": 4,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 3
  },
  "armaniferrante": {
   "handle": "armaniferrante",
@@ -893,11 +911,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 5,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
