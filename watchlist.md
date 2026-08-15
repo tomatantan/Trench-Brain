@@ -293,8 +293,8 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
+| @MeteoraAG | 13 | 125 |
 | @Morpho | 13 | 32 |
-| @MeteoraAG | 12 | 124 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @CoinDesk | 12 | 27 |
@@ -310,10 +310,10 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @json1444 | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 24 |
-| @izebel_eth | 11 | 21 |
 | @krakenfx | 11 | 15 |
 | @AskVenice | 10 | 56 |
 | @MINHxDYNASTY | 10 | 45 |
+| @heyibinance | 10 | 25 |
 | @haydenzadams | 10 | 23 |
 | @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
@@ -326,7 +326,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @KobeissiLetter | 9 | 31 |
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
-| @heyibinance | 9 | 24 |
 | @OnlyLJC | 9 | 24 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
@@ -343,6 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @NEARProtocol | 8 | 62 |
 | @vydamo_ | 8 | 36 |
 | @Collector_Crypt | 8 | 33 |
+| @MissionGains | 8 | 26 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -413,6 +413,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@DimitriDotEth]] | main | 64562 | 中 |
 | [[@CryptoDevinL]] | cn | 89436 | 中 |
 | [[@izebel_eth]] | main | 59745 | 中 |
+| [[@WazzCrypto]] | main | 55627 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
