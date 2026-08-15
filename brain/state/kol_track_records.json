@@ -30,9 +30,9 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 709,
-  "dead": 535,
-  "alive": 174,
-  "death_rate": 75,
+  "dead": 536,
+  "alive": 173,
+  "death_rate": 76,
   "unknown": 98
  },
  "itspyrored": {
@@ -173,11 +173,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 2,
-  "alive": 3,
-  "death_rate": 40,
-  "unknown": 3
+  "alive": 4,
+  "death_rate": 33,
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
