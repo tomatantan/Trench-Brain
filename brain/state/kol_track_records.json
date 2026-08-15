@@ -173,11 +173,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -299,11 +299,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 37,
-  "evaluated": 27,
+  "evaluated": 28,
   "dead": 1,
-  "alive": 26,
+  "alive": 27,
   "death_rate": 4,
-  "unknown": 10
+  "unknown": 9
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -911,11 +911,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
