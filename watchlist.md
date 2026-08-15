@@ -412,6 +412,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@gumsays]] | main | 65438 | 中 |
 | [[@DimitriDotEth]] | main | 64562 | 中 |
 | [[@CryptoDevinL]] | cn | 89436 | 中 |
+| [[@izebel_eth]] | main | 59745 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
