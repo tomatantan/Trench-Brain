@@ -173,20 +173,20 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 8,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 8,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 4
  },
  "golocojp": {
   "handle": "golocojp",
