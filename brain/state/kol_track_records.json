@@ -800,6 +800,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "0xmagnolia": {
+  "handle": "0xmagnolia",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
  "kookcapitalllc": {
   "handle": "kookcapitalllc",
   "mentioned": 1,

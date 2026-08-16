@@ -297,6 +297,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Morpho | 13 | 32 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
+| @jessepollak | 12 | 36 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
@@ -304,21 +305,21 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @POTUS | 11 | 156 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
-| @jessepollak | 11 | 35 |
 | @justinsuntron | 11 | 28 |
 | @json1444 | 11 | 28 |
+| @heyibinance | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
 | @krakenfx | 11 | 15 |
 | @AskVenice | 10 | 56 |
 | @MINHxDYNASTY | 10 | 45 |
-| @heyibinance | 10 | 25 |
 | @haydenzadams | 10 | 23 |
 | @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
+| @okx | 10 | 12 |
 | @sunrise | 9 | 64 |
 | @sapijiju | 9 | 40 |
 | @virtuals_io | 9 | 39 |
@@ -336,13 +337,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @ThinkingUSD | 9 | 17 |
 | @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
-| @okx | 9 | 11 |
+| @stoolpresidente | 9 | 12 |
 | @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
 | @vydamo_ | 8 | 36 |
 | @Collector_Crypt | 8 | 34 |
 | @MissionGains | 8 | 26 |
-| @ika_xbt | 8 | 24 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -423,6 +423,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xmagnolia]] | cn | 65123 | 中 |
 | [[@jackduval]] | main | 44220 | 中 |
 | [[@cryptoleon]] | main | 43590 | 中 |
+| [[@liangfenxiaodao]] | cn | 60259 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
