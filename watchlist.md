@@ -424,6 +424,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@jackduval]] | main | 44220 | 中 |
 | [[@cryptoleon]] | main | 43590 | 中 |
 | [[@liangfenxiaodao]] | cn | 60259 | 中 |
+| [[@ieatjeets]] | main | 43526 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
