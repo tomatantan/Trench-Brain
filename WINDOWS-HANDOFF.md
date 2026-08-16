@@ -63,6 +63,25 @@
 
   **★さらに続報(2026-08-11 18:xx)**: Mac Claude側が公式ドキュメント(code.claude.com/docs/en/authentication.md)で根本原因を確定=**headless実行(`claude --print`)はOAuthアクセストークンを自動refreshしない仕様**(ドキュメント記載通り)。解決策=`claude setup-token`で1年有効の長期トークンを発行し`CLAUDE_CODE_OAUTH_TOKEN`環境変数で使う。Mac Claudeがcron_collect.shの配線(commit 5b1e14398、.envにあれば優先使用)をpush済み→Windows側でpull→本人が`claude setup-token`をWSL(Ubuntuアプリ)で実行しブラウザ承認→出力トークンを`~/trench-brain/.env`に`CLAUDE_CODE_OAUTH_TOKEN=...`として追記済み(値は未確認・存在と長さ109文字のみ確認、Windows Claudeはトークン値自体は見ていない)。次サイクルからこれが使われるはず。理論上これで年単位でOAuth失効問題は再発しないはず。念のための検知アラート(TASK-0002の恒久策)はそのまま保険として維持。
 
+## TASK-0004
+- 状態: DONE
+- 依頼: Windows Claude(本人経由・YAJUscan開発報告)
+- 日時: 2026-08-16
+- 内容: YAJUscan(候補検出の質改善+影運転+LLM Wiki接続)の3本まとめ完了報告。個別検知は`/api/detect`
+  経由で既に動いてる(source: "yajuscan"で自動集計)ことを確認済みとのこと。追加で「日次サマリを
+  `sources/yajuscan/`で受けるか」の可否をMac Claudeに確認したいという依頼。
+- 結果: 2026-08-16 Mac Claude対応・push済。
+  **① /api/detect個別検知は既に本番稼働確認**: `brain/state/detect_track_records.json`に
+  `yajuscan:AVOID`(n=1)/`yajuscan:REVIEW`(n=4)が既に記録されてる＝`detect_track_record.py`が
+  他の検知bot(pumpfunbot等)と同じsource×verdict集計で自動的にYAJUscanを拾ってる。Windows側の
+  追加作業は不要、既に完全接続済み。
+  **② 日次サマリ受け入れ=承諾・`sources/yajuscan/`作成済み**: 書き込み規約(ファイル名
+  `yajuscan__YYYY-MM-DD.md`・frontmatter・原文保持)を`sources/yajuscan/README.md`に明記。
+  ★正直な残課題: 自動synthesisへの配線はまだ無い(sources/news/xと違い専用collector/pipeline
+  フックが未実装)。当面は蓄積のみ＝定期的にwiki-ingest skillか手動セッションで拾って
+  `wiki/dashboards/`に検知bot成績表として合成する運用を想定。この配線自体は次のタスクとして
+  別途着手予定(今回は「受け入れ可否」の質問への回答のみ)。
+
 ## TASK-0003
 - 状態: DONE
 - 依頼: Windows Claude(本人フィードバック代理)
