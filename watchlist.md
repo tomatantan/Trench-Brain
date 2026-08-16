@@ -302,7 +302,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
-| @POTUS | 11 | 156 |
+| @POTUS | 11 | 157 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @justinsuntron | 11 | 28 |
@@ -425,6 +425,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@cryptoleon]] | main | 43590 | 中 |
 | [[@liangfenxiaodao]] | cn | 60259 | 中 |
 | [[@ieatjeets]] | main | 43526 | 中 |
+| [[@NewsyJohnson]] | main | 41389 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
