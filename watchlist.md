@@ -421,6 +421,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xBossman]] | main | 49422 | 中 |
 | [[@roboPBOC]] | main | 46493 | 中 |
 | [[@0xmagnolia]] | cn | 65123 | 中 |
+| [[@jackduval]] | main | 44220 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
