@@ -301,7 +301,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
-| @POTUS | 11 | 154 |
+| @POTUS | 11 | 156 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @jessepollak | 11 | 35 |
@@ -419,6 +419,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@wrld_sol]] | main | 50071 | 中 |
 | [[@Michael_Liu93]] | cn | 81205 | 中 |
 | [[@0xBossman]] | main | 49422 | 中 |
+| [[@roboPBOC]] | main | 46493 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
