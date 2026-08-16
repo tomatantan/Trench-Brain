@@ -426,9 +426,9 @@
   "handle": "poe_real69",
   "mentioned": 14,
   "evaluated": 12,
-  "dead": 1,
-  "alive": 11,
-  "death_rate": 8,
+  "dead": 2,
+  "alive": 10,
+  "death_rate": 17,
   "unknown": 2
  },
  "crediblecrypto": {
@@ -561,9 +561,9 @@
   "handle": "moonshot",
   "mentioned": 28,
   "evaluated": 23,
-  "dead": 0,
-  "alive": 23,
-  "death_rate": 0,
+  "dead": 1,
+  "alive": 22,
+  "death_rate": 4,
   "unknown": 5
  },
  "kyurukyurutrade": {
