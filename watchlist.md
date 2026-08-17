@@ -298,6 +298,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @jessepollak | 12 | 36 |
+| @heyibinance | 12 | 27 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
@@ -307,7 +308,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @artsch00lreject | 11 | 39 |
 | @justinsuntron | 11 | 28 |
 | @json1444 | 11 | 28 |
-| @heyibinance | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
 | @krakenfx | 11 | 15 |
@@ -429,6 +429,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@Unipioneer]] | cn | 52536 | 中 |
 | [[@0xSoju]] | main | 40169 | 中 |
 | [[@evee0x]] | main | 39439 | 中 |
+| [[@liping007]] | cn | 50179 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
