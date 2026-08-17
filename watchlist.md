@@ -329,8 +329,8 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @OnlyLJC | 9 | 24 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
+| @SolanaFloor | 9 | 20 |
 | @jito_sol | 9 | 19 |
-| @SolanaFloor | 9 | 19 |
 | @solanamobile | 9 | 18 |
 | @Banks | 9 | 18 |
 | @econoar | 9 | 17 |
@@ -428,6 +428,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@NewsyJohnson]] | main | 41389 | 中 |
 | [[@Unipioneer]] | cn | 52536 | 中 |
 | [[@0xSoju]] | main | 40169 | 中 |
+| [[@evee0x]] | main | 39439 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
