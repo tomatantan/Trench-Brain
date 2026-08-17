@@ -303,17 +303,17 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
-| @POTUS | 11 | 157 |
+| @POTUS | 11 | 159 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @justinsuntron | 11 | 28 |
 | @json1444 | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
+| @haydenzadams | 11 | 24 |
 | @krakenfx | 11 | 15 |
-| @AskVenice | 10 | 56 |
+| @AskVenice | 10 | 57 |
 | @MINHxDYNASTY | 10 | 45 |
-| @haydenzadams | 10 | 23 |
 | @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
@@ -430,6 +430,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xSoju]] | main | 40169 | 中 |
 | [[@evee0x]] | main | 39439 | 中 |
 | [[@liping007]] | cn | 50179 | 中 |
+| [[@Fapital3]] | main | 39215 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
