@@ -291,9 +291,9 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Pattyice | 17 | 25 |
 | @realDonaldTrump | 15 | 52 |
 | @JohannKerbrat | 15 | 40 |
+| @MeteoraAG | 14 | 172 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
-| @MeteoraAG | 13 | 125 |
 | @Morpho | 13 | 32 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
@@ -337,12 +337,12 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @ThinkingUSD | 9 | 17 |
 | @AvgJoesCrypto | 9 | 16 |
 | @DavidSacks | 9 | 15 |
+| @kashdhanda | 9 | 14 |
 | @stoolpresidente | 9 | 12 |
 | @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
 | @vydamo_ | 8 | 36 |
 | @Collector_Crypt | 8 | 34 |
-| @MissionGains | 8 | 26 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
