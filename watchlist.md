@@ -434,6 +434,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@clukz]] | main | 37859 | 中 |
 | [[@nine_DeFi]] | cn | 49358 | 中 |
 | [[@degengambleh]] | main | 36025 | 中 |
+| [[@miragemunny]] | main | 33319 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
