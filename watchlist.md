@@ -296,24 +296,24 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @heyibinance | 14 | 29 |
 | @SECGov | 14 | 21 |
 | @Morpho | 13 | 32 |
+| @BNBCHAIN | 13 | 21 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @jessepollak | 12 | 36 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
-| @BNBCHAIN | 12 | 20 |
 | @OpenAI | 12 | 19 |
+| @okx | 12 | 14 |
 | @POTUS | 11 | 159 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @json1444 | 11 | 29 |
 | @justinsuntron | 11 | 28 |
+| @haydenzadams | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
-| @haydenzadams | 11 | 25 |
 | @krakenfx | 11 | 15 |
-| @okx | 11 | 13 |
 | @AskVenice | 10 | 57 |
 | @MINHxDYNASTY | 10 | 45 |
 | @arbitrum | 10 | 17 |
@@ -435,6 +435,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@nine_DeFi]] | cn | 49358 | 中 |
 | [[@degengambleh]] | main | 36025 | 中 |
 | [[@miragemunny]] | main | 33319 | 中 |
+| [[@neso]] | cn | 45447 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

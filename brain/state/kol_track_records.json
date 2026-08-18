@@ -782,6 +782,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "nine_defi": {
+  "handle": "nine_defi",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
  "arkham": {
   "handle": "arkham",
   "mentioned": 1,
@@ -934,6 +943,15 @@
   "alive": 5,
   "death_rate": 0,
   "unknown": 0
+ },
+ "liping007": {
+  "handle": "liping007",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
