@@ -320,7 +320,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
-| @sunrise | 9 | 64 |
+| @sunrise | 9 | 65 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
 | @KobeissiLetter | 9 | 31 |
@@ -432,6 +432,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@liping007]] | cn | 50179 | 中 |
 | [[@Fapital3]] | main | 39215 | 中 |
 | [[@clukz]] | main | 37859 | 中 |
+| [[@nine_DeFi]] | cn | 49358 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
