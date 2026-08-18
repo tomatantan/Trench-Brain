@@ -293,15 +293,16 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @realDonaldTrump | 15 | 52 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
+| @heyibinance | 14 | 29 |
 | @SECGov | 14 | 21 |
 | @Morpho | 13 | 32 |
-| @heyibinance | 13 | 28 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @jessepollak | 12 | 36 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
+| @BNBCHAIN | 12 | 20 |
 | @OpenAI | 12 | 19 |
 | @POTUS | 11 | 159 |
 | @ponsdotfamily | 11 | 52 |
@@ -310,8 +311,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @justinsuntron | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
-| @haydenzadams | 11 | 24 |
-| @BNBCHAIN | 11 | 19 |
+| @haydenzadams | 11 | 25 |
 | @krakenfx | 11 | 15 |
 | @okx | 11 | 13 |
 | @AskVenice | 10 | 57 |
@@ -433,6 +433,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@Fapital3]] | main | 39215 | 中 |
 | [[@clukz]] | main | 37859 | 中 |
 | [[@nine_DeFi]] | cn | 49358 | 中 |
+| [[@degengambleh]] | main | 36025 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
