@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 710,
-  "dead": 545,
-  "alive": 165,
+  "dead": 547,
+  "alive": 163,
   "death_rate": 77,
   "unknown": 97
  },
@@ -757,12 +757,12 @@
  },
  "solana": {
   "handle": "solana",
-  "mentioned": 1,
+  "mentioned": 2,
   "evaluated": 0,
   "dead": 0,
   "alive": 0,
   "death_rate": null,
-  "unknown": 1
+  "unknown": 2
  },
  "pepecoineth": {
   "handle": "pepecoineth",
@@ -982,6 +982,15 @@
  },
  "notthreadguy": {
   "handle": "notthreadguy",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
+ },
+ "brc20niubi": {
+  "handle": "brc20niubi",
   "mentioned": 1,
   "evaluated": 1,
   "dead": 0,

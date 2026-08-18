@@ -283,22 +283,22 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 45 | 218 |
+| @fomo | 45 | 219 |
 | @vladtenev | 35 | 115 |
 | @RobinhoodCrypto | 35 | 93 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
 | @Pattyice | 17 | 25 |
+| @MeteoraAG | 15 | 173 |
 | @realDonaldTrump | 15 | 52 |
 | @JohannKerbrat | 15 | 40 |
-| @MeteoraAG | 14 | 172 |
 | @Lighter_xyz | 14 | 102 |
 | @SECGov | 14 | 21 |
 | @Morpho | 13 | 32 |
+| @heyibinance | 13 | 28 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @jessepollak | 12 | 36 |
-| @heyibinance | 12 | 27 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
@@ -306,27 +306,28 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @POTUS | 11 | 159 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
+| @json1444 | 11 | 29 |
 | @justinsuntron | 11 | 28 |
-| @json1444 | 11 | 28 |
 | @TradingTerminal | 11 | 26 |
 | @zinceth | 11 | 25 |
 | @haydenzadams | 11 | 24 |
+| @BNBCHAIN | 11 | 19 |
 | @krakenfx | 11 | 15 |
+| @okx | 11 | 13 |
 | @AskVenice | 10 | 57 |
 | @MINHxDYNASTY | 10 | 45 |
-| @BNBCHAIN | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
-| @okx | 10 | 12 |
 | @sunrise | 9 | 64 |
-| @sapijiju | 9 | 40 |
+| @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
 | @KobeissiLetter | 9 | 31 |
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
 | @OnlyLJC | 9 | 24 |
+| @based16z | 9 | 22 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
 | @SolanaFloor | 9 | 20 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @aibaldking | 8 | 128 |
 | @NEARProtocol | 8 | 62 |
 | @vydamo_ | 8 | 36 |
-| @Collector_Crypt | 8 | 34 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -431,6 +431,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@evee0x]] | main | 39439 | 中 |
 | [[@liping007]] | cn | 50179 | 中 |
 | [[@Fapital3]] | main | 39215 | 中 |
+| [[@clukz]] | main | 37859 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
