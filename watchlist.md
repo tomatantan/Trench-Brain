@@ -437,6 +437,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@miragemunny]] | main | 33319 | 中 |
 | [[@neso]] | cn | 45447 | 中 |
 | [[@roxinft]] | main | 32776 | 中 |
+| [[@0GAntD]] | main | 31500 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
