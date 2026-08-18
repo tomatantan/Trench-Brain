@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 709,
-  "dead": 547,
-  "alive": 162,
+  "dead": 548,
+  "alive": 161,
   "death_rate": 77,
   "unknown": 98
  },
@@ -785,11 +785,11 @@
  "nine_defi": {
   "handle": "nine_defi",
   "mentioned": 1,
-  "evaluated": 0,
-  "dead": 0,
+  "evaluated": 1,
+  "dead": 1,
   "alive": 0,
-  "death_rate": null,
-  "unknown": 1
+  "death_rate": 100,
+  "unknown": 0
  },
  "arkham": {
   "handle": "arkham",

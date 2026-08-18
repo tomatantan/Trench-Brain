@@ -283,7 +283,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 45 | 219 |
+| @fomo | 45 | 220 |
 | @vladtenev | 35 | 115 |
 | @RobinhoodCrypto | 35 | 93 |
 | @mdudas | 20 | 36 |
@@ -436,6 +436,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@degengambleh]] | main | 36025 | 中 |
 | [[@miragemunny]] | main | 33319 | 中 |
 | [[@neso]] | cn | 45447 | 中 |
+| [[@roxinft]] | main | 32776 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
