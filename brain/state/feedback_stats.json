@@ -1,36 +1,36 @@
 {
- "ts": "2026-08-19T08:34Z",
- "n": 7424,
- "dead": 6491,
- "pending": 933,
+ "ts": "2026-08-19T11:45Z",
+ "n": 7487,
+ "dead": 6555,
+ "pending": 932,
  "traction_with": {
-  "n": 373,
-  "dead": 297,
+  "n": 375,
+  "dead": 298,
   "pct": 79
  },
  "traction_without": {
-  "n": 7051,
-  "dead": 6194,
+  "n": 7112,
+  "dead": 6257,
   "pct": 87
  },
  "gate_graduated": {
-  "n": 6322,
-  "dead": 6142,
+  "n": 6377,
+  "dead": 6205,
   "pct": 97
  },
  "gate_mcap": {
-  "n": 889,
-  "dead": 200,
+  "n": 896,
+  "dead": 201,
   "pct": 22
  },
  "graduated_no_traction": {
-  "n": 6171,
-  "dead": 5992,
+  "n": 6225,
+  "dead": 6054,
   "pct": 97
  },
  "peak_below_10k": {
-  "n": 2813,
-  "dead": 2813,
+  "n": 2838,
+  "dead": 2838,
   "pct": 100
  }
 }

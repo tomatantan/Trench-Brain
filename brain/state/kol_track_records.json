@@ -577,12 +577,12 @@
  },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 31,
+  "mentioned": 32,
   "evaluated": 26,
   "dead": 1,
   "alive": 25,
   "death_rate": 4,
-  "unknown": 5
+  "unknown": 6
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
