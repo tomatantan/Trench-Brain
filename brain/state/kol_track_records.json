@@ -30,8 +30,8 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 711,
-  "dead": 552,
-  "alive": 159,
+  "dead": 553,
+  "alive": 158,
   "death_rate": 78,
   "unknown": 96
  },
@@ -578,11 +578,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 32,
-  "evaluated": 26,
+  "evaluated": 27,
   "dead": 1,
-  "alive": 25,
+  "alive": 26,
   "death_rate": 4,
-  "unknown": 6
+  "unknown": 5
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",

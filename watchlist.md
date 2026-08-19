@@ -441,6 +441,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@GCsheng]] | cn | 45240 | 中 |
 | [[@zinceth]] | main | 29992 | 中 |
 | [[@ChillTRD]] | main | 29799 | 中 |
+| [[@kaikaibtc]] | cn | 43850 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
