@@ -30,9 +30,9 @@
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 711,
-  "dead": 550,
-  "alive": 161,
-  "death_rate": 77,
+  "dead": 552,
+  "alive": 159,
+  "death_rate": 78,
   "unknown": 96
  },
  "itspyrored": {
@@ -344,11 +344,11 @@
  "jackduval": {
   "handle": "jackduval",
   "mentioned": 2,
-  "evaluated": 1,
-  "dead": 1,
+  "evaluated": 2,
+  "dead": 2,
   "alive": 0,
   "death_rate": 100,
-  "unknown": 1
+  "unknown": 0
  },
  "crypto_alch": {
   "handle": "crypto_alch",

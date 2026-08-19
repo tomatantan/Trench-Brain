@@ -312,7 +312,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @justinsuntron | 11 | 28 |
 | @haydenzadams | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
-| @zinceth | 11 | 25 |
 | @krakenfx | 11 | 15 |
 | @AskVenice | 10 | 60 |
 | @MINHxDYNASTY | 10 | 45 |
@@ -343,6 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @kashdhanda | 9 | 14 |
 | @stoolpresidente | 9 | 12 |
 | @beeple | 9 | 12 |
+| @finnbags | 9 | 11 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -440,6 +440,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0GAntD]] | main | 31500 | 中 |
 | [[@GCsheng]] | cn | 45240 | 中 |
 | [[@zinceth]] | main | 29992 | 中 |
+| [[@ChillTRD]] | main | 29799 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
