@@ -341,6 +341,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "jackduval": {
+  "handle": "jackduval",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 1
+ },
  "crypto_alch": {
   "handle": "crypto_alch",
   "mentioned": 12,
@@ -537,6 +546,15 @@
   "dead": 0,
   "alive": 0,
   "death_rate": null,
+  "unknown": 1
+ },
+ "robopboc": {
+  "handle": "robopboc",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
   "unknown": 1
  },
  "solidtradesz": {

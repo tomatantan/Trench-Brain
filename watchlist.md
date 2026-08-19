@@ -289,15 +289,15 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
 | @Pattyice | 17 | 25 |
-| @MeteoraAG | 15 | 174 |
+| @MeteoraAG | 16 | 175 |
 | @realDonaldTrump | 15 | 53 |
 | @JohannKerbrat | 15 | 40 |
+| @heyibinance | 15 | 30 |
 | @Lighter_xyz | 14 | 102 |
-| @heyibinance | 14 | 29 |
+| @BNBCHAIN | 14 | 22 |
 | @SECGov | 14 | 21 |
 | @jessepollak | 13 | 37 |
 | @Morpho | 13 | 32 |
-| @BNBCHAIN | 13 | 21 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 37 |
 | @CoinDesk | 12 | 27 |
@@ -316,6 +316,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @krakenfx | 11 | 15 |
 | @AskVenice | 10 | 60 |
 | @MINHxDYNASTY | 10 | 45 |
+| @LucaNetz | 10 | 26 |
 | @ThinkingUSD | 10 | 18 |
 | @arbitrum | 10 | 17 |
 | @_TJRTrades | 10 | 15 |
@@ -324,11 +325,11 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sunrise | 9 | 65 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
+| @JamesWynnReal | 9 | 35 |
 | @KobeissiLetter | 9 | 31 |
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
 | @OnlyLJC | 9 | 24 |
-| @LucaNetz | 9 | 23 |
 | @based16z | 9 | 22 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
@@ -341,8 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @DavidSacks | 9 | 15 |
 | @kashdhanda | 9 | 14 |
 | @stoolpresidente | 9 | 12 |
-| @Bybit_Official | 9 | 11 |
-| @aibaldking | 8 | 128 |
+| @beeple | 9 | 12 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -439,6 +439,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@roxinft]] | main | 32776 | 中 |
 | [[@0GAntD]] | main | 31500 | 中 |
 | [[@GCsheng]] | cn | 45240 | 中 |
+| [[@zinceth]] | main | 29992 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
