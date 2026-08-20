@@ -449,6 +449,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@CryptoTomYT]] | main | 27981 | 中 |
 | [[@luge517]] | cn | 41014 | 中 |
 | [[@real_y22]] | main | 26994 | 中 |
+| [[@iruletrenches]] | main | 26495 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
