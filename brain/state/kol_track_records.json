@@ -298,11 +298,11 @@
  },
  "mcglive": {
   "handle": "mcglive",
-  "mentioned": 37,
-  "evaluated": 28,
+  "mentioned": 38,
+  "evaluated": 29,
   "dead": 1,
-  "alive": 27,
-  "death_rate": 4,
+  "alive": 28,
+  "death_rate": 3,
   "unknown": 9
  },
  "ren_nevermind": {
@@ -566,6 +566,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "kaikaibtc": {
+  "handle": "kaikaibtc",
+  "mentioned": 3,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 2
+ },
  "thecaliber__": {
   "handle": "thecaliber__",
   "mentioned": 1,
@@ -577,12 +586,12 @@
  },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 32,
-  "evaluated": 27,
+  "mentioned": 35,
+  "evaluated": 28,
   "dead": 1,
-  "alive": 26,
+  "alive": 27,
   "death_rate": 4,
-  "unknown": 5
+  "unknown": 7
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
