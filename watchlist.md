@@ -288,9 +288,9 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @RobinhoodCrypto | 35 | 94 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
+| @realDonaldTrump | 17 | 55 |
 | @Pattyice | 17 | 25 |
 | @MeteoraAG | 16 | 177 |
-| @realDonaldTrump | 16 | 54 |
 | @heyibinance | 16 | 31 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
@@ -312,7 +312,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @justinsuntron | 11 | 28 |
 | @haydenzadams | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
-| @krakenfx | 11 | 15 |
+| @krakenfx | 11 | 16 |
 | @AskVenice | 10 | 61 |
 | @MINHxDYNASTY | 10 | 45 |
 | @LucaNetz | 10 | 26 |
@@ -448,6 +448,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@Bancrypto__]] | main | 29170 | 中 |
 | [[@CryptoTomYT]] | main | 27981 | 中 |
 | [[@luge517]] | cn | 41014 | 中 |
+| [[@real_y22]] | main | 26994 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
