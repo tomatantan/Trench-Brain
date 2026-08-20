@@ -569,11 +569,11 @@
  "kaikaibtc": {
   "handle": "kaikaibtc",
   "mentioned": 3,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "thecaliber__": {
   "handle": "thecaliber__",
