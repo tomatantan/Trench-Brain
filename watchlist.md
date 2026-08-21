@@ -305,7 +305,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
 | @okx | 12 | 14 |
-| @POTUS | 11 | 161 |
+| @POTUS | 11 | 164 |
 | @ponsdotfamily | 11 | 52 |
 | @artsch00lreject | 11 | 39 |
 | @json1444 | 11 | 29 |
@@ -450,6 +450,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@luge517]] | cn | 41014 | 中 |
 | [[@real_y22]] | main | 26994 | 中 |
 | [[@iruletrenches]] | main | 26495 | 中 |
+| [[@Mirro7777]] | cn | 39189 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
