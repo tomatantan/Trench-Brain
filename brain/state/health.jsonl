@@ -178,3 +178,4 @@
 {"ts": "2026-08-21T08:07Z", "corpus_ts": "2026-08-20T23:58Z", "raw_new": 61044, "signal_backlog": 4, "single_source": 17, "stale": 2374}
 {"ts": "2026-08-21T11:17Z", "corpus_ts": "2026-08-21T08:15Z", "raw_new": 61112, "signal_backlog": 6, "single_source": 14, "stale": 2375}
 {"ts": "2026-08-21T14:28Z", "corpus_ts": "2026-08-21T11:10Z", "raw_new": 61130, "signal_backlog": 5, "single_source": 14, "stale": 2376}
+{"ts": "2026-08-21T17:42Z", "corpus_ts": "2026-08-21T14:00Z", "raw_new": 61135, "signal_backlog": 5, "single_source": 14, "stale": 2376}
