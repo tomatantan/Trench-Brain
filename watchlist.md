@@ -283,7 +283,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
-| @fomo | 45 | 222 |
+| @fomo | 45 | 223 |
 | @vladtenev | 35 | 115 |
 | @RobinhoodCrypto | 35 | 94 |
 | @mdudas | 20 | 36 |
@@ -299,7 +299,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @jessepollak | 13 | 37 |
 | @Morpho | 13 | 32 |
 | @MarketBubble | 12 | 64 |
-| @jtx_trade | 12 | 37 |
+| @jtx_trade | 12 | 38 |
 | @CoinDesk | 12 | 27 |
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
@@ -321,7 +321,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
-| @sunrise | 9 | 67 |
+| @sunrise | 9 | 68 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
 | @JamesWynnReal | 9 | 35 |
@@ -339,8 +339,8 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Banks | 9 | 18 |
 | @econoar | 9 | 17 |
 | @AvgJoesCrypto | 9 | 16 |
+| @kashdhanda | 9 | 15 |
 | @DavidSacks | 9 | 15 |
-| @kashdhanda | 9 | 14 |
 | @stoolpresidente | 9 | 12 |
 | @beeple | 9 | 12 |
 <!-- auto-candidates:end -->
