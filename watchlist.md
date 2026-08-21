@@ -451,6 +451,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@real_y22]] | main | 26994 | 中 |
 | [[@iruletrenches]] | main | 26495 | 中 |
 | [[@Mirro7777]] | cn | 39189 | 中 |
+| [[@BeanzzSOL]] | main | 26457 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
