@@ -459,6 +459,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xdetweiler]] | main | 23040 | 中 |
 | [[@Catolicc]] | main | 22700 | 中 |
 | [[@0xNoNo_1]] | cn | 33577 | 中 |
+| [[@cryptokillua99]] | main | 22514 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

@@ -29,11 +29,11 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 17,
+  "evaluated": 19,
   "dead": 8,
-  "alive": 9,
-  "death_rate": 47,
-  "unknown": 11
+  "alive": 11,
+  "death_rate": 42,
+  "unknown": 9
  },
  "badattrading_": {
   "handle": "badattrading_",
@@ -542,11 +542,11 @@
  "crypticd22": {
   "handle": "crypticd22",
   "mentioned": 1,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "buffalu__": {
   "handle": "buffalu__",
@@ -1001,11 +1001,11 @@
  "superl9": {
   "handle": "superl9",
   "mentioned": 3,
-  "evaluated": 0,
-  "dead": 0,
+  "evaluated": 1,
+  "dead": 1,
   "alive": 0,
-  "death_rate": null,
-  "unknown": 3
+  "death_rate": 100,
+  "unknown": 2
  },
  "rajgokal": {
   "handle": "rajgokal",
