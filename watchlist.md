@@ -289,9 +289,9 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
 | @realDonaldTrump | 17 | 55 |
+| @heyibinance | 17 | 32 |
 | @Pattyice | 17 | 25 |
 | @MeteoraAG | 16 | 177 |
-| @heyibinance | 16 | 31 |
 | @JohannKerbrat | 15 | 40 |
 | @Lighter_xyz | 14 | 102 |
 | @BNBCHAIN | 14 | 24 |
@@ -342,7 +342,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @kashdhanda | 9 | 15 |
 | @DavidSacks | 9 | 15 |
 | @stoolpresidente | 9 | 12 |
-| @beeple | 9 | 12 |
+| @binancezh | 9 | 12 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
