@@ -456,6 +456,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@bigbottle44]] | cn | 37819 | 中 |
 | [[@sonder_crypto]] | main | 25363 | 中 |
 | [[@SuperL9]] | cn | 34466 | 中 |
+| [[@0xdetweiler]] | main | 23040 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
