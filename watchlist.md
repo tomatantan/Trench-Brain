@@ -288,15 +288,15 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @RobinhoodCrypto | 35 | 94 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
-| @heyibinance | 18 | 38 |
+| @heyibinance | 19 | 43 |
 | @realDonaldTrump | 17 | 55 |
+| @BNBCHAIN | 17 | 29 |
 | @Pattyice | 17 | 25 |
 | @MeteoraAG | 16 | 177 |
 | @Lighter_xyz | 15 | 103 |
 | @JohannKerbrat | 15 | 40 |
-| @BNBCHAIN | 15 | 25 |
+| @jessepollak | 14 | 38 |
 | @SECGov | 14 | 21 |
-| @jessepollak | 13 | 37 |
 | @Morpho | 13 | 32 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 38 |
@@ -305,20 +305,21 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @daumenxyz | 12 | 26 |
 | @Cointelegraph | 12 | 24 |
 | @OpenAI | 12 | 19 |
+| @krakenfx | 12 | 18 |
 | @okx | 12 | 14 |
 | @POTUS | 11 | 165 |
 | @ponsdotfamily | 11 | 52 |
+| @MINHxDYNASTY | 11 | 46 |
 | @artsch00lreject | 11 | 39 |
 | @json1444 | 11 | 29 |
 | @haydenzadams | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
-| @krakenfx | 11 | 16 |
+| @binancezh | 11 | 17 |
+| @Bybit_Official | 11 | 13 |
 | @AskVenice | 10 | 61 |
-| @MINHxDYNASTY | 10 | 45 |
 | @LucaNetz | 10 | 26 |
 | @ThinkingUSD | 10 | 18 |
 | @arbitrum | 10 | 17 |
-| @binancezh | 10 | 15 |
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @AvgJoesCrypto | 9 | 16 |
 | @kashdhanda | 9 | 15 |
 | @DavidSacks | 9 | 15 |
-| @stoolpresidente | 9 | 12 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -458,6 +458,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@SuperL9]] | cn | 34466 | 中 |
 | [[@0xdetweiler]] | main | 23040 | 中 |
 | [[@Catolicc]] | main | 22700 | 中 |
+| [[@0xNoNo_1]] | cn | 33577 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

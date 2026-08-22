@@ -29,11 +29,11 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 12,
-  "dead": 6,
-  "alive": 6,
-  "death_rate": 50,
-  "unknown": 16
+  "evaluated": 17,
+  "dead": 8,
+  "alive": 9,
+  "death_rate": 47,
+  "unknown": 11
  },
  "badattrading_": {
   "handle": "badattrading_",
@@ -539,6 +539,15 @@
   "death_rate": null,
   "unknown": 9
  },
+ "crypticd22": {
+  "handle": "crypticd22",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
+ },
  "buffalu__": {
   "handle": "buffalu__",
   "mentioned": 1,
@@ -677,11 +686,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
  },
  "mirro7777": {
   "handle": "mirro7777",
@@ -691,6 +700,15 @@
   "alive": 3,
   "death_rate": 0,
   "unknown": 2
+ },
+ "bancrypto__": {
+  "handle": "bancrypto__",
+  "mentioned": 2,
+  "evaluated": 2,
+  "dead": 1,
+  "alive": 1,
+  "death_rate": 50,
+  "unknown": 0
  },
  "iconocl4sm_": {
   "handle": "iconocl4sm_",
@@ -863,6 +881,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "luge517": {
+  "handle": "luge517",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 1
+ },
  "farmercharts": {
   "handle": "farmercharts",
   "mentioned": 2,
@@ -1024,6 +1051,15 @@
   "alive": 0,
   "death_rate": 100,
   "unknown": 0
+ },
+ "cryptotomyt": {
+  "handle": "cryptotomyt",
+  "mentioned": 1,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
  },
  "seyong": {
   "handle": "seyong",
