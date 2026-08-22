@@ -29,19 +29,19 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 21,
-  "dead": 10,
+  "evaluated": 24,
+  "dead": 13,
   "alive": 11,
-  "death_rate": 48,
-  "unknown": 7
+  "death_rate": 54,
+  "unknown": 4
  },
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
   "evaluated": 710,
-  "dead": 557,
-  "alive": 153,
-  "death_rate": 78,
+  "dead": 558,
+  "alive": 152,
+  "death_rate": 79,
   "unknown": 97
  },
  "itspyrored": {
@@ -236,20 +236,20 @@
  "0xsweep": {
   "handle": "0xsweep",
   "mentioned": 8,
-  "evaluated": 7,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 7,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 14,
-  "evaluated": 10,
+  "evaluated": 11,
   "dead": 0,
-  "alive": 10,
+  "alive": 11,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 29,
+  "evaluated": 30,
   "dead": 1,
-  "alive": 28,
+  "alive": 29,
   "death_rate": 3,
-  "unknown": 9
+  "unknown": 8
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -614,11 +614,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 38,
-  "evaluated": 30,
+  "evaluated": 31,
   "dead": 1,
-  "alive": 29,
+  "alive": 30,
   "death_rate": 3,
-  "unknown": 8
+  "unknown": 7
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",

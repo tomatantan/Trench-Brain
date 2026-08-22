@@ -284,7 +284,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | 候補 | 言及したwatchlistアカ数 | 総言及 |
 |---|---|---|
 | @fomo | 45 | 223 |
-| @vladtenev | 35 | 115 |
+| @vladtenev | 35 | 116 |
 | @RobinhoodCrypto | 35 | 94 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
@@ -297,7 +297,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @JohannKerbrat | 15 | 40 |
 | @jessepollak | 14 | 38 |
 | @SECGov | 14 | 21 |
-| @Morpho | 13 | 32 |
+| @Morpho | 13 | 33 |
 | @MarketBubble | 12 | 64 |
 | @jtx_trade | 12 | 38 |
 | @justinsuntron | 12 | 29 |
@@ -323,7 +323,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @gr3gor14n | 10 | 13 |
-| @sunrise | 9 | 68 |
+| @sunrise | 9 | 69 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
 | @JamesWynnReal | 9 | 35 |
@@ -331,7 +331,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
 | @moonpay | 9 | 25 |
-| @OnlyLJC | 9 | 24 |
+| @OnlyLJC | 9 | 25 |
 | @based16z | 9 | 22 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
@@ -461,6 +461,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xNoNo_1]] | cn | 33577 | 中 |
 | [[@cryptokillua99]] | main | 22514 | 中 |
 | [[@funcry]] | main | 21542 | 中 |
+| [[@cryptojiuyi]] | cn | 27993 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
