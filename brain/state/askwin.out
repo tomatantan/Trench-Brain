@@ -336,3 +336,95 @@ ask tunnel 起動中...
 2026-07-10T06:19:23Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=a441ee8f-f505-4c78-9a49-1ec1a1625655 status=pass target=region2.v2.argotunnel.com
 2026-07-10T06:19:23Z INF precheck component="Cloudflare API" details="API is reachable" run_id=a441ee8f-f505-4c78-9a49-1ec1a1625655 status=pass target=api.cloudflare.com:443
 2026-07-10T06:19:23Z INF precheck complete hard_fail=false run_id=a441ee8f-f505-4c78-9a49-1ec1a1625655 suggested_protocol=quic
+ask_window: http://127.0.0.1:8791
+ask tunnel 起動中...
+2026-07-29T23:47:29Z INF Starting tunnel tunnelID=4228cdbb-b828-4d78-9223-0769dbc493c1
+2026-07-29T23:47:29Z INF Version 2026.6.1 (Checksum 5861a10a438fe8ddcfebb3b830f83966cbf193edafce0fe2eeb198fbae1f7a22)
+2026-07-29T23:47:29Z INF GOOS: linux, GOVersion: go1.26.4, GoArch: amd64
+2026-07-29T23:47:29Z INF Settings: map[config:/home/tomatantan/.cloudflared/config-ask.yml cred-file:/home/tomatantan/.cloudflared/4228cdbb-b828-4d78-9223-0769dbc493c1.json credentials-file:/home/tomatantan/.cloudflared/4228cdbb-b828-4d78-9223-0769dbc493c1.json no-autoupdate:true]
+2026-07-29T23:47:29Z INF Generated Connector ID: 0e0ad4ab-020b-4386-83d0-38b73a0029c5
+2026-07-29T23:47:30Z INF Initial protocol quic
+2026-07-29T23:47:30Z INF ICMP proxy will use 192.168.148.21 as source for IPv4
+2026-07-29T23:47:30Z INF ICMP proxy will use fe80::215:5dff:fe24:595c in zone eth0 as source for IPv6
+2026-07-29T23:47:30Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-07-29T23:47:30Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026/07/30 08:47:30 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-07-29T23:47:30Z INF ICMP proxy will use 192.168.148.21 as source for IPv4
+2026-07-29T23:47:30Z INF ICMP proxy will use fe80::215:5dff:fe24:595c in zone eth0 as source for IPv6
+2026-07-29T23:47:30Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-07-29T23:47:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-07-29T23:47:31Z INF Registered tunnel connection connIndex=0 connection=d11fd68a-57c5-47f1-aea1-dd08813d828a event=0 ip=198.41.200.233 location=nrt07 protocol=quic
+2026-07-29T23:47:31Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=198.41.192.57
+2026-07-29T23:47:31Z INF Registered tunnel connection connIndex=1 connection=af138fc4-03b0-44be-af82-2cfe9a5bcbc0 event=0 ip=198.41.192.57 location=nrt10 protocol=quic
+2026-07-29T23:47:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=198.41.192.67
+2026-07-29T23:47:32Z INF Registered tunnel connection connIndex=2 connection=5627aa5d-84f2-42d0-94f9-a1a588e79483 event=0 ip=198.41.192.67 location=nrt05 protocol=quic
+2026-07-29T23:47:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=198.41.200.63
+2026-07-29T23:47:33Z INF Registered tunnel connection connIndex=3 connection=9251d4d6-0d4d-48fe-afaf-892ac2e80acf event=0 ip=198.41.200.63 location=nrt15 protocol=quic
+2026-07-29T23:47:36Z INF +-------------------------------------------------------------------------------------+
+2026-07-29T23:47:36Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-07-29T23:47:36Z INF +-------------------------------------------------------------------------------------+
+2026-07-29T23:47:36Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-07-29T23:47:36Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-29T23:47:36Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-07-29T23:47:36Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-29T23:47:36Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-07-29T23:47:36Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-29T23:47:36Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-07-29T23:47:36Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-07-29T23:47:36Z INF |                                                                                     |
+2026-07-29T23:47:36Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-07-29T23:47:36Z INF +-------------------------------------------------------------------------------------+
+2026-07-29T23:47:36Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region1.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region2.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region1.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region2.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region1.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=region2.v2.argotunnel.com
+2026-07-29T23:47:36Z INF precheck component="Cloudflare API" details="API is reachable" run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c status=pass target=api.cloudflare.com:443
+2026-07-29T23:47:36Z INF precheck complete hard_fail=false run_id=9641e456-2fae-4b13-a0cf-3c3333ff9b5c suggested_protocol=quic
+ask_window: http://127.0.0.1:8791
+ask tunnel 起動中...
+2026-08-11T09:33:22Z INF Starting tunnel tunnelID=4228cdbb-b828-4d78-9223-0769dbc493c1
+2026-08-11T09:33:22Z INF Version 2026.6.1 (Checksum 5861a10a438fe8ddcfebb3b830f83966cbf193edafce0fe2eeb198fbae1f7a22)
+2026-08-11T09:33:22Z INF GOOS: linux, GOVersion: go1.26.4, GoArch: amd64
+2026-08-11T09:33:22Z INF Settings: map[config:/home/tomatantan/.cloudflared/config-ask.yml cred-file:/home/tomatantan/.cloudflared/4228cdbb-b828-4d78-9223-0769dbc493c1.json credentials-file:/home/tomatantan/.cloudflared/4228cdbb-b828-4d78-9223-0769dbc493c1.json no-autoupdate:true]
+2026-08-11T09:33:22Z INF Generated Connector ID: 13bf1d79-d342-4933-9873-419e8cf4615b
+2026-08-11T09:33:22Z INF Initial protocol quic
+2026-08-11T09:33:22Z INF ICMP proxy will use 192.168.148.21 as source for IPv4
+2026-08-11T09:33:22Z INF ICMP proxy will use fe80::215:5dff:fe15:cbc9 in zone eth0 as source for IPv6
+2026-08-11T09:33:22Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-08-11T09:33:22Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026/08/11 18:33:22 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-08-11T09:33:22Z INF ICMP proxy will use 192.168.148.21 as source for IPv4
+2026-08-11T09:33:22Z INF ICMP proxy will use fe80::215:5dff:fe15:cbc9 in zone eth0 as source for IPv6
+2026-08-11T09:33:22Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-08-11T09:33:22Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-08-11T09:33:22Z INF Registered tunnel connection connIndex=0 connection=210ccc65-29cf-4e2c-8a4d-7d8d0e81f1f3 event=0 ip=198.41.192.77 location=nrt05 protocol=quic
+2026-08-11T09:33:22Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=198.41.200.13
+2026-08-11T09:33:23Z INF Registered tunnel connection connIndex=1 connection=dd87a7c9-14a3-44ba-b3bc-745181b8d6a8 event=0 ip=198.41.200.13 location=nrt07 protocol=quic
+2026-08-11T09:33:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=198.41.200.113
+2026-08-11T09:33:24Z INF Registered tunnel connection connIndex=2 connection=886810b8-6284-4a56-95e2-200085ca8750 event=0 ip=198.41.200.113 location=nrt14 protocol=quic
+2026-08-11T09:33:24Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=198.41.192.57
+2026-08-11T09:33:24Z INF Registered tunnel connection connIndex=3 connection=15420f04-247f-4781-9c18-7ee0dc4a9147 event=0 ip=198.41.192.57 location=nrt05 protocol=quic
+2026-08-11T09:33:28Z INF +-------------------------------------------------------------------------------------+
+2026-08-11T09:33:28Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-08-11T09:33:28Z INF +-------------------------------------------------------------------------------------+
+2026-08-11T09:33:28Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-08-11T09:33:28Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-08-11T09:33:28Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-08-11T09:33:28Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-08-11T09:33:28Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-08-11T09:33:28Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-08-11T09:33:28Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-08-11T09:33:28Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-08-11T09:33:28Z INF |                                                                                     |
+2026-08-11T09:33:28Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-08-11T09:33:28Z INF +-------------------------------------------------------------------------------------+
+2026-08-11T09:33:28Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region1.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region2.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region1.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region2.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region1.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=region2.v2.argotunnel.com
+2026-08-11T09:33:28Z INF precheck component="Cloudflare API" details="API is reachable" run_id=447b438f-fe61-4f7e-9cea-269af0991300 status=pass target=api.cloudflare.com:443
+2026-08-11T09:33:28Z INF precheck complete hard_fail=false run_id=447b438f-fe61-4f7e-9cea-269af0991300 suggested_protocol=quic

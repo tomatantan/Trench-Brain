@@ -29,11 +29,11 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 19,
-  "dead": 8,
+  "evaluated": 21,
+  "dead": 10,
   "alive": 11,
-  "death_rate": 42,
-  "unknown": 9
+  "death_rate": 48,
+  "unknown": 7
  },
  "badattrading_": {
   "handle": "badattrading_",
@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 7,
+  "evaluated": 6,
   "dead": 2,
-  "alive": 5,
-  "death_rate": 29,
-  "unknown": 1
+  "alive": 4,
+  "death_rate": 33,
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
