@@ -668,20 +668,20 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "mirro7777": {
   "handle": "mirro7777",
   "mentioned": 5,
-  "evaluated": 2,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 2,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "iconocl4sm_": {
   "handle": "iconocl4sm_",
