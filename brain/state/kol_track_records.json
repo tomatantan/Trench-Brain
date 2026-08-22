@@ -26,6 +26,15 @@
   "death_rate": 100,
   "unknown": 0
  },
+ "catolicc": {
+  "handle": "catolicc",
+  "mentioned": 28,
+  "evaluated": 12,
+  "dead": 6,
+  "alive": 6,
+  "death_rate": 50,
+  "unknown": 16
+ },
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
@@ -595,12 +604,12 @@
  },
  "moonshot": {
   "handle": "moonshot",
-  "mentioned": 35,
-  "evaluated": 28,
+  "mentioned": 38,
+  "evaluated": 30,
   "dead": 1,
-  "alive": 27,
-  "death_rate": 4,
-  "unknown": 7
+  "alive": 29,
+  "death_rate": 3,
+  "unknown": 8
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
@@ -961,6 +970,15 @@
   "alive": 1,
   "death_rate": 0,
   "unknown": 0
+ },
+ "superl9": {
+  "handle": "superl9",
+  "mentioned": 3,
+  "evaluated": 0,
+  "dead": 0,
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 3
  },
  "rajgokal": {
   "handle": "rajgokal",
