@@ -465,6 +465,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@RainsRevenge]] | main | 21283 | 中 |
 | [[@DataC58218]] | main | 21147 | 中 |
 | [[@Huang2024]] | cn | 25483 | 中 |
+| [[@goyimpnl]] | main | 20394 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

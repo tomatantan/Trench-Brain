@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
@@ -578,11 +578,11 @@
  "datac58218": {
   "handle": "datac58218",
   "mentioned": 14,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 2,
-  "alive": 3,
-  "death_rate": 40,
-  "unknown": 9
+  "alive": 4,
+  "death_rate": 33,
+  "unknown": 8
  },
  "robopboc": {
   "handle": "robopboc",
