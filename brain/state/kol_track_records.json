@@ -964,11 +964,11 @@
  },
  "mexc": {
   "handle": "mexc",
-  "mentioned": 3,
-  "evaluated": 3,
+  "mentioned": 5,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 2,
-  "death_rate": 33,
+  "alive": 4,
+  "death_rate": 20,
   "unknown": 0
  },
  "ametomuchi123": {

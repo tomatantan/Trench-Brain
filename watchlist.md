@@ -311,7 +311,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @ponsdotfamily | 11 | 52 |
 | @MINHxDYNASTY | 11 | 46 |
 | @artsch00lreject | 11 | 39 |
-| @json1444 | 11 | 29 |
+| @json1444 | 11 | 30 |
 | @haydenzadams | 11 | 26 |
 | @TradingTerminal | 11 | 26 |
 | @binancezh | 11 | 17 |
@@ -463,6 +463,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@funcry]] | main | 21542 | 中 |
 | [[@cryptojiuyi]] | cn | 27993 | 中 |
 | [[@RainsRevenge]] | main | 21283 | 中 |
+| [[@DataC58218]] | main | 21147 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
