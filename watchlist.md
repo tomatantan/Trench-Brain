@@ -286,16 +286,16 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @fomo | 45 | 223 |
 | @vladtenev | 35 | 116 |
 | @RobinhoodCrypto | 35 | 94 |
-| @heyibinance | 20 | 44 |
+| @heyibinance | 22 | 47 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
+| @BNBCHAIN | 18 | 30 |
 | @realDonaldTrump | 17 | 55 |
-| @BNBCHAIN | 17 | 29 |
 | @Pattyice | 17 | 25 |
 | @MeteoraAG | 16 | 177 |
 | @Lighter_xyz | 15 | 103 |
 | @JohannKerbrat | 15 | 40 |
-| @jessepollak | 14 | 38 |
+| @jessepollak | 15 | 39 |
 | @SECGov | 14 | 21 |
 | @okx | 14 | 18 |
 | @Morpho | 13 | 33 |
@@ -329,6 +329,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @sunrise | 9 | 69 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
+| @Collector_Crypt | 9 | 35 |
 | @KobeissiLetter | 9 | 31 |
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @solanamobile | 9 | 18 |
 | @Banks | 9 | 18 |
 | @econoar | 9 | 17 |
-| @AvgJoesCrypto | 9 | 16 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -466,6 +466,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@DataC58218]] | main | 21147 | 中 |
 | [[@Huang2024]] | cn | 25483 | 中 |
 | [[@goyimpnl]] | main | 20394 | 中 |
+| [[@AxisAce101]] | main | 20022 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
