@@ -317,6 +317,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @binancezh | 11 | 17 |
 | @Bybit_Official | 11 | 13 |
 | @AskVenice | 10 | 61 |
+| @JamesWynnReal | 10 | 46 |
 | @LucaNetz | 10 | 26 |
 | @ThinkingUSD | 10 | 18 |
 | @arbitrum | 10 | 17 |
@@ -324,10 +325,10 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @DegenerateNews | 10 | 15 |
 | @beeple | 10 | 14 |
 | @gr3gor14n | 10 | 13 |
+| @finnbags | 10 | 12 |
 | @sunrise | 9 | 69 |
 | @sapijiju | 9 | 41 |
 | @virtuals_io | 9 | 39 |
-| @JamesWynnReal | 9 | 35 |
 | @KobeissiLetter | 9 | 31 |
 | @PhoenixTrade | 9 | 27 |
 | @MEADGod | 9 | 27 |
@@ -342,7 +343,6 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @Banks | 9 | 18 |
 | @econoar | 9 | 17 |
 | @AvgJoesCrypto | 9 | 16 |
-| @kashdhanda | 9 | 15 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -464,6 +464,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@cryptojiuyi]] | cn | 27993 | 中 |
 | [[@RainsRevenge]] | main | 21283 | 中 |
 | [[@DataC58218]] | main | 21147 | 中 |
+| [[@Huang2024]] | cn | 25483 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

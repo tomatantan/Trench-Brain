@@ -575,6 +575,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "datac58218": {
+  "handle": "datac58218",
+  "mentioned": 14,
+  "evaluated": 5,
+  "dead": 2,
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 9
+ },
  "robopboc": {
   "handle": "robopboc",
   "mentioned": 2,
