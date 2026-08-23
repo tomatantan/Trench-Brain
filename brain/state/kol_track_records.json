@@ -29,11 +29,11 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 24,
+  "evaluated": 25,
   "dead": 13,
-  "alive": 11,
-  "death_rate": 54,
-  "unknown": 4
+  "alive": 12,
+  "death_rate": 52,
+  "unknown": 3
  },
  "badattrading_": {
   "handle": "badattrading_",

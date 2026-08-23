@@ -462,6 +462,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@cryptokillua99]] | main | 22514 | 中 |
 | [[@funcry]] | main | 21542 | 中 |
 | [[@cryptojiuyi]] | cn | 27993 | 中 |
+| [[@RainsRevenge]] | main | 21283 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
