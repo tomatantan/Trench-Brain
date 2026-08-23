@@ -683,6 +683,15 @@
   "death_rate": 0,
   "unknown": 0
  },
+ "0xnono_1": {
+  "handle": "0xnono_1",
+  "mentioned": 3,
+  "evaluated": 1,
+  "dead": 0,
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 2
+ },
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
@@ -908,6 +917,15 @@
   "death_rate": null,
   "unknown": 1
  },
+ "cryptokillua99": {
+  "handle": "cryptokillua99",
+  "mentioned": 2,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 1
+ },
  "kookcapitalllc": {
   "handle": "kookcapitalllc",
   "mentioned": 1,
@@ -915,6 +933,15 @@
   "dead": 0,
   "alive": 1,
   "death_rate": 0,
+  "unknown": 0
+ },
+ "cryptojiuyi": {
+  "handle": "cryptojiuyi",
+  "mentioned": 1,
+  "evaluated": 1,
+  "dead": 1,
+  "alive": 0,
+  "death_rate": 100,
   "unknown": 0
  },
  "nansen_ai": {
