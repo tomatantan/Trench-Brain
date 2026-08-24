@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 705,
+  "evaluated": 703,
   "dead": 558,
-  "alive": 147,
+  "alive": 145,
   "death_rate": 79,
-  "unknown": 102
+  "unknown": 104
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -200,11 +200,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 14,
+  "evaluated": 13,
   "dead": 4,
-  "alive": 10,
-  "death_rate": 29,
-  "unknown": 4
+  "alive": 9,
+  "death_rate": 31,
+  "unknown": 5
  },
  "_logjam": {
   "handle": "_logjam",
@@ -236,11 +236,11 @@
  "0xsweep": {
   "handle": "0xsweep",
   "mentioned": 8,
-  "evaluated": 8,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 8,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 3
  },
  "fibonacki": {
   "handle": "fibonacki",
@@ -299,11 +299,11 @@
  "cozypront": {
   "handle": "cozypront",
   "mentioned": 6,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 0,
-  "alive": 5,
+  "alive": 6,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "mcglive": {
   "handle": "mcglive",
@@ -398,11 +398,11 @@
  "spyzer": {
   "handle": "spyzer",
   "mentioned": 12,
-  "evaluated": 11,
+  "evaluated": 9,
   "dead": 2,
-  "alive": 9,
-  "death_rate": 18,
-  "unknown": 1
+  "alive": 7,
+  "death_rate": 22,
+  "unknown": 3
  },
  "memememhen": {
   "handle": "memememhen",
@@ -434,20 +434,20 @@
  "wojakcto": {
   "handle": "wojakcto",
   "mentioned": 2,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "poe_real69": {
   "handle": "poe_real69",
   "mentioned": 14,
-  "evaluated": 11,
+  "evaluated": 12,
   "dead": 3,
-  "alive": 8,
-  "death_rate": 27,
-  "unknown": 3
+  "alive": 9,
+  "death_rate": 25,
+  "unknown": 2
  },
  "crediblecrypto": {
   "handle": "crediblecrypto",
@@ -506,11 +506,11 @@
  "tsuyuto6154": {
   "handle": "tsuyuto6154",
   "mentioned": 19,
-  "evaluated": 19,
+  "evaluated": 18,
   "dead": 9,
-  "alive": 10,
-  "death_rate": 47,
-  "unknown": 0
+  "alive": 9,
+  "death_rate": 50,
+  "unknown": 1
  },
  "cjwat5on": {
   "handle": "cjwat5on",
@@ -740,11 +740,11 @@
  "monke_": {
   "handle": "monke_",
   "mentioned": 2,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "cookerflips": {
   "handle": "cookerflips",
@@ -803,11 +803,11 @@
  "ilyunow": {
   "handle": "ilyunow",
   "mentioned": 2,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "remusofmars": {
   "handle": "remusofmars",
@@ -839,11 +839,11 @@
  "chjokka": {
   "handle": "chjokka",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 3,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 2
  },
  "orangie": {
   "handle": "orangie",
@@ -866,11 +866,11 @@
  "pepecoineth": {
   "handle": "pepecoineth",
   "mentioned": 1,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 1
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 0
  },
  "nine_defi": {
   "handle": "nine_defi",
@@ -974,11 +974,11 @@
  "mexc": {
   "handle": "mexc",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 1
+  "alive": 4,
+  "death_rate": 20,
+  "unknown": 0
  },
  "ametomuchi123": {
   "handle": "ametomuchi123",
@@ -1064,11 +1064,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 3,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 3,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 0
  },
  "liping007": {
   "handle": "liping007",
