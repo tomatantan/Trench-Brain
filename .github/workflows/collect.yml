@@ -61,7 +61,11 @@ jobs:
             # auto = ハイブリッド梯子（syndication→graphql→(無料全滅時)twitterapi）
             python3 collector/collect.py --source auto --throttle 0.3
           fi
-        # exit 2（無料も有料も全滅＝真の収集ゼロ）でのみ job 失敗→下の notify 発火。
+        # exit 2（無料も有料も全滅＝真の収集ゼロ）/ exit 3（1/3超が失敗＝劣化）で job 失敗
+        #   → 下の notify 発火。
+        # ★2026-08-23: 以前は exit 2（全滅）だけが赤だったため、
+        #   errors=189/accounts=278（68%失敗）が **1週間 green のまま**続いた。
+        #   collect.py 側で「実行中に有料へ切替」と「部分失敗も非ゼロ終了」を入れた。
 
       - name: Collect news (broad RSS + ワンクッションfilter, $0/認証不要)
         continue-on-error: true  # 実験的追加(2026-07-30)。失敗してもX収集の成否には影響させない。

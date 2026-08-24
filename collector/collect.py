@@ -485,10 +485,28 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     total_new, total_skip, total_err = 0, 0, 0
 
+    # ★実行中フォールバック(2026-08-23)。
+    #   probe_backends は **1アカウントだけ**で経路の生死を決める。実測でこれが破綻した:
+    #     healthcheck: 「X収集が劣化してます(errors=189/accounts=278, backend=syndication)」
+    #   = probe は通ったが本番では 68% が失敗。梯子は probe が通った時点で固定されるので、
+    #   **残りの経路(有料 twitterapi)には一生切り替わらない**。
+    #   さらに下の exit 2 は `total_err == len(handles)`(全滅)でしか発火しないので、
+    #   68%失敗は **green のまま**通っていた。部分失敗が成功に見える典型。
+    #   → 最初の PROBE_N 件でエラー率が閾値を超えたら、残りを有料経路に切り替える。
+    FALLBACK_AFTER = 20          # この件数を処理した時点で判定
+    FALLBACK_ERR_RATE = 0.5      # エラー率がこれを超えたら切替
+    switched = False
+
     for i, h in enumerate(handles):
         if i > 0:
             # jitter=機械的リズムを崩す(free経路のban/429対策)
             time.sleep(args.throttle * (0.7 + 0.6 * random.random()))
+        # 実行中フォールバックの判定(1回だけ)
+        if (not switched and source != "twitterapi" and i == FALLBACK_AFTER
+                and total_err / max(1, i) > FALLBACK_ERR_RATE and key):
+            print(f"★ {i}件中{total_err}件失敗(={total_err/i:.0%}) — 残りを有料 twitterapi に切替",
+                  file=sys.stderr)
+            source, switched = "twitterapi", True
         try:
             if source == "twitterapi":
                 tweets = fetch_twitterapi(h, key)
@@ -527,6 +545,15 @@ def main():
         print("★ 全アカウント fetch 失敗＝収集ゼロ。exit 2（silent fail させない）",
               file=sys.stderr)
         return 2
+    # ★部分失敗も green にしない(2026-08-23)。
+    #   実測で errors=189/accounts=278(68%)が **exit 0 = 緑**のまま1週間続いた。
+    #   「全滅なら赤」だけでは、**8割が落ちても静かな正常**に見える。
+    #   閾値は控えめに 1/3 —「たまたま数アカが落ちた」で赤くしない線。
+    DEGRADED_ERR_RATE = 1.0 / 3
+    if handles and total_err / len(handles) > DEGRADED_ERR_RATE:
+        print(f"★ {len(handles)}件中{total_err}件が fetch 失敗(={total_err/len(handles):.0%})＝収集が劣化。"
+              f"exit 3（部分失敗を green にしない）", file=sys.stderr)
+        return 3
     return 0
 
 
