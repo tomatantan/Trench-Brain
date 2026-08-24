@@ -286,7 +286,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @fomo | 45 | 223 |
 | @vladtenev | 35 | 116 |
 | @RobinhoodCrypto | 35 | 94 |
-| @heyibinance | 22 | 47 |
+| @heyibinance | 23 | 48 |
 | @mdudas | 20 | 36 |
 | @rasmr_eth | 19 | 49 |
 | @BNBCHAIN | 18 | 30 |
@@ -324,6 +324,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @_TJRTrades | 10 | 15 |
 | @DegenerateNews | 10 | 15 |
 | @beeple | 10 | 14 |
+| @star_okx | 10 | 13 |
 | @gr3gor14n | 10 | 13 |
 | @finnbags | 10 | 12 |
 | @sunrise | 9 | 69 |
@@ -335,14 +336,13 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | @MEADGod | 9 | 27 |
 | @moonpay | 9 | 25 |
 | @OnlyLJC | 9 | 25 |
+| @Aster_DEX | 9 | 25 |
 | @based16z | 9 | 22 |
 | @RebeccaRettig1 | 9 | 22 |
 | @OndoFinance | 9 | 21 |
 | @SolanaFloor | 9 | 20 |
 | @jito_sol | 9 | 19 |
 | @solanamobile | 9 | 18 |
-| @Banks | 9 | 18 |
-| @econoar | 9 | 17 |
 <!-- auto-candidates:end -->
 
 ## spyzer情報網（本人承認 2026-07-06・収集ON）
@@ -470,6 +470,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@3ethtomoon]] | cn | 24795 | 中 |
 | [[@xydotdot]] | main | 19312 | 中 |
 | [[@winiam4444]] | main | 17229 | 中 |
+| [[@minglaugodel]] | cn | 24696 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
