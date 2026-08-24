@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 710,
+  "evaluated": 708,
   "dead": 558,
-  "alive": 152,
+  "alive": 150,
   "death_rate": 79,
-  "unknown": 97
+  "unknown": 99
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -56,11 +56,11 @@
  "_shadow36": {
   "handle": "_shadow36",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 1,
-  "alive": 4,
-  "death_rate": 20,
-  "unknown": 0
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 1
  },
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
@@ -200,11 +200,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 15,
+  "evaluated": 14,
   "dead": 4,
-  "alive": 11,
-  "death_rate": 27,
-  "unknown": 3
+  "alive": 10,
+  "death_rate": 29,
+  "unknown": 4
  },
  "_logjam": {
   "handle": "_logjam",
@@ -245,11 +245,11 @@
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 14,
-  "evaluated": 11,
+  "evaluated": 10,
   "dead": 0,
-  "alive": 11,
+  "alive": 10,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 4
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -299,20 +299,20 @@
  "cozypront": {
   "handle": "cozypront",
   "mentioned": 6,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 6,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 30,
+  "evaluated": 28,
   "dead": 1,
-  "alive": 29,
-  "death_rate": 3,
-  "unknown": 8
+  "alive": 27,
+  "death_rate": 4,
+  "unknown": 10
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -443,11 +443,11 @@
  "poe_real69": {
   "handle": "poe_real69",
   "mentioned": 14,
-  "evaluated": 12,
+  "evaluated": 11,
   "dead": 3,
-  "alive": 9,
-  "death_rate": 25,
-  "unknown": 2
+  "alive": 8,
+  "death_rate": 27,
+  "unknown": 3
  },
  "crediblecrypto": {
   "handle": "crediblecrypto",
@@ -866,11 +866,11 @@
  "pepecoineth": {
   "handle": "pepecoineth",
   "mentioned": 1,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 0
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 1
  },
  "nine_defi": {
   "handle": "nine_defi",
@@ -974,11 +974,11 @@
  "mexc": {
   "handle": "mexc",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 1,
-  "alive": 4,
-  "death_rate": 20,
-  "unknown": 0
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 1
  },
  "ametomuchi123": {
   "handle": "ametomuchi123",
@@ -1064,11 +1064,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 5,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 2
  },
  "liping007": {
   "handle": "liping007",
