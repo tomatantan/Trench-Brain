@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 708,
+  "evaluated": 705,
   "dead": 558,
-  "alive": 150,
+  "alive": 147,
   "death_rate": 79,
-  "unknown": 99
+  "unknown": 102
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -56,11 +56,11 @@
  "_shadow36": {
   "handle": "_shadow36",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 3,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 1
+  "alive": 2,
+  "death_rate": 33,
+  "unknown": 2
  },
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
@@ -92,11 +92,11 @@
  "larpvontrier": {
   "handle": "larpvontrier",
   "mentioned": 7,
-  "evaluated": 4,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 4,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 4
  },
  "solbrdl": {
   "handle": "solbrdl",
@@ -362,11 +362,11 @@
  "crypto_alch": {
   "handle": "crypto_alch",
   "mentioned": 12,
-  "evaluated": 10,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 10,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 3
  },
  "minnus": {
   "handle": "minnus",
@@ -623,11 +623,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 38,
-  "evaluated": 31,
+  "evaluated": 32,
   "dead": 1,
-  "alive": 30,
+  "alive": 31,
   "death_rate": 3,
-  "unknown": 7
+  "unknown": 6
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
@@ -713,11 +713,11 @@
  "mirro7777": {
   "handle": "mirro7777",
   "mentioned": 5,
-  "evaluated": 3,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 3,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 3
  },
  "bancrypto__": {
   "handle": "bancrypto__",
@@ -749,11 +749,11 @@
  "cookerflips": {
   "handle": "cookerflips",
   "mentioned": 6,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 1,
-  "alive": 4,
-  "death_rate": 20,
-  "unknown": 1
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 2
  },
  "shawmakesmagic": {
   "handle": "shawmakesmagic",
@@ -1073,11 +1073,11 @@
  "liping007": {
   "handle": "liping007",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
