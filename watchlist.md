@@ -469,6 +469,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@AxisAce101]] | main | 20022 | 中 |
 | [[@3ethtomoon]] | cn | 24795 | 中 |
 | [[@xydotdot]] | main | 19312 | 中 |
+| [[@winiam4444]] | main | 17229 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
