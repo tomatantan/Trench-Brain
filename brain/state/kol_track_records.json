@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 703,
+  "evaluated": 704,
   "dead": 558,
-  "alive": 145,
+  "alive": 146,
   "death_rate": 79,
-  "unknown": 104
+  "unknown": 103
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -92,11 +92,11 @@
  "larpvontrier": {
   "handle": "larpvontrier",
   "mentioned": 7,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "solbrdl": {
   "handle": "solbrdl",
@@ -749,11 +749,11 @@
  "cookerflips": {
   "handle": "cookerflips",
   "mentioned": 6,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 2
+  "alive": 4,
+  "death_rate": 20,
+  "unknown": 1
  },
  "shawmakesmagic": {
   "handle": "shawmakesmagic",
@@ -1073,11 +1073,11 @@
  "liping007": {
   "handle": "liping007",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
  },
  "wizardofsoho": {
   "handle": "wizardofsoho",
