@@ -478,6 +478,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@AlphaHunte19762]] | main | 11560 | 中 |
 | [[@HtrZac]] | cn | 21731 | 中 |
 | [[@AceAgain_]] | main | 11391 | 中 |
+| [[@dylansdegens]] | main | 10118 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

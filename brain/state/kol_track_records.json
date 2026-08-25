@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 708,
+  "evaluated": 709,
   "dead": 558,
-  "alive": 150,
+  "alive": 151,
   "death_rate": 79,
-  "unknown": 99
+  "unknown": 98
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
@@ -434,11 +434,11 @@
  "wojakcto": {
   "handle": "wojakcto",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "poe_real69": {
   "handle": "poe_real69",
@@ -506,11 +506,11 @@
  "tsuyuto6154": {
   "handle": "tsuyuto6154",
   "mentioned": 19,
-  "evaluated": 18,
+  "evaluated": 19,
   "dead": 9,
-  "alive": 9,
-  "death_rate": 50,
-  "unknown": 1
+  "alive": 10,
+  "death_rate": 47,
+  "unknown": 0
  },
  "cjwat5on": {
   "handle": "cjwat5on",
@@ -740,11 +740,11 @@
  "monke_": {
   "handle": "monke_",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "cookerflips": {
   "handle": "cookerflips",
