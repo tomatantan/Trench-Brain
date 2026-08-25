@@ -482,6 +482,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@0xEdwin999]] | cn | 13738 | 中 |
 | [[@solvenant]] | main | 9892 | 中 |
 | [[@0xHeroSt]] | main | 9386 | 中 |
+| [[@real_dr_pump]] | cn | 10871 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
