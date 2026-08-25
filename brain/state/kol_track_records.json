@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 709,
+  "evaluated": 711,
   "dead": 558,
-  "alive": 151,
-  "death_rate": 79,
-  "unknown": 98
+  "alive": 153,
+  "death_rate": 78,
+  "unknown": 96
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -56,11 +56,11 @@
  "_shadow36": {
   "handle": "_shadow36",
   "mentioned": 5,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 1
+  "alive": 4,
+  "death_rate": 20,
+  "unknown": 0
  },
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
@@ -200,11 +200,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 13,
+  "evaluated": 14,
   "dead": 4,
-  "alive": 9,
-  "death_rate": 31,
-  "unknown": 5
+  "alive": 10,
+  "death_rate": 29,
+  "unknown": 4
  },
  "_logjam": {
   "handle": "_logjam",
@@ -236,11 +236,11 @@
  "0xsweep": {
   "handle": "0xsweep",
   "mentioned": 8,
-  "evaluated": 7,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 7,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "fibonacki": {
   "handle": "fibonacki",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 29,
+  "evaluated": 30,
   "dead": 1,
-  "alive": 28,
+  "alive": 29,
   "death_rate": 3,
-  "unknown": 9
+  "unknown": 8
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
