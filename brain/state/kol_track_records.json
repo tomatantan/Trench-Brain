@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 704,
+  "evaluated": 708,
   "dead": 558,
-  "alive": 146,
+  "alive": 150,
   "death_rate": 79,
-  "unknown": 103
+  "unknown": 99
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -56,11 +56,11 @@
  "_shadow36": {
   "handle": "_shadow36",
   "mentioned": 5,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 1,
-  "alive": 2,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 1
  },
  "jzbookp9ca": {
   "handle": "jzbookp9ca",
@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 5,
+  "evaluated": 6,
   "dead": 2,
-  "alive": 3,
-  "death_rate": 40,
-  "unknown": 3
+  "alive": 4,
+  "death_rate": 33,
+  "unknown": 2
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -236,20 +236,20 @@
  "0xsweep": {
   "handle": "0xsweep",
   "mentioned": 8,
-  "evaluated": 5,
+  "evaluated": 7,
   "dead": 0,
-  "alive": 5,
+  "alive": 7,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 1
  },
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 14,
-  "evaluated": 10,
+  "evaluated": 11,
   "dead": 0,
-  "alive": 10,
+  "alive": 11,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 28,
+  "evaluated": 29,
   "dead": 1,
-  "alive": 27,
-  "death_rate": 4,
-  "unknown": 10
+  "alive": 28,
+  "death_rate": 3,
+  "unknown": 9
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -398,11 +398,11 @@
  "spyzer": {
   "handle": "spyzer",
   "mentioned": 12,
-  "evaluated": 9,
+  "evaluated": 10,
   "dead": 2,
-  "alive": 7,
-  "death_rate": 22,
-  "unknown": 3
+  "alive": 8,
+  "death_rate": 20,
+  "unknown": 2
  },
  "memememhen": {
   "handle": "memememhen",
@@ -713,11 +713,11 @@
  "mirro7777": {
   "handle": "mirro7777",
   "mentioned": 5,
-  "evaluated": 2,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 2,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "bancrypto__": {
   "handle": "bancrypto__",
@@ -839,11 +839,11 @@
  "chjokka": {
   "handle": "chjokka",
   "mentioned": 4,
-  "evaluated": 2,
+  "evaluated": 3,
   "dead": 0,
-  "alive": 2,
+  "alive": 3,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "orangie": {
   "handle": "orangie",
