@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-25T11:47Z",
+ "ts": "2026-08-25T15:00Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -35,7 +35,7 @@
     },
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 9
+     "evaluated_now": 10
     }
    },
    "at_first_score": {
@@ -142,8 +142,8 @@
      "evaluated_now": 7
     },
     "golocojp": {
-     "death_rate_now": 29,
-     "evaluated_now": 14
+     "death_rate_now": 27,
+     "evaluated_now": 15
     }
    },
    "at_first_score": {
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 40345.62946975863
+     "mcap_now": 39907.58919063596
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 15125.4408070781,
+     "mcap_now": 14971.248210396636,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -534,7 +534,7 @@
    "kols": {
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 9
+     "evaluated_now": 10
     },
     "fibonacki": {
      "death_rate_now": 0,
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 18268.501865931088,
+     "mcap_now": 18114.79307022064,
      "ambiguous_candidates": 6
     }
    },
@@ -943,8 +943,8 @@
      "evaluated_now": 7
     },
     "golocojp": {
-     "death_rate_now": 29,
-     "evaluated_now": 14
+     "death_rate_now": 27,
+     "evaluated_now": 15
     }
    },
    "at_first_score": {
@@ -983,8 +983,8 @@
      "evaluated_now": 7
     },
     "golocojp": {
-     "death_rate_now": 29,
-     "evaluated_now": 14
+     "death_rate_now": 27,
+     "evaluated_now": 15
     }
    },
    "at_first_score": {

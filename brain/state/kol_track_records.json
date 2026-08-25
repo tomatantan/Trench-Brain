@@ -191,20 +191,20 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 8,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 8,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 4
  },
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 14,
+  "evaluated": 15,
   "dead": 4,
-  "alive": 10,
-  "death_rate": 29,
-  "unknown": 4
+  "alive": 11,
+  "death_rate": 27,
+  "unknown": 3
  },
  "_logjam": {
   "handle": "_logjam",
@@ -362,11 +362,11 @@
  "crypto_alch": {
   "handle": "crypto_alch",
   "mentioned": 12,
-  "evaluated": 9,
+  "evaluated": 10,
   "dead": 0,
-  "alive": 9,
+  "alive": 10,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "minnus": {
   "handle": "minnus",
@@ -398,11 +398,11 @@
  "spyzer": {
   "handle": "spyzer",
   "mentioned": 12,
-  "evaluated": 10,
+  "evaluated": 11,
   "dead": 2,
-  "alive": 8,
-  "death_rate": 20,
-  "unknown": 2
+  "alive": 9,
+  "death_rate": 18,
+  "unknown": 1
  },
  "memememhen": {
   "handle": "memememhen",
@@ -803,11 +803,11 @@
  "ilyunow": {
   "handle": "ilyunow",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "remusofmars": {
   "handle": "remusofmars",
