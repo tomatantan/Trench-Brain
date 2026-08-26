@@ -479,11 +479,11 @@
  "bigbottle44": {
   "handle": "bigbottle44",
   "mentioned": 3,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 3
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 2
  },
  "zachxbt": {
   "handle": "zachxbt",
