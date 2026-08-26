@@ -490,6 +490,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@Nic_Wenzel_1]] | main | 7330 | 中 |
 | [[@bitbellaa]] | main | 7212 | 中 |
 | [[@lesabrefomo]] | main | 6780 | 中 |
+| [[@supercontraa]] | main | 6690 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
