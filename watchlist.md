@@ -486,6 +486,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@amabinvesting]] | main | 8998 | 中 |
 | [[@jikksol]] | main | 8878 | 中 |
 | [[@DecentrlizOrDie]] | main | 8327 | 中 |
+| [[@BernieOnChain]] | main | 7767 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
