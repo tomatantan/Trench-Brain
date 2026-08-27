@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 710,
+  "evaluated": 714,
   "dead": 562,
-  "alive": 148,
+  "alive": 152,
   "death_rate": 79,
-  "unknown": 97
+  "unknown": 93
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -245,11 +245,11 @@
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 14,
-  "evaluated": 11,
+  "evaluated": 12,
   "dead": 0,
-  "alive": 11,
+  "alive": 12,
   "death_rate": 0,
-  "unknown": 3
+  "unknown": 2
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 30,
+  "evaluated": 31,
   "dead": 1,
-  "alive": 29,
+  "alive": 30,
   "death_rate": 3,
-  "unknown": 8
+  "unknown": 7
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -839,11 +839,11 @@
  "chjokka": {
   "handle": "chjokka",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 3,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "orangie": {
   "handle": "orangie",
