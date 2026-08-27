@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
@@ -704,11 +704,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "mirro7777": {
   "handle": "mirro7777",
