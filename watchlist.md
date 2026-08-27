@@ -494,6 +494,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@leyten]] | main | 6683 | 中 |
 | [[@thokani]] | main | 6163 | 中 |
 | [[@DineroDom0]] | main | 5805 | 中 |
+| [[@feikuu]] | main | 5249 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
