@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-27T18:21Z",
+ "ts": "2026-08-27T21:34Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 43918.09976070293
+     "mcap_now": 44054.29111508968
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 16423.691240250242,
+     "mcap_now": 16588.6726803294,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -538,7 +538,7 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 12
+     "evaluated_now": 13
     },
     "ren_nevermind": {
      "death_rate_now": 0,
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 19997.8171654121,
+     "mcap_now": 20036.07328223116,
      "ambiguous_candidates": 6
     }
    },
@@ -1017,11 +1017,11 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 12
+     "evaluated_now": 13
     },
     "mcglive": {
      "death_rate_now": 3,
-     "evaluated_now": 31
+     "evaluated_now": 32
     },
     "shahh": {
      "death_rate_now": 0,
