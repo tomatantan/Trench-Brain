@@ -12,9 +12,9 @@
   "handle": "senshineo7",
   "mentioned": 11,
   "evaluated": 9,
-  "dead": 3,
-  "alive": 6,
-  "death_rate": 33,
+  "dead": 4,
+  "alive": 5,
+  "death_rate": 44,
   "unknown": 2
  },
  "jpy_to_crypto": {
@@ -138,9 +138,9 @@
   "handle": "senshineo777",
   "mentioned": 4,
   "evaluated": 3,
-  "dead": 0,
-  "alive": 3,
-  "death_rate": 0,
+  "dead": 1,
+  "alive": 2,
+  "death_rate": 33,
   "unknown": 1
  },
  "shahh": {
