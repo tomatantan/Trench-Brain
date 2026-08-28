@@ -501,6 +501,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@J_Dood_]] | main | 3933 | 中 |
 | [[@0xx_Hammy]] | main | 2665 | 中 |
 | [[@CryptoCaptic]] | main | 2417 | 中 |
+| [[@rynzoeth]] | main | 741 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |

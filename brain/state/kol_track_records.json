@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
@@ -704,11 +704,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "mirro7777": {
   "handle": "mirro7777",
