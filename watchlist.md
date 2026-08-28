@@ -503,6 +503,7 @@ watchlist の **2アカ以上**が言及した未収集アカ＝門に足す候�
 | [[@CryptoCaptic]] | main | 2417 | 中 |
 | [[@rynzoeth]] | main | 741 | 中 |
 | [[@zer0profit_]] | main | 454 | 中 |
+| [[@sippin_icm]] | main | 432 | 中 |
 
 ## 本人指名（2026-07-12・理解→収集の門=onboarding profile作成済）
 | handle | メモ | weight |
