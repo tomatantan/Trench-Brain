@@ -153,7 +153,20 @@ def tier(item: dict) -> str:
     m = metrics_of(item)
     tw, web = bool(m.get("twitter")), bool(m.get("website"))
     rep = m.get("reply_count") or 0
-    if has_kol(item) or bool(m.get("tokenized_agent")) or rep > 0 or (tw and web) or real_sol_of(item) >= 20:
+    # ★A層をさらに絞った(2026-08-30、実際に60件書かせてから)。
+    #   最初は「twitterとwebsiteの両方あり」もA(LLMで厚く)に入れていたが、
+    #   出てきた文章が全部これだった:
+    #     「◯◯はミームコインとして始まったが、マーケットキャップが◯◯ドルにまで
+    #       縮小し、活動の停止を示唆している。SNSでの反応も乏しく…」
+    #   銘柄が変わっても中身が変わらない。**区別する情報がそもそも無い**からで、
+    #   モデルを替えても解決しない(qwen2.5:14bで確認)。おまけに
+    #   「マーケットキャピタルIZATION」のような壊れた語も混ざる。
+    #   同じことはテンプレのstubが言えるし、そちらは語が壊れない。
+    #   → LLMは**事実に差がある物にだけ使う**: KOL言及 / AIエージェント /
+    #      人が反応した(reply>0) / 実SOLが入った(>=20)。
+    #   実測: 1,648件 → 366件(内訳 real_sol 361 / KOL 7 / reply 0 / agent 0)。
+    #   ★「両方SNSあり」がAを1,282件も膨らませていた = 捨てリンクが多い。
+    if has_kol(item) or bool(m.get("tokenized_agent")) or rep > 0 or real_sol_of(item) >= 20:
         return "A"
     if tw or web or real_sol_of(item) > 0:
         return "B"
@@ -161,30 +174,38 @@ def tier(item: dict) -> str:
 
 
 # ── LLM ────────────────────────────────────────────────────────────────
-PROMPT = """あなたは Trench-Brain の合成担当。Solanaのミームコインを1件、事実だけから短く評価する。
+PROMPT = """あなたは Trench-Brain の合成担当。Solanaのミームコインを1件、**与えられた事実だけ**から短く評価する。
 
 出力は**JSONのみ**。前置き・説明・コードフェンス禁止。形式:
-{"synthesis": "<日本語2-4文>", "ledger_note": "<日本語1文・型>", "concepts": ["launchpad-economics", ...]}
+{"synthesis": "<日本語2-4文>", "ledger_note": "<日本語1文>", "concepts": ["..."]}
 
-synthesis の書き方:
-- **観測**(名前/SNS/mcap/gateなどの事実)と**判断**(そこから何が言えるか)を分けて書く
-- 断定できないことは断定しない。根拠の無い物語を作らない
-- 数字は与えられたものだけ使う。無い数字を書かない
-- **peak_mcap は未検証**(収集側の異常値が混ざっている)。断定に使わず、触れるなら「記録上」と書く
-- 2-4文。薄い銘柄は2文でよい
+■ 絶対の規則(破ったら無価値)
+- **事実欄と矛盾することを書かない。** twitter/website に URL があるなら
+  「SNS未整備」「social無し」とは書けない。null の時だけ未整備と書く
+- synthesis と ledger_note が**互いに矛盾しない**こと
+- 与えられていない数字・出来事・人物を出さない
+- **peak_mcap は未検証**(収集側の異常値が混ざる)。断定に使わず、触れるなら「記録上」と書く
+- 「今後が注目される」「可能性がある」だけの文は書かない。**事実か、事実から言えることだけ**
 
-ledger_note の書き方:
-- 台帳の「型」列に入る**1文**。「何が見えていたか」の観測シグネチャを残す
-- 例: "social未整備×traction0のまま peak到達 → 有機需要ゼロの型"
-- 分類できなければ "型不明(情報不足)" と書く。無理に型を作らない
+■ synthesis(2-4文)
+観測(事実の要約)と判断(そこから言えること)を分ける。情報が薄い銘柄は2文でよい。
 
-concepts は次から該当するものだけ(1-3個):
-launchpad-economics(発射台の経済), rug-anatomy(rug/死の解剖),
-survivor-memes(生き残ったミーム), ai-memes(AIエージェント系), jp-meme-cluster(日本語圏)
+■ ledger_note(1文)
+台帳の「型」列。**この銘柄について**「死ぬ前/跳ぶ前に何が見えていたか」を日本語の文で書く。
+★「値をそのまま並べろ」とは言わない — 一度そう指示したら
+  `None → None → mcap枯れ($17) → 型不明` という生の値の羅列を出してきた。
+  **文章として**書かせ、分類できなければ "型不明(情報不足)" とだけ書かせる方が良い。
+無理に型を作らない。
+
+■ concepts(1-3個・該当するものだけ)
+launchpad-economics … 発射台の経済。ほぼ全銘柄に該当する土台
+rug-anatomy        … rug/死の解剖。死んだ・抜かれた銘柄
+survivor-memes     … **実際に生き残った**ミームだけ。新規/死亡銘柄には付けない
+ai-memes           … tokenized_agent が true の時だけ
+jp-meme-cluster    … 日本語圏の文脈がある時だけ
 
 事実:
 """
-
 
 def ask_llm(facts: str, url: str) -> dict | None:
     body = json.dumps(
@@ -390,9 +411,59 @@ def breakout_row(item: dict, note: str) -> str:
 
 
 # ── 本体 ───────────────────────────────────────────────────────────────
+LOCK = ROOT / "brain" / "state" / "synth_local.lock"
+
+
+def acquire_lock() -> bool:
+    """多重起動を構造的に拒否する(2026-08-30、実際に踏んでから足した)。
+
+    実障害: 前のバッチが走っている最中に次を起動してしまい、**同じ台帳と同じキューに
+    2プロセスが read-modify-write** した。片方の読み込みが書き込み途中のファイルに当たり
+    `UnicodeDecodeError: unexpected end of data`。今回は無事だったが、
+    条件次第で台帳の行が消え、キューが巻き戻る(= 処理済みが復活する/未処理が消える)。
+    ★ファイル1本を丸ごと書き戻す設計なので、同時実行は必ず壊す。
+    """
+    try:
+        fd = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        try:
+            pid = int(LOCK.read_text().strip() or 0)
+        except (ValueError, OSError):
+            pid = 0
+        alive = False
+        if pid:
+            try:
+                os.kill(pid, 0)
+                alive = True
+            except (ProcessLookupError, PermissionError):
+                alive = pid and False
+        if alive:
+            log(f"既に別の合成が走っている(pid={pid}) — 何もしない")
+            return False
+        log(f"古いロックを掃除して続行(pid={pid} は居ない)")
+        try:
+            LOCK.unlink()
+        except OSError:
+            pass
+        return acquire_lock()
+    os.write(fd, str(os.getpid()).encode())
+    os.close(fd)
+    return True
+
+
+def release_lock() -> None:
+    try:
+        LOCK.unlink()
+    except OSError:
+        pass
+
+
 def main() -> int:
+    if not acquire_lock():
+        return 0
     if not QUEUE.exists():
         log("queue無し")
+        release_lock()
         return 0
     q = json.loads(QUEUE.read_text(encoding="utf-8"))
     kinds = [("deaths", "death"), ("changes", "change"), ("births", "birth")]
@@ -475,8 +546,13 @@ def main() -> int:
         tmp.replace(QUEUE)
 
     log(f"done: {summary}  (残り deaths={len(q.get('deaths', []))} changes={len(q.get('changes', []))} births={len(q.get('births', []))})")
+    release_lock()
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    finally:
+        # ★中断(Ctrl-C / kill)でもロックを残さない。残すと次回が永久に止まる。
+        release_lock()
