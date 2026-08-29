@@ -264,3 +264,6 @@ brain/state/la_token.json
 # main(public)からは追跡しない＝publicリポにした際の合成データ非公開を担保。
 # (wiki/ 自体は別のnested git repoとしてこのパスに存在し続ける・詳細はbrain/RUNBOOK.md)
 /wiki/
+
+# ツイート全文検索の索引(sources/x から再生成できる生成物・約100MB)
+brain/state/x_index.db

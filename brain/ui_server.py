@@ -117,6 +117,9 @@ API_INDEX = [
     {"path": "/api/recent", "method": "GET", "params": {"n": "30", "kind": "任意"},
      "desc": "最近更新ページ(日付降順=合成の鮮度)"},
     {"path": "/api/tags", "method": "GET", "desc": "タグ→ページ(件数降順)"},
+    {"path": "/api/x/search", "method": "GET", "params": {"q": "検索語", "n": "件数=30", "account": "任意", "ticker": "任意"},
+     "desc": "収集済みツイート全文検索(sources/x・93k件・FTS5・LLM不要)"},
+    {"path": "/api/x/stats", "method": "GET", "desc": "ツイート索引の統計(件数/アカウント数/期間/上位アカウント)"},
     {"path": "/api/graph", "method": "GET", "params": {"kinds": "concepts,queries,players"},
      "desc": "知識グラフ nodes/edges(可視化用)"},
     {"path": "/api/similar", "method": "GET", "params": {"path": "..."},
@@ -1058,6 +1061,29 @@ class Handler(SimpleHTTPRequestHandler):
                 n = min(_to_int(qs.get("n", ["30"])[0] or 30, 30), 200)
                 kind = (qs.get("kind", [""])[0]).strip() or None
                 self._json(200, {"ok": True, "recent": _retriever().recent(n, kind)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        # ── 収集したツイートを読む(2026-08-30) ──────────────────────────
+        # sources/x に93,374件貯まっているのに retrieval は wiki/ しか見ておらず、
+        # **集めているだけで検索も閲覧もできなかった**。索引は brain/x_index.py
+        # (SQLite FTS5・依存ゼロ)。sources/x は読むだけで、索引は再生成可能な生成物。
+        if path0 == "/api/x/search":
+            qs = parse_qs(urlparse(self.path).query)
+            try:
+                import x_index
+                q = (qs.get("q", [""])[0]).strip()
+                n = min(_to_int(qs.get("n", ["30"])[0] or 30, 30), 200)
+                acc = (qs.get("account", [""])[0]).strip() or None
+                tic = (qs.get("ticker", [""])[0]).strip() or None
+                self._json(200, {"ok": True, "q": q, "hits": x_index.search(q, n, acc, tic)})
+            except Exception as e:
+                self._json(500, {"ok": False, "error": str(e)[:300]})
+            return
+        if path0 == "/api/x/stats":
+            try:
+                import x_index
+                self._json(200, {"ok": True, "stats": x_index.stats()})
             except Exception as e:
                 self._json(500, {"ok": False, "error": str(e)[:300]})
             return
