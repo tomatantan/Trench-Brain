@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-29T10:04Z",
+ "ts": "2026-08-29T13:19Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 42050.526631271896
+     "mcap_now": 41989.48269127888
     }
    },
    "kols": {},
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 15837.760205172159,
+     "mcap_now": 15731.680899779798,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 19121.337477422167,
+     "mcap_now": 19091.91211765019,
      "ambiguous_candidates": 6
     }
    },
