@@ -31,6 +31,21 @@ fi
 # グローバル有効の telegram プラグインの poller を起動し、getUpdates は1トークン
 # 1ポーラー仕様なので本人のチャンネル poller を SIGTERM で乗っ取って切断する
 # (2026-06-23 フラッピング原因特定)。合成はファイル読み書きのみで telegram不要。
+# 合成の本命はローカルLLM(2026-08-30)。
+#   実障害: claude CLI のトークンが失効し、20分おきに 401 を出しては
+#   「queue保持・次サイクル再試行」を書くだけを延々と繰り返していた。
+#   cron.log には出ていたが誰にも通知しないので気づかれず、queueは4,319件まで積んだ。
+#   認証にも課金にも依存しない経路を既定にする(brain/synthesize_local.py)。
+#   ollama が居ない/落ちている時だけ claude に戻る。
+#   どちらも失敗したら queue は保持されるので、取りこぼしはしない。
+OLLAMA_BASE="${OLLAMA_URL:-http://$(ip route show default 2>/dev/null | awk '{print $3}'):11434}"
+if curl -s -m 5 -o /dev/null "$OLLAMA_BASE/api/tags"; then
+  ${TIMEOUT_BIN:+$TIMEOUT_BIN $SYNTH_TIMEOUT} python3 brain/synthesize_local.py >> "$LOG" 2>&1 \
+    && echo "synth: done(local)" >> "$LOG" \
+    || echo "synth: local error(queue保持・次サイクル再試行)" >> "$LOG"
+  exit 0
+fi
+echo "synth: ollama unreachable($OLLAMA_BASE) -> claude にフォールバック" >> "$LOG"
 ${TIMEOUT_BIN:+$TIMEOUT_BIN $SYNTH_TIMEOUT} claude --print --model "$MODEL" --dangerously-skip-permissions --strict-mcp-config \
   "$(cat brain/synth_prompt.md)" >> "$LOG" 2>&1 \
   && echo "synth: done" >> "$LOG" \

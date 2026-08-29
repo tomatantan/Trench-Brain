@@ -58,7 +58,12 @@ DEATH_LEDGER = ROOT / "wiki" / "concepts" / "rug-anatomy.md"
 BREAK_LEDGER = ROOT / "wiki" / "concepts" / "launchpad-economics.md"
 STATE_LOG = ROOT / "brain" / "state" / "synth_local.log"
 
-MODEL = os.environ.get("SYNTH_MODEL_LOCAL", "qwen3:14b")
+# ★既定は「実際に入っているモデル」にする(2026-08-30)。
+#   qwen3:14b をダウンロードしようとして失敗し、代わりに qwen2.5:14b を入れたのに
+#   既定を直し忘れていた。cronから走ると存在しないモデルを呼んで404 →
+#   **A層が黙ってstubに降格する**(ログには「合成0件/stub◯件」としか出ない)。
+#   起動時に実在を確認して、無ければ言う。
+MODEL = os.environ.get("SYNTH_MODEL_LOCAL", "qwen2.5:14b")
 BATCH = int(os.environ.get("SYNTH_BATCH", "40"))
 DRY = os.environ.get("SYNTH_DRY") == "1"
 TIMEOUT = int(os.environ.get("SYNTH_LLM_TIMEOUT", "120"))
@@ -475,6 +480,18 @@ def main() -> int:
     log(f"queue: deaths={len(q.get('deaths', []))} changes={len(q.get('changes', []))} births={len(q.get('births', []))} / A={counts['A']} B={counts['B']} C={counts['C']}")
 
     url = ollama_url()
+    # ★モデルが実在するか先に見る。無いまま走ると全A層が黙ってstubになる。
+    if counts["A"] > 0 and "A" in TIERS:
+        try:
+            with urllib.request.urlopen(f"{url}/api/tags", timeout=8) as r:
+                have = {m.get("name") for m in (json.loads(r.read().decode("utf-8")).get("models") or [])}
+            if MODEL not in have:
+                log(f"⚠️ モデル {MODEL} が ollama に無い(入っているのは {sorted(have)})。"
+                    f" A層は合成せず残す — 黙ってstubに落とすと後から作り直せない")
+                TIERS.discard("A")
+        except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as e:
+            log(f"⚠️ ollamaに繋がらない({e})。A層は残す")
+            TIERS.discard("A")
     done = {"A": 0, "B": 0, "C": 0}
     ledger_hits = 0
     llm_fail = 0
