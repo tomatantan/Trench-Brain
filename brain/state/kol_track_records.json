@@ -237,9 +237,9 @@
   "handle": "0xsweep",
   "mentioned": 8,
   "evaluated": 8,
-  "dead": 0,
-  "alive": 8,
-  "death_rate": 0,
+  "dead": 1,
+  "alive": 7,
+  "death_rate": 12,
   "unknown": 0
  },
  "fibonacki": {
