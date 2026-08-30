@@ -704,11 +704,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 2
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 1
  },
  "mirro7777": {
   "handle": "mirro7777",
