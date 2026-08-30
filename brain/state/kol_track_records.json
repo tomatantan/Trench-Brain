@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 714,
+  "evaluated": 713,
   "dead": 563,
-  "alive": 151,
+  "alive": 150,
   "death_rate": 79,
-  "unknown": 93
+  "unknown": 94
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 8,
+  "evaluated": 9,
   "dead": 0,
-  "alive": 8,
+  "alive": 9,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 4
  },
  "golocojp": {
   "handle": "golocojp",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 32,
+  "evaluated": 31,
   "dead": 1,
-  "alive": 31,
+  "alive": 30,
   "death_rate": 3,
-  "unknown": 6
+  "unknown": 7
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -1064,11 +1064,11 @@
  "theunipcs": {
   "handle": "theunipcs",
   "mentioned": 5,
-  "evaluated": 5,
+  "evaluated": 4,
   "dead": 0,
-  "alive": 5,
+  "alive": 4,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "liping007": {
   "handle": "liping007",
