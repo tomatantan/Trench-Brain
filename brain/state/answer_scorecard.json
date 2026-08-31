@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-31T17:10Z",
+ "ts": "2026-08-31T20:24Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -185,7 +185,7 @@
     "$TRIPLEA": {
      "status": "alive",
      "peak_mcap": 49180.832613225786,
-     "mcap_now": 42059.70391362864
+     "mcap_now": 42354.75165344509
     }
    },
    "kols": {},
@@ -367,7 +367,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -523,7 +523,7 @@
     "$UNC": {
      "status": "alive",
      "peak_mcap": 88885.69352468142,
-     "mcap_now": 15645.54212808541,
+     "mcap_now": 15822.354535580667,
      "ambiguous_candidates": 3
     },
     "$UNCAGENT": {
@@ -609,7 +609,7 @@
     "$SULTAN": {
      "status": "alive",
      "peak_mcap": 138589.58858723266,
-     "mcap_now": 19021.89986306073,
+     "mcap_now": 19067.31469883704,
      "ambiguous_candidates": 6
     }
    },
@@ -842,7 +842,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -893,7 +893,7 @@
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -1021,7 +1021,7 @@
     },
     "mcglive": {
      "death_rate_now": 3,
-     "evaluated_now": 31
+     "evaluated_now": 32
     },
     "shahh": {
      "death_rate_now": 0,
