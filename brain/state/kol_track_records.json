@@ -912,9 +912,9 @@
   "handle": "farmercharts",
   "mentioned": 2,
   "evaluated": 2,
-  "dead": 1,
-  "alive": 1,
-  "death_rate": 50,
+  "dead": 2,
+  "alive": 0,
+  "death_rate": 100,
   "unknown": 0
  },
  "0xmagnolia": {
