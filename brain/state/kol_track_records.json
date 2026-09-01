@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 9,
+  "evaluated": 8,
   "dead": 0,
-  "alive": 9,
+  "alive": 8,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 5
  },
  "golocojp": {
   "handle": "golocojp",
