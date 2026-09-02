@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 6,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 4,
-  "death_rate": 33,
-  "unknown": 2
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
