@@ -1,20 +1,20 @@
 {
- "ts": "2026-10-09T11:02Z",
- "n": 13847,
+ "ts": "2026-10-11T15:15Z",
+ "n": 13850,
  "dead": 12435,
- "pending": 1412,
+ "pending": 1415,
  "traction_with": {
-  "n": 498,
+  "n": 499,
   "dead": 404,
-  "pct": 81
+  "pct": 80
  },
  "traction_without": {
-  "n": 13349,
+  "n": 13351,
   "dead": 12031,
   "pct": 90
  },
  "gate_graduated": {
-  "n": 11923,
+  "n": 11926,
   "dead": 11742,
   "pct": 98
  },
@@ -24,7 +24,7 @@
   "pct": 30
  },
  "graduated_no_traction": {
-  "n": 11698,
+  "n": 11700,
   "dead": 11518,
   "pct": 98
  },
