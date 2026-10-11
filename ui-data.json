@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:41:00Z",
+  "generated_at": "2026-10-11T22:02:02Z",
   "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
   "schema": "signals[]: concept由来の泡 {type,title,size,color,glow,trace} / live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)",
   "count": 40,
@@ -2963,6 +2963,26 @@
       ]
     },
     {
+      "ticker": "$HIGGS",
+      "name": "Higgspad",
+      "mint": "EgeMmDHNGekF2NsYfqNLmgbYuNt6aX66XNTcZPbopump",
+      "mcap": 7397277,
+      "peak_mcap": 7397277,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-11T18:48:15Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/EgeMmDHNGekF2NsYfqNLmgbYuNt6aX66XNTcZPbopump",
+      "spark": [
+        7397277
+      ]
+    },
+    {
       "ticker": "$JIMOTHY",
       "name": "Jimothy The Raccoon",
       "mint": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
@@ -3302,6 +3322,26 @@
         5317460,
         5312873,
         5310778
+      ]
+    },
+    {
+      "ticker": "$CONCONAI",
+      "name": "ConConAI",
+      "mint": "hmGoSSWgZLBEUwQd41uNDzqGDudqdwYZ7zacxKnpump",
+      "mcap": 4432968,
+      "peak_mcap": 4432968,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-11T19:45:53Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/hmGoSSWgZLBEUwQd41uNDzqGDudqdwYZ7zacxKnpump",
+      "spark": [
+        4432968
       ]
     },
     {
@@ -4029,99 +4069,13 @@
         2189877,
         2183443
       ]
-    },
-    {
-      "ticker": "$USWS",
-      "name": "United States Water Supply",
-      "mint": "HpCSDkF5uGzSXXzn9CoBeLtFmra9KvM5AH2za3CHpump",
-      "mcap": 2055705,
-      "peak_mcap": 3514240,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-09-01T08:17:21Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/HpCSDkF5uGzSXXzn9CoBeLtFmra9KvM5AH2za3CHpump",
-      "spark": [
-        2045864,
-        2040492,
-        2051001,
-        2072003,
-        2059065,
-        2065889,
-        2067320,
-        2073360,
-        2070781,
-        2065329,
-        2062420,
-        2048550,
-        2045432,
-        2050855,
-        2055447,
-        2058571,
-        2058551,
-        2066513,
-        2062633,
-        2041837,
-        2055858,
-        2054251,
-        2061428,
-        2055705
-      ]
-    },
-    {
-      "ticker": "$USOF",
-      "name": "U. S. Oil Fund",
-      "mint": "shagwvGSUSxZxZitXP58oLn9g1qC53d9Ae7db4gpump",
-      "mcap": 2027347,
-      "peak_mcap": 2032249,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-09-02T11:41:58Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/shagwvGSUSxZxZitXP58oLn9g1qC53d9Ae7db4gpump",
-      "spark": [
-        1875012,
-        1881257,
-        1903296,
-        1929121,
-        1925538,
-        1927266,
-        1944018,
-        1961550,
-        1962273,
-        1958249,
-        1968091,
-        1958642,
-        1963125,
-        1980716,
-        1994408,
-        2004572,
-        1987728,
-        2006339,
-        2010349,
-        2005981,
-        2023398,
-        2032249,
-        2026704,
-        2027347
-      ]
     }
   ],
   "base_rate": {
-    "mints_seen": 738917,
-    "gate_passed": 13948,
+    "mints_seen": 741017,
+    "gate_passed": 13991,
     "died": 12435,
-    "graduated": 12245,
+    "graduated": 12276,
     "pass_rate_pct": 1.89,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }

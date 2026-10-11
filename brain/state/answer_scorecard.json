@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T18:40Z",
+ "ts": "2026-10-11T22:01Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -30,12 +30,12 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 91,
-     "evaluated_now": 622
+     "death_rate_now": 94,
+     "evaluated_now": 601
     },
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 4
     }
    },
    "at_first_score": {
@@ -118,7 +118,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -139,11 +139,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "golocojp": {
-     "death_rate_now": 40,
-     "evaluated_now": 10
+     "death_rate_now": 50,
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
@@ -238,12 +238,7 @@
      "note": "trackedに無し(ticker未解決)"
     }
    },
-   "kols": {
-    "cryptokaleo": {
-     "death_rate_now": 0,
-     "evaluated_now": 1
-    }
-   },
+   "kols": {},
    "at_first_score": {
     "scored_ts": "2026-07-04T10:36Z",
     "tokens": {
@@ -285,7 +280,7 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -320,11 +315,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "dxrnell": {
-     "death_rate_now": 67,
-     "evaluated_now": 6
+     "death_rate_now": 80,
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -363,11 +358,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -433,8 +428,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 60,
-     "evaluated_now": 15
+     "death_rate_now": 75,
+     "evaluated_now": 12
     }
    },
    "at_first_score": {
@@ -534,15 +529,11 @@
    "kols": {
     "crypto_alch": {
      "death_rate_now": 0,
-     "evaluated_now": 5
+     "evaluated_now": 4
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 4
-    },
-    "ren_nevermind": {
-     "death_rate_now": 0,
-     "evaluated_now": 2
+     "evaluated_now": 3
     }
    },
    "at_first_score": {
@@ -709,8 +700,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 60,
-     "evaluated_now": 15
+     "death_rate_now": 75,
+     "evaluated_now": 12
     }
    },
    "at_first_score": {
@@ -785,11 +776,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "dxrnell": {
-     "death_rate_now": 67,
-     "evaluated_now": 6
+     "death_rate_now": 80,
+     "evaluated_now": 5
     }
    },
    "at_first_score": {
@@ -834,15 +825,15 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "senshineo7": {
-     "death_rate_now": 67,
-     "evaluated_now": 6
+     "death_rate_now": 80,
+     "evaluated_now": 5
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -884,16 +875,16 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 91,
-     "evaluated_now": 622
+     "death_rate_now": 94,
+     "evaluated_now": 601
     },
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "theunipcs": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -940,11 +931,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "golocojp": {
-     "death_rate_now": 40,
-     "evaluated_now": 10
+     "death_rate_now": 50,
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
@@ -980,11 +971,11 @@
    "kols": {
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "golocojp": {
-     "death_rate_now": 40,
-     "evaluated_now": 10
+     "death_rate_now": 50,
+     "evaluated_now": 8
     }
    },
    "at_first_score": {
@@ -1013,15 +1004,15 @@
     },
     "blknoiz06": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 4
+     "evaluated_now": 3
     },
     "mcglive": {
      "death_rate_now": 7,
-     "evaluated_now": 15
+     "evaluated_now": 14
     },
     "shahh": {
      "death_rate_now": 0,
