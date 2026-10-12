@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-12T01:22Z",
+ "ts": "2026-10-12T04:45Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
-  "dead_now": 23,
-  "alive_now": 3,
-  "unknown": 11,
-  "dead_pct_of_resolved": 88
+  "dead_now": 0,
+  "alive_now": 0,
+  "unknown": 37,
+  "dead_pct_of_resolved": null
  },
  "answers": {
   "2026-07-02T16:02Z-bf59495f": {
@@ -18,20 +18,18 @@
      "note": "trackedに無し(ticker未解決)"
     },
     "$BAG": {
-     "status": "dead",
-     "peak_mcap": 640972.2440279952,
-     "mcap_now": 59514.4204398738
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$EXCITEDGUY": {
-     "status": "dead",
-     "peak_mcap": 184459.6386875612,
-     "mcap_now": 1942.654926906135
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 95,
-     "evaluated_now": 596
+     "death_rate_now": 96,
+     "evaluated_now": 591
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -74,7 +72,7 @@
    "tokens": {
     "$DRTRUMP": {
      "status": "unknown",
-     "note": "回答時点で既知のmint無し(後発tickerのみ)"
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
@@ -166,26 +164,20 @@
    "question": "Ansem",
    "tokens": {
     "$ALYCIA": {
-     "status": "dead",
-     "peak_mcap": 113825.39664860426,
-     "mcap_now": 1690.4164779195023,
-     "ambiguous_candidates": 4
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 286.2390268938988,
-     "mcap_now": 286.2390268938988,
-     "ambiguous_candidates": 4
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$GLDBULL": {
-     "status": "dead",
-     "peak_mcap": 65682.00196808706,
-     "mcap_now": 5590.17249975069
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$TRIPLEA": {
-     "status": "alive",
-     "peak_mcap": 49180.832613225786,
-     "mcap_now": 40638.112044753485
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
@@ -271,10 +263,8 @@
    "question": "ANSEM",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -306,10 +296,8 @@
    "question": "Ansem周りで起きてる事柄をまとめて",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -349,10 +337,8 @@
    "question": "今ansemがバズってるけど、なぜバズってるの？",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -392,10 +378,8 @@
    "question": "ANSEMのトークン状況",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
@@ -417,9 +401,8 @@
    "question": "ちま何がバズってる？",
    "tokens": {
     "$BULLATLAS": {
-     "status": "dead",
-     "peak_mcap": 212133.8355677787,
-     "mcap_now": 3775.1153594917273
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$SEXY": {
      "status": "unknown",
@@ -428,8 +411,8 @@
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 75,
-     "evaluated_now": 12
+     "death_rate_now": 82,
+     "evaluated_now": 11
     }
    },
    "at_first_score": {
@@ -458,9 +441,8 @@
    "question": "今何が熱い？",
    "tokens": {
     "$BULLATLAS": {
-     "status": "dead",
-     "peak_mcap": 212133.8355677787,
-     "mcap_now": 3775.1153594917273
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$SEXY": {
      "status": "unknown",
@@ -510,16 +492,12 @@
    "question": "kol発言から何が見える？",
    "tokens": {
     "$AT": {
-     "status": "dead",
-     "peak_mcap": 11.256208948758509,
-     "mcap_now": 11.256208948758509,
-     "ambiguous_candidates": 6
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$UNC": {
-     "status": "alive",
-     "peak_mcap": 88885.69352468142,
-     "mcap_now": 15176.341751891636,
-     "ambiguous_candidates": 3
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$UNCAGENT": {
      "status": "unknown",
@@ -533,7 +511,7 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 2
+     "evaluated_now": 1
     }
    },
    "at_first_score": {
@@ -577,31 +555,24 @@
    "question": "今すべき行動",
    "tokens": {
     "$ALYCIA": {
-     "status": "dead",
-     "peak_mcap": 1461.7917739599823,
-     "mcap_now": 1461.7917739599823,
-     "ambiguous_candidates": 5
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$GLDBULL": {
-     "status": "dead",
-     "peak_mcap": 65682.00196808706,
-     "mcap_now": 5590.17249975069
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$KRILLION": {
      "status": "unknown",
      "note": "trackedに無し(ticker未解決)"
     },
     "$SULTAN": {
-     "status": "alive",
-     "peak_mcap": 138589.58858723266,
-     "mcap_now": 18495.748587741215,
-     "ambiguous_candidates": 6
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
@@ -655,10 +626,8 @@
    "question": "直近1時間のバズりはある？",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {},
@@ -684,24 +653,22 @@
      "note": "trackedに無し(ticker未解決)"
     },
     "$NIETSPE": {
-     "status": "dead",
-     "peak_mcap": 29259.635322431634,
-     "mcap_now": 3056.260169828244
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$PRIMUS": {
      "status": "unknown",
      "note": "trackedに無し(ticker未解決)"
     },
     "$SPCXAI": {
-     "status": "dead",
-     "peak_mcap": 118925.36234628511,
-     "mcap_now": 1821.044445086939
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
     "tsuyuto6154": {
-     "death_rate_now": 75,
-     "evaluated_now": 12
+     "death_rate_now": 82,
+     "evaluated_now": 11
     }
    },
    "at_first_score": {
@@ -761,16 +728,12 @@
    "question": "$ANSEM 乗るか避けるか",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$PUMPSEM": {
-     "status": "dead",
-     "peak_mcap": 21.29907369140193,
-     "mcap_now": 20.674627332894467,
-     "ambiguous_candidates": 2
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -816,10 +779,8 @@
    "question": "$ANSEM 乗るか避けるか",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -867,16 +828,14 @@
    "question": "$ANSEM 乗るか避けるか",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 95,
-     "evaluated_now": 596
+     "death_rate_now": 96,
+     "evaluated_now": 591
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -918,14 +877,12 @@
    "question": "今の魔界どう動くべき？",
    "tokens": {
     "$ANSEM": {
-     "status": "dead",
-     "peak_mcap": 47281.53310484894,
-     "mcap_now": 1473.2416420357451,
-     "ambiguous_candidates": 11
+     "status": "unknown",
+     "note": "trackedに無し(ticker未解決)"
     },
     "$PUNCH": {
      "status": "unknown",
-     "note": "回答時点で既知のmint無し(後発tickerのみ)"
+     "note": "trackedに無し(ticker未解決)"
     }
    },
    "kols": {
@@ -1008,11 +965,11 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 2
+     "evaluated_now": 1
     },
     "mcglive": {
-     "death_rate_now": 8,
-     "evaluated_now": 12
+     "death_rate_now": 9,
+     "evaluated_now": 11
     },
     "shahh": {
      "death_rate_now": 0,

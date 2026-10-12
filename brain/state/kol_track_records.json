@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 596,
+  "evaluated": 591,
   "dead": 568,
-  "alive": 28,
-  "death_rate": 95,
-  "unknown": 211
+  "alive": 23,
+  "death_rate": 96,
+  "unknown": 216
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -245,11 +245,11 @@
  "fibonacki": {
   "handle": "fibonacki",
   "mentioned": 14,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 12
+  "unknown": 13
  },
  "poorgoat_": {
   "handle": "poorgoat_",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 12,
+  "evaluated": 11,
   "dead": 1,
-  "alive": 11,
-  "death_rate": 8,
-  "unknown": 26
+  "alive": 10,
+  "death_rate": 9,
+  "unknown": 27
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -506,11 +506,11 @@
  "tsuyuto6154": {
   "handle": "tsuyuto6154",
   "mentioned": 19,
-  "evaluated": 12,
+  "evaluated": 11,
   "dead": 9,
-  "alive": 3,
-  "death_rate": 75,
-  "unknown": 7
+  "alive": 2,
+  "death_rate": 82,
+  "unknown": 8
  },
  "cjwat5on": {
   "handle": "cjwat5on",
