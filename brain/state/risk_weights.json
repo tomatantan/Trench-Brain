@@ -1,31 +1,31 @@
 {
  "base_death_rate": 0.0,
- "n": 219,
+ "n": 251,
  "factors": {
   "graduated": {
    "death_rate": 0.0,
    "lift_vs_base": null,
-   "n": 186
+   "n": 213
   },
   "mcap勢い門": {
    "death_rate": 0.0,
    "lift_vs_base": null,
-   "n": 33
+   "n": 38
   },
   "traction無": {
    "death_rate": 0.0,
    "lift_vs_base": null,
-   "n": 219
+   "n": 251
   },
   "graduated × tr無": {
    "death_rate": 0.0,
    "lift_vs_base": null,
-   "n": 186
+   "n": 213
   },
   "mcap勢い門 × tr無": {
    "death_rate": 0.0,
    "lift_vs_base": null,
-   "n": 33
+   "n": 38
   }
  }
 }

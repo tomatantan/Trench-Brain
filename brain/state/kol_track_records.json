@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 586,
+  "evaluated": 587,
   "dead": 568,
-  "alive": 18,
+  "alive": 19,
   "death_rate": 97,
-  "unknown": 221
+  "unknown": 220
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -146,11 +146,11 @@
  "shahh": {
   "handle": "shahh",
   "mentioned": 4,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 4
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 3
  },
  "clutch_fifa2026": {
   "handle": "Clutch_FIFA2026",
@@ -704,11 +704,11 @@
  "jotagezin": {
   "handle": "jotagezin",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 2
  },
  "mirro7777": {
   "handle": "mirro7777",
@@ -1019,11 +1019,11 @@
  "mascotasteroid": {
   "handle": "mascotasteroid",
   "mentioned": 2,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 0
+  "unknown": 1
  },
  "hosseeb": {
   "handle": "hosseeb",
