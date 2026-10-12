@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-11T22:01Z",
+ "ts": "2026-10-12T01:22Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -30,8 +30,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 94,
-     "evaluated_now": 601
+     "death_rate_now": 95,
+     "evaluated_now": 596
     },
     "crypto_alch": {
      "death_rate_now": 0,
@@ -533,7 +533,7 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     }
    },
    "at_first_score": {
@@ -875,8 +875,8 @@
    },
    "kols": {
     "badattrading_": {
-     "death_rate_now": 94,
-     "evaluated_now": 601
+     "death_rate_now": 95,
+     "evaluated_now": 596
     },
     "blknoiz06": {
      "death_rate_now": 0,
@@ -1008,11 +1008,11 @@
     },
     "fibonacki": {
      "death_rate_now": 0,
-     "evaluated_now": 3
+     "evaluated_now": 2
     },
     "mcglive": {
-     "death_rate_now": 7,
-     "evaluated_now": 14
+     "death_rate_now": 8,
+     "evaluated_now": 12
     },
     "shahh": {
      "death_rate_now": 0,
