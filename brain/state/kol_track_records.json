@@ -110,11 +110,11 @@
  "traderpow": {
   "handle": "traderpow",
   "mentioned": 7,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 5
+  "unknown": 6
  },
  "inversebrah": {
   "handle": "inversebrah",
@@ -281,11 +281,11 @@
  "just2addicted": {
   "handle": "just2addicted",
   "mentioned": 10,
-  "evaluated": 5,
+  "evaluated": 3,
   "dead": 1,
-  "alive": 4,
-  "death_rate": 20,
-  "unknown": 5
+  "alive": 2,
+  "death_rate": 33,
+  "unknown": 7
  },
  "810yenshamp": {
   "handle": "810yenshamp",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 11,
+  "evaluated": 10,
   "dead": 1,
-  "alive": 10,
-  "death_rate": 9,
-  "unknown": 27
+  "alive": 9,
+  "death_rate": 10,
+  "unknown": 28
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
