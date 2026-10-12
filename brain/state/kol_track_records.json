@@ -146,11 +146,11 @@
  "shahh": {
   "handle": "shahh",
   "mentioned": 4,
-  "evaluated": 1,
+  "evaluated": 0,
   "dead": 0,
-  "alive": 1,
-  "death_rate": 0,
-  "unknown": 3
+  "alive": 0,
+  "death_rate": null,
+  "unknown": 4
  },
  "clutch_fifa2026": {
   "handle": "Clutch_FIFA2026",
@@ -263,11 +263,11 @@
  "bull_bnb": {
   "handle": "bull_bnb",
   "mentioned": 4,
-  "evaluated": 4,
+  "evaluated": 3,
   "dead": 1,
-  "alive": 3,
-  "death_rate": 25,
-  "unknown": 0
+  "alive": 2,
+  "death_rate": 33,
+  "unknown": 1
  },
  "adimsshogun": {
   "handle": "AdimsSHOGUN",
@@ -623,11 +623,11 @@
  "moonshot": {
   "handle": "moonshot",
   "mentioned": 38,
-  "evaluated": 3,
+  "evaluated": 2,
   "dead": 2,
-  "alive": 1,
-  "death_rate": 67,
-  "unknown": 35
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 36
  },
  "kyurukyurutrade": {
   "handle": "kyurukyurutrade",
@@ -731,11 +731,11 @@
  "iconocl4sm_": {
   "handle": "iconocl4sm_",
   "mentioned": 3,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 1,
-  "alive": 1,
-  "death_rate": 50,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 2
  },
  "monke_": {
   "handle": "monke_",

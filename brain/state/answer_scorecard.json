@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-12T10:58Z",
+ "ts": "2026-10-12T14:04Z",
  "summary": {
   "answers": 30,
   "tokens_mentioned": 37,
@@ -970,10 +970,6 @@
     "mcglive": {
      "death_rate_now": 10,
      "evaluated_now": 10
-    },
-    "shahh": {
-     "death_rate_now": 0,
-     "evaluated_now": 1
     }
    },
    "at_first_score": {
