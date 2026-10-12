@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 587,
+  "evaluated": 586,
   "dead": 568,
-  "alive": 19,
+  "alive": 18,
   "death_rate": 97,
-  "unknown": 220
+  "unknown": 221
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -200,11 +200,11 @@
  "golocojp": {
   "handle": "golocojp",
   "mentioned": 18,
-  "evaluated": 8,
+  "evaluated": 7,
   "dead": 4,
-  "alive": 4,
-  "death_rate": 50,
-  "unknown": 10
+  "alive": 3,
+  "death_rate": 57,
+  "unknown": 11
  },
  "_logjam": {
   "handle": "_logjam",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 10,
+  "evaluated": 9,
   "dead": 1,
-  "alive": 9,
-  "death_rate": 10,
-  "unknown": 28
+  "alive": 8,
+  "death_rate": 11,
+  "unknown": 29
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",
@@ -839,11 +839,11 @@
  "chjokka": {
   "handle": "chjokka",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 3,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 2
  },
  "orangie": {
   "handle": "orangie",
