@@ -29,20 +29,20 @@
  "catolicc": {
   "handle": "catolicc",
   "mentioned": 28,
-  "evaluated": 16,
+  "evaluated": 15,
   "dead": 13,
-  "alive": 3,
-  "death_rate": 81,
-  "unknown": 12
+  "alive": 2,
+  "death_rate": 87,
+  "unknown": 13
  },
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 591,
+  "evaluated": 589,
   "dead": 568,
-  "alive": 23,
+  "alive": 21,
   "death_rate": 96,
-  "unknown": 216
+  "unknown": 218
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -92,11 +92,11 @@
  "larpvontrier": {
   "handle": "larpvontrier",
   "mentioned": 7,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 7
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 6
  },
  "solbrdl": {
   "handle": "solbrdl",
@@ -164,11 +164,11 @@
  "serudefi": {
   "handle": "SeruDefi",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 2,
   "dead": 2,
-  "alive": 1,
-  "death_rate": 67,
-  "unknown": 1
+  "alive": 0,
+  "death_rate": 100,
+  "unknown": 2
  },
  "shapefn_": {
   "handle": "shapefn_",
@@ -191,11 +191,11 @@
  "au_xbt": {
   "handle": "au_xbt",
   "mentioned": 13,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 0,
-  "alive": 4,
+  "alive": 5,
   "death_rate": 0,
-  "unknown": 9
+  "unknown": 8
  },
  "golocojp": {
   "handle": "golocojp",
@@ -362,11 +362,11 @@
  "crypto_alch": {
   "handle": "crypto_alch",
   "mentioned": 12,
-  "evaluated": 4,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 4,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 8
+  "unknown": 10
  },
  "minnus": {
   "handle": "minnus",
@@ -605,11 +605,11 @@
  "kaikaibtc": {
   "handle": "kaikaibtc",
   "mentioned": 3,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 2
+  "unknown": 1
  },
  "thecaliber__": {
   "handle": "thecaliber__",
@@ -713,11 +713,11 @@
  "mirro7777": {
   "handle": "mirro7777",
   "mentioned": 5,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 4
+  "unknown": 3
  },
  "bancrypto__": {
   "handle": "bancrypto__",
