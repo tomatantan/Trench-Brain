@@ -38,11 +38,11 @@
  "badattrading_": {
   "handle": "badattrading_",
   "mentioned": 807,
-  "evaluated": 587,
+  "evaluated": 586,
   "dead": 568,
-  "alive": 19,
+  "alive": 18,
   "death_rate": 97,
-  "unknown": 220
+  "unknown": 221
  },
  "itspyrored": {
   "handle": "itspyrored",
@@ -182,11 +182,11 @@
  "c1phervoyager": {
   "handle": "c1phervoyager",
   "mentioned": 8,
-  "evaluated": 4,
+  "evaluated": 5,
   "dead": 2,
-  "alive": 2,
-  "death_rate": 50,
-  "unknown": 4
+  "alive": 3,
+  "death_rate": 40,
+  "unknown": 3
  },
  "au_xbt": {
   "handle": "au_xbt",
