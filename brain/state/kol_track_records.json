@@ -479,11 +479,11 @@
  "bigbottle44": {
   "handle": "bigbottle44",
   "mentioned": 3,
-  "evaluated": 0,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 0,
-  "death_rate": null,
-  "unknown": 3
+  "alive": 1,
+  "death_rate": 0,
+  "unknown": 2
  },
  "zachxbt": {
   "handle": "zachxbt",
@@ -605,11 +605,11 @@
  "kaikaibtc": {
   "handle": "kaikaibtc",
   "mentioned": 3,
-  "evaluated": 2,
+  "evaluated": 1,
   "dead": 0,
-  "alive": 2,
+  "alive": 1,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 2
  },
  "thecaliber__": {
   "handle": "thecaliber__",
@@ -1019,11 +1019,11 @@
  "mascotasteroid": {
   "handle": "mascotasteroid",
   "mentioned": 2,
-  "evaluated": 1,
+  "evaluated": 2,
   "dead": 0,
-  "alive": 1,
+  "alive": 2,
   "death_rate": 0,
-  "unknown": 1
+  "unknown": 0
  },
  "hosseeb": {
   "handle": "hosseeb",
