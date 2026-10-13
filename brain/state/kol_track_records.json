@@ -263,11 +263,11 @@
  "bull_bnb": {
   "handle": "bull_bnb",
   "mentioned": 4,
-  "evaluated": 3,
+  "evaluated": 4,
   "dead": 1,
-  "alive": 2,
-  "death_rate": 33,
-  "unknown": 1
+  "alive": 3,
+  "death_rate": 25,
+  "unknown": 0
  },
  "adimsshogun": {
   "handle": "AdimsSHOGUN",
@@ -308,11 +308,11 @@
  "mcglive": {
   "handle": "mcglive",
   "mentioned": 38,
-  "evaluated": 9,
+  "evaluated": 10,
   "dead": 1,
-  "alive": 8,
-  "death_rate": 11,
-  "unknown": 29
+  "alive": 9,
+  "death_rate": 10,
+  "unknown": 28
  },
  "ren_nevermind": {
   "handle": "ren_nevermind",

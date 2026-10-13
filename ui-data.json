@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T23:27:25Z",
+  "generated_at": "2026-10-13T02:35:16Z",
   "generated_for": "trench-brain UI (泡=signal / click=SIGNAL TRACE / live=launch radar)",
   "schema": "signals[]: concept由来の泡 {type,title,size,color,glow,trace} / live[]: launch lifecycle {ticker,name,mcap,peak_mcap,status,outcome,color,gate,kol[],ai_agent,spark[],link} / base_rate: 篩通過率(生存者バイアスの分母)",
   "count": 40,
@@ -1840,6 +1840,26 @@
       ]
     },
     {
+      "ticker": "$EVERNORTHXRP",
+      "name": "XRPN",
+      "mint": "2m3hiFbtduQe3Dz1Y2kQqztLmJJntrXgnaRPzrLnpump",
+      "mcap": 99749329,
+      "peak_mcap": 99749329,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:28:08Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/2m3hiFbtduQe3Dz1Y2kQqztLmJJntrXgnaRPzrLnpump",
+      "spark": [
+        99749329
+      ]
+    },
+    {
       "ticker": "$XMR",
       "name": "Monero",
       "mint": "vxrdH5tMQ6CSBj5dmagYuh9LJrJPw5YUwqeMU9upump",
@@ -1900,6 +1920,26 @@
       ]
     },
     {
+      "ticker": "$IOF",
+      "name": "Institutional Oil Fund",
+      "mint": "8aZaWiDpU5E5KRtmWjpMLzUixg7akTNNC2YTjA1Xpump",
+      "mcap": 26400481,
+      "peak_mcap": 26400481,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:28:08Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/8aZaWiDpU5E5KRtmWjpMLzUixg7akTNNC2YTjA1Xpump",
+      "spark": [
+        26400481
+      ]
+    },
+    {
       "ticker": "$SOLAMIANS",
       "name": "Solamians",
       "mint": "CNJtNzHhmLpt1kTjWUCnE58TPXVQPbf4stYGjVdkpump",
@@ -1940,6 +1980,26 @@
       ]
     },
     {
+      "ticker": "$VER",
+      "name": "VERAXUM",
+      "mint": "n1mwyLvThsFSRYxoUMWijLjvwkFEotM2pXy7J4tpump",
+      "mcap": 9903828,
+      "peak_mcap": 9903828,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:32:38Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/n1mwyLvThsFSRYxoUMWijLjvwkFEotM2pXy7J4tpump",
+      "spark": [
+        9903828
+      ]
+    },
+    {
       "ticker": "$CONCONAI",
       "name": "ConConAI",
       "mint": "sgYZrJvAuAMWu2rVPmAMneeAnW8pwg1JqrjXvjhpump",
@@ -1957,6 +2017,86 @@
       "link": "https://pump.fun/coin/sgYZrJvAuAMWu2rVPmAMneeAnW8pwg1JqrjXvjhpump",
       "spark": [
         8298669
+      ]
+    },
+    {
+      "ticker": "$SI276",
+      "name": "Super Intelligence SI276",
+      "mint": "HJWMNY3y7hLxgUbT5gJv3gdeKtqN7HxuM15P4bZUpump",
+      "mcap": 7018759,
+      "peak_mcap": 7018759,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:32:38Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/HJWMNY3y7hLxgUbT5gJv3gdeKtqN7HxuM15P4bZUpump",
+      "spark": [
+        7018759
+      ]
+    },
+    {
+      "ticker": "$MOBY",
+      "name": "MOBY",
+      "mint": "5GJtDdvg4Uh8WG4Rtk8B8fJLKophouCrjhbiqqJ2pump",
+      "mcap": 5691738,
+      "peak_mcap": 5691738,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T00:49:48Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/5GJtDdvg4Uh8WG4Rtk8B8fJLKophouCrjhbiqqJ2pump",
+      "spark": [
+        5691738
+      ]
+    },
+    {
+      "ticker": "$XRC",
+      "name": "Extract",
+      "mint": "F7Nutb73iU3BDNTbw2EXeKMG4cHQPksFWWsuZSHpump",
+      "mcap": 3846178,
+      "peak_mcap": 3846178,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:32:38Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/F7Nutb73iU3BDNTbw2EXeKMG4cHQPksFWWsuZSHpump",
+      "spark": [
+        3846178
+      ]
+    },
+    {
+      "ticker": "$INSTITUTIO",
+      "name": "IOF",
+      "mint": "UkKF4AYGBVSuPLuaR6cMSD35HKMcACaeboJRVp7pump",
+      "mcap": 3366012,
+      "peak_mcap": 3366012,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:28:08Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/UkKF4AYGBVSuPLuaR6cMSD35HKMcACaeboJRVp7pump",
+      "spark": [
+        3366012
       ]
     },
     {
@@ -1980,6 +2120,46 @@
       ]
     },
     {
+      "ticker": "$AORP",
+      "name": "American Oil Relief Program",
+      "mint": "hLSFYPwuZUrN9NWN3NXVYqAKMzWNB27PiE4eU99pump",
+      "mcap": 2760264,
+      "peak_mcap": 2760264,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:12:28Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/hLSFYPwuZUrN9NWN3NXVYqAKMzWNB27PiE4eU99pump",
+      "spark": [
+        2760264
+      ]
+    },
+    {
+      "ticker": "$XRC",
+      "name": "Extract",
+      "mint": "Z6CteqdErRkVsFFcGWCgPc4UNLTXuVaKeG433gwpump",
+      "mcap": 2719682,
+      "peak_mcap": 2719682,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:13:55Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/Z6CteqdErRkVsFFcGWCgPc4UNLTXuVaKeG433gwpump",
+      "spark": [
+        2719682
+      ]
+    },
+    {
       "ticker": "$XRC",
       "name": "Extract",
       "mint": "ACL3ANW5LRqn864xXxPhGsZNj1ykFv6mEuJgrhXpump",
@@ -1997,6 +2177,46 @@
       "link": "https://pump.fun/coin/ACL3ANW5LRqn864xXxPhGsZNj1ykFv6mEuJgrhXpump",
       "spark": [
         2383609
+      ]
+    },
+    {
+      "ticker": "$DOPE",
+      "name": "Doge Pepe",
+      "mint": "qMcs8BmJppuNpxXY5cq5A3x43NuaViVJ38fGRJnpump",
+      "mcap": 2090304,
+      "peak_mcap": 2090304,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:32:38Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/qMcs8BmJppuNpxXY5cq5A3x43NuaViVJ38fGRJnpump",
+      "spark": [
+        2090304
+      ]
+    },
+    {
+      "ticker": "$SWORDCAT",
+      "name": "cat wif sword",
+      "mint": "q1eWdVTAKz8oxrsTFAPvJjh7pqzR1tq85KFJ5ZVpump",
+      "mcap": 1425268,
+      "peak_mcap": 1425268,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T01:32:38Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/q1eWdVTAKz8oxrsTFAPvJjh7pqzR1tq85KFJ5ZVpump",
+      "spark": [
+        1425268
       ]
     },
     {
@@ -2280,6 +2500,26 @@
       ]
     },
     {
+      "ticker": "$DEEPSEEK",
+      "name": "DeepSeek",
+      "mint": "6hBuG1zkrXojFoVXA57TifyMAPE4qGRz5M7BBfDpump",
+      "mcap": 518973,
+      "peak_mcap": 518973,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-12T23:44:12Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/6hBuG1zkrXojFoVXA57TifyMAPE4qGRz5M7BBfDpump",
+      "spark": [
+        518973
+      ]
+    },
+    {
       "ticker": "$GTA6 COIN",
       "name": "GTA6",
       "mint": "HcL4aWVn2H5SrfD4NGqT8HpzVGWnq5RcgYfxr8jnpump",
@@ -2340,6 +2580,26 @@
       ]
     },
     {
+      "ticker": "$MCDONALD'S",
+      "name": "McDonalds",
+      "mint": "BQUStQweHHGYwoTmfu5zhqm7MV7FC9mP9mh87dxapump",
+      "mcap": 501352,
+      "peak_mcap": 501352,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:12:28Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/BQUStQweHHGYwoTmfu5zhqm7MV7FC9mP9mh87dxapump",
+      "spark": [
+        501352
+      ]
+    },
+    {
       "ticker": "$BARRON",
       "name": "Official Barron Coin",
       "mint": "8ZLsi8PYZMS5MTsFMXjcuhZVzRo1KfbFKt2dKG7ehdhu",
@@ -2357,6 +2617,26 @@
       "link": "https://pump.fun/coin/8ZLsi8PYZMS5MTsFMXjcuhZVzRo1KfbFKt2dKG7ehdhu",
       "spark": [
         492428
+      ]
+    },
+    {
+      "ticker": "$CLAUDE AI",
+      "name": "Claude AI",
+      "mint": "6WcvaR1cT8fsU8oEkmrqzw8YgM1LjGfbFG71Vju5pump",
+      "mcap": 488330,
+      "peak_mcap": 488330,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T00:49:48Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/6WcvaR1cT8fsU8oEkmrqzw8YgM1LjGfbFG71Vju5pump",
+      "spark": [
+        488330
       ]
     },
     {
@@ -2540,6 +2820,46 @@
       ]
     },
     {
+      "ticker": "$FOMO",
+      "name": "FOMO",
+      "mint": "CQDjmbwNZ6Y9ZzuvSX2B1zDoVK5CByMsiEAq3jDTpump",
+      "mcap": 454001,
+      "peak_mcap": 454001,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T00:27:20Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/CQDjmbwNZ6Y9ZzuvSX2B1zDoVK5CByMsiEAq3jDTpump",
+      "spark": [
+        454001
+      ]
+    },
+    {
+      "ticker": "$SPEED",
+      "name": "IShowSpeed",
+      "mint": "HsKoetcBQ7cJZg9pfykqJPxVMK8qz6xnJLySRNjpump",
+      "mcap": 451245,
+      "peak_mcap": 451245,
+      "status": "tracked",
+      "outcome": null,
+      "color": "#48eca0",
+      "gate": "safety:ok/traction:graduated",
+      "kol": [],
+      "ai_agent": false,
+      "reply_count": 0,
+      "first_seen": "2026-10-13T02:28:08Z",
+      "died_at": null,
+      "link": "https://pump.fun/coin/HsKoetcBQ7cJZg9pfykqJPxVMK8qz6xnJLySRNjpump",
+      "spark": [
+        451245
+      ]
+    },
+    {
       "ticker": "$MR BEAST",
       "name": "Mr Beast",
       "mint": "qjYe8UgcWfcWHJa27opXKX2DT4TURwvk9fiaC4Cpump",
@@ -2658,333 +2978,13 @@
       "spark": [
         439847
       ]
-    },
-    {
-      "ticker": "$MR. BEAN",
-      "name": "The King of Comedy",
-      "mint": "1337yLr5eHXLL3WfW4bdNcMMhif3PrAw2cn6JDiDpump",
-      "mcap": 433945,
-      "peak_mcap": 433945,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T14:30:46Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/1337yLr5eHXLL3WfW4bdNcMMhif3PrAw2cn6JDiDpump",
-      "spark": [
-        433945
-      ]
-    },
-    {
-      "ticker": "$MR BEAST",
-      "name": "Mr Beast",
-      "mint": "CPCcZK52tJrrTaisKP93KMJ8KTko7UyCzErFaiRBpump",
-      "mcap": 423073,
-      "peak_mcap": 423073,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T10:58:43Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/CPCcZK52tJrrTaisKP93KMJ8KTko7UyCzErFaiRBpump",
-      "spark": [
-        423073
-      ]
-    },
-    {
-      "ticker": "$MR BEAST",
-      "name": "Mr Beast",
-      "mint": "VtygYKnZsrSQ8yKyspGfFpszfPvgkyNJzmMpyV4pump",
-      "mcap": 418537,
-      "peak_mcap": 418537,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T13:39:46Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/VtygYKnZsrSQ8yKyspGfFpszfPvgkyNJzmMpyV4pump",
-      "spark": [
-        418537
-      ]
-    },
-    {
-      "ticker": "$CLAUDE AI",
-      "name": "Claude",
-      "mint": "YB7VdxqqBHRf9PhfHvd6QJVGAMEK459DBxjfGvspump",
-      "mcap": 418291,
-      "peak_mcap": 418291,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T04:44:31Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/YB7VdxqqBHRf9PhfHvd6QJVGAMEK459DBxjfGvspump",
-      "spark": [
-        418291
-      ]
-    },
-    {
-      "ticker": "$CHATGPT",
-      "name": "ChatGPT",
-      "mint": "4N3VXJG1rLPConZUQCnyKksZSdT4EfHNtuA9vMLjpump",
-      "mcap": 416453,
-      "peak_mcap": 416453,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T15:02:04Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/4N3VXJG1rLPConZUQCnyKksZSdT4EfHNtuA9vMLjpump",
-      "spark": [
-        416453
-      ]
-    },
-    {
-      "ticker": "$SPACEX",
-      "name": "SpaceX",
-      "mint": "DmoBQZGNjDvbnLRE3AGFaK3mQhnWsBMMC4XgW6Copump",
-      "mcap": 411598,
-      "peak_mcap": 411598,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T09:52:15Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/DmoBQZGNjDvbnLRE3AGFaK3mQhnWsBMMC4XgW6Copump",
-      "spark": [
-        411598
-      ]
-    },
-    {
-      "ticker": "$SPEED",
-      "name": "IShowSpeed",
-      "mint": "z9ysyEr9yBEh4Md63xLhWDQRqtY6nP6rfTifetZpump",
-      "mcap": 407176,
-      "peak_mcap": 407176,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T22:01:15Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/z9ysyEr9yBEh4Md63xLhWDQRqtY6nP6rfTifetZpump",
-      "spark": [
-        407176
-      ]
-    },
-    {
-      "ticker": "$TAYLOR",
-      "name": "The Swiftie Era",
-      "mint": "AfPYH1eBFpKWUhwQebLu6VsYtKMYFLywow9MsMppump",
-      "mcap": 407090,
-      "peak_mcap": 407090,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T20:38:59Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/AfPYH1eBFpKWUhwQebLu6VsYtKMYFLywow9MsMppump",
-      "spark": [
-        407090
-      ]
-    },
-    {
-      "ticker": "$CLAUDE AI",
-      "name": "Claude",
-      "mint": "uJuHW7ygnkAFN3ohNsRnN5KKF7yHfxi1UyHS4kJpump",
-      "mcap": 399568,
-      "peak_mcap": 399568,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T15:28:44Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/uJuHW7ygnkAFN3ohNsRnN5KKF7yHfxi1UyHS4kJpump",
-      "spark": [
-        399568
-      ]
-    },
-    {
-      "ticker": "$MINECRAFT",
-      "name": "Minecraft",
-      "mint": "53dUNj88WDxKQP7X8AkFuMC7JRgffj5oaqMcjfXspump",
-      "mcap": 399011,
-      "peak_mcap": 399011,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T09:52:15Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/53dUNj88WDxKQP7X8AkFuMC7JRgffj5oaqMcjfXspump",
-      "spark": [
-        399011
-      ]
-    },
-    {
-      "ticker": "$NVIDIA",
-      "name": "NVIDIA",
-      "mint": "BFn1AYpQdumP2D8KBLcACffqvZBWRTbDZ5EmJP4opump",
-      "mcap": 399004,
-      "peak_mcap": 399004,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T22:01:15Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/BFn1AYpQdumP2D8KBLcACffqvZBWRTbDZ5EmJP4opump",
-      "spark": [
-        399004
-      ]
-    },
-    {
-      "ticker": "$GEMINI",
-      "name": "Google Gemini",
-      "mint": "1Uvi6HvXJ1bSFAQmVRvmDy2qxKQoG7TKgv2mksPpump",
-      "mcap": 396727,
-      "peak_mcap": 396727,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T08:19:39Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/1Uvi6HvXJ1bSFAQmVRvmDy2qxKQoG7TKgv2mksPpump",
-      "spark": [
-        396727
-      ]
-    },
-    {
-      "ticker": "$SIMPSONS",
-      "name": "TheSimpsons",
-      "mint": "z2cHqLVdv8vY9E9kMhQQe5qyJPK87g1LZLMjYdypump",
-      "mcap": 393662,
-      "peak_mcap": 393662,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T17:24:26Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/z2cHqLVdv8vY9E9kMhQQe5qyJPK87g1LZLMjYdypump",
-      "spark": [
-        393662
-      ]
-    },
-    {
-      "ticker": "$MRBEAST",
-      "name": "MrBeast",
-      "mint": "8Ho3xjEXTEGgdC6fkhFdsyfMfUakAdPmg21seSdqpump",
-      "mcap": 393296,
-      "peak_mcap": 393296,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T18:24:20Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/8Ho3xjEXTEGgdC6fkhFdsyfMfUakAdPmg21seSdqpump",
-      "spark": [
-        393296
-      ]
-    },
-    {
-      "ticker": "$FOMO",
-      "name": "Fomo Coin",
-      "mint": "9hDCTKNVvyT9L1RBzGeToYJKguu7iQ82kjyEHTwpump",
-      "mcap": 392153,
-      "peak_mcap": 392153,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T13:59:55Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/9hDCTKNVvyT9L1RBzGeToYJKguu7iQ82kjyEHTwpump",
-      "spark": [
-        392153
-      ]
-    },
-    {
-      "ticker": "$HERMÈS",
-      "name": "Hermès International S.A.",
-      "mint": "An5tXpBZBM8b31ohEzJu1ih1X7SPDP4nLFGZQP89pptP",
-      "mcap": 391317,
-      "peak_mcap": 391317,
-      "status": "tracked",
-      "outcome": null,
-      "color": "#48eca0",
-      "gate": "safety:ok/traction:graduated",
-      "kol": [],
-      "ai_agent": false,
-      "reply_count": 0,
-      "first_seen": "2026-10-12T05:08:03Z",
-      "died_at": null,
-      "link": "https://pump.fun/coin/An5tXpBZBM8b31ohEzJu1ih1X7SPDP4nLFGZQP89pptP",
-      "spark": [
-        391317
-      ]
     }
   ],
   "base_rate": {
-    "mints_seen": 759959,
-    "gate_passed": 14344,
+    "mints_seen": 762659,
+    "gate_passed": 14401,
     "died": 12435,
-    "graduated": 12577,
+    "graduated": 12626,
     "pass_rate_pct": 1.89,
     "note": "全mint観測→篩通過率。生存者バイアスの分母(launchpad-economics の実測)。"
   }
